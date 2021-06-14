@@ -1,0 +1,25 @@
+Úvodní dotazník:
+-----------------
+
+Název mise?: Příliš vzdálený most
+
+Autor?: King
+
+e-mail?: king-004@seznam.cz
+
+Ostrov?: Nogova
+
+Addony?: žádné (alespoň o žádném nevím, snad možná editorupdate nebo editorupgrade?:)
+
+Verze hry?: 1.91
+
+O čem to vlastně je?: Jsi velitel tankové jednotky. Úkolem je dobýt a ubránit most v Davly.
+
+----------------------------------------------------------------------------------------------
+
+Poznámky: Tohle je má první mise, takže prosím všechny o schovívavost. Dlouho jsem váhal jestli ji
+          pošlu na tyhle stránky, protože je to tady samej machr na tvorbu misí a scriptů. A já jsem jenom 
+          ubohý začátečník, ale pak jsem si řekl, že to rysknu. A tak jsem ji sem poslal. Někde jsem četl,
+          že tankové mise nejsou moc oblíbené, tak doufám že si ji aspoň někdo zahraje a přinese mu na nějakou 
+          chvíli trochu zábavy.
+          Závěrem bych chtěl poděkovat všem autorům EditorHelpu, protože bych bez nich byl asi víte kde...:)

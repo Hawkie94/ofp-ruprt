@@ -1,0 +1,10 @@
+--- FLASHPOINT FOREVER	 ---
+
+Autor: Leon
+Strana: Partyzáni
+Typ mise: Pěchotní
+Verze hry: Děláno ve verzi 1.96
+Addony: žádné
+Kontakt: leon@seznam.cz
+
+Instalace: Soubor FlashpointFOREVER.eden.pbo zkopírujte do C:/.../Operace Flashpoint/mission

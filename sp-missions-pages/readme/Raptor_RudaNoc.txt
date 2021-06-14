@@ -1,0 +1,123 @@
+					****************************************
+                                     	************** Rudá noc ****************
+					****************************************
+                                                        v. 1.00
+			     (pro bezproblémové zobrazování prosím vypnìte zalamování øádkù)
+
+
+
+	OBSAH:
+		1. Úvod
+		2. Popis mise
+		  a) základní údaje
+		  b) addony
+		  c) instalace
+		3. Minimální požadavky
+		4. Verze
+		5. Autoøi
+		6. Podìkování
+		7. Práva
+		8. Kontakt
+-----------------------------------------------------------------------------------------------------------------------------
+
+	1.  10. èervna 1985, kapitán v záloze Jurij Stojanov je povolán zpìt do služby. Jako èlen jednotky Zenit se zúèastnil boje o palác Dar-ul-aman
+	v Afghánistánu 25. prosince 1979. Bìhem akce byl zranìn. Za mimoøádné bojové zásluhy byl vyznamenán, avšak stejnì jako všichni jeho spolubojovníci
+	byl dùraznì varován, že na prùbìh akce má na vždy zapomenout. Po doléèení zranìní se odstìhoval na Sibiø a usadil se v zapadlé obci Spornoye,
+	kde žije dosud...
+
+
+	
+-----------------------------------------------------------------------------------------------------------------------------
+	
+	2. Popis mise:
+	  
+           a)
+		-Typ:		pìchotní (pøevážnì)
+		-Ostrov:	Everon
+		-Intro:		Ano
+		-Outro:		Ano
+		-Dabing:	èásteèný
+		-Verze OFP:	1.96
+		-Verze mise:	1.00
+		-Velikost:	12.6 MB
+		
+    	   b)
+
+		
+	   c)	
+		
+		Obsah složky Addons nakopírujte do složky .../OperationFlashpoint/Addons	
+		Obsah složky Mission nakopírujte do složky .../OperationFlashpoint/Missions
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+	3. Minimální požadavky:
+	   
+	   Pro chod mise je vyžadována minimální verze Operace Flashpoint Resistance 1.96
+	   PC splòující minimální požadavky hry Operace Flashpoint
+-----------------------------------------------------------------------------------------------------------------------------
+	
+	4. Verze mise:
+
+	   1.00 - První oficiální verze
+	  
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+	5: Autoøi:	
+		
+
+		(SgS team)
+
+		-Raptor		level design
+				scénáø
+
+		-Sarge		videa
+				outro
+				pomocný level design
+
+		-PAPA		test
+		-TonyHawk	test
+
+
+		
+
+		
+-----------------------------------------------------------------------------------------------------------------------------
+
+	6. Podìkování:
+
+		-Za vynikající OFP editor help a ruprtovo diskuzní forum.
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+	7. Práva:
+		
+		Tuto misi vytvoøilo Sarge Studio. Jakékoliv úpravy mise a pøedìlávky mohou být provedeny pouze za souhlasu
+		autorù, tj. Sarge Studia. Tato mise je nekomerèní poèin a je urèena k šíøení po internetu. Proto jakýkoliv prodej
+		za úèelem zisku je, bez souhlasu autorù, zakázán. (Stejnì, kdo by to kupoval). Pokud máte zájem využít nìkterou
+		èást mise k obohacení vlastní tvorby, uvìdomte o tom, prosím, nejprve Sarge Studio a uveïte jej v titulcích
+		vaší práce. 
+		Autoøi nenesou žádnou zodpovìdnost za použití nebo požití tohoto díla. V pøípadì poškození Vašeho PC, dat èi jiné újmy finanèní
+		èi nefinanèní, nenese Sarge Studio, Codemasters ani Bohemia Interactive žádnou zodpovìdnost. Misi používáte na
+		VLASTNÍ riziko.
+
+		Vìtšina osob a událostí v misi je smyšlená. Podobnost se skuteèností je pouze neúmyslná a náhodná.
+-----------------------------------------------------------------------------------------------------------------------------
+		
+	8. Kontakt:
+
+		V pøípadì jakéhokoliv námìtu, dotazu èi problému nás kontaktujte:
+
+		-Raptor
+	
+			-ICQ		273-932-831
+			-Email		Raptor.mail@seznam.cz
+
+		-Sarge Studio		
+
+			-stránky	www.sarge-studio.wz.cz
+-----------------------------------------------------------------------------------------------------------------------------
+
+
+						Sarge Studio 2003/2011

@@ -1,0 +1,54 @@
+				Osvobození Mírova
+				by Hammer
+
+TATO MISE JE URÈENA PRO MISSIONMAKERSKOU SOUTÌŽ LANA GASTOVSKIHO
+
+Autor: Hammer
+Typ : Soutìžní pìchotní útoèná mise
+Ostrov: Nogova
+Verze mise: 1.0
+Verze ofp: 1.96
+Addony: Žádné
+Instalace:Složku "Osvobození Mírova.Noe.pbo" zkopírujte do C:/.../Operace Flashpoint/missions
+
+Kontakt: Email: zatloukal.v@seznam.cz
+         ICQ: 395-494-829
+         WWW: WWW.HAMMER.ESTRANKY.CZ
+
+
+Pár slov autora: Není to sice žádná svìtoborná mise, ale v této tìžké dobì kdy toho pro OFP už moc nevychází, je to lepší než nic. Je to spíše klasická mise, sice s trošku vìtší obtížnosti, ale alespoò ji nebudete mít bìhem pìti minut dohranou... 
+====================================================================================
+====================================================================================
+=================================CREDITS===========================================
+====================================================================================
+====================================================================================
+
+
+Hammer - Tvùrce mise
+
+ 
+--------------------------------------------------------------------------------------------------------------------
+------------------------------------------PODÌKOVÁNÍ---------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------
+
+Lan Gastovski - Za jeho snahu oživit OFP Komunitu
+
+Bohemia Interactive Studio – Za skvìlou hru ( Operace Flashpoint ), a za to že snad brzy vydají ArmA II ;-)
+
+Všem co se podílely na tvorbì OFP Editor Helpu – Za OFP Editor Help
+
+QIP – Za skvìlýho internetovýho kecálka :o)
+ 
+--------------------------------------------------------------------------------------------------------------------
+---------------------------------SPECIÁLNÍ PODÌKOVÁNÍ---------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------
+Paøan – Za dlouhé rozhovory na ICQ a za spoustu dobrých rad a nápadù
+
+TonyHawk – Za to že mì vzal do AATH Studia a za to že mì nauèil pracovat s kamerou
+
+Str - Za spoustu inspirace a za to že mì jeho mise nauèily hodnì nových vìcí
+
+A nakonec ještì jedno velké podìkování a omluva všem tìm na které jsem zapomnìl
+
+
+by Hammer (c) 2008

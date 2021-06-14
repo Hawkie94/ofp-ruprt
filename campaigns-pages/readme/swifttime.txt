@@ -1,0 +1,28 @@
+Návod na instalaci kampanì Swift Time
+
+ - Rozbalte jakımkoli monım zpùsobem tento Zip archiv Swift Time.
+ - Soubor Swift Time.pbo ulote do sloky Res/Campaigns v adresáøi s vaší hrou OFP.
+ - Soubory ZombieScripts.pbo a FML_HP3.pbo ulote do sloky Addons v adresáøi s vaší hrou OFP.
+ - Standardní cesta k adresáøi s hrou je : C:/Program Files/Codemasters/Operation Flashpoint
+ - Spuste OFP a v hlavním menu zvolte : Kampaò
+ - Z nabídky kampaní vyberte Swift Time a Zaèít pro spuštìní hry.
+
+Seznam všech vìcí, které potøebujete pro spuštìní kampanì :
+ - Celı archiv Swift Time se všemi soubory, umístìnımi v adresáøích podle návodu vıše.
+ - Hru Operation Flashpoint Platinum verze 1.96
+ - Jakıkoli program na otevøení tohoto archivu ( ten asi máte, pokud tohle ètete )
+ - Váš poèítaè musí splòovat minimální hardwarové poadavky pro hru Operation Flashpoint : Platinum nebo pro Operation Flashpoint : Resistance.
+
+
+V pøípadì, e mise nepokraèuje, zasekává se v urèitém bodì nebo je pro vás pøíliš nároèná, zkuste naèíst misi z poslední uloené pozice.
+Pokud ani poté nelze mise dokonèit, restartujte celou misi. Pokud budou problémy pøetrvávat, podívejte se na http://obi-wan.blog.cz, kde moná najdete odpovìï na svou otázku.
+ 
+Ujistìte se, e máte poslední oficiální verzi kampanì ( 1.1 )
+
+Dìkuji vám za váš èas, kterı jste se rozhodli trávit s kampaní Swift Time.
+
+Addon made by Farmland Project team
+Campaign made by Obi-Wan
+http://obi-wan.blog.cz
+
+Obi-Wan

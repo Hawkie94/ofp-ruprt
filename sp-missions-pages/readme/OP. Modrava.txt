@@ -1,0 +1,21 @@
+Read me k misi Operace Modrava
+
+Název: Operace Modrava
+Autor: Golem
+Kontakt: golemikofp@centrum.cz
+Addony: ČSLA (http://games.tiscali.cz/flashpoint/addony.asp)
+
+        editorupdate 102 (přiložen)
+Typ: Pěchotní
+
+Mise je vytvořena ve verzi 1.91 a při hraní se chová plynule.
+
+Poděkování: Ruprtovy za velmi užetečné rady a to nejen v této misi.
+_______________________________________________________
+Misi zkopírujte ( C:\Program files\Codemasters\OperationFlashpoint\Missions)
+ 
+_______________________________________________________
+Tato mise je moje 1. a určitě se objeví v připravované kampani, ze které 
+ještě určitě něco zkusím uveřejnit.
+
+

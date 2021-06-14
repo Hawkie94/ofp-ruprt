@@ -1,0 +1,32 @@
+Název mise :SAS Útočí
+Autor:Soudruh
+E-Mail:Soudruh.L@seznam.cz
+Ostrov:Everon
+Bez addonů
+Verze:1.75 až 1.96
+------------------------------------------------------------------------------
+V misi hrajete za specíální jednotku.Vaše jméno je Jackson.Máte odpočívat, ale......
+
+
+------------------------------------------------------------------------------
+-----------------------------------------------------------------------------
+English:
+Mission name:SAS Atack
+Autor:Soudruh
+Island:Everon
+without addons
+Version 1.75 to 1.96
+------------------------------------------------------------------------------
+You play for BlackOp.Your name is Jackson.You have to rest, but....
+
+=====================================================================
+Opravená verze:
+                         Opravena kolize textu a radia
+                         Při poplachu se za vámi rusové ženou a nečuměj
+                         Při poplachu se k vám přesune několik ruských jednotek z jiné části ostrova.
+                         Základnu s tanky hlídají vojáci i zvenší.
+                         Když vás voják vidí, tak začne do vás i střílet.
+
+
+
+Děkuji BRTovy za pomoc při hledání chyb.

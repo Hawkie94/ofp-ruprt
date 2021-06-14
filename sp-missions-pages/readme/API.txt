@@ -1,0 +1,62 @@
+                                       A PORTA INFERI
+                                         by Globus
+                                    ofp.globus@centrum.cz
+
+--------------------
+Typ mise: SP
+Ostrov: Greece3
+Hráč: Velitel spec. jednotky
+Počasí: Noc (brzo ráno), jasno
+--------------------
+Intro: Ne
+Outro: "ano"
+Brífing: Ano
+Overview: Ano
+Dabing: Ano
+--------------------
+Použité Addony:
+) Ostrov Greece3 (http://ofp.gamezone.cz/index.php?showthis=3762)
+                  (ftp://www.gamezone.cz/ofpd/islands2/greece3.zip)
+                  (716KB)
+ 
+2) MT-LB Pack (http://ofp.gamezone.cz/index.php?showthis=3813)
+              (ftp://www.gamezone.cz/ofpd/unofaddons2/MT-LB_Update_Installer.exe)
+              (15,6MB)
+              
+--------------------
+Instalace:
+glo_api.Greece3.pbo zkopírujte do adresáře Missions
+Addony apcrus.pbo, apcupd.pbo a adresář greece3intro zkopírujte do AddOns
+Addon bastler_greece3.pbo zkopírujte do Res/aaddOns
+--------------------
+Vytvářeno na stroji:
+procesor: AMD Athlon 900
+Graf. karta: GeForce2 MX 440
+Paměť: 256MB RAM
+Verze OFP: 1.94beta
+--------------------
+Spec. Poděkování:
+sarge - dabing
+night-hawk - dabing
+Wallas - dabing
+Ježuro - dabing
+--------------------
+Bill Brown - Hudba
+--------------------
+Poznámky:
+Díky všem kdo si tuhle misi zahrajou a popř. zkritizujou. "Hořící" skripty od Ćlçi®-Łyon a skript
+eject.sqs od ??? (nevim přesně od koho je, ale dik).
+Děkuji lidem na Ruprtově poradně za pomoc a Ruprtovi za OFPEditorHelp.
+--------------------
+Pro ty co nemají MT-LB Pack a nechce se jim ho stahovat, jsem připravil náhradu ve formě
+mise, která obsahuje místo použitých Sa-13ek Šilky. Po rozbalení mise nějakým prográmkem (UnPBO)
+Soubor mission_no_Sa13.sqm pojmenujte mission.sqm a dejte přepsat.
+Snad sem to napsal všechno a správně.
+
+
+------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------Globus-----------
+------------------------------------------------------------------------------------------
+
+Za jakékoliv poškození čehokoliv neručím.
+Z této mise nemá autor žádný zisk.

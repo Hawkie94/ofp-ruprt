@@ -1,0 +1,79 @@
+Pri prilezitosti 10. vyrocia vydania hry Operation Flashpoint
+predkladam priaznivcom tejto oblubenej hry misiu z nazvom `Partizanske leto 2`.
+
+V misii nie su ziadne uzemne a casove obmedzenia
+a hrac sa podla svojej lubovole moze pohybovat po celej hracej ploche.
+
+
+Pribeh sa odohrava na ostrove Everon.
+Zavedie vas do partizanskeho prostredia, kde mozte zo spolubojovnikmi prezivat
+starosti partizanskeho zivota.
+
+Pouzivaju sa rozne zbrane a vozidla roznych armad. Tak ako si ich partizany zabezpecia.
+Ci uz je to AK47, M16 a ci vozidla V3s, americka 5tonka a ci UH60 alebo MI24.
+
+
+S dabingom pomohli: Depe a Ceska. Boli pouzite niektore orginal hlasky od BIS
+                    a digitálne hlasové technológie.
+
+Za co im dakujem.
+
+
+Misia je doplnena anglickym prekladom dabingu. /english verzia/.
+Zakladom prekladu je `Google prekladac`. 
+Ked prelozene bolo zaroven nalezite upravene.
+Mozno sa to podarilo. Ak nie, tak prosim o zhovievavost. :)
+
+V zazipovanom subore je misia a aj potrebne addony /2/.
+Jeden bol urobeny pre potreby misie /partizan2.pbo/.
+Su v nom pouzite rozne modely od roznych autorov, ktore boli upravene 
+pre potreby misie. Podakovanie a vypis je uvedeny priamo v addone.
+
+
+Treba si uz iba zahrat a zaspominat na slavne casy OFP.
+
+PAPA
+
+------------------------------------------------------------------------------
+
+
+In the 10th anniversary of the game `Operation Flashpoint`
+make this a fan favorite game mission of the names `Partizan summer 2`.
+
+The mission is no territorial and time restrictions
+and playing according to their arbitrary can move across the board.
+
+
+The story takes place on the island of Everon.
+Takes you to the partisan environment, where you from fellow survives
+charge of partisan life.
+
+They are used a variety of weapons and vehicles in different armies. Like the guerrillas they ensure.
+Whether it's an AK47, M16, and the vehicle V3S, American 5t, UH60 or MI24.
+
+
+With the help dubbing: Depe and Ceska. Using some sounds from the Original BIS
+                       and digital voice technology.
+
+I thank them for what.
+
+
+
+The mission is accompanied by a translation in English dubbing. / English version  /.
+
+The basis of the translation is `Google` compiler.
+When translated, it was also adjusted accordingly.
+Maybe they did it. If not, please leniency. :)
+
+
+The zipped file is the mission and the necessary addons /2/.
+One was made for the Mission / partizan2.pbo /.
+
+Therein used various models from different authors, which have been prepared
+of the Mission. Acknowledgements and extract is given directly in Addons.
+
+
+It can already play and just recall the glory days OFP.
+
+PAPA
+

@@ -1,0 +1,100 @@
+Sutech - Copyright © 2oo8 MHstudio - Michal "EMSI" HorÚ·k
+----------------------------------------------------------------------------------------------------------
+This ReadMe file is available ONLY in Slovak and English language !
+==========================================================================================================
+
+Info:
+
+- single misia pre hru ArmA: Armed Assault 
+- pre hranie vyûaduje minim·lne verziu hry 1.08 a datadisk Queen's Gambit
+- pln· kompatibilita s patchom v1.12 BETA
+- tento program (EMSI_BH11.Sara.pbo) je FREEWARE
+- akÈkoævek ˙pravy misie, alebo pouûitie öpecifick˝ch prvkov v inej misii
+   mÙûe byù uskutoËnenÈ iba so s˙hlasom autora
+- tento krok je n·sledne podmienen˝ uvedenÌm MHstudia v credits
+
+----------------------------------------------------------------------------------------------------------
+
+Info:
+
+- single mission for game ArmA: Armed Assault 
+- recomended minimal version of ArmA is 1.08 with Queen's Gambit datadisc
+- full compatibility with v1.12 BETA Patch
+- this program (EMSI_BH11.Sara.pbo) is FREEWARE
+- any changes in mission or any using of speciffic elements from this mission
+  are allowed only with approval of author 
+- if you do this, please don't forget to add MHstudio to your credits 
+
+==========================================================================================================
+
+Strana: z·pad - USA
+
+Druh: pechotn· - stealth
+
+Ostrov: Sahrani
+
+Popis:
+SLA dÙstojnÌk Nikolaj Berjajev (krycie meno - Sutech) musÌ zomrieù !
+Mjr. Lucas a jeho chlapci sa preto vracaj˙ na Sahrani.
+
+----------------------------------------------------------------------------------------------------------
+
+Side: west - USA
+
+Type of mission: infantry - stealth
+
+Island: Sahrani
+
+Story:
+SLA officier Nikolaj Beryayev (called - Sutech) must die !
+Mjr. Lucas and his boys are back again on Sahrani.
+
+==========================================================================================================
+
+AddOny:
+
+EMSI_cac.pbo	- pribalen˝ aj s "EMSI_cac.pbo.EMSI.bisign"
+		- bedniËka s obsahom r·dioaktÌvneho materi·lu (PlutÛnium 94)
+		- niekoæko kontaminovan˝ch tiel
+
+emsi_mgg.pbo	- pribalen˝ aj s "emsi_mgg.pbo.EMSI.bisign"
+		- Mateo Garcia a jeho bojovnÌci
+----------------------------------------------------------------------------------------------------------
+
+AddOns:
+
+EMSI_cac.pbo	- pack in also with "EMSI_cac.pbo.EMSI.bisign"
+		- ammo box with radioactive material inside (Plutonium 94)
+		- few dead contaminated bodies
+
+emsi_mgg.pbo	- pack in also with "emsi_mgg.pbo.EMSI.bisign"
+		- Mateo Garcia and his fighters
+
+==========================================================================================================
+
+BETA-test: pochyst, Terablick, AL
+
+Special thanx to MAA
+
+==========================================================================================================
+
+Upozornenie:
+
+Vöetky osoby a udalosti v tejto misii s˙ vymyslenÈ.
+Ak·koævek podobnosù so skutoËnosùou je Ëisto n·hodn·.
+
+----------------------------------------------------------------------------------------------------------
+
+Attention:
+
+All characters and events used in this mission are fictious.
+Any appearance with reality is strictly casual.
+
+==========================================================================================================
+
+ArmA web:	http://www.arma.szm.sk
+mail:		m_hornak@yahoo.com
+
+==========================================================================================================
+
+EMSI (MHstudio) © 2oo8

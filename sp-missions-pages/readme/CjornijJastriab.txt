@@ -1,0 +1,93 @@
+Mise: Čjornij Jastriab
+--------------------
+
+Vytvořil: Batyskaf.xXx@seznam.cz
+
+Ostrov: Everon
+
+Typ mise: Single Player
+
+Typ hráče: Velitel jednotky ČSLA (nejprve 12 mužů,potom 12 nebo 8 - podle potřeby a nakonec pouze 4 muži)
+
+Součásti mise: Briefing,Overview,Intro
+
+Chybí: OutroVýhra,OutroProhra
+
+Délka hraní: asi 35 min.
+
+Použité addony: OFPAddon_FlagPack_Updated
+                ČSLA Addon ver 1
+                ČSLA Updated1 ver1.1
+                ČSLA Updated 2
+                EditorUpgrade102.pbo - 93kb(je součástí balíku-stačí překopírovat do složky OF/Addons)
+                EditorUpgrade102.pbo - 214kb(je součástí balíku-stačí překopírovat do složky OF/RES/Addons)
+
+Získání addonů: http://games.worldonline.cz/flashpoint/
+                http://ofp.gamezone.cz
+
+Vytvořeno ve verzi: Operation Flashpoint 1.91 
+
+
+Popis mise: Tvým ůkolem je přelet z právě opuštěné základny na další(neopuštěnou).Tvůj vrtulník má malo paliva a je
+            poškozený,avšak je tvou jedinou nadejí na utěk před momentálně mnohem silnějším nepřítelem ...
+****************************************************************************************************************************
+
+Doporučení: Při vyzbrojování vojáků před začátkem mise nedávej vojákům číslo 2,3,4, žádnou speciální výstroj a zaměř se na 
+            ostatní členy skupiny.Ty číslo 2,3,4 jste piloti.
+           
+            Zničený kterykoliv Hind na letišti dale také Cisterna nebo muniční vůz. = THE END
+           
+            Zabitý pilot před nastoupením do Hindu = THE END
+
+            Kontroluj si neustále ukoly z brífingu.Mění se během mise celkem často.(ja si to teda myslím)  
+
+            Na letišti požívej na ničení ruských letadel a vrtulníků i ostatní členy skupiny.Mají výzbroje víc než dost.
+****************************************************************************************************************************
+Malá lekce řízení poškozeného vrtulníku:
+
+(myslím si že každý na to příjde sám-po třech držťkopádech,ale co kdyby ne?)
+
+1.I z takto poškozeným vrtulníkem lze přistát.Z toho vyplívá,že nemusíš osadku vyhazovat na padácích.
+
+2.Pokud budeš šikovný tak osádku dostaneš ven bez jediného mrtvého člena skupiny.
+
+3.Při rychlosti 200 (nevím sice čeho,ale Km/h to určitě nejsou) a vzdálenosti od místa přistání 500 m zapni stabilizátor
+  a on tě krásně zastaví těsně u pobřeží-sice vysoko,ale když budeš pořád držet PAGE DOWN tak se vrtule nezastaví
+  i s maximálním poškozením.Samozdřejmě pouze po určitou dobu.
+
+4.Už ve vzduchu zadej (all-4-1) a těsně nad zemí sám vyskoč (těsně nad zemí je do jednoho metru) a všichni tě budou ve
+  vteřině následovat.  
+
+5.No a pak už jenom utíkej,utíkej, utíkej...................................BUM!
+****************************************************************************************************************************
+
+
+Možné komplikace:
+
+Intro - Kdyby se z nějakého důvodu T813 Kolos nějak dlouho otáčel na letištní ploše,tak dlouho až by kolem proletěly
+        vrtulníky tak je něco špatně.Mi osobně se to stalo z padesáti pokusů jenom dvakrtát ale co kdyby.(Spustit intro
+        znovu,protože pak příjde podle mně to nejlepší z intra)
+
+Mise - Pouze dvě které by stály za zmínku.Jakmile zavoláš piloty zpět k sobě tak se mi někdy stalo že jeden pilot šel
+       až ke mně,ale další dva ode mně zustali dvěstě metrů a čekali na rozkazy.Kdyby se tato nechtěná příhoda stala,tak
+       jim stačí zadat ať se vrátí(all-1-1).Kdyby neposlechli tak je zastřel!(vtip)Stačí jim zadat nějakou pozici u tebe
+       a oni se k tobě vrátí.
+       No a ted ještě ta druhá mrška(komplikace).Když se ti zapne předělová scéna u které dotankuješ,přezbrojíš se a
+       dlouho by se nevipínala tak si misi budeš muset asi zahrát znovu a asi mně budeš chtít zabít,ale pravděpodobnost 
+       výskytu této choroby je minimální.No a takový bombónek na závěr-pokud nezničíš ale jenom znehybníš kolonu nepřepne
+       se další WP.
+****************************************************************************************************************************
+Poděkování:
+Tohle poděkování jsem měl psát asi už u své první mise,ale nejak mně to nenapadlo a tak to teď vynahradím se vším všudy.
+Ten kdo si podle mně zasluží nejvíc poděkovat je ten kdo vymyslel a vyrobil mojí bibli.
+Meje bible je ze dvou částí.Starý zákon je Operation Flashpint.No a nový zákon je nápověda k editoru misí hry Operation
+Flashpoint od RUPRTA a všech co se na tomto helpu podíleli svými příspěvky.Možná že tím někoho urazím,ale já osobně bych bez
+ této pomucky hrál výplody někoho jiného a sám bych si v editoru asi jenom RUPRDNUL.Takže díky taky všem autorům tutoriálů!
+Dále bych chtěl poděkovat MAA (i když o mně stejně jako Ruprt asi nikdy v životě neslišel) za jeho tři skvělé Addony k OF,
+když jsem je vyděl poprvé tak sem ani nevěřil,že nekdo neco tak užasného stvořil.Vždyť ta naše lidová armáda byla tak úžasná
+a v OF se dá tak krásně vrátit čas(Ha-Ha-HA)!Dále bych chtěl poděkovat všem kteří mi odpověděli (správně) na mé dotazy
+na stránkách: http://games.worldonline.cz/flashpoint/ a http://www.koflex.cz/ruprt/.Jo a málem byh zapomněl na DIDYMOSE,
+který mi hodnotí mise vždy od 6/10 a výš,což je pro mně důkaz toho,že z téhle bedny ještě neblbnu.No,ale teď už toho fakt
+nechám,protože začínám zjištovat,že píšu čím dál tím větší hovadiny.
+Zdar a sílu najdeš v syru!(nebo v pivu?-ve čtyři ráno mi to už fakt nemyslí)
+Batyskaf.xXx@seznam.cz

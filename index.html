@@ -1,0 +1,422 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+	
+<!-- Mirrored from ofp.ruprt.cz/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 04 Feb 2021 10:20:43 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=windows-1250" /><!-- /Added by HTTrack -->
+<HEAD>
+	<title>Ruprtova poradna k OFP</title>
+	<meta content="False" name="vs_snapToGrid">
+	<META http-equiv="Content-Type" content="text/html; charset=windows-1250">
+	<meta content="Microsoft Visual Studio .NET 7.1" name="GENERATOR">
+	<meta content="Visual Basic .NET 7.1" name="CODE_LANGUAGE">
+	<meta content="JavaScript" name="vs_defaultClientScript">
+	<meta content="http://schemas.microsoft.com/intellisense/ie5" name="vs_targetSchema">
+	<LINK href="Styles.css" type="text/css" rel="stylesheet">
+	<script language="javascript">
+		<!--
+			// ------------- Info strings --------------------
+			var STR_Default = "<BR>Ruprtova poradna<BR><BR>ke hře<br><BR>Operation Flashpoint®";
+			var STR_News = "Sekce<BR>Novinky<BR>-<BR>Domovská<BR>stránka RP";
+			var STR_NewsArchive = "<BR><BR>Archív novinek<BR>RP";
+			var STR_Forum = "<BR><BR>Vstoupit do<BR>fóra";
+			var STR_Tutors = "<BR><BR>Sekce<BR>Tutoriály";
+			var STR_Scripts = "<BR><BR>Sekce<BR>Scripty";
+			var STR_Tips = "<BR><BR>Sekce<BR>Tipy & Triky";
+			var STR_Download = "<BR><BR>Sekce<BR>Download";
+			var STR_Links = "<BR><BR>Odkazy<br>&<br>Emaily";
+			//var STR_Emails = "Osobní<br>nastavení<BR>tohoto webu";
+			var STR_MissionUpload = "<BR>Otevře<BR>Uživatelské rozhraní pro upload misí";
+			//var STR_OFPMDE = "Otevře stránku o aplikaci<BR><BR>OFP<BR>Mission<BR>Development<BR>Environment";
+			var STR_MissionNews = "Sekce<BR>Mission News<BR>-<BR>Novinky psané jednotlivými autory misí";
+			var STR_SP = "Sekce<BR>SP Mise :<BR>hodnocení a<BR>download<BR>neofiko SP misí";
+			var STR_MP = "Sekce<BR>MP Mise :<BR>hodnocení a<BR>download<BR>neofiko MP misí";
+			var STR_Camp = "Sekce<BR>Kampaně :<BR>hodnocení a<BR>download<BR>neofiko kampaní";
+			var STR_Video = "Sekce<BR>Video mise :<BR>hodnocení a<BR>download<BR>neofiko<BR>Video misí";
+			var STR_Ptak = "Sekce<BR>Ptákoviny :<BR>Mise, které<BR>nelze nikam<BR>zařadit";
+			var STR_Rules = "Pravidla<BR>hodnocení a<BR>zveřejňování<BR>misí";
+			var STR_Search = "Vyhledávání<BR>údajů na<BR>těchto<BR>stránkách";
+			var STR_OFPCZSquad = "Celý download<BR>je uložen na<BR>serveru OFP CZ Squadu.<BR>Díky chlapi !";
+
+			// ---------- Preload & Initialize Images --------------
+			var missionnews1 = newImage('images/btns/missionnews1.jpg');
+			var missionnews2 = newImage('images/btns/missionnews2.jpg');
+			var missionnews3 = newImage('images/btns/missionnews3.jpg');
+			var sp1 = newImage('images/btns/sp1.jpg');
+			var sp2 = newImage('images/btns/sp2.jpg');
+			var sp3 = newImage('images/btns/sp3.jpg');
+			var mp1 = newImage('images/btns/mp1.jpg');
+			var mp2 = newImage('images/btns/mp2.jpg');
+			var mp3 = newImage('images/btns/mp3.jpg');
+			var camp1 = newImage('images/btns/camp1.jpg');
+			var camp2 = newImage('images/btns/camp2.jpg');
+			var camp3 = newImage('images/btns/camp3.jpg');
+			var video1 = newImage('images/btns/video1.jpg');
+			var video2 = newImage('images/btns/video2.jpg');
+			var video3 = newImage('images/btns/video3.jpg');
+			var ptak1 = newImage('images/btns/ptak1.jpg');
+			var ptak2 = newImage('images/btns/ptak2.jpg');
+			var ptak3 = newImage('images/btns/ptak3.jpg');
+			var rules1 = newImage('images/btns/rules1.jpg');
+			var rules2 = newImage('images/btns/rules2.jpg');
+			var rules3 = newImage('images/btns/rules3.jpg');
+			var search1 = newImage('images/btns/search1.jpg');
+			var search2 = newImage('images/btns/search2.jpg');
+			var search3 = newImage('images/btns/search3.jpg');
+			var auxObject;
+			
+			
+			function changePage() {
+				window.location.href = "./mission-news.html";
+			}
+			// ----------- Functions ------------
+			function newImage(imgPath)
+			{
+				rslt = new Image();
+				rslt.src = imgPath;
+				return rslt;
+			};
+			
+			function defaultInfo()
+			{
+				var infoArea = document.getElementById("InfoArea");
+				infoArea.innerHTML = STR_Default;
+			};
+			
+			function woknoMise(adr)
+			{
+				var newWndLeft = ((self.screen.width-733)/2);
+				var newWndTop = ((self.screen.height-468)/2);
+				window.open('missiondetail.aspx'+adr, '_blank', 'toolbar=no,location=no,status=no,menubar=no,scrollbars=no,resizable=no,width=733,height=468,left='+newWndLeft+',top='+newWndTop);
+			};
+
+			function woknoTipScript(adr)
+			{
+				var newWndLeft = ((self.screen.width-774)/2);
+				var newWndTop = ((self.screen.height-607)/2);
+				window.open('tipscriptdetail.aspx'+adr, '_blank', 'toolbar=no,location=no,status=no,menubar=no,scrollbars=no,resizable=no,width=774,height=607,left='+newWndLeft+',top='+newWndTop);
+			};
+
+			// ----------- Event handlers ------------
+			// =========== Right Area ================
+			function btn_onMouseOver(btn)
+			{
+				var infoArea = document.getElementById("InfoArea");
+				switch(btn.id)
+				{
+					case "btnMissionNews":
+						btn.src = missionnews2.src;
+						infoArea.innerHTML = STR_MissionNews;
+						break;
+					case "btnSP":
+						btn.src = sp2.src;
+						infoArea.innerHTML = STR_SP;
+						break;
+					case "btnMP":
+						btn.src = mp2.src;
+						infoArea.innerHTML = STR_MP;
+						break;
+					case "btnCamp":
+						btn.src = camp2.src;
+						infoArea.innerHTML = STR_Camp;
+						break;
+					case "btnVideo":
+						btn.src = video2.src;
+						infoArea.innerHTML = STR_Video;
+						break;
+					case "btnPtak":
+						btn.src = ptak2.src;
+						infoArea.innerHTML = STR_Ptak;
+						break;
+					case "btnRules":
+						btn.src = rules2.src;
+						infoArea.innerHTML = STR_Rules;
+						break;
+					case "linkRules":
+						//The Rules link onMouseOver Eventhandler
+						btn.style.background = "url(images/btns/rules2.jpg)";
+						btn.style.backgroundImage = "url(images/btns/rules2.jpg)";
+						infoArea.innerHTML = STR_Rules;
+						break;
+					case "btnSearch":
+						btn.src = search2.src;
+						infoArea.innerHTML = STR_Search;
+						break;
+					default:
+						infoArea.innerHTML = STR_Default;
+				};
+			};
+			
+			function btn_onMouseOut(btn)
+			{
+				var infoArea = document.getElementById("InfoArea");
+				switch(btn.id)
+				{
+					case "btnMissionNews":
+						btn.src = missionnews1.src;
+						break;
+					case "btnSP":
+						btn.src = sp1.src;
+						break;
+					case "btnMP":
+						btn.src = mp1.src;
+						break;
+					case "btnCamp":
+						btn.src = camp1.src;
+						break;
+					case "btnVideo":
+						btn.src = video1.src;
+						break;
+					case "btnPtak":
+						btn.src = ptak1.src;
+						break;
+					case "btnRules":
+						btn.src = rules1.src;
+						break;
+					case "linkRules":
+						//The Rules link onMouseOver Eventhandler
+						btn.style.background = "url(images/btns/rules1.jpg)";
+						btn.style.backgroundImage = "url(images/btns/rules1.jpg)";
+						break;
+					case "btnSearch":
+						btn.src = search1.src;
+						break;
+				};
+				infoArea.innerHTML = STR_Default;
+			};
+
+			function btn_onClick(btn)
+			{
+				//var infoArea = document.getElementById("InfoArea");
+				auxObject = btn;
+				switch(btn.id)
+				{
+					case "btnMissionNews":
+						window.location.href = "mission-news.html";
+						//btn.src = missionnews3.src;
+						//window.setTimeout("btn_onMouseOver(auxObject)", 150);
+						break;
+					case "btnSP":
+						btn.src = sp3.src;
+						window.setTimeout("btn_onMouseOver(auxObject)", 150);
+						break;
+					case "btnMP":
+						btn.src = mp3.src;
+						window.setTimeout("btn_onMouseOver(auxObject)", 150);
+						break;
+					case "btnCamp":
+						btn.src = camp3.src;
+						window.setTimeout("btn_onMouseOver(auxObject)", 150);
+						break;
+					case "btnVideo":
+						btn.src = video3.src;
+						window.setTimeout("btn_onMouseOver(auxObject)", 150);
+						break;
+					case "btnPtak":
+						btn.src = ptak3.src;
+						window.setTimeout("btn_onMouseOver(auxObject)", 150);
+						break;
+					case "btnRules":
+						btn.src = rules3.src;
+						window.setTimeout("btn_onMouseOver(auxObject)", 150);
+						var newWndLeft = newWndLeft = ((self.screen.width-433)/2);
+						window.open('rules.html','_blank','width=433,height=581,left='+newWndLeft+',top=15');
+						return false;
+						break;
+					case "linkRules":
+						btn.style.background = "url(images/btns/rules3.jpg)";
+						btn.style.backgroundImage = "url(images/btns/rules3.jpg)";
+						window.setTimeout("btn_onMouseOver(auxObject)", 150);
+						break;
+					case "btnSearch":
+						btn.src = search3.src;
+						window.setTimeout("btn_onMouseOver(auxObject)", 150);
+						break;
+				};
+			};
+			
+			// =========== Top Area ================
+			function link_onMouseOver(link)
+			{
+				var infoArea = document.getElementById("InfoArea");
+				switch(link.id)
+				{
+					case "linkNews":
+						infoArea.innerHTML = STR_News;
+						break;
+					case "linkNewsArchive":
+						infoArea.innerHTML = STR_NewsArchive;
+						break;
+					case "linkForum":
+						infoArea.innerHTML = STR_Forum;
+						break;
+					case "linkTutors":
+						infoArea.innerHTML = STR_Tutors;
+						break;
+					case "linkScripts":
+						infoArea.innerHTML = STR_Scripts;
+						break;
+					case "linkTips":
+						infoArea.innerHTML = STR_Tips;
+						break;
+					case "linkDload":
+						infoArea.innerHTML = STR_Download;
+						break;
+					case "linkLinks":
+						infoArea.innerHTML = STR_Links;
+						break;
+					case "linkMissionUpload":
+						infoArea.innerHTML = STR_MissionUpload;
+						break;
+					case "linkSquad":
+						//This is the button from RightArea linking to OFP CZ Squad
+						infoArea.innerHTML = STR_OFPCZSquad;
+						break;
+				};
+			};
+			
+			//Combo's Change Eventhandler
+			function cb_onChange(combo)
+			{
+				__doPostBack(combo.name, combo.selectedIndex);
+			};
+			
+			function _doSearchPrePostBack()
+			{
+				var theform;
+				if (window.navigator.appName.toLowerCase().indexOf("netscape") > -1)
+				{
+					theform = document.forms["frmMain"];
+				}
+				else
+				{
+					theform = document.frmMain;
+				};
+				
+				if (theform.tbExp.value == "")
+				{
+					alert("Musíte zadat hledaný výraz !");
+					theform.tbExp.focus();
+					return false;
+				}
+				return true;
+			};
+		//-->
+		</script>
+</HEAD>
+<body MS_POSITIONING="GridLayout" onload="javascript:self.offscreenBuffering=true">
+	<center>
+		<div class="CONTENT_AREA" id="ContentArea" align="center">
+			<!-- Data Area -->
+			<div class="DATA_AREA" id="DataArea">
+				<table id="tblData" class="DA_DATA_TABLE" cellspacing="0" cellpadding="2" width="100%">
+	<tr>
+		<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px"><a name="191"></a>Datum</td>
+		<td align="center" width="10%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">NIEKEDY.2021</td>
+		<td align="center" width="55%" style="border:solid 1px #DFDFDF;color:#FF6600;font-weight:bold;background-color:#000000;" height="18px">Ruprtova poradňa obnovená a zachovaná!</td>
+		<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Autor</td>
+		<td align="center" width="12%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">TonyHawk</td>
+	</tr>
+	<tr>
+		<td align="justify" width="100%" style="border:solid 1px Gray;text-align:justify;" colSpan="5">
+		Trvalo to pomerne dlho (vyše 2 mesiacov), ale ja verím, že tá práca nebola marná. Definitívne môžem povedať, že <b>Ruprtova poradňa k OFP/ArmA/Arma 2</b> je zachovaná, zálohovaná.
+		To, čo môžete teraz vidieť, je výsledná práca. Je to viac-menej to isté (s drobnými zmenami), ale sledovalo to jeden (podľa mňa dobrý) cieľ - zachovať "dedičstvo otcov" (nielen) OFP komunity :).
+		<br><br>
+		Aj vďaka skvelým ľuďom, ako je <strong>retro</strong> (u ktorého mám všetky stiahnuteľné súbory uložené) a <strong>Jerry Hopper</strong> (u ktorého je celý obsah FTP servera OFP.info) si môžete
+		stále zahrať a užiť si chvíle nostalgie tejto legendy.
+		<BR><BR><div style="width:100%;font-style:italic;text-align:right">TonyHawk</div></td>
+	</tr>
+	<tr>
+		<td colSpan="5" width="100%" height="2px" style="border-style:none;"></td>
+	</tr>	
+		
+	<tr>
+		<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px"><a name="191"></a>Datum</td>
+		<td align="center" width="10%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">18.04.2021</td>
+		<td align="center" width="55%" style="border:solid 1px #DFDFDF;color:#FF6600;font-weight:bold;background-color:#000000;" height="18px">Väčšina práce hotových...</td>
+		<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Autor</td>
+		<td align="center" width="12%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">TonyHawk</td>
+	</tr>
+	<tr>
+		<td align="justify" width="100%" style="border:solid 1px Gray;text-align:justify;" colSpan="5">
+		Čas ide, a tým aj ubúda roboty na zálohovaní tejto stránky (a postupného pridávania veľkého množstva obsahu). Vo výsledku tu viaceré veci, ako napr. fórum a upload misií budú chýbať;
+		inak sa ale nanešťastie nedalo - pôvodní autori (a teda aj administrátori stránky) sú (nanešťastie) nezastihnuteľní.
+		<br><br>
+		Už sa ale dá povedať, že stránka je skoro hotová - zostáva vyladiť a pridať zopár vecí, a bude sa môcť zverejniť :o) (či to nedopadne, ako tých "povestných 10%", ktoré zakaždým zaberú najviacej času..? :D).
+		<BR><BR><div style="width:100%;font-style:italic;text-align:right">TonyHawk</div></td>
+	</tr>
+	<tr>
+		<td colSpan="5" width="100%" height="2px" style="border-style:none;"></td>
+	</tr>
+
+
+	<tr>
+		<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px"><a name="191"></a>Datum</td>
+		<td align="center" width="10%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">04.02.2021</td>
+		<td align="center" width="55%" style="border:solid 1px #DFDFDF;color:#FF6600;font-weight:bold;background-color:#000000;" height="18px">Začiatok prác na zálohovaní Ruprtovej poradne</td>
+		<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Autor</td>
+		<td align="center" width="12%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">TonyHawk</td>
+	</tr>
+	<tr>
+		<td align="justify" width="100%" style="border:solid 1px Gray;text-align:justify;" colSpan="5">Tento rok (presne 22. júna) je 20. výročie vydania hry Operation Flashpoint. Možno to bola úplná náhoda, 
+		že <del>tento rok končí aj platnosť domény <strong>Ruprtovej poradne</strong></del> (pozn. 13.06.2021 - asi som niečo prehliadol, ale faktom je, že Ruprtova poradňa ešte stále beží a platnosť jej domény má končiť až budúci rok).
+		Nakoľko to ale bola skvelá stránka s veľkým množstvom obsahu, za ktorým boli hodiny a hodiny odrobenej roboty, sme sa aj s <strong>retrom</strong> (z MP komunity) rozhodli, že to nejako skúsime obnoviť, resp. zálohovať.
+		<br><br>
+		A hoci to nebude úplne 100%-ná obnova, v rámci možností ju skúsim zachovať takú, aká bola. Preto si sem dávam
+		túto news-ku aj s dátumom, aby som si pamätal, kedy presne som začal pracovať na zálohe a preklápaní tejto stránky :o). Mimochodom, celá stránka fičala na nejakom veľmi zaujímavom JavaScript-e
+		(ktorý sa scrapuje len veľmi ťažko), rozhodol som sa ju v rámci možností celú pomaly a pracne stiahnuť a postupne zapracovať do zaujímavého výsledku. Výsledky budú čoskoro...
+		<BR><BR><div style="width:100%;font-style:italic;text-align:right">TonyHawk</div></td>
+	</tr>
+	<tr>
+		<td colSpan="5" width="100%" height="2px" style="border-style:none;"></td>
+	</tr>
+	
+	<tr>
+		<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px"><a name="191"></a>Datum</td>
+		<td align="center" width="10%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">06.01.2015</td>
+		<td align="center" width="55%" style="border:solid 1px #DFDFDF;color:#FF6600;font-weight:bold;background-color:#000000;" height="18px">Provoz webu i fóra ukončen</td>
+		<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Autor</td>
+		<td align="center" width="12%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Ruprt</td>
+	</tr>
+	<tr>
+		<td align="justify" width="100%" style="border:solid 1px Gray;text-align:justify;" colSpan="5">Po 16 letech provozu bohužel musím oznámit, že provoz OFP & Arma fóra Ruprtova poradna je ukončen <img border='0' src='pictures/smilici/embarassed.gif'> Důvodů je hned několik, od ukončení sponzoringu, po moji časovou vytíženost, kvůli které už nejsem schopen web udržovat (proto se na fóru rozmohl spam a ten se rozlezl od nás na net a providerovi se to samozřejmě nelíbilo <img border='0' src='pictures/smilici/tongue.gif'>). V neposlední řadě pak taky už hru vůbec nehraju a ztratil jsem o ní úplně přehled. Stručně řečeno, všechno hezký jednou skončí a pro Ruprtovu poradnu ten čas právě nastal.<BR>Přeji všem fanouškům RP hodně úspěchů v bitvách i v životě <img border='0' src='pictures/smilici/Thumbsups.gif'> a doufám, že mé rozhodnutí pochopíte.<BR><BR><div style="width:100%;font-style:italic;text-align:right">Ruprt</div></td>
+	</tr>
+	<tr>
+		<td colSpan="5" width="100%" height="2px" style="border-style:none;"></td>
+	</tr>
+	</table>
+
+						
+					</div>
+					<!-- Topbar Area -->
+					<div class="TOP_AREA" id="TopArea">
+						<a id="linkNews" onmouseover="link_onMouseOver(this)" onmouseout="defaultInfo()" href="index.html">Novinky</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						<a id="linkNewsArchive" onmouseover="link_onMouseOver(this)" onmouseout="defaultInfo()" href="news-archive.html">Archív novinek</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						<a id="linkTutors" onmouseover="link_onMouseOver(this)" onmouseout="defaultInfo()" href="tutorials.html">Tutoriály</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						<a id="linkScripts" onmouseover="link_onMouseOver(this)" onmouseout="defaultInfo()" href="scripts.html">Scripty</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						<a id="linkTips" onmouseover="link_onMouseOver(this)" onmouseout="defaultInfo()" href="tips-tricks.html">Tipy &amp; Triky</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						<a id="linkDload" onmouseover="link_onMouseOver(this)" onmouseout="defaultInfo()" href="download.html">Download</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						<a id="linkLinks" onmouseover="link_onMouseOver(this)" onmouseout="defaultInfo()" href="links.html">Odkazy</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						<!--<a id="linkMissionUpload" onmouseover="link_onMouseOver(this)" onmouseout="defaultInfo()" href="missionupload.html" target="_blank">Upload misí</a>-->
+						<!--<a id="linkForum" onmouseover="link_onMouseOver(this)" onmouseout="defaultInfo()" href="forum/index.html" target="_blank">Fórum</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-->
+					</div>
+					<!-- Title Area -->
+					<div id="TitleArea" class="TITLE_AREA">Novinky</div>
+					<!-- Info Area -->
+					<div class="INFO_AREA" id="InfoArea"><br>Ruprtova poradna<br><br>ke hře<br><br>Operation Flashpoint®</div>
+					<!-- Right button Area -->
+					<div class="RIGHT_AREA" id="RightArea">
+						<a href="mission-news.html"><img src="images/btns/missionnews1.jpg" class="RA_BTNS" style="border-width:0px; TOP:0px" name="btnMissionNews" id="btnMissionNews" onmouseover="btn_onMouseOver(this)" onmouseout="btn_onMouseOut(this)" onclick="btn_onClick(this);"></a>
+						<a href="sp-missions.html"><img src="images/btns/sp1.jpg" class="RA_BTNS" style="border-width:0px; TOP:32px" name="btnSP" id="btnSP" onmouseover="btn_onMouseOver(this)" onmouseout="btn_onMouseOut(this)" onclick="btn_onClick(this);"></a>
+						<a href="mp-missions.html"><img src="images/btns/mp1.jpg" class="RA_BTNS" style="border-width:0px; TOP:64px" name="btnMP" id="btnMP" onmouseover="btn_onMouseOver(this)" onmouseout="btn_onMouseOut(this)" onclick="btn_onClick(this);"></a>
+						<a href="campaigns.html"><img src="images/btns/camp1.jpg" class="RA_BTNS" style="border-width:0px; TOP:96px" name="btnCamp" id="btnCamp" onmouseover="btn_onMouseOver(this)" onmouseout="btn_onMouseOut(this)" onclick="btn_onClick(this);"></a>
+						<a href="video-missions.html"><img src="images/btns/video1.jpg" class="RA_BTNS" style="border-width:0px; TOP:128px" name="btnVideo" id="btnVideo" onmouseover="btn_onMouseOver(this)" onmouseout="btn_onMouseOut(this)" onclick="btn_onClick(this);"></a>
+						<a href="funny-missions.html"><img src="images/btns/ptak1.jpg" class="RA_BTNS" style="border-width:0px; TOP:160px" name="btnPtak" id="btnPtak" onmouseover="btn_onMouseOver(this)" onmouseout="btn_onMouseOut(this)" onclick="btn_onClick(this);"></a>
+						
+						<a class="RA_SQUAD_LINK" id="linkSquad" onmouseover="link_onMouseOver(this)" onmouseout="defaultInfo()"></a>
+					</div>
+				</div>
+			</center>
+		</form>
+	</body>
+</HTML>

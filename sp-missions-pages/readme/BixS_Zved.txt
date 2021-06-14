@@ -1,0 +1,12 @@
+Misia  Z V Ě D
+
+Autor: BixS
+Ostrov: Everon
+Potrebná verzia OFP: asi 1.96
+Potrebné addony: priložené (AshT55East, editorupdate102)
+Intro: nie
+Outro: nie
+Dabing: áno
+Typ misie: nočná, kombinovaná (pechota, obrana základne, prieskum)
+
+Readme vytvoril TonyHawk pri príležitosti umiestnenia misie na Ruprtovu poradňu k OFP.

@@ -1,0 +1,12 @@
+Přepad
+
+Autor: KALHI Team
+Ostrov: Everon
+Addony: asi žádne netřeba
+Verze OFP: asi 1.96
+Intro: ne
+Outro: ne
+Dabing: áno
+Délka mise: krátka
+Typ mise: likvidace důstojníka a čistění vesnice
+Popis: Jste schovani v hospodě v Montignacu a čekáte, až dorazí důstojník. Pak mu pomůžete z tohoto světa a taky jeho kámošům z města.

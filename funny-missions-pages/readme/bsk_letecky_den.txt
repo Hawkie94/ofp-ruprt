@@ -1,0 +1,16 @@
+Autor: Bobor SK
+
+Použitie:
+Zložky "leteckyden.eden" a "leteckyden2.eden" prekopírujte to do zložky "missions" vo vašom profile v OFP.
+
+Rada:
+V prvej "misií" keď preletia všetky lietadlá, tak vám to vypíše, takže to nevypínajte skôr.
+V druhej "misií" vám tiež napíše, keď všetky lietadlá dojdu na posledný waypoint, ale potom tam ešte budú polietavať,
+takže si to môžete ešte pozerať. Môže sa ale stať, že lietadlo niekde spadne, takže tam na jedno nečakajte celý deň :)
+
+UPOZORNENIE:
+Tieto súbory sú volne šíritelné s výnimkou zisku z predaja.
+
+Dotazy, otázky a iné posielajte na boborsk.ofp@inmail.sk .
+
+Prajem príjemnú zábavu!

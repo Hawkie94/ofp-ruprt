@@ -1,0 +1,61 @@
+********************************************************************************************
+
+
+      ***********   ***********   ***********   ***********   ***************  *         *
+      *             *         *   *         *   *                    *          *       *
+      *             *         *   *         *   *                    *           *     *
+      *             *         *   *         *   *                    *            *   *
+      ***********   ***********   *         *   ***********          *              *
+      *             * *           *         *             *          *              *
+      *             *   *         *         *             *          *              *
+      *             *     *       *         *             *          *              * 
+      *             *       *     *         *             *          *              *
+      *             *         *   ***********   ***********          *              *
+
+
+
+********************************************************************************************
+
+        Ranní Šichta
+.................................
+Autor: Frostyman
+Ostrov: Everon
+Intro: Ano
+Mise: Ano :)
+Outro: Ne
+Dabing: Ano
+Addony: Jen oficiální!
+
+Pár slov: Misi jsem dělal v editoru Resistance verze 1.91.
+          Řekl bych že by ale mohla fungovat i bez Resistance.
+          Addony jsou všechny oficiální takže nemusíte nic stahovat.
+          Možná ale budete potřebovat:  Kegetys Object Files
+                                        Kegetys Editor Addon 10
+
+
+Známé chyby: Dělám na kampaňi založenou na Addonech od BAS, takže jsem tuhle
+             misi dělal dost narychlo. Je moje první, kterou posílám na net.
+             Co ale vim že občas blbnou waypointy. Když budete ale postupovat 
+             podle rozkazů tak to určitě zvládnete.
+
+
+Poděkování: Chtěl bych poděkovat chlapcům z Tiscali/Flashpoint, dále Ruprtovi a Didymosovi,
+            Leonovi (i když už se nevěnuje OFP) za pomoc a samozřejmě BIS             za tuhle fantastickou hru.
+
+Kontakt: frostyman@centrum.cz
+         
+Sem mi tedy posílejte názory a připomínky (Tedy konstruktivní kritika tak mě neukamenujte) :)
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

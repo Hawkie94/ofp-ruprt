@@ -1,0 +1,26 @@
+Area 81 (SP misia)
+--------------------------------------------------------------------------
+
+Autor:		EMSI - MHstudio
+
+Kontakt:	www.operacia.jantar.szm.sk
+		operacia.jantar@post.sk
+
+Strana:		východ
+
+Druh:		letecká - vrtulníková
+
+Ostrov:		Everon
+
+Verzia:		minimálne v1.75 - Resistance
+
+Addony:		žiadne (iba oficiálne z datadisku Resistance)
+
+Popis:		Americké jednotky sa vylodili na juhu Everonu.
+		Sovietske narýchlo vybudované obranné postavenia
+		nedokážu zastaviť rýchly postup američanov do vnútrozemia.
+		Treba rýchlo povolat leteckú podporu na zastavenie
+		invázie už na začiatku ...
+
+--------------------------------------------------------------------------
+EMSI - MHstudio © 2oo6

@@ -1,0 +1,67 @@
+*//-\\*  Operace Flashpoint - mise JÍZDA SMRTI - verze 1.00 - 3/2003  *//-\\*
+_____________________________________________________________________________
+
+                autor: silvermole  -  silvermole@seznam.cz
+
+                  typ: ptákovinka
+
+   potřebná verze hry: 1.75 (vytvořeno ve verzi 1.91)
+
+               ostrov: Everon
+   
+                Intro: NE
+
+                Outro: NE
+
+               addony: pouze Resistance
+
+         hard. nároky: velmi nízké (na poměry Flaspointu :-))
+
+___________________________________POPIS:____________________________________
+
+Toto je mise pro opravdu dobré řidiče! Musíte absolvovat dlouhou trasu, a to
+s BOMBOU VE VOZE, která vybuchne, když zpomalíte pod 60 Km/h !
+Aby to nebylo tak těžké, máte k dispozici možnost "zmrazit" bombu na 5sec a
+jednou uložit hru.
+________________________________Tipy/triky:__________________________________
+
+1.Možnosti pozastavit na chvíli spínač bomby je zvláště vhodné využít v 
+  nějaké ostré zatáčce(Například ta v Levie je dosti tuhá :-)).
+
+2.Trasu, po které pojedete, si můžete prohlédnout na přiložené mapce.
+
+3.Na celé cestě je v podstatě pouze jedna odbočka, a na tu jste upozorněni!
+
+________________________________Instalace:___________________________________
+
+Soubor SM_jizda_smrti.Eden.PBO nakopírujte do složky: 
+
+C:\Program Files\Codemasters\OperationFlashpoint\Missions (standar. umístění)
+
+_______________________________Známé chyby:__________________________________
+
+Jedná se o poměrně jednoduchou misi, žádné problémy se (zatím) neobjevily.
+
+________________________________VAROVÁNÍ:____________________________________
+
+Toto je neoficiální přídavek do hry, použití na VLASTNÍ NEBEZPEČÍ !!!
+_____________________________________________________________________________
+
+Přeji příjemnou zábavu !
+
+   ****  *  *    *   *  ****  ****    *   *    ***   *     ****
+   *     *  *    *   *  *     *   *   ** **   *   *  *     *
+   ****  *  *    *   *  ****  ****    * * *   *   *  *     ****
+      *  *  *     * *   *     *   *   *   *   *   *  *     *
+   ****  *  ****   *    ****  *    *  *   *    ***   ****  ****
+
+
+
+
+ 
+
+
+
+
+
+

@@ -1,0 +1,30 @@
+-----------------------------------------------------------------------------------------
+
+  Everonska rapsodia  :  singleplayer misia
+   
+-----------------------------------------------------------------------------------------
+
+  Krátky popis :  Misia je vytiahnuta z kampane "Malden airport (winter)"
+                  a je prerobena na `letne` podmienky s minimalnimi potrebnymi addonami.
+                  Misia je roztiahnuta po celom ostrove a tak niektore presuny su zdlhave.
+                  (ale zrychlenie funguje.)
+                  Nic moc pre nedockavych hracov co oblubuju `pribehol, zastrelil a zvitazil`.
+                  Povodna kampan zo siestymi misiami mala velkost aj s addonami asi 170 Mega
+                  a odohravala sa na `zimnon Everone a `zimnom Maldene`.
+
+-----------------------------------------------------------------------------------------
+
+  Autor        :  PAPA (om3pv@pobox.sk - http://www.om3ktr.sk)
+
+  Verzia OFP   :  1.96
+
+  Ostrov       :  Everon 
+
+-----------------------------------------------------------------------------------------
+
+  Potrebné addony sú priložené.
+
+-----------------------------------------------------------------------------------------
+
+
+									PAPA - 2009

@@ -1,0 +1,59 @@
+======================================================
+===========KONVOJ=====================================
+======================================================
+======================================================
+===for OFP: Resistance v. 1.90=============================
+======================================================
+
+==========================================
+=Autor:	Ali				==
+=E-Mail:	awi@centrum.cz			==
+=WWW:	www.webpark.cz/awi/flashpoint/	==
+=ICQ:	179462725			==
+==========================================
+
+=Ostrov:		Nogova
+======
+
+=Typ:		Singl-Player mise
+====
+
+=AddOns:		žádné, stačí mít nainstalovaný datadisk Resistance, popřípadě patch 1.90
+========
+
+=Editace:		Ali
+=======
+
+=Testing:		LuckyM (mlukovka@post.cz)
+=======
+
+=Poznámka:	-toto je předělaná verze mé první mise, která byla uveřejněná na
+==========	     games.tiscali s hodnocením 8/10
+
+		-mise byla editována ve verzi 1.91
+		-mise byla testována ve verzi 1.90
+		-mise by měla jet i ve verzi 1.75, ale nezaručuji správný chod mise
+
+		-mise je docela ktrátka, takže od ní neočekávejte, že jí budete hrát celý den
+
+=Instalace:	složku 'Ali missions' nakopírujte do adresáře Operace Flashpoint do složky missions
+=========
+
+======================================================
+===PŘEJI VÁM PŘÍJEMNOU ZÁBAVU S TOUTO MISÍ=============
+======================================================
+======================================================
+======================================================
+
+		***	***	***
+	              ***   ***	***	***
+	            ***        ***	***
+	          ***           ***	***	***
+	         **************	***	***
+	        ****************	***	***
+	       ***                  ***	*****	***
+	      ***                   ***	  *****	***
+
+======================================================
+==============©2002 - 2003 Made by Ali===================
+======================================================

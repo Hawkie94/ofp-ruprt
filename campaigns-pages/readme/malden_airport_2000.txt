@@ -1,0 +1,114 @@
+
+Nazov   : Malden airport (winter)
+
+Autor   : Peter alias PAPA - Trnava - Slovakia
+
+E-mail  : om3pv@pobox.sk
+
+Ostrovy : zimny Malden a zimny Everon
+
+
+Potrebny addOn  : Kegnoecain_snow
+
+ostatne addony su pribalene ku kampani.
+
+                   
+Animacne subory  : [doe1_anim]       
+                   [mtl_abel_anim]
+
+                   nakopirovat do OFP/ADDONS  !!
+                   =============================
+
+
+
+
+Addony prilozene : ac130
+                   AGS_inds 
+                   doe1
+                   Editorup
+                   editorupdate102
+                   EditorUpdate175Noe 
+                   EditorUpgrade102
+                   JOF_Objects1 
+                   lampa
+                   lampicka
+                   MTL_abel
+                   PC_embassy2
+                   PKSMZK
+                   PV_Malden
+                   radiotower
+                   Snowstorm
+                   streetlamp
+                   TCP_TestDog
+                   
+                   nakopirovat do OFP/RES/ADDONS
+                   ==============================
+
+
+
+  doporucujem v OFP iba oficialne addony + addony potrebne pre kampan  !!
+  =======================================================================
+
+
+Verzia hry : 1.91 - resistance
+
+
+Campaign obsahuje celkom 6 misii.
+
+Zimny Malden 5 misii
+Zimny Everon 1 misia
+
+
+Strucny popis :  Problemy jednej malej krajiny, ktora prave 
+                 ziskala samostatnost.
+
+
+Historia :  November 2004 - pociatok editovania
+            Marec 2005    - Beta verzia 
+            Maj 2005      - zadanie testerom  / zial, ani jeden z testerov 
+                            doteraz neoznamil vysledok testu / 
+            August 2005   - dokoncenie finalnej verzie 
+ 
+                      
+Podakovanie : Hlavne BIS, za tak krasnu hru !!!
+
+              Ruprtovi za tak krasne spracovanu `Napovedu pre editor misii`.
+
+              Kegetys za addon zimnych jednotiek.
+             
+              METAL - za zimny Malden.
+ 
+              DOE - za zimny Everon.
+
+              TheRaptorovi za pomoc s `ALFA kanalom`.
+
+              Dusandovi za pomoc pri umiestneni na Webe.
+
+              a celej komunite OFP.    
+         
+
+
+
+==========================================================================================
+
+    
+                  KAMPAN NEBOLA TESTOVANA NEZAVISLOU OSOBOU.
+                  ==========================================
+
+==========================================================================================
+
+
+Addony bojovej techniky, ktore obsahuje subor PV_MALDEN.PBO, su iba
+pretexturovane stavajuce modely s BIS.
+
+Addony vojakov su iba pretexturovane modely z Kegetysovych zimnych 
+jednotiek. (hadam ma za to neukamenuju.)
+
+
+
+
+
+
+
+
+

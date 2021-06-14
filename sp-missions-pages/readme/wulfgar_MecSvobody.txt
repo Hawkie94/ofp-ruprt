@@ -1,0 +1,15 @@
+---> MEČ SVOBODY <---
+
+Autor: Wulfgar
+Potřebná verze OFP: 1.96
+Potřebné addony: nejspíš žádné (maximálně EditorUpdate102 od Kegetyse - ten má snad každý :o)
+Typ mise: pěchotní
+Obtížnost: jak pro koho ;-)
+Naročnost: vyšší (spousta objektů)
+Ostrov: Malden
+Intro: Ano
+Outro: Ano
+Popis: V misi se zúčastníte útoku na obranné pozice separitistické skupiny.
+Rady: Na začátku počkejte, než zaútočí Abramsy a až po likvidaci tanků zaútočte na obranné postavení. A dejte si pozor na kulomety M2.
+
+Příjemnou pařbu ;).

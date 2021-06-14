@@ -1,0 +1,22 @@
+Mise: Kota 358
+--------------------
+
+Vytvořil: Batyskaf.xXx@seznam.cz & VS
+
+Ostrov: Everon
+
+Typ mise: Single Player
+
+Typ hráče: Velitel americké jednotky o jedenácti mužích
+
+Použité addony: OFPAddon_FlagPack_Updated,ČSLA Addon ver 1.1(nemusí vyžadovat,ale může),EditorUpgrade102.pbo(je součástí balíku-stačí překopírovat do složky Addons),DKMM_BRONCO,
+
+Získání addonů: http://games.worldonline.cz/flashpoint/
+                http://ofp.gamezone.cz
+
+Vytvořeno ve verzi: Operation Flashpoint 1.46 
+
+
+Popis mise: Tvým úkolem je získáni dvou osad pod kontrolu a zaměřit cíle pro bombardování.
+
+Hodně propařených hodin u této mise přeje Batyskaf.

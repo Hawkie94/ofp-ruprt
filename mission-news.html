@@ -1,0 +1,1367 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head>
+		<title>Ruprtova poradna k OFP - Mission News</title>
+		<meta content="False" name="vs_snapToGrid">
+		<meta http-equiv="Content-Type" content="text/html; charset=windows-1250">
+		<meta content="Microsoft Visual Studio .NET 7.1" name="GENERATOR">
+		<meta content="Visual Basic .NET 7.1" name="CODE_LANGUAGE">
+		<meta content="JavaScript" name="vs_defaultClientScript">
+		<meta content="http://schemas.microsoft.com/intellisense/ie5" name="vs_targetSchema">
+		<link href="Styles.css" type="text/css" rel="stylesheet">
+		<script language="javascript">
+		<!--
+			// ------------- Info strings --------------------
+			var STR_Default = "<BR>Ruprtova poradna<BR><BR>ke hře<br><BR>Operation Flashpoint®";
+			var STR_News = "Sekce<BR>Novinky<BR>-<BR>Domovská<BR>stránka RP";
+			var STR_NewsArchive = "<BR><BR>Archív novinek<BR>RP";
+			var STR_Forum = "<BR><BR>Vstoupit do<BR>fóra";
+			var STR_Tutors = "<BR><BR>Sekce<BR>Tutoriály";
+			var STR_Scripts = "<BR><BR>Sekce<BR>Scripty";
+			var STR_Tips = "<BR><BR>Sekce<BR>Tipy & Triky";
+			var STR_Download = "<BR><BR>Sekce<BR>Download";
+			var STR_Links = "<BR><BR>Odkazy<br>&<br>Emaily";
+			//var STR_Emails = "Osobní<br>nastavení<BR>tohoto webu";
+			var STR_MissionUpload = "<BR>Otevře<BR>Uživatelské rozhraní pro upload misí";
+			//var STR_OFPMDE = "Otevře stránku o aplikaci<BR><BR>OFP<BR>Mission<BR>Development<BR>Environment";
+			var STR_MissionNews = "Sekce<BR>Mission News<BR>-<BR>Novinky psané jednotlivými autory misí";
+			var STR_SP = "Sekce<BR>SP Mise :<BR>hodnocení a<BR>download<BR>neofiko SP misí";
+			var STR_MP = "Sekce<BR>MP Mise :<BR>hodnocení a<BR>download<BR>neofiko MP misí";
+			var STR_Camp = "Sekce<BR>Kampaně :<BR>hodnocení a<BR>download<BR>neofiko kampaní";
+			var STR_Video = "Sekce<BR>Video mise :<BR>hodnocení a<BR>download<BR>neofiko<BR>Video misí";
+			var STR_Ptak = "Sekce<BR>Ptákoviny :<BR>Mise, které<BR>nelze nikam<BR>zařadit";
+			var STR_Rules = "Pravidla<BR>hodnocení a<BR>zveřejňování<BR>misí";
+			var STR_Search = "Vyhledávání<BR>údajů na<BR>těchto<BR>stránkách";
+			var STR_OFPCZSquad = "Celý download<BR>je uložen na<BR>serveru OFP CZ Squadu.<BR>Díky chlapi !";
+
+			// ---------- Preload & Initialize Images --------------
+			var missionnews1 = newImage('images/btns/missionnews1.jpg');
+			var missionnews2 = newImage('images/btns/missionnews2.jpg');
+			var missionnews3 = newImage('images/btns/missionnews3.jpg');
+			var sp1 = newImage('images/btns/sp1.jpg');
+			var sp2 = newImage('images/btns/sp2.jpg');
+			var sp3 = newImage('images/btns/sp3.jpg');
+			var mp1 = newImage('images/btns/mp1.jpg');
+			var mp2 = newImage('images/btns/mp2.jpg');
+			var mp3 = newImage('images/btns/mp3.jpg');
+			var camp1 = newImage('images/btns/camp1.jpg');
+			var camp2 = newImage('images/btns/camp2.jpg');
+			var camp3 = newImage('images/btns/camp3.jpg');
+			var video1 = newImage('images/btns/video1.jpg');
+			var video2 = newImage('images/btns/video2.jpg');
+			var video3 = newImage('images/btns/video3.jpg');
+			var ptak1 = newImage('images/btns/ptak1.jpg');
+			var ptak2 = newImage('images/btns/ptak2.jpg');
+			var ptak3 = newImage('images/btns/ptak3.jpg');
+			var rules1 = newImage('images/btns/rules1.jpg');
+			var rules2 = newImage('images/btns/rules2.jpg');
+			var rules3 = newImage('images/btns/rules3.jpg');
+			var search1 = newImage('images/btns/search1.jpg');
+			var search2 = newImage('images/btns/search2.jpg');
+			var search3 = newImage('images/btns/search3.jpg');
+			var auxObject;
+		
+			// ----------- Functions ------------
+			function newImage(imgPath)
+			{
+				rslt = new Image();
+				rslt.src = imgPath;
+				return rslt;
+			};
+			
+			function defaultInfo()
+			{
+				var infoArea = document.getElementById("InfoArea");
+				infoArea.innerHTML = STR_Default;
+			};
+			
+			function woknoMise(adr)
+			{
+				var newWndLeft = ((self.screen.width-733)/2);
+				var newWndTop = ((self.screen.height-468)/2);
+				window.open('missiondetail.aspx'+adr, '_blank', 'toolbar=no,location=no,status=no,menubar=no,scrollbars=no,resizable=no,width=733,height=468,left='+newWndLeft+',top='+newWndTop);
+			};
+
+			function woknoTipScript(adr)
+			{
+				var newWndLeft = ((self.screen.width-774)/2);
+				var newWndTop = ((self.screen.height-607)/2);
+				window.open('tipscriptdetail.aspx'+adr, '_blank', 'toolbar=no,location=no,status=no,menubar=no,scrollbars=no,resizable=no,width=774,height=607,left='+newWndLeft+',top='+newWndTop);
+			};
+
+			// ----------- Event handlers ------------
+			// =========== Right Area ================
+			function btn_onMouseOver(btn)
+			{
+				var infoArea = document.getElementById("InfoArea");
+				switch(btn.id)
+				{
+					case "btnMissionNews":
+						btn.src = missionnews2.src;
+						infoArea.innerHTML = STR_MissionNews;
+						break;
+					case "btnSP":
+						btn.src = sp2.src;
+						infoArea.innerHTML = STR_SP;
+						break;
+					case "btnMP":
+						btn.src = mp2.src;
+						infoArea.innerHTML = STR_MP;
+						break;
+					case "btnCamp":
+						btn.src = camp2.src;
+						infoArea.innerHTML = STR_Camp;
+						break;
+					case "btnVideo":
+						btn.src = video2.src;
+						infoArea.innerHTML = STR_Video;
+						break;
+					case "btnPtak":
+						btn.src = ptak2.src;
+						infoArea.innerHTML = STR_Ptak;
+						break;
+					case "btnRules":
+						btn.src = rules2.src;
+						infoArea.innerHTML = STR_Rules;
+						break;
+					case "linkRules":
+						//The Rules link onMouseOver Eventhandler
+						btn.style.background = "url(images/btns/rules2.jpg)";
+						btn.style.backgroundImage = "url(images/btns/rules2.jpg)";
+						infoArea.innerHTML = STR_Rules;
+						break;
+					case "btnSearch":
+						btn.src = search2.src;
+						infoArea.innerHTML = STR_Search;
+						break;
+					default:
+						infoArea.innerHTML = STR_Default;
+				};
+			};
+			
+			function btn_onMouseOut(btn)
+			{
+				var infoArea = document.getElementById("InfoArea");
+				switch(btn.id)
+				{
+					case "btnMissionNews":
+						btn.src = missionnews1.src;
+						break;
+					case "btnSP":
+						btn.src = sp1.src;
+						break;
+					case "btnMP":
+						btn.src = mp1.src;
+						break;
+					case "btnCamp":
+						btn.src = camp1.src;
+						break;
+					case "btnVideo":
+						btn.src = video1.src;
+						break;
+					case "btnPtak":
+						btn.src = ptak1.src;
+						break;
+					case "btnRules":
+						btn.src = rules1.src;
+						break;
+					case "linkRules":
+						//The Rules link onMouseOver Eventhandler
+						btn.style.background = "url(images/btns/rules1.jpg)";
+						btn.style.backgroundImage = "url(images/btns/rules1.jpg)";
+						break;
+					case "btnSearch":
+						btn.src = search1.src;
+						break;
+				};
+				infoArea.innerHTML = STR_Default;
+			};
+
+			function btn_onClick(btn)
+			{
+				//var infoArea = document.getElementById("InfoArea");
+				auxObject = btn;
+				switch(btn.id)
+				{
+					case "btnMissionNews":
+						btn.src = missionnews3.src;
+						window.setTimeout("btn_onMouseOver(auxObject)", 150);
+						break;
+					case "btnSP":
+						btn.src = sp3.src;
+						window.setTimeout("btn_onMouseOver(auxObject)", 150);
+						break;
+					case "btnMP":
+						btn.src = mp3.src;
+						window.setTimeout("btn_onMouseOver(auxObject)", 150);
+						break;
+					case "btnCamp":
+						btn.src = camp3.src;
+						window.setTimeout("btn_onMouseOver(auxObject)", 150);
+						break;
+					case "btnVideo":
+						btn.src = video3.src;
+						window.setTimeout("btn_onMouseOver(auxObject)", 150);
+						break;
+					case "btnPtak":
+						btn.src = ptak3.src;
+						window.setTimeout("btn_onMouseOver(auxObject)", 150);
+						break;
+					case "btnRules":
+						btn.src = rules3.src;
+						window.setTimeout("btn_onMouseOver(auxObject)", 150);
+						var newWndLeft = newWndLeft = ((self.screen.width-433)/2);
+						window.open('rules.aspx','_blank','width=433,height=581,left='+newWndLeft+',top=15');
+						return false;
+						break;
+					case "linkRules":
+						btn.style.background = "url(images/btns/rules3.jpg)";
+						btn.style.backgroundImage = "url(images/btns/rules3.jpg)";
+						window.setTimeout("btn_onMouseOver(auxObject)", 150);
+						break;
+					case "btnSearch":
+						btn.src = search3.src;
+						window.setTimeout("btn_onMouseOver(auxObject)", 150);
+						break;
+				};
+			};
+			
+			// =========== Top Area ================
+			function link_onMouseOver(link)
+			{
+				var infoArea = document.getElementById("InfoArea");
+				switch(link.id)
+				{
+					case "linkNews":
+						infoArea.innerHTML = STR_News;
+						break;
+					case "linkNewsArchive":
+						infoArea.innerHTML = STR_NewsArchive;
+						break;
+					case "linkForum":
+						infoArea.innerHTML = STR_Forum;
+						break;
+					case "linkTutors":
+						infoArea.innerHTML = STR_Tutors;
+						break;
+					case "linkScripts":
+						infoArea.innerHTML = STR_Scripts;
+						break;
+					case "linkTips":
+						infoArea.innerHTML = STR_Tips;
+						break;
+					case "linkDload":
+						infoArea.innerHTML = STR_Download;
+						break;
+					case "linkLinks":
+						infoArea.innerHTML = STR_Links;
+						break;
+					case "linkMissionUpload":
+						infoArea.innerHTML = STR_MissionUpload;
+						break;
+					case "linkSquad":
+						//This is the button from RightArea linking to OFP CZ Squad
+						infoArea.innerHTML = STR_OFPCZSquad;
+						break;
+				};
+			};
+			
+			//Combo's Change Eventhandler
+			function cb_onChange(combo)
+			{
+				__doPostBack(combo.name, combo.selectedIndex);
+			};
+			
+			function _doSearchPrePostBack()
+			{
+				var theform;
+				if (window.navigator.appName.toLowerCase().indexOf("netscape") > -1)
+				{
+					theform = document.forms["frmMain"];
+				}
+				else
+				{
+					theform = document.frmMain;
+				};
+				
+				if (theform.tbExp.value == "")
+				{
+					alert("Musíte zadat hledaný výraz !");
+					theform.tbExp.focus();
+					return false;
+				}
+				return true;
+			};
+		//-->
+		</script>
+	</head>
+	<body ms_positioning="GridLayout" onload="javascript:self.offscreenBuffering=true">
+		<center>
+		<div class="CONTENT_AREA" id="ContentArea" align="center">
+			<!-- Data Area -->
+			<div class="DATA_AREA" id="DataArea">
+				<table id="tblData" class="DA_DATA_TABLE" width="100%" cellspacing="0" cellpadding="2">
+					<tbody>
+						<tr>
+							<td style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" width="9%" height="18px" align="center">Datum</td>
+							<td style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" width="10%" height="18px" align="center">27. 2. 2012</td>
+							<td style="border:solid 1px #DFDFDF;color:#FF6600;font-weight:bold;background-color:#000000;" width="55%" height="18px" align="center">Partizanske leto 2</td>
+							<td style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" width="9%" height="18px" align="center">Autor</td>
+							<td style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" width="12%" height="18px" align="center">PAPA</td>
+						</tr>
+						<tr>
+							<td style="border:solid 1px Gray;text-align:justify;" colspan="5" width="100%" align="justify">Pribeh sa odohrava na ostrove Everon.<br>Zavedie vas do partizanskeho prostredia, kde mozte zo spolubojovnikmi prezivat<br>starosti partizanskeho zivota.<br><br>Pouzivaju sa rozne zbrane a vozidla roznych armad. Tak ako si ich partizany zabezpecia.<br>Ci uz je to AK47, M16 a ci vozidla V3s, americka 5tonka a ci UH60 alebo MI24.</td>
+						</tr>
+						<tr>
+							<td colspan="5" style="border-style:none;" width="100%" height="2px"></td>
+						</tr>
+						<tr>
+							<td style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" width="9%" height="18px" align="center">Datum</td>
+							<td style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" width="10%" height="18px" align="center">24. 12. 2011</td>
+							<td style="border:solid 1px #DFDFDF;color:#FF6600;font-weight:bold;background-color:#000000;" width="55%" height="18px" align="center">G_p_SPMissions_v1.3</td>
+							<td style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" width="9%" height="18px" align="center">Autor</td>
+							<td style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" width="12%" height="18px" align="center">gerous</td>
+						</tr>
+						<tr>
+							<td style="border:solid 1px Gray;text-align:justify;" colspan="5" width="100%" align="justify">G_p_SPMissions_v1.3
+					 obsahuje 23 misí. 2 mise jsou nový a zbytek jsou vylepšený. 
+					G_p_SPMissions_v1.3 obsahuje nový G_flags2, který má nový pirátský 
+					vlajky a trochu upravený STRINGTABLE.</td>
+						</tr>
+						<tr>
+							<td colspan="5" style="border-style:none;" width="100%" height="2px"></td>
+						</tr>
+						<tr>
+							<td style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" width="9%" height="18px" align="center">Datum</td>
+							<td style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" width="10%" height="18px" align="center">9. 4. 2010</td>
+							<td style="border:solid 1px #DFDFDF;color:#FF6600;font-weight:bold;background-color:#000000;" width="55%" height="18px" align="center">Sovětské družstvo 2</td>
+							<td style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" width="9%" height="18px" align="center">Autor</td>
+							<td style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" width="12%" height="18px" align="center">Leonid</td>
+						</tr>
+						<tr>
+							<td style="border:solid 1px Gray;text-align:justify;" colspan="5" width="100%" align="justify">Nová mise pro Arma 2 kde vás čeká pořádná dávka akce.</td>
+						</tr>
+						<tr>
+							<td colspan="5" style="border-style:none;" width="100%" height="2px"></td>
+						</tr>
+						<tr>
+							<td style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" width="9%" height="18px" align="center">Datum</td>
+							<td style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" width="10%" height="18px" align="center">25. 10. 2009</td>
+							<td style="border:solid 1px #DFDFDF;color:#FF6600;font-weight:bold;background-color:#000000;" width="55%" height="18px" align="center">SIGMA Chronicles 1st Release</td>
+							<td style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" width="9%" height="18px" align="center">Autor</td>
+							<td style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" width="12%" height="18px" align="center">chleba15</td>
+						</tr>
+						<tr>
+							<td style="border:solid 1px Gray;text-align:justify;" colspan="5" width="100%" align="justify">Ochutnávka dvou misí vybraných z rozdělané Sniperské "nanokampaně" SIGMA Chronicles. Prosím vyzkoušejte a zkritizujte ;)</td>
+						</tr>
+						<tr>
+							<td colspan="5" style="border-style:none;" width="100%" height="2px"></td>
+						</tr>
+						<tr>
+							<td style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" width="9%" height="18px" align="center">Datum</td>
+							<td style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" width="10%" height="18px" align="center">22. 9. 2009</td>
+							<td style="border:solid 1px #DFDFDF;color:#FF6600;font-weight:bold;background-color:#000000;" width="55%" height="18px" align="center">Přeživší</td>
+							<td style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" width="9%" height="18px" align="center">Autor</td>
+							<td style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" width="12%" height="18px" align="center">walome</td>
+						</tr>
+						<tr>
+							<td style="border:solid 1px Gray;text-align:justify;" colspan="5" width="100%" align="justify">je to moje první prvotina<br><br>Walome</td>
+						</tr>
+						<tr>
+							<td colspan="5" style="border-style:none;" width="100%" height="2px"></td>
+						</tr>
+						<tr>
+							<td style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" width="9%" height="18px" align="center">Datum</td>
+							<td style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" width="10%" height="18px" align="center">12. 1. 2009</td>
+							<td style="border:solid 1px #DFDFDF;color:#FF6600;font-weight:bold;background-color:#000000;" width="55%" height="18px" align="center">November Rain</td>
+							<td style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" width="9%" height="18px" align="center">Autor</td>
+							<td style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" width="12%" height="18px" align="center">celoush</td>
+						</tr>
+						<tr>
+							<td style="border:solid 1px Gray;text-align:justify;" colspan="5" width="100%" align="justify">Už jen tak z nostalgie jsem si během tří dní po večerech udělal tuto krátkou misi. Snad se vám bude líbit.</td>
+						</tr>
+						<tr>
+							<td colspan="5" style="border-style:none;" width="100%" height="2px"></td>
+						</tr>
+						<tr>
+							<td style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" width="9%" height="18px" align="center">Datum</td>
+							<td style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" width="10%" height="18px" align="center">17. 12. 2008</td>
+							<td style="border:solid 1px #DFDFDF;color:#FF6600;font-weight:bold;background-color:#000000;" width="55%" height="18px" align="center">Operace Návrat</td>
+							<td style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" width="9%" height="18px" align="center">Autor</td>
+							<td style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" width="12%" height="18px" align="center">pařan</td>
+						</tr>
+						<tr>
+							<td style="border:solid 1px Gray;text-align:justify;" colspan="5" width="100%" align="justify">V misi se vyloďujete na Nogově, ale američané vám nastražili past...</td>
+						</tr>
+						<tr>
+							<td colspan="5" style="border-style:none;" width="100%" height="2px"></td>
+						</tr>
+						<tr>
+							<td style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" width="9%" height="18px" align="center">Datum</td>
+							<td style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" width="10%" height="18px" align="center">7. 3. 2008</td>
+							<td style="border:solid 1px #DFDFDF;color:#FF6600;font-weight:bold;background-color:#000000;" width="55%" height="18px" align="center">Univerzal Multiplayer Map 2.2</td>
+							<td style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" width="9%" height="18px" align="center">Autor</td>
+							<td style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" width="12%" height="18px" align="center">chleba15</td>
+						</tr>
+						<tr>
+							<td style="border:solid 1px Gray;text-align:justify;" colspan="5" width="100%" align="justify">MP Mapa na hodně věcí... ;)</td>
+						</tr>
+						<tr>
+							<td colspan="5" style="border-style:none;" width="100%" height="2px"></td>
+						</tr>
+						<tr>
+							<td style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" width="9%" height="18px" align="center">Datum</td>
+							<td style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" width="10%" height="18px" align="center">29. 2. 2008</td>
+							<td style="border:solid 1px #DFDFDF;color:#FF6600;font-weight:bold;background-color:#000000;" width="55%" height="18px" align="center">STALKER Shadow of Petrovice Building</td>
+							<td style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" width="9%" height="18px" align="center">Autor</td>
+							<td style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" width="12%" height="18px" align="center">chleba15</td>
+						</tr>
+						<tr>
+							<td style="border:solid 1px Gray;text-align:justify;" colspan="5" width="100%" align="justify">Pls potřebuju pomoc =( Dik</td>
+						</tr>
+						<tr>
+							<td colspan="5" style="border-style:none;" width="100%" height="2px"></td>
+						</tr>
+						<tr>
+							<td style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" width="9%" height="18px" align="center">Datum</td>
+							<td style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" width="10%" height="18px" align="center">8. 2. 2008</td>
+							<td style="border:solid 1px #DFDFDF;color:#FF6600;font-weight:bold;background-color:#000000;" width="55%" height="18px" align="center">FLASHPOINT FOREVER</td>
+							<td style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" width="9%" height="18px" align="center">Autor</td>
+							<td style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" width="12%" height="18px" align="center">Leon</td>
+						</tr>
+						<tr>
+							<td style="border:solid 1px Gray;text-align:justify;" colspan="5" width="100%" align="justify">Až uvidíš záblesk, už je pozdě.</td>
+						</tr>
+						<tr>
+							<td colspan="5" style="border-style:none;" width="100%" height="2px"></td>
+						</tr>
+						<tr>
+							<td style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" width="9%" height="18px" align="center">Datum</td>
+							<td style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" width="10%" height="18px" align="center">21. 10. 2007</td>
+							<td style="border:solid 1px #DFDFDF;color:#FF6600;font-weight:bold;background-color:#000000;" width="55%" height="18px" align="center">Clean and clear</td>
+							<td style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" width="9%" height="18px" align="center">Autor</td>
+							<td style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" width="12%" height="18px" align="center">Earthworm</td>
+						</tr>
+						<tr>
+							<td style="border:solid 1px Gray;text-align:justify;" colspan="5" width="100%" align="justify">Tak
+					 jsem po dlouhé době dokončil misi na Operaci Flashpoint, protože 
+					myslím, že nejsem sám, kdo si nemůže z důvodu slabého stroje zahrát 
+					Armed Assault. Takoví snad i zůstali a jsem rád, že můžu prodloužit 
+					jejich Flashpointovskou sezónu (i když uznávám, že jen o pár minut). 
+					Snad si tedy misi někdo stáhne a snad mi i dá vědět, jestli se mu 
+					líbila, nelíbila, nebo mi řekne o případných nedodělávkách apod. A vy, 
+					co už jste dál, doufám, že si taky budu moci zahrát nějaké pokračování 
+					Operace Flashpoint. Zatím ale zůstávám věrný<br>S pozdravem Earthworm</td>
+						</tr>
+						<tr>
+							<td colspan="5" style="border-style:none;" width="100%" height="2px"></td>
+						</tr>
+						<tr>
+							<td style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" width="9%" height="18px" align="center">Datum</td>
+							<td style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" width="10%" height="18px" align="center">6. 9. 2007</td>
+							<td style="border:solid 1px #DFDFDF;color:#FF6600;font-weight:bold;background-color:#000000;" width="55%" height="18px" align="center">padakovy vysadek munice</td>
+							<td style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" width="9%" height="18px" align="center">Autor</td>
+							<td style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" width="12%" height="18px" align="center">SGT.cz90(cz)</td>
+						</tr>
+						<tr>
+							<td style="border:solid 1px Gray;text-align:justify;" colspan="5" width="100%" align="justify">Tato
+					 mise je jen ukázka pro ty, co tohle chtěj uďelat a neuměj to, proto to 
+					nemá briefing, overwiev ale ani příběh. Ačkoliv by se měl padák 
+					respawnovat na pozici vrtulníku, lze tento respawn použít jen když je 
+					ješťe ve vzduchu, když padák není ve vzduchu, bedna zmizí, jinak se 
+					respawnuje na pozici vrtulníku. Je to v OFP, ale scripty by měly jít i v
+					 ArmA: Armed Assault (prosťe ty scripty skopírujte).</td>
+						</tr>
+						<tr>
+							<td colspan="5" style="border-style:none;" width="100%" height="2px"></td>
+						</tr>
+						<tr>
+							<td style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" width="9%" height="18px" align="center">Datum</td>
+							<td style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" width="10%" height="18px" align="center">24. 7. 2007</td>
+							<td style="border:solid 1px #DFDFDF;color:#FF6600;font-weight:bold;background-color:#000000;" width="55%" height="18px" align="center">Dominoefekt</td>
+							<td style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" width="9%" height="18px" align="center">Autor</td>
+							<td style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" width="12%" height="18px" align="center">Road Runner</td>
+						</tr>
+						<tr>
+							<td style="border:solid 1px Gray;text-align:justify;" colspan="5" width="100%" align="justify">ArmA: Armed Assault<br><br>Jedná se o krátké experimentální video, které již podle názvu má hodně společného s řetězovou reakcí. Snad se vám to bude líbit!</td>
+						</tr>
+						<tr>
+							<td colspan="5" style="border-style:none;" width="100%" height="2px"></td>
+						</tr>
+						<tr>
+							<td style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" width="9%" height="18px" align="center">Datum</td>
+							<td style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" width="10%" height="18px" align="center">30. 5. 2007</td>
+							<td style="border:solid 1px #DFDFDF;color:#FF6600;font-weight:bold;background-color:#000000;" width="55%" height="18px" align="center">Flashpoint (Rearmed)</td>
+							<td style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" width="9%" height="18px" align="center">Autor</td>
+							<td style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" width="12%" height="18px" align="center">Tomo Studios</td>
+						</tr>
+						<tr>
+							<td style="border:solid 1px Gray;text-align:justify;" colspan="5" width="100%" align="justify">Toto je level exportovaný z CWC dúfam že sa vám bude páčit.</td>
+						</tr>
+						<tr>
+							<td colspan="5" style="border-style:none;" width="100%" height="2px"></td>
+						</tr>
+						<tr>
+							<td style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" width="9%" height="18px" align="center">Datum</td>
+							<td style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" width="10%" height="18px" align="center">16. 5. 2007</td>
+							<td style="border:solid 1px #DFDFDF;color:#FF6600;font-weight:bold;background-color:#000000;" width="55%" height="18px" align="center">Nomádi</td>
+							<td style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" width="9%" height="18px" align="center">Autor</td>
+							<td style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" width="12%" height="18px" align="center">tomostudios</td>
+						</tr>
+						<tr>
+							<td style="border:solid 1px Gray;text-align:justify;" colspan="5" width="100%" align="justify">Ako pilot SLA máte za úlohu dopraviť pechotu, aly vždy sa niečo zvrtne.</td>
+						</tr>
+						<tr>
+							<td colspan="5" style="border-style:none;" width="100%" height="2px"></td>
+						</tr>
+						<tr>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Datum</td>
+							<td align="center" width="10%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">1. 3. 2007</td>
+							<td align="center" width="55%" style="border:solid 1px #DFDFDF;color:#FF6600;font-weight:bold;background-color:#000000;" height="18px">Day of Days (Arma)</td>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Autor</td>
+							<td align="center" width="12%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">EMSI</td>
+						</tr>
+						<tr>
+							<td align="justify" width="100%" style="border:solid 1px Gray;text-align:justify;" colspan="5">Major Tom Lucas a jeho pár mužov dostali za úlohu vypátrať uväzneného zajatého člena špeciálnych jednotiek<BR>a bezpečne ho eskortovať zo zajatia na najbližšiu americkú základňu.</td>
+						</tr>
+						<tr>
+							<td colspan="5" width="100%" height="2px" style="border-style:none;"></td>
+						</tr>
+						<tr>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Datum</td>
+							<td align="center" width="10%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">30. 11. 2006</td>
+							<td align="center" width="55%" style="border:solid 1px #DFDFDF;color:#FF6600;font-weight:bold;background-color:#000000;" height="18px">Výtah</td>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Autor</td>
+							<td align="center" width="12%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Jack</td>
+						</tr>
+						<tr>
+							<td align="justify" width="100%" style="border:solid 1px Gray;text-align:justify;" colspan="5">Chtěli jste se v ofp project ve "výtahu"? - teď máte šanci.<BR>- Není to sice výtah, spíš něco, co se jako výtah chová, ale snad to bude stačit :-)<BR>##Hodně zábavy##</td>
+						</tr>
+						<tr>
+							<td colspan="5" width="100%" height="2px" style="border-style:none;"></td>
+						</tr>
+						<tr>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Datum</td>
+							<td align="center" width="10%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">20. 11. 2006</td>
+							<td align="center" width="55%" style="border:solid 1px #DFDFDF;color:#FF6600;font-weight:bold;background-color:#000000;" height="18px">Teleport</td>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Autor</td>
+							<td align="center" width="12%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Jack</td>
+						</tr>
+						<tr>
+							<td align="justify" width="100%" style="border:solid 1px Gray;text-align:justify;" colspan="5">V této misi, jsem použil efektů, které jsou velmy málo používány či vůbec. (jako např. pohled letící střely, apod). Přeji hodně zábavy.<BR>PS : je to opravdu jen na vyblbnutí.</td>
+						</tr>
+						<tr>
+							<td colspan="5" width="100%" height="2px" style="border-style:none;"></td>
+						</tr>
+						<tr>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Datum</td>
+							<td align="center" width="10%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">26. 9. 2006</td>
+							<td align="center" width="55%" style="border:solid 1px #DFDFDF;color:#FF6600;font-weight:bold;background-color:#000000;" height="18px">Operation White Rabbit</td>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Autor</td>
+							<td align="center" width="12%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">pony88</td>
+						</tr>
+						<tr>
+							<td align="justify" width="100%" style="border:solid 1px Gray;text-align:justify;" colspan="5">Najdi svojí jednotku a doprav jí na místo určení</td>
+						</tr>
+						<tr>
+							<td colspan="5" width="100%" height="2px" style="border-style:none;"></td>
+						</tr>
+						<tr>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Datum</td>
+							<td align="center" width="10%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">24. 9. 2006</td>
+							<td align="center" width="55%" style="border:solid 1px #DFDFDF;color:#FF6600;font-weight:bold;background-color:#000000;" height="18px">BLACK HAWK DOWN</td>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Autor</td>
+							<td align="center" width="12%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Apophis</td>
+						</tr>
+						<tr>
+							<td align="justify" width="100%" style="border:solid 1px Gray;text-align:justify;" colspan="5">Mise BLACK HAWK DOWN od APOFYSE<BR><BR>-Potřebné addony: ČSLA II-Update 1<BR><BR>-Hrajete za velitele speciálního týmu, který má za úkol zachránit sestřelené<BR> vojáky za nepřátelskou linií a projít s nimi přes nepřátelké území na evakuční místo.</td>
+						</tr>
+						<tr>
+							<td colspan="5" width="100%" height="2px" style="border-style:none;"></td>
+						</tr>
+						<tr>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Datum</td>
+							<td align="center" width="10%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">16. 9. 2006</td>
+							<td align="center" width="55%" style="border:solid 1px #DFDFDF;color:#FF6600;font-weight:bold;background-color:#000000;" height="18px">Area 81</td>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Autor</td>
+							<td align="center" width="12%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">EMSI</td>
+						</tr>
+						<tr>
+							<td align="justify" width="100%" style="border:solid 1px Gray;text-align:justify;" colspan="5">Americké jednotky sa vylodili na juhu Everonu.<BR>Sovietske narýchlo vybudované obranné postavenia nedokážu zastaviť rýchly postup američanov do vnútrozemia.<BR>Treba rýchlo povolať leteckú podporu na zastavenie invázie už na začiatku ...<BR>--------------------------------------------------------------------------<BR>EMSI - MHstudio © 2oo6</td>
+						</tr>
+						<tr>
+							<td colspan="5" width="100%" height="2px" style="border-style:none;"></td>
+						</tr>
+						<tr>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Datum</td>
+							<td align="center" width="10%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">24. 8. 2006</td>
+							<td align="center" width="55%" style="border:solid 1px #DFDFDF;color:#FF6600;font-weight:bold;background-color:#000000;" height="18px">Horké Vrtule</td>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Autor</td>
+							<td align="center" width="12%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">deepthroat-</td>
+						</tr>
+						<tr>
+							<td align="justify" width="100%" style="border:solid 1px Gray;text-align:justify;" colspan="5">Moje první mise kterou jsem se odvážil zveřejnit. No... za moc nestojí, ale myslim že bude nejlepší když si uděláte obrázek sami...</td>
+						</tr>
+						<tr>
+							<td colspan="5" width="100%" height="2px" style="border-style:none;"></td>
+						</tr>
+						<tr>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Datum</td>
+							<td align="center" width="10%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">13. 8. 2006</td>
+							<td align="center" width="55%" style="border:solid 1px #DFDFDF;color:#FF6600;font-weight:bold;background-color:#000000;" height="18px">Tenká žlutá linie</td>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Autor</td>
+							<td align="center" width="12%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">M&#225;ňa (on)</td>
+						</tr>
+						<tr>
+							<td align="justify" width="100%" style="border:solid 1px Gray;text-align:justify;" colspan="5">Kampaň za Rusy s vlastním příběhem a bez propagace komunismu.</td>
+						</tr>
+						<tr>
+							<td colspan="5" width="100%" height="2px" style="border-style:none;"></td>
+						</tr>
+						<tr>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Datum</td>
+							<td align="center" width="10%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">9. 8. 2006</td>
+							<td align="center" width="55%" style="border:solid 1px #DFDFDF;color:#FF6600;font-weight:bold;background-color:#000000;" height="18px">Scout</td>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Autor</td>
+							<td align="center" width="12%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">EMSI</td>
+						</tr>
+						<tr>
+							<td align="justify" width="100%" style="border:solid 1px Gray;text-align:justify;" colspan="5">Na rusmi obsadenom Everone budete vysadený z člna,<BR>aby ste kontaktovali miestne partyzánske hnutie,<BR>pomocou ktorého nájdete ukrytý SCUD a následne naň navediete<BR>vysielačkou bombardéry.</td>
+						</tr>
+						<tr>
+							<td colspan="5" width="100%" height="2px" style="border-style:none;"></td>
+						</tr>
+						<tr>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Datum</td>
+							<td align="center" width="10%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">29. 7. 2006</td>
+							<td align="center" width="55%" style="border:solid 1px #DFDFDF;color:#FF6600;font-weight:bold;background-color:#000000;" height="18px">Psycho Slayer 6.0rc4</td>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Autor</td>
+							<td align="center" width="12%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">5133p39</td>
+						</tr>
+						<tr>
+							<td align="justify" width="100%" style="border:solid 1px Gray;text-align:justify;" colspan="5">!!! POZNAMKA PRO SPRAVCE: neslo mi upnout cely balik se vsemi addony (18MB) - zrejme vyprsela session, upload jakoby dobehl a pak to po me chtelo abych se znovu prihlasil. Posilam tedy jen misi samotnou, pricemz v textaku jsou uvedene 100% funkcni odkazy pro stazeni potrebnych 5ti addonu.<BR>KONEC POZNAMKY, nasleduje text do "mission news":<BR><BR>Jde o totalni remake mise zname pod jmenem "Find the Serialkiller v2.00" by [City Cobra].<BR>Vypujcil jsem si zakladni ideu, ale tim to konci, vsechno ostatni je nove.</td>
+						</tr>
+						<tr>
+							<td colspan="5" width="100%" height="2px" style="border-style:none;"></td>
+						</tr>
+						<tr>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Datum</td>
+							<td align="center" width="10%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">20. 7. 2006</td>
+							<td align="center" width="55%" style="border:solid 1px #DFDFDF;color:#FF6600;font-weight:bold;background-color:#000000;" height="18px">Tři králové</td>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Autor</td>
+							<td align="center" width="12%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Ježuro</td>
+						</tr>
+						<tr>
+							<td align="justify" width="100%" style="border:solid 1px Gray;text-align:justify;" colspan="5">Pokud tohle čtete, znamená to, že sem se konečně udobřil s uploaderem a vy si odsud mužete stáhnout Tři krále ve verzi 1.06, která by snad už doufejme měla být celkem obstojně hratelná. Mezi vylepšení patří odstranění chybových skriptovacích logů, vylepšení AI protivníků a nějaká ta nová radiová hláška</td>
+						</tr>
+						<tr>
+							<td colspan="5" width="100%" height="2px" style="border-style:none;"></td>
+						</tr>
+						<tr>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Datum</td>
+							<td align="center" width="10%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">7. 7. 2006</td>
+							<td align="center" width="55%" style="border:solid 1px #DFDFDF;color:#FF6600;font-weight:bold;background-color:#000000;" height="18px">The War...</td>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Autor</td>
+							<td align="center" width="12%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">W4S3K</td>
+						</tr>
+						<tr>
+							<td align="justify" width="100%" style="border:solid 1px Gray;text-align:justify;" colspan="5">Pozor, pozor: dojemné video pro celou rodinu !!! Vhodné jak pro nevinné dušičky, tak i pro vás...<BR><BR>Vlastně o nic nejde... a sme doma...</td>
+						</tr>
+						<tr>
+							<td colspan="5" width="100%" height="2px" style="border-style:none;"></td>
+						</tr>
+						<tr>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Datum</td>
+							<td align="center" width="10%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">6. 7. 2006</td>
+							<td align="center" width="55%" style="border:solid 1px #DFDFDF;color:#FF6600;font-weight:bold;background-color:#000000;" height="18px">Operation AMBER</td>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Autor</td>
+							<td align="center" width="12%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">EMSI</td>
+						</tr>
+						<tr>
+							<td align="justify" width="100%" style="border:solid 1px Gray;text-align:justify;" colspan="5">Celá kampaň sa skladá zo 40 misií a z asi rovnakého počtu krátkych filmových ukážok. Približná doba hrania celej kampane je asi 30 hodín čistého času, pričom tento čas je iba mojím hrubým odhadom a určite sa bude líšiť u každého iného hráča. <BR><BR>V kampani sú misie zamerané predovšetkým na velenie malým jednotkám, alebo ako plnenie úloh "SÁM VOJAK V POLI". Počas hrania sa samozrejme nevyhnete ovládaniu tanku (resp. obrneného transportéra) a vrtuľníka či lietadla. Myslím si že každý si príde na svoje aj ako člen špeciálnych jednotiek SEALS. Treba si to proste zahrať.</td>
+						</tr>
+						<tr>
+							<td colspan="5" width="100%" height="2px" style="border-style:none;"></td>
+						</tr>
+						<tr>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Datum</td>
+							<td align="center" width="10%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">19. 6. 2006</td>
+							<td align="center" width="55%" style="border:solid 1px #DFDFDF;color:#FF6600;font-weight:bold;background-color:#000000;" height="18px">Rýchly tank!</td>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Autor</td>
+							<td align="center" width="12%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">tomo</td>
+						</tr>
+						<tr>
+							<td align="justify" width="100%" style="border:solid 1px Gray;text-align:justify;" colspan="5">Typ: Ptákovina<BR>Autor: tomo<BR>Verzia: Resistance 1.96<BR>Popis: Ak budete pozorný, uvidíte velmy rýchly Abrams!<BR>Ostrov: Desert Island</td>
+						</tr>
+						<tr>
+							<td colspan="5" width="100%" height="2px" style="border-style:none;"></td>
+						</tr>
+						<tr>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Datum</td>
+							<td align="center" width="10%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">23. 5. 2006</td>
+							<td align="center" width="55%" style="border:solid 1px #DFDFDF;color:#FF6600;font-weight:bold;background-color:#000000;" height="18px">Uprchlík</td>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Autor</td>
+							<td align="center" width="12%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Silver-Angel</td>
+						</tr>
+						<tr>
+							<td align="justify" width="100%" style="border:solid 1px Gray;text-align:justify;" colspan="5">Děj se odehrává na ostrově Nogova nedaleko vesničky Blata.Mise obsahuje intro a dabing.</td>
+						</tr>
+						<tr>
+							<td colspan="5" width="100%" height="2px" style="border-style:none;"></td>
+						</tr>
+						<tr>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Datum</td>
+							<td align="center" width="10%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">12. 5. 2006</td>
+							<td align="center" width="55%" style="border:solid 1px #DFDFDF;color:#FF6600;font-weight:bold;background-color:#000000;" height="18px">G_p_SPMissions_v1.2</td>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Autor</td>
+							<td align="center" width="12%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">gerous</td>
+						</tr>
+						<tr>
+							<td align="justify" width="100%" style="border:solid 1px Gray;text-align:justify;" colspan="5">G_p_SPMissions_v1.1 jsem našel malý chybičky tak jsem je opravil a posílám G_p_SPMissions_v1.2</td>
+						</tr>
+						<tr>
+							<td colspan="5" width="100%" height="2px" style="border-style:none;"></td>
+						</tr>
+						<tr>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Datum</td>
+							<td align="center" width="10%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">9. 5. 2006</td>
+							<td align="center" width="55%" style="border:solid 1px #DFDFDF;color:#FF6600;font-weight:bold;background-color:#000000;" height="18px">G_p_SPMissions_v1.1</td>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Autor</td>
+							<td align="center" width="12%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">gerous</td>
+						</tr>
+						<tr>
+							<td align="justify" width="100%" style="border:solid 1px Gray;text-align:justify;" colspan="5">G_p_SPMissions_v1.1 jsou trochu upravený předchozí mise ke kterým jsem přidal další tři nový mise. P.S.- Ten STRINGTABLE je bonus</td>
+						</tr>
+						<tr>
+							<td colspan="5" width="100%" height="2px" style="border-style:none;"></td>
+						</tr>
+						<tr>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Datum</td>
+							<td align="center" width="10%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">9. 5. 2006</td>
+							<td align="center" width="55%" style="border:solid 1px #DFDFDF;color:#FF6600;font-weight:bold;background-color:#000000;" height="18px">Hinds</td>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Autor</td>
+							<td align="center" width="12%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Sarge</td>
+						</tr>
+						<tr>
+							<td align="justify" width="100%" style="border:solid 1px Gray;text-align:justify;" colspan="5">Pár slov úvodem...<BR><BR>Na této misi jsem s velkými přestávkami pracoval téměř dva roky. Prošla řadou změn, a když porovnám to, co být měla a to co je, nestačím se místy divit. Rozhodně od ní nečekejte AAA titul, ani nějaký nový, revoluční druh mise. To určitě ne. Jde o misi kterou jsem v hlavě nosil celou dobu svého působení v OFP a jsem opravdu rád, že se mi ji podařilo přes všechna úskalí dotáhnout do konce. S největší pravděpodobností se také jedná o mou poslední misi v enginu OFP. Za měsíc mě čekají zkoušky a pak hurá do práce... (poslední dodělanou, nikoliv poslední uveřejněnou) Mise obsahuje i jistou formu "bonusu" který je v poslední době tak moc populární. není ale nijak ukryt, takže uniknout by neměl nikomu.</td>
+						</tr>
+						<tr>
+							<td colspan="5" width="100%" height="2px" style="border-style:none;"></td>
+						</tr>
+						<tr>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Datum</td>
+							<td align="center" width="10%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">18. 4. 2006</td>
+							<td align="center" width="55%" style="border:solid 1px #DFDFDF;color:#FF6600;font-weight:bold;background-color:#000000;" height="18px">Operace Klepeta 1 & 2</td>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Autor</td>
+							<td align="center" width="12%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Viktor</td>
+						</tr>
+						<tr>
+							<td align="justify" width="100%" style="border:solid 1px Gray;text-align:justify;" colspan="5">Je tomu již docela dlouho, co jsem vydal misi Operation Claws. Před časem byla zcela radikálně opravena, doplněna o pokračování a přejmenována na Operaci Klepeta. Balíček obsahuje obě dvě mise, proto není zrovna malý.<BR>Teď něco k příběhu, ten je jednoduchý: Rusové unášejí československého generála Nováka, kterého, podle čs. výzvědné služby, drží uvězněného na základně v Blatech, kde se bude v nejbližší době konat vojenská přehlídka, kterou přijde i Guba (samozřejmě, že nejede kvůli přehlídce).<BR>Do akce je povolán průzkumník Jan Kadlec se svými muži, má za úkol vysvobodit generála Nováka. Jestli se muto podaří či ne prozrazovat nebudu, to se dozvíte sami.<BR><BR>Na tvorbě mise se podíleli:<BR>Globus, Davis a RGR, tímto jim chci poděkovat za skvělou spolupráci a trpělivost se mnou. ;-)<BR><BR>Přeji příjemné zážitky a hodně zdaru!</td>
+						</tr>
+						<tr>
+							<td colspan="5" width="100%" height="2px" style="border-style:none;"></td>
+						</tr>
+						<tr>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Datum</td>
+							<td align="center" width="10%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">13. 3. 2006</td>
+							<td align="center" width="55%" style="border:solid 1px #DFDFDF;color:#FF6600;font-weight:bold;background-color:#000000;" height="18px">Stargate SG-3</td>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Autor</td>
+							<td align="center" width="12%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Sroty</td>
+						</tr>
+						<tr>
+							<td align="justify" width="100%" style="border:solid 1px Gray;text-align:justify;" colspan="5">Další mise ze světa Stargate....</td>
+						</tr>
+						<tr>
+							<td colspan="5" width="100%" height="2px" style="border-style:none;"></td>
+						</tr>
+						<tr>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Datum</td>
+							<td align="center" width="10%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">15. 2. 2006</td>
+							<td align="center" width="55%" style="border:solid 1px #DFDFDF;color:#FF6600;font-weight:bold;background-color:#000000;" height="18px">Ruská armáda</td>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Autor</td>
+							<td align="center" width="12%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">tomo</td>
+						</tr>
+						<tr>
+							<td align="justify" width="100%" style="border:solid 1px Gray;text-align:justify;" colspan="5">RUSKÁ ARMÁDA<BR><BR>Toto je opravená verzia Ruskej armády, opravuje:<BR>-problémy s decription.ext (Vynechávanie levelov)<BR>-upravuje misiu Tankový konvoj (Nepriatelské tanky sa pohybujú)<BR>------------------------------------------------------------------------------------------<BR>Názvy levelov sú v Angličtine, (Probémy s description)ale levely sú v Slovenčine!<BR>Ďakujem za porozumenie a dúfam že všetko pojde bez problémov.</td>
+						</tr>
+						<tr>
+							<td colspan="5" width="100%" height="2px" style="border-style:none;"></td>
+						</tr>
+						<tr>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Datum</td>
+							<td align="center" width="10%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">31. 1. 2006</td>
+							<td align="center" width="55%" style="border:solid 1px #DFDFDF;color:#FF6600;font-weight:bold;background-color:#000000;" height="18px">Ruská armáda</td>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Autor</td>
+							<td align="center" width="12%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">tomo</td>
+						</tr>
+						<tr>
+							<td align="justify" width="100%" style="border:solid 1px Gray;text-align:justify;" colspan="5">Ruská Armáda<BR><BR>Príbeh: Na Everone mal byť nastolený komunizmus ale niektorým ľuďom sa to nepáčilo a začali zabíjať nevinných civilistov, preto sa Everonská vláda rozhodla zavolať na pomoc Rusko.<BR>––––––––––––––––––––––––––––––––––––––––––––––––––<BR>Ostrovy: Everon, Kolgujev<BR>–––––––––––––––––––––––––––––––––––––––––––––––––<BR>Autor: Tomáš Alexy<BR><BR>Alias: tomo<BR><BR>Počet misií: 29<BR>––––––––––––––––––––––––––––––––––––––––––––––––––<BR>Verzia: Vyrobené vo verzii  Operation Flashpoint 1.46 (nie Resistance, to je čo?!)</td>
+						</tr>
+						<tr>
+							<td colspan="5" width="100%" height="2px" style="border-style:none;"></td>
+						</tr>
+						<tr>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Datum</td>
+							<td align="center" width="10%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">19. 1. 2006</td>
+							<td align="center" width="55%" style="border:solid 1px #DFDFDF;color:#FF6600;font-weight:bold;background-color:#000000;" height="18px">Bitva o maják</td>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Autor</td>
+							<td align="center" width="12%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Deli</td>
+						</tr>
+						<tr>
+							<td align="justify" width="100%" style="border:solid 1px Gray;text-align:justify;" colspan="5">Jste lehký raketometčík. Jste připraven na tvrdou skoušku? Určitě bitva o maják nebude zdaleka tak jednoduché jako se mohlo na první pohled zdát.</td>
+						</tr>
+						<tr>
+							<td colspan="5" width="100%" height="2px" style="border-style:none;"></td>
+						</tr>
+						<tr>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Datum</td>
+							<td align="center" width="10%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">25. 12. 2005</td>
+							<td align="center" width="55%" style="border:solid 1px #DFDFDF;color:#FF6600;font-weight:bold;background-color:#000000;" height="18px">G_p_SPMissions</td>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Autor</td>
+							<td align="center" width="12%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">gerous</td>
+						</tr>
+						<tr>
+							<td align="justify" width="100%" style="border:solid 1px Gray;text-align:justify;" colspan="5">G_p_SPMissions ten to balík obsahuje 18 misí, addony G_flags a editorupdate102 a upravený STRINGTABLE, který pochází od FDFmodu. Pěknou zábavu přeje Gerous</td>
+						</tr>
+						<tr>
+							<td colspan="5" width="100%" height="2px" style="border-style:none;"></td>
+						</tr>
+						<tr>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Datum</td>
+							<td align="center" width="10%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">2. 11. 2005</td>
+							<td align="center" width="55%" style="border:solid 1px #DFDFDF;color:#FF6600;font-weight:bold;background-color:#000000;" height="18px">Invázia 1968</td>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Autor</td>
+							<td align="center" width="12%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">tomo</td>
+						</tr>
+						<tr>
+							<td align="justify" width="100%" style="border:solid 1px Gray;text-align:justify;" colspan="5">Autor: tomo<BR>++++++++++++++++++++++++++++++++++++++++++++<BR>Typ: Kampaň<BR>Potrebná verzia: Resistance 1.96<BR>Strana: Civilista<BR>Ostrov: Nogova<BR>++++++++++++++++++++++++++++++++++++++++++++<BR>Si strážnikom na stavenisku v Petroviciach keď zrazu vtrhnú Rusy do Československa.<BR>++++++++++++++++++++++++++++++++++++++++++++<BR>Dúfam že sa vám kampaň bude lúbiť.<BR>P.S: Toto je opravená verzia</td>
+						</tr>
+						<tr>
+							<td colspan="5" width="100%" height="2px" style="border-style:none;"></td>
+						</tr>
+						<tr>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Datum</td>
+							<td align="center" width="10%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">23. 10. 2005</td>
+							<td align="center" width="55%" style="border:solid 1px #DFDFDF;color:#FF6600;font-weight:bold;background-color:#000000;" height="18px">Medic II.</td>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Autor</td>
+							<td align="center" width="12%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Cpt. Foley</td>
+						</tr>
+						<tr>
+							<td align="justify" width="100%" style="border:solid 1px Gray;text-align:justify;" colspan="5">MEDIC II.<BR>*********<BR>AUTOR: Cpt. Foley & Blackjabel<BR>ADD-ONY: Žádné, jen verze hry 1.75<BR>********<BR>POPIS: V roce 1984 jste v roli mladého seržanta vysláného na Everon objasnit ztrátu spojení, ale více zjistíte když si kapaň zahrajete ;)<BR><BR>Přejeme příjemnou a ničím nerušenou zábavu.</td>
+						</tr>
+						<tr>
+							<td colspan="5" width="100%" height="2px" style="border-style:none;"></td>
+						</tr>
+						<tr>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Datum</td>
+							<td align="center" width="10%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">7. 10. 2005</td>
+							<td align="center" width="55%" style="border:solid 1px #DFDFDF;color:#FF6600;font-weight:bold;background-color:#000000;" height="18px">Časostřelec</td>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Autor</td>
+							<td align="center" width="12%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">DiamantesTV</td>
+						</tr>
+						<tr>
+							<td align="justify" width="100%" style="border:solid 1px Gray;text-align:justify;" colspan="5">Kdo si chce orazit od obvyklého stylu hraní ofp,<BR>kdo má náladu na pořádnou ujetinu,<BR>nechť si našeho Časostřelce zahraje!<BR><BR>Archiv obsahuje instalátor, který nakopíruje všechny potřebné soubory modu a kampaně do vaší instalace Flashpointu.<BR>více informací na www.diamantestv.tk</td>
+						</tr>
+						<tr>
+							<td colspan="5" width="100%" height="2px" style="border-style:none;"></td>
+						</tr>
+						<tr>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Datum</td>
+							<td align="center" width="10%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">3. 10. 2005</td>
+							<td align="center" width="55%" style="border:solid 1px #DFDFDF;color:#FF6600;font-weight:bold;background-color:#000000;" height="18px">Akce North</td>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Autor</td>
+							<td align="center" width="12%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">mrsenclear</td>
+						</tr>
+						<tr>
+							<td align="justify" width="100%" style="border:solid 1px Gray;text-align:justify;" colspan="5">Ačkoliv je mise k dispozici ke stažení již na .InDesign studio, připojuji i k těmto stránkám. <BR>***Addony***<BR>US Marines Res version (odkaz přiložen v readme)<BR>***verze***<BR>1.00<BR>***potřebná verze hry***<BR>OFP 1.91</td>
+						</tr>
+						<tr>
+							<td colspan="5" width="100%" height="2px" style="border-style:none;"></td>
+						</tr>
+						<tr>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Datum</td>
+							<td align="center" width="10%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">19. 9. 2005</td>
+							<td align="center" width="55%" style="border:solid 1px #DFDFDF;color:#FF6600;font-weight:bold;background-color:#000000;" height="18px">Stowaway</td>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Autor</td>
+							<td align="center" width="12%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Anonymn&#237;</td>
+						</tr>
+						<tr>
+							<td align="justify" width="100%" style="border:solid 1px Gray;text-align:justify;" colspan="5">Story of chinese agent who almost found what happened on Cybelle island.</td>
+						</tr>
+						<tr>
+							<td colspan="5" width="100%" height="2px" style="border-style:none;"></td>
+						</tr>
+						<tr>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Datum</td>
+							<td align="center" width="10%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">24. 8. 2005</td>
+							<td align="center" width="55%" style="border:solid 1px #DFDFDF;color:#FF6600;font-weight:bold;background-color:#000000;" height="18px">Operation Claws</td>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Autor</td>
+							<td align="center" width="12%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Viktor</td>
+						</tr>
+						<tr>
+							<td align="justify" width="100%" style="border:solid 1px Gray;text-align:justify;" colspan="5">Toto je moje první mise z připravované serie, na sebe navazujících misí. Užijte si hraní a určitě si stáhněte její pokračování.</td>
+						</tr>
+						<tr>
+							<td colspan="5" width="100%" height="2px" style="border-style:none;"></td>
+						</tr>
+						<tr>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Datum</td>
+							<td align="center" width="10%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">19. 8. 2005</td>
+							<td align="center" width="55%" style="border:solid 1px #DFDFDF;color:#FF6600;font-weight:bold;background-color:#000000;" height="18px">Copeho pomsta</td>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Autor</td>
+							<td align="center" width="12%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">celoush</td>
+						</tr>
+						<tr>
+							<td align="justify" width="100%" style="border:solid 1px Gray;text-align:justify;" colspan="5">Po dlouhé době vydávám další misi, která je čistým pokusem o skloubení westernového žánru do enginu flashpointu.</td>
+						</tr>
+						<tr>
+							<td colspan="5" width="100%" height="2px" style="border-style:none;"></td>
+						</tr>
+						<tr>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Datum</td>
+							<td align="center" width="10%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">12. 7. 2005</td>
+							<td align="center" width="55%" style="border:solid 1px #DFDFDF;color:#FF6600;font-weight:bold;background-color:#000000;" height="18px">Kolgujev s Intry</td>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Autor</td>
+							<td align="center" width="12%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Xveith</td>
+						</tr>
+						<tr>
+							<td align="justify" width="100%" style="border:solid 1px Gray;text-align:justify;" colspan="5">Já v tom zmatku to tam dal bez Inter.Omlouvám se, toto verze s Intrama</td>
+						</tr>
+						<tr>
+							<td colspan="5" width="100%" height="2px" style="border-style:none;"></td>
+						</tr>
+						<tr>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Datum</td>
+							<td align="center" width="10%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">11. 7. 2005</td>
+							<td align="center" width="55%" style="border:solid 1px #DFDFDF;color:#FF6600;font-weight:bold;background-color:#000000;" height="18px">Boj o Kolgujev</td>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Autor</td>
+							<td align="center" width="12%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Xveith</td>
+						</tr>
+						<tr>
+							<td align="justify" width="100%" style="border:solid 1px Gray;text-align:justify;" colspan="5">Málá válka o malej ostrov. Většinou hraješ za velitele týmu.<BR>Jsou tam i Intra a outra pro lepší atmosféru.<BR>veith@chello.cz</td>
+						</tr>
+						<tr>
+							<td colspan="5" width="100%" height="2px" style="border-style:none;"></td>
+						</tr>
+						<tr>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Datum</td>
+							<td align="center" width="10%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">11. 7. 2005</td>
+							<td align="center" width="55%" style="border:solid 1px #DFDFDF;color:#FF6600;font-weight:bold;background-color:#000000;" height="18px">Kolgujev</td>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Autor</td>
+							<td align="center" width="12%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Xveith</td>
+						</tr>
+						<tr>
+							<td align="justify" width="100%" style="border:solid 1px Gray;text-align:justify;" colspan="5">Taková normální malá válka na Kolgujevu.<BR>Tu kampaň jsem začal tvořit už dávno, a tak jsem si řek že to musim dokončit, když jsem měl konečně čas.</td>
+						</tr>
+						<tr>
+							<td colspan="5" width="100%" height="2px" style="border-style:none;"></td>
+						</tr>
+						<tr>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Datum</td>
+							<td align="center" width="10%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">1. 7. 2005</td>
+							<td align="center" width="55%" style="border:solid 1px #DFDFDF;color:#FF6600;font-weight:bold;background-color:#000000;" height="18px">Legends of OFP</td>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Autor</td>
+							<td align="center" width="12%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Bobor SK</td>
+						</tr>
+						<tr>
+							<td align="justify" width="100%" style="border:solid 1px Gray;text-align:justify;" colspan="5">Autor: Bobor SK<BR>Podakovanie: Gaia  - priebezne betatesty a rady<BR>	     Spawn - betatest<BR>Typ: Video<BR>Potrebne addony:<BR>bsk_lofp.pbo - pribaleny</td>
+						</tr>
+						<tr>
+							<td colspan="5" width="100%" height="2px" style="border-style:none;"></td>
+						</tr>
+						<tr>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Datum</td>
+							<td align="center" width="10%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">24. 6. 2005</td>
+							<td align="center" width="55%" style="border:solid 1px #DFDFDF;color:#FF6600;font-weight:bold;background-color:#000000;" height="18px">Čistka IV</td>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Autor</td>
+							<td align="center" width="12%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Honzkurk</td>
+						</tr>
+						<tr>
+							<td align="justify" width="100%" style="border:solid 1px Gray;text-align:justify;" colspan="5">Operace &quot;čistka&quot; je tu již počtvrté.<BR>Opět tři muži, jedna vesnice a mnoho nepřátel, zvládnou to ? To, záleží jen na vás</td>
+						</tr>
+						<tr>
+							<td colspan="5" width="100%" height="2px" style="border-style:none;"></td>
+						</tr>
+						<tr>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Datum</td>
+							<td align="center" width="10%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">17. 6. 2005</td>
+							<td align="center" width="55%" style="border:solid 1px #DFDFDF;color:#FF6600;font-weight:bold;background-color:#000000;" height="18px">Protiútok</td>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Autor</td>
+							<td align="center" width="12%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Deli</td>
+						</tr>
+						<tr>
+							<td align="justify" width="100%" style="border:solid 1px Gray;text-align:justify;" colspan="5">Děláno ve verzi 1.96<BR><BR>Skoušeno na 1.75<BR><BR>Ostrov:Desert Island<BR><BR>Autor:Deli<BR><BR>Doba hrani:1 rok<BR><BR>Doba editace:1 měsíc<BR><BR>Přeji příjemnou zábavu a nezapoměnte hlasovat ad vím jak na to jsem. :o)                     <BR><BR></td>
+						</tr>
+						<tr>
+							<td colspan="5" width="100%" height="2px" style="border-style:none;"></td>
+						</tr>
+						<tr>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Datum</td>
+							<td align="center" width="10%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">16. 6. 2005</td>
+							<td align="center" width="55%" style="border:solid 1px #DFDFDF;color:#FF6600;font-weight:bold;background-color:#000000;" height="18px">Hlidka</td>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Autor</td>
+							<td align="center" width="12%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Deli</td>
+						</tr>
+						<tr>
+							<td align="justify" width="100%" style="border:solid 1px Gray;text-align:justify;" colspan="5">Dělano ve verzi 1.96<BR>Adony žádné<BR>Pošlape ve verzi 1.45 1.75<BR>a  možná i 1.00<BR></td>
+						</tr>
+						<tr>
+							<td colspan="5" width="100%" height="2px" style="border-style:none;"></td>
+						</tr>
+						<tr>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Datum</td>
+							<td align="center" width="10%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">4. 6. 2005</td>
+							<td align="center" width="55%" style="border:solid 1px #DFDFDF;color:#FF6600;font-weight:bold;background-color:#000000;" height="18px">Zastavte Rusy!</td>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Autor</td>
+							<td align="center" width="12%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">tubitu</td>
+						</tr>
+						<tr>
+							<td align="justify" width="100%" style="border:solid 1px Gray;text-align:justify;" colspan="5">Mise: Zastavte Rusy. <BR>Autor: Tubitu. <BR>Kontakt na autora: kubik.langos@seznam.cz. <BR>Verze: 1.91<BR>Addony: PCMidway - je přibalen k misi, stačí ho jen dát do složky Addons. <BR>Typ mise: pěchotní střílečka<BR>Poznámka: na začátku mise nezůstávejte uprostřed základny! Držte se rozkazu a <BR>nastupte ke kulometu! Sami uvidíte, proč. </td>
+						</tr>
+						<tr>
+							<td colspan="5" width="100%" height="2px" style="border-style:none;"></td>
+						</tr>
+						<tr>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Datum</td>
+							<td align="center" width="10%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">4. 6. 2005</td>
+							<td align="center" width="55%" style="border:solid 1px #DFDFDF;color:#FF6600;font-weight:bold;background-color:#000000;" height="18px">16 In 1</td>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Autor</td>
+							<td align="center" width="12%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">gerous</td>
+						</tr>
+						<tr>
+							<td align="justify" width="100%" style="border:solid 1px Gray;text-align:justify;" colspan="5">V G_p_SPMissions v misi G)Buck je &quot;malá&quot; chyba,kdy po rádiových hláškách nepřijedou Buffalo a Yenkee podpořit pěchotu,protože mají v prvním bodu trasy napsáno v podmínce rB a rY místo r1 a r2. Proto posílám tuto opravenou verzi G)Buck.  Gerous</td>
+						</tr>
+						<tr>
+							<td colspan="5" width="100%" height="2px" style="border-style:none;"></td>
+						</tr>
+						<tr>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Datum</td>
+							<td align="center" width="10%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">2. 6. 2005</td>
+							<td align="center" width="55%" style="border:solid 1px #DFDFDF;color:#FF6600;font-weight:bold;background-color:#000000;" height="18px">16 In 1</td>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Autor</td>
+							<td align="center" width="12%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">gerous</td>
+						</tr>
+						<tr>
+							<td align="justify" width="100%" style="border:solid 1px Gray;text-align:justify;" colspan="5">Toto je balík 16-ti misí, který nahrazuje mise : AČR-Morton, AČR-Pašeráci, AČR-Tungusky a balík misí &quot;8 In 1&quot;.</td>
+						</tr>
+						<tr>
+							<td colspan="5" width="100%" height="2px" style="border-style:none;"></td>
+						</tr>
+						<tr>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Datum</td>
+							<td align="center" width="10%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">21. 5. 2005</td>
+							<td align="center" width="55%" style="border:solid 1px #DFDFDF;color:#FF6600;font-weight:bold;background-color:#000000;" height="18px">Noční můra</td>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Autor</td>
+							<td align="center" width="12%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Gaia</td>
+						</tr>
+						<tr>
+							<td align="justify" width="100%" style="border:solid 1px Gray;text-align:justify;" colspan="5">Na tvorbě mise se začalo koncem roku 2003 a kvůli organizačním změnám se na ní tehdy pozapomělo, proto může působit poněkud zastarale. Od počátku je tvořena tak, aby bez přidavného scriptování vytáhla z OFP maximum, takže se nedivte, bude-li se vám zdát příliš těžká.<BR>Pro bližší informace navštivte stránku GS-Modu: http://gsmod.wz.cz.</td>
+						</tr>
+						<tr>
+							<td colspan="5" width="100%" height="2px" style="border-style:none;"></td>
+						</tr>
+						<tr>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Datum</td>
+							<td align="center" width="10%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">10. 5. 2005</td>
+							<td align="center" width="55%" style="border:solid 1px #DFDFDF;color:#FF6600;font-weight:bold;background-color:#000000;" height="18px">Útok z pouště</td>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Autor</td>
+							<td align="center" width="12%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">flegmouš</td>
+						</tr>
+						<tr>
+							<td align="justify" width="100%" style="border:solid 1px Gray;text-align:justify;" colspan="5">Autor: Flegmouš<BR>Mise: Útok z pouště<BR>Addony: jen oficiální<BR>Verze: děláno přes verzi 1.96, ale fungovat by měla i ve verzi 1.75<BR>Typ mise: pěchotní střílečka<BR>Kontakt na autora: honza.nohavica@seznam.cz<BR><BR><BR></td>
+						</tr>
+						<tr>
+							<td colspan="5" width="100%" height="2px" style="border-style:none;"></td>
+						</tr>
+						<tr>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Datum</td>
+							<td align="center" width="10%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">30. 4. 2005</td>
+							<td align="center" width="55%" style="border:solid 1px #DFDFDF;color:#FF6600;font-weight:bold;background-color:#000000;" height="18px">Návrat 1.1</td>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Autor</td>
+							<td align="center" width="12%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Nezn&#225;m&#253;</td>
+						</tr>
+						<tr>
+							<td align="justify" width="100%" style="border:solid 1px Gray;text-align:justify;" colspan="5">AUtor: Neznámý<BR>Potřebná verze: 1.75<BR>Addony- pouze oficiání<BR>Poznámka: toto je opravená verze mise, kterou jsem opravil, abyste se vůbec dostali <BR>na souš ze člunu a na radu Kubi jsem dal jednotkám jiné místo vylodění. </td>
+						</tr>
+						<tr>
+							<td colspan="5" width="100%" height="2px" style="border-style:none;"></td>
+						</tr>
+						<tr>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Datum</td>
+							<td align="center" width="10%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">28. 4. 2005</td>
+							<td align="center" width="55%" style="border:solid 1px #DFDFDF;color:#FF6600;font-weight:bold;background-color:#000000;" height="18px">Obrana základny</td>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Autor</td>
+							<td align="center" width="12%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">tubitu</td>
+						</tr>
+						<tr>
+							<td align="justify" width="100%" style="border:solid 1px Gray;text-align:justify;" colspan="5">Autor: Tubitu<BR>Název mise: Obrana základny<BR>Potřebná verze: 1.75 Resistence<BR>Addony: pouze oficiální<BR>Typ mise: pěchotní střílečka</td>
+						</tr>
+						<tr>
+							<td colspan="5" width="100%" height="2px" style="border-style:none;"></td>
+						</tr>
+						<tr>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Datum</td>
+							<td align="center" width="10%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">23. 4. 2005</td>
+							<td align="center" width="55%" style="border:solid 1px #DFDFDF;color:#FF6600;font-weight:bold;background-color:#000000;" height="18px">Návrat</td>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Autor</td>
+							<td align="center" width="12%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Nezn&#225;m&#253;</td>
+						</tr>
+						<tr>
+							<td align="justify" width="100%" style="border:solid 1px Gray;text-align:justify;" colspan="5">Autor: Neznámý<BR>Potřebný patch: 1.75<BR>Addony: žádné<BR>Poznámka: Toto je další mise z mé kampaně. Protože se zde moc nových misí neobjevilo,  tak jsem si řekl, že vám pošlu další svou misi. <BR></td>
+						</tr>
+						<tr>
+							<td colspan="5" width="100%" height="2px" style="border-style:none;"></td>
+						</tr>
+						<tr>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Datum</td>
+							<td align="center" width="10%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">11. 4. 2005</td>
+							<td align="center" width="55%" style="border:solid 1px #DFDFDF;color:#FF6600;font-weight:bold;background-color:#000000;" height="18px">Boj o základnu</td>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Autor</td>
+							<td align="center" width="12%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Nezn&#225;m&#253;</td>
+						</tr>
+						<tr>
+							<td align="justify" width="100%" style="border:solid 1px Gray;text-align:justify;" colspan="5">Autor: Neznámý<BR>Potřebná verze: 1.75<BR>Addony: Žádné<BR>Poznámka: toto je další mise z mě kampaně a také poslední, kterou vám tady ukážu ještě před dokončením celé kampaně, <BR>možná, že pošlu ještě další misi, ale v nejbližší době ne. Tato mise je několikrát předělaná a toto je konečné zpracování. <BR></td>
+						</tr>
+						<tr>
+							<td colspan="5" width="100%" height="2px" style="border-style:none;"></td>
+						</tr>
+						<tr>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Datum</td>
+							<td align="center" width="10%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">10. 4. 2005</td>
+							<td align="center" width="55%" style="border:solid 1px #DFDFDF;color:#FF6600;font-weight:bold;background-color:#000000;" height="18px">Poslední rozbřesk 1.1</td>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Autor</td>
+							<td align="center" width="12%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Hurby</td>
+						</tr>
+						<tr>
+							<td align="justify" width="100%" style="border:solid 1px Gray;text-align:justify;" colspan="5">Opravená verze mojí první zveřejněné mise, sosejte ;)<BR>Výčet opravených a přidaných věcí je v ReadMe</td>
+						</tr>
+						<tr>
+							<td colspan="5" width="100%" height="2px" style="border-style:none;"></td>
+						</tr>
+						<tr>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Datum</td>
+							<td align="center" width="10%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">10. 4. 2005</td>
+							<td align="center" width="55%" style="border:solid 1px #DFDFDF;color:#FF6600;font-weight:bold;background-color:#000000;" height="18px">Konvoj</td>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Autor</td>
+							<td align="center" width="12%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Nezn&#225;m&#253;</td>
+						</tr>
+						<tr>
+							<td align="justify" width="100%" style="border:solid 1px Gray;text-align:justify;" colspan="5">Autor: Neznámý. <BR>Potřebná verze OFP: 1.75. <BR>Addony: pouze ty, které jsou ve verzi 1.75, takže žádné jiné nepotřebujete. <BR></td>
+						</tr>
+						<tr>
+							<td colspan="5" width="100%" height="2px" style="border-style:none;"></td>
+						</tr>
+						<tr>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Datum</td>
+							<td align="center" width="10%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">7. 4. 2005</td>
+							<td align="center" width="55%" style="border:solid 1px #DFDFDF;color:#FF6600;font-weight:bold;background-color:#000000;" height="18px">Poslední rozbřesk</td>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Autor</td>
+							<td align="center" width="12%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Hurby</td>
+						</tr>
+						<tr>
+							<td align="justify" width="100%" style="border:solid 1px Gray;text-align:justify;" colspan="5">Moje první uveřejněná mise (Hard Day se nepočítá, tam jsem dělal jenom ošklivé intro a jednu cutscénu ;), tak doufám že se vám bude líbit. Jedná se o útok na kopec a vy velíte 5ti mužům pod svým velením a koordinujete akci. Jediný problém by se mohl vyskytnout v množství objektů a kouře, sice jsem to testoval na sestavě AMD Athlon 1600+, 512MB RAM, ATI Radeon 9600 a jelo to plynule, pro všechny případy jsem tam ale zamontoval benchmark :) Více info v readme...</td>
+						</tr>
+						<tr>
+							<td colspan="5" width="100%" height="2px" style="border-style:none;"></td>
+						</tr>
+						<tr>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Datum</td>
+							<td align="center" width="10%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">7. 4. 2005</td>
+							<td align="center" width="55%" style="border:solid 1px #DFDFDF;color:#FF6600;font-weight:bold;background-color:#000000;" height="18px">Souhra Náhod</td>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Autor</td>
+							<td align="center" width="12%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Kuba</td>
+						</tr>
+						<tr>
+							<td align="justify" width="100%" style="border:solid 1px Gray;text-align:justify;" colspan="5">Mise, kterou si doufám spravím nebo získám reputaci. Mise stylu klasického Flashpointu, něco jako bylo vidět v originální kampani. Omlouvám se za chybějící intro, co jsem vytvořil stálo za takovou tu hnědou věc, takže jsem děj napsal do overwiev, nekamenovat prosím :) Upozornění: Vypněte si Super AI, v této misi je spíše na škodu než k užitku...</td>
+						</tr>
+						<tr>
+							<td colspan="5" width="100%" height="2px" style="border-style:none;"></td>
+						</tr>
+						<tr>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Datum</td>
+							<td align="center" width="10%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">7. 4. 2005</td>
+							<td align="center" width="55%" style="border:solid 1px #DFDFDF;color:#FF6600;font-weight:bold;background-color:#000000;" height="18px">Tanková loupež</td>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Autor</td>
+							<td align="center" width="12%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Nezn&#225;m&#253;</td>
+						</tr>
+						<tr>
+							<td align="justify" width="100%" style="border:solid 1px Gray;text-align:justify;" colspan="5">Toto je má mise jménem Tanková loupež. Je to 6. mise z mé kampaně, na které pracuji. </td>
+						</tr>
+						<tr>
+							<td colspan="5" width="100%" height="2px" style="border-style:none;"></td>
+						</tr>
+						<tr>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Datum</td>
+							<td align="center" width="10%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">8. 3. 2005</td>
+							<td align="center" width="55%" style="border:solid 1px #DFDFDF;color:#FF6600;font-weight:bold;background-color:#000000;" height="18px">Průzkum</td>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Autor</td>
+							<td align="center" width="12%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">maniak</td>
+						</tr>
+						<tr>
+							<td align="justify" width="100%" style="border:solid 1px Gray;text-align:justify;" colspan="5">Vzlétnete na rutinní průzkum vzdálené části ostrova. Objevíte někoho, kdo tam být nemá a tak se vrátíte zpět, abyjste se ho zbavili.<BR><BR>Je to moje první mise na internetu, tak toho moc neočekávejte!</td>
+						</tr>
+						<tr>
+							<td colspan="5" width="100%" height="2px" style="border-style:none;"></td>
+						</tr>
+						<tr>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Datum</td>
+							<td align="center" width="10%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">2. 2. 2005</td>
+							<td align="center" width="55%" style="border:solid 1px #DFDFDF;color:#FF6600;font-weight:bold;background-color:#000000;" height="18px">Ofenziva</td>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Autor</td>
+							<td align="center" width="12%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">mr.senclear</td>
+						</tr>
+						<tr>
+							<td align="justify" width="100%" style="border:solid 1px Gray;text-align:justify;" colspan="5">** OFENZIVA **<BR>Autor : Mr. senclear<BR>VERZE : 1.0<BR>VYŽADUJE : OFP Resistance 1.97<BR>ZNÁMÉ CHYBY : Řidič jede občas na bojiště jako ožralý, při obraně tábora musíte vyčistit celé pole! Přehopkejte minové pole a vyčistěte to na kopci, pak se přesunete dál v misi.<BR>POZOR : Mise se odehrává v alternativní minulosti (jaká 1. světová válka v roce 1972?)čemuž odpovídá systém bojů. Byli použity zvuky explozí z Half - life 2</td>
+						</tr>
+						<tr>
+							<td colspan="5" width="100%" height="2px" style="border-style:none;"></td>
+						</tr>
+						<tr>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Datum</td>
+							<td align="center" width="10%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">5. 1. 2005</td>
+							<td align="center" width="55%" style="border:solid 1px #DFDFDF;color:#FF6600;font-weight:bold;background-color:#000000;" height="18px">Tanková bouře</td>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Autor</td>
+							<td align="center" width="12%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">KDFP</td>
+						</tr>
+						<tr>
+							<td align="justify" width="100%" style="border:solid 1px Gray;text-align:justify;" colspan="5">Ruské jednotky se definitivně rozhodli vykopat složky NATO z Everonu a tak se pouští do riskantní akce, kterou by si mohli zajistit centrální část ostrova (hl. město Montignac) a tím zlomit nepřítele. Ruské velitelství vybralo zkušenou tankovou jednotku Zulu.....</td>
+						</tr>
+						<tr>
+							<td colspan="5" width="100%" height="2px" style="border-style:none;"></td>
+						</tr>
+						<tr>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Datum</td>
+							<td align="center" width="10%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">1. 12. 2004</td>
+							<td align="center" width="55%" style="border:solid 1px #DFDFDF;color:#FF6600;font-weight:bold;background-color:#000000;" height="18px">Výcvik</td>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Autor</td>
+							<td align="center" width="12%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">TheRaptor</td>
+						</tr>
+						<tr>
+							<td align="justify" width="100%" style="border:solid 1px Gray;text-align:justify;" colspan="5">Toto je 4 minutová videomise ukazující záběry výcviku Ruských vojáků a &quot;paintbalového&quot; klání 2 týmů speznatz. K videu hraje hudba použitá z ČSLA 2 a Royal Gigolos. Mise zabírá 1.6 Mb a byla vytvořena za 2 dny, takže nečekejte nic světoborného. Původně měla soužit jen jako ukázková mise, ale nakonec jsem se ji rozhodl poměrně rozvést, protože jsem nechtěl nechat ležet ladem potenciál, který v této části Flashpoint nabízí.<BR><BR>Přeji příjemnou zábavu při sledování této videomise.<BR>                                                               TheRaptor</td>
+						</tr>
+						<tr>
+							<td colspan="5" width="100%" height="2px" style="border-style:none;"></td>
+						</tr>
+						<tr>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Datum</td>
+							<td align="center" width="10%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">16. 11. 2004</td>
+							<td align="center" width="55%" style="border:solid 1px #DFDFDF;color:#FF6600;font-weight:bold;background-color:#000000;" height="18px">Assault</td>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Autor</td>
+							<td align="center" width="12%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Kuba</td>
+						</tr>
+						<tr>
+							<td align="justify" width="100%" style="border:solid 1px Gray;text-align:justify;" colspan="5">Dosti maso-mise. Bude se Vám nejspíš dost cukat (já mám Duron 1300, GeForce 2 a 256 MB Ram), jde mi to ze začátku rychlostí 1 frame za desetinu sekundy... :-( pokud máte víc tak to snad půjde dobře, Hurbymu se to údajně necukalo. Příjemnou zábavu!</td>
+						</tr>
+						<tr>
+							<td colspan="5" width="100%" height="2px" style="border-style:none;"></td>
+						</tr>
+						<tr>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Datum</td>
+							<td align="center" width="10%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">16. 11. 2004</td>
+							<td align="center" width="55%" style="border:solid 1px #DFDFDF;color:#FF6600;font-weight:bold;background-color:#000000;" height="18px">Sanitka</td>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Autor</td>
+							<td align="center" width="12%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">king</td>
+						</tr>
+						<tr>
+							<td align="justify" width="100%" style="border:solid 1px Gray;text-align:justify;" colspan="5">Název mise:  Sanitka<BR><BR>Ostrov:  Everon<BR><BR>Autor:  King<BR><BR>Kontakt:  king-004@seznam.cz<BR><BR>Addony:  ČSLA mod verze 2.02 (lze stáhnout z http://flashpoint.tiscali.cz nebo<BR>         www.operationflashpoint.cz)<BR><BR>         Editorupdate 102 (přiložen k misi)<BR><BR>Intro:  Ano<BR><BR>Outro:  Žádné<BR><BR>Stručný obsah: Jako řidič sanitního OT-64 máte přivézt do nemocnice raněného.<BR>               <BR>Poděkování:  Autorům Ruprtova EditorHelpu a těm, kteří si tuto misi zahrají.</td>
+						</tr>
+						<tr>
+							<td colspan="5" width="100%" height="2px" style="border-style:none;"></td>
+						</tr>
+						<tr>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Datum</td>
+							<td align="center" width="10%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">29. 10. 2004</td>
+							<td align="center" width="55%" style="border:solid 1px #DFDFDF;color:#FF6600;font-weight:bold;background-color:#000000;" height="18px">Boj o přežití</td>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Autor</td>
+							<td align="center" width="12%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">TheSun</td>
+						</tr>
+						<tr>
+							<td align="justify" width="100%" style="border:solid 1px Gray;text-align:justify;" colspan="5">=========Boj o přežití=======<BR>Potřebné addony: žádné<BR>Autor: TheSun<BR>Ostrov: Everon<BR>=============================<BR>Vedete zbytky partyzánských jednotek na Everonu.<BR>=============================<BR>pozn: Mise má dva konce o kterých se rozhoduje už v Regině</td>
+						</tr>
+						<tr>
+							<td colspan="5" width="100%" height="2px" style="border-style:none;"></td>
+						</tr>
+						<tr>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Datum</td>
+							<td align="center" width="10%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">24. 9. 2004</td>
+							<td align="center" width="55%" style="border:solid 1px #DFDFDF;color:#FF6600;font-weight:bold;background-color:#000000;" height="18px">Dravec</td>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Autor</td>
+							<td align="center" width="12%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Soudruh</td>
+						</tr>
+						<tr>
+							<td align="justify" width="100%" style="border:solid 1px Gray;text-align:justify;" colspan="5">Název Mise: Dravec (Birth Of Prey)<BR>Autor:           LB Team<BR>Ostrov:         Everon<BR>---------------------------------------------------------------<BR>Vyžadovaná verze:1.96 Resistance<BR>Addony:Evi KA-50     http://ofp.gamezone.cz/index.php?sekce=unofaddons/aircrafts&archiv=true&page=7<BR>             T55 East      http://ofp.gamezone.cz/index.php?showthis=2850<BR>             Editor Upgrade102  stáhnete i u nás ofp-lbteam.wz.cz/uvodnik.htm (v sekci addony ve zbytku addonu)<BR>--------------------------------------------------------------<BR>Za Ruského pilota máte odrazit útok Amerických obrněných jednotek.Povede se vám to?<BR>--------------------------------------------------------------<BR>Kontakt:ofp-lbteam.wz.cz<BR>             opf.lbteam@seznam.cz</td>
+						</tr>
+						<tr>
+							<td colspan="5" width="100%" height="2px" style="border-style:none;"></td>
+						</tr>
+						<tr>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Datum</td>
+							<td align="center" width="10%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">17. 9. 2004</td>
+							<td align="center" width="55%" style="border:solid 1px #DFDFDF;color:#FF6600;font-weight:bold;background-color:#000000;" height="18px">X-ray</td>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Autor</td>
+							<td align="center" width="12%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Blackjabel</td>
+						</tr>
+						<tr>
+							<td align="justify" width="100%" style="border:solid 1px Gray;text-align:justify;" colspan="5">Po měsíci práce vydávám misi X-ray. Pro tuto misi potřebujete Seb Nam Pack 2 Full ke stažení na ofp.info.cz .<BR><BR>Doufám, že se vám tato mise bude líbit...<BR></td>
+						</tr>
+						<tr>
+							<td colspan="5" width="100%" height="2px" style="border-style:none;"></td>
+						</tr>
+						<tr>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Datum</td>
+							<td align="center" width="10%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">12. 9. 2004</td>
+							<td align="center" width="55%" style="border:solid 1px #DFDFDF;color:#FF6600;font-weight:bold;background-color:#000000;" height="18px">Sestřelen</td>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Autor</td>
+							<td align="center" width="12%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">LuckyM</td>
+						</tr>
+						<tr>
+							<td align="justify" width="100%" style="border:solid 1px Gray;text-align:justify;" colspan="5">Po mnoha měsících práce podává tým SgS výsledek... <BR>Projekt který se snaží vyzobrazit počínání sestřeleného pilota ve válečném konflitku...<BR>(Dále je součástí projektu Down 25minutový válečný snímek, který ukazuje osudy &quot;Modré&quot; sekce od jejího samotného příjezdu... Jeho podobu budete moci brzy zhlédnout)<BR><BR>Mise je naladěna hlavně dějem, který nekončí ani ji neopouští v jejím samém závěru. Dále je doplněna o spoustu cutscén, delší intro a závěrečné outro.<BR><BR>Příjemné zážitky a zábavu s misí Sestřelen <BR>                          <BR>                                      Tým Sarge studia</td>
+						</tr>
+						<tr>
+							<td colspan="5" width="100%" height="2px" style="border-style:none;"></td>
+						</tr>
+						<tr>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Datum</td>
+							<td align="center" width="10%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">10. 9. 2004</td>
+							<td align="center" width="55%" style="border:solid 1px #DFDFDF;color:#FF6600;font-weight:bold;background-color:#000000;" height="18px">Hard day</td>
+							<td align="center" width="9%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Autor</td>
+							<td align="center" width="12%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Kuba</td>
+						</tr>
+						<tr>
+							<td align="justify" width="100%" style="border:solid 1px Gray;text-align:justify;" colspan="5">Hard day v SP misích<BR><BR>První mise kterou Hurby&Kuba, neboli HU-KOV studios vytvořili a to sice do soutěže o VBS1. Je napsána špatnou angličtinou a mohou se vyskytnout bugy... Takže do testingu, my to pak opravíme. :-)</td>
+						</tr>
+						<tr>
+							<td colspan="5" width="100%" height="2px" style="border-style:none;"></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<!-- Topbar Area -->
+			<div class="TOP_AREA" id="TopArea">
+				<a id="linkNews" onmouseover="link_onMouseOver(this)" onmouseout="defaultInfo()" href="index.html">Novinky</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						<a id="linkNewsArchive" onmouseover="link_onMouseOver(this)" onmouseout="defaultInfo()" href="news-archive.html">Archív novinek</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<a id="linkTutors" onmouseover="link_onMouseOver(this)" onmouseout="defaultInfo()" href="tutorials.html">Tutoriály</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<a id="linkScripts" onmouseover="link_onMouseOver(this)" onmouseout="defaultInfo()" href="scripts.html">Scripty</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<a id="linkTips" onmouseover="link_onMouseOver(this)" onmouseout="defaultInfo()" href="tips-tricks.html">Tipy &amp; Triky</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<a id="linkDload" onmouseover="link_onMouseOver(this)" onmouseout="defaultInfo()" href="download.html">Download</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<a id="linkLinks" onmouseover="link_onMouseOver(this)" onmouseout="defaultInfo()" href="links.html">Odkazy</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			</div>
+			<!-- Title Area -->
+			<div id="TitleArea" class="TITLE_AREA">Odkazy</div>
+			<!-- Info Area -->
+			<div class="INFO_AREA" id="InfoArea"><br>Ruprtova poradna<br><br>ke hře<br><br>Operation Flashpoint®</div>
+			<!-- Right button Area -->
+			<div class="RIGHT_AREA" id="RightArea">
+			<!---->
+				<a href="mission-news.html"><img src="images/btns/missionnews1.jpg" class="RA_BTNS" style="border-width:0px; TOP:0px" name="btnMissionNews" id="btnMissionNews" onmouseover="btn_onMouseOver(this)" onmouseout="btn_onMouseOut(this)" onclick="btn_onClick(this);"></a>
+				<a href="sp-missions.html"><img src="images/btns/sp1.jpg" class="RA_BTNS" style="border-width:0px; TOP:32px" name="btnSP" id="btnSP" onmouseover="btn_onMouseOver(this)" onmouseout="btn_onMouseOut(this)" onclick="btn_onClick(this);"></a>
+				<a href="mp-missions.html"><img src="images/btns/mp1.jpg" class="RA_BTNS" style="border-width:0px; TOP:64px" name="btnMP" id="btnMP" onmouseover="btn_onMouseOver(this)" onmouseout="btn_onMouseOut(this)" onclick="btn_onClick(this);"></a>
+				<a href="campaigns.html"><img src="images/btns/camp1.jpg" class="RA_BTNS" style="border-width:0px; TOP:96px" name="btnCamp" id="btnCamp" onmouseover="btn_onMouseOver(this)" onmouseout="btn_onMouseOut(this)" onclick="btn_onClick(this);"></a>
+				<a href="video-missions.html"><img src="images/btns/video1.jpg" class="RA_BTNS" style="border-width:0px; TOP:128px" name="btnVideo" id="btnVideo" onmouseover="btn_onMouseOver(this)" onmouseout="btn_onMouseOut(this)" onclick="btn_onClick(this);"></a>
+				<a href="funny-missions.html"><img src="images/btns/ptak1.jpg" class="RA_BTNS" style="border-width:0px; TOP:160px" name="btnPtak" id="btnPtak" onmouseover="btn_onMouseOver(this)" onmouseout="btn_onMouseOut(this)" onclick="btn_onClick(this);"></a>
+				
+				<a class="RA_SQUAD_LINK" id="linkSquad" onmouseover="link_onMouseOver(this)" onmouseout="defaultInfo()"></a>
+			</div>
+		</div>
+		</center>
+	</body>
+</html>

@@ -1,0 +1,37 @@
+Jak jsem ničil Vulcan
+---------------------
+Toto je moje první (dokončená ;)) mise do OFP, takže nebude dokonalá, ale doufám že se u ní budete bavit. Jenom upozorňuji, že mise je pojata jako vyprávění a teké proto nesmí v průběhu mise nikdo z vašeho týmu zemřít.
+Mise byla tvořena hlavně do soutěže s ČSLA addonem, ale samozřejmě si ji může zahrát každý. Ta soutěž mi i pomohla, neboť jsem už pár misí začal tvořit, ale při sebemenším problému jsem se na to vykašlal, místo abych se zeptal nebo abych se na to zkusil přijít technikou pokus-omyl, teď jsem měl ale hodně velkou motivaci, takže tvorba došla až do zdárného konce. Pravděpodobně vyjde ještě druhá verze, neboť je zde pár věcí, na které jsem nepřišel a neměl jsem čas se na ně kvůli uzávěrce zeptat.
+
+
+Instalace: 	Skopírujte soubor "FI_Jak jsem ničil Vulcan.Eden.pbo" do adresáře 				Operation Flaspoint/Missions. Potom jen ve hře dejte jednotlivé mise a můžete 			hrát.
+
+Je třeba:	Pro spuštění mise je třeba ČSLA addon verze 1.1+upgrade 1.0 a EditorUpgrade 1.02
+
+Testováno na české verzi hry OFP v 1.42 na počítači Celeron 900 MHz, 384 MB Ram, GeForce2 MX400 a nebyly objeveny problémy, kromě níže popsaných.
+
+Problémy:	Při nástupu do šilky vás prvně posadí na místo velitele a potom vás vyhodí a 			přesune na místo střelce. Nevím proč, prvně to fungovalo normálně, ale potom to 		nějak začalo blbnout :(
+		Na mapě je nějaká čára přesunu, která navíc v editoru vůbec neí :(
+		Na po vystoupení z UAZ vám velitel zase přikáže nástup a pak zase výstup.
+		Jednou se mi stalo, že mise neskončila, když měla. Pokud by se tak nestalo, tak 		vězte, že mise končí po přistání letadel.
+		Všechny ostatní problémy jsou pouze kosmetického ráza, jako že vrtulníky startují 		ve špatném pořadí, nebo že voják někdy letadlo jednou obejde, než nastoupí a jde 		o problémy, které jsem nebyl schopen vyřešit. 
+
+ 
+
+
+
+Poděkování:
+/\/\/\/\/\/
+Musím poděkovat úplně všem, kdo se "stará" o nás, začátečníky v editování v OFP, mě nejvíce pomohlo forum na adrese http://bojler.olomouc.com (teda spíše lidé, kteří ho navštěvují ;)) a tutoriály na http://flashpoint.tiscali.cz. Tímto všem lidem, kteří mě takto pomohli (ať přímo odpovědí na můj dotaz, či dokonce vytvořím scriptu, které vůbec neovládám, tak i těm, kteří odpovědeli na cizí dotazy, jejichž odpovědi jsem též využil). Také děkuji těm, kteří tvoří různé manuály, které jsem také dva využil.
+A také děkuji vám, že jste si tuto misi stáhli a že si ji také (snad ;)) zahrajete
+Těch děkování by bylo více, ale kdybych se začal rozepisovat, mohli by mi ti, na které bych zapoměl, nadávat.
+
+
+Tipy a triky:
+-------------
+1. Jakmile uslyšíte, že někdo zemřel, dejte ihned menu a načíst nebo znovu.
+2. (nic jiného mě nenapadá, musíte si na vše přijít sami :))
+
+
+FastIkarus (FastIkarus@centrum.cz)
+

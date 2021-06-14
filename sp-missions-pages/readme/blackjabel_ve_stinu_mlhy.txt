@@ -1,0 +1,44 @@
+>>>>>>>>>>>>>>>>>>>>>>>>>>>> Ve stínu mlhy <<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+ :. AUTOR: 	Blackjabel
+
+ :. MAIL:	Blackjabel@seznam.cz
+
+ :. ICQ:	253482079
+
+ :. MY WEB:	http://www.blackjabel.webz.cz
+------------------------------------------------------------------------------
+ :. OSTROV: Everon
+
+ :. POTŘEBNÁ VERZE HRY: 1.96
+
+ :. POTŘEBNÉ ADDONY:
+
+	Laserův Delta / US Army Rangers	Units v.2.00 -	ftp://www.gamezone.cz:8021/ofpd/unofaddons2/LSR_Delta_Rangers_200.rar
+
+	Laserův US Weapons v.2.00                    -  ftp://www.gamezone.cz:8021/ofpd/unofaddons2/LSR_US_Weapons_Pack_200.rar
+------------------------------------------------------------------------------
+ :. INSTALACE: - soubory addonů zkopírujte do složky ...\Flashpoint\Addons
+	       - soubor vestinumlhy.eden.pbo zkopírujte do složky ...\Flashpoint\Missions
+
+ - Poděkování a poznámky:
+
+:. Při beta-testu fungovaly všechny scripty apod. bez problémů, ale kdyby někomu z vás dělala mise
+   nějaký kejkle, napište a pokusím se to opravit v dalším updatu.
+
+   Budu rád za všechny vaše připomínky či dotazy buď na Ruprtově foru, nebo na mém e-mailu.
+
+   Mise: v Durrasu neztrácejte trpělivost, všechno vždy běží jak má, nemějte obavy, že se nespustil
+   spínač apod.
+
+   Doporučení: vřele doporučuji nezrychlovat si během mise čas, jelikož dokáže dost rozhodit chování scriptů
+   a chování nepřítele způsobené někdy natvrdlou povahou AI v OFP.
+
+   Rada: Pokud vyskočíte při výsadku z Heliny dřív, dá vám velitel rozkaz Nastoupit ...., ale do helikoptéry
+   již nastoupit nelze, proto veliteli odpovězte "Nepovedlo se" a mise bude bez problémů pokračovat.
+
+   PODĚKOVÁNÍ a spolu-účast: 
+   - chtěl bych poděkovat betatesterům Escheovi a TheRaptorovi za jejich připomínky, návrhy apod.
+   - speciálně bych chtěl poděkovat TheRaptorovi za doladění mise a za script na výsadek vojáků.
+-------------------------------------------------------------------------------
+Nuže, teď vám jen přeji příjemnou zábavu a zkoste pár Rudochů za mne. (-;

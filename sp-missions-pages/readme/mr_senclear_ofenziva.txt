@@ -1,0 +1,10 @@
+NÁZEV       : Ofenziva
+VERZE       : 1.0
+TYP         : SP mise
+OSTROV      : Everon
+ADDON:      : měl by vyžadovat minimálně Resistance 1.97
+ZNÁMÉ CHYBY : Při cestě na bojiště řidič řídí trochu ožrale a při obraně musíte 
+              Vyčistit kompletně celé pole! Přejděte minové pole a postřílejte 
+              Ostatní!
+AUTOR       : Mr. Senclear
+POUŽITÉ     : zvuky z exploze z Half - life 2

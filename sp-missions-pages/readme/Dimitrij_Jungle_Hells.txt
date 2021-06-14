@@ -1,0 +1,44 @@
+Jungle Hells 
+
+Mission created by: dimitrij@centrum.cz
+Mission: Jungle Hells (Single Player)
+Island: SEB Ia Drang Valley
+Language: English
+Version: Resistance 1.85
+Addons: sebnampack2_full            ftp://www.gamezone.cz:8021/ofpd/mods/sebnampack2_full.zip
+        USMCsymbols                 http://ofp.gamezone.cz/unofaddons/144903_USMCsymbols.zip      
+        JAM2                        ftp://www.gamezone.cz:8021/ofpd/unofaddons2/JAM2.rar
+        editorupdate102             http://ofp.gamezone.cz/squad/!Ruprt/Download/Other/kegetyseditoraddon10.zip
+
+    
+
+      Mise z Vietnamu, obsahuje pětiminutové intro. Hrací doba je přibližně půl hodiny.
+      Jste velitel skupiny. Mise je v angličtině. Jakékoliv názory na tuto misi mi prosím posílejte
+      na       >>>    dimitrij@centrum.cz     <<<     vřelé díky.     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Thank Aeon for his Vietnam music pack     (http://www.freewebs.com/sengirvampire/MAK_VietnamMusic.rar)

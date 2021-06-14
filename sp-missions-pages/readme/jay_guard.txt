@@ -1,0 +1,53 @@
+****************************Guard*****************************
+
+Děkuji za stažení mé mise.
+--------------------------
+Autor: Jay
+kontakt: JakubHrachovec@seznam.cz
+--------------------------
+Pořadí mise: 1
+--------------------------
+Typ: Singleplayer
+--------------------------
+Ostrov: Malden
+--------------------------
+Verze hry: CWC 1.44
+--------------------------
+Požadované AddOny: Žádné
+--------------------------
+Briefing: Ano
+--------------------------
+Overview: Ano
+--------------------------
+Intro: pomocí scriptu
+--------------------------
+Outro Win: Ne
+--------------------------
+Outro Lose: Ne
+--------------------------
+
+Poděkování: Leonovi a MAAovi za jejich skvělé tutoriály,
+            Ruprtovi za OFP Editor Help
+
+--------------------------
+Poznámky: Toto je moje první uveřejněná mise.
+--------------------------
+
+
+
+
+
+
+13:37 3.6.2004
+
+
+
+
+
+
+
+
+
+
+
+

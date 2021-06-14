@@ -1,0 +1,773 @@
+<!-- saved from url=(0022)http://internet.e-mail -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html><head>
+<meta content="index,follow" name="robots">
+<meta content="flashpoint, kamera, celoush, práce s kamerou" name="Keywords">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link href="Tutorial34_files/celoush.css" type="text/css" rel="STYLESHEET">
+ <title>Práce s kamerou - Celoush</title>
+</head>
+
+<body>
+<div align="center">
+<h1>Práce s kamerou v OFP</h1>
+<h2>v1.0</h2>
+<h3>Created by Celoush 2003</h3>
+<a href="http://www.mujweb.cz/www/ofp.celoush" target="_blank">http://www.mujweb.cz/www/ofp.celoush</a><br>
+<a href="mailto:celoush@seznam.cz">celoush@seznam.cz</a><br>
+ICQ:144701758<br>
+</div>
+<br>
+<br>
+<h3>Obsah:</h3>
+<a href="#kamera">1. Kamera</a><br>
+<a href="#skladba">2. Střihová skladba</a><br>
+<a href="#herci">3. Práce s herci</a><br>
+<a href="#hudba">4. Hudba</a><br>
+<br><br>
+<p>
+Jelikož se často na fórech objevují lidé, kteří teprve nyní 
+flashpoint objevují a jejich otázky se často točí kolem intro scén
+ a hlavně kolem kamery, rozhodl jsem se napsat tento tutoriál, který 
+by měl podrobně popsat tento postup od začátku do konce. Je tedy 
+určen i začátečníkům. Přesto však při práci s ním 
+předpokládám alespoň základní zvládnutí editoru. Čtenář by 
+měl například vědět, co je to spínač, jak funguje a k čemu sou 
+určeny její parametry.
+</p>
+<br>
+<a name="kamera"></a>
+<h2>Kamera</h2>
+<p>
+Jak vytvořit kameru?<br>
+Je to dosti jednoduché. První možností je využít spínačů. Toto 
+se mi však nezdá příliš dobré, protože takové intro již v 
+dnešní době je dosti nevzhledné a spíše ukazuje na to, že 
+člověk, který toto intro vytvořil, je začátečník a teprve se 
+učí. Přesto se najdou lidé, kteří dělají mise jen pomocí 
+těchto spínačů (F3 – Efekty – Kamera).<br>
+Já se však zaměřím na jinou možnost a to možnost:
+</p><p>
+</p><h3>Skriptem vytvořená kamera</h3>
+<br>
+<p>
+Co je to skript?<br>
+Skripty jsou externí soubory, které vytváříme většinou v adresáři mise (většinou <code>c:\program files\codemasters\operationflashpoint\Users\jméno hráče\missions\název mise.ostrov\</code>) a mají koncovku sqs.<br>
+Jsou umístěny u souboru mission.sqm, který obsahuje vlastnosti námi 
+vytvořené mise (kde jsou jednotky, jejich názvy, spínače apod).<br>
+Jak se vyvářejí skripty?<br>
+Já je píší v klasickém poznámkovém bloku (Notepadu), ale 
+existují i programy, které jsou určeny přímo na skripty 
+flashpointu.<br>
+Jak se spouštějí?<br>
+Každý skript se spouští pomocí příkazu Exec. Nebudu vysvětlovat 
+jeho syntaxi, ale uvedu příklady, ze kterých to bude určitě hned 
+jasné.<br>
+<br>
+<code>[] exec "vybuch.sqs"</code> ; spustí se soubor vybuch.sqs<br>
+<code>[tank1,tank2] exec "vybuch.sqs"</code> ; spustí se soubor vybuch.sqs a předají se mu dva parametry a to tank1 a tank2, což mohou být například jména tanků.<br>
+<br>
+<code>This exec "vybuch.sqs"</code> ; spustí se soubor vybuch.sqs a předá se mu parametr toho, kdo tento spínač (pokud je to umístěno ve spínači) spustil.<br>
+Je myslím jasné, jak se skripty spouštějí a proto bych rád upozornil na několik významných skriptů.<br>
+<code>InitIntro.sqs</code> – soubor příkazů, který hra načte před spuštěním Intra.<br>
+<code>Init.sqs</code> – soubor příkazů, který hra načte před spuštěním samotné mise.<br>
+<code>Exit.sqs</code> - soubor příkazů, který se volá 
+bezrostředně po ukončení mise, ještě před debrífingem. Volací 
+argument je [end #], kde # je číslo konce hry shodné s nastavením 
+spínače TYP -&gt; KONEC č.#<br>
+Dále je možné využít i soubory <code>onPlayerKilled.sqe</code> a <code>onFlare.sqs</code>,
+ ale pro tento tutoriál asi nejsou tak důležité. Přesto pokud je 
+chcete využít tak si je najděte v OFPEditorHelpu od Ruprta.<br>
+<br>
+</p><p>Takže teď už víte co je to skript, jak ho spustit a jaké jsou významné skripty.<br>
+Uvedeme si malý příklad. Předpokládám, že chcete vytvořit intro k
+ misi. Vytvoříte v notepadu soubor intro.sqs a otevřete si ho k 
+editaci.<br>
+Na každý řádek pak umisťujete jeden příkaz, který chcete, aby skript udělal.<br>
+A právě sem budu umisťovat příkazy jež slouží k vytvoření 
+kamery a její inicializaci. Postupně pak k zaměřování a 
+přesouvání.<br>
+Na začátku doporučuji dát tyto tři příkazy, abyste si zajistili, 
+že pokaždé bude skript bude vypadat co nejvíce podobně tomu, jak 
+jste ho vytvořili sami.<br>
+<code>setviewdistance 700</code> ; nastaví maximální viditelnou vzdálenost v metrech<br>
+<code>0 setfog 0 </code>; nastaví změnu mlhy ve hře (první parametr 
+před příkazem je za kolik sekund má ke změně dojít a druhý je 
+intenzita mlhy 0-jasno, 1-úplná mlha)<br>
+<code>0 setOvercast 0</code> ; nastaví úroveň počastí (parametry jsou téměř shodné s předchozím příkazem, ale 0 je slunečno a 1 je zataženo)<br>
+Speciálně, pokud chcete déšť, je dobré použít příkaz SetRain (zase podobné, např. <code>60 SetRain 1</code> ; do 60 sekund bude silně pršet nebo <code>30 SetRain 0</code> ; do 30 sekund přestane pršet).<br>
+</p>
+<br>
+<p>A nyní k samotné kameře.<br>
+K počátečnímu vytvoření kamery budeme potřebovat tyto příkazy<br>
+<code>_camera = "camera" camCreate [5158.67,10428.86,1.63]</code> ; vytvoří kameru na zadaných souřadnicích<br>
+<code>_camera camSetTarget [102281.24,33846.35,4370.48]</code> ; Kamera se bude dívat na zadané souřadnice (zde je možné zadat název jednotky a tu bude kamera sledovat)<br>
+<code>_camera CameraEffect ["Internal","Back"]</code> ; nastavení kamery (bez tohoto se kamera neobjeví, stačí dát jen začátku)<br>
+<code>_camera camSetFOV 0.700 </code>; nastaví zaměření kamery - 
+0.700 je standard. Čím méně tím více jde zaměřit na detaily, 
+čím více tím se obraz roztáhne.<br>
+<code>_camera camCommit 0 </code>; kamera přesune na zadanou pozici v zadaném čase. V našem případě se vlastně vytvoří na zadaných pozicích.<br>
+</p>
+<br>
+<p>
+Pokud se nyní divíte, jak si může někdo tyto příkazy zapamatovat,
+ tak vězte, že to pravděpodobně nikdo nedělá zcela z paměti. 
+Většinou se používá klasické Označit a vložit.<br>
+Rád bych ale upozornil na to, že kamera se jmenuje _camera a jedná se
+ tedy o lokální proměnou vytvořenou pouze pro tento skript. Proto ji
+ nejde nijak přesouvat či rušit v jiných skriptech či v samotném 
+editoru. V tom případě bychom neměli psát to podtržítko. 
+Doporučuji však mít kameru vytvořenou a ukončenou v jednom skriptu.
+ Spíše pro přehlednost.<br>
+Další příkazy, které budete potřebovat jsou:<br>
+<code>_camera camSetPos [4856.90,10429.66,19.50] </code>; nastaví a jen nastaví novou pozici pro kameru. Kamera bude neustále stát na svém místě.<br>
+<code>_camera camCommit 3 </code>; tento příkaz tu již byl, a právě
+ jím dojde k přesunu na nové pozice zadané předchozím příkazem. 
+Uvedl jsem ho jen, aby bylo jasné jak se přesun provede.<br>
+<code>@camCommitted _camera </code>; pomocí tohoto příkazu se čeká,
+ až dojde ke splnění podmínky zadané za zavináčem. V našem 
+případě se čeká, až kamera dojede na určené pozice.<br>
+<br>
+Pro neznalé uvedu hodně používaný příkaz a to:<br>
+<code>~5 </code>; což znamená, že editor 5 sekund vyčká.<br>
+<br>
+A nakonec jak vlastně kameru ukončíme?<br>
+K tomu slouží tyto tři příkazy, stačí je tedy překopírovat a vložit.<br>
+<code>CutRSC ["Default","Plain Down",100]</code><br>
+<code>_camera CameraEffect ["Terminate","Back"]</code><br>
+<code>CamDestroy _camera<br></code>
+</p>
+<br>
+<p>
+Teď byste byli schopni napsat skript pro vytvoření kamery, její 
+přesuny a ukončení, ale jde o to, kde tyto kamery mít a jak to 
+zjistit?<br>
+Těch postupů je několik.<br>
+První, který se dříve hojně využíval a dá se využít i dnes 
+(viz příklad) je použitím příkazu GetPos, který vrací 
+souřadnice objektu.<br>
+(např. pozice_traktoru = GetPos traktor. Výsledkem bude, že pozice_traktoru bude tvaru například [12510.1,2551.2,0.3])<br>
+Tento parametr se pak předá místo závorek. Tohoto postupu se dá 
+využít například proto, aby kamera byla neustále zafixovaná na 
+nějakém objektu a třeba se jen nepatrně přesouvala. Uvedu 
+příklad:<br>
+<br>
+<code>_i = 0 </code>; nastavím si pro lokální proměnou <br>
+<code>_camera CamSetTarget m2a2 </code>; nastavím cíl kamery, je vhodné ji uvést před symbolickým odkazem<br>
+<code>_camera CamSetFOV 0.700 </code>; také vhodné nastavit předem<br>
+<code>#loop1 </code>; název symbolického odkazu (použiji později pro návrat na tento řádek v skriptu)<br>
+<code>_CameraPos = getpos m2a2 </code>; do lokální proměnné si nastavím aktuální pozici objektu<br>
+<code>_cmx = _CameraPos select 0 </code>; do této proměnné si dám její první parametr<br>
+<code>_cmy = _CameraPos select 1 </code>; do této proměnné si dám její druhý parametr<br>
+<code>_cmz = _CameraPos select 2 </code>; do této proměnné si dám její třetí parametr<br>
+<code>_camera CamSetPos [_cmx-3.5,_cmy+25-(_i*0.05),_cmz+0.9+(_i*0.026)] </code>; nastavím novou pozici se zadaným odstupem a posunem. Jde to však udělat i jinak:<br>
+<code>_camera CamSetPos [(GetPos m2a2 select 0) – 3.5, (GetPos m2a2 select 1)+25-(_i*0.05),(GetPos m2a2 select 2)+0.9+(_i*0.026)] </code>; což je stejné, jako předchozích 5 řádků, ale nepřehledné. <br>
+<code>_camera CamCommit 0 </code>; okamžitě přesunu kameru na tuto pozici<br>
+<code>@CamCommitted _camera </code>; a raději se ujistím, že tam je.<br>
+<code>~0.01</code> ; počkám setinu sekundy. Je důležité ji tam mít, jinak by mohlo dojít ke zmrazení či jiným nežádoucím stavům.<br>
+<code>_i = _i + 1 </code>; zvětším proměnou o jedna<br>
+<code>?(_i&lt;200): goto "loop1" </code>; a zkontroluji, zda nedosáhla určité výše (200), a pokud ne vrátím se na symbolický odkaz. Jde vlastně o příkaz if. <br>
+<br>
+</p>
+<p>
+Tento postup se dříve dělal s tím, že se k určování pozic 
+používalo neviditelné háčko (pro přistání vrtulníku). To však 
+občas dělalo problémy, když jich bylo více a chtěli jsme nechat 
+přistát vrtulník na určeném místě, kousek od kamery. Proto se 
+dala použít i někteří používali Imaginární jednotku, což bylo 
+vhodnější. Další problém byl cíl kamery, který musel být 
+nastaven a to také tímto stylem. Problém byl v tom, že jak to bude 
+nakonec vypadat se zjistilo, až po spuštění intra a pak se muselo 
+jenom zkoušet a měnit, dokud se nenašlo požadované nastavení 
+kamery. Byl to dosti zdlouhavý proces.<br>
+</p>
+<br>
+<p>
+Pak se však objevil jiný systém. A to skript <code><b>camera.sqs</b></code><br>
+A jak funguje? Stačí si v editoru v misi vytvořit například imaginární jednotku a pojmenovat ji například <code>kam</code>. Do její inicializace se pak vloží příkaz <br><code>kam exec "camera.sqs"</code><br>
+Je nutné aby kamera mělo jméno a to bylo pak uvedeno i v 
+inicializace. Pokud v ní nebylo a bylo tam pouze this byli s tím 
+občas problémy. <br>
+A co je ten <code>camera.sqs</code> vlastně zač?<br>
+Jde o speciální skript, který má v sobě flashpoint zabudován. Je 
+tedy nutné, aby tento skript ve vašem adresáři neexistoval, jinak se
+ bude spouštět on a ne námi požadovaný.<br>
+Pak po spuštění mise se nám vlastně objeví pohled kamery. Přesně
+ tento pohled pak bude hra vytvářet. S kamerou jde klasicky otáčet 
+(W,S,A,D,E), přibližovat (+,-), zvyšovat a snižovat (Q,Y či Z).<br>
+Takto si stačí nastavit přesnou polohu kamery a pak stisknout tlačítko CTRL.<br>
+V adresáři flashpointu (<code>c:\program files\codemasters\operationflashpoint\</code>) se objeví soubor <code>clipboard.txt</code><br>
+A právě v tomto souboru naleznete požadované souřadnice kamery, 
+cíle a zaměření. Stačí je tedy pouze překopírovat a použít. 
+Dále bych rád upozornil, že pokud budete posouvat kameru a nastavovat
+ její pozici a ukládat si ji, budou se řadit za sebe a nemusíte se 
+tak obávat, že se vám předchozí nastavení smaže. Navíc se 
+uloží i s časem vytvoření.<br>
+Všechny příkazy byli již uvedny, ale opakování je matka moudrosti<br>
+<br>Např.<br>
+<code>;=== 13:43:09 </code>; za středníkem se nachází poznámka, která je ignorována až do konce řádku<br>
+<code>_camera camSetTarget [104055.88,23135.09,41.03]  </code>; nastavení cíle kamery<br>
+<code>_camera camSetPos [4866.27,10429.88,2.00] </code>; nastavení pozice kamery (musí se vytvořit počáteční nastavení)<br>
+<code>_camera camSetFOV 0.700 </code>; nastavení přiblížení<br>
+<code>_camera camCommit 0 </code>; přesun kamery na danou pozici v zadaném čase (nyní okamžitě)<br>
+<code>@camCommitted _camera </code>; vyčkání na dokončení přesunu<br>
+<br>
+</p>
+<p>
+Nyní bychom měli být schopni vytvořit přesnou scénu s přesuny a 
+nastavením kamer. Doporučuji však nyní, než budete pokračovat, 
+vyzkoušet si hrát si trochu s kamerou. Zkuste si například vytvořit
+ jenom pár pohledů ve stylu přírodovědného dokumentu. Udělejte 
+nějaké zajímavé pohledy na specifická místa na Nogově. Jde jen o 
+cvičení.</p><br>
+<br>
+Toto by mohlo pro základy stačit, ale já chci uvést i další často
+ opomíjenou stránku Video sekvencí. Tato část je určena všem, 
+protože se zde nachází základní filmové postupy.<br>
+<br>
+<a name="skladba"></a>
+<h1>Střihová skladba</h1>
+<br>
+<p>Pro dokonalou vazbu dvou záběrů bude podstatné zachování 
+jednoty prostoru; divák musí mít dojem, že oba záběry se 
+odehrávají v témž prostoru. Zdůrazňuji, že jde o dojem diváka, 
+protože víme, že jednotný prostor můžeme ve filmu složit z 
+několika reálných prostorů vzájemně nesouvisejících. Podstatou 
+zachování jednoty je, aby oba záběry obsahovaly buď jeden 
+markantní společný prvek, nebo prvky typické pro dané prostředí 
+nebo jednající postavy. Podstatně může pomoci zvuk a osvětlení, 
+které jsou ovšem důležité rovněž pro zachování jednoty 
+atmosféry. Jestliže v jednom záběru svítí slunce, nemůže v 
+následujícím pršet,je-li v jednom záběru ulice rušná a 
+přeplněná, nemůže být v následujícím poloprázdná. Poslední 
+dvě věty nejsou tak podstatné, protože engine hry nám toto dokáže
+ zajistit sám, ale je vhodné uvést si tato pravidla. <br>
+Díky enginu nám také odpadne problém jednoty rekvizit, barevné jednoty, jednoty optického vyjádření. <br>
+Spíš jako neobratnost se ve skladbě projevují kompoziční 
+nedostatky.V okamžiku, kdy postava tvořící kompoziční těžiště 
+je uprostřed celkového záběru, přestřihneme na jiný celek 
+navazující v pohybu přesně na předchozí, ale postava je 
+komponována asi ve 3/5 obrazu. Těžiště se přesunulo jen nepatrně,
+ ve střihu nastane nepříjemný skok. Podobně střihneme-li na sebe 
+dva detailní pohledy na týž obličej, jeden čelní, druhý 
+tříčtvrteční profil, navíc kompozičně posunuté, není střih 
+čistý. <br>
+Obecněji platí:pro návaznost záběrů je velice nepříjemné, 
+jestliže se jejich náplň změní jen nepatrně. A tedy v jednom 
+prostředí na sebe navazujeme dva stejně velké záběry dosti 
+obtížně.<br>
+</p>
+<br>
+<p>Připomeňme si, že velikost záběru zpravidla hodnotíme ve vztahu k postavě a k funkci prostředí:<br>
+VC -velký celek orientace v prostředí, jednotlivec málo registrovatelný, ztracen v krajině.Masové scény.<br>
+C - celek zachycuje přehledně místo akce, člověk je situován ve 
+vzájemném vztahu k prostředí, podstatná je akce,nikoliv mimika -viz
+ klasické grotesky.<br>
+PC - polocelek postava je ukázána celá, prostředí hraje druhořadou
+ roli (ev.jako partner), možnost plného využití gestikulace 
+„vnější hra" herce<br>
+AZ - americký záběr postava je ukázána asi po kolena, prostředí 
+vnímáme jen prostřednictvím její akce, jinak okrajově. Běžný 
+při dialogu několika osob.<br>
+PD - polodetail poprsí postavy, tedy obtížná gestikulace rukou, 
+zachycuje zřetelně mimiku, prostředí vyeliminované (neostré).<br>
+D - detail většinu plátna zabírá obličej, markantní akcent na protagonistu, zpravidla pronikání „dovnitř"postavy.<br>
+VD - velký detail zachycuje podstatnou podrobnost části lidské 
+postavy (oči,ruka), nebo podobně jako D zdůrazňuje důležitou 
+rekvizitu.<br>
+<br>
+</p>
+<p>
+Vrátíme-li se v souvislosti s tímto rozdělením ke konstatováni, 
+že malé změny v obsahu záběru jsou nežádoucí, vidíme, že 
+nebude působit dobře, když změnou přiblížením ve směru pohledu 
+kamery změníme velikost záběru z C na AZ nebo PC na PD (tzv.skok po 
+ose). Střih bude zbytečným přerušením akce a navíc každá 
+nepřesnost v návaznosti hereckého projevu (například ukončením 
+příkazu switchmove) či jiné porušení jednot bude velice 
+markantní. Funkční může být taková změna např.z C na PD, podle 
+uvedených definic tak ze skupiny protagonistů vybíráme a akcentujeme
+ jednu postavu, místo její akce sledujeme její mimiku, přenášíme 
+se do jejího myšlení a cítění, které může smysl akce zvýraznit
+ nebo naopak kontrapunktem ironizovat atd. V těchto případech se 
+také často používá prudkého<br>
+</p>
+nájezdu.<br>
+<br>
+<h3>Pravidlo osy</h3><br>
+<p>Divákovu orientaci v prostoru, rekvizitách, osobách a vztazích 
+nám zajišťuje pravidlo osy.V nejjednodušším příkladě, dialogu 
+dvou osob, rozumíme osou směr jejich vzájemného pohledu a pravidlo 
+osy říká, že všechny záběry jejich rozhovoru mají být 
+natáčeny z prostoru na jedné straně této osy, tedy A se divá vždy
+ zleva doprava, B naopak. Optická osa objektivu může pochopitelně 
+svírat s osou libovolný úhel. Je-li ostrý,blížíme se k čelnímu 
+záběru (ev.přes rameno partnera), blíží-li se k úhlu pravému, 
+vidíme profil. Pro vzájemný kontakt obou osob je však důležité, 
+aby úhly, které tvoří osa mezi A a B s osou kamery, byly 
+přibližně stejné. Střídáme-li čelný záběr A s profilem B, 
+nebude mít divák dojem, že osoby mluví tváří v tvář. Postavení
+ kamery musí odpovídat i pohled postavy, při ostrém úhlu se aktér 
+dívá na hranu kamery bližší k partnerovi, při tupém úhlu mimo 
+kameru, v polodetailech a detailech se dívají „falešným pohledem",
+ tj.ne na spoluhráče, ale blíže na kameru (pozor při nájezdech z C
+ na PD, aby se v konci nedíval mimo !). <br>
+Podobná situace vznikne při sledování jednoduchého pohybu jedním 
+směrem. Jde-li nám o honičku dvou aut, je osa tvořena směrem jejich
+ pohybu. Kamera opět zůstává na jedné straně osy (pohyb 
+např.zleva doprava), překročení osy by vyvolalo dojem návratu 
+jednoho vozu. Má-li se však vůz opravdu vracet, musí divák 
+otočení vidět. <br>
+Stejné pravidlo platí pro vycházení a vcházení do záběru. Osoba,
+ která vyjde z obrazu napravo, musí v dalším záběru vyjít zleva. 
+Směřuje-li osoba proti kameře a vyjde po její pravé straně (po 
+pravé straně diváka), vchází v protipohledu z levé strany kamery a
+ odchází od ní atd. Samotné pravidlo osy pochopitelně k zachování
+ kontinuity nestačí, je třeba zachovávat i další uvedené jednoty.<br>
+Ve skutečnosti ovšem máme řadu variant, které umožňují 
+překročení osy a pohyb kamery na druhé straně. Klasickým způsobem
+ je záběr z osy. Do honičky aut střihneme záběr přes přední 
+sklo ve směru jízdy nebo na řidiče, v dalším záběru mohou auta 
+pokračovat opačným směrem.<br>
+Stejně nám pomůže i frontální PD obličeje s pohledem do 
+objektivu, ale v dialogové scéně máme i další možnosti. Jestliže
+ jeden z herců vstane a změní místo, změnila se i osa a v dalším 
+záběru mohu postavit kameru i do té části pokoje, která pro nás 
+zatím byla "tabu". Jinou možností je příchod třetí osoby, která 
+vytvoří novou osu. V případě více osob, které se na sebe 
+navzájem obracejí a pohybují se po celé scéně, je ovšem celá 
+situace složitější a jednoduché pravidlo osy nám již nevystačí.
+ Pro zachováni divákovy orientace je v podstatě nejdůležitější, 
+aby všechny přesuny a změny jednajících osob byly v obraze 
+zachyceny nebo aspoň naznačeny. Sedí-li osoba C na židli, neměla by
+ po prostřihu na B stát u okna. Nemusí ovšem v obraze absolvovat 
+celou cestu od židle k oknu, stačí, když na konci prvního záběru 
+vstane a naznačí pohyb, v mírném pohybu je i po prostřihu u okna. 
+Často pomůže k divákově orientaci zvuk (který engine udělá za 
+vás) a odpovídající hra B v prostřihu (sleduje přechod Č očima 
+přes záběr, nejlépe pomocí příkazu B dowatch C).<br></p>
+<br>
+<h3>Pravidlo hlavního směru</h3>
+<p>Jindy nám v orientaci pomůže pravidlo hlavního směru. Známe-li 
+prostor dialogu, za jednou osobou je charakteristické pozadí nebo 
+rekvizita (vlajka, strom), můžeme se s kamerou pohybovat po obou 
+stranách osy. Při zachování hlavního směru (proti známému 
+pozadí) nám k chybě v orientaci nedojde. Typickým příkladem je 
+rozmluva řidiče automobilu se spolujezdcem. Můžeme zachovávat směr
+ jízdy zleva doprava a stříhat pravé profily obou protagonistů, ale
+ právě tak dobře váže levý profil řidiče a pravý partnera, i 
+když automobil jede v jednom záběru zleva doprava a v druhém zprava 
+doleva. Dodržujeme totiž hlavní směr pohledu:přes přední sklo, 
+zadní stěna kabiny tvoři zřetelné pozadí.<br></p>
+<br>
+<h3>Délka záběru</h3>
+<p>
+Tato věc je často opomíjená a ve videosekvencích flashpointu velmi podceňovaná.<br>
+Uvažujme nejprve záběr sám o sobě bez ohledu na jeho vazbu k 
+záběrům sousedním.Pak je rozhodujícím kritériem pro místo 
+střihu, tedy pro určeni správné délky záběru, požadavek,<br>
+aby byl záběr čitelný. Má trvat tak dlouho, aby divák 
+„přečetl" právě to, co je třeba. Je-li kratší, může divákovi
+ uniknout jeho smysl, nějaká důležitá informace a některý motiv, 
+nebo dokonce smysl videa se stane nejasným. Divák zneklidní pocitem, 
+že něco přehlédl, a jeho soustředění je narušeno. Naopak je-li 
+záběr příliš dlouhý, sleduje divák i nepodstatné věci, objevuje
+ nepřesnosti a chyby, jeho pozornost se tříští, nebo se divák 
+prostě nudí. Čitelnost záběru je však ovlivněna mnoha faktory. 
+Nezávisí jen na jeho délce, ale i na jeho pořadí v sekvenci, 
+dramaturgickém významu, obrazových hodnotách (velikost, kompozice), 
+spojení se zvukem atd.<br>
+Právě toto pravidlo nám však dokumentuje zásadu, že znalost 
+řemeslných principů umožňuje jejich vědomé porušování za 
+účelem obohaceni výrazových možností filmu. Například:příliš 
+dlouhý záběr, který zpravidla rozptyluje nebo nudí, může za 
+jistých okolnosti zvyšovat napětí. Právě tak příliš krátký 
+„nedočtený" záběr může vést diváka ke zdání, že před nim 
+něco ukrýváme, k vyvolání pocitu tajemství, nejistoty, 
+uspěchanosti atd.<br>
+</p>
+<br>
+<h3>Tempo a rytmus</h3>
+<p>
+Dostáváme se k pojmům tempo a rytmus, aplikovaným na střihovou 
+skladbu z oboru hudby. Tempo je rychlost, ve které je skladba provedena
+ (largo, moderato, presto). Analogicky ve klipu je tedy tempo určeno 
+rychlostí akce, pohybu herců, kadence dialogů, ale také rychlostí 
+pohybů kamery (nájezdů, panoram), a to jak uvnitř jednoho záběru, 
+tak průběžně v záběrových řadách. Obecněji je pak určeno 
+způsobem vyprávění děje (baladicky, dramaticky apod.). Rytmus je v 
+hudbě definován jako pravidelné střídání přízvučných a 
+nepřízvučných dob. U videa jim nejčastěji rozumíme frekvenci 
+střídání záběrů, ale toto hledisko je zcela povrchní. 
+Sledujeme-li jediný záběr, můžeme v něm objevit pravidelné změny
+ v pohybu herců, v obsahu předního či zadního plánu apod. Tyto 
+pravidelné výrazné změny kompozice patři k tzv.vnitřnímu rytmu 
+záběru. Řekli jsme si, jak se s různými činiteli mění čitelnost
+ záběru, po určité době divák pochopí smysl záběru a jeho 
+zájem pak ochabuje. Představíme-li si v grafickém znázorněni 
+křivku divákova zájmu, můžeme rytmus střihu určovat také podle 
+toho, stříháme-li pravidelně v okamžiku kulminace křivky, před 
+ním nebo po něm. Přesněji tedy rytmus pojímáme jako vzájemné 
+vztahy délek jednotlivých záběrů. Je pochopitelné, že ke změnám
+ vnějšího i vnitřního rytmu dochází v rámci celého filmu i 
+jednotlivých sekvencí a tyto změny ovlivňují i nadřazené tempo 
+vyprávěni, které je globálně určeno žánrem filmu, letorou 
+programátora atd.<br>
+Na začátku hudebních i dramatických útvarů bývá expozice, která
+ podá nezbytné úvodní informace, představí hlavní osobu nebo 
+základní hudební motiv. Také ve filmu bývá někdy již před 
+titulky expozice seznamující s hrdinou nebo s atmosférou příběhu. 
+Může být podána v několika záběrech, ale i v jednom záběru, 
+který na začátku chvíli trvá, než začne vlastní děj. Tomuto 
+trvání říkáme rozezněni a jeho hlavním úkolem je především 
+emotivně připravit diváka na následující vyprávění. Ve spojení
+ s výtvarnou a zvukovou složkou může navodit pocit nostalgického 
+pastorále, hrůzostrašného očekáváni apod. Záběry rozezníváme 
+nejen na začátku videa, ale často i v úvodu některých sekvencí. 
+Ještě důležitější je, aby záběry na konci sekvencí a zejména 
+na konci filmu doznívaly. Ustřihneme-li záběr s ukončením akce, 
+podtrhli jsme jeho informativní charakter (zobrazením akce splnil 
+svůj úkol, nic víc se od něj nežádá). Prodloužíme-li jej za 
+trváni akce (hrdina odešel, místnost je prázdná), nebo sledujeme-li
+ akci i poté, kdy se dál nerozvíjí (hrdina odchází od kamery), 
+dáváme záběru širší smysl, začleňujeme hrdinovu individualitu 
+do obecnějších souvislostí, necháváme divákovi čas k 
+filozofickému shrnutí, vlastně ho k tomu vybízíme. A stejně tak v 
+závěrech sekvencí je dozněni potřebné k uvolnění napětí, k 
+uklidnění smíchu, k vychutnávání předchozí atmosféry. Je 
+pochopitelně na režisérovi, aby takový záběr natočil v 
+dostatečné délce a aby jeho obrazová náplň oné atmosféře či 
+myšlence odpovídala. Jestliže příběh mladé dvojice zakončíme 
+tím, že oba hrdinové ve velkém celku odcházejí rozkvetlou alejí k
+ prosluněnému horizontu, bude závěrečný smysl jiný, než když 
+jdou zablácenou cestou do bezútěšného sídliště. Tvůrce videa 
+pak ovšem musí odhadnout správnou míru rozeznění a doznění, aby 
+divák nebyl předčasným střihem vyrušen, nebo naopak aby záběr 
+nevypadal jako samostatný snímek nebo dokonce jako potenciální 
+začátek dalších událostí.<br>
+Rozeznění a doznění záběru někdy bývá doplněno roztmívačkou a
+ zatmívačkou, tedy filmovou interpunkci, která ještě zdůrazní 
+předěl mezi sekvencemi. Často se však naopak používá ostrých 
+přechodů z jednoho děje do druhého, někdy podpořeného obrazovou 
+či zvukovou souvislostí. <br>
+Velitel řekne vojákovi: „Tak zítra v pět!" - střih - hodiny 
+ukazují pět hodin, záběr na oba pod nimi. Takové střihy se 
+běžně používají jako časová zkratka či elipsa<br>
+Ostrý střih je však také specifický výrazový prostředek 
+sloužící především ke zdůrazněni kontrastu dvou situaci či 
+atmosfér, k nečekanému zvratu či pointě. K přechodu z klidu 
+můžeme navíc použit i nárazu ve zvuku, nápadného pohybu v obraze 
+apod. Představme si dvojici uprchlíků, kteří zabloudí a zachrání
+ se v opuštěné stodole. Mírné doznění záběru spících 
+uprchlíků zvýší pocit bezpečí. Tu nastřihneme detail hlavně 
+kulometu a současně ohlušující palbu, zběhové jsou v ohnisku 
+ranní bitvy. Podstatou ostrého střihu je tedy překvapivá změna 
+situace konfrontující kontrast dvou sekvencí a provedená v 
+nečekaný okamžik s maximální přesností a výrazností. <br>
+Rozeznění, doznění, ostrý střih, změny rytmu a tempa jsou 
+samozřejmě v úzké souvislosti s dramaturgickou linkou. Jakékoliv 
+okrasy budou ryze formální a neúčelné, nebudou-li odpovídat obsahu
+ scénáře. Najít korespondující celkový i dílčí rytmus střihu,
+ jeho změnami se vyhnout monotónní rozvláčnosti, podpořit smysl 
+díla a vytvořit promyšlenou agogiku filmu - to je asi nejtěžší, 
+ale velice důležitá složka střihu.<br>
+</p>
+<br>
+<h3>Návaznost záběrů</h3>
+<p>Soustředíme se nyní na vazbu dvou záběrů bezprostředně 
+následujících v jedné sekvenci, splňujících tři klasické 
+jednoty místa, času, děje. Předpoklady k jejich plynulému spojení 
+jsou dány. Jak je tedy nejlépe vázat, aby dramatická akce plynula 
+hladce z jednoho záběru do dalšího? Velice jednoduše a výstižně 
+to formuloval již v r.1927 G.W.Pabst:„Stříhat je třeba v tom 
+záběru, kde je postava v pohybu, a jako následující připojit 
+záběr, ve kterém pokračuje buď tentýž pohyb, nebo trvá pohyb 
+jiný."(Podle § 5 s.180) Tato zásada plynulosti pohybu je velice 
+užitečná a směřuje k plynulému vývoji akce, k dynamickému 
+způsobu vyprávění. <br>
+Pro naše účely je však poněkud jednostranná a povrchní. Působí 
+např.velice nepříjemně, jestliže krátce před koncem záběru 
+dochází ke změně ustálené situace, objevuje se náznak nového 
+pohybu nebo nový element. Toto upozornění pochopitelně neplatí, 
+jestliže jde o pohyb pokračující v následujícím záběru. Ve 
+flashpointu je navíc o to těžší, že ujistit se o přesnosti pohybu
+ je velmi těžké. Ne vždy běží voják stejně či vrtulník 
+přistává ve stejném úhlu.<br>
+Prázdný záběr, do kterého postava vejde, může být informaci o 
+prostředí, vyjádřením atmosféry, přípravou šoku (do záběru se
+ vsune ruka s pistolí, vjede hlaveň od tanku). V obou případech 
+také může jít o expozici nebo doznění sekvence, o přípravu 
+časového skoku. Uprostřed děje však prázdný záběr brzdí akci. 
+Snažme se hrdinu sledovat v obou záběrech:jde např.zleva doprava, 
+střihneme v pravém okraji, ve druhém záběru v levém okraji 
+odchází od kamery apod.<br>
+Není-li jeho pohyb přesně natočen a střih vypadá špatně, 
+necháme plný pohyb ve středu kompozice a ve druhém záběru hned po 
+střihu postava vejde, nebo naopak hned jak v prvním záběru opustí 
+obraz, střihne na druhý, kde je akce v plném proudu. Velice rušivě 
+působí prázdný záběr (postava vyšla) na prázdný záběr 
+(postava vejde). Při přecházení pohybu z jednoho záběru do 
+druhého však není podstatné jenom prodloužení či zkrácení 
+pohybu, důležité je i místo přesného střihu. To musíme v enginu 
+odhadnout spíše z praxe. Znovu upozorňuji, že jedním z 
+nejdůležitějších úkolů střihu je volba správného tempa, které
+ je zpravidla určeno již žánrem a obsahem filmu, režisérovým 
+rukopisem a konkrétně pak vnitřním tempem jednotlivých záběrů a 
+rytmem dialogu.<br>
+Zachování spádu akce bez hluchých pauz je daleko důležitější 
+než problematické tříbeni „čistého střihu". Prozkoumejme teď 
+případ, kdy máme v dostatečné délce dva záběry s naprosto 
+stejnou akcí.<br>
+Platí totiž zásada, že divák je upoután právě prudkým pohybem a
+ přestává vnímat ostatní komponenty obrazu. Kromě výjimečných, 
+dramaturgicky připravených momentů jsou výše uvedené teorie 
+poněkud spekulativní. V praxi záleží především na kontextu 
+děje, na rytmu střihu, zejména pak na způsobu, jakým jsou záběry 
+snímány. <br>
+</p>
+<br>
+<p>Výrazným střihovým postupem, který můžeme využít při našem
+ střihu je rapidmontáž. Je to spíš kratší sekvence složená z 
+krátkých záběrů, které na sebe nemusí vázat ani obsahově,<br>
+ani pohybově, naopak jejich předmětná náplň se markantně liší. 
+Tyto záběry pak ve své konglomeraci sdělují divákovi určitý 
+dojem nebo pocit: panika, karneval, dopravní zácpa, předtucha aj. 
+Při výběru a řazení záběrů není rozhodující vzájemná vazba,
+ výhodnější je naopak jejich vzájemná srážka. Jediným 
+formálním hlediskem pro řazení je snaha, aby následující záběry
+ příliš nedisharmonovaly v kompozici a zejména v tonalitě,aby 
+divákovo oko nebylo šokováno a neztrácelo tak schopnost vnímat 
+(zařadíme-li po jasném záběru zasněžené pláně krátký záběr
+ tmavého interiéru,divák nerozpozná jeho obsah). Při vhodném 
+dramaturgickém zařazení, promyšleném výběru jednotlivých 
+komponent hlavně z hlediska lapidární sdělnosti a průhledné 
+symboliky a při citlivém rytmickém zpracování můžeme pomocí 
+rapidmontáže vytvořit atraktivní, markantní dramatický akcent.<br>
+</p>
+<br>
+<h3>Dialogy</h3>
+<p>Především bychom měli rozlišovat „rozhlasové"sekvence,ve 
+kterých je divákovi řečeno dialogem beze zbytku všechno, od 
+dialogových sekvencí rozehraných nápaditěji, ve kterých hraje 
+obraz přibližně rovnocennou roli. Náročnější režisér se totiž
+ snaží rozehrát scénu tak, aby aranžování herců, pohyb kamery, 
+prostředí, rekvizity nejen dotvářely atmosféru dialogu, ale měly i
+ svou dramatickou funkci, aby vizuální působivost převládala nad 
+slovním sdělením. Střídavé „křížové pohledy" (blízké 
+záběry na jednoho z protagonistů ev.přes rameno jeho protihráče) 
+umožňuji pohled do plnějšího „en face" postav, tedy 
+přehlednější mimiku obličeje (pomocí příkazu SetMimic), staví 
+dvě osoby do náležité opozice a dávají střihačovi možnost, aby 
+vhodným střídáním pohledů a zkracováním či prodlužováním 
+pauz pomáhal rytmizování scény a akcentoval důležité momenty a 
+reakce.<br>
+Musí sledovat především smysl, dynamiku a tempo dialogu. Po jejich 
+náležitém zhodnoceni může silná místa zdůraznit. Zkušený 
+střihač pečlivě dodržující tempo videa. Je-li situace 
+konfliktní, bývá vhodnější volit ostrý střih, navazovat záběry
+ mezi replikami tak, že v obraze vidíme herce, který právě mluví. 
+Shodným střihem dialogu a obrazu zdůrazňujeme opozici obou 
+partnerů, záběry na sebe narážejí tvrději. V plynulejší a 
+volnější pasáži naopak pomáhá přetahování dialogů: 
+odpovídající osobu ukážeme dříve, než začne mluvit, tedy 
+poslední slova z prvního záběru přeznívají do záběru druhého. 
+Přetaženi zvuku dopředu je na místě zejména ve speciálních 
+případech, například když druhá osoba vstupuje do dialogu 
+nečekaně, s nádechem tajemství, na konci prvního záběru ještě 
+zaznamenáváme nápadnou a důležitou reakci na její vstup, tedy v 
+dramaturgicky připravených momentech. Střihač musí často 
+rozhodnout, je-li podstatnější rozehrát nebo dohrát hercovu akci za
+ cenu delší pauzy, nebo střihnout nečistě, nedokončit zajímavou 
+hru, aby byl dodržen spád řeči. V dialogových sekvencích je 
+většinou nutno podřídit se kadenci řeči, tedy například 
+rozhořčená replika musí následovat bezprostředně po urážce. 
+Tempo scény (tedy i střih,délky pauz) bude pochopitelně jiné, 
+říkají-li dialog nepohyblivé hlavy v detailu, pohybují-li se osoby v
+ celku, nebo když kamera panorámuje, najíždí, chodí mezi 
+protagonisty, prostě udržuje-li svůj vlastní kompoziční rytmus.<br>
+</p>
+<br>
+<h3>Zvuková skladba</h3>
+<p>Vztahy mezi obrazem a hudbou tedy mohou být na různém stupni 
+závislosti. V některých případech je to velice volná asociace, 
+podpoření či dotvořeni pocitu, zdůraznění nebo zrychlení tempa 
+akce. V této oblasti také nejčastěji dochází k používání 
+konvenčních a obehraných postupů (viz. sladké unisono smyčců při
+ milostné scéně, šestiosminové rytmy typu „Lehká kavalerie" při
+ jezdeckých přehlídkách). Podobně jako ruchy může i hudba svým 
+motivem charakterizovat a doprovázet jako motiv určitou osobu, může 
+ji i zastoupit (dívka vzpomíná na chlapce, kterého nevidíme, ale 
+slyšíme jeho hudební motiv). Může také parafrázovat, ironizovat 
+nebo komentovat obraz svým charakterem nebo použitím známých 
+motivů (nesmělý chlapec přichází s koktáním na zásnuby, hudba 
+hraje Bizetův „Pochod toreadorů"z Carmen). Dochází ovšem k 
+problémům s délkou hudby, protože málokdy lze přizpůsobit rozsah 
+střižené sekvence ucelené hudební větě nebo motivu. Je třeba se 
+rozhodnout, je-li důležitější nástup hudby, která se pak v konci 
+zeslabí a vytratí v ruchu či dialogu (řidčeji a zejména 
+obtížněji v jiné hudbě), nebo jestli je naopak podstatné finále 
+hudby, korespondující s důležitým momentem obrazu nebo s koncem 
+filmu, pak naopak hudba vyjíždí z jiných zvuků, aniž by měla 
+výrazný začátek."Jen málokdy pomůže zkrácení hudby pomocí 
+vystřižení části skladby, např.repetice opakovaného motivu nebo 
+jen několik taktů. Protože hodně autorů opírá zvukovou skladbu 
+svého filmu především nebo výlučně o hudbu, a nemůže tedy 
+volně pracovat se ztrácením a objevováním hudby v ruchových 
+atmosférách, setkáváme se i u poměrně zdařilých filmů se dvěma
+ hrubými chybami. Především navazují jednu hudbu (skladbu,píseň) 
+bezprostředně po skončení předchozí, třeba uprostřed záběru, 
+takže jeden obrazový logický nebo pocitový celek je rozbit dvěma 
+hudebními motivy často navzájem disharmonickými (a naopak dvě 
+dějově či emocionálně odlišné obrazové sekvence jsou 
+pokračující hudbou spojeny). Za druhé pak nechávají hudbu 
+pokračovat po skončení filmu, nebo ji drsně utrhnou uprostřed 
+motivu či taktu. Závěrečná pointa nebo gag je tím značně 
+oslaben, daleko častěji však ve spojení s nepropracovanou 
+dramaturgickou koncepcí film vůbec žádný konec nemá. Menší 
+chybou je případ, kdy se autor chce těmto chybám vyhnout a znovu a 
+znovu opakuje všechny natočené záběry,jen aby s obrazem vydržel 
+až do konce skladby.<br>
+</p>
+<br>
+Tolik teorie. <br>
+ <br>
+<a name="herci"></a>
+<h2>Práce s herci</h2>
+
+<p>Musíme si uvědomit, že pro nás je práce vlastně práce s herci 
+ničím jiným než najitím správného pohybu a nastavení ai. 
+Správné nastavení postavy, jeho pozice, jeho chování. K jeho 
+nastavení doporučuji těchto několik základních příkazů.<br></p>
+<br>
+<code>SetBehaviour</code> – který slouží k nastavení chování jednotce či vojákovi. <br>
+Např. <code>this setbehaviour "SAFE"</code><br>
+Možnosti chování jsou: CARELESS, SAFE, AWARE, COMBAT, STEALTH<br>
+Tento nám napomůže k nastavení, zda má mít voják v ruce zbraň či ne.<br>
+<br>
+<code>SetUnitPos</code> – nastaví postavení vojáka<br>
+Př. <code>This setUnitPos "DOWN"</code><br>
+Možnosti: Auto, UP, DOWN<br>
+Umístí vojáka případně na zem, pokud chceme aby ležel.<br>
+<br>
+<code>DisableAI</code> – vypne vojákovi některé možnosti, což je vhodné, pokud chceme zamezit <br>
+neustálému otáčení hlavou apod. Pozor, tyto schopnosti pak již nejdou zapnout.<br>
+<code>this DisableAI "AUTOTARGET"</code><br>
+Možnosti: AUTOTARGET, TARGET, MOVE<br>
+<br>
+<code>Stop</code> – zastaví jednotku<br>
+<code>This stop true</code><br>
+Možnosti: true,false<br>
+<br>
+Příklad jak umístit vojáka do pokleku, aby mířil před sebe a 
+neotáčel hlavou po ostatních cílech. Samotný cíl mu můžeme 
+nastavit přes DoWatch.<br>
+Př.<br>
+<code>
+this setBehaviour "COMBAT"<br>
+this switchMove "Crouch"<br>
+this setUnitPos "UP"<br>
+this disableai "AUTOTARGET"<br>
+this disableai "MOVE"<br>
+</code>
+<br>
+A nakonec třeba příklad pro ležícího člověka, otáčejícího se kolem své osy.<br>
+Vytvořil sem si skript pro otáčení, který sem nazval <code>posun.sqs</code>, jeho obsah:<br><br>
+<code>
+_on = _this select 0 ;</code> do lokální proměnné uloží první předaný parametr, nyní jméno.<br>
+<code>_on stop true </code>; zastavíme ho<br>
+<code>_i = 0</code><br>
+<code>_uh = getdir _on ;</code> zjistím úhel jeho natočení<br>
+<code>#loop</code><br>
+<code>_on setdir (_uh + _i) </code>; a zvětším ho<br>
+<code>~0.05 </code>; chvíli vyčkám<br>
+<code>_i = _i + 1</code><br>
+<code>?(_i&lt;180): goto "loop"</code><br>
+<code>_on stop false </code>; a po posunu o 180 stupňů zase ho pustím<br>
+<code>exit </code>; ukončí skript<br>
+<br>
+Výsledkem bude voják co se zastaví, otočí se a pak bude dělat 
+dál, co měl. Je to vhodné například pro náznak krytí před 
+kamerou. Stačí jen zavolat přes <code>this exec "posun.sqs"</code><br>
+<br>
+<p>Hodně významným příkazem je příkazy SwitchMove a PlayMove, které přehrají definovaná pohyby. Například:<br>
+<code>This switchmove ”EffectStandSalute” </code>; postava zasulutuje.<br>
+Seznam všech pohybů naleznete v OFPEditorHelpu. Doporučuji si přečíst Tutorial18.<br></p>
+<br>
+<br>
+<a name="hudba"></a>
+<h2>Hudba</h2>
+<br>
+<p>Při práci s flashpointem máme k dispozici všechny základní songy, které ve hře jsou.<br>
+Jak je spustit? Jde to klasicky přes spínač, nebo pomocí příkazu:<br>
+<code>Playmusic[“Track13”,30]</code> ; které pustí 13 píseň od 30 sekundy.<br>
+Dále je vhodné znát příkaz Fademusic, pomocí kterého můžeme vytvářet náběhy hudby či její postupné zmírnění.<br>
+<code>5 fademusic 0</code> ; v 5 sekundách jde hudba na nulu – 1 je standardni hodnota.<br>
+A jaké jsou názvy hudeb ve flashpointu?<br>
+Je to<code> Track1 až Track16, pak Frost, 7thDecide, 7thIamGonaFly, 7thLifeless (hojně používaná), 7thOverDose,</code> ze základního flashpointu.<br>
+No a dále je to z Resistance:<br>
+<code>Rtrack1a, Rtrack1b, Rtrack2 až Rtrack 10, 7thDarken a 7thMylife.</code><br>
+<br>
+Není však problém si k misi přidat misi svou.<br>
+Stačí si vytvořit soubor description.ext a do něj napsat například:<br><br></p>
+<code>
+class CfgMusic<br>
+ {<br>
+tracks[]= <br>
+ {<br>
+  hudba<br>
+ };<br>
+<br>
+class hudba<br>
+ {<br>
+  name="hudba";<br>
+  sound[]={\music\hudba.ogg, db+40, 1.0};<br>
+ };<br>
+<br>
+};<br></code>
+a v podadresáři music mít uloženou tuto hudbu ve formátu ogg, pak 
+jen příkazem playmusic "hudba", ji spustit. Více se dozvíte v 
+OFPEditorHelpu.<br>
+Podobná práce je se zvuky.<br>
+V podadresáři Sound budou zase ogg soubory se zvuky (například externí výkřik, zahřmění apod.)<br>
+A pak zase do description.ext napíšete:<br><br>
+<code>
+class CfgSounds<br>
+{<br>
+	sounds[] = <br>
+		{<br>
+			Pv01, Pv02<br>
+		};<br>
+	class Pv02<br>
+	<br>
+	{<br>
+		name = "Pv02";<br>
+		sound[] = {"Pv02.ogg", 10, 1.0};<br>
+		titles[] = {	};<br>
+	};<br>
+	class Pv01<br>
+	<br>
+	{<br>
+		name = "Pv01";<br>
+		sound[] = {"Pv01.ogg", 10, 1.0};<br>
+		titles[] = {	};<br>
+	};<br>
+};</code><br>
+Ale pozor, zde se již podadresář nepíše.<br>
+Takto podobně za použítí <code>stringtable.csv</code> se vytvářejí titulky, ale o tom více v OFPEditorHelpu.<br>
+<br>
+<br>
+<h3>Zdroje:</h3>
+OFPEditorHelp v1.2 (Created by Ruprt) – <a href="http://www.koflex.cz/ruprt" target="_blank">http://www.koflex.cz/ruprt</a><br>
+Základy střihové skladby – Josef Vaculík (1980)<br>
+<br>
+<br>
+<br>
+__________ Informacia od NOD32 1.393 (20030408) __________<br>
+<br>
+Tato sprava bola preverena antivirusovym systemom NOD32.<br>
+<a href="http://www.eset.sk/">http://www.eset.sk</a><br>
+
+<br>
+<br>
+
+</body></html>

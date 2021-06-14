@@ -1,0 +1,327 @@
+<HTML>
+<HEAD>
+<TITLE>Ukázka rùzných dialogových objektù (souèást Ježurova tutoriálu o dialozích)</TITLE>
+<LINK REL="Stylesheet" TYPE="text/css" HREF="default.css">
+</HEAD>
+
+<BODY BGCOLOR="RGB(186,195,174)">
+<FONT>
+
+<TABLE BORDER = "1" WIDTH = "99%" BORDERCOLOR = RGB(161,91,0)>
+ <TR>
+  <TD WIDTH = "33%" ALIGN = "Center">
+   <BR><A HREF = "#RscBackground"><IMG SRC = "Pictures\RscBackground.jpg" BORDER = 0></A><BR><BR>
+   <B>Pozadí</B><BR>"Oblemování" dialogového okna s texturovanou výplní.<BR><BR>
+  </TD>
+  <TD WIDTH = "33%" ALIGN = "Center">
+   <BR><A HREF = "#RscGroupBox"><IMG SRC = "Pictures\RscGroupBox.jpg" BORDER = 0></A><BR><BR>
+   <B>Další pozadí</B><BR>Poloprùhledný objekt jen tak na ozdobu ;)<BR><BR>
+  </TD>
+  <TD WIDTH = "33%" ALIGN = "Center">
+   <BR><A HREF = "#RscHUD"><IMG SRC = "Pictures\RscHUD.jpg" BORDER = 0></A><BR><BR>
+   <B>HUD pozadí</B><BR>Pìkné HUD pozadí, používané napø. jako hint.<BR><BR>
+  </TD>
+ </TR>
+ <TR>
+  <TD WIDTH = "33%" ALIGN = "Center">
+   <BR><A HREF = "#RscPicture"><IMG SRC = "Pictures\RscPicture.jpg" BORDER = 0></A><BR><BR>
+   <B>Obrázek</B><BR>Prostì obrázek, tøeba tenhle ;)<BR><BR>
+  </TD>
+  <TD WIDTH = "33%" ALIGN = "Center">
+   <BR><A HREF = "#RscButton"><IMG SRC = "Pictures\RscButton.jpg" BORDER = 0></A><BR><BR>
+   <B>Tlaèítko</B><BR>Co k tomu øíct?<BR><BR>
+  </TD>
+  <TD WIDTH = "33%" ALIGN = "Center">
+   <BR><A HREF = "#RscActiveText"><IMG SRC = "Pictures\RscActiveText.gif" BORDER = 0></A><BR><BR>
+   <B>Aktivní text</B><BR>Funguje naprosto stejnì jako tlaèítko, ale vypadá jako text.<BR><BR>
+  </TD>
+ </TR>
+ <TR>
+  <TD WIDTH = "33%" ALIGN = "Center">
+   <BR><A HREF = "#RscSliderV"><IMG SRC = "Pictures\RscSliderV.jpg" BORDER = 0></A><BR><BR>
+   <B>Slider (vertikální)</B><BR>Posuvník neboli jezdec, tento svislý.<BR><BR>
+  </TD>
+  <TD WIDTH = "33%" ALIGN = "Center">
+   <BR><A HREF = "#RscSliderH"><IMG SRC = "Pictures\RscSliderH.jpg" BORDER = 0></A><BR><BR>
+   <B>Slider (horizontální)</B><BR>Posuvník neboli jezdec, vodorovný.<BR><BR>
+  </TD>
+  <TD WIDTH = "33%" ALIGN = "Center">
+   <BR><A HREF = "#RscCombo"><IMG SRC = "Pictures\RscCombo.gif" BORDER = 0></A><BR><BR>
+   <B>ComboBox</B><BR>Rolovací nabídka pro výbìr údajù.<BR><BR>
+  </TD>
+ </TR>
+ <TR>
+  <TD WIDTH = "33%" ALIGN = "Center">
+   <BR><A HREF = "#RscListBox"><IMG SRC = "Pictures\RscListBox.jpg" BORDER = 0></A><BR><BR>
+   <B>ListBox</B><BR>To stejné jako ComboBox, jenom to není rolovací.<BR><BR>
+  </TD>
+  <TD WIDTH = "33%" ALIGN = "Center">
+   <BR><A HREF = "#RscEdit"><IMG SRC = "Pictures\RscEdit.jpg" BORDER = 0></A><BR><BR>
+   <B>EditBox</B><BR>Kolonka, kam mùže uživatel vepisovat údaje.<BR><BR>
+  </TD>
+  <TD WIDTH = "33%" ALIGN = "Center">
+   <BR><A HREF = "#RscTitle"><IMG SRC = "Pictures\RscTitle.jpg" BORDER = 0></A><BR><BR>
+   <B>Titulek okna</B><BR>Tabulka pro nadpis dialogového okna.<BR><BR>
+  </TD>
+ </TR>
+ <TR>
+  <TD WIDTH = "33%" ALIGN = "Center">
+   <BR><A HREF = "#RscText"><IMG SRC = "Pictures\RscText.jpg" BORDER = 0></A><BR><BR>
+   <B>Text</B><BR>Docela obyèejný psaný text...<BR><BR>
+  </TD>
+  <TD WIDTH = "33%" ALIGN = "Center">
+  </TD>
+  <TD WIDTH = "33%" ALIGN = "Center">
+  </TD>
+ </TR>
+</TABLE>
+
+<BR><BR>
+
+<CENTER>
+Obrázky objektù fungují jako odkazy na pøíslušnou definici.<BR>
+POZOR! Následující kód není definice kompletního dialogu, ale jen jednotlivých objektù!!!<BR>
+</CENTER>
+
+<PRE>
+<A NAME = "RscBackground">// OTEXTUROVANÉ POZADÍ S RÁMEÈKEM</A>
+
+class RscBackground
+{
+	type = 0;
+	IDC = -1;
+	style = 80;
+	x = 0.150000;
+	y = 0.150000;
+	w = 0.700000;
+	h = 0.700000;
+	text = "";
+	ColorBackground[] = {1,1,1,1};
+	ColorText[] = {0,0,0,0};
+	font = "tahomaB24";
+	SizeEx = 0;
+};
+
+<A NAME = "RscGroupBox">// DALŠÍ POZADÍ, ALE JEDNOBAREVNÉ A BEZ RÁMEÈKU</A>
+
+class RscGroupBox
+{
+	type = 0;
+	IDC = -1;
+	style = 96;
+	x = 0.150000;
+	y = 0.150000;
+	w = 0.700000;
+	h = 0.700000;
+	text = "";
+	ColorBackground[] = {0,0,0,0};
+	ColorText[] = {0,0,0,0};
+	font = "tahomaB24";
+	SizeEx = 0.020000;
+};
+
+<A NAME = "RscHUD">// HUD POZADÍ</A>
+
+class RscHUDBackground
+{
+	type = 0;
+	IDC = -1;
+	style = 128;
+	x = 0.150000;
+	y = 0.150000;
+	w = 0.700000;
+	h = 0.700000;
+	text="";
+	ColorBackground[]={1,1,1,1};
+	ColorText[]={0,0,0,0};
+	font="tahomaB24";
+	SizeEx = 0;
+};
+
+<A NAME = "RscPicture">// OBRÁZEK</A>
+
+class RscPicture
+{
+	type = 0;
+	IDC = -1
+	style = 48;
+	x = 0.580000;
+	y = 0.610000;
+	w = 0.107500;
+	h = 0.115000;
+	text = "Obrazek.jpg";
+	ColorBackground[] = {0,0,0,0};
+	ColorText[] = {1,1,1,1};
+	font = "tahomaB24";
+	SizeEx = 0;
+};
+
+<A NAME = "RscButton">// TLAÈÍTKO</A>
+
+class RscButton
+{
+	type = 1;
+	IDC = -1;
+	style = 2;
+	x = 0.150000;
+	y = 0.150000;
+	w = 0.110000;
+	h = 0.050000;
+	text = "";
+	ColorText[] = {1,1,1,1};
+	font = "tahomaB36";
+	SizeEx = 0.020000;
+	default = 0;
+	action = "";
+	SoundPush[] = {"ui\ui_ok",0.200000,1};
+	SoundClick[] = {"",0.200000,1};
+	SoundEscape[] = {"ui\ui_cc",0.200000,1};
+};
+
+<A NAME = "RscActiveText">// AKTIVNÍ TEXT</A>
+
+class RscActiveText
+{
+	type = 11;
+	IDC = -1;
+	style = 0;
+	x = 0.150000;
+	y = 0.150000;
+	w = 0.110000;
+	h = 0.050000;
+	text = "";
+	color[] = {0,0,0,1};
+	ColorActive[] = {1,1,1,1};
+	font = "tahomaB36";
+	SizeEx = 0.020000;
+	default = 0;
+	action = "";
+	SoundEnter[] = {"ui\ui_over",0.200000,1};
+	SoundPush[] = {"ui\ui_ok",0.200000,1};
+	SoundClick[] = {"",0.200000,1};
+	SoundEscape[] = {"ui\ui_cc",0.200000,1};
+};
+
+<A NAME = "RscSliderV">// VERTIKÁLNÍ JEZDEC</A>
+
+class RscSliderV
+{
+	type = 3;
+	IDC = -1;
+	style = 0;
+	x = 0.150000;
+	y = 0.150000;
+	w = 0.021000;
+	h = 0.100000;
+	color[] = {1,1,1,1};
+};
+
+<A NAME = "RscSliderH">// HORIZONTÁLNÍ JEZDEC</A>
+
+class RscSliderH
+{
+	type = 3;
+	IDC = -1;
+	style = 1;
+	x = 0.150000;
+	y = 0.150000;
+	w = 0.100000;
+	h = 0.021000;
+	color[] = {1,1,1,1};
+};
+
+<A NAME = "RscCombo">// COMBOBOX - ROLOVACÍ NABÍDKA</A>
+
+class RscCombo
+{
+	type = 4;
+	IDC = -1;
+	style = 32 + 2;
+	x = 0.320000;
+	y = 0.620000;
+	w = 0.250000;
+	h = 0.025000;
+	WholeHeight = 0.250000;
+	RowHeight = 0.025000;
+	colorSelect[] = {0.350000,0.380000,0.360000,1};
+	ColorText[] = {0.080000,0.080000,0.120000,0.750000};
+	ColorBackground[] = {0.350000,0.380000,0.360000,0.750000};
+	font = "tahomaB24";
+	SizeEx = 0.020000;
+};
+
+<A NAME = "RscListBox">// LISTBOX - NABÍDKA</A>
+
+class RscListBox
+{
+	type = 5;
+	IDC = -1;
+	style = 0;
+	x = 0.320000;
+	y = 0.620000;
+	w = 0.250000;
+	h = 0.025000;
+	RowHeight = 0.025000;
+	colorSelect[] = {0.350000,0.380000,0.360000,1};
+	ColorText[] = {0.080000,0.080000,0.120000,0.750000};
+	font = "tahomaB24";
+};
+
+<A NAME = "RscEdit">// PROSTOR, DO KTERÉHO MÙŽE UŽIVATEL PSÁT</A>
+
+class RscEdit
+{
+	type = 2;
+	IDC = -1;
+	style = 0;
+	x = 0.150000;
+	y = 0.150000;
+	w = 0.700000;
+	h = 0.032000;
+	text = "";
+	ColorBackground[] = {0,0,0.5,1};
+	ColorText[] = {1,1,1,1};
+	ColorSelection[] = {1,1,1,0.250000};
+	font = "tahomaB24";
+	SizeEx = 0.020000;
+	AutoComplete = "";
+};
+
+
+<A NAME = "RscTitle">// NADPIS OKNA DIALOGU</A>
+
+class RscTitle
+{
+	type = 0;
+	IDC = -1;
+	style = 32 + 2;
+	x = 0.150000;
+	y = 0.164000;
+	w = 0.700000;
+	h = 0.060000;
+	text = "";
+	ColorBackground[] = {1,1,0,1};
+	ColorText[] = {1,1,1,1};
+	font = "tahomaB36";
+	SizeEx = "1.0714 * 0.03";
+};
+
+<A NAME = "RscText">// TEXT</A>
+
+class RscText
+{
+	type = 0;
+	IDC = -1;
+	style = 2 + 16 + 512;
+	x = 0.150000;
+	y = 0.150000;
+	w = 0.700000;
+	h = 0.700000;
+	text = "";
+	LineSpacing = 1.000000;
+	h = 0.040000;
+	ColorBackground[] = {0,0,0,0};
+	ColorText[] = {1,1,1,1};
+	font = "garamond64";
+	SizeEx = 0.020000;
+};

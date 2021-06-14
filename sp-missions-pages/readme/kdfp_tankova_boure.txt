@@ -1,0 +1,28 @@
+============================================================================================
+Tanková bouře
+
+Autor : KDFP - kimster & denny flashpoint project
+E-mail : michael-gescheidt@volny.cz
+
+Ostrov : Everon (střední část, vesnice Provins a Montignac)
+
+Použíté AddOny : žádné
+Požadovaná verze hry : tvořeno s verzí 1.91, ale měla by stačit původní resistance (1.75)
+
+Mise : Ruské jednotky se definitivně rozhodli vykopat složky NATO z Everonu a tak se pouští do riskantní akce, kterou by si mohli zajistit centrální část ostrova (hl. město Montignac) a tím zlomit nepřítele. Ruské velitelství vybralo zkušenou tankovou jednotku Zulu.
+
+==========================================================================================
+
+Instalace : Složku "KDFP" nakopírujte do vašeho adresáře missions ve složce se hrou.
+
+Dofuáme že se vám bude mise líbit.
+
+Jakékoliv náměty nebo připomínky pište buď na výše zmíněný mail, nebo nechte vzkaz na mém fóru na:
+http://michael-gescheidt.wz.cz
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+
+Shodli jsme se s dennym, že by se nám hodila trošku s editací pomoc. Pokud by měl někdo zájem spolupracovat a vytvořit nějaké mise nebo kampaň rádi ho přijmeme. Nemusíte mít žádné velké zkušenosti s editaci. Pokud máte zájem tak nám napište na : michael-gescheidt@volny.cz
+
+                                      Těšíme se na spolupráci
+                                                                                    KDFP - kimster & denny flashpoint project

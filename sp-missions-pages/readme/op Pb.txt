@@ -1,0 +1,25 @@
+Readme  
+
+Název : Operace Pouštní bouře
+Autor : Golem
+Kontakt: golemikofp@centrum.cz
+Addony: ČSLA (http://games.tiscali.cz/flashpoint/addony.asp)
+        editorupdate 102 (přiložen k misi Operace Modrava)
+
+Typ : Pěchotní
+
+Mise je vytvořena ve verzi 1.91, ze začátku se možná bude trochu škubat, ale po
+chvíli už jde celkem plynule.
+_______________________________________________________________________________
+Misi zkopírujte ( C:\Program files\Codemasters\OperationFlashpoint\Missions)
+
+_______________________________________________________________________________
+Tato mise je další, která se objeví v připravované kampani, ze které asi ještě 
+jednu nebo dvě uveřejním.
+
+
+
+!!!Měl bych tu jednu radu, při hraní moc netaktizujte, ale radši rychle miřte!!!
+!!!a mačkejte levé tlačítko a ještě upozornění, blízký prostor kolem letiště !!!
+!!!musíte úplně vyčistit, teď jen zbývá popřát příjemné hraní.               !!!                                                       
+   

@@ -1,0 +1,25 @@
+Mise: Rychlý blesk
+Ostrov: Everon
+Vyrobil: Celoush 2002
+Addony: Pouze oficiální
+Intro: ne (až v misi)
+Outro: ano
+Potøebná verze: 1.46
+***************************************************************************
+Zdarééc,
+
+takže tato mise se zove Rychlý blesk.
+Tož abyste si ju mohli zahrát tak potøebujete oficiální addony a to tyto:
+G36a,Steyr,XMS,AH64,BMP2,Vulcan,HMMWV,Ch47D.
+
+Jelikož je asi budete všeci mít tož pokraèujem.
+
+V této misi si zahráte jako voják (Desátník Trevor Linden), velitel tanku
+(Seržant Jim Stewart), pilot helikoptéry (Kapitán Jack T. Robinson) a èlen
+speciální jednotky (Desátník John Abramowsky). Budete plnit likvidaèní úkoly.
+
+No a pokud budete hodnì dùslední, tak móžete sejmout velitele Saint Pierre už z helikoptéry
+a v tom pøípadì se mise ukonèí døíve než zaútoèíte na hrad v pozici Abramowskeho.
+
+Zdraví a pìknó zábavu pøeje
+Celoush

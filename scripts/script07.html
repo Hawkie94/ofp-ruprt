@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=windows-1250">
+		<title>Detail scriptu</title>
+		<meta name="GENERATOR" content="Microsoft Visual Studio .NET 7.1">
+		<meta name="CODE_LANGUAGE" content="Visual Basic .NET 7.1">
+		<meta name="vs_defaultClientScript" content="JavaScript">
+		<meta name="vs_targetSchema" content="http://schemas.microsoft.com/intellisense/ie5">
+		<link href="./../Styles.css" type="text/css" rel="stylesheet">
+	</head>
+	<body ms_positioning="GridLayout"><center>
+		<div class="TIP_BCKG_AREA" align="center">
+				<div class="TIP_CONTENT_AREA" id="TipContentArea">
+					<table id="tblContent" class="MD_TABLE_INFO" width="448px" cellspacing="0" cellpadding="3" align="left">
+	<tbody><tr>
+		<td style="color:#FFFFFF;font-weight:bold;" width="50%">Autor : Ježuro</td>
+		<td style="color:#FFFFFF;font-weight:bold;" width="50%" align="right">
+			<a href="files/Rozhaz.zip" target="_blank">Stáhnout script</a><br>
+			<a href="./../scripts.html">Zpět na scripty</a>
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2" height="9px" bgcolor="#9FA5C5"></td>
+	</tr>
+	<tr>
+		<td colspan="2" style="font-size:1.0em;font-weight:bold;color:#FF6600;" align="center">Rozházení elementů v poli</td>
+	</tr>
+	<tr>
+		<td colspan="2" height="9px" bgcolor="#9FA5C5"></td>
+	</tr>
+	<tr>
+		<td colspan="2" style="font-size:1.05em;font-weight:normal;text-align:justify;color:#EBE7D8;">_pole = +(_this select 0)<br>_pocet = count _pole<br><br>? _pocet &lt; 2 : exit<br><br>Pole2 = []<br>_i = 1<br><br>#Rozhazuj<br>	_rannum = (random ((count _pole) -1))<br>	_zbytek = (_rannum % 1)<br>	_rannum = (_rannum - _zbytek)<br>	? (_zbytek &gt;= 0.5) : _rannum = (_rannum + 1)<br>	_newelem = (_pole select _rannum)<br><br>	Pole2 = (Pole2 + [_newelem])<br>	_pole = (_pole - [_newelem])<br><br>	@ DayTime &lt; 25<br>	_i = (_i + 1)<br>	? _i &lt; _pocet : goto 'Rozhazuj'<br><br>Pole2 = (Pole2 + [(_pole select 0)])<br><br>exit<br><br>Skript
+ se volá s jedním parametrem, a tím je řetězec, který chcete rozházet. 
+Výslední řetězec se uloží do proměnné Pole2, kterou můžete dále používat
+ kdekoli v misi. Rozházení elementů trvá počítači kolem 0.03 sekundy, v 
+závislosti na délce řetězce a frekvenci CPU. Doporučuji pro jistotu 
+prodlevu před prvním použitím proměnné Pole2 asi 0.2 sekundy.<br><br>Ježuro</td>
+	</tr>
+</tbody></table>
+
+				</div>
+			</div>
+		</form>
+	
+
+</center></body></html>

@@ -1,0 +1,42 @@
+File Five degrees to death.KEGnoecain_snow (mission) copy to base Mission folder where you have instaled OFP
+
+CREDITS
+Directed by Noorb
+
+MUSIC
+Bill brown
+Max Richter
+SCRIPTS
+Jan Cepera
+Jezuro - Onplayerkilled (edited by cepera)
+Kegetys 
+CAMERA
+Cepera
+____________________________________________________
+
+Addon 5dtd.PBO copy to addon folder
+Directed by Jan Cepera
+
+
+
+
+_____________________________________________________________________________________
+SAMPLE MISSION (RANK MISSION)
+
+
+Rank testing mission is short mission (no designeD) to show you how work Rank system in 5dtd mission 
+
+Soldiers in this short missions has 0.3 skill on the begining. And they want to be better with more skills!
+Soldier who kill some enemy -> +0.05 skill
+
+
+==============Skills mode==========
+beginner = |||
+greenhorn  = ||||
+gunman = |||||
+slicer = |||||||
+cruel cutter = |||||||||
+Expert = EXPERT
+__________________________________
+
+Sample mission Paste to /users/_name/spmissions

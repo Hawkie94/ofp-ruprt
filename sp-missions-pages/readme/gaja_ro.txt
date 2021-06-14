@@ -1,0 +1,119 @@
+
+
+                                  ROZSÉVÁNÍ OHNĚ
+                                      v1.02
+                      	    Vytvořilo GAJA Studios 2003
+			     http://gajastudios.wz.cz 
+                                  Czech Republic 
+
+============================================================================================
+
+ OBSAH: 1) Instalace, systémové požadavky a potřebné addony
+        2) Batllefield 2006
+	3) Tipy a rady
+	4) Známé problémy
+        5) Credits
+	6) Upozornění
+____________________________________________________________________________________________
+
+ 1) INSTALACE,SYSTÉMOVÉ POŽADAVKY A POTŘEBNÉ ADDONY:
+
+	Zkopírujte soubor "gaja_ro.pbo" do vašeho adresáře Missions
+
+	MINIMÁLNÍ POŽADAVKY:
+		Pentium 3/4 nebo Athlon 900CPU
+		256MB RAM
+		64MB Grafická karta
+		225kB volného místa na disku
+		297kB volného místa na disku po rozbalení
+
+	DOPORUČENÉ POŽADAVKY:
+		Pentium 3/4 nebo Athlon 1800CPU
+		512MB RAM
+		128mb Grafická karta
+		225kB volného místa na disku
+		297kB volného místa na disku po rozbalení
+
+	Potřebné ADDONY:
+
+	dkmm_rah66_111 od DKM Mod
+	ftp://www.gamezone.cz/ofpd/unofaddons2/dkmm_rah66_111.exe
+	http://www.dkm-mod.mkdi.net/download/vehicles/rah-66-comanche/dkmm_rah66_111.exe
+
+____________________________________________________________________________________________
+
+ 2) PROJEKT BATTLEFIELD 2006:
+
+	Mise je součástí našeho projektu "Battlefield 2006", který má ukazovat způsob vedení
+	boje v novém tisíciletí. Proto je použit addon vrtulníku RAH-66 Commanche, protože
+	oficiální jednotky použité v v OFP a OFP:R jsou až na několik vyjímek zastaralé a v 
+	dnešní době se některé z nich ani nepoužívají. Zároveň chceme ukázat, jak asi vypadají 
+	současné bitvy a co všechno je pro takový velký útok potřeba.
+	Musíte však omluvit poněkud zhoršenou viditelnost, jelikož při větším dohledu byla mise 
+	takřka nehratelná.
+
+____________________________________________________________________________________________
+
+ 3)Tipy a rady:
+
+	- Pokud ji nemáte nastavenou, doporučujeme přepnout kvalitu zobrazení na hodnotu kolem šesti - mise
+	byla v tomto nastavení vytvořena a bude pravděpodobnější, že půjde plynuleji.
+
+	- Když zničíte všechny jednotky na vrtulníkové základně, doporučujeme zaletět na servisní 
+	heliport v Mírově, aby jste se opravili a doplnili si munici. Víc šancí už k tomu mít nebudete.
+
+	- Pokud jste z addonu Commanche zvyklí na to, že jste museli manuálně zavírat dveře a zatahovat 
+	podvozek, tak věřte, že v této misi jste toho díky několika chytrým scriptům ušetřeni. Pouze 
+	vnitřní raketnici musíte zatahovat a vytahovat manuálně.
+
+	- Dopuručujeme ihned po startu přepnou mód střelby na AA a povolit ruční střelbu. Ušetříte si tím 
+	spoustu trápení s měněním zbraní při boji.
+
+	- Když vystřílíte všechny rakety Hellfire, objeví se v nabídce činností možnost "Drop wings", pomocí 
+	které odhodíte křídla od raket. Doporučujeme nedělat tak před útokem na Petrovice, protože pak přijdete 
+	o možnost doplnit si řízené rakety na servisním heliportu.
+
+	- A nakonec: Po dohrátí mise neodklikávejte outro...
+
+____________________________________________________________________________________________
+ 4) ZNÁMÉ PROBLÉMY:
+
+	- Po obsazení vrtulníkové základny se občas stane, že druhý vrtulník (pokud ještě žije) zaútočí bez rozkazu 
+	na Petrovice a tam se nechá sestřelit. Opět je to způsobeno "chybou" addonu, jelikož ostatní vrtulníky tak nečiní.
+
+	- Mise se příšerně seká (Zvláště ze začátku, ke konci by to už mělo být lepší)
+____________________________________________________________________________________________
+ 5) CREDITS:
+	
+	Directed by:				GAJA
+	Director of photography:		P.W.
+	Lead programmer:			GAJA
+	Scripting & Editing:			GAJA
+	Credits director:			P.W.
+	Music mixed by:				GAJA
+
+	Internal betatesting:			P.W. & GAJA
+	External betatesting:			Jackal
+						Ali
+						BikerOFP
+						Milwin
+
+	English translation:			ARIANA
+
+	Special thanks to:			Munch - za pomoc při úpravě obrázků do *.paa.
+						Ježuro - za vytvoření dialogu na zjištění souřadnic kamery,
+						  	 bez něj by nevzniklo intro ani outro k této misi.
+						DKMM - za vytvoření addonu RAH-66 Commanche, na kterém je tolik
+						       zbytečností a který misi neúprosně zpomaluje, ale jinak je OK.
+						BIS - za to, že vytvořili OFP. Nebýt nich, tak tohle nečtete...
+
+____________________________________________________________________________________________
+
+ 6) UPOZORNĚNÍ
+
+Toto je neoficiální mise pro hru Operation Flashpoint (Copyright © 2001 Bohemia Interactive 
+Studio and The Codemasters Software Company Limited ("Codemasters"). All rights reserved.)
+Jako taková je podle rozhodnutí Bohemia Interactive, Codemasters a GAJA Studios FREEWARE a
+NESMÍ být využita ke KOMERČNÍM účelům!
+Bohemia Interactive, Codemasters ani GAJA Studios neručí za problémy vzniklé používáním
+tohoto software.  

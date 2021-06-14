@@ -1,0 +1,31 @@
+
+----------------------Novád k instalaci mé demomise Skleroza-----------------
+
+==========================================================
+Skript(y):  SATELIT.SQS
+==========================================================
+Akční (ostrov): Kolgujev
+==========================================================
+Potřebná verze: 1.90 - Resistance
+==========================================================
+Autor: Hascak
+==========================================================
+Kontakt: martin-banov@seznam.cz
+==========================================================
+Poznamka: Nahrajte misi - Skleroza.Cain - do adresaře Missions
+(C:\Program Files\Codemasters\OperationFlashpoint\Missions)
+==========================================================
+Potřebné addony : Všecny CSLA upgrady a ACR ubgrady
+		"bis_resistance",
+		"editorupdate102",
+		"sg_life_story_pack",
+		"sg_weapon_addon_pac
+                 Addony která začínají na SG stáhněte na stránkách: 
+                 http://www.geocities.com/spankygmaster/addons.html
+                 A ostatní na servru ofp.gamezone.cz
+
+********************************Martin Haščák*******************************
+
+Pokud bi byli nějaké problémi s misí kentaktujte mě na adrese martin-banov@seznam.cz
+Podívejte se na moje stránky  www.martin.wz.cz  Díky.
+****************************************************************************

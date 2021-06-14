@@ -1,0 +1,19 @@
+Mise: Milice ve městě
+Intro: Ano
+Outro: Ano
+Cutscéna: Ano
+Briefing + Owerview: Ano
+Typ mise: Singlplayer mise
+Addony: Jen oficiální (potřeba addonů z verze 1.90)
+Autor: Biker OFP
+Mail: roman.krnoul@seznam.cz
+vytvořeno ve verzi: 1.90
+
+Obtížnost: Druhá část mise je podle mého názoru poměrně obtížná.
+           Není to však dáno počtem nepřátelských jednotek, 
+           ale jejich strategickým umístěním.
+Známé chyby: Vím jen o tom, že v intru, když odjíždí hlavní postava, tak
+             se někdy stane, že couvá, bourá a takový kraviny, ale to není moje chyba!
+Co nejlepší statistiku vám při hraní mise přeje Biker.
+
+              

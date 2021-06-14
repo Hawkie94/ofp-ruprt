@@ -1,0 +1,23 @@
+A:Link		{COLOR : #9A3623; FONT-WEIGHT : Normal; FONT-FAMILY : Verdana; TEXT-DECORATION : None}
+
+TD		{FONT-SIZE : 9pt}
+
+.SampleLink	{COLOR : #9A3623; FONT-WEIGHT : Normal; FONT-FAMILY : Verdana; TEXT-DECORATION : None}
+
+A:Visited	{COLOR : #9A3623; FONT-WEIGHT : Normal; FONT-FAMILY : Verdana; TEXT-DECORATION : None}
+
+.SampleVisited	{COLOR : #9A3623; FONT-WEIGHT : Normal; FONT-FAMILY : Verdana; TEXT-DECORATION : None}
+
+A:Hover		{COLOR : #D03E00; FONT-WEIGHT : Normal; FONT-FAMILY : Verdana; TEXT-DECORATION : Underline}
+
+.SampleHover	{COLOR : #D03E00; FONT-WEIGHT : Normal; FONT-FAMILY : Verdana; TEXT-DECORATION : Underline}
+
+FONT		{COLOR : #000000; FONT-WEIGHT : Normal; FONT-FAMILY : Verdana; FONT-SIZE : 9pt; TEXT-DECORATION : None; TEXT-INDENT : 0pt}
+
+H2		{COLOR : #A96423; FONT-FAMILY : Verdana; FONT-SIZE : 13pt; FONT-WEIGHT : Bold; TEXT-DECORATION : Underline; TEXT-INDENT :0pt}
+
+PRE		{COLOR : #373484; FONT-FAMILY : Verdana; FONT-SIZE : 9pt; FONT-WEIGHT : Normal}
+
+.SamplePRE	{COLOR : #373484; FONT-FAMILY : Verdana; FONT-SIZE : 9pt; FONT-WEIGHT : Normal}
+
+HR		{COLOR : #82723F}

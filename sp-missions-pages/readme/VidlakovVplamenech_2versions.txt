@@ -1,0 +1,13 @@
+Mise: Vidlákov v plamenech (Ah-64 version)
+Typ mise: Singl
+Intro: Ano
+Outro: Ano
+Briefing, Overview: Ano
+Addony: Žádný
+Vyrobeno ve verzi 1.91
+Autor: Vít Chrastina00
+ICQ: 141312704
+
+Zajímá vás, proč je v názvu nápis Ah-64 version? V této misi se totiž i létá a Já udělal dvě verze.
+Ten kdo si stáhnul addon RAH-66 Comanche, tak pro něj je RAH-66 version a kdo ho nemá, proněj je 
+Ah-64 version. Vy máte Ah-64 version.

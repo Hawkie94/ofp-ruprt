@@ -1,0 +1,22 @@
+                                                Ruská Armáda
+
+Príbeh: Na Everone mal byť nastolený komunizmus ale niektorým ľuďom sa to nepáčilo a začali zabíjať nevinných civilistov, preto sa Everonská vláda rozhodla zavolať na pomoc Rusko.
+––––––––––––––––––––––––––––––––––––––––––––––––––
+Ostrovy: Everon, Kolgujev
+Zkopírujte súbor Ruská Armáda do vašej zložky Campaigns
+Štandardne C:/Program Files/Bohemia Interactive/Operation Flashpoint/Campaigns
+––––––––––––––––––––––––––––––––––––––––––––––––––
+Postavy: Vasilji Likajev – Vojak
+               Vladimir Lapanov - SpetzNatz
+               Alexei Gavališč – Tankista
+               Yuri Spashenkov – Pilot
+–––––––––––––––––––––––––––––––––––––––––––––––––
+Autor: Tomáš Alexy
+
+Alias: tomo
+
+Počet misií: 29
+––––––––––––––––––––––––––––––––––––––––––––––––––
+Verzia: Vyrobené vo verzii  Operation Flashpoint 1.46 (nie Resistance, to je čo?!)
+
+Dúfam že si kampaň užijete a ďakujem že ste si ju stiahli. 

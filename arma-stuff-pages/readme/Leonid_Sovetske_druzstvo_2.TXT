@@ -1,0 +1,16 @@
+Všichni muži zemřou, ale jen někteří opravdu žijí.
+
+------------------------------
+Umístění: Černarus
+Addony: Pouze oficiální
+Intro: Ano 
+Outro: Ano 
+Velikost: 12 Mb
+-----------------------------
+
+Instalace: zkopírujte soubor sd.chernarus do adresare missions ve slozce arma2.
+
+Poděkování: Resistance-ratovi za betatest a Celoushovi za alarm script, který ještě vylepšuje AI
+
+Autor neručí za škody, které by naistalováním mise mohli nastat (nic by se stát nemělo).
+A stejně tak autor nepropaguje komunismus, narážky na něj jsou pouze k dokreslení atmosféry a spíše ho zesměšňují.

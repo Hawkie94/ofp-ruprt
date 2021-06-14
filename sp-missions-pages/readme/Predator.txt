@@ -1,0 +1,11 @@
+Mission Name: Predátor
+Ostrov: Everon
+Autor: Jiří Pazděra
+Použité AddOny: Asi žiadne
+Potrebná verzia hry: asi 1.46 (beží bez problémov aj na 1.96)
+
+Inštalácia:
+Misiu nahrajte do príslušného adresára na vašom disku ./Operation Flashpoint/missions/, resp. ./Arma Cold War Assault/missions/
+
+Poznámka :
+Toto readme nie je originálne. Vytvoril ho TonyHawk.

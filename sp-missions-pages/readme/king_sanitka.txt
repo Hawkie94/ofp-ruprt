@@ -1,0 +1,27 @@
+Název mise:  Sanitka
+
+Ostrov:  Everon
+
+Autor:  King
+
+Kontakt:  king-004@seznam.cz
+
+Addony:  ČSLA mod verze 2.02 (lze stáhnout z http://flashpoint.tiscali.cz nebo www.operationflashpoint.cz)
+
+         Editorupdate 102 (přiložen k misi)
+
+Intro: Ano
+
+Outro: Žádné
+
+Stručný obsah: Jako řidič sanitního OT-64 máte přivézt do nemocnice raněného.
+               
+Upozornění:    Raněný vám po cestě do nemocnice nesmí umřít. Jinak se mise ukončí jako nesplněná.
+               Před ukončením se objeví hláška že máte 5 vteřin na loading.
+               Zmáčkněte Escape a klikněte na Znovu, mise se vrátí na poslední uloženou pozici.
+               V Meaux po naložení raněného je Autosave. Poté nedoporučuji ukládat pozici, 
+               protože jsem použil skript na odpočet času kde se bere náhodná hodnota pro odpočet.
+               Ten se zpouští po Autosavu, takže když by jste poté hru uložily ještě jednou tak už by
+               běžel odpočet a moc by jste si teda nepomohly.
+
+Poděkování:  Autorům Ruprtova EditorHelpu a těm, kteří si tuto misi zahrají.

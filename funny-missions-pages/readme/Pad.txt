@@ -1,0 +1,7 @@
+Nazev mise : Volny pad
+Typ mise : Ptakovina
+Autor: Ali
+Ostrov : Desert Island
+AddOny : Nepouzity
+Vyzadovana verze hry : 1.75
+

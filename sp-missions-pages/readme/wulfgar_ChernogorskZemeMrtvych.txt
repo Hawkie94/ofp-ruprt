@@ -1,0 +1,31 @@
+Autor: Wulfgar
+Název: Chernogorsk: Zemì mrtvých (big-fix verze 1.1 by TonyHawk - opraveno a vylepšeno množstvo vìcí)
+Typ mise: Pìchotní-stealth-akce
+Ostrov: Chernogorsk
+Potøebná verze OFP: 1.96
+Použitá hudba: z her Return to Castle Wolfenstein, Half-life, Mafia a CoD 4: Modern Warfare
+Použitý mód: Nightstalkers
+Potøebné addony:
+	- mód Nightstalkers: Return to Chernogorsk Zone 1.01
+	- addony z Nightstalkers: Shadow of Namalsk beta 0.1 (konkretnì soubory NS.pbo, facestex2.pbo, IL86.pbo, TRs301.pbo)
+	- autor obou je Sumrak
+	- web ke stáhnutí: nightstalkers.cz
+------------------------------------------------
+Tipy & triky:
+- pøi získávaní séra se v hangáru na ruské základnì nachází BTR-80 (má málo paliva, avšak na vaší základnì mu mùžete palivo doplnit - jsou tam sudy)
+- na Snorka je hodnì dobré použít raketomet (RPG-7V - hocikterou ze støel VL, VR, nebo TBG)
+- 2 nejlepší zbranì pro použití (podle mnì) jsou RPK-74 PSO1 a SVD Dragunov
+- na obyèejné zombíky je hodnì úèinná Dragunovka (1 støela do hlavy a zombík je mrtvej)
+- schválnì, jaké se vám povede získat skóre (vypíše na konci mise v debriefingu ;o)) - moje poslední bylo kolem 59-tisíc :D
+
+Dùležité upozornìní: MUSÍTE UDÌLAT ÚKOLY PRO VŠECHNY TØI STALKERY, NEBO SE NEDOSTANETE DÁL!
+
+Poznámky autora:
+- Toto je má první a asi i jediná mise do tohoto módu.
+- Vyzkoušejte si také moje pøedchozí mise do hry Operation Flashpoint:
+	- Akce Wolfram
+	- Akce Wolfram 2: Operace Perestrojka
+	- S.T.N.A. 1
+
+Pøíjemnou PAØBU!
+Wulfgar OFP studio, 2009

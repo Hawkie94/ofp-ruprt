@@ -1,0 +1,46 @@
+MASAKROVÁ OBRANA
+********************************************************************************************
+********************************************************************************************
+Obsah:
+
+1. Hlavné info
+2. Poďakovanie
+3. Popis
+4. Copyright
+********************************************************************************************
+********************************************************************************************
+1. Hlavné info:
+
+Autor: Bobor SK
+Ostrov: Nogova
+Intro: Áno
+Outro: Nie
+Velkosť misie: 36 kb
+Potrebná verzia hry: 1.94Beta
+Potrebné addony:
+	Bunker Pack 5 - http://ofp.gamezone.cz
+	CAT Fire      - http://ofp.gamezone.cz
+Dátum: 19. 11. 2003
+E-Mail: boborsk.ofp@inmail.sk
+Stránky: http://flashpointmso.wz.cz
+********************************************************************************************
+2. Poďakovanie:
+
+Brt     - za dva velmi dôležité skripty
+Pavka   - za BETAtest
+
+Vám     - za stiahnutie :-)
+********************************************************************************************
+3. Popis
+
+V tejto misií máte za úlohu obrániť základňu v Petroviciach. Máte k dispozícií
+však aj špeciálnu tzv. Obrannú výbavu, ktorá zahrňuje nasledujúce možnosti:
+Napalm Sud, Výbušniny v 1. kríkoch, Výbušniny v 2. kríkoch, Napalm čiara, Kamera 1,
+Kamera 2. Podrobnejšie veci sa dozviete v brífingu.
+
+Ak by ste náhodou natrafili na nejakú chybu, napíšte mi prosím e-mail: boborsk.ofp@inmail.sk
+********************************************************************************************
+4. Copyright
+
+Copyright (R) 2003 Bobor SK
+********************************************************************************************

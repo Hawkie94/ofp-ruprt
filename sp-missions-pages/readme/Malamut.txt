@@ -1,0 +1,34 @@
+
+ ===================================== AKCIA MALAMUT ===========================================
+ 
+ -Misia  : AKCIA MALAMUT pre hru - Operace Flashpoint:Resistance/ČSLA2 MOD
+
+ -Autor  : Vojtoo
+
+ -Ostrov : MALDEN
+
+ -Addony : ČSLA2 MOD (http://games.worldonline.cz/flashpoint/)
+
+ -Mail   : Vojtoo@centrum.sk
+
+ -ICQ    : 132810742
+
+ -Súbor s10_malamut.pbo skopírujte do vášho adresára OFP/missions/csla
+
+ -Potrebná verzia hry: 1.91 alebo 1.94b
+
+ -Táto misia je tvorená pre ČSLA MOD (http://games.worldonline.cz/flashpoint/).
+  Obsahuje dabing, intro aj outro. Je to neoficiálny prídavok a nemôže sa využívať
+  na komerčné účely. V prípade problému nekontaktujte BIS ani CODEMASTERS !!
+  
+ -Autory stránok o OFP majú povolenie misiu na svoje stránky umiestniť.
+  Odporúčam pred hraním misie dôkladne prečítať brífing !!
+
+ -Misia je dvojjazyčná: Slovenčina a Angličtina.
+  Z anglickými titulkami pre nemeckú, poľskú a francúzsku lokalizáciu.
+
+ -Prajem príjemnú zábavu pri hraní misie.
+
+
+  Vojtoo © 2004
+

@@ -1,0 +1,25 @@
+Název mise:Plk. Eusev
+Autor: Vichr
+Ostrov: Kolgujev
+Typ: SP mise
+
+K optimálnímu běhu mise musí být nainstalován datadisk Resistance s patchem 1.96beta.
+------------------------------------------------------------------------------------------
+Popis mise v kostce:
+
+Jste příslušníkem elitní jednotky Delta force a máte zabít vyasokého důstojníka Rudé armády.
+---------------------------------------------------------------------------------------------
+
+Tohle je moje první mise publikovaná na internetu, takže to asi nebude nic extra ale stejně 
+otestujte a případné připomínky pište na můj email: jvicher@seznam.cz
+--------------------------------------------------------------------------------------------
+Použité AddOny (link_Pro_stažení_souboru)
+
+Mi-2 Pack by NO (http://ofp.gamezone.cz/index.php?showthis=4495)
+BAS MH-6 Littlebird (ftp://www.gamezone.cz:8021/ofpd/unofaddons/BAS_Littlebirds_185.zip)
+4 eyes's Delta Force Teaser Addon (ftp://www.gamezone.cz:8021/ofpd/unofaddons2/lsr_delta_beta_0_3.rar)
+---------------------------------------------------------------------------------------------
+Instalace:
+Soubor *.pbo zkopírjte do složky ...\codemasters\operation flashpoint\missions
+
+Bavte se...

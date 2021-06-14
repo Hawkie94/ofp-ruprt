@@ -1,0 +1,220 @@
+<html><head>
+<meta http-equiv="Content-Language" content="cs">
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Tutorial 29 - Konverze zvuků </title>
+<style type="text/css">
+BODY
+{
+	scrollbar-arrow-color:#FFFFFF;
+	scrollbar-face-color:#000000;
+	scrollbar-highlight-color:#000000;
+	scrollbar-shadow-color:#000000;
+	scrollbar-3dlight-color:#FFFFFF;
+	scrollbar-darkshadow-color:#FFFFFF;
+	scrollbar-track-color:#000000;
+}
+td
+{
+	font-family: Verdana;
+	font-size: 10pt;
+	color: #FFFFFF;
+	text-align: Justify;
+	word-spacing:0;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+p
+{
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: 5;
+	margin-right: 5;
+}
+
+</style>
+
+<style fprolloverstyle="">A:hover {color: #FF6600}
+</style>
+</head>
+
+<body vlink="#00FFFF" link="#00FFFF" bgcolor="#000000" alink="#00FFFF">
+
+<div align="center">
+  <center>
+  <table style="border-collapse: collapse" id="AutoNumber1" width="100%" border="2" bgcolor="#000000">
+    <tbody><tr>
+      <td width="100%">
+      <div align="center">
+        <center>
+        <table style="border-collapse: collapse" id="AutoNumber2" width="50%" cellspacing="0" cellpadding="0" border="2">
+          <tbody><tr>
+            <td style="text-align: center" width="100%"><b>
+            <font size="3" color="#FFFF00">Tutorial 29 - Konverze zvuků</font></b></td>
+          </tr>
+          <tr>
+            <td style="text-align: center" width="100%"><font color="#FF9933">
+            <b>Autor : Ruprt</b></font></td>
+          </tr>
+          <tr>
+            <td style="text-align: center" width="100%">
+            <b><font color="#FF9933">
+            <a href="ZkouskaZvuku.Intro.zip">
+            Download</a> </font></b>= Tento tutorial + ukázka</td>
+          </tr>
+        </tbody></table>
+        </center>
+      </div>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>Poslední dobou se na mě obrací stalé více lidí s dotazem jak správně vytvořit 
+zvuk do mise. Nejčastějším problémem s kterým jsem se v těchto dotazech setkal 
+je, že zvuk ve formátu *.WAV vytvořený prostřednictvím standardního 
+widnowsovského programu "Záznam zvuku" překonvertovaný do formátu *.OGG nelze ve 
+Flashpointu přehrát (někdy nelze přehrát ani v jiných přehrávačích zvuku pro 
+windows podporujících formáty OGG).</p>
+      <p>Zde je tedy několik rad a postupů jak správně zvuk vytvořit a konvertovat, 
+které jsem odzkoušel na verzi hry OFP Cold War Crisis verze 1.46 a OFP 
+Resistance verze 1.75. Verze hry by však neměla být ovlivňujícím faktorem, neboť 
+příkazy pracující se zvukem jsou ve scriptovacím jazyku OFP obsaženy od samého 
+začátku, tzn. od verze hry 1.0 a nebyly v průběhu vývoje hry nikterak měněny.</p>
+      <p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><b><font color="#FF6600">Nejdříve trochu teorie</font></b></p>
+<p>&nbsp;</p>
+<p>OGG soubory lze rozdělit na 2 kategorie. </p>
+<p>&nbsp;</p>
+<p><font color="#FF6600">1. Kategorie</font> - Konstantní bitový poměr kódování - Constant Bit Rate (tuto 
+doporučuji používat) </p>
+<p>Zvuk je kódaván neměnným bitovým poměrem (Constant Bit Rate), kdy po celou 
+dobu konverze je zvuk chápán jako jediný celek a je mu tedy přiřazen jeden 
+bitový poměr (např.86Kbps) (určený&nbsp; autorem)</p>
+<p>&nbsp;</p>
+<p><font color="#FF6600">2. Kategorie</font> -&nbsp; Proměnný bitový poměr - Variable Bit Rate</p>
+<p>Při kódování proměnným bitovým poměrem (Variable Bit Rate) dochází při 
+ukládání do souboru na rozdělení zvuku na tisíce malých částeček (Frames), 
+přičemž každé jedné z nich je přiřazena různá hodnota Bit Rate, a to v rozsahu 
+od Min Bit Rate do Max Bit Rate(Maximální a minimální hodnota je určena autorem 
+zvuku). Kódovací program pak sám rozhoduje o tom, které částečce přiřadí určitou 
+hodnotu Bit Rate. Prakticky se jedná o to, že program se rozhodne sám, kdy daná 
+částečka může být uložena s nižším Bit Rate a ještě neztratí určitou kvalitu a 
+kdy je zapotřebí uložit více dat pro dosažení dané kvality. Tímto způsobem lze 
+dosáhnout menší velikosti výsledného souboru (na úkor kvality), avšak během 
+tohoto procesu může docházet k chybám (musím konstatovat, že mě se to ještě 
+nestalo a je to zřejmě zřídkavý jev, ale OFP je velmi citlivý na přehrávání 
+zvuků, a proto tento fakt nelze ignorovat).</p>
+<p>&nbsp;</p>
+<p><font color="#FF6600">Co je to Bitový poměr - Bit Rate</font></p>
+<p>Bitový poměr je množství dat (v 1000 bitech za sekundu&nbsp;- 1000 Bits per 
+second - 1Kbps), která budou přehrávačem zvuku zpracována za jednu sekundu. Je 
+tedy zřejmé, že čím nižší hodnota Bit Rate, tím nižší je výsledná kvalita zvuku, 
+neboť aby bylo dosaženo tvůrcem zvuku požadované délky zvuku (nikoli souboru), 
+musí se uložit do souboru méně dat, což způsobuje ztrátu kvality, na druhou 
+stranu se tím zase zmenšuje velikost souboru. Každý datový bit zvukového souboru 
+totiž musíte chápat jako jednu charakterovou vlastnost daného zvuku, z čehož pak 
+vyplývá, že čím méně charakterových vlastností určíte, tím horší a nepřesnější 
+je výsledný obraz (toto pravidlo platí i ve všech jiných naprosto běžných 
+oblastech života :o)) </p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><b><font color="#FF6600">A teď již k praxi</font></b></p>
+<p><font color="#FF6600">1)</font> Nejdříve je nutné mít nějaký program na nahrávání zvuků *.WAV (bohatě 
+postačí standardní windowsovský "Záznam zvuku" - nabídka 
+START-PROGRAMY-PŘÍSLUŠENSTVÍ-ZÁBAVA). Dále je nezbytné mít nainstalovaný nějaký 
+program pro konverzi zvuků z formátu WAV do formátu OGG. Zde vřele doporučuji 
+vyzkoušený dbPowerAmp Music Converter, který si můžete stáhnout z
+<a target="_blank" href="http://www.dbpoweramp.com/">http://www.dbpoweramp.com/</a> 
+. Tento program jsem také použil pro tento tutoriál.</p>
+<p>&nbsp;</p>
+<p><font color="#FF6600">2)</font> Za použití programu "Záznam zvuku" nahrajte požadovaný zvuk WAV, a to ve 
+formátu PCM 44100KHz 16Bitů Stereo 172kb/s (může být samozřejmě i jiný, tento 
+navrhuji proto, že se jedná o CD kvalitu. Nepoužívejte však hodnotou frekvence 
+nižší než 24000Hz). Následně si ho uložte např. jako "zkouska.wav".</p>
+<p>&nbsp;</p>
+<p><font color="#FF6600">3)</font> V průzkumníku Windows pak najděte Váš soubor zkouska.wav a klikněte na něj 
+pravým tlačítkem myši. Měla by se Vám objevit místní nabídka mezi jejímiž 
+položkami by se měla objevit i položka <b>Convert To</b>(samozřejmě pokud máte 
+nainstalovaný dbPowerAmp Music Converter). Kliknutím zvolte tuto položku. 
+Následně se vám objeví další nabídka s možností výběru formátu
+<img src="Tutorial29_files/locmenu.jpg" width="112" height="104" border="0" align="bottom">, do kterého chcete soubor 
+zkouska.wav zkonvertovat. Vyberte <b>Ogg Vorbis</b> a objeví se Vám dialogové 
+okno programu dbPowerAmp Music Converter.</p>
+<p align="center"><img src="Tutorial29_files/dbpamp.jpg" width="374" height="357" border="0"></p>
+<p>Pokud jsou hodnoty v okně nastaveny jinak než v tomto obrázku, 
+změňte je tak aby tomuto obrázku odpovídaly. Poté klikněte na tlačítko <b>
+Convert</b>. Následně se vám objeví lišta zobrazující průběh konverze, přičemž 
+po dokončení procesu stiskněte tlačítko <b>Finished</b>. Zkonertovaný soubor "zkouska.ogg" 
+by jstte měli najít ve stejném adresáři jako je soubor "zkouska.wav".</p>
+<p>&nbsp;</p>
+<p align="left">No a to je vše co s týče konverze. Doporučuji si s nastavením 
+tohoto programu trochu pohrát, aby jste pochopili závislost kvality zvuku a 
+velikosti souboru na zadaném nastavení. Uvědomte si totiž, že pokud si má Vaše 
+mise na internetu někdo stáhnout tak jistě nebude mít zájem downloadovat nějaký 
+10MB balík. Vaše mise by pak nemusel nikdo hrát, přestože by byly technicky i 
+herně skvělé.</p>
+<p align="left">&nbsp;</p>
+<p>Teď je ještě nutné soubor zkouska.ogg zkopírovat do adresáře Vaší mise, ve kterém si pro přehlednost 
+vytvořte ještě podadresář "Sounds" a do tohoto podadresáře soubor zkopírujte. 
+Následně musíte správně zvuk definovat v souboru description.ext.</p>
+<p>Příklad description.ext pro použití zvuku v radiové hlášce :</p>
+<p>&nbsp;</p>
+<p><font color="#999999">class CfgRadio<br>
+{<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sounds[]={zkouska}; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; class zkouska<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+{<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ 
+name = "";<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ 
+sound[] = {"\Sounds\zkouska.ogg", db+0, 1.0};<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ 
+title =;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+};<br>
+};</font><font color="#CCFFFF"><br>
+&nbsp;</font></p>
+<p>Zvuk pak v misi spusťte příkazem např. <b>voják SideRadio "zkouska"</b></p>
+<p>Příklad description.ext pro použití zvuku s příkazem PlaySound :<br>
+&nbsp;</p>
+<p><font color="#999999">class CfgSounds<br>
+{<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sounds[] = {zkouska};<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; class zkouska<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+{<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ 
+name = "";<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ 
+sound[] = {"\Sounds\zkouska.ogg", db+0, 1.0};<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ 
+titles[] = {};<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+};<br>
+};</font><br>
+&nbsp;</p>
+<p>Pozor na rozdíl v zápisu vlastnosti Title (u CfgRadio) a Titles[] (u 
+CfgSounds).</p>
+<p>&nbsp;</p>
+<p>Zvuk pak v misi spusťte příkazem např. <b>PlaySound "zkouska"</b></p>
+<p>No a to je vše. Pokud jste postupovali správně a program 
+dbPowerAmp Music Converter máte správně nainstalovaný, měl by se zvuk v misi bez 
+problému přehrát. A <a href="ZkouskaZvuku.Intro.zip">
+zde</a> si můžete stáhnout ukázku s oběma formáta zvuku WAV i OGG.</p>
+
+      </td>
+    </tr>
+  </tbody></table>
+  </center>
+</div>
+
+
+
+</body></html>

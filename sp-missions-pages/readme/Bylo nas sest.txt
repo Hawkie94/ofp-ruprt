@@ -1,0 +1,32 @@
+readme
+
+Název: Bylo nás šest
+
+Autor: Golem
+
+Ostrov: Nogova
+
+Kontakt: golemikofp@centrum.cz
+
+Addony: ČSLA (http://games.tiscali.cz/flashpoint/addony.asp)
+        EDITORUPDATE 102 (PŘILOŽEN)
+
+Typ: Pěchotní
+Otestoval: LuckyM 
+
+Mise je vytvořena ve verzi 1.91 a jde plynule (možná že se drobet zpomalí
+při pohledu přes optiku na vybuchující bvp)
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Misi zkopírujte ( C:\Program files\Codemasters\OperationFlashpoint\Missions)
+
+¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤
+
+V misi jsem narazil na jednu chybu, když se do vašeho zorného pole dostane
+obrněná eskorta, tak hned za ní by měl jet opravárenský ural a zbytek konvoje,
+když tam nepřijede, dlouho nečekejte a dejte znovu(!!!dříve než bvp najede na minu
+tam je totiž autosave!!!), ale stalo se mi to tak jednou z deseti her.
+
+
+
+Přeji příjemné hraní!!!

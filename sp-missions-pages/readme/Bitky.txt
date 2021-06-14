@@ -1,0 +1,15 @@
+
+         Addony    :    Jen oficiální       
+         Mise      :    Denní bitka a noční bitka
+         Intro     :    Ne (není potřeba)  
+         Outro     :    Ne (není potřeba) 
+
+         Popis     :    Musíte sebrat nepřátelskou vlajku(něco jako CTF)a vrátit
+                        se s ní k vlastní.Je to hodně těžké,tak nerozbijte počítač :).
+         Požadavky :    Je tu hodně vojáků takže je to hodně náročné na počítače.
+         Vytvořil  :    Mawerick
+         E-mail    :    mavericck@seznam.cz
+         Přání     :    Přeji hodně štěstí a dobré nervy.  
+
+
+                                   

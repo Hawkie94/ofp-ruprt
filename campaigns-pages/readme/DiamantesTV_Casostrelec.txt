@@ -1,0 +1,27 @@
+Typ produktu:		MOD a kampaň
+Doporučená verze hry:	1.96
+Jazyk produktu:		čeština
+Další potřebné soubory:	žádné
+Výrobce:		Televize Diamantés
+
+Produkt nainstalujete spuštěním instalačního programu Timefighter.exe
+
+MOD využívá několika zbraní od týmu Upminder, vozidlo od Walkera a ostrov od Iguany (viz závěrečné titulky).
+
+Poznámka pro editory:
+Pakliže budete chtít vyrobit vlastní kampaň v prostředí bullettimového modu, tak:
+1. V adresáři addons smažte všechno krom JH_caso.pbo
+2. Rozbalte pomocí pbo dekomprimátoru soubor timefighter.pbo v adresáři campaigns
+3. Smažte obsah adresáře missions (pokud něco z nich nebude chtít použít).
+4. Pokud chcete jinou hudbu, smažte obsah adresáře music
+5. Otevřete soubor description.ext a smažte třídu Identies, všechny zvuky krom prvních pěti a třídu campaign (krom začátku, ten stačí přepsat)
+6. V každé misi, kterou vytvoříte, musíte hlavní postavě zapsat do do pole inicializace toto:
+this AddAction ["váš text","bullettime.sqs"]
+7. Do každé mise umistěte opakovatelný radiospínač, který bude mít v poli "při aktivaci" toto:
+[] exec "save.sqs"
+(nebo tuto akci přidejte hlavní postavě, jako v bodě 6)
+-pro toto se nehodí vytvářet speciální dialogové okno
+8. Na začátku každé mise musíte v souboru init.sqs nadefinovat tyto tři proměné:
+h=false
+bt=(kolik má mít postava bullettimu ve vteřinách)
+n=(kolik má mít postava pozic k uložení)

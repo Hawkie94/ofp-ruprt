@@ -1,0 +1,49 @@
+-----------------------------------------------------------------------------------------
+
+  R A N N Í   R O S A
+
+   > singleplayer mise pro hru Operace Flashpoint
+   > finální verze
+   > podporované jazyky: ENG, CZ
+
+-----------------------------------------------------------------------------------------
+
+  AUTOR
+		Ježuro ( jezuro@post.cz | ICQ# 197968874 | http://2dmm.wz.cz )
+  VERZE OFP
+		1.96
+  OSTROV
+		Kolgujev
+  BETATEST
+		Wallas
+		Hydergine
+		Money
+  DABING
+		Ježuro
+		Wallas
+		Hydergine
+
+-----------------------------------------------------------------------------------------
+
+  POTØEBNÉ ADDONY
+
+		- pouze oficiální -
+		
+-----------------------------------------------------------------------------------------
+
+  INSTALACE
+		> extrahujte stažený ZIP soubor
+		> soubor ze MD_Final.Cain.pbo zkopírujte do složky \Missions ve vašem adresáøi
+		  OFP (standardnì C:\Program Files\OperationFlashpoint\Missions)
+
+-----------------------------------------------------------------------------------------
+
+  NÌCO NAVÍC
+		> Volba obtížnosti (na zaèátku mise, ovlivòuje AI)
+		> Ukazatel zdraví (lze jej vypnout pøes rádio 0-0-0)
+		> Tato mise se umístila na 3. pozici v OFP Mission Editing Competition
+		  2005.
+
+-----------------------------------------------------------------------------------------
+
+									Ježuro, 2006

@@ -1,0 +1,101 @@
+	***********************************
+	*   E V E R O N   '7 5  D E M O   *			Zatim pouze pro ceskou verzi!!! / Now only for czech version!!!
+	***********************************
+
+- demo kampane pro hru Operace Flashpoint (Resistance)
+
+Vytvoril MarS
+
+(SlavicekMarek@seznam.cz)
+
+Vytvareno na pocitaci AMD Duron 800 MHz, 32 MB NVIDIA RIVA TNT2 Pro, 1024 x 768 ve 32bit, 128 MB RAM
+
+V kampani byly pouzity scripty: vybuch.sqs (Ruprt???)
+				sledovani (Dasty)
+
+**************************************************************************************************************************
+! Pred hranim si prosim prectete toto ReadMe !
+
+
+POTREBNE ADDONY:	- OFP verze 1.46 (mozna i 1.30, ale neni to testovane)
+			pozn.: Vytvareno pod verzi 1.75 (Resistance), jsou mensi problemy
+			u nizsich verzi: 1. hlavni obrazek je vetsi a neni uprostred
+
+					2. pokud hrajete kampan pod Resist., nespoustejte ji
+						pak pod puv. OFP -> bude hlasit chybu a spadne do OS
+						( =jiny zpusob ukladani pod Res.???), takze pokud mate
+						Res., nainstalujte kampan do adresare Res\Campaign
+					3. V intru se v nekterych okamzicich u verze 1.46 vyskytuji mensi chyby:
+					- Vrtulnik nesouci jeep misto preletu havaruje
+					- Letka vrtulniku leti pomalu, coz ma za nasledek casovou prodlevu
+					- Odchylky kamer od tech, co jsou pod Res.
+
+			! DULEZITA POZNAMKA: Pokud se v intru stane, ze se jakoby zastavi a delsi dobu se nic nedeje,
+					je v nem zabudovany script, ktery kdykoliv intro ukonci. 
+						STACI ZMACKNOUT 0-0-1 (cisla v tomto poradi) na ALFANUMERICKE KLAVESNICI
+								(tam, kde mate i pismena).
+
+
+
+
+			- Editor upgrade v. 1.02 (Gunslider)
+		   	  ----------------------
+			DOWNLOAD: http://games.worldonline.cz/flashpoint/download/EditorUpgrade102.exe
+
+
+			- Muj addon Su-25: MarS_frogfoot.pbo, pribaleno ke kampani
+
+			- Muj addon obliceje: oblicej_marc.pbo, pribaleno ke kampani
+
+			(Dovolil jsem si pouzit muj vlastni oblicej ke ztvarneni hlavniho hrdiny. 
+			Jeste neni uplne dokonaly, bude vylepsen)
+
+
+
+**************************************************************************************************************************
+
+INSTALACE:		rozbalte soubor Everon75.pbo do adresare Campaign ve slozce, kde mate nainst. Flashpoint
+			(POKUD VLASTNITE RESISTANCE, ROZBALTE HO DO Res\Campaign, VYHNETE SE TAK KOLIZI VERZE 1.46 a 1.75)
+
+			rozbalte soubory MarS_frogfoot.pbo a oblicej_marc.pbo do adresare Addons ve slozce,
+			kde mate nainst. Flashpoint
+
+**************************************************************************************************************************
+
+
+MENSI PROSBA(Y):	Chtel bych pozadat vsechny, kdo si stahli mou kampan, aby mi poslali svuj nazor, pripominky, rady.
+			Proste abyste se stali mymi "testery" :-). Velmi by mi to pomohlo v dalsi tvorbe.
+
+			Dale bych chtel pozadat ty, kterym se ma kampan libila a vlastni nejaky ten mikrofon, jestli by nemeli
+			zajem o nadabovani cele kampane (vetsina soucasneho dabingu je provizorni). Pokud ano, prihlaste se mi
+			prosim na mem mailu (SlavicekMarek@seznam.cz). Diky moc
+
+**************************************************************************************************************************
+
+JAK TO BUDE VYPADAT DAL? To neprozradim, pouze naznacim, ze dojde k mensi zmene profese, pocasi a mensimu :-) odhaleni...
+
+**************************************************************************************************************************
+
+PODEKOVANI:	Milanu Ropkovi, Pepovi Lunakovi a sestre Denise za dabing, OFP.Info foru, BIS Studiu
+		(za OFP) a vam za stazeni dema me kampane
+
+**************************************************************************************************************************
+
+OMLUVA:		Vam za tak hrozne dlouhe readMe a za to, ze budete muset celou dobu cumet na muj xicht.
+		Moc se omlouvam :-)
+
+**************************************************************************************************************************
+
+
+POZNAMKA:	Hudba pouzita v kampani je pouze hudebni doplnek, nema nic vyjadrovat, tzn. texty nemaji zadnou souvislost
+		s kampani a nevyjadruji zadny nazor. Opravdu jde jen o rytmus :-)
+
+**************************************************************************************************************************
+
+
+									MarS
+
+								(SlavicekMarek@seznam.cz)
+
+								http://mars.webzdarma.cz
+

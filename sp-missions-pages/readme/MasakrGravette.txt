@@ -1,0 +1,39 @@
+  30.července 2003
+
+  *******************************************************
+  Masakr v Gravette - Singleplayerová mise ver: 1.0 Final
+  *******************************************************
+
+
+  DOPORUČENÁ KONFIGURACE: Hra Operace Flashpoint: Resistance ver: 1.91 a vyšší
+
+  PODPOROVANÉ JAZYKY: Čeština
+ 
+  POTŘEBNÉ ADDONY: *** Žádné ***
+
+  LINKY NA ADDONY: *** Žádné ***
+  
+  INSTALACE: Zkopíruj soubor mise "Masakr v Gravette.Eden.pbo" do adresáře tvé hry
+             "OperationFlashPoint\Missions\Resistance"
+ 
+  POPIS: Hlavním úkolem této neoficiální operace je záchrana amerických civilistů, zadržovaných 
+         v západní části malé obce Gravette. 
+         Začínáte severovýchodně od obce. Snažte se zlikvidovat co nejvíce povstalců a lokalizujte
+         autobus, ve kterém by měli být drženi zranění civilisté. 
+         Odvezte je trasou přes Tyrone a Meaux až k polní základně u moře. Je zakázáno použití 
+         standartních zbraní NATO, proto budete vybaven Kozlicí s dvěma typy nábojů 
+         (brokové, jednotná střela) a automatickou pistolí Sa61 Škorpión. 
+         Předpokládáme že povstalci mají i lovecké pušky, které představují asi největší riziko. 
+         Možná vlastní nějaké samopaly, ale účinější zbraně nejspíš nemají. 
+         Očekávejte však velkou početní převahu, bude potřeba vést "partyzánský boj". 
+         
+
+  MISI VYTVOŘIL: Ondřej "Eiffel" Molata
+                 molataeiffel@volny.cz
+                 http://eiffel.hyperlink.cz
+
+  NAMLUVIL:      Jaroslav "Alf" Molata
+
+  KOREKCE:       Romanka "DEXI" Kohoutová
+
+  ********************************************

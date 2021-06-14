@@ -1,0 +1,333 @@
+<HTML>
+<HEAD>
+<TITLE>Jeurùv tutoriál o práci s dialogy v OFP (verze 2.0)</TITLE>
+<LINK REL="Stylesheet" TYPE="text/css" HREF="Files\default.css">
+</HEAD>
+
+<BODY BGCOLOR="#BAC3AE">
+
+<FONT>
+<CENTER>
+<H2>JEURÙV TUTORIÁL O PRÁCI S DIALOGY V OFP (verze 2.0)</H2>
+</CENTER>
+
+<TABLE BORDER = "0" WIDTH = 100%>
+ <TR>
+  <TD WIDTH = 50%>
+<UL>
+ <LI>
+  <A HREF="#Uvod" TITLE="Pár slov pøed tím, ne zaèneme">Úvod</A>
+ </LI>
+ <LI>
+  <A HREF="#FAQ" TITLE="Èasto kladené otázky">FAQ</A>
+  <UL>
+   <LI><A HREF="#FAQ_1">Co je to sakra ten dialog?</A>
+   <LI><A HREF="#FAQ_2">Nìjakı okna - na co mi to bude?</A>
+   <LI><A HREF="#FAQ_3">Tak jo - co k tomu budu potøebovat?</A>
+   <LI><A HREF="#FAQ_4">Je tìkı se to nauèit?</A>
+  </UL>
+ </LI>
+ <LI>
+  <A HREF="#Zdrojak" TITLE="Vzorová definice zdrojového kódu">Ukázka definice</A>
+  <UL>
+   <LI><A HREF="Files\Objekty.html" TARGET = _blank>Seznam objektù</A>
+   <LI><A HREF="Files\Description.html" TARGET = _blank>Definice ukázkového dialogu</A>
+   <LI><A HREF="Files\TestDialog.Intro.zip">Ukázková mise</A>
+  </UL>
+ </LI>
+ <LI>
+  <A HREF="#PopisII" TITLE="Vysvìtlení definice dialogu">Popis definice</A></LI>
+  <UL>
+   <LI><A HREF="#Popis_1">Typy objektù</A>
+   <LI><A HREF="#Popis_2">Styly objektù - zarovnání</A>
+   <LI><A HREF="#Popis_3">Styly objektù - vzhled</A>
+   <LI><A HREF="#Popis_4">Parametry</A>
+   <LI><A HREF="#Popis_5">Koneènì samotnı zdroj</A>
+  </UL>
+ <LI>
+  <A HREF="#Upravy" TITLE="Úpravy kódu a vzhledu dialogù">Úpravy</A></LI>
+  <UL>
+   <LI><A HREF="#Upravy_1">Psaní kódu</A>
+   <LI><A HREF="#Upravy_2">Formátování kódu</A>
+   <LI><A HREF="#Upravy_3">Umisování a zarovnávání objektù</A>
+  </UL>
+ <LI>
+  <A HREF="#Zaver" TITLE="Závìr tohoto tutoriálu">Závìr</A></LI>
+</UL>
+  </TD>
+  <TD ALIGN = "Center">
+   <IMG SRC = "Files\Pictures\Jezuro.gif">
+  </TD>
+ </TR>
+</TABLE>
+
+<H2><A NAME="Uvod">Úvod</A></H2>
+
+Dialogy jsou VELICE uiteènım nástrojem v editaci misí a jejich pochopení vám rozšíøí monosti ve tvorbì misí stejnì (ne-li víc) jako další nové pøíkazy od verze 1.75. To mì motivovalo k tomu, abych napsal tento tutoriál. Je to vlastnì doplnìná forma Ruprtova tutoriálu, kterı mùete najít v jeho <A HREF = "http://www.koflex.cz/ruprt/dload.asp?alloc=2&dloadPart=1&dloadID=1">OFP EditorHelpu</A>.<BR><BR>
+
+Toto je druhá verze mého pùvodního tutoriálu. Seznam úprav jsem nikde nevypisoval, protoe se zmìnilo v podstatì všechno... Druhá verze je navíc MNOHEM obsáhlejší a je opraveno i mnoho chyb, take doporuèuji tento tutoriál proèíst celı, i kdy máte za sebou pùvodní verzi. Pokud byste z jekéhokoli dùvodu pùvodní verzi shánìli, najdete ji <A HREF = "http://2dmm.wz.cz/Files/Dialogy_OLD.zip">tady</A>.<BR><BR>
+
+Odkazy jsou psány <FONT CLASS="SampleLink">tmavì èervenì</FONT>, oznaèené odkazy <FONT CLASS="SampleHover">èervenì a podtrenì</FONT>. Zdrojovı kód bude psán <FONT CLASS="SamplePRE">tmavomodøe</FONT>. Názvy souborù nebo jiné dùleité vìci budou <U>podtreny</U>, popøípadì <B>zvıraznìny</B>.<BR><BR>
+
+Nebudu se tady sáhodlouze rozepisovat o nìjakıch autorskıch právech - klidnì si cokoli jakkoli zmìòte, kdy vám to pomùe. Jenom by mì docela nakrklo, kdyby nìkdo nahradil moje jméno svım a tohle prodával. Ale to se doufám stejnì nestane (koneckoncù, kdo by si to koupil, e :))<BR><BR>
+
+A u mi budete chtít sdìlit cokoliv, pište mi na mail <A HREF="mailto:jezuro@post.cz">jezuro@post.cz</A>.<BR>
+Tak se pohodlnì usaïte, lekce zaèíná...<BR><BR>
+
+<H2><A NAME="FAQ">FAQ (Frequently Asked Questions) - Èasto kladené otázky</A></H2>
+
+<B><U><A NAME="FAQ_1">Co je to sakra ten dialog?</A></B></U><BR>
+1) Rozhovor dvou osob<BR>
+2) Typ rozhraní v programech<BR>
+-hádejte, o které monosti se budeme bavit...<BR>
+Moná vás to pøekvapí, ale CELİ interface (tedy uivatelské rozhraní) Operace Flashpoint jsou dialogy. Dialogem mùe bıt takøka cokoliv - od nenápadé èerné èárky a po tabulku pro vkládání jednotek v editoru. Ano, celı editor misí je také "jenom" soustava rùznıch dialogovıch oken!<BR><BR>
+
+<B><U><A NAME="FAQ_2">Nìjakı okna - na co mi to bude?</A></B></U><BR>
+Tuhle otázku jsem sám sobì taky poloil. A sám si taky dal odpovìï - bohuel tu klasickou (na ho*no, abych byl slušnı.) To mì na nìjakou dobu od této tématiky odradilo, ale kdy se mi dostal do rukou OFP EdiorHelp a ukázková mise k tématu dialogù, uvìdomil jsem si, e tohle nemùu jen tak pøejít.<BR>
+Pomocí dialogù mùete v OFP udìlat v podstatì jakékoli okno, od èerného ètvereèku v pravém dolním rohu monitoru po velící panel koordinovaného útoku nìkolika skupin spojenı s rozkazy jednotlivım vojákùm. Moností je nepøeberné mnoství a já vám v tomto tutoriálu ukáu základy, na nich mùete vybudovat sebesloitìjší dialog.<BR><BR>
+
+<B><U><A NAME="FAQ_3">Tak jo - co k tomu budu potøebovat?</A></B></U><BR>
+Pro základní dialogy staèí jenom klasickı soubor <U>Description.ext</U>. Dále mùete pøidat obrázky a samozøejmì skritpy, soubory <U>Stringtable.csv</U> nebo funkce s pøíponou <U>.sqf</U>. Soubor <U>Description.ext</U> mùe bıt umístìn buï ve sloce s misí (tam ho program hledá nejdøív) nebo v hlavní sloce kampanì (kdy ho v misi nenajde, hledá tam.) A kdy není ani tady, podívá se do souboru <U>Resource.bin</U> ve sloce OFP\Res\Bin, popøípadì OFP\BIN.<BR><BR>
+
+<B><U><A NAME="FAQ_4">Je tìkı se to nauèit?</A></B></U><BR>
+Je a není. Pokud máte chu a trpìlivost se s dialogy nauèit pracovat, pùjde to (skoro) samo ;)<BR><BR>
+
+<H2><A NAME="Zdrojak">Ukázka definice</A></H2>
+Na <A HREF = "Files\Objekty.html" TARGET = _blank">této stránce</A> najdete obrázky a definice všech objektù, které se mi podaøilo v OFP vykoumat. 
+Je to uiteèné, ale jednotlivé objekty samy o sobì moc neznamenají. Dùleité je i jejich uspoøádání a funkce. Abyste mìli lepší pøedstavu bìného dialogového okna, obrázek jednoho vzorového sem šoupnu (podotıkám, e v nìm nejsou pouity všechny objekty vyjmenované vıše.)<BR>
+
+<P ALIGN="Center"><IMG SRC="Files\Pictures\Popis.jpg"></P>
+
+Abychom to mìli pìknì pohromadì, tady je <A HREF = "Files\Description.html" TARGET = _blank>zdrojovı kód</A> k tomuto dialogovému oknu. Hned potom si ho podrobnì projdeme. Dále si mùete stáhnout <A HREF="Files\TestDialog.Intro.zip" TITLE="Ukázková mise ke stáhnutí">ukázkovou misi</A> - je v ní nadefinován dialog z obrázku vıše. Misi zkopírujte do sloky <U>Flashpoint\Users\Jméno\missions</U>. No a teï se vrhneme na vysvìtlování toho kódu.
+<BR><BR>
+
+<H2><A NAME="PopisII">Popis definice</A></H2>
+
+Urèitì nebude od vìci si vysvìtlit, co jednotlivé "znaèky" v definici dialogu znamenají. Èísla pøed názvy si vysvìtlíme pozdìji.<BR><BR>
+
+<B><U><A NAME="Popis_1">Typy objektù</A></U></B> - <U>urèuje, jak se bude objekt chovat.</U><BR>
+<FONT CLASS="SamplePRE">0 (CT_STATIC)</FONT> : Do této kategorie patøí objekty, se kterımi uivatel nemue nic dìlat - prostì tam jen jsou. Spadají sem napøíklad obrázky, titulní rámeèky, pozadí okna, texty a další neinteraktivní objekty.<BR>
+<FONT CLASS="SamplePRE">1 (CT_BUTTON)</FONT> : Tlaèítka. Kdy je zmáèknete, ozve se uknutí a provede nìjaká akce. O tom pozdìji.<BR>
+<FONT CLASS="SamplePRE">2 (CT_EDIT)</FONT> : Kolonka na text, do které mùe uivatel sám nìco vepsat a potom to tøeba zkopírovat. Tohoto typu je tøeba v editoru misí kolonka "Pøi aktivaci" ve spínaèích.<BR>
+<FONT CLASS="SamplePRE">3 (CT_SLIDER)</FONT> : Jezdec. Kdy uivatel ukne na šipku a drí ji, mùe s ní jezdit po stupnici. Jezec je tøeba "Pravdìpodobnost vıskytu" pøi vkládání jednotek v editoru.<BR>
+<FONT CLASS="SamplePRE">4 (CT_COMBO)</FONT> : Vysunovací nabídka, "roletka". Pøi kliknutí na rámeèek se nabídka rozbalí a vy si mùete vybrat z rùznıch poloek v ní. Pøi dalším kliknutí se nabídka zavøe a v rámeèku zùstane vámi vybraná poloka. Pouito tøeba pøi vıbìru hudby ve spínaèích.<BR>
+<FONT CLASS="SamplePRE">5 (CT_LISTBOX)</FONT> : Další nabídka, tentokrát ale pevná - nevysunovací. Je pouita napøíklad v obrazovce vıbìru ostrovù editoru misí.<BR><BR>
+
+<B><U><A NAME="Popis_2">Styly objektù - zarovnání</A></U></B> - <U>urèuje, jak bude objekt zarovnán.</U><BR>
+<FONT CLASS="SamplePRE">0 (ST_LEFT)</FONT> : Bìné zarovnání - vlevo.<BR>
+<FONT CLASS="SamplePRE">1 (ST_RIGHT)</FONT> : Zarovnání vpravo.<BR>
+<FONT CLASS="SamplePRE">2 (ST_CENTER)</FONT> : Zarovnání doprostøed.<BR>
+<FONT CLASS="SamplePRE">3 (ST_UP)</FONT> : Text zaèíná na horní stranì vyhrazeného prostoru.<BR>
+<FONT CLASS="SamplePRE">4 (ST_DOWN)</FONT> : Text zaèíná na dolní stranì vyznaèeného prostoru.<BR>
+<FONT CLASS="SamplePRE">5 (ST_VCENTER)</FONT> : Tohle mi nìjak nefungovalo, moná to má text nìjak otáèet (?)<BR><BR>
+
+<B><U><A NAME="Popis_3">Styly objektù - vzhled</A></U></B> - <U>urèuje, jak bude objekt vypadat.</U><BR>
+<FONT CLASS="SamplePRE">0 (ST_SINGLE)</FONT> : Text, kterı je takto vypsán, mùe bıt napsán jen na jeden øádek.<BR>
+<FONT CLASS="SamplePRE">16 (ST_MULTI)</FONT> : Text, kterı je takto vypsán, mùe bıt napsán na více øádkù.<BR>
+<FONT CLASS="SamplePRE">32 (ST_TITLE)</FONT> : Rámeèek pro nadpis dialogového okna.<BR>
+<FONT CLASS="SamplePRE">48 (ST_PICTURE)</FONT> : Obrázek.<BR>
+<FONT CLASS="SamplePRE">80 (ST_3D_BORDER)</FONT> : "Oblemování" - 3D okraj s pozadím dialogového okna.<BR>
+<FONT CLASS="SamplePRE">96 (ST_NO_BORDER)</FONT> : Bez rámeèku.<BR>
+<FONT CLASS="SamplePRE">128 (ST_HUD_BACKGROUND)</FONT> : Poloprùhledné pozadí.<BR>
+<FONT CLASS="SamplePRE">160 (ST_WITH_RECT)</FONT> : Okolo objektu (napø. textu) bude vykreslen rámeèek.<BR>
+<FONT CLASS="SamplePRE">256 (ST_SHADOW)</FONT> : Objekt má stín.<BR>
+<FONT CLASS="SamplePRE">512 (ST_NO_RECT)</FONT> : Objekt (napø. text) není ohranièen rámeèkem.<BR><BR>
+
+<B><U><A NAME="Popis_4">Parametry</A></U></B> - <U>upøesòují podrobné vlastnosti dialogù.</U><BR>
+<FONT CLASS="SamplePRE">IDD</FONT> : Identifikaèní èíslo dialogu. Kadı dialog musí mít svoje vlastní IDD - na toto èíslo se odkazují rùzné pøíkazy. Za IDD si mùete dát libovolné èíslo, doporuèuji ale zaèít zaitou tisícovkou.<BR>
+<FONT CLASS="SamplePRE">MovingEnable</FONT> : Nevím, co to dìlá - pøi zmìnì èísla nezaznamenáte zmìnu. Tak tam nechte tu jednièku...<BR>
+<FONT CLASS="SamplePRE">IDC</FONT> : V podstatì to samé jako <FONT CLASS="SamplePRE">IDD</FONT>, jen je to identifikátor jednotlivıch objektù.<BR>
+<FONT CLASS="SamplePRE">type</FONT> : Viz <A HREF="#Popis_1">Typy objektù</A>.<BR>
+<FONT CLASS="SamplePRE">style</FONT> : Viz Styly objektù - <A HREF="#Popis_2">zarovnání</A> a <A HREF="#Popis_3">vzhled</A>.<BR>
+<FONT CLASS="SamplePRE">x</FONT> : Vzdálenost levého horního rohu objektu od levé strany monitoru.<BR>
+<FONT CLASS="SamplePRE">y</FONT> : Vzdálenost horní strany objektu od horní strany monitoru.<BR>
+<FONT CLASS="SamplePRE">w</FONT> : Šíøka objektu.<BR>
+<FONT CLASS="SamplePRE">h</FONT> : Vıška objektu.<BR>
+<FONT CLASS="SamplePRE">text</FONT> : Text, kterı bude vepsán v objektu (u <FONT CLASS="SamplePRE">RscText</FONT> to bude samozøejmì ten text :)), napø. popis tlaèítka. U <FONT CLASS="SamplePRE">RscPicture</FONT> je to název obrázku.<BR>
+<FONT CLASS="SamplePRE">font</FONT> : Font písma pouitı pro text. Zde je pøehled tìchto fontù:
+
+<P ALIGN="Center"><IMG SRC="Files\Pictures\Fonts.jpg"></P>
+
+<FONT CLASS="SamplePRE">SizeEx</FONT> : Relativní velikost písma vùèi monitoru - napøíklad pro písmo o vıšce dvacetiny obrazovky bude <FONT CLASS="SamplePRE">SizeEx = 0.05;</FONT>.<BR>
+<FONT CLASS="SamplePRE">size</FONT> : Absolutní velikost písma - "<FONT CLASS="SamplePRE">size = 1;</FONT>" znamená defaultní (základní) velikost fontu, "<FONT CLASS="SamplePRE">size = 1.5;</FONT>" je o 50% vìtší ne základní atd.<BR>
+<FONT CLASS="SamplePRE">ColorBackground[]</FONT> : Barva pozadí ve formátu RGB + I (Red, Green, Blue, Intensity) - èervená, zelená, modrá, intenzita. Kdy chcete udìlat poloprùhledné pozadí, zadáte za intenzitu 0.5. Defaultní intenzita je 1 - neprùhledná.<BR>
+<FONT CLASS="SamplePRE">ColorText[]</FONT> : To samé, jako <FONT CLASS="SamplePRE">ColorBackground[]</FONT>, ale vztahuje se na barvu písma.<BR>
+<FONT CLASS="SamplePRE">color[]</FONT> : Barva písma objektu (napø. tlaèítka), formát stejnı jako u pøedchozích dvou.<BR>
+<FONT CLASS="SamplePRE">LineSpacing</FONT> : Øádkování. "<FONT CLASS="SamplePRE">LineSpacing = 1;</FONT>" je standardní øádkování, "<FONT CLASS="SamplePRE">LineSpacing = 1.5;</FONT>" udìlá mezeru mezi øádky o 50% vyšší atd.<BR>
+<FONT CLASS="SamplePRE">default</FONT> : Pouívá se u tlaèítek. Kdy je hodnota zadána na 1, je tlaèítko oznaèeno u pøi spuštìní dialogu a po stisku klávesy Enter se sepne. Pøí hodnotì 0 musíte na tlaèítko uknout myší.<BR>
+<FONT CLASS="SamplePRE">SoundPush[]</FONT> : Zvuk, kterı tlaèítko vydá, kdy na nìj uknete. První parametr je název zvuku a cesta k nìmu, druhı je hlasitost (1.0 znamená bìnou hlasitost, ale pouívá se 0.2) a tøetí udává rychlost, jakou je zvuk pøehráván (standartnì 1.0.)<BR>
+<FONT CLASS="SamplePRE">SoundClick[]</FONT> : U tohoto si nejsem úplnì jist. Jak mùete vidìt v pøíkladu, pøi této události se ádnı zvuk nepøehraje.<BR>
+<FONT CLASS="SamplePRE">SoundEscape[]</FONT> : Tak tady si taky nejsem jist :(. Ten zvuk se obèas pøehraje - mùete ho slyšet, ale nevím pøesnì kdy.<BR>
+<FONT CLASS="SamplePRE">WholeHeight</FONT> : Maximální vıška rozbaleného ComboBoxu. Pokud se do této vıšky všechny poloky nevejdou, bude na pravé stranì jezdec, kterım mùete vıbìr posouvat.<BR>
+<FONT CLASS="SamplePRE">ColorSelect[]</FONT> : Barva písma vybrané poloky ComboBoxu.<BR>
+<FONT CLASS="SamplePRE">AutoComplete</FONT> : Sem mùete dosadit <FONT CLASS="SamplePRE">"Scripting"</FONT> - Potom se bude nad vepisovanım textem objevovat nabídka editaèních pøíkazù. Jinak mùete nechat prázdné, tedy <FONT CLASS="SamplePRE">AutoComplete = "";</FONT>.<BR>
+<FONT CLASS="SamplePRE">action</FONT> : Pøíkaz, kterı se vykoná po stisknutí tlaèítka nebo aktivního textu.<BR>
+<FONT CLASS="SamplePRE">RowHeight</FONT> : Tento pøíkaz mi fungoval jen u ListBoxù. Kdy nastavíte <FONT CLASS="SamplePRE">RowHeight = 0</FONT>, budou jednotlivé øádky, tedy poloky v ListBoxu vysoké pøesnì podle velikosti svého písma. Kdy budete hodnotu zvyšovat, budou od sebe jednotlivé poloky dál a dál.<BR><BR>
+
+Jak vidíte, definice dialogu je v podstatì úplnì nìco jiného, ne s èím jsme se mohli doposud setkat. Nìkteré obecné zásady jsou ale stejné. Tak si je tady uvedeme nejdøív.<BR><BR>
+
+<B><U><A NAME = "Popis_5">Koneènì samotnı zdroj</A></U></B> :<BR>
+Na zaèátku zdrojového kódu jsou definovány typy a styly objektù, neboli vımìna èísel za srozumitelnìjší slova - tady vlastní pojmenování smysl rozhodnì má, protoe se tøeba <FONT CLASS="SamplePRE">ST_PICTURE</FONT> asi pamatuje lépe ne èíslo 48. Nejsou zde uvedeny všechny, ale jen ty, které se bìnì pouívají.<BR>
+Co to vlastnì definice je? V tomto pøípadì je to pøiøazení vlastního názvu pøedem jinak definovaného typu nebo stylu. Vlastnì takové "pøejmenování".<BR><BR>
+
+Potom následuje pøeddefinování, "nachystání" jednotlivıch tøíd. Kadı objekt v dialogu <B>musí</B> mít definované všechny svoje atributy neboli vlastnosti. Toto pøeddefinování vás ušetøí toho, abyste museli pøi kadém zaèlenìní nìjakého objektu do dialogu vdycky definovat všechny jeho vlastnosti. Takhle si mùete pøedem pøipravit ty hodnoty, které budete mìnit jen velmi zøídka nebo vùbec.<BR><BR>
+
+A koneènì poslední èást pøípravy dialogu - samotné umísování objektù. O tom se podrobnìji rozepíšu níe, protoe to mnoha lidem dìlá problémy.<BR><BR>
+
+<H2><A NAME="Upravy">Úpravy kódu a vzhledu dialogù</A></H2>
+
+<B><U><A NAME = "Upravy_1">Psaní kódu</A></U></B> :<BR>
+U kódù v Operaci Flashpoint je úplnì jedno, jestli budete psát všechna písmena <I>malá</I>, <I>VELKÁ</I>, nebo tøeba <I>rOzHáZeNá</I>. Jak ale vidíte, ne všechny styly psaní jsou pøehledné. Tìm, co mají nìjaké zkušenosti s programovacími jazyky (obzvláštì C nebo C++), bude asi nejvíc vyhovovat psaní pøíkazù stylem "první písmeno prvního slova malé, první písmena ostatních slov velká (napø. <FONT CLASS="SamplePRE">colorBackground[]</FONT>.) Vìtšina (nebo alespoò mnoho) pøíkazù v OFP je toti tvoøeno sloením více slov. Já píšu stylem "první písmena všech slov velká, pokud je pøíkaz pouze jednoslovnı, na zaèátku malé (aby se mi to nepletlo s názvy promìnnıch nebo objektù, napø. <FONT CLASS="SamplePRE">ColorBackground[]</FONT>)". Jak jsem ale øekl, je to jenom na vás...<BR>
+Asi jste si všimli i toho, e se jinak píšou i poznámky. V souboru Description.ext se k tomuto úèelu pouívají dvì lomítka ("<FONT CLASS="SamplePRE">//</FONT>".) Poznámku mùete vloit i za konec kódu v øádku.<BR>
+Jako vdy, i zde platí, e název tøídy nebo jakékoli jiné uivatelem pojmenované èásti dialogu <B>nesmí</B> obsahovat mezery ani diakritiku (tedy abych byl pøesnı, skriptovací jazyk OFP nìkteré diakritické znaky, napøíklad "á", bere, ale vìtšinu ne, take pro jistotu diakritiku prostì nepouívejte.)<BR><BR>
+
+<B><U><A NAME = "Upravy_2">Formátování kódu</A></U></B> :<BR>
+Stejnì jako u velikosti písmen, i u formátování zdrojového kódu je vše jenom na vás. Mezi jednotlivımi pøíkazy si mùete vloit kolik mezer chcete. Co ale urèitì doporuèuji, je pouívat tabulátor k rozdìlení vnoøenıch tøíd. Kdy se vám tøeba stane, e nìkde zapomenete ukonèovací støedník, bude pro vás daleko jednodušší najít kde. Doporuèuji pouít další tabulátor vdy, kdy otevøete nìjakou další tøídu levou sloenou závorkou ("<FONT CLASS="SamplePRE">{</FONT>") Tady se mùete podívat na rozdíl mezi formátovanım a neformátovanım kódem:
+<PRE>
+// FORMÁTOVANİ KÓD
+
+class RscTest
+{
+	IDD = 1000;
+	MovingEnable = 1;
+
+	class Controls
+	{
+		class Background : RscBackground
+		{
+			x = 0.250000;
+			y = 0.250000;
+			w = 0.500000;
+			h = 0.500000;
+		};
+		
+		class SubBackground : RscGroupBox
+		{
+			x = 0.270000;
+			y = 0.270000;
+			w = 0.460000;
+			h = 0.460000;
+		};
+	};
+};
+
+// NEFORMÁTOVANİ KÓD
+
+class RscTest
+{
+IDD=1000;
+MovingEnable=1;
+class Controls
+{
+class Background:RscBackground
+{
+x=0.250000;
+y=0.250000;
+w=0.500000;
+h=0.500000;
+};
+class SubBackground:RscGroupBox
+{
+x=0.270000;
+y=0.270000;
+w=0.460000;
+h=0.460000;
+};
+};
+};
+</PRE>
+
+Tohle byl jenom krátky vyòatek, bìnı kód bıvá asi 20x delší :)<BR><BR>
+
+<B><U><A NAME = "Upravy_3">Umisování objektù a jejich zarovnávání</A></U></B> :<BR>
+Nevím, jak ostatním, ale mnì dìlalo ze zaèátku nejvìtší problémy pochopit, jak správnì nastavit <FONT CLASS = "SamplePRE">x</FONT>, <FONT CLASS = "SamplePRE">y</FONT>, <FONT CLASS = "SamplePRE">w</FONT> a <FONT CLASS = "SamplePRE">h</FONT> tak, aby objekty "sedìly" tak, jak jsem potøeboval - buï byly moc dlouhé, moc vlevo, moc nahoøe a ještì vìtší problémy nastaly, kdy jsem nastavil zarovnávání na støed. To mì pøimìlo se o této záleitosti trochu víc rozepsat.<BR><BR>
+Zarovnáváním se nebudete zabıvat jen u textu. Zdaleka ne. Souøadnice si budete pravdìpodobnì poèítat na papír pro všechny objekty (pozadí, obrázky, slidery, tlaèítka, ...), kreslit si, jak bude dialogové okno vypadat a upravovat velikosti objektù tak, aby se vám to tam všechno vlezlo (alespoò já to tak dìlám...) Nejlepší pro správné pochopení bude, kdy si rozebereme pár vzorovıch pøíkladù (zdrojovı kód nebudu vypisovat celı, ale jen hodnoty pouívané pro umísování objektù - <FONT CLASS = "SamplePRE">x</FONT>, <FONT CLASS = "SamplePRE">y</FONT>, <FONT CLASS = "SamplePRE">w</FONT> a <FONT CLASS = "SamplePRE">h</FONT>.) Ještì pøidám obrázek, abyste si vıznam tìchto hodnot lépe pøedstavili:<BR><BR>
+
+<P ALIGN="Center"><IMG SRC="Files\Pictures\XYWH.jpg"></P>
+
+Myslím, e v tom u máte jasno ;) A teï ty pøíklady:<BR><BR>
+
+<U>1) Objekt širokı pùlku obrazovky a vysokı ètvrtinu obrazovky. Umístìn má bıt doprostøed:</U>
+
+<PRE>
+x = 0.250000;
+y = 0.350000;
+w = 0.500000;
+h = 0.250000;
+</PRE>
+
+<U>2) Objekt pøes úplnì celou obrazovku:</U>
+
+<PRE>
+x = 0.000000;
+y = 0.000000;
+w = 1.000000;
+h = 1.000000;
+</PRE>
+
+<U><A NAME = "Ctverec">3) Objekt ve tvaru ètverce, jeho strana je dlouhá ètvrtinu šíøky obrazovky, umístìnı doprostøed obrazovky:</A></U>
+
+<PRE>
+x = 0.500000;
+y = 0.333333;
+w = 0.250000;
+h = 0.333333;
+</PRE>
+
+Je dùleité si uvìdomit, e velikosti objektù jsou zadávány v pomìru vùèi monitoru. To je dobøe vidìt na posledním pøíkladu. Chcete-li, aby byl objekt ètverec s délkou strany rovnou ètvrtinì šíøky obrazovky (pøi rozlišení 1024x768 to bude 256 pixelù), musí mít hodnotu <FONT CLASS = "SamplePRE">y</FONT> jednu tøetinu (0.333333) Pomìr stran monitoru je toti 4:3 (1024:768 je po zkrácení 4:3.)<BR>
+"Objektem" mùeme nazvat jakoukoliv èást dialogu, a u jde o text, tlaèítko, obrázek atd. U vìtšiny objektù je postup zarovnávání jasnı, ale jsou tu i nìkteré "špeky". Tady je nìkolik pøíkladù:<BR><BR>
+
+<U>Text</U>: Je jedno, jestli text zarovnáváte doleva, na støed nebo doprava. Vdy mu pouze nastavíte prostor, kterı nesmí pøesáhnout. Kdy je zarovnán doleva, bude zaèínat vlevo, kdy doporostøed, bude zaèínat uprostøed atd. Kdy se celı text do vámi nadefinovaného prostoru nevejde, bude "useknutı".<BR>
+<U>Obrázek</U>: Vdycky se deformuje do poadovanıch rozmìrù. Pozor si na to dejte obzvláš pøi rovnostrannıch obrázcích, viz. pøíklad <A HREF = "#Ctverec">vıše</A>.<BR>
+<U>Pozadí, tlaèítka, ...</U>: Tady je to snad nejjasnìjší. Prostì to bude velké pøesnì jako zadanı protor. Platí i pro veškeré ostatní objekty obdélníkového tvaru.<BR>
+<U>Slidery</U>: Je tøeba si dát pozor a dobøe rozlišovat horizontální (vodorovné) a vertikální (svilsé) slidery. V prvním pøípadì bude vìtší hodnota <FONT CLASS = "SamplePRE">w</FONT>, tedy šíøka a ve druhém logicky <FONT CLASS = "SamplePRE">h</FONT> - vıška.<BR>
+<U>Aktivní text</U>: Zarovnává se stejnì jako normální text, ale je tu jedno úskalí. Jak mùete vidìt na obrázku v <A HREF = "Files\Objekty.html" TARGET = _blank>seznamu objektù</A>, je tento text vdy podtrenı. Ale ta podtrhovací linka se nevytvoøí automaticky tìsnì pod textem (co by bylo logické), ale na spodní stranì prostoru vymezeného pro aktivní text. Divnı, co? Proto je tøeba odzkoušet, jak je text vysokı.<BR><BR>
+
+Obecnì si staèí uvìdomit, jak velkou èást obrazovky objekt zabere. Øeknete si tøeba, e udìláte tøi stejnì velká tlaèítka vedle sebe se stejnımi mezerami mezi sebou, tøeba 0.05. A navíc to celé chcete mít pìknì uprostøed obrazovky. Velice jednoduché ;) Jako vzorové tlaèítko nám poslouí to z <A HREF = "Files\Description.html#Tlacitko" TARGET = _blank>ukázkové definice</A>. To má šíøku (<FONT CLASS = "SamplePRE">w</FONT>) 0.1 a vıšku (<FONT CLASS = "SamplePRE">h</FONT>) 0.035.<BR>
+Zaèneme vypoèítáním hodnoty <FONT CLASS = "SamplePRE">x</FONT> prvního tlaèítka. Pamatujte, e tlaèítka budou tøi, take šíøku jednoho tlaèítka vynásobíme tøemi. Do toho ale musíme zapoèítat dvì mezery (mezi prvním a druhım a mezi druhım a tøetím). Tím dostaneme šíøku obrazovky, kterou nám budou tlaèítka zabírat:
+
+<PRE>
+3 x 0.1 = 0.3
+2 x 0.05 = 0.1
+---------------------
+0.3 + 0.1 = <U>0.4</U>
+</PRE>
+
+Tøi tlaèítka nám tedy budou zabírat 0.4 obrazovky. Budou uprostøed, take napravo i nalevo nám zbude 0.3 obrazovky (<FONT CLASS = "SamplePRE">(1 - 0.4) / 2 = 0.3</FONT>.) Hodnota <FONT CLASS = "SamplePRE">x</FONT> prvního tlaèítka tedy bude 0.3.<BR>
+Teï hodnoty <FONT CLASS = "SamplePRE">x</FONT> ostatních tlaèítek: k tomu 0.3 musíme pøièíst šíøku tlaèítka i mezeru:
+
+<PRE>
+0.3 + 0.1 + 0.05 = <U>0.45</U>
+</PRE>
+
+Hodnota <FONT CLASS = "SamplePRE">x</FONT> druhého tlaèítka bude 0.45. Stejnım postupem pokraèujeme i u tøetího tlaèítka:
+
+<PRE>
+0.45 + 0.1 + 0.05 = <U>0.6</U>
+</PRE>
+
+Nezapomeòte, e to teï poèítáme podle druhého tlaèítka - tøetí tlaèítko bude mít <FONT CLASS = "SamplePRE">x</FONT> rovno 0.6.<BR>
+Hodnota <FONT CLASS = "SamplePRE">y</FONT> bude pro všechna tlaèítka stejná, protoe jsou ve stejné vıšce. tlaèítka jsou vysoká 0.035 obrazovky. Vypoèítání <FONT CLASS = "SamplePRE">y</FONT> je hraèka:
+
+<PRE>
+(1 - 0.035) / 2 = <U>0.4825</U>
+</PRE>
+
+Take vlastnì odeèteme vıšku tlaèítka od celkové vıšky monitoru (1) a potom vydìlíme dvìma, abychom dostali jenom vzdálenost od horní strany obrazovky k horní stranì tlaèítka. Pro všechny tlaèítka bude hodnota <FONT CLASS = "SamplePRE">y</FONT> 0.4825.<BR><BR>
+
+<CENTER><IMG SRC = "Files\Pictures\Tlacitka.jpg"></CENTER><BR>
+
+Tak. Všechno, co jsme potøebovali spoèítat, máme. Já vím, e to takhle rozsáhle vysvìtlenı mùe vypadat pøekomplikovanì, ale kdy se na to poøádnì podíváte, zjistíte, e na tom nic není.<BR>
+<A HREF = "Files\Buttons.html" TARGET = _blank>Tady</A> je kompletní soubor Description.ext k tìmto tøem tlaèítkùm. Pøi klepání na nì se objeví rùzné hinty - mùete si Description zkopírovat do mise a vyzkoušet to.
+
+<H2><A NAME="Zaver">Závìr</A></H2>
+
+Tak a je tu konec. Doufám, e vám tenhle tutoriál aspoò trochu pomohl a vaše hranice v editaci misí se zase posunuly o kus dál. Ještì jsem chtìl pøidat vıèet a popis skriptiovacích pøíkazù tıkajících se dialogù, ale ty má Ruprt všechny dobøe vysvìtlené v jeho <A HREF="./../../download/ofpeditorhelpcz.zip">OFP EditorHelpu</A>, kterı stejnì všichni máme. Jestli nìèemu nerozumíte, neváhejte a <A HREF="mailto:jezuro@post.cz">mailujte</A> jako o ivot.<BR><BR>
+
+<P ALIGN = "Right"><IMG SRC = "Files\Pictures\Jezuro.gif">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<A HREF = "http://2dmm.wz.cz"><IMG SRC = "Files\Pictures\2DMM.gif" BORDER = 0></A><BR><BR>
+
+<B><U>Jeuro</U></B> (èlen skupiny <A  HREF = "http://2dmm.wz.cz">2DMM Team</A>), 2004
+</P>
+
+</BODY>
+</HTML>

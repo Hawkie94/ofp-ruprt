@@ -1,0 +1,94 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=windows-1250">
+		<title>Detail tipu</title>
+		<meta name="GENERATOR" content="Microsoft Visual Studio .NET 7.1">
+		<meta name="CODE_LANGUAGE" content="Visual Basic .NET 7.1">
+		<meta name="vs_defaultClientScript" content="JavaScript">
+		<meta name="vs_targetSchema" content="http://schemas.microsoft.com/intellisense/ie5">
+		<link href="./../Styles.css" type="text/css" rel="stylesheet">
+	</head>
+	<body ms_positioning="GridLayout"><center>
+		<div class="TIP_BCKG_AREA" align="center">
+				<div class="TIP_CONTENT_AREA" id="TipContentArea">
+					<table id="tblContent" class="MD_TABLE_INFO" width="448px" cellspacing="0" cellpadding="3" align="left">
+	<tbody><tr>
+		<td style="color:#FFFFFF;font-weight:bold;" width="50%">Autor : Didymos</td>
+		<td style="color:#FFFFFF;font-weight:bold;" width="50%" align="right">
+			<a href="samples/horici_vrtulnik.exe" target="_blank">Stáhnout ukázku</a><br>
+			<a href="./../tips-tricks.html">Zpět na Tipy &amp Triky</a>
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2" height="9px" bgcolor="#9FA5C5"></td>
+	</tr>
+	<tr>
+		<td colspan="2" style="font-size:1.0em;font-weight:bold;color:#FF6600;" align="center">Hořící vrtulník nebo jakýkoli jiný pohybující se objekt</td>
+	</tr>
+	<tr>
+		<td colspan="2" height="9px" bgcolor="#9FA5C5"></td>
+	</tr>
+	<tr>
+		<td colspan="2" style="font-size:1.05em;font-weight:normal;text-align:justify;color:#EBE7D8;">Jde
+ v podstatě o velmi jednoduchou věc. Dáte do smyčky hořící objekt podle 
+toho, jak psal M.P. v sekci Tipy a triky: Hrátky s ohněm. <br><br>_bum = ah<br><br>_mytime = _time<br>#ohen<br>[[(GetPos _bum select 0), (GetPos _bum select 1), (GetPos _bum select 2)+1], [0,0,1], 1, 0.1, '' ] exec 'firesource.sqs'<br>~0.01<br>? _time &lt; (_mytime + 10): GoTo 'ohen'<br><br>a
+ pouze tam změníte některé hodnoty. Konkrétně, dobu hoření a intenzitu 
+plamene. Že musíte mít v adresáři s vaší misí skripty: fire.sqs, 
+firesource.sqs, smoke.sqs, spark.sqs  tu snad psát nemusím, na to se 
+podívejte ve zmiňovaných hrátkách s ohněm nebo jsou samozřejmě v i v 
+ukázkové misi. <br>Jednička na konci řádku je číslo udávající dobu 
+hoření. Toto číslo musíte mít malé, protože by se vám plamen držel na 
+místě, kde už pohybující objekt nebude a číslo za, v našem případě 0.1  
+ukazuje intenzitu plamene, což , jak už vás jistě napadlo vám umožní to,
+ aby se z objektu buď jen kouřilo nebo aby přímo hořel. Toto samotné vám
+ pro samotný efekt hoření pohybujícího se objektu stačí, ale protože v 
+životě není nic jednoduché, tak i tady bude nějaké to ale. V tomto 
+případě bude největší „ale“ u toho, že tento plamen nemá zničující 
+účinky. Když si stáhnete ukázkovou misi, tak jsem se tam pokusil 
+vytvořit něco jako poruchu vrtulníku s následným únikem paliva a 
+hořením. Hned na začátek, ještě před tím, než se tu pokusím vysvětlit 
+můj záměr chci podotknout, že nejsem žádný scriptař a že jsem 
+přesvědčený, že by to šlo udělat mnohem jednodušeji a elegantněji a budu
+ rád, když se nad tím nějaká chytrá hlava zamyslí a budu ještě raději, 
+když mi pak ukáže, jak to udělat lépe. Teď už k samotnému skriptu. <br>Nejprve
+ je třeba podotknout, že jsem celou situaci simuloval tak, že dojde k 
+nezvratnému zničení vrtulníku. Hráč nebo AI, mají dvě možnosti, buď 
+vyskočit, což by nebylo příliš reálné nebo se pokusit s poškozeným 
+strojem přistát. Jak jsem naznačil, protože hoření nemá zničující s
+účinek, vytvořil jsem ještě jeden podružný script, který zajistí plynulé
+ ničení vrtulníku a zároveň s poškozením ubývá i paliva. Protože, jak 
+jsem již řekl, dochází k jeho úniku. To vypadá takto:<br><br>#poskozen<br>_bum setdamage (damage _bum + 0.001)<br>_bum setfuel (fuel _bum - 0.001)<br>~0.1<br>? (GetPos _bum select 2) &lt; 0.5 : goto 'konec'<br><br>Goto 'poskozen'<br><br>#konec<br><br>Exit<br><br>
+ Tím máme zajištěno, že hráč jako pilot bude muset chtě nechtě přistát, 
+jestli chce celou krizovou situaci přežít. Toto postupné ničení se 
+zastaví až ve chvíli, kdy už bude stroj téměř na zemi, přesně pak 0,5 m 
+nad Zemí. To už se ale aktivuje jiný skript, díky němuž dojde po určité 
+době k výbuchu vrtulníku. Tím bychom měli mít jistotu, že bude stroj 
+chtě, nechtě zničen, teď už stačí k celé situaci přidat ohýnek. :o) A 
+protože jsem chtěl, aby to vypadalo co možná nejlépe, tak jsem intenzitu
+ plamene postupně zvedal, což v praxi znamená, že se z vrtulníku nejprve
+ kouří, poté se tam objeví malý plamínek, pak větší, pak dojde k 
+poškození zadního motoru a vrtulník je tak téměř neovladatelný a jediná 
+možnost zůstává přistát nebo pak tedy ještě vyskočit, čímž se ale 
+nezastaví již spuštěný script, což bude asi největší slabina celého 
+kódu. Jak je ve scriptu patrné, tak jsem toto postupné hoření řešil 
+časem, tedy ukončením po určité době, přidáním intenzity plamene a opět 
+nastavením času a to až do doby, kdy dojde k poškození zadního motoru.<br><br>_chopperdir = GetDir ah<br><br>#loop<br>[[(GetPos ah select 0), (GetPos ah select 1), (GetPos ah select 2)+1], [0,0,1], 0.5, 4, '' ] exec 'firesource.sqs'<br>_chopperdir = _chopperdir + 5<br>ah SetDir _chopperdir<br>~0.01<br>? (GetPos ah select 2) &lt; 20 : goto 'konec'<br>Goto 'loop'<br><br>#konec<br><br>
+ Další v pořadí spuštěný script totiž zastaví hoření až když bude výška 
+objektu nad Zemí 0,5 m. Další hoření bude ukončeno až absolutním 
+zničením celého vrtulníku. Potom by šel zřejmě přidat ještě nějaký ten 
+plamínek, ale po výbuchu se i tak z celého vrtulníku ještě kouří.<br> 
+Tak to by byl velký popis k malému scriptu. :o) Pro zpestření celé 
+situace jsem tam script zopakoval ještě jednou a to na hořícím pilotovi,
+ který se snaží utéci z hořícího vrtulníku, který co nevidět vybouchne. 
+Bohužel i jeho zranění jsou předem odsouzená. :o(  Celým skriptem jsem 
+chtěl pouze naznačit možnosti, co vymyslíte vy, na to se budu těšit. Na 
+závěr tu mám pro vás několik obrázků: <a target="_blank" href="vrtulec.htm">hořící vrtulník.</a><br><br>Didymos<br></td>
+	</tr>
+</tbody></table>
+
+				</div>
+			</div>
+		</form>
+	
+
+</center></body></html>

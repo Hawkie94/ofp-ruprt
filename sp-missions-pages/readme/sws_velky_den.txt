@@ -1,0 +1,25 @@
+Název mise : Velký den
+Autoři : Sunny war studio (kimster81,Esche,denny)
+Kontakt (mail) : sunny-war@volny.cz
+AddOny : pouze ty oficiální
+Verze hry : Vytvářeno ve verzi 1.96, ale měla by myslím stačit i 1.75 (ale nespoléhejte se).
+Ostrov : Nogova
+Misi testovali : LAW, TheRaptor, Kamzik  -  patří jim velký dík
+
+------------------------------------------------
+
+Známé chyby :
+
+-hned na začátku občas řidič Uralu přejede u zastávky svého vojáka (kvůli neschopnosti AI).
+-při útoku na letiště vám v tanku na radaru budou vaši spojenci svítit červeně jako nepřátelé, 
+protože jsou kradené.
+-pro úspěšné dokončení mise je potřeba eliminovat všechny vojáky na letišti (je možné, že se 
+občas někam schovají, tak omluvte jejich chování).
+
+Další nebyly doposud zjištěny. Budeme rádi, když nám o dalších napíšete.
+
+-------------------------------------------------
+
+Sunny war studio 2005
+
+http://www.sunny-war.site.cz

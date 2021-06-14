@@ -1,0 +1,30 @@
+Break Throught:
+=====================
+Autor:	Zob
+Ostrov:	Everon
+Typ:	Pěchotní/velitel
+Intro: 	Ne
+Outro: 	Ne
+Dabing: Ne
+sqs:	Ano
+_____________________________________________
+Požadavky:
+Editor update: http://games.tiscali.cz/flashpoint/download/kegetyseditoraddon10.zip
+ČSLA2.2      : http://download.games.tiscali.cz/game/downloadcz/addons0/CSLA2Update2_Install_v220.exe
+_____________________________________________
+Některé skripty by mohly trochu haprovat, takže pozor na 
+přehaně zbrklé používání radisty.
+Krom toho je zde bug na nekonečno nábojů do skládacího kulometu, po každém 
+rozložení má vždy 250 nábojů.
+(skript vytvoří těžký kulomet před hráčem)
+______________________________________________
+Tipy&triky:
+ Ve městě poblíž místa seskoku brava je volný tank, kterému došlo palivo,
+cisterna je u vyysílače, poblíž vašeho doskočiště.
+
+ Pokud příjdete o jednotku, můžete se pokusit dostat na sever do bezpečí.
+(přes mapu je natažený spínač, který ukončí misi)
+
+ Pomocí radisty si můžete zavolat na pomoc tým bravo nebo team charlie.
+______________________________________________
+Co nejvíce zábavy a co nejméně nervů v kýblu.

@@ -1,0 +1,61 @@
+IIIIIIIIIIII                                           IIII                IIII                                         IIII
+IIIIIIIIIIII                                        IIII   IIII               IIII                                     IIII
+IIIIIIIIIIII                                     IIII         IIII              IIII                                 IIII
+IIIIIIIIIIII                                  IIII               IIII             IIII                             IIII
+IIIIIIIIIIII                                IIII                   IIII             IIII         IIII IIII         IIII
+IIIIIIIIIIII                              IIII IIIIIIIIIIIIIIIIIIIIIIIIIIII IIII             IIII         IIII          IIII
+IIIIIIIIIIII                            IIII                           IIII             IIII     IIII  IIII     IIII
+IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII       IIII                               IIII             IIII  IIII     IIII  IIII
+IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII     IIII   .:Smrt v oblacích:.     IIII              IIII          IIII
+________________________________________________________________________________________
+=============================================================================
+
+AUTOR: LAW
+KONTAKT: lawlauncher@centrum.cz, ICQ 320100610
+WEB: http://ofp.valka.cz
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+NÁZEV: Smrt v Oblacích
+TYP MISE: pěchotní, letecká
+VERZE MISE: 1.0
+OSTROV: Nogova
+VERZE HRY: 1.96
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+POTŘEBNÉ ADDONY: 
+
+==BAS Blackhawks + JAM magazines
+download: http://ofp.valka.cz/download.php?page=letectvo&mid=6
+
+==PC Midway
+download: ftp://www.gamezone.cz:8021/ofpd/unofaddons2/PCUSSMidway.zip
+
+==StreetLamp:
+download: http://ofp.gamezone.cz/unofaddons/streetlamp.zip
+
+==Indesign Animpack 2.00
+download: http://www.indesign.name/InDesign_Anim_Pack2.00.zip
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+INSTALACE:
+
+1) Zkopírujte soubor law_hawk.Noe do složky "Missions" ve vašem adresáři s OFP
+2) Potřebné addony zkopírujte všechny do složky "Addons", případně Res/Addons ve vašem adresáři s OFP
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+Mise má několik chyb, které se mi nepodařilo odstranit. Zvláště jedna, kdy v outru tanková rota najede na most. 
+Dost často se stává, že jeden nebo více tanků ze skupiny uvíznou v konstrukci mostu.
+Doufám že tato a další případné chyby neuberou misi na zábavě.
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+PODĚKOVÁNÍ:                                    SPECIÁLNÍ PODĚKOVÁNÍ: 
+                                                                                       
+TheRaptor        Blackjabel                     Ballistic Addon Studio                                                 
+Mindas            Millis                             Indesign
+Esche             Gaia                              Sterling Silver
+Golem             Stene                            BIS
+Ježuro             Kamzik
+Cpt.Foley         
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+VAROVÁNÍ: Rozhodně nečekejte nic extra, je to koneckonců moje první mise :D
+
+Autor neručí za žádné škody způsobené tímto produktem, použití pouze na vlastní nebezpečí!
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                   
+                                                                 (C) LAW 2005

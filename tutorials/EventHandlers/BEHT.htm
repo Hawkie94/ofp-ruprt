@@ -1,0 +1,503 @@
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Brtuv eventHandler tutorial</title>
+</head>
+<body>
+<h1 align="center"><a href="mailto:brtovo@centrum.cz">Brt&#367;v</a>  eventHandler tutoriál</h1>
+<h3 align="center">v.1.0 pro OFP v.1.91cz</h3>
+<p>Použití: <font color="#008000"> nositel</font> addEventHandler ["<font color="#0000FF">event</font>",{akce po spušt&#283;ní}]<br>
+event: <a href="#killed">Killed</a>, <a href="#hit">Hit</a>, <a href="#engine">Engine</a>,
+<a href="#getin">GetIn</a>, <a href="#getout">GetOut</a>, <a href="#fired">Fired</a>,
+<a href="#incomingmissile">IncomingMissile</a>, <a href="#dammaged">Dammaged</a>,
+<a href="#gear">Gear</a>, <a href="#fuel">Fuel</a>, <a href="#init"> Init</a><br>
+Eventhandlery umož&#328;ují tv&#367;rci mise (od&nbsp;verze&nbsp;1.85) spustit n&#283;jakou akci, práv&#283; tehdy,
+když se stane ur&#269;itá událost&nbsp;(angl.&nbsp;event). Všechny eventhandlery (EH) vrací
+pole parametr&#367;. V akci po spušt&#283;ní se na n&#283;j odkazuje podobn&#283;
+jako ve scriptech pomocí&nbsp;<code>_this</code>&nbsp;. Jako první v poli&nbsp;(<code>_this&nbsp;select&nbsp;0</code>) je vždy název jednotky, ke které je EH
+p&#345;irazen&nbsp;(<font color="#008000">nositel</font>).<br>
+Na jedné jednotce m&#367;že byt i vícero EH. V&#283;tšina EH se po smrti nositele stane
+nepoužitelnou. EH se dají odstranit p&#345;íkazy <a href="#raeh"> removeAllEventHandlers</a> a
+<a href="#reh">removeEventHandler</a>. V MP zustávají EH na mrtvole, nep&#345;enáší
+se na respawnutého vojáka. Ale dá se využít toho, že si respawnutý voják
+ponechává svoje jméno.<br>
+EH jsou v p&#345;ípadech, které ošet&#345;ují, výhodn&#283;jší než b&#283;žné
+p&#345;íkazy editoru. Nap&#345;. se nemusí celou hru monitorovat zda je jednotka živá, zda je
+prázdná nadrž apod. Eventhandler se
+spustí práv&#283; tehdy, když daná situace nastane a navíc poskytne parametry,
+které by se jinak t&#283;žko zjiš&#357;ovaly. Nap&#345;. kdo koho zabil nebo zasáhnul a kam, kdo vystoupil z
+ur&#269;ité pozice ve vozidle, kdo jakou zbraní vyst&#345;elil.<br>
+Ale EH se, do verze 1.91cz, bohužel stávají nepoužitelnými, pokud je mise
+uložena a pozd&#283;ji nahrána. Tato chyba je opravena až ve verzi 1.94beta.<br>
+</p>
+<table width="100%" border="1">
+  <tbody><tr>
+    <td width="100%">
+      <h2><font color="#0000FF">událost</font>: parametr0[typ], parametr1[typ], parametr2[typ] ...</h2>
+    </td>
+  </tr>
+  <tr>
+    <td width="100%">Spušt&#283;ní: co spustí akci daného EH</td>
+  </tr>
+  <tr>
+    <td width="100%">Popis EH:<br>
+událost: <a href="#killed">Killed</a>, <a href="#hit">Hit</a>, <a href="#engine">Engine</a>,
+<a href="#getin">GetIn</a>, <a href="#getout">GetOut</a>, <a href="#fired">Fired</a>,
+<a href="#incomingmissile">IncomingMissile</a>, <a href="#dammaged">Dammaged</a>,
+<a href="#gear">Gear</a>, <a href="#fuel">Fuel</a>, <a href="#init"> Init</a><br>
+typ: <font color="#008000"> objekt</font> - objekt ve h&#345;e (voják, vozidlo, budova)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#345;et&#283;zec -
+text (ohrani&#269;ený uvozovkami)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;bool
+- true/false (pravda/nepravda)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#269;íslo - reálné &#269;íslo
+    </td>
+  </tr>
+  <tr>
+    <td width="100%">P&#345;íklad:<br>
+      <font color="#008000"> nositel</font> addEventHandler ["<font color="#0000FF">event</font>",{akce po spušt&#283;ní}]</td>
+  </tr>
+  <tr>
+    <td width="100%">Podmínka editoru: Jaká jednoduchá podmínka by se musela kontrolovat
+      v editoru, aby ošet&#345;ila stejnou událost bez použití EH. Takto podmínka
+      je však dost nepružná. Je u ní pot&#345;eba znát, nebo zajistit, ur&#269;itý
+      výchozí stav. EH je díky parametr&#367;m pružný.</td>
+  </tr>
+</tbody></table>
+&nbsp;
+<table width="100%" border="1">
+  <tbody><tr>
+    <td width="100%">
+<h2>
+<a name="killed"><font color="#0000FF">Killed</font></a>: <font color="#008000">nositel</font>[objekt], <font color="#008000">zabiják</font>[objekt]</h2>
+    </td>
+  </tr>
+  <tr>
+    <td width="100%">
+Spušt&#283;ní: zabití/zni&#269;eni <font color="#008000"> nositele</font></td>
+  </tr>
+  <tr>
+    <td width="100%">
+Pomocí tohoto EH se dá zjistit, kdo byl vrahem (zabil/zni&#269;il) nositele.</td>
+  </tr>
+  <tr>
+    <td width="100%">
+P&#345;íklad:<br>
+kdo zabil <font color="#008000">rukojmí</font>?<br>
+<font color="#008000">
+rukojmi</font> addEventHandler ["<font color="#0000FF">killed</font>",{_this exec "vrah.sqs"}]<br>
+vrah.sqs<br>
+<code>
+_mrtvy=_this select 0<br>
+_vrah=_this select 1<br>
+?_mrtvy!=rukojmi:exit<br>
+cutText [format ["%1 zabil rukojmí!",name _vrah],"plain down"]</code>
+    </td>
+  </tr>
+  <tr>
+    <td width="100%">
+Podmínka editoru: !alive (nositel)
+    </td>
+  </tr>
+</tbody></table>
+&nbsp;
+<table width="100%" border="1">
+  <tbody><tr>
+    <td width="100%">
+      <h2><a name="hit"><font color="#0000FF">Hit</font></a>: <font color="#008000">nositel</font>[objekt],
+<font color="#008000"> st&#345;elec</font>[objekt], poškozeni[&#269;íslo]</h2>
+    </td>
+  </tr>
+  <tr>
+    <td width="100%">
+Spušt&#283;ní: zasažení <font color="#008000"> nositele</font></td>
+  </tr>
+  <tr>
+    <td width="100%">
+Zjišt&#283;ni, jak moc st&#345;elec poškodil nositele. Za poškozeni se bere jen zásah,
+který m&#367;že jednorázov&#283; nositeli zp&#367;sobit znateln&#283;jší zran&#283;ní (ur&#269;it&#283;
+v&#283;tši jak 0.016 . Takže na &#269;lov&#283;ka to je jakákoli zbra&#328;, ale u aut  (až na trabant) a
+leh&#269;í obrn&#283;né techniky je ignorována st&#345;elba z ru&#269;ních zbrani. U
+t&#283;žké techniky jsou ignorovány i granáty.<br>
+      Pokud bude jednotka poškozena zásahem za 0.3, tak ji bude zbývat 0.7 života
+      (p&#345;íkaz damage).</td>
+  </tr>
+  <tr>
+    <td width="100%">
+P&#345;íklad:<br>
+ohlášeni poran&#283;ni <font color="#008000"> vojáka</font> ve skupin&#283;:<br>
+<font color="#008000">
+vojak</font> addEventHandler ["<font color="#0000FF">hit</font>",{_this exec "zasah.sqs"}]<br>
+zasah.sqs<br>
+<code>_ja=_this select 0<br>
+_ja groupChat format ["Dostal jsem to!"]</code>
+    </td>
+  </tr>
+  <tr>
+    <td width="100%">
+Podmínka editoru: damage nositel &gt; X 
+    </td>
+  </tr>
+</tbody></table>
+&nbsp;
+<table width="100%" border="1">
+  <tbody><tr>
+    <td width="100%">
+      <h2><a name="engine"><font color="#0000FF">Engine</font></a>: <font color="#008000">nositel</font>[objekt],motor[bool]</h2>
+    </td>
+  </tr>
+  <tr>
+    <td width="100%">
+Spušt&#283;ní: zapnuti/vypnuti motoru u <font color="#008000"> vozidla</font> (nositele)</td>
+  </tr>
+  <tr>
+    <td width="100%">
+Detekce zapnutí (motor=true) nebo vypnutí (motor=false) motoru vozidla.</td>
+  </tr>
+  <tr>
+    <td width="100%">
+P&#345;íklad:&nbsp;<br>
+Spušt&#283;ní bomby po oto&#269;ení klí&#269;ku (nastartováni motoru)<br>
+<font color="#008000">
+vozidlo</font> addEventHandler ["<font color="#0000FF">engine</font>",{_this exec "bum.sqs"}]<br>
+bum.sqs<br>
+<code>_vozidlo=_this select 0<br>
+_nastartoval=_this select 1<br>
+?nastartoval:_vozidlo setdamage 1</code>
+    </td>
+  </tr>
+  <tr>
+    <td width="100%">
+Podmínka editoru: fuel vozidlo &lt; X
+    </td>
+  </tr>
+</tbody></table>
+&nbsp;
+<table width="100%" border="1">
+  <tbody><tr>
+    <td width="100%">
+      <h2><a name="getin"><font color="#0000FF">GetIn</font></a>: <font color="#008000">nositel</font>[objekt], pozice[&#345;et&#283;zec],
+<font color="#008000"> nasedající</font>[objekt]</h2>
+    </td>
+  </tr>
+  <tr>
+    <td width="100%">
+Spušt&#283;ní: <font color="#008000"> kdokoli</font> nastoupil do <font color="#008000"> vozidla</font> (nositele)</td>
+  </tr>
+  <tr>
+    <td width="100%">
+Detekuje, zda n&#283;kdo nastoupil do vozidla a udává na jakou pozici (driver,
+cargo, gunner) nasednul. Ale
+už nezahlásí, jestliže &#269;lov&#283;k uvnit&#345; vozidla zm&#283;ní svoji pozici. Jednoduše
+proto, že neprovede akci nastoupeni, ale akci zm&#283;na pozice, pro kterou EH
+není.</td>
+  </tr>
+  <tr>
+    <td width="100%">
+P&#345;íklad:<br>
+když <font color="#008000"> hrá&#269;</font> vleze do <font color="#008000"> tanku</font> jinam, než na pozici st&#345;elce, tak je z tanku vyhozen a je mu
+dána hláska, a&#357; nastoupí jako st&#345;elec.<br>
+<font color="#008000">
+tank</font> addEventHandler ["<font color="#0000FF">getin</font>",{_this exec "padej.sqs"}]<br>
+padej.sqs<br>
+<code>_tank=_this select 0<br>
+_pozice=_this select 1<br>
+_kdo=_this select 2<br>
+?_kdo!=player:exit<br>
+?_pozice=="gunner":exit<br>
+hint "Vlez si ke kanónu!"<br>
+~1<br>
+player action["eject", _tank]<br>
+unassignVehicle player</code></td>
+  </tr>
+  <tr>
+    <td width="100%">Podmínka editoru: count crew nositel &gt; X
+    </td>
+  </tr>
+</tbody></table>
+&nbsp;
+<table width="100%" border="1">
+  <tbody><tr>
+    <td width="100%">
+      <h2><a name="getout"><font color="#0000FF">GetOut</font></a>: <font color="#008000">nositel</font>[objekt], pozice[&#345;et&#283;zec],
+<font color="#008000"> vysedající</font>[objekt]</h2>
+    </td>
+  </tr>
+  <tr>
+    <td width="100%">
+Spušt&#283;ní: vystoupeni z <font color="#008000"> vozidla</font> (nositele)</td>
+  </tr>
+  <tr>
+    <td width="100%">
+Obdoba EH <font color="#0000FF"><a href="#getin">GetIn</a></font>, ale pro vystupováni. Detekuje vystoupeni z vozidla a z jaké pozice
+(driver, cargo, gunner) se vystoupilo.</td>
+  </tr>
+  <tr>
+    <td width="100%">
+Podmínka editoru: count crew nositel &lt; X</td>
+  </tr>
+</tbody></table>
+&nbsp;
+<table width="100%" border="1">
+  <tbody><tr>
+    <td width="100%">
+      <h2><a name="fired"><font color="#0000FF">Fired</font></a>: <font color="#008000">nositel</font>[objekt], zbra&#328;[&#345;et&#283;zec], hlave&#328;[&#345;et&#283;zec],
+mód st&#345;elby[&#345;et&#283;zec], st&#345;ela[&#345;et&#283;zec]</h2>
+    </td>
+  </tr>
+  <tr>
+    <td width="100%">
+Spušt&#283;ní: Když <font color="#008000"> nositel</font> vyst&#345;elí. Za výst&#345;el se bere i hozeni granátu &#269;i&nbsp;
+dýmovnice a i položení miny nebo nálože.</td>
+  </tr>
+  <tr>
+    <td width="100%">
+&nbsp;zbra&#328;: název zbran&#283;. Throw pro hození ru&#269;ního granátu nebo
+dýmovnice; Put pro pokládání min a výbušnin<br>
+&nbsp;hlave&#328;: v&#283;tšinou shodná s názvem zbran&#283;. Jiná je snad jen u st&#345;elby z
+podv&#283;šeného granátometu.<br>
+&nbsp;mód st&#345;elby: Single, Burst, FullAuto pro ru&#269;ní zbran&#283;; HandGrenade pro ru&#269;ní granát;
+Flare pro vyst&#345;eleni sv&#283;tlice<br>
+&nbsp;st&#345;ela: název projektilu ve h&#345;e. Tzn. ne název zásobníku používaného p&#345;íkazem
+addMagazine. Využitelné pro detekci st&#345;ely pomoci p&#345;íkazu nearestObject.<br>
+Pokud se má kontrolovat st&#345;elba z techniky, tak je pot&#345;eba dát EH technice a ne
+jejímu st&#345;elci. Výst&#345;el provede technika, st&#345;elec "jen" ma&#269;ká spouš&#357;.</td>
+  </tr>
+  <tr>
+    <td width="100%">
+Na p&#345;esné zjiš&#357;ování všech hodnot, zvlášt&#283; u addonovych
+zbrani a techniky, doporu&#269;uji p&#345;iklad:<br>
+<font color="#008000">player</font> addEventHandler ["<font color="#0000FF">fired</font>",{hintC format ["%1",_this]}]
+    </td>
+  </tr>
+  <tr>
+    <td width="100%">
+Podmínka editoru: nositel ammo "Y" &lt; X
+    </td>
+  </tr>
+</tbody></table>
+&nbsp;
+<table width="100%" border="1">
+  <tbody><tr>
+    <td width="100%">
+      <h2><a name="incomingmissile"><font color="#0000FF">IncomingMissile</font></a>: <font color="#008000">nositel</font>[objekt],
+st&#345;ela[retezec], <font color="#008000">st&#345;elec</font>[objekt]</h2>
+    </td>
+  </tr>
+  <tr>
+    <td width="100%">
+Spušt&#283;ní: vyst&#345;elení &#345;ízené st&#345;ely (angl. missile) nebo
+ne&#345;ízené rakety (angl. rocket) na
+zam&#283;&#345;eného <font color="#008000">nositele</font>.</td>
+  </tr>
+  <tr>
+    <td width="100%"> Zam&#283;&#345;ením se rozumí to, že má st&#345;elec cíl v
+      zam&#283;&#345;ovacím ráme&#269;ku.
+      Není pot&#345;eba na cíl mí&#345;it (&#269;tverec dopln&#283;n koso&#269;tvercem).<br>
+      V obtížnosti kadet (cadetmode) tento EH detekuje i výst&#345;el raketomet&#269;íka, jelikož
+je mu umožn&#283;no automatické zam&#283;&#345;eni raketometu Carl Gustav a AT4.<br>
+      &nbsp;st&#345;ela: název projektilu ve h&#345;e - stejn&#283; jako u EH <font color="#0000FF"><a href="#fired"> Fired</a></font>
+    </td>
+  </tr>
+  <tr>
+    <td width="100%">
+P&#345;íklad:<br>
+upozorn&#283;ní na vyst&#345;elení rakety (samoz&#345;ejm&#283; po
+zam&#283;&#345;eni) na
+<font color="#008000"> tank</font><br>
+<font color="#008000">
+tank</font>  addEventHandler ["<font color="#0000FF">incomingmissile</font>",{_this
+exec "raketa.sqs"}]<br>
+raketa.sqs<br>
+<code>_terc=_this select 0<br>
+_strela=_this select 1<br>
+_strelec=_this select 2<br>
+hint format["%3 vyst&#345;elil %2 na %1 !",_terc,_strela,_strelec]</code>
+    </td>
+  </tr>
+  <tr>
+    <td width="100%">
+Podmínka editoru: neexistuje
+    </td>
+  </tr>
+</tbody></table>
+&nbsp;
+<table width="100%" border="1">
+  <tbody><tr>
+    <td width="100%">
+      <h2><a name="dammaged"><font color="#0000FF">Dammaged</font></a> : <font color="#008000">nositel</font>[objekt], poškozená &#269;ást[&#345;et&#283;zec],
+poškození &#269;ásti[&#269;íslo]</h2>
+    </td>
+  </tr>
+  <tr>
+    <td width="100%">
+Spušt&#283;ní: poškození n&#283;jaké &#269;ásti <font color="#008000">jednotky</font>. Využitelné hlavn&#283; u
+lidských jednotek.</td>
+  </tr>
+  <tr>
+    <td width="100%">
+Poškozená &#269;ást je t&#345;eba u džípu "pravý zadní tlumi&#269;". Jeho
+poškození m&#367;že mít hodnotu 0 až 1. Podobn&#283; tak jako poškození
+celé jednotky. Ale
+úpln&#283; zni&#269;ený tlumi&#269; (hodnota 1) neznamená úpln&#283; zni&#269;ený džíp. Ten je jako celek
+poškozený t&#345;eba jen na hodnotu 0.2. Ale u vojáka je kompletní poškození
+hlavy ("hlava",1) zárove&#328; jeho smrti.<br>
+EH dammaged z&#367;stává aktivní i po smrti jednotky. Nepoužitelným se stává,
+až když jsou všechny &#269;ásti nositele zni&#269;eny (poškozeny na urove&#328; 1).</td>
+  </tr>
+  <tr>
+    <td width="100%">
+P&#345;íklad:<br>
+objeví se hláška, když je <font color="#008000">voják</font> zasažen do hlavy<br>
+      <font color="#008000">
+vojak</font> addEventHandler ["<font color="#0000FF">dammaged</font>",{_this exec "headshot.sqs"}]<br>
+headshot.sqs<br>
+<code>_vojak=_this select 0<br>
+_kam=_this select 1<br>
+?_kam!="hlava":exit<br>
+cuttext [format["%1 byl zasažen do hlavy!",_vojak],"plain down"]</code>
+    </td>
+  </tr>
+  <tr>
+    <td width="100%">
+Podmínka editoru: neexistuje
+    </td>
+  </tr>
+</tbody></table>
+&nbsp;
+<table width="100%" border="1">
+  <tbody><tr>
+    <td width="100%">
+      <h2><a name="gear"><font color="#0000FF">Gear</font></a>: <font color="#008000">nositel</font>[objekt],
+      podvozek[bool]</h2>
+    </td>
+  </tr>
+  <tr>
+    <td width="100%">
+Spušt&#283;ní: zatáhnutí nebo vysunuti podvozku u <font color="#008000">letounu</font>.</td>
+  </tr>
+  <tr>
+    <td width="100%">
+Když letoun podvozek vysune, parametr podvozek je nastaven na true. Naopak, když
+letoun podvozek zasune, nastaví se hodnota false.</td>
+  </tr>
+  <tr>
+    <td width="100%">
+P&#345;íklad:<br>
+Ohlášení vysunuti/zasunuti podvozku<br>
+      <font color="#008000">
+letadlo</font> addEventHandler ["<font color="#0000FF">gear</font>",{_this exec "podvozek.sqs"}]<br>
+podvozek.sqs<br>
+<code>_let=_this select 0<br>
+_pod=_this select 1<br>
+_jak="Zasunul"<br>
+?_pod:_jak="Vysunul"<br>
+_let sideChat _jak+" jsem podvozek."</code>
+    </td>
+  </tr>
+  <tr>
+    <td width="100%">
+Podmínka editoru: neexistuje
+    </td>
+  </tr>
+</tbody></table>
+&nbsp;
+<table width="100%" border="1">
+  <tbody><tr>
+    <td width="100%">
+      <h2><a name="fuel"><font color="#0000FF">Fuel</font></a>: <font color="#008000">nositel</font>[objekt], nádrž[bool]</h2>
+    </td>
+  </tr>
+  <tr>
+    <td width="100%">
+Spušt&#283;ní: vyprázdn&#283;ní nádrže <font color="#008000"> vozidla</font> (nádrž=false), nebo zm&#283;na z
+nulového stavu nádrže (nádrž=true) tzn. do prázdné nádrže se dostalo palivo</td>
+  </tr>
+  <tr>
+    <td width="100%">
+P&#345;íklad:<br>
+      <font color="#008000">
+vozitko</font> addEventHandler ["<font color="#0000FF">fuel</font>",{_this exec "dno.sqs"}]<br>
+dno.sqs<br>
+<code>_vozidlo=_this select 0<br>
+_nadrz=_this select 1<br>
+?_nadrz:goto "plneni"<br>
+_vozidlo vehicleChat "Došlo nám palivo."<br>
+exit<br>
+#plneni<br>
+(driver _vozidlo) sideChat "Plnou!"</code></td>
+  </tr>
+  <tr>
+    <td width="100%">
+Podmínka editoru: fuel nositel == 0</td>
+  </tr>
+</tbody></table>
+&nbsp;
+<table width="100%" border="1">
+  <tbody><tr>
+    <td width="100%">
+<h2>
+<a name="init"><font color="#0000FF">Init</font></a>: <font color="#008000">nositel</font>[objekt]</h2>
+    </td>
+  </tr>
+  <tr>
+    <td width="100%">
+Tento EH pravd&#283;podobn&#283; slouží tv&#367;rc&#367;m addon&#367; -
+jednotka (model) ho musí n&#283;jakým zp&#367;sobem podporovat.Funkci má asi
+podobnou
+jako init &#345;ádek u jednotky.
+    </td>
+  </tr>
+  <tr>
+    <td width="100%">
+P&#345;íklad spušt&#283;ní (jen má domn&#283;nka): podporovaná jednotka objeví
+na map&#283; (za&#269;átek mise, createUnit, respawn)
+    </td>
+  </tr>
+</tbody></table><br>
+<hr><br>
+<table width="100%" border="1">
+  <tbody><tr>
+    <td width="100%">
+      <h2><font color="#008000">nositel</font>  <a name="reh"> removeEventHandler</a> ["<font color="#0000FF">event</font>",index]</h2>
+    </td>
+  </tr>
+  <tr>
+    <td width="100%">Odebere nositeli jeden ur&#269;itý EH. Index je celé
+      &#269;íslo, které vrací addEventHandler. Po odebrání se indexy všech
+      ostatních EH stejného typu, které mají vyšší index než ten odebraný,
+      sníží o jedni&#269;ku.</td>
+  </tr>
+  <tr>
+    <td width="100%">P&#345;íklad:<br>
+      p&#345;idání t&#345;ech EH a uložení jejich index&#367; do globálních
+      prom&#283;ných eh1, eh2, eh3 (0, 1, 2)<br>
+      <code>eh1=nositel addEventHandler ["killed",{akce1}]<br>
+      eh2=nositel addEventHandler ["killed",{akce2}]<br>
+      eh3=nositel addEventHandler ["killed",{akce3}]</code><br>
+      a pozd&#283;ji odebrání druhého EH:<br>
+      <code>nositel removeEventHandler ["killed",eh2]</code><br>
+      Po odebrání EH2, se index prvního EH nezm&#283;ní (0), ale index t&#345;etího EH
+      se sníží o jedna (2-&gt;1) a je pot&#345;eba snížit o jedna prom&#283;nou eh3, protože v ní z&#367;stává stále p&#367;vodní
+      hodnota (2). Použití už neplatné hodnoty v eh3 sice nevyvolá chybu, ale
+      také se t&#345;etí EH nevymaže (protože už se fakticky stal druhým).</td>
+  </tr>
+</tbody></table><br>
+<table width="100%" border="1">
+  <tbody><tr>
+    <td width="100%">
+      <h2><font color="#008000">nositel</font>  <a name="raeh"> removeAllEventHandlers</a> "<font color="#0000FF">event</font>"</h2>
+    </td>
+  </tr>
+  <tr>
+    <td width="100%">Odebere nositeli všechny EH daného typu.</td>
+  </tr>
+</tbody></table>
+<p>Použité zdroje:<br>
+Operation Flashpoint - Resistance: Scripting Commands (comref_102002) z <a href="http://www.flashpoint1985.com/" target="_blank">www.flashpoint1985.com</a>
+angl. sekce editace<br>
+EventHandler tutoriál od Aliho z <a href="http://www.koflex.cz/ruprt/" target="_blank">www.koflex.cz/ruprt/</a>
+sekce tutoriály</p>
+<p>Vytvo&#345;il <a href="mailto:brtovo@centrum.cz">Brt</a>. Srpen 2003</p>
+
+
+</body></html>

@@ -1,0 +1,125 @@
+
+******* H   H   A   W     W K  K   I N  N     SSS H   H   A   DDD   OO  W     W  SSS *******
+ ****** H   H  A A  W  W  W K  K   I NN N    SS   H   H  A A  D  D O  O W  W  W SS   ****** 
+    *** HHHHH AAAAA W W W W KKK    I N NN      SS HHHHH AAAAA D  D O  O W W W W   SS ***
+     ** H   H A   A  W   W  K  K   I N  N    SSS  H   H A   A DDD   OO   W   W  SSS  **
+
+                                  HAWK IN SHADOWS 
+                                      v 1.0
+                          Developed by Munch Studios 2002 
+		  (language localization version by TonyHawk 2021)
+                                  Czech Republic 
+
+============================================================================================
+
+ OBSAH: 1) Instalace a potøebné addony
+        2) Alarm systém a další nadstandardní vlastnosti
+        3) Credits
+       +4) Poznámky designera + struèná historie vıvoje
+       +5) 2021 poznámky
+
+____________________________________________________________________________________________
+
+ 1) INSTALACE A POTØEBNÉ ADDONY :
+
+    Zkopírujte adesáøe ADDONS a Campaigns do vašeho adresáøe s Flashpointem.
+
+    Required ADDONS:
+    -Winter Nogojev by Kegetys
+    -Russian Weapons Pack by Kegetys
+    -Kiowa Warrior by Kegetys
+    -Kiowa by Munch (included)
+    -Lamp and Lampicka by Munch (included)
+    -EditorUpdate102 by Kegetys
+
+    Poznámky:
+	- v adresáøi s OFP mìjte pouze addon editorupdate102 (ostatní update-y a upgrade-y
+	  dìlají potíe)
+	- rovnì musíte mít pouze zimní addony od Kegetyse (kegepacksnow.pbo plnì nahrádza
+	  addony zimních vozidel a jednotek)
+
+    Potøebná verze OFP: 1.96
+____________________________________________________________________________________________
+
+ 2) ALARM SYSTÉM 1.0 A DALŠÍ NESTANDARDNÍ VLASTNOSTI
+
+    Alarm systém 1.0 (originaly developed by Munch Studios), dovoluje vojákùm zvolat  
+    poplach, pokud o vás ví. Narozdíl od pùvodního systému, voják nejdøíve zavolá na 
+    vás (a souèasnì namíøí zbraò), aby se pøesvìdèil kdo jste ("Hej ty, co to tam dìláš",
+    nebo "Stùj, ani hnout"). Teprve potom zvolá poplach. Dùleité je pøedevším to, e nic 
+    nezavolá, pokud je mrtev (2x kontrola). 
+    Monost reagovat na mrtvoly byla zrušena, nebo fungovala nespolehlivì (není chybou  
+    scriptu; script bude popsán v bodu 4) a z dùvodu hardwarovıch nárokù (5 spínaèù na 
+    vojáka).
+
+    V druhé misi mùete vysílaèkou ukládat pozice (0-0-2) i kdy se v nìkterıch místech mise
+    sama uloí. Tato monost supluje stupnì obtínosti (EASY). Pokud chcete vyšší obtínost,
+    tak toho nevyuívejte.  
+
+    Pokud pøehlédnete zprávu z vysílaèky a nevíte, co dìlat, mùete zavolat Plukovníkovi,
+    kterı vám váš momentální úkol zopakuje (0-0-1 na vysílaèce).
+
+    Mùete také najít bonusy, které jsou sice spíše zpestøením, ale také mohou bıt uiteèné.
+ 
+    Kampaò není zákernì (kupo!) komprimována do PBO, aby se dala pozdìji lehce upgradovat.
+____________________________________________________________________________________________
+
+ 3) CREDITS:
+    Vìtšina designování a pøíbìh: Silver Falcon
+    Vìtšina editování a scripting: Munch
+    Zjednocení jazykovıch verzí a konverze do Resistance (2021): TonyHawk
+
+____________________________________________________________________________________________
+
+ 4) POZNÁMKY DESIGNERA
+  
+    Hawk In Shadows byl designován jako jednotlivá mise, z technickıch dùvodù však bylo  
+    nutno ji rozdìlit na dvì èásti. Do kampanì byly spojeny pøedevším kvùli úspoøe objemu
+    dat (asi 3MB - hudba).
+  
+    Bìhem vıvoje byl poprvé pouit script, kterı dovolil vojákùm reagovat na mrtvoly. Ze
+    zaèátku, kdy mise ještì neobsahovala tolik jednotek a spínaèù, fungoval nejménì v
+    75% pøípadù a poèítalo se s jeho pouitím. I pozdìji jsme obèas bìhem testování
+    zaslechli hlášku, oznamující, e voják zahlédl mrtvolu (a hned nato zvolal poplach),
+    ale u se to nedalo nazvat pravidlem, tak jsme se vzhledem k úspoøe HW nárokù rozhodli
+    vymazat tento script zahrnující 5 spínaèù na vojáka.
+
+    Prakticky kompletní návrh mise a první èást byla témìø hotova ještì v roce 2001. Tato
+    mise není ani z èásti inspirována misí Siberian Fox (napø. název SPECTRE a další vìci
+    byly vymyšleny zcela nezávisle). Mise je inspirována pouze hrou Metal Gear Solid a
+    èásteènì Commandos. Bohuel dolaïování a dokonèení se ponìkud protáhlo. Vìøíme e
+    dopadneme spíše jako Flashpoint, nebo Max Payne ne jako Daikatana.
+  
+
+    Misi jsme dùkladnì testovali a snaili jsme se zabránit tomu, aby hráè mohl znièit
+    nìkterou dùleitou jednotku a pak nemohl dokonèit misi. V tìch pøípadech vás mise
+    poádá o restartování (asi 2 moné). Také jsme se snaili, zabránit tomu, aby bloudil a
+    nevìdìl, co má dìlat. Proto mùete zavolat Plukovníkovi, kterı vám poradí (zopakuje
+    úkol). Pøesto však mùe teoreticky dojít k nìjaké chybì (AI). V tom pøípadì ji prosím
+    restartujte, nebo nám napište, o jakı problém jde (nejpravdìpodobnìji se nedostaví 
+    dùleitá jednotka). Vìøíme však, e podobné problémy budou pouze ojedinìlé.
+   
+    Hudba byla pøevzata ze hry Metal Gear Solid, bez souhlasu tvùrcù. Slibujeme však, e
+    nebude vyuita ke komerèním úèelùm.
+
+    Témìø 20 minut cutscén (i s intrem a outrem).
+
+    V urèité fázi vıvoje mìly obì èásti dohromady více ne 500 spínaèù.
+
+    Kampaò obsahuje rovnıch 20 zvukovıch (hudebních) stop (namluvení bohuel neobsahuje).
+
+                    
+____________________________________________________________________________________________
+
+ 5) 2021 POZNÁMKY (TonyHawk)
+
+   Táto špeciálna verzia, ktorá bez problémov funguje po Resistance verziou OFP vznikla
+   na môj osobnı podnet (bez toho, aby so skontaktoval autorov alebo kohoko¾vek iného).
+
+   Mám za to, e táto vynikajúca kampaò (jedna z najlepších, ktoré kedy boli vytvorené
+   pod OFP) si zaslúi ma verziu, ktorú si môe zahra ktoko¾vek aj v roku 2021, kedy
+   je viac-menej nemoné zohna starú Cold War Crisis verziu hry OFP.
+
+   Zároveò, znovu-obnovená Ruprtova poradòa je exkluzívne (a jediné) miesto, kde sa táto
+   kampaò dá stiahnu. Neváhajte si ju zahra aj dnes. Niektoré skripty síce môu pôsobi
+   zastaralo, ale celkovı dojem, atmosféra, príbeh (a aj custcény) dozaista zanechajú dojem.

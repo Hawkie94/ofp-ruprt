@@ -1,0 +1,13 @@
+Název: Závod
+
+Autor: Resistance-rat
+
+e-mail: radim.landsfeld@seznam.cz
+
+Ostrov: Nogovo
+
+Addony: Žádné
+
+Testovací Verze: 1.96 
+
+Za pomocí OFPEditorHelpCZ v1.31.

@@ -1,0 +1,49 @@
+  [CZ]
+
+
+    .D.O.M.I.N.O.E.F.E.K.T.
+
+
+  > Typ: Video-mise pro Armed Assault, ostrov Rahmadi
+  > Autor: Road Runner
+  > Kontakt: flashpointweb@email.cz
+
+  > Instalace:
+    - zkopíruj soubor "CZ-Efekty.Intro.pbo" do adresáře Missions ve složce Arma (autory přednastavená cesta je: "C:\Program files\Bohemia Interactive\ArmA\Missions")
+    - spusť Armed Assault
+    - Ve hře zvol položku Hrát - Mise - "Efekty.Intro"
+
+  > Doporučené systémové parametry:
+    - CPU: 3 GHz
+    - RAM: 1024 MB
+    - Grafická karta: NVIDIA 6800 a vyšší nebo ATi x800 a vyšší s nejméně 256 MB RAM
+
+  > Upozornění: Používání tohoto softwaru je na vlastní nebezpečí. Autor nijak neručí za případné vzniklé škody způsobené nekompatibilitou nebo jakoukoliv jinou příčinou.
+
+
+
+  [EN]
+
+
+    .C.H.A.I.N. .R.E.A.C.T.I.O.N.
+
+
+  > Type: Video-mission for Armed Assault, Rahmadi island
+  > Author: Road Runner
+  > Contact: flashpointweb@email.cz
+
+  > Instalation:
+    - copy the "EN-Efekty.Intro.pbo" file into the Missions folder in Arma directory (default way is: "C:\Program files\Bohemia Interactive\ArmA\Missions")
+    - run Armed Assault
+    - select Play/Hrát - Missions/Mise - "Efekty.Intro" item
+
+  > System requirements (recommended):
+    - CPU: 3 GHz
+    - RAM: 1024 MB
+    - Graphic card: NVIDIA 6800 and higher or ATi x800 and higher with min. 256 MB RAM
+
+  > Caution: Using of this software is only on your own risk. Author doesn't warrant for conceivable damage incurred by incompatibility or any other reason.
+
+
+
+  © 2007 Road Runner

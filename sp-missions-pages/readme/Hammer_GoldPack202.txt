@@ -1,0 +1,80 @@
+README
+Hammer GOLD Pack - Verze 2.02
+
+Instalace:
+	Obsah složky Hammer GOLD PACK 2.0 extrahujte do složky Operation Flashpoint ve které máte nainstalované OFP
+
+Obsah:Mise :						2009
+							Artilery
+							Battle
+							Castle – Shadow of The Red Star 
+									-verze 1.0 a 1.3 Delta
+							Castle – Return 2 Everon
+							Church
+							God
+							Megality a Zajímavosti
+							Mountain King verze 1.1
+							Original War
+							Osvobození Mírova – verze 1.0 a 1.1
+							Podzemní chodba
+							Poklad na Støíbrném jezeøe
+							Projekt GASTOVSKI - verze 1.1
+							Roadblock
+							Sniper on the mountains
+							Sniper
+							STANDER – verze 1.1
+							Statek
+							Útok na Chotain
+
+	Kampanì:					Teneriffe
+
+	Pøiložené Addony:				Editor update 102
+							Hammer music addon
+							HMMR_CopperSphere									HMMR_Excavator
+							HMMR_Gravi
+							HMMR_GoldSphere
+							HMMR_HAS
+							HMMR_HTV
+							HMMR_LampBlue
+							HMMR_ShellE
+							HMMR_ShellF
+							HMMR_ SpiderNet
+							HMMR_Statue
+
+	Bonusy:					Tapety na Plochu
+						WIP screens
+						Nedokonèené projekty (Just War, Status Quo)
+Credits:
+
+	Autor: 			HAMMER (aka don_Taz aka God3D)
+
+	Spolupracovali:		PAØAN
+				TONYHAWK
+				MIKI45
+
+	Hudba:			BOHEMIA INTERACTIVE STUDIO
+				SEVENTH
+				HANS ZIMMER
+				BILL BROWN
+				JESPER KYD
+				DAVID ARNOLD & JOEL GOLDSMITH
+				RANDY EDELMAN
+				EDITH PIAF
+				MARCIN CZARTYNSKI
+				A DALŠÍ…
+
+	Podìkování:		PAØAN
+				TONYHAWK
+				MIKI45
+				DIDYMOS
+				STR
+				KEGETYS
+				SARGE STUDIO
+				MUNCH STUDIOS
+				MAA & LEON
+				AL SIMMONS
+				BOHEMIA INTERACTIVE STUDIO
+
+				VŠEM JEŠTÌ AKTIVNÍM ÈLENÙM  
+				OFP KOMUNITY
+				A VŠEM NA KTERÉ JSEM ZAPOMNÌL

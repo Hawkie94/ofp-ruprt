@@ -1,0 +1,56 @@
+*******************************************************************************************
+*******************************************************************************************
+                                   NEJHORŠÍ OBAVY
+                                         1990
+*******************************************************************************************
+*******************************************************************************************
+
+
+
+Autor: TheSun
+
+E-mail: fujtajblik_2003@volny.cz
+
+Verze hry: - CSLA2_2.02
+
+           - Operace flashpoint ver 1.96
+
+Addony: - Lst2 ===> přibalen 
+                    popř. ke stažení na:   http://ofp.ruprt.cz
+
+        - ČSLA 2 addon ver 2.02 
+                    ke stažení na:  http://flashpoint.tiscali.cz
+                                    http://ofp.ruprt.cz
+
+Instalace: Soubor Nejhorší_obavy.pbo zkopírujte do složky flashopint\campaigns
+
+           Addon Lst2.pbo zkopírujte do složky flashpoint\Addons
+
+
+Příběh: Američané se vrátili na Nogovu, aby se pomstili ČSLA za to, že byly dříve donuceni 
+        tento ostrov potupně opustit
+
+Kampaň: - 19 misí
+        - Intro, Outro
+        - 3 dějové scény
+        - U některých misí intro nebo outro pro návaznost misí
+
+Ostrovy: Nogova a Malden
+
+Postavy: - des. Tomáš Miler (pěchota)
+         - kap. Michal Černý (prúzkumníci)
+
+Poznámky: - Průzkumníky jsem ve hře použil i do nočních misí, kde by možná někdo raději 
+            použil výsadkáře. Je to proto, že se mi osobně víc líbí jejich maskování, tak
+            mě za to prosím nekamenujte :o)
+            
+          - Poznámky v briefu jsem použil pro upřesnění ůkolů mise+příběhu. V brífingu
+            samotném je vypsán už jen postup vaší mise
+
+          - V některých misích (asi 9) po mně hra vyžadovala addon bis_resistance. 
+            Nedokázal jsem bohužel přijít na to co přesně to je za addon, ale hrát se dá i
+            bez něj a nijak neomezuje hru.
+
+
+******Pokud by jste měli nějaké připomínky nebo problémy s kampaní tak se mi ozvěte na výše 
+      uvedený e-mail.******  

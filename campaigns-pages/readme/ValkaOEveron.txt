@@ -1,0 +1,67 @@
+*********************************************************************************
+***************************V*Á*L*K*A**O**E*V*E*R*O*N**v.*1.*1********************
+*********************************************************************************
+                                                                                *
+Pro hraní této kampaně budete potřebovat následující addony:                    *
+                                                                                *
+Resistance ver.1.91                                                             *
+Objects*                                                                        *
+EditorUpgarde 102*                                                              *
+EditorUpgarde 1*                                                                *
+                                                                                *
+* tyto addony jsou v balíku obsaženy                                            *
+                                                                                *
+Stručné nastínění příběhu: Rusové vtrhli na Everon a pozabíjeli asi třetinu     *
+obyvatel. Američané se v jim snaží zabránit v dalším zabíjení.                  *
+            ****                                                                *
+Počet misí: *23* bez dějových scén                                              *
+            ****                                                                *
+*********************************************************************************
+                                                                                *
+Postavy za které hrajete:                                                       *
+                                                                                *
+Vojína, Jeremyho Seamana.                                                       *
+Člena speciálních jednotek, majora Terryho Cauldwella.                          *
+*********************************************************************************
+                                                                                *
+Známe chyby a nedostatky:                                                       *
+                                                                                *
+V obraných misích musí být zastřelen každý nepřítel (tudíž někdy musíte hledat  *
+posledního přeživšího Rusa) - pracuje se na speciálním skriptu (popř. spínači)  *
+který tuto chybu odstraní.                                                      *
+                                                                                *
+Nedodělaná kamera, už se na tom pracuje                                         *
+                                                                                *
+!Žádné další nedostatky nebyly zatím zjištěny! Pokud nějaký najdete, dejte mi   *
+prosím vědět na níže uvedený email, děkuji.                                     *
+*********************************************************************************
+                                                                                *
+Tvůrce příběhu a misí vůbec: Jakub Kovář (email: splhos@seznam.cz)              *
+                                                                                *
+Poděkování: Autorům původního Flashpointu                                       *
+            Vám, že jste si tuto kampaň stáhli/půjčili/dostali/(vymyslete si    *
+            způsob získání) a možná zahráli.                                    *
+*********************************************************************************
+                                                                                *
+Všechny dotazy, připomínky, nápady posílejte na email: splhos@seznam.cz         *
+                                                                                *
+Příjemnou zábavu při hraní této kampaně (ale samozřejmě i jiných), přejí všichni*
+kdo spolupracovali na této kampani.                                             *
+*********************************************************************************
+                                                                                *
+Autor NENÍ zodpovědný za případné škody ve Vašem systému, použití na VLASTNÍ    *
+nebezpečí.                                                                      *
+*********************************************************************************
+                                                                                *
+Lidi prosím vás, dobrých kampaní není nikdy dost! Udělejte někdo nějakou        *
+(misi/kampaň to je jedno) ať si taky už můžu zahrát. Díky za ČSLA2.             *
+*********************************************************************************
+                                                                                *
+Instalace: Nakopírujte addony do adresáře Addons a Válka o Everon.pbo           *
+nakopírujte do složky campaigns. Mohou se vyskytnout problémy, pokud máte ve    *
+Flashpoint Resistance ve složce AddOns neoficiální addony. Hra si pak myslí,    *
+že je nemáte.                                                                   *
+*********************************************************************************
+                                                                                *
+Opravené chyby: Všechny mise zbaveny několika neduhů, které se nelíbily.        *
+*********************************************************************************

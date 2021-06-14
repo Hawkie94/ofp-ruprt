@@ -1,0 +1,14 @@
+Legends of OFP
+********************************************************************************
+Autor: Bobor SK
+Podakovanie: Gaia  - priebezne betatesty a rady
+	     Spawn - betatest
+Typ: Video
+Potrebne addony:
+bsk_lofp.pbo - pribaleny
+********************************************************************************
+Potrebna verzia OFP:
+Video by malo ist aj na verzii 1.75, ale kedze som to vytvaral na verzii 1.96
+a AI sa mohlo do tejto verzie zmenit, doporucujem spustit si to na 1.96tke.
+********************************************************************************
+Prajem príjemnu zabavu!

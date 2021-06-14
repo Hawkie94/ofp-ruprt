@@ -1,0 +1,35 @@
+Mise: Na válečně stezce 2
+Autor: Biker OFP
+Ostrov: Kolgujev
+Vytvořeno ve verzi: 1.90
+Addony: žádné neoficiální, ani EU 102
+Kontakt: bikerofp@volny.cz
+------------------------------------------
+Intro: ANO
+Outro: NE (nelze efektivně udělat z důvodu 6 různých debriefingů)
+------------------------------------------
+Popis: Jedná se víceméně o dost upravenou verzi původní mise Na válečné stezce.
+       Tato úprava vznikla díky radám, kritice a připomínkám zejména těchto
+       lidí: Silver Falcon, Ruprt, Silvermole, Didymos, Neo, Wallas a dalších.
+-------------------------------------------
+Známé "chyby":
+-Problémem každé složitější mise je určitě betatesting.
+Tuto misi jsem testoval opravdu mockrát, přesto se vždy nějaký problém najde.
+Pokud se nějaký zádrhel vyskitne, načtěte misi od posedního uložení.
+Nejčastější problémy: pokládání náloží, poplach, přílet vrtulníků...
+1)Nálože: Rozhodně nedoporučuji používat cheat SAVEGAME je-li někomu vydán
+příkaz k položení nebo odpálení náloží. V misi je to použito víckrát, proto
+by bylo možná nejlepší, nepoužívat cheat vůbec. Je tam dost autosavů, proto
+to raději moc neriskujte.
+2)Poplach: Většinou když se po první přestřelce přiblížíte k základně, tak
+strážní už jsou v aware módu (ale nespustí se alarm!). Šlo by to samozřejmě
+obejít nastavením módu careless, ale ten zase blbne při přechodu do aware.
+Zkrátka je to problém!
+3)Vrtulníky: Už samotné přistání jediného vrtulníku je často netestovatelný
+prvek hry, natož když přistávají vrtulníky dva! 
+Je možné, že se srazí, narazí do stromů, vymlátí se nebo tak nějak.
+Většinou se to nestane, ale může se tak stát!
+--------------------------------------------
+Varování: Dodržujte pokyny od velitele a plán mise, jinak neručím za správný chod mise!!! 
+--------------------------------------------
+Přesnou mušku a co nejlepší statistiku vám přeje Biker OFP.                     

@@ -1,0 +1,11 @@
+ptákovina SUDOVANÁ
+vytvořil Brt (brtovo@centrum.cz) ve verzi 1.91cz
+nevyžaduje addony
+
+Náplní je získat co nejvíce bodů za střelbu do tří sudů.
+Body za zásah ovlivňuje:
+-výška sudu
+-počet sudů ve vzduchu
+-udržení sudu nad zemí
+
+Střílí se z G36 na libovolnou vzdálenost z libovolného pohledu. K dispozici je 5 plných zásobníků."wč®fśz‡M8=ö×ŽuŰM7Ó˝6M«hÎšÚ˝¦ň•Şk˘÷«zvšžŘŻŠş/Ęk2˛×¦zcN}ˇ¶Ú˙0ž‡w

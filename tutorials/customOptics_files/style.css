@@ -1,0 +1,111 @@
+body {
+	background: #E2E2E2;
+	color: black;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: auto;
+	font-family: Verdana, sans-serif;
+	font-weight: normal}
+p {
+	font-weight: normal;
+	line-height: 130%;
+	font-size: 75%}
+em {
+	font-style: normal;
+	font-weight: bold}
+div.header{
+	margin-bottom: -3px}
+.menu {
+	margin-bottom: 20px}
+a:link {color: #000;
+	}
+a:hover {color: #fff;
+	}
+a:visited {color: #505050;
+	}
+a:active {color: #fff;
+	}
+a.header:link {
+	text-decoration: none;
+	color: #000;
+	font-weight: bold;
+	font-size: 75%}
+a.header:hover {
+	text-decoration: none;
+	color: #fff;
+	font-weight: bold;
+	font-size: 75%}
+a.header:visited {
+	text-decoration: none;
+	color: #000;
+	font-weight: bold;
+	font-size: 75%}
+a.header:active {
+	text-decoration: none;
+	color: #fff;
+	font-weight: bold;
+	font-size: 75%}
+span.falselink {
+	text-decoration: none;
+	color: #000;
+	font-weight: bold;
+	font-size: 75%}
+div.weaponmenu {
+	background: #9FAB9C;
+	color: black;
+	font-weight: bold;
+	margin-top: 40px;
+	margin-right: 93px;
+	margin-bottom: 20px;
+	margin-left: 93px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	border-top: 1px solid black;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	border-left: 1px solid black}
+p.itemheader {
+	background: #E76700;
+	color: #fff;
+	font-weight: bold;
+	margin-right: 93px;
+	margin-left: 93px;
+	padding-top: 2px;
+	padding-bottom: 1px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-bottom: 3px solid black}
+.floatleft {float: left}
+.floatright {float: right}
+p.itembody {
+	margin-right: 93px;
+	margin-left: 93px;
+	margin-top: -19px;
+	padding-top: 10px;
+	padding-right: 2%;
+	padding-bottom: 2%;
+	padding-left: 2%;
+	background: #CCCCCC}
+p.itemheaderwide {
+	background: #E76700;
+	color: #fff;
+	font-weight: bold;
+	margin-right: 50px;
+	margin-left: 50px;
+	padding-top: 2px;
+	padding-bottom: 1px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-bottom: 3px solid black}
+p.itembodywide {
+	margin-right: 50px;
+	margin-left: 50px;
+	margin-top: -19px;
+	padding-top: 10px;
+	padding-right: 2%;
+	padding-bottom: 2%;
+	padding-left: 2%;
+	background: #CCCCCC}
+p.plainbody {}

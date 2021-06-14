@@ -1,0 +1,41 @@
+Pokúsil som sa exportovať jednu misiu z CWC do ArmA. Konkrétne sa jedná o misiu kde
+máte za úlohu dobiť dedinu Morton.
+-------------------------------------------------------------------------------------
+
+Autor: Tomo studios
+--------------------
+
+Verzia: 1.0
+-------------
+
+Dabing: Český
+--------------
+
+Titulky: English
+-----------------
+
+Potrebné addony:
+
+Sgt. Ace Everon: http://www.armaholic.com/page.php?id=1360; http://files-upload.com/245808/ace_everon.rar.html
+
+Editorupdate 102 (pre ArmA): ftp://www.armedassault.info/armad/addons/EditorUpdate_v102.rar
+-------------------------------------------------------------------------------------------------------------------------
+
+Náš web: http://www.flashpointprojects.estranky.cz/
+---------------------------------------------------------
+
+e-mail: sandcobra@azet.sk
+--------------------------------
+
+Bugy: Občas sa stane že helikoptéra v ktorej sedíte chce pristáť na tom istom mieste ako
+helikoptéra druhého týmu a niekedy sa stane že sa zrazia. Tento problém sa mi nepodarlio
+odstrániť.
+-----------------------------------------------------------------------------------------
+
+Poznámka: Vzhľadom na to že nepoznám nikoho komu by ArmA išiel by som vás hráčov chcel
+poprosiť o láskavosť. Stáva sa mi že keď ma v tejto misií zabijú a načítam znova hru
+tak sa ostrov akosi vymaže. Chcel by som vedieť či vám to tiež robí alebo je to chyba
+len u mňa, pretože podľa toho sa zariadim pri vytváraní ostatných misií.
+
+Dik za pomoc.
+Tomo

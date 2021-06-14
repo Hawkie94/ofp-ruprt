@@ -1,0 +1,41 @@
+
+Vylodìní
+
+Pøedem se omlouvám za velice pozdní vydání od slíbeného data. Jsou za to zodpovìdné hlavnì 
+problémy s HW a èastokrát velice problematickı engine hry. Doufám, e mì za to nezavrhnete a 
+budete se u mise øádnì bavit ;) .
+
+Potøebné Addony/Link:
+OFP Rasistance spatchem 1.96
+EditorUpdate102 / ftp://www.gamezone.cz:8021/ofpd/unofaddons/KegetysEditorAddon111.zip
+Vit/DKMmod APC pack / ftp://www.gamezone.cz:8021/ofpd/unofaddons2/VITAPC_PACK_1_3.rar
+Jam3 / ftp://www.gamezone.cz:8021/ofpd/unofaddons2/JAM3.rar
+__________________________________________________________________________________________________
+
+Popis mise v kostce:
+
+Ostrov: Nogova
+Èas: Ráno 6:15
+Strana: Vıchod
+Typ mise: Pìchotní
+Popis:
+
+Coby sovìtskı voják jedete v první invazní vlnì na Nogovu. Vylodíte se na plái u Vidlákova, 
+po masakru na ní pokraèujete k mìstu, které máte dobıt. (Mise je obyè "Flashpoitovka", take 
+neèekejte nic oslnivého.)
+__________________________________________________________________________________________________
+
+Známé chyby:
+
+- V intru vojáci podivnì salutují
+- vrtulník, kterı má vysadit vojáky nad Vidlakovem si obèas mìstro jaksi obletí
+- sniper v bunkru ve mìstì sem tam (málokdy) propadne pod bunkr
+__________________________________________________________________________________________________
+
+Zvláštní podìkování patøí Ransomovi, tvùrcùm OFPEH a všem co mi pomohli na fóru.
+__________________________________________________________________________________________________
+
+!!!UPOZORNÌNÍ!!!
+AUTOR (JAROMÍR VICHER) NENESE V ÁDNÉM PØÍPADÌ ODPOVÌDNOST ZA NÁSLEDNÉ ŠKODY,
+A U JSOU JAÉKOLIV, I KDY ŠKODY VZNIKLY NA ZÁKLADÌ POUITÍ NEBO NEMONOSTI POUITÍ PRODUKTU
+A TO I V PØÍPADÌ, E AUTOR BYL OZNAÈEN JAKO MONİ PÙVODCE TÌCHTO ŠKOD.

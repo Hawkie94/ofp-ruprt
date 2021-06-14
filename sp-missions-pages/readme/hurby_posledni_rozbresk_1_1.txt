@@ -1,0 +1,43 @@
+Název mise    : Poslední rozbřesk
+-------------------------------------------------------------------------------------
+Typ mise      : útok na kopec
+-------------------------------------------------------------------------------------
+Autor         : Hurby
+-------------------------------------------------------------------------------------
+Ostrov        : Nogova
+-------------------------------------------------------------------------------------
+Dabing        : Ne
+Intro         : Ne
+Outro         : Ne
+Adony         : EditorUpdate102 (přibaleno)
+-------------------------------------------------------------------------------------
+Počet scriptů : 33 (některé jsou jenom rádiové hlášky atp.)
+-------------------------------------------------------------------------------------
+Testováno na sestavě AMD Athlon 1600+, 512MB RAM, ATI Radeon 9600 a jelo to naprosto
+ plynule
+-------------------------------------------------------------------------------------
+Počet         : okolo 40 (proto snížená viditelnost), ale není jisté že tam budou
+jednotek        všechny a najednou jich nebude víc než 20-25
+-------------------------------------------------------------------------------------
+Opraveno ve verzi 1.1 :
+-vrtulníkový bug opraven
+-více efektů přidáno
+-vojáci zalehnou při bombardování ale jen pokud už dosáhli úpatí kopce
+-zdvojnásoben počet nepřátelských posil
+-přidáno pár vojáků na kopec s 50% pravděpodobností výskytu
+-pár dalších menších oprav a doplňků
+-------------------------------------------------------------------------------------
+--------------------Testing----------------------------------------------------------
+-------------------------------------------------------------------------------------
+Kuba, LuckyM, Darkman a Sarge
+Tímto jim děkuji
+-------------------------------------------------------------------------------------
+-------------------Poděkování--------------------------------------------------------
+-------------------------------------------------------------------------------------
+Spawn (za script "SayAuu.sqs" a velkou pomoc se scriptem (vlastně úplné překopání :) "Medik.sqs") a Ali (za script "krabice.sqs")
+Všem z Ruprtovy poradny (ofp.ruprt.cz), především všem co se podíleli na Editor helpu
+-------------------------------------------------------------------------------------
+-------------------Dodatek-----------------------------------------------------------
+-------------------------------------------------------------------------------------
+Omlouvám se ubohým testerům za to, co museli vytrpět, a jestli vám v misi něco chybí,
+věřte, že je to mou leností ;)

@@ -1,0 +1,13 @@
+Název mise: Operace návrat
+Potřebná verze ofp: Tvořeno pod verzí 1.96, ale možná je potřebná verze pouze 1.00
+Potřebné addony: žádné
+Typ mise: pěchotní
+Obtížnost: Jak pro koho ;-)
+Náročnost: Hodně vysoká (Na mojí mašině se neseká, ale na slabších PC bych to nezkoušel)
+Intro: ano
+Outro: Ano
+V misi se zúčastníte vylodění sovětských vojsk na Nogově. Ale američané vám připraví past... 
+Misi vytvořil pařan
+V misi jsou použity dva songy, od Sabatonu a od McCrearyho
+
+paran-modelar.blog.cz

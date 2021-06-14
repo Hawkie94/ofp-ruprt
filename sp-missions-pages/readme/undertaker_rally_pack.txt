@@ -1,0 +1,157 @@
+UNDERTAKER RALLY
+
+
+
+Data o misi
+
+Autor: UNDERTAKER
+
+E-mail: Undertaker.flash@centrum.cz
+
+Ostrov: Rally Island
+
+Verze hry: 1.75
+
+Addony: rally_island.pbo a un_rally_pack.pbo
+
+
+
+Instalace
+
+Adresář s animací (RallyAnim) nakopírujte do adresáře Res\Addons
+(C:\Program Files\Codemasters\OperationFlashpoint\Res\Addons)
+
+Misi nakopírujte do adresáře Missions 
+(C:\Program Files\Codemasters\OperationFlashpoint\Missions)
+
+Addony nakopírujte do adresáře Res\Addons 
+(C:\Program Files\Codemasters\OperationFlashpoint\Res\Addons)
+
+
+
+Hardware
+Mise byla vyvíjena na sestavě:
+
+AMD Duron 850 MHz
+GeForce 4 MX 440 64 Mb DDR
+512 Mb SDRAM
+
+Testována byla i na sestavě:
+
+Pentium III 733 MHz
+TNT 2 32 Mb
+320 Mb SDRAM
+
+V obou případech mise běžela hladce, jen na pentiu se občas něco "kouslo"
+
+Pro hladký chod mise doporučuju cokoliv rychlejšího.
+
+
+Ovládání
+V menu se vracíte do předchozí obrazovky pomocí tlačítek "Storno", "Zpět do menu" atd.
+Tam kde takové tlačítko není se vracíte pomocí klávesy "Esc"
+
+Pokud se vám podaří vykliknout se až ven z hlavního menu je nutné misi restartovat
+nebo se vrátit do menu pomocí kombinace 0-0-1.
+
+Toto řešení je však jen pomocné a ne vždy funkční a proto ho používejte jen když je to opravdu nutné! Použití této kombinace může mít nepředvídatelné následky!!! 
+
+Pokud se vám podaří poničit auto, vrátí vás skript do hlavního menu.
+Pokud jedete licenci zobrazí se dialog s nabídkou restartu licence.
+V karieře se ukončí momentálně rozjetá rally a přeskočí se na další rally. 
+Bohužel tahle funkce nefunguje nijak valně, protože je třeba ukončit několik skriptů a spoustu podmínek, takže to občas provede neočekávané věci. Hlavně v režimu kariery.
+
+Stejná věc se stane pokud si budete krátit trať.
+
+
+
+Nastavení
+V tomto menu můžete nastavit většinu důležitých věcí.
+Počasí, čas, vaše jméno, hlasitost hudby, nebo i to jestli se vám budou na rachlostních zkouškách
+zobrazovat šipky ukazující směr.
+
+Z tohoto menu můžete nastavit vlastnosti vlastní hudby a podívat se do garáže.
+V menu "Garáž" si můžete prohlédnout všechny vozidla z mise a zkontrolovat, které už máte "odemčeno" a taky zjistit stav vašich zkušenostních bodů.
+
+
+
+Nahrání uložené hry
+Tohle je docela problém ale je možnost jak si obnovit pozici a zachovat tak vaše časy atd.
+
+Misi si můžete uložit pomocí tlačítka v hlavním menu. Pro ukončení mise pak použijte klávesu "Esc"
+pro zavření hlavního menu a pomocného pozadí a misi normálně ukončete.
+
+Pro obnovení vaší pozice stiskněte tlačítko "Pokračovat" v obrazovce pro volbu jednotlivých misí.
+Hra by se měla nahrát a vy se objevíte "někde" Stiskem klávesy "Esc" a volbou "Znovu" 
+by jste se měli dostat do menu. Můžete použít i kombinaci 0-0-1 ale nedoporučuji to.
+
+
+
+Fabia WRC
+Tak tohle je potřeba objasnit....
+
+Prosím nekamenujte mě za ni!!! Je sice škaredá jako samo peklo a chybí interier a pohled řidiče je hnusnej a odbytej a .....
+Já na to zatím nemám... Abych byl schopnej auto dokončit se budu muset ještě hodně učit a snad to půjde časem jako patch ale momentálně to prostě nejde.
+Naprosto někde jinde jsou ale jízdní vlastnosti auta... To je taky jedinej důvod proč ho zveřejňuju...
+S touhle károu se mi daří zajet na každé RZ časy o několik vteřin rychleji než s Rapidem a podobnými auty. S tímhle autem je fakt dobrý pojěždění a když si zvyknete že nevypadá úplně dokonale, tak se i pobavíte...
+
+Kariera
+Pokud chcete karieru hrát musíte vlastnit licenci.
+Po jejím spnění dostanete nabídku od prvních týmů.
+
+!!!Pokud tuto nabídku nepříjmete už nebudete moci karieru spustit!!!
+
+Tyto týmy nedisponují nijak rychlými auty, ale nějak se začít musí...
+Po dosažení určitého počtu zkušenostních bodů, které získáváte za každou odjetou rychlostní
+zkoušku, dostanete nabídku od lepších týmů s rychlejšímy vozy. Nakonec se vám třeba poštěstí dostat se do továrního týmu... 
+Vlastní hudba
+Pokud chcete v misi poslouchat vlastní hudbu. Tak do adresáře "Music" v adresáři mise vložte vaše hudební stopy.
+
+!!!Musí být pojmenovány stejně jako zástupci kteří ve složce už jsou!!!
+
+V menu hry pak zvolte Nastavení > Vlastní hudba
+V tomto menu vyberte jestli chcete použít svoji hudbu (Listbox Ano / Ne)
+a zadejte její délku ve formátu minuty:sekundy (zadáváte kliknutím na číslo)
+
+!!!Zadávejte hudbu postupně!!!
+
+Pokud chcete použít např. dvě vaše skladby zadejte je do prvních dvou řádků atd.
+
+Po startu některé ze zkoušek se pak hudba náhodně vylosuje.
+
+
+
+Poděkování a omluvy
+Poděkování patří všem těm co jsou uvedeni v misi.
+Můžete se na to mrknout z hlavního menu - položka "Poděkování"
+Poděkovat bych chtěl i GAJA Studios za návrh tunelu, který se sice ve finální verzi neobjevil, každopádně patří Gajovi dík za ochotu.
+
+Omluvy patří za některé nejasnosti a nepřehlednosti v misi (např. Nahrávání mise, menu které hráč může zavřít) které jsou většinou způsobeny tím, že jinak to prostě udělat nejde.
+
+Jěště chci upozornit na jeden bug zjištěný při testování.
+Pokud jedete karieru a po dojeté zkoušce se vám zobrazí hlavní menu tak ho zavřete (2×Esc) a normálně pokračujte. Nevím proč to dělá, ale jednou se mi to stalo.
+
+Mise je testována ve verzi 1.75 a funkčnost ve vyšších verzích není zaručena
+Omlouvám se předem za to že se občas něco zvrtne nebo nefunguje,ale ten kdo se podíval na obsah skriptů, zjistil obrovské množství podmínek které v misi pracují a občas některá nesepne nebo neprovede co má. Je to prostě hodně složitá mise.
+
+Další důležitá připomínka!!!
+Nesnažte se vystupovat z auta!!! Tohle se mi prostě nepodařilo ošetřit a je možné vystoupit. Potom ovšem můžou nastat v misi chyby!!!
+
+Celkově ale mise funguje maximálně dobře. Při testech padlo asi 20 hodin čistého času bez větších komplikací.Pokud hold budete jezdit jak máte nebudete mít při hrání žádné problémy (teda doufám - OFP je, jak všichni určitě víte, nevyzpytatelné)
+
+Omluva patří i těm kdo si přáli kompletmí ostrov (hlavně Silvermole)
+Je to práce na další měsíce a narostla by tím i velikost.
+
+Autorská práva
+Samozřejmě patří mě :-) 
+A kdo by chtěl použít ostrov nebo fabii a další upravená auta ať si na mě vzpomene.
+Pouze upravený rapid není můj, ale neznám autora tak nemůžu poděkovat... Můj je jen Config.cpp.
+
+
+
+!!!Důležité upozornění!!!
+Všechny použité jména, znaky, názvy týmů a automobilů jsou použity bez svolení jejich vlastníků. Tato mise tak nemá v uvedených případech vypořádána autorská, majetková, osobnostní, licenční a další práva s jejich vlastníky.
+
+Pokud by tato mise plně respektovala uvedená práva, nemohla by být šířena za žádných okolností zdarma.
+
+!!!Ze šíření této mise pro autora neplynou žádné příjmy!!!  

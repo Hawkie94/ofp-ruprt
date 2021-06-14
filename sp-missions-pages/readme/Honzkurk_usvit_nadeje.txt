@@ -1,0 +1,11 @@
+--- ÚSVIT NADĚJE ---
+
+Autor: Trane
+Strana: Partyzáni
+Typ mise: Pěchotní
+Verze hry: Děláno ve verzi 1.96
+Addony: žádné
+Kontakt: jankurka@gmail.com
+         www.svether.eu
+
+Instalace: Soubor Úsvit naděje.Noe.pbo zkopírujte do C:/.../Operace Flashpoint/mission

@@ -1,0 +1,88 @@
+                ************************************
+		*************** MISE  **************
+                ************ Muchomůrky ************
+		************ Toadstools ************
+                ************************************
+
+		        Vyrobil Celoush 2003
+
+		--------------- Hrají --------------
+		William S. Cope              Celoush
+		Richard S. Ewell              Kachel
+		Jacob F. Kenta                 Sarge
+		Little Eagle                     Brt
+		Hawk                          Davson
+		Peter Urban                     GAJA
+		Steve Martin              Night-hawk
+                ------------------------------------
+
+        Všechny tyto lidi můžete potkat na Ruprtově stránce
+  	        http://www.koflex.cz/forum/index.php
+
+---------------------------------------------------------------------------------------------------------------
+------------------------------------- NEOFICIÁLNÍ ADDONY ------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------
+DoWNLOAD:
+
+OSTROV TRINITY:
+
+TRINITY (normal) [1.40 MB] - ftp://www.gamezone.cz/ofpd/islands2/Trinity_1.2_normal.zip
+Agent_Smith Industrial Pack v.2.0 [2.54 MB] - ftp://www.gamezone.cz/ofpd/unofaddons2/ags_inds_2_0.zip
+Agent_Smith Harbour Kit v.1.3 [1.95 MB] - ftp://www.gamezone.cz/ofpd/unofaddons2/ags_hckit1.3.zip
+
+!!!!! VAROVÁNÍ !!!!! - Nepoužívejte jinou verzi ostrova (Může chybět ostrov Timberland, či přebývat další ostrovy)
+
+
+BAS:
+
+US Army SPEC OPS (Delta/Ranger) [16.5 MB]- http://www.ballistic-studios.com/downloads/BAS_Deltarangers_v1_001.zip
+MH-6 Littlebird vs 1.1 [6 MB] - http://www.ballistic-studios.com/downloads/BAS_Littlebirds1_1for185.zip
+MH-60L BlackHawk 160TH-SQAR [22 MB]- http://www.ballistic-studios.com/downloads/BAS_Blackhawks1_SOAR2_JAM1.zip
+
+Všechny PBO soubory nakopírujte do vašeho podadresáře addons v adresáři, kde je Operation Flashpoint nainstalovaný.
+Prosím, nejdříve nainstalujte Littlebird vs 1.1 a poté několik souborů přepište SOAR soubory z BlackHawk addonu.
+Jestliže nemáte BAS_Blackhawks1_SOAR2_JAM1 addon a nechcete si ho stahovat pak:
+Rozbalte soubor s misí a přejmenujte "mission_no_uh60l.sqm" na "mission.sqm" (bude využit originální UH60 ze hry).
+
+S MISÍ:
+EditorUpdate 1.02
+
+---------------------------------------------------------------------------------------------------------------
+--------------------------------------- OFICIALNÍ ADDONY ------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------
+
+Kolo
+Trabant
+BIS_resistance
+
+---------------------------------------------------------------------------------------------------------------
+------------------------------------------- O MISI ------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------
+
+
+Tato mise vyžaduje Operaci Flashpoint: Resistance verzi 1.91
+
+	**************************
+	* MUSÍTE MÍT VERZI 1.91! *
+	**************************
+
+Mise užívá příkaz <typeof>, který přišel právě s touto misí.
+
+
+ PODĚKOVÁNÍ:
+- Všem lidem na Ruprtově fóru o editaci.
+- Vektorbosonovi za jeho heli_dust script.
+- Ruprtovi za OFP Editor Help CZ
+- Daniel Landa (písně: Andělé, Jméno ve skále)
+- Škwor (písně: My slzy neuvidíš)
+- Baldurs Gate (písně: Kostel, Pevnost)
+- MOHAA (píseň: Tiger)
+- BikerOFP a GAJA za beta-testování
+ A
+- Mejla Hlavsa (píseň Muchomůrky)
+
+SPECIÁLNÍ PODĚKOVÁNÍ PATŘÍ: 
+- Kachel, Sarge, Brt, Davson, GAJA a Night-hawk ze jejich pomoc s nadabováním mise.
+
+Vyrobeno a testováno na stroji
+Athlon 1200, ATI Radeon 7200 64 MB, 512 MB RAM, WINDOWS XP.

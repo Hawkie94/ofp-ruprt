@@ -1,0 +1,22 @@
+TONYHAWK EDITING PACK v. 1.1
+
+Vytvoril:		TonyHawk (+ Hammer, Wulfgar, Snowojta - editor-extras)
+Potrebné addony:	priložené
+Ostrov:			Nogova, Malden, Kolgujev
+Potrebná verzia hry:	1.96
+Tvorené na verzii hry:	1.96
+Kontakt na autora:	email - 1994tonyhawk1994@gmail.com
+			web - tonyhawkblog.estranky.cz
+
+Obsah packu:		MISIE
+				Ninja 1.4
+				One shot, one kill 1.2
+				Secret agent DEMO
+			VIDEO
+				What are you doing?
+			EDITOR-EXTRAS
+				Scud-base
+				HQ
+				Comm center
+
+Zopár slov: Tento pack je vlastne sumár všetkého, čo som kedy vytvoril v najnovšej verzii. Viacej komentárov k tomu asi nemám čo dodať, proste si to vyskúšajte :). (ak máte nejaké otázky, určite neváhajte, a napíšte mi ;o), rád odpoviem :o))

@@ -1,0 +1,24 @@
+--------------------------------------------------------------------------------------------------------------------- STŘELNICE ------------------------------------
+-------------------------------------- v1.0 --------------------------------------
+----------------------------------------------------------------------------------
+
+Autor mise : F.D.O.F.
+Typ mise   : ptákovina
+Ostrov     : Desert island
+Strana     : Západ
+Verze      : 1.94 Resistance CZ
+Addony     : Editorupdate102 (přibaleno)
+Velikost   : 108 kB
+
+Briefing   : ano
+Dabing     : ano
+Intro      : ano (v misi)
+Outro      : ne
+Délka mise : ?
+
+Tohle je moje první uveřejněná ptákovina.Je zde také zahrnut i můj první vlastní
+script, který vypadá jako script.Má však hodně nedostatků.V této ptákovině je úkolem cca ze 60 metrů trefit pohybující se terč.Je zde 10 levelů a při každém
+se rychlost terče zvyšuje.Terč je trefen, když se z něj zakouří.
+
+
+e-mail : F.D.O.F.@seznam.cz

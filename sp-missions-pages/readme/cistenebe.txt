@@ -1,0 +1,9 @@
+NÁZEV MISE   :      Čisté nebe
+TYP MISE     :      Pěchotní (SpecOps)
+PRO VERZI    :      1.46 (zkoušel jsem ji i pod v. 1.06 a fungovala, 
+		    ale je to bez záruky) 
+OSTROV       :      Everon
+ADDONY	     :      žádné
+AUTOR	     :      Pavouk
+KONTAKT      :      redberets.pavouk@centrum.cz
+

@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=windows-1250">
+		<title>Detail scriptu</title>
+		<meta name="GENERATOR" content="Microsoft Visual Studio .NET 7.1">
+		<meta name="CODE_LANGUAGE" content="Visual Basic .NET 7.1">
+		<meta name="vs_defaultClientScript" content="JavaScript">
+		<meta name="vs_targetSchema" content="http://schemas.microsoft.com/intellisense/ie5">
+		<link href="./../Styles.css" type="text/css" rel="stylesheet">
+	</head>
+	<body ms_positioning="GridLayout"><center>
+			<div class="TIP_BCKG_AREA" align="center">
+				<div class="TIP_CONTENT_AREA" id="TipContentArea">
+					<table id="tblContent" class="MD_TABLE_INFO" width="448px" cellspacing="0" cellpadding="3" align="left">
+	<tbody><tr>
+		<td style="color:#FFFFFF;font-weight:bold;" width="50%">Autor : Bobor SK, Pavka</td>
+		<td style="color:#FFFFFF;font-weight:bold;" width="50%" align="right">
+			<a href="files/pavka_bomb.zip" target="_blank">Stáhnout script</a><br>
+			<a href="./../scripts.html">Zpět na scripty</a>
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2" height="9px" bgcolor="#9FA5C5"></td>
+	</tr>
+	<tr>
+		<td colspan="2" style="font-size:1.0em;font-weight:bold;color:#FF6600;" align="center">'Reálnější' letecké bombardování</td>
+	</tr>
+	<tr>
+		<td colspan="2" height="9px" bgcolor="#9FA5C5"></td>
+	</tr>
+	<tr>
+		<td colspan="2" style="font-size:1.05em;font-weight:normal;text-align:justify;color:#EBE7D8;">; script na 'reálnější' letecké bombardování<br>; základ scriptu vytvořil Bobor Sk, původní script upravil Pavka<br>; podívejte se na naše stránky: http://flashpoitmso.wz.cz<br><br>; script můžete volně šířit, ale jako autory musíte uvést mě čili Pavku a Bobora SK<br>; pokud ho chcete použít do své mise musíte na konec mise uvést jako autory mě a Bobora SK<br><br>;
+ script se spouští: [počet bomb,bombarder,maximální časová 
+prodleva,minimální časová prodleva, o kolik se čas zvětší je li čas 
+menší než min. čas. prodleva]<br>; příklad spuštění: [10,a10,1,0.5,0.5] exec 'bombardovani.sqs'<br>; typ munice můžete změnit dosazením do proměné _munice do uvozovek ShellXX HeatXX a místo XX můžete dosadit 73,105,120,125<br><br>_pocet_bomb = _this Select 0<br>_bombarder = _this Select 1<br>_maxtime = _this Select 2<br>_mintime = _this Select 3<br>_mintime2 = _this Select 4<br>_munice = 'Laserguidedbomb'<br>_i = 0<br><br>#random<br>_randomx = (Random 20) - 10<br>_randomy = Random 10<br>? _randomy &gt; 1: _randomy + 2<br><br>#bomba<br>_x = (GetPos _bombarder Select 0)<br>_y = (GetPos _bombarder Select 1)<br>_z = (GetPos _bombarder Select 2) - 2<br>bomba = _munice CreateVehicle [_x,_y,_z]<br>bomba SetVelocity [_randomx, _randomy, -10]<br><br>#prodleva<br>_randomtime = Random _maxtime<br>? _randomtime &lt; _mintime: _randomtime + _mintime2<br>~_randomtime<br>_i = _i + 1<br>?(_i &lt; _pocet_bomb):Goto 'Random'<br><br>Exit</td>
+	</tr>
+	<tr>
+		<td colspan="2" height="9px" bgcolor="#9FA5C5"></td>
+	</tr>
+	<tr>
+		<td colspan="2" align="center"><a href="samples/pavka_bombardovani.Intro.zip" target="_blank">Stáhnout ukázkovou misi</a></td>
+	</tr>
+</tbody></table>
+
+				</div>
+			</div>
+		</form>
+	
+
+</center></body></html>

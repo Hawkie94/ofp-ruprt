@@ -1,0 +1,22 @@
+-----------------------------------------------------------------------------------------
+
+  J A K   N E B Ý T   V I D Ě T
+
+   > video mise pro hru Operace Flashpoint
+   > verze 1.00
+   > podporované jazyky: ENG, CZ
+
+-----------------------------------------------------------------------------------------
+
+  AUTOR
+		2DMM TEAM (Ježuro & Wallas | http://2dmm.wz.cz )
+  VERZE OFP
+		1.75
+  OSTROV
+		Everon
+  POPIS
+		Takžka tříminutový skeč "Jak nebýt vidět" od Monty Pythonova letajícího cirkusu převedený do OFP.
+  ADDONY
+		EditorUpdate102 od Kegetyse
+
+-----------------------------------------------------------------------------------------

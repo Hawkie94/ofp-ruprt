@@ -1,0 +1,22 @@
+Mission Name : Prowling Fox
+Ostrov: Kolgujev
+Autor: Munch Studios
+Použité AddOny: priložené (GAZIK, HindD, M16A1, AK101)
+Potrebná verzia OFP: 1.46, resp. 1.96 (viď. "dôležitá poznámka" hneď pod týmto...)
+
+Dôležitá poznámka:
+Balík obsahuje 2 verzie misie - pre OFP CWC a pre OFP Resistance. Rozdiel medzi nimi je najmä v použití potrebného addona:
+	- CWC (OFP 1.46) potrebuje EditorUpgrade102 od Gunslingera
+	- Resistance (OFP 1.96, resp. 1.99) potrebuje EditorUPDATE102 od Kegetysa (pre správny beh misie odporúčam odstrániť EUpgrade102)
+
+Možné BUGy:
+- na Resistance verzii misia obsahuje drobný bug - v "akčnom menu" sa nachádza akcia "jee", pri ktorej si hráč kľakne, ako keby chcel ukladať miny
+- napriek testovaniu a hľadaniu problémov sa mi pri konverzii nepodarilo prísť na to, čo tento bug spôsobuje (je možné, že to spôsobujú addony)
+- napriek tomuto bugu je misia plne hrateľná a bez problémov dohrateľná.
+
+***************************************************************************************************************************************
+Poznámky:
+- Toto readme vytvoril TonyHawk v roku 2021 (pri príležitosti 20. výročia OFP, obnovy Ruprtovej poradne k OFP, a jej aktualizovaniu mnohými misiami).
+- Misiu Prowling Fox vytvorilo Munch Studios v počiatkoch éry OFP (rok 2001) a na niekdajšej stránke ČSLA studia (Tiscali Games) dosiahla hodnotenie 9/10.
+- Misia je síce pomerne náročná, avšak je veľmi pekná a poskytuje viaceré možnosti a voľnosť v spôsobe jej prejdenia.
+- Pamätníci vedia, že Munch Studios následne vytvorilo mini-kampaň Hawk in Shadows (v roku 2002), a potom aj misiu Hawk in Nets (v roku 2003), ktorá v roku 2004 vyhrala súťaž Mission Editing Competition organizovanú Bohemia Interactive.

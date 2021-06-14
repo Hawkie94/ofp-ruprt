@@ -1,0 +1,30 @@
+ Misia : Sahara
+ Autor : Vojtoo
+ Ostrov: Malden
+ Mail  : Vojtoo@centrum.sk
+ Velkost: 41.3 kB
+ 
+ Táto misia potrebuje k spusteniu hru Operace Flashpoint vo verzii 1.46 + oficialny addonpack 3 a 
+ ÈSLA addon + jeho upgrade (myslim,ze to pojde aj bez upgradu,ale clovek nikdy nevie) ;-)
+ 
+ Intro : ano ( 3 minuty 56 sekund)
+ outro vitazstvo : ano ( 1 minutu 1 sekundu)
+ outro prehra : nie (nic ma nenapadlo)
+
+ Tato misia bola robena na tejto zostave : Athlon xp1700+ 1.47 GHz ; Geforce 4 MX 460 64 MB DDRAM ;
+ 256 MB SDRAM ; Windows XP Proffesional.
+
+ Misiu som zacal robit 14.7.2002 a dokoncil som ju 25.7.2002
+ Pracoval som na nej v priemere hodinu a pol denne.
+
+ Rady : Nestavajte svojich vojakov za pytle z piesku,lebo ked lezia nevidia nepriatela.
+        Pocas prvej vlny utoku nechajte Bvp prazdne a pouzite ho az potom.
+        Ak chcete mat studnu stale celu tak do nej nestrielajte ;-)
+ 
+ Dodatok: V baliku sa nachadza aj misia prerobena na CSLA 2 mod (k nej je potrebna verzia hry aspon 1.91, idealne 1.96)
+
+ To by bolo asi tak vsetko.
+
+ Prajem prijemnu zabavu pri hrani. 
+
+ Vojtoo

@@ -1,0 +1,14 @@
+Autor: Snowojta
+Velikost mise: 2,16 MB
+Ostrov: Everon
+Zvláštní poděkování:
+	Původní scripty G.Berger[TWK]
+	Skripty: TonyHawk a RoflCopter
+	Beta testing: TonyHawk, RoflCopter, Topal12
+Popis: Závod pro osm lidí (+ 3 spektátoři) plnej nástrah, překážek, vtipných efektů a delších nečakaných momentů.
+Poznámka: Na 3 místech se mění vozidlo (sportovní vůz za džíp, ten za motorku, a ta za partyzánský džíp)
+Použitá hudba: z Need for Speed Most Wanted (2005)
+Potřebné addony: editorupdate102
+Testováno na verzi: 1.96 a 1.99
+
+^^ GOOD LUCK & HAVE FUN ^^

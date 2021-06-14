@@ -1,0 +1,17 @@
+DEMO
+
+Ostrov: Everon
+Poèet misí: 5 + 2 cutscény
+Hrající postavy: Jason Twombly (Voják); Geroge Dyaconsen (Spec. jednotka)
+Hrající frakce: NATO
+
+Plná verze
+Ostrovy: Everon; Nogova
+Poèet misí: Pøes 30
+Hrající frakce: NATO; SSSR (1 mise); OSN; Partyzáni
+Hrající postavy: Jason Twombly (Voják); Geroge Dyaconsen (Spec. jednotka); Paul Hatton (Tankový velitel); Ed Wallsh (Pilot); Derek Stawford (Dùstojník OSN); Stanislav Bohulík (Partyzánský voják)
+
+Pøíbìh:
+Spojené státy americké stále drží pod kontrolou ostrovy Nogova a Everon, z Everonu si Americká armáda udìlala výcvikové støedisko. To se obyvatelùm ostrova pochopitelnì nelíbí a tak vypukne povstání. Jelikož se armáda NATO na Everonu skládá pøevážnì z nováèkù, budou v konfliktu Amerièané trpìt. Zrovna, když obì strany hodlají jednat o pøímìøí, vtrhnou na ostrov Rusové a válka nabere jiný smìr. Amerièané budou pøinuceni stáhnout svùj zbytek sil z Everonu na Nogovu, kam také pozdìji Sovìti zaútoèí a bude hrozit Tøetí svìtová válka, kterou by SSSR uvítalo. Situace na Nogovì bude tak napjatá, že se do války pøipletei OSN, aby zabránilo hrozící se svìtovému konfliktu. Poté, co Ruští bombardìøi podniknou nálet na San Francisco, rozhodnou se OSN pomoc Amerièanùm Rusy vyhnat a osvobodit od nich Everon a donutit je podepsat mír, aby se tak zabránilo hrozící se svìtové válce.
+
+Ze složky Addony všechny soubory pøendejte do složky se hrou s názvem Addons. Z kampanì soubor do složky Campaigns. Pøíjemnou zábavu pøeje Guntirson.

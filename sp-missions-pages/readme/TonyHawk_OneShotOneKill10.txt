@@ -1,0 +1,25 @@
+Autor: TonyHawk
+Názov misie: One shot, One kill
+Verzia misie: 1.0
+Typ misie: ostrelovaè-atentát-stealth
+Ve¾kos: 3,70 MB
+Potrebné addony: editorupdate102
+Tvorené na verzii OFP: 1.96
+Potrebná verzia k hraniu: 1.96
+
+Zopár slov: je to misia do súae misií organizovanej Lanom Gastovskim (v roku 2008), pri ktorej som sa nauèil zopár drobností (pri kadej jednej vytvorenej misii sa èlovek uèí). Misia ako taká je pomerne krátka a ve¾mi ve¾a vecí v nej by sa pri terajšom poh¾ade (rok 2021) dalo urobi lepšie, krajšie, realistickejšie... Ale tak to u bıva, keï vytvoríte raz misiu, nejdete ju celú od piky prerába :).
+
+Kontakt na autora:
+	Web-stránka - www.tonyhawkblog.estranky.cz
+	E-mail	    - TonyHawk94@azet.sk
+
+Poïakovanie: dabérom - Str (Gaia) a Paøan
+             Paøanovi za rozhovory na ICQ
+             Anurisovi za rôzne rady
+	     Ruprtovej poradne k OFP/ARMA
+             a Bohemia Interactive Studio za skvelú hru, ktorá ešte aj teraz ije
+
+(Ak som na niekoho zabudol, tak sa ospravedlòujem a dodatoène ïakujem :))
+
+Bugy a problémy: ak by sa nejaké vyskytli, neváhajte ma kontaktova. Misia bola ve¾akrát testovaná, ale vdy sa nieèo môe nájs...
+Uite si to!!!

@@ -1,0 +1,29 @@
+Název mise: Vasil
+Ostrov:	 Everon
+Vytvořil:	 Thrash (p.woko@seznam.cz)
+
+vytvořeno ve verzi 1.75 - resistance
+
+potřebné AddOny:
+	
+1) editorupgrade 102 - přibalen
+
+2) zbývající AddOny jsou součástí OF Resistance - tudíž je určitě máte: 
+		
+		BMP2, G36a, 6g30, oh58, Steyer, Bizon, MM1, Bradley M2A2, AH64
+
+intro: 	cca 1,5 min
+outro: 	NE
+
+Instalace :
+AddOnn zkopíruj do Addonů
+Dekomprimuj downloadovaný soubor Vasil.zip a zkopíruj soubor Vasil.pbo
+do adresáře (složky) " ..\OperationFlashpoint\missions\"a následně spusť z prostředí
+hry stejně jako jakoukoli jinou "Jednotlivou misi".
+
+Jedná o mou první misi, tudíž omluvte nedostatky.
+				Přeji vám příjemné hraní.
+
+------------------------------------------------------------------------------------------------------------
+POPIS MISE:
+Malá jednotka jménem "Vasil" uvázla na nepřátelském území. Musíš ji najít a dovézt jim zbraně.

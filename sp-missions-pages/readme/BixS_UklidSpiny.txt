@@ -1,0 +1,12 @@
+Misia  Ú K L I D   Š P Í N Y
+
+Autor: BixS
+Ostrov: Kolgujev
+Potrebná verzia OFP: asi 1.96
+Potrebné addony: priložené (PKMg, AshT55East, editorupdate102)
+Intro: áno
+Outro: nie
+Dabing: áno
+Typ misie: stealth, tichá akcia, atentát
+
+Readme vytvoril TonyHawk pri príležitosti umiestnenia misie na Ruprtovu poradňu k OFP.

@@ -1,0 +1,66 @@
+<HTML>
+<HEAD>
+<TITLE>Ukázka souboru Description.ext - tlaèítka (souèást Ježurova tutoriálu o dialozích)</TITLE>
+<LINK REL="Stylesheet" TYPE="text/css" HREF="default.css">
+</HEAD>
+
+<BODY BGCOLOR="RGB(186,195,174)">
+<PRE>
+// UKÁZKA ZDROJOVÉHO KÓDU V SOUBORU DESCRIPTION.EXT
+// TØI TLAÈÍTKA VEDLE SEBE
+
+#define CT_BUTTON		1
+
+#define ST_CENTER		2
+
+class RscButton
+{
+	type = CT_BUTTON
+	style = ST_CENTER
+	w = 0.100000;
+	h = 0.035000;
+	ColorText[] = {0.080000,0.080000,0.120000,1};
+	font = "tahomaB24";
+	SizeEx = 0.020000;
+	default = 0
+	SoundPush[] = {"ui\ui_ok",0.200000,1};
+	SoundClick[] = {"",0.200000,1};
+	SoundEscape[] = {"ui\ui_cc",0.200000,1};
+};
+
+class RscTlacitka
+{
+	IDD = 1000;
+	MovingEnable = 1;
+
+	class Controls
+	{
+		class Tlacitko_1 : RscButton
+		{
+			IDC = 1001;
+			x = 0.300000;
+			y = 0.482500;
+			text = "Tlaèítko 1";
+			action = "hint ""Zmáèknul jsi tlaèítko 1."""
+		};
+
+		class Tlacitko_2 : RscButton
+		{
+			IDC = 1002;
+			x = 0.450000;
+			y = 0.482500;
+			text = "Tlaèítko 2";
+			action = "hint ""Zmáèknul jsi tlaèítko 2."""
+		};
+
+		class Tlacitko_3 : RscButton
+		{
+			IDC = 1003;
+			x = 0.600000;
+			y = 0.482500;
+			text = "Tlaèítko 3";
+			action = "hint ""Zmáèknul jsi tlaèítko 3."""
+		};
+	};
+};
+

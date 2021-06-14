@@ -1,0 +1,312 @@
+<HTML>
+<HEAD>
+<TITLE>Ukázka souboru Description.ext (souèást Ježurova tutoriálu o dialozích)</TITLE>
+<LINK REL="Stylesheet" TYPE="text/css" HREF="default.css">
+</HEAD>
+
+<BODY BGCOLOR="RGB(186,195,174)">
+<PRE>
+// UKÁZKA ZDROJOVÉHO KÓDU V SOUBORU DESCRIPTION.EXT
+
+// TYPY OBJEKTÙ
+
+#define CT_STATIC 			0
+#define CT_BUTTON			1
+#define CT_EDIT			2
+#define CT_SLIDER			3
+#define CT_COMBO			4
+
+// STYLY OBJEKTÙ - ZAROVNÁNÍ
+
+#define ST_LEFT			0
+#define ST_RIGHT			1
+#define ST_CENTER			2
+#define ST_UP			3
+#define ST_DOWN 			4
+#define ST_VCENTER 		5
+
+// STYLY OBJEKTÙ - VZHLED
+
+#define ST_SINGLE			0
+#define ST_MULTI			16
+#define ST_TITLE			32
+#define ST_PICTURE		48
+#define ST_3D_BORDER		80
+#define ST_NO_BORDER		96
+#define ST_HUD_BACKGROUND	128
+#define ST_WITH_RECT		160
+#define ST_SHADOW		256
+#define ST_NO_RECT		512
+
+
+// PØEDDEFINOVANÉ ÈÁSTI DIALOGÙ
+
+// OTEXTUROVANÉ POZADÍ S MALÝM RÁMEÈKEM
+
+class RscBackground
+{
+	type = CT_STATIC
+	IDC = -1
+	style = ST_3D_BORDER
+	x=0.150000;
+	y=0.150000;
+	w=0.700000;
+	h=0.700000;
+	text="";
+	ColorBackground[]={1,1,1,1};
+	ColorText[]={0,0,0,0};
+	font="tahomaB24";
+	SizeEx = 0
+};
+
+// NADPIS OKNA DIALOGU
+
+class RscTitle
+{
+	type = CT_STATIC
+	IDC = -1
+	style = ST_TITLE + ST_CENTER;
+	x = 0.150000;
+	y = 0.164000;
+	w = 0.700000;
+	h = 0.060000;
+	text = "";
+	ColorBackground[] = {1,1,0,1};
+	ColorText[] = {1,1,1,1};
+	font = "tahomaB36";
+	SizeEx = "1.0714 * 0.03";
+};
+
+// DALŠÍ POZADÍ, ALE JEDNOBAREVNÉ A BEZ RÁMEÈKU
+
+class RscGroupBox
+{
+	type = CT_STATIC
+	IDC = -1
+	style = ST_NO_BORDER
+	text = "";
+	ColorBackground[] = {0,0,0,0};
+	ColorText[] = {0,0,0,0};
+	font = "tahomaB24";
+	SizeEx = 0.020000;
+};
+
+// HORIZONTÁLNÍ JEZDEC
+
+class RscSliderH
+{
+	type = CT_SLIDER
+	style = ST_RIGHT
+	h = 0.028000;
+	color[] = {0.080000,0.080000,0.120000,0.750000};
+};
+
+// VERTIKÁLNÍ JEZDEC
+
+class RscSliderV
+{
+	type = CT_SLIDER
+	style = ST_LEFT
+	w = 0.021000;
+	color[] = {0.080000,0.080000,0.120000,0.750000};
+};
+
+// TEXT
+
+class RscText
+{
+	type = CT_STATIC
+	IDC = -1
+	style = ST_LEFT + ST_MULTI + ST_NO_RECT;
+	LineSpacing = 1.000000;
+	h = 0.040000;
+	ColorBackground[] = {0,0,0,0};
+	ColorText[] = {0.080000,0.080000,0.120000,0.750000};
+	font = "tahomaB24";
+	SizeEx = 0.020000;
+};
+
+// OBRÁZEK
+
+class RscPicture
+{
+	type = CT_STATIC
+	IDC = -1
+	style = ST_PICTURE
+	ColorBackground[] = {0,0,0,0};
+	ColorText[] = {1,1,1,1};
+	font = "tahomaB24";
+	SizeEx = 0
+};
+
+// TLAÈÍTKO
+
+class RscButton
+{
+	type = CT_BUTTON
+	style = ST_CENTER
+	w = 0.110000;
+	h = 0.050000;
+	ColorText[] = {0.080000,0.080000,0.120000,1};
+	font = "tahomaB24";
+	SizeEx = 0.020000;
+	default = 0
+	SoundPush[] = {"ui\ui_ok",0.200000,1};
+	SoundClick[] = {"",0.200000,1};
+	SoundEscape[] = {"ui\ui_cc",0.200000,1};
+};
+
+// COMBOBOX - ROLOVACÍ NABÍDKA
+
+class RscCombo
+{
+	type = CT_COMBO
+	style = ST_LEFT
+	h = 0.040000;
+	WholeHeight = 0.250000;
+	colorSelect[] = {0.350000,0.380000,0.360000,1};
+	ColorText[] = {0.080000,0.080000,0.120000,0.750000};
+	ColorBackground[] = {0.350000,0.380000,0.360000,0.750000};
+	font = "tahomaB24";
+	SizeEx = 0.020000;
+};
+
+// PROSTOR, DO KTERÉHO MÙŽE UŽIVATEL PSÁT
+
+class RscEdit
+{
+	type = CT_EDIT
+	style = ST_LEFT
+	h = 0.032000;
+	ColorBackground[] = {0,0,0,0};
+	ColorText[] = {0.080000,0.080000,0.120000,0.750000};
+	ColorSelection[] = {1,1,1,0.250000};
+	font = "tahomaB24";
+	SizeEx = 0.020000;
+	AutoComplete = "";
+};
+
+
+// TADY ZAÈÍNÁ DEFINICE SAMOTNÉHO DIALOGOVÉHO OKNA
+
+class RscTest
+{
+	IDD = 1000;
+	MovingEnable = 1;
+
+	class Controls
+	{
+		class Background : RscBackground
+		{
+			x = 0.250000;
+			y = 0.250000;
+			w = 0.500000;
+			h = 0.500000;
+		};
+		
+		class SubBackground : RscGroupBox
+		{
+			x = 0.270000;
+			y = 0.270000;
+			w = 0.460000;
+			h = 0.460000;
+		};
+
+		class Title : RscTitle
+		{
+			IDC = 1001
+			x = 0.350000;
+			y = 0.270000;
+			w = 0.300000;
+			h = 0.060000;
+			text = "Nadpis";
+		};
+
+		class Kolonka : RscEdit
+		{
+			IDC = 1002
+			x = 0.430000;
+			y = 0.400000;
+			w = 0.250000;
+			text = "";
+		};
+
+
+		<A NAME = "Tlacitko">class Cudlik : RscButton</A>
+		{
+			IDC = 1003
+			x = 0.300000;
+			y = 0.400000;
+			w = 0.10000;
+			h = 0.035000;
+			text = "Tlaèítko";
+			default = 1;
+			action = "CloseDialog 1000";
+		};
+
+		class TextTabulka: RscGroupBox
+		{
+			x = 0.320000;
+			y = 0.450000;
+			w = 0.360000;
+			h = 0.055000;
+		};
+
+		class Napis: RscText
+		{
+			IDC = 1004
+			x = 0.320000;
+			y = 0.450000;
+			w = 0.360000;
+			h = 0.100000;
+			text = "Toto je ukázkové dialogové okno.";
+			sizeEx = "0.022";
+		};
+		
+		class JezdecH : RscSliderH
+		{
+			IDC = 1005
+			x = 0.32;
+			y = 0.55;
+			w = 0.36;
+			h = 0.03;
+		};
+
+		class JezdecV : RscSliderV
+		{
+			IDC = 1006
+			x = 0.695;
+			y = 0.35;
+			w = 0.02;
+			h = 0.36;
+		};
+
+
+		class Kombo : RscCombo
+		{
+			IDC = 1007
+			style = ST_TITLE + ST_CENTER;
+			x = 0.320000;
+			y = 0.620000;
+			w = 0.250000;
+			h = 0.025000;
+			colorSelect[] = {1,1,1,1};
+			colorText[] = {0,0,0,0.750000};
+			rowHeight = 0.025000;
+		};
+
+		class Obrazek : RscPicture
+		{
+			IDC = 1008
+			text = "Obrazek.jpg";
+			x = 0.580000;
+			y = 0.610000;
+			w = 0.107500;
+			h = 0.115000;
+			colorText[] = {1,1,1,1};
+		};
+	};
+};
+</PRE>
+</BODY>
+</HTML>

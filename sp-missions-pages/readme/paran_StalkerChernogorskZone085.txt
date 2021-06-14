@@ -1,0 +1,127 @@
+Název mise: Stalker: Chernogorsk zone
+
+verze: Betaverze 0.85
+
+Potøebná verze ofp: Tvoøeno pod verzí 1.96
+
+Potøebné modifikace:
+	- Return to Chernogorsk Zone v 1.01
+	- addony z Nightstalkers Shadow of Namalsk prologue beta 0.3 (konkretnì soubory NS.pbo, facestex2.pbo, IL86.pbo, TRs301.pbo)
+
+Obtížnost: Vysoká
+
+Nároènost: Hodnì vysoká (je to zpùsobeno tím, že v misi funguje hodnì scriptù a taky tam je hromada jednotek) NEDOPORUÈENO HRÁT NA SLABŠÍCH PC A NA VYSOKÉ DETAILY
+ 
+Intro: ne
+
+Outro: ne
+
+O misi: V misi hrajete za stalkera(jméno jedno jaké) a vydáváte se do nebezpeèné zóny na ostrovì Chernogorsk (viz. pøíruèka pro pøežití v zónì). 
+
+Mise je betaverze, ale je plnì hratelná, èeká vás nìkolik úkolù, které když splníte, dostanete souøadnice artefaktu. Musíte splnit všechny úkoly a potom dostanete možnost misi ukonèit. Ale nemusíte a mùžete pokraèovat v prùzkumu zóny.
+Spoustu vìcí je vypuštìna nebo zjednodušena, protože jinak by vývoj trval další rok. Na misi jsem pracoval 9 mìsícù a nìkolikrát jsem misi pøedìlával. Další verze se neplánuje, ale možná vyjde nìjaký ten opravný patch. Mise samozøejmì obshauje chyby, ale spousta vìcí by mìla fungovat tak, jak má. Nìkteré vìci ani ovlivnit nejdou. Snažil jsem se misi udìlat co nejoriginálnìjší v rámci možností a je v ní spoustu vìcí, které jsem si pùjèil ze Sumrakovi kampanì v modifikaci Return to Chernogorsk zone. Mise je inspirována hrou S.T.A.L.K.E.R Shadow of Chernobyl, kterou jsem ale nikdy nehrál.
+
+verze 0.85 opravené vìci:
+-mise se už ukonèuje(bylo to zpùsobeno zvuky)- K tomuhle musím øíct, že možná budete muset zkusit ukonèit misi nìkolikrát, musí se totiž vypnout zvuky a tak až dohraje zvuk je funkce ukonèit misi funkèní
+-opraveno ukládání
+-pøidána funkce lékárnièka
+-akce PDA už by se mìli odstraòovat
+-texty v cutscénách už nemizí (to také zpùsobovali zvuky zóny)
+-zvìtšen dosah artefaktù, aby se lépe hledali
+-zvìtšil jsem dosah spínaèù spouštìjících muziku
+-pøidány dva dobrovolné úkoly (není potøeba splnit pro ukonèení mise)
+-pøidán snork (hledejte a bojte se :-)
+
+
+Vìci, které jsem vypustil:
+Intro
+Outro
+Dialogová zbrojnice
+Nìkteré druhy anomálií
+Jednu frakce
+Jednu èást pøíbìhu
+Nìkteré úkoly
+a nìkteré další vìci, na které jsem už zapomnìl
+
+Podìkování:
+Rád bych podìkoval tìmto lidem
+
+Sumrak-Za to, že mi mnohokrát poradil, udìlal skvìlý mód a dovolil použít svoje vìci do mé mise
+
+Hammer-Za to, že mi na zaèátku pomohl s misí
+
+TonyHawk- Za dlouhé rozhovory na icq
+
+Ruprtova poradna pro ofp/arma- za to, že mi lidé pùsobící na poradnì mnohokrát poradili, když jsem øešil problémy
+
+Bohemia Interactive- Za skvìlou hru
+
+Všem zbylím pøíznivcùm ofp 
+
+
+A SAMOZØEJMÌ TOBÌ, ŽE JSI SI PØEÈETL ÈTIMNÌ
+
+
+paran-modelar.blog.cz
+
+
+
+
+
+
+
+
+
+-------------------------------------POMOC PRO HRÁÈE, KTEØÍ SI NEVÌDÍ RADY-----------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------SKUTEÈNÌ TO CHCEŠ PØEÈÍST A VYZRADIT VÌCI V MISI?----------------------
+
+
+
+
+
+
+
+
+
+
+---------------------------------------PØIJDEŠ O PØEKVAPENÍ!--------------------------------------------
+
+
+
+
+
+
+
+
+
+
+-------------------------------------------OPRAVDU TO CHCEŠ???------------------------------------------
+
+
+
+
+
+
+
+
+
+No tak jo, když teda chceš.
+
+V misi se nachází 4 artefakty a to na souøadnicích Be 60 a DB 71, tyhle dva dostaneš od Maxe a potom jsou dva na Dc 58 a Ei 81. Souøadnice tìhle dvou dostaneš po splnìní úkolù.
+
+Základna stalkerù se nachází na Dc 74 a základna vìdcù se nachází na Df 60.
+
+V elektrárnì ani Surgutu se žádné cíle mise nenacházejí, kvùli velké nároènosti tamních oblastí.

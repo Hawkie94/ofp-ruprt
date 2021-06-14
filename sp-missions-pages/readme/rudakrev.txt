@@ -1,0 +1,45 @@
+			    /
+***** RRR   U   U DDD     A      K  K RRR   EEEEE V     V *****
+ **** R  R  U   U D  D   A A     K K  R  R  E     V     V ****
+  *** RRR   U   U D   D A   A    KK   RRR   EEE    V   V  ***
+   ** R  R  U   U D  D  AAAAA    K K  R  R  E       V V   **
+    * R   R  UUU  DDD   A   A    K  K R   R EEEEE    V    *
+
+--------------
+Autor: Davson
+--------------
+Typ mise: Singleplayer
+--------------
+Ostrov: Everon
+--------------
+Intro: Ano
+--------------
+Outro: Ano, obě
+--------------
+Dabing: Ano
+--------------
+Verze hry: 1.91
+--------------
+Addony: 1) všechny oficiální
+        2) Delta/Ranger pack od BAS (www.concept-5.com/balistic/download)     
+        3) Editor Upgrade
+--------------
+Poděkování: Velké dík patří BikeruOFP (sorry, ale přesně nevím, jak to skloňovat :-))
+            za jeho skvělý betatesting, čímž mě ušetřil mnoha nezáživných hodin 
+            a mise je (snad) na vysoké úrovni
+--------------
+Poznámka: Tato mise je volně šířitelná. Pokud ji chcete hodit na svůj web,
+          nemám nic proti, ale byl bych rád, kdybyste mě upozornili, kde
+          jste moji misi hodili :-)
+--------------
+Kontakt: einspigel.david@seznam.cz
+--------------
+
+T A K  S I  T O  U Ž I J T E ! ! !
+
+
+***** DDD     A   V     V  SSSS  OOO  N   N *****
+ **** D  D   A A  V     V S     O   O NN  N ****
+  *** D   D A   A  V   V   SSS  O   O N N N ***
+   ** D  D  AAAAA   V V       S O   O N  NN **
+    * DDD   A   A    V    SSSS   OOO  N   N *

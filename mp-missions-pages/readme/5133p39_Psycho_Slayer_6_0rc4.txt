@@ -1,0 +1,224 @@
+==============================================================================
+Psycho Slayer, v 6.0rc4
+==============================================================================
+Mise pro Operaci Flashpoint: Resistance v1.96 (na nizsich verzich netestovano)
+------------------------------------------------------------------------------
+
+
+Jde o totalni remake mise zname pod jmenem "Find the Serialkiller v2.00"
+od tvurce [City Cobra].
+Vypujcil jsem si zakladni ideu, ale tim to konci, vsechno ostatni je nove.
+Diky patri tvurci puvodni predlohy (nebo tomu kdo mel puvodni napad), a klanu
+eVAC ( eVACuat!on ), protoze to byli prave oni (eVAC) kdo mi predlozili navrh
+k remaku puvodni mise a kdo semnou novou misi neunavne testoval na jejich
+dedikovanem serveru - bez jejich pomoci a hlavne psychicke podpory bych se na
+to asi velice brzy vyflak :)
+
+
+------------------------------------------------------------------------------
+Mise vyzaduje nasledujici ADDONY
+------------------------------------------------------------------------------
+
+1. PZL Mi-2 Police V1.2 - policejni helikoptera Mi-2
+   awmi2p.rar (presna velikost awmi2p.pbo je 7 856 361 b)
+   Ke stazeni je zde: http://files.filefront.com/awmi2prar/;4807145;;/fileinfo.html
+   a zde: http://ofp.gamepark.cz/index.php?showthis=5765
+   POZOR!!! - Ta na filefrontu je mnou upravena verze (nejen) pro dedikovany
+     server. V originalni verzi jsou totiz nejake textury se spatnymi pomery
+     stran, coz melo za nasledek padani naseho dedikovaneho serveru.
+     Na klientech si muzete pouzivat kterou verzi se vam zachce, je to fuk,
+     ale pokud provozujete dedikovany server, dejte na nej tu z filefrontu.
+
+2. Nogovan Policie Units v1.1 (dmx_policie)
+   dmx_police_1.1.rar (presna velikost dmx_policie.pbo je 8 412 236 b)
+   Ke stazeni je zde: http://files.filefront.com/dmx_policie_11rar/;4807136;;/fileinfo.html
+   a zde: http://ofp.gamepark.cz/index.php?showthis=5774
+
+3. Volga GAZ 24 v1.5b
+   gaz24mx.rar (presna velikost gaz24mx.pbo je 12 896 671 b)
+   Ke stazeni je zde: http://files.filefront.com/gaz24mxrar/;4807130;;/fileinfo.html
+   a zde: http://www.flashpoint.ru/addons/pafiledb.php?action=download&id=180
+
+4. MORS_psycho addon
+   MORS_psycho_6.0rc4.rar (presna velikost MORS_psycho.pbo je 291 261 b)
+   Addon vytvoreny specialne pro tuto misi.
+   Ke stazeni je zde: http://files.filefront.com/MORS_psycho_60rc4rar/;4811878;;/fileinfo.html
+
+5. MORS_radio addon
+   MORS_radio.rar (presna velikost souboru MORS_radio.pbo je 3 701 865 b)
+   Addon vytvoreny specialne pro tuto misi, obsahuje zvuky hlaseni a siren.
+   Ke stazeni je zde: http://files.filefront.com/MORS_radiorar/;4807104;;/fileinfo.html
+
+
+------------------------------------------------------------------------------
+POPIS MISE
+------------------------------------------------------------------------------
+
+V zasade je stejna jako jeji predchudce - musite zabit tolik NPC kolik jen
+budete moci, nebo pochytat vsechny psychouse, podle toho za koho hrajete.
+
+Zde jsou nejake hlavni rysy a vlastnosti:
+
+  * Hrat muzou najednou az 3 vrahouni (kazdy z nich vypada jako obycejne NPC)
+
+  * Policajti musi byt uvnitr, nebo pobliz nejakeho policejniho vozidla jehoz
+    vysilacka je zapnuta, aby mohli slyset pripadna hlaseni co a kde vrahouni
+    prave vyvadi.
+
+  * Kdokoliv uvnitr policejniho vozidla, muze videt vsechny policajty na mape.
+    Jsou zobrazeni jako modre tecky.
+
+  * NPC nahodne cestuji mezi vesnicemi.
+    Davejte si pozor na sve vozidlo (at uz jste vrahoun nebo polda), protoze
+    se snadno muze stat, ze si nejaky kolemjdouci vybere vase zaparkovane auto
+    za svuj dopravni prostredek.
+    Policajti v tom maji vyhodu - muzou si auto zamknout, takze se do nej
+    nikdo nez policajt nedostane.
+
+  * Pozice poslednich peti obeti jsou vzdy videt na mape.
+
+  * Jakmile vrahounova "pricetnost" klesne na nulu, zacne zazivat obcasne
+    ztraty vedomi behem jejichz trvani nebude schopen nic videt ani nic delat
+    (pri rizeni auta je to velmi neprijemne), a bude na mapach policistu
+    vyznacen velkou zlutou teckou.
+
+  * Vrahounova "pricetnost" (jak nevhodne pojmenovani) muze byt doplnena
+    zastrelenim NPC nebo policisty.
+
+  * Jakmile vrahouni zabiji prvni obet, policiste dostanou povoleni k pouziti
+    vrtulniku, BRDM jsou k dispozici az pokud dojde k zabiti dvou policistu.
+
+  * V zavislosti na pomeru poctu vrahounu vs. policajtu, jsou k dispozici az 4
+    respawny pro policisty, mezi kterymi lze prepinat dokud je respawnujici se
+    policajt na padaku a to klikanim do blizkosti pozadovaneho respawnu v mape.
+    Pomer musi byt DVA nebo mene policistu na JEDNOHO vrahouna, jinak bude k
+    dispozici jen jeden respawn.
+
+
+Pokud umite anglicky, clovek jmenem dslyecxi napsal jakysi mission log,
+kdyz tuto misi hrali.
+Prectete si to, snad vam to trochu priblizi o cem "Psycho Slayer" je.
+Zde je odkaz: http://dslyecxi.com/shackposts/ofpoctnovsb.html
+Hledejte odstavec nadepsany "November 5th Psycho Slayer Writeup".
+
+
+------------------------------------------------------------------------------
+ZAKLADNI PRAVIDLA HRY
+------------------------------------------------------------------------------
+
+* STARTOVACI PARAMETRY
+  Pred spustenim mise si muzete zvolit kolik "psycho bodu" musi vrahouni
+  ziskat, aby vyhrali hru. Policajti vyhraji tim, ze pochytaji vrahouny.
+
+* PSYCHO BODY
+  Mohou byt ziskany vrahouny za zabijeni NPC nebo policajtu (vyjma AI strazi)
+  Pocet ziskanych psychobodu zavisi na zpusobu jekym je postavicka zabita:
+    * 1 bod kdyz vrahoun (anebo policajt - omylem) zastreli civilni NPC.
+      Takze policajti by meli byt opatrni v tom po cem strili, protoze zabitim
+			NPC jen pomohou vrahounum vyhrat hru!
+    * 0.25 bodu za jakoukoliv neprimo zpusobenou smrt NPC.
+      Napriklad pokud prejedete NPC autem, ale i kdyz NPC zemre pri nehode,
+			pricemz nehraje roli zda se ji vubec nejaky vrahoun ucastnil, atd.
+      Bod je zkratka ziskan kdyz kdokoliv zabije NPC jinak nez nejakou zbrani.
+    * 0.1 bodu kdyz vrahoun zastreli policajta.
+
+* POLICAJTI - zacatek hry
+  Policajti zacinaji ozbrojeni AK-47, ale mohou se prezbrojit u beden na
+	letisti, nebo jakekoliv jine policejni zakladne.
+
+* VRAHOUNI - zacatek hry
+  Vrahouni zacinaji beze zbrane na odlehlem ostruvku.
+  Musi se ozbrojit u beden pred chatkou, a pote kliknout do mapy na misto kam
+  seskoci na padaku.
+  Pokud dojde vrahounovi strelivo, ma jen dve moznosti:
+    * vzit zbran a naboje zabitemu policistovi
+    * vplizit se do nektere policejni zakladny a prezbrojit se u beden (to je
+      ta tezsi varianta, ale proveditelna)
+
+* RESPAWN
+  Policajti se respawnuji na padaku nad zapadnim letistem, a v zavislosti na
+	vzajemnem pomeru hrajicich policajtu a vrahounu, mohou mit moznost presunu
+  na jiny respawn kliknutim do mapy k pozadovanemu respawnu.
+  Vrahouni se respawnuji rovnou do veznice (viz. nasledujici odstavec).
+
+* VEZENI
+  Kdyz vrahoun zemre, nejde do pekla, ale do vezeni.
+  Jakmile se ve vezeni octnou vsichni vrahouni, policajti vyhrali a hra konci.
+  Jakykoliv volny vrahoun muze ostatnim kolegum pomoci k uteku z vezeni,
+  potrebuje jen neco na vyhozeni plotu do vzduchu, a docela hodne stesti.
+
+* KONEC HRY
+  Hra konci jakmile vrahouni dosahnou pozadovany pocet psycho bodu, urceny
+  pred startem hry, anebo jakmile jsou vsichni pochytani.
+
+* VRAHOUNOVA "PRICETNOST"
+  Kazdy vrahoun ma svou vlastni "pricetnost" (vim, je to blbej nazev, ale nic
+	jinyho me v te chvili nenapadlo), dobre ji sledujte!
+  Jakmile vase pricetnost spadne na nulu (casem ubyva), zacnete zazivat
+	ztraty vedomi, a na policejnich mapach budete oznacen jako velka a 
+	neprehlednutelna zluta tecka!
+  Svou pricetnost si muzete kdykoliv doplnit zastrelenim NPC nebo policisty.
+  Aktualni stav pricetnosti lze kontrolovat polozkou v action menu (neni k 
+	dispozici ve vozidle).
+
+* ZAMYKANI VOZIDEL
+  Policiste maji moznost zamykat policejni vozidla a je pro to dobry duvod!
+  Kdokoliv kdo nastoupi do policejniho vozidla, muze na mape videt pozice
+  vsech policajtu oznacene modrou teckou! Takze VZDY ZAMYKETJE SVE VOZIDLO!
+  Nejlepe kdyz budete svuj vehikl zamykat okamzite po nastoupeni/vystoupeni.
+  Pokud vrahoun ukradne policejni vozidlo, ziska velkou vyhodu, protoze uvidi
+  kde policajti jsou a bude se jim moci snadno vyhnout!
+
+* POLICEJNI VYSILACKA
+  Policajti maji moznost zapnout si v kazdem policejnim vozidle vysilacku.
+  VZDY JI ZAPINEJTE - bude vas informovat o vsech nehodach nebo vrazdach ke
+  kterym doslo a kde k nim doslo.
+  Musite byt v blizkosti (nebo uvnitr) vozidla se zapnutou vysilackou, jinak
+  zpravu neuslysite.
+
+* POLICEJNI ANTENA
+  Funkcnost policejnich vysilacek na vychodni casti ostrova (vpravo od Davle)
+  zavisi na tom zda je vysilac pobliz Lipan v poradku.
+  Pokud vrahouni vysilac znici, policajti kteri se nachazeji na teto casti
+  ostrova nebudou dostavat zadne zpravy.
+  Antena muze byt opravena s pomoci opravarenskeho vozidla, ktere lze najit na
+  zapadnim letisti.
+  Antena muze byt znicena a znovu opravena tolikrat jak je treba.
+
+* POLICEJNI DISPECER
+  Policejni dispecer je nezbytny pro funkcnost VSECH policejnich vysilacek.
+  Pokud dispecera nekdo zabije (je to ten chlapek na letisti v zelenem stanu),
+  nebude nikdo kdo by policajtum hlasil co se deje - nebudou vedet kde
+  vrahouni radi dokud dispecera nenahradi.
+  Dispecera muze nahradit jak hrac-policajt samotny tim ze si vleze dovnitr
+  stanu, anebo s pomoci NPC ktereho s pomoci volby "Donutit ke spolupraci"
+  poslete dovnitr stanu a pote propustite.
+
+* POUZIVEJTE MAPU
+  Mapa vam muze pomoci, jak vrahounum tak i policajtum.
+  Policajtova mapa sleduje pozice poslednich peti vrahounovych obeti, pouzijte
+  mozek a pokuste se odhadnout, kam miri dalsi vrahounuv krok.
+  Vrahounova mapa zobrazuje vsechny NPC - potencionalni obeti - jsou oznacene
+  zelenymi teckami. Jen vrahoun vidi na mape, kde jsou NPC.
+
+* AKCNI VOLBA "ZASTAVIT PODEZRELEHO"
+  Policajt muze libovolnemu NPC rozkazat aby se zastavil, a provest kontrolu
+  dokladu (ve skutecnosti zde zadne doklady nejsou, staci jen prijit k NPC na
+  vzdalenost nejmene 4 metry, a pak bude automaticky oznameno zda se jedna o
+  pocestneho obcana, nebo o vrahouna.
+  Pokud se policajtovi podari takto vrahouna demaskovat, bude vrahounova
+  pozice stale zobrazena na policejnich mapach po dobu jedne minuty.
+  Toto je docela uzitecna vec - muzete komukoliv naridit aby zastavil (at uz
+  jde pesky nebo jede autem) a muzete poznat uz jen podle toho JAKYM ZPUSOBEM,
+  a ZDA VUBEC zastavi, jestli je to vrahoun nebo NPC.
+  Chytry vrahoun se bude snazit chovat podobne jako NPC, ale ani NPC nemusi
+  vasi vyzvy uplne pokazde uposlechnout - existuje mala sance ze NPC proste
+  neposlechne a pojede dal.
+    * Kdyz jdete pesky, NPC reaguji na vyzvu jen do vzdalenosti 100 metru.
+    * Kdyz jste v aute, max. vzdalenost je 150 metru.
+    * V helikoptere je maximalni vzdalenost 300 metru.
+
+* POCET HRAJICICH VRAHOUNU
+  Pocet vrahounu muze byt 1 az 3.
+  Ale pokud hraje jen cca 5 policajtu, pak doporucuji jen jednoho vrahouna,
+  i sam o sobe by mel policajtum dokazat pekne zavarit.

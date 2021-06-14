@@ -1,0 +1,12 @@
+Typ produktu:		kampaň
+Doporučená verze hry:	1.96
+Jazyk produktu:		čeština, angličtina
+Další potřebné soubory:	žádné
+Výrobce:		Televize Diamantés
+
+Zkopírujte složky do adresáře s hrou Operation Flashpoint Resistance.
+
+Kampaň využívá addony ostrovů ze Seb Nam Packu, a taky vlastní addony.
+
+Kampaň je pokračováním jedničky a odehráva se v alternativní časové osy po zničení Německa atomovou bombou
+(v původní kampani Časostřelec), a opět hrajete za Petra Časostřeleckého.

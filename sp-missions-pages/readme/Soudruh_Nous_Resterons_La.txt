@@ -1,0 +1,29 @@
+******************************
+**Nous Resterons La **
+******************************
+Autor : Soudruh
+Web : Soudruh.wz.cz
+E-mail : Soudruh@czstorm.com
+ICQ : 287818934
+******************************
+Addony : MAP batohy - ftp://ftp.gamepark.cz:8021/ofpd/unofaddons3/MAP_Ruck_V1.1.rar, oficiální
+******************************
+Overview : ano
+Intro : ano
+Briefing : ano
+Mise : ano (:D)
+Outro :ano
+******************************
+Nesnažil jsme se o nic převratného, ani o nic superspeciálního.Namlátil sem to tak, jak v tuhle chvíli umim a víc si schovávám na něco co bude příběhově bohatší a nebude to jenom klasická střílečka s polevou.
+Intro je bych řek dost obyčejné a ničim nijak neviniká.Jenom má sloužit jako takové nastiňení situace a neodpustil jsme si rýpnutí do "škádlení" mezi Pěchotou a Marinou.
+Je to moje první mise, ve který viužívám sem tam nějakýho toho zdroje či dialogu a v některých případech jsem se nechal inspirovat jinými díly od lepších autorů (například obrazovka po smrti ala HIN a WTWE).V podstatě je to moje první na scriptech založené dílko.Nijak zvláštní.Sám od něj mnoho nečekám (můj tip 5/10)
+******************************
+Misi vydávám tak jak je.To jest pouze smím a bráchovím dabingem, protože zbytek se mi nějak nepodařilo sehnat.I tak je nadabováno zhruba 50% všech vět, protože většinu z textů hovořily naše dvě hlavní postavy.Třetí hlavní postava nadabována nebyla, protože její "hlas" je teď odříznut od světa, protože se přestěhoval do Ugandy :D
+******************************
+Chyb má mise docela dost, ale většina jich není tak děsných.Opravil sem ve spolupráci s testery vše co jsem mohl.zbytek nechávám tak jak je.Konec OFP se blíží a nemá tudíž cenu se další měsíc zabývat tím, jak to odladit, vzhledem k tomu, že se začátkem TNT Ligy, National Cupu a příchodem jara a fotbalové sezony toho mam docela dost.
+******************************
+Poděkování :
+
+Deli, Káďa a Kalhi za betatest
+
+Brachovi za profi názor "joo hustě"

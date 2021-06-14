@@ -1,0 +1,50 @@
+SIGMA Chronicles - Tréning:Výsadek a Operace Boomerang II
+
+____________________________________________________________________________________________________
+Děláno na verzi 1.96
+-------------------------
+Potřebné addony:
+
+MAP_MilObj-Pack	(4.6mb)
+MORS_psycho		(285kb)
+M24			(5.6mb)
+ke stažení na: http://dodye.7x.cz/addony
+-------------------------
+(mise: Složku SIGMA Chronicles celou vložte do ".../OperationFlashpoint/Missions")
+(misi pusťte v "Jednotlivé Mise/Single Missions > SIGMA Chronicles > ...")
+
+
+Příběh:
+	Příběh je zasazen rok po kampani v originální hře Cold War Crisis. V současné době jsou ruské
+jednotky v souostroví Everon, Malden a Kolgujev opět aktivní. NATO se opět snaží vše dát do pořádku
+a zjistit kdo za tím vším tentokrát stojí.
+	Hráč se ocitne ve dvou rolích, jako Expert sniperské jednotky pod krycím názvem OMEGA a jako 
+méně zkušený Sniper SIGMA který právě opustil výcvik a je nasazován do rutijních operací.
+(vše se ještě může změnit a pravděpodobně také změní)
+
+
+O misi Operace Boomerang II:
+	Jedná se o druhý den operace Boomerang, která má za úkol zničir tři, podle velitelství NATO,
+nejzkušenější majory ruské armády. K NATO se dostane informace o plánovaném meetingu ve východním
+přístavu na Kolgujevu, a proto tam vyšle svého nejlepšího snipera s krycím názvem OMEGA, aby jim
+řekl "ahoj".
+Minimální délka samotné mise je cca 5 minut, ale to jsem zkoušel já a já to mám už vryté do mozku.
+
+O misi Tréning:Výsadek:
+	Poslední disciplína ve, které byl prověřen sniper SIGMA ve výcvikovém táboře. Tato mise je
+bez střílení, ale o to víc se snaží vyladit napětí do poslední chvilky kdy uvidíte svůj cíl.
+Obsahuje 3 konce (kladný,záporný(prohra) a něco mezi tím ;) )
+Délka mise cca pod 30-60 minut, možná víc podle vaší orientace.
+(tato mise bude v budoucnu vyladěna)
+	
+
+Berte prosím vše s rezervou a vědomím že je to moje první tvorba takže vše nemůže být jak od Bohemie,
+přesto se snažim držet se jejich stylu (v jednoduchosti je krása).
+
+Toto jsou pouze první verze misí určených pro otestování.
+
+Prosím dejte mě vědět pokud vás napadne nějaké vylepšení, nebo najdete chybu(v čemkoliv).
+
+Věty typu: "Dělání misí do OFP už je k ničemu." neberu! OFP WILL NEVER DIE 8)
+____________________________________________________________________________________________________
+Kony the Dodye | KonyII@seznam.cz | Xfire: kony02

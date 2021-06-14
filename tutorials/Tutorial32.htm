@@ -1,0 +1,276 @@
+<html><head>
+<meta http-equiv="Content-Language" content="cs">
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Tutorial #32 - Práce s kamerou</title>
+<style type="text/css">
+BODY
+{
+	scrollbar-arrow-color:#FFFFFF;
+	scrollbar-face-color:#000000;
+	scrollbar-highlight-color:#000000;
+	scrollbar-shadow-color:#000000;
+	scrollbar-3dlight-color:#FFFFFF;
+	scrollbar-darkshadow-color:#FFFFFF;
+	scrollbar-track-color:#000000;
+}
+td
+{
+	font-family: Verdana;
+	font-size: 10pt;
+	color: #FFFFFF;
+	text-align: Justify;
+	word-spacing:0;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+p
+{
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: 5;
+	margin-right: 5;
+}
+
+</style>
+
+<style fprolloverstyle="">A:hover {color: #FF6600}
+</style>
+</head>
+
+<body vlink="#00FFFF" link="#00FFFF" bgcolor="#000000" alink="#00FFFF">
+
+<div align="center">
+  <center>
+  <table style="border-collapse: collapse" id="AutoNumber1" width="100%" border="2" bgcolor="#000000">
+    <tbody><tr>
+      <td width="100%">
+      <div align="center">
+        <center>
+        <table style="border-collapse: collapse" id="AutoNumber2" width="50%" cellspacing="0" cellpadding="0" border="2">
+          <tbody><tr>
+            <td style="text-align: center" width="100%"><b>
+            <font size="3" color="#FFFF00">Tutorial #32 - Práce s kamerou</font></b></td>
+          </tr>
+          <tr>
+            <td style="text-align: center" width="100%"><font color="#FF9933">
+            <b>Autor :  Didymos</b></font></td>
+          </tr>
+          <tr>
+            <td style="text-align: center" width="100%"><font color="#FF9933">
+            <b><a href="PraceSKamerou.zip">Download</a></b></font> = Tento tutorial + ukázka</td>
+          </tr>
+        </tbody></table>
+        </center>
+      </div>
+      <p>&nbsp;</p>
+
+      <p>
+</p><dd>Málokdo tuší, že samotný editor v sobě ukrývá kameru, se
+ kterou se dá velmi dobře pracovat. Jen mě opravdu překvapuje, že o
+ tom za celou éru OFP ještě nikdo nenapsal ani čárku. Buď to bylo 
+velmi dobře střežené tajemství, protože jak se brzy dočtete, má 
+to určitý ochranný prvek nebo to je prostě jen náhoda. <img src="./../pictures/smilici/16x16_smiley-surprised.gif" width="16" height="16">
+ Nebýt Paladina, asi by ještě pár dní trvalo, než bych se o tom 
+dozvěděl, nicméně to někde prasklo, protože už mi o tom psali i 
+jiní. Já se tu nebudu dále udivovat nad tím, proč to už dávno 
+není na světě a nebudu ani přemýšlet, kolik hodin práce by mi to 
+ušetřilo <img src="./../pictures/smilici/16x16_smiley-sad.gif" width="16" height="16"> a přejdu k samotnému vysvětlení. 
+<p>&nbsp;</p>
+</dd><dd>Jediné co potřebujete, je vytvořit si v editoru nějaký 
+objekt, může to být klidně přímo hráč. Já osobně používám 
+imaginární jednotu pro lepší mobilitu. Poté si vytvoříte spínač
+ s nějakou rozlohou a spojíte ho přes F2 s hráčem. Pak už stačí 
+do pole při aktivaci spínače napsat:<p>&nbsp;</p>
+
+
+
+<b>cam Exec "camera.sqs"  (kde cam je jméno imaginární jednotky)</b><p>&nbsp;</p>
+
+
+</dd><dd>pak stačí zapnout misi a kamera se vám objeví 2 metry nad 
+touto jednotkou. V případě, že místo cam napíšete jméno jiného 
+objektu, objeví se vám kamera nad tímto objektem. Jak jednoduché a 
+prosté. Pozor ale na to, abyste v adresáři s vaší misí neměli 
+skript se jménem camera.sqs, protože v tomto případě to 
+nefunguje!!! (zajímavé <img src="./../pictures/smilici/16x16_smiley-surprised.gif" width="16" height="16"> ) Teď se můžete volně pohybovat v celém prostředí OFP pomocí těchto kláves: <p>&nbsp;</p>
+
+
+<b>šipky = dopředu, dozadu, doprava, doleva<br>
+šipky na numerické klávesnici (8, 2, 6, 4) = vám umožní otáčení nahoru, dolů, doprava a doleva<br> 
++ a - na numerické klávesnici = přiblížení a oddálení <br>
+E nebo to, jak máte nastavený sprint při hraní = rychlé posunutí dopředu<br>
+X = rychlý pohyb doleva<br>
+C = rychlý pohyb doprava<br>
+Q = pohyb nahoru<br>
+Y (na české klávesnici) = pohyb dolů<br>
+L = vypne středový záměrný kříž<br>
+mezerník = kamera zaměří cíl, na kterém je záměrný středový kříž<br>
+V = vypne kameru a vrátí vás do hry<br>
+</b><p>&nbsp;</p>
+
+</dd><dd>Teď už jen stačí nastavit polohu kamery tak, jak si přejete a zmáčknout klávesu: <b>levé Ctrl</b>.
+ Tímto jste právě uložili pozici kamery. Tuto pozici najdete ve 
+složce OFP, která je standardně: "C:\Program 
+Files\Codemasters\OperationFlashpoint..". Tady najdete soubor:<p>&nbsp;</p>
+<b>clipboard.txt</b><p>&nbsp;</p>
+
+</dd><dd>V tomto textovém souboru bude vámi právě uložená pozice ve formátu např.:<p>&nbsp;</p>
+
+
+<b>;=== 16:42:30<br>
+_camera camSetTarget [9986.08,114134.09,27.64]<br>
+_camera camSetPos [9986.08,4134.09,2.00]<br>
+_camera camSetFOV 0.700<br>
+_camera camCommit 0<br>
+@camCommitted _camera<br>
+</b><p>&nbsp;</p>
+
+</dd><dd>Tím máte definovanou pozici kamery na těchto souřadnicích:<p>&nbsp;</p>
+
+<b>_camera camSetPos [9986.08,4134.09,2.00]
+</b><p>&nbsp;</p>
+
+
+</dd><dd>cíl kamery je na souřadnicích:<p>&nbsp;</p>
+
+<b>_camera camSetTarget [9986.08,114134.09,27.64]
+</b><p>&nbsp;</p>
+
+</dd><dd>Další řádek udává přiblížení:<p>&nbsp;</p>
+
+<b>_camera camSetFOV 0.700
+</b><p>&nbsp;</p>
+
+</dd><dd> Implicitní nastavení je 0.700 a přiblížit můžete podle 
+libosti. Za jak dlouho se přiblížení provede, je definované v 
+dalším řádku:<p>&nbsp;</p>
+
+<b>_camera camCommit 0
+</b><p>&nbsp;</p>
+
+</dd><dd>je to hodnota v sec. a tady je 0. Toto číslo neudává pouze 
+přiblížení, ale i přesun kamery v sec. na další pozici. Další 
+pozici kamery získáte opět stisknutím klávesy Ctrl. Poslední 
+řádek chápu jako jakousi kontrolu ukončení kamery, jestliže na 
+další řádek napíšete:<p>&nbsp;</p>
+
+<b>~5</b><p>&nbsp;</p>
+
+</dd><dd>kamera vydrží na určeném místě ještě dalších pět 
+sekund. Zde se dají zadávat samozřejmě i jiné hodnoty viz tutoriál
+ o podmínkách.<p>&nbsp;</p>
+ 
+</dd><dd>Co to celé znamená? Vám stačí nastavit v editoru pozici 
+kamery tak, jak si přejete. Tuto pozici uložíte ( levé Ctrl) a 
+můžete přejet pomocí šipek na další pozici kamery. Opět 
+uložíte aktuální pozici. Přepnete se do souboru clipboard.txt a 
+obě pozice kamery tady najdete s příslušným časem vašeho 
+uložení. Teď už záleží pouze na vás samotných a především na
+ vaší fantazii, jestli to budou dvě samostatné pozice nebo jestli 
+kamera plynule přejde z první pozice na pozici druhou v době, jakou 
+zadáte do řádku:<p>&nbsp;</p>
+<b>_camera camCommit 0
+</b><p>&nbsp;</p>
+
+</dd><dd>Můžete provést přiblížení, které provedete pomocí + a -
+ na numerické klávesnici. Opět je potřeba místo 0 v tom samém 
+řádku nastavit dobu přiblížení, jak jsem psal výše. Pokud se 
+přiblížíte zaměřovacím křížkem uprostřed monitoru k 
+nějakému vámi vytvořenému a pojmenovanému objektu a zmáčknete 
+mezerník, kamera se automaticky na tento objekt zaměří a vy uvidíte
+ jakýsi čtvereček. Když tuto polohu uložíte, uvidíte, že se vám
+ neuložil cíl v podobě souřadnic, ale bude tam jméno právě tohoto
+ objektu.<p>&nbsp;</p>
+ 
+</dd><dd>Tak to by bylo ve stručnosti k práci s kamerou. Teď vás 
+bude zřejmě zajímat, jak se na ten filmeček podíváte. Předně 
+musíte dostat hráče z dosahu spínače, který spouští kameru, pak 
+si buď vytvoříte soubor init.sqs v adresáři s vaší misí anebo 
+jakýkoli jiný skript, který ovšem musíte nějakým způsobem 
+vyvolat. Soubor <b>init.sqs</b> se spouští sám okamžitě po spuštění mise. Nefunguje ale v intru, tady funguje jiný a to s názvem: <b>initIntro.sqs</b>
+ ten se vám spustí okamžitě po spuštění intra. Teď už vám 
+zbývá pouze kameru vytvořit, což musíte udělat na samotném 
+začátku skriptu. Založení kamery vypadá takto:<p>&nbsp;</p>
+
+<b>_camera = "camera" camcreate [0,0,0]<br>
+_camera cameraEffect ["internal","back"]
+</b><p>&nbsp;</p>
+
+</dd><dd>a poté už můžete zadávat samotné pozice kamery. Na konci 
+vaší práce je zase potřeba kameru zrušit, což se dělá takto:<p>&nbsp;</p>
+
+<b>player cameraEffect ["terminate","back"]<br>
+camDestroy _camera
+</b><p>&nbsp;</p>
+
+</dd><dd>Pro lepší efekt je lepší ještě nad tyto řádky obraz plynule ztmavit takto:<p>&nbsp;</p>
+
+<b>titleCut ["","BLACK OUT",3]</b> (ta trojka na konci udává hodntou v sec. za jakou dobu se obraz plynule ztmaví)
+<p>&nbsp;</p>
+
+</dd><dd>Už toto samotné vám umožní vytvořit v OFP videa, jaká si
+ přejete, teď vám ještě předám některé mé praktické 
+zkušenosti, jak tuto práci co nejvíce urychlit. Aby bylo možné v 
+OFP skriptovat kameru, je za potřebí, abyste neustále sledovali a 
+kontrolovali, co jste právě vytvořili. To znamená napsat něco do 
+skriptu, přepnout se do hry a podívat se, jak a co jste vlastně 
+vytvořili. Přepínání do operačního systému a zpět do hry se dá
+ pomocí klávesové zkraty <b>Alt + Tab.</b>, tady vlastně můžete 
+listovat mezi spuštěnými aplikacemi. Tento způsob přepínání ale 
+moc nedoporučuji, protože je to velmi pomalý způsob. Mnohem lepší 
+je spustit hru OFP přímo ve win. okně (pokud používáte Windows). K
+ tomu, abyste to dokázali, vám poslouží velmi jednoduchá utilita, 
+kterých najdete asi víc. Já osobně používám
+<a title="OFP Launcher 259kB" href="./../downloads/utilities/OFPLauncher_2.16.zip">OFP Launcher</a> od Kegetyse, kde si zaškrtnete tyto položky:<p>&nbsp;</p>
+<center><img src="Tutorial32_files/OFPLauncher.jpg" width="444" height="309"></center><p>&nbsp;</p>
+
+<ul>
+<li>Skip splash screens - přeskočí reklamy na začátku, při spuštění hry
+</li><li>Run in a Windows - spustí hru ve win. okně 
+</li></ul><p>&nbsp;</p>
+
+ 
+</dd><dd>Pak už jen stačí zadat dolů cestu k exe souboru OFP, 
+popřípadě Resistance. Tím zajistíte, že můžete v klidu 
+skriptovat a okamžitě se dívat, jak se to chová.
+Klávesové zkratky Ctrl + A, Ctrl + C, Ctrl + X a Ctrl + V tu opravu 
+popisovat nebudu. Pokusil jsem se jasně a srozumitelně vysvětlit, jak
+ co nejjednodušeji pracovat s kamerou v editoru OFP. Pro ještě 
+větší zřetelnost přikládám
+<a href="PraceSKamerou.zip">ukázkovou misi</a>,
+ na které to musí pochopi snad už opravdu každý. 
+
+Proto, abyste vytvořili kvalitní scutscénu, ale nestačí pouze umět
+ pracovat s kamerou, ale musíte mít určitou představivost. Musíte 
+vytvořit a naskriptovat scény, které budete chtít natočit. Musíte 
+tam zadat podmínky, aby se to nespustilo dříve, než vy sami budete 
+chtít. Tohle už je ale zase věc jiná, kterou se můžeme zabývat 
+někdy jindy, někde jinde. Pokud je celá scéna delší, rozdělte si 
+ji na více na sobě nezávislých scén, protože asi nikoho nebude 
+bavit dívat se na stále stejný film stále dokola jen proto, abyste 
+na konci zjistili, kde ta kamera vlastně stojí. Proto si vytvořte na 
+začátku kameru a pak už jen měňte její pozici s tím, že právě 
+tvořenou scénu přesunete na začátek skriptu a až ji doděláte, 
+umístíte ji tam, kam potřebujete. Vyhnete se tím nekonečnému 
+sledování toho samého stále dokola. 
+<p>&nbsp;</p>
+</dd><dd>Na závěr mi ještě dovolte, abych poděkoval Paladinovi za 
+informace o tajemství přímo v srdci editoru a pak Ruprtovi, bez 
+kterého si editaci už ani neumím představit. <img src="./../pictures/smilici/16x16_smiley-wink.gif" width="16" height="16">
+<p>&nbsp;</p><p align="RIGHT">
+<a href="mailto:Didymos@seznam.cz" title="Didymos@seznam.cz">Didymos</a>
+
+
+</p>
+
+      </dd></td>
+    </tr>
+  </tbody></table>
+  </center>
+</div>
+
+
+
+</body></html>

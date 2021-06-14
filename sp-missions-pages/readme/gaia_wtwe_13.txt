@@ -1,0 +1,152 @@
+WHEN THE WORLD ENDS
+Verze 1.3
+Readme Soubor
+Únor 5., 2006
+vytvoøil Gaia [http://gsmod.wz.cz]
+
+
+***********************************************************************
+
+		    	OBSAH
+
+		  I.	ÚVOD
+		 II.	SYSTÉMOVÉ POŽADAVKY
+		III.	POTØEBNÉ ADDONY
+	  	 IV.	INSTRUKCE K INSTALACI
+                  V.	TVÙRCI
+		 VI.	UPOZORNÌNÍ
+
+
+I. ÚVOD
+=========================
+
+Atomový výbuch v Èeèensku pùl roku pøed pøíbìhem mise pøivedl svìt na pokraj války. USA obviòovaly z útoku Rusko, které však všechnu vinu popíralo. Nechybìlo mnoho a svìtová válka zaèala, avšak v poslední chvíli zjistil Mark Reynolds, zpravodajský dùstojník CIA, že za vším stáli teroristé. Útok byl odvolán a napìtí povolilo. Avšak teroristé nebyli nalezeni.
+Rozbíhá se vyšetøování a celých šest mìsícù trvá, než se Reynolds dostane na stopu ruského dùstojníka, plukovníka Karelina, který velí silám na ostrovì Stolbovoj na východním pobøeží Federace. Mark Reynolds se také vydává na ostrov, aby zjistil více. Když z Èeèenska na plukovníkùv rozkaz vzlétne letadlo s podezøelým nákladem, je na ostrov vyslán i Charles Brown s Timem Robbinsem, piloti bojového vrtulníku, a Diego Checa s týmem, jejich ochránci. A kdo ví, kdo ještì se na ostrovì objeví. Šachovnice je pøipravena. Figurky jsou v pohybu. Jste pøipraveni na válku?
+
+
+II. SYSTÉMOVÉ POŽADAVKY
+=========================
+
+K instalaci a hraní mise jsou nutné následující specifikace:
+
+  1,6 GHz Pentium® IV nebo podobná sestava
+  Windows® 98 / 98SE / ME / 2000 / XP 
+  256 MB RAM
+  64MB Direct3D kompatibilní 3D karta podoporující HARDWARE T&L, 32-bitové barvy,
+  a DirectX 8.1 kompatibilní ovladaè
+  DirectSound® kompatibilní 16-bitová zvuková karta s DirectX 8.1 kompatibilním ovladaèem
+  Windows® kompatibilní klávesnice a myš
+  DirectX® 8.1 nebo vyšší
+  24 MB volného místa na disku pro instalaci
+
+K plynulému hraní mise by váš poèítaè mìl splòovat tyto požadavky:
+
+  3 GHz Pentium® IV nebo podobná sestava
+  Windows® 98 / 98SE / ME / 2000 / XP  
+  1024 MB RAM 
+  256MB Direct3D kompatibilní 3D karta podoporující HARDWARE T&L, 32-bitové barvy,
+  a DirectX 8.1 kompatibilní ovladaè
+  DirectSound® kompatibilní 16-bitová zvuková karta s DirectX 8.1 kompatibilním ovladaèem
+  Windows® kompatibilní klávesnice a myš
+  DirectX® 8.1 nebo vyšší
+  24 MB volného místa na disku pro instalaci
+
+
+III. POTØEBNÉ ADDONY
+=========================
+
+RAH-66 Commanche od DKM Mod [5.89 MB]
+http://ofp.gamepark.cz/index.php?showthis=5687&newlang=eng
+
+Ostrov Sarugao [2.85 MB]
+http://ofp.gamepark.cz/index.php?showthis=1639&newlang=eng
+
+Antonov An-124 [6.4 MB]*
+http://ofp.gamepark.cz/index.php?showthis=5158&newlang=eng
+
+Hlídková loï tøídy Miraja [1.3 MB]
+http://ofp.gamepark.cz/index.php?showthis=3833&newlang=eng
+
+Piloti bez pøilby a padáku [0.5 MB]
+http://ofp.gamepark.cz/index.php?showthis=2793&newlang=eng
+
+Ostatní addony jsou pøiloženy k misi.
+
+* - Pro správný chod mise je BEZPODMÍNEÈNÌ nutné, aby byl použit addon Antonova pouze ve verzi 1.0!
+
+
+IV. INSTRUKCE K INSTALACI
+=========================
+GS-Mod Missions - Složka s misí; Pøesuòte do složky Missions ve vašem adresáøi OFP
+gaia_ro2_addon - Addon pro misi; Pøesuòte do složky Res\Addons ve vašem adresáøi OFP
+safe.pbo - Trezor od Everon Cartelu; Pøesuòte do složky Res\Addons ve vašem adresáøi OFP
+
+
+V. TVÙRCI
+=========================
+Režie			Gaia
+Kamera			Gaia
+Pøíbìh			Gaia
+			Silver Falcon
+Design mise		Gaia
+Speciální designér	Silver Falcon
+Scripty			Gaia
+			Brt
+			Munch
+Choreografie		TheRaptor
+			Hunter
+Speciální efekty	Enhaced Config Project
+			Kegetys
+			Gaia
+Efekt atomové exploze	Xenom
+Producent exteriérù	Schusch
+3D umìlec		Pavka
+Externí umìlci		Finnish Defense Forces
+			Decesive Killing Machine
+			MAPfact studio
+			Everon Cartel
+Hudba			Bill Brown
+Originální motiv	Dave Matthews band
+Dodateèná hudba		John Williams
+			Harry-Gregson Williams
+Zvuky			No One Lives Forever
+			JAM addon
+			Finnish Defense Forces mod
+Vedoucí kontrolor	Spawn
+Kontrola kvality	Munch
+			Ježuro
+			Faly
+			LAW
+Anglický pøeklad	Silver Falcon
+			Dusand
+Podìkování		ofp.ruprt.cz fórum
+			Sarge Studio
+			2DMM Team
+			BAS
+			Amalfi
+			Illustrate sowtware
+			ICQ
+Speciální podìkování	Yoshimitsu
+			MAA
+			MilWin
+			Peter Pearson
+
+Zvláštní podìkování si zaslouží Munch a Silver Falcon, kteøí i pøesto, že mìli doma VBS1, mi dál pomáhali s dokonèovacími pracemi na misi. Nejvìtší dík patøí P.W. za to, že je.
+
+
+VI. UPOZORNÌNÍ
+=========================
+Tato mise není vytvoøena pro komerèní použití. Není podporována vývojáøi hry "Operace Flashpoint". Tato mise je neformální
+produkt. Autoøi nenesou žádnou zodpovìdnost za pøípadná selhání vašeho poèítaèe, které mohou nastat pøi bìhu mise.
+Všechna práva na tento produkt jsou chránìna a náleží autorùm.
+
+Ještì jednou to pøipomínáme: mùžete použít misi pouze pro nekomerèní úèely! Nemáte povolení komukoli prodávat tento produkt!
+
+
+Informace o právech:
+Operation Flashpoin(TM) 
+Resistance(TM) 
+Copyright (c) 2002 Bohemia Interactive Studio a The Codemasters Software Company Limited.
+When The World Ends, WTWE (c) 2005/2006 GS-Mod
+
+Všechna ostatní práva a ochranné známky patøí jejich pøíslušným vlastníkùm.

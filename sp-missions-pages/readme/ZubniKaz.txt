@@ -1,0 +1,10 @@
+Autor: Petrroll
+Název mise: Zubní kaz
+Potřebná verze OFP: 1.96
+Potřebné addony: editorupdate102 od Kegetyse
+Typ mise: kombinovaná (převažně pěchotní)
+Intro: Ano
+Outro: Ano
+Popis: V misi se jako elitní důstojník SpetzNatz vzbouříte proti Generálovi Gubovi (nelíbí se vám, že dal zavraždit civilisty).
+
+V misi jsou použity songy od Hansa Zimmera a Roba Dougana.

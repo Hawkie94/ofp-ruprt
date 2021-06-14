@@ -1,0 +1,28 @@
+=================================
+//KRVAVÁ ODPLATA (MISE) od Doomka///
+=================================
+
+//Verze hry: 1.09 
+
+//Obsah:      Addon (AI sandbag-bugfix addon, Fromz sound mod, Fromz's sound mod/FFAMM Fixed.)
+                   Datadisk Queen's Gambit
+
+
+//Credits:     Doomek - Vedoucí mise, scripty, addony, dabing atd..
+                   Mara - Dabing
+                   Chicago - Betatesting, Dabing
+
+                   http://dmstudio.blog.cz
+                   http://doomek.blog.cz
+                   ICQ: 389-779-066 (Doomek)
+
+//Speciální podìkování:
+
+                   Ruprtovì poradnì (je to nejlepší èeské forum)
+                   Chicagovi (za jeho ochotu namluvit daging i pøes spousty práce a za betatesting)
+                   Marovi (za dabing)
+
+
+//Velikost mise: 
+            
+                  //5Mb//

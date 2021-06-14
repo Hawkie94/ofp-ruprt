@@ -1,0 +1,38 @@
+__________________________________________________________________________________________________________________
+
+                *********************** Operation Flashpoint ***********************
+__________________________________________________________________________________________________________________
+
+                 >>>>>>>>>>>>>>>>>>>>>>> RESISTAMCE <<<<<<<<<<<<<<<<<<<<<<<
+__________________________________________________________________________________________________________________
+
+==================================
+AUOTR: Didymos (Didymos@seznam.cz)
+==================================
+JMÉNO MISE: RESISTANCE
+==================================
+TYP MISE: video mise
+==============================================================
+POUŽITÉ ADDONY: 
+- neukázali se mi žádné, tudíž by si to mìl prohlédnout každý
+- Ale je za potøebí EditorUpgrade102 Ke stažení napø. tady: "http://www.sweb.cz/didymos/EditorUpgrade102.zip"
+=============================================================================================================
+INSTALACE: 
+- Soubor "resistance.Eden.pbo" rozbal do adresáøe Missions.
+  Obvykle: "C:\Program Files\Codemasters\OperationFlashpoint\Missions\resistance.Eden.pbo" 
+
+=============================================================================================================
+POZNÁMKY:
+- Potom, co jsem vidìl Resistance trailer k pøipravovanému datadisku pro OFP mì napadla taková 
+  malá klukovina. Podívej se sám. Nemìl jsem v úmyslu opisovat, jen jsem se chtìl podívat na 
+  rozdíl. :o))  
+
+  Pøíjemnou zábavu a hezký den. 
+==================================================================================================================
+OMLUVA:
+- Pracoval jsem na tom dvì odpoledne, takže asi 10-15 hodin, takže tam bude asi spousta chyb a vùbec bych radìji 
+  nerozebíral zdroják. Takže pardón. :o)
+==================================================================================================================
+
+
+KONEC

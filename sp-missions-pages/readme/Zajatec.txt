@@ -1,0 +1,10 @@
+Název: Zajatec
+Autor: Armstrong
+E-mail: bombermen@post.cz
+Ostrov: Everon
+Addony: pouze oficiální(Bizon), a EditorUgrade 1.02
+Verze: 1.46
+Chyby: V outru je trochu větší prodleva před prvním rozhovorem. V intru při zajmutí hráče se někdy špatně přepne kamera.
+Strana: Západ
+Poznámka: Toto je moje premiérová mise, jsou tam tudíž chyby, ale myslím si, že na to, že je to první moje mise je celkem dobrá.   
+

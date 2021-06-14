@@ -1,0 +1,807 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Tutorial - Práce s dialogy</title>
+<style type="text/css">
+BODY
+{
+	scrollbar-arrow-color:#FFFFFF;
+	scrollbar-face-color:#000000;
+	scrollbar-highlight-color:#000000;
+	scrollbar-shadow-color:#000000;
+	scrollbar-3dlight-color:#FFFFFF;
+	scrollbar-darkshadow-color:#FFFFFF;
+	scrollbar-track-color:#000000;
+}
+td
+{
+	font-family: Verdana;
+	font-size: 10pt;
+	color: #FFFFFF;
+	text-align: Justify;
+	word-spacing:0;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+p
+{
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: 5;
+	margin-right: 5;
+}
+
+</style>
+
+<style fprolloverstyle="">A:hover {color: #FF9933; font-weight: bold}
+</style>
+
+
+</head><body vlink="#00FFFF" text="#FFFFFF" link="#00FFFF" bgcolor="#000000" alink="#00FFFF">
+
+<div align="center">
+  <center>
+<table cols="2" width="100%" border="1">
+  <tbody><tr> 
+    <td valign="top"> 
+      <div align="center">
+        <center>
+        <table style="border-collapse: collapse" width="293" cellspacing="0" cellpadding="0" border="2">
+          <tbody><tr>
+            <td width="281" align="center">
+            <p style="text-align: center">
+            <font size="3" face="Verdana" color="#FFFF00"><b>Tutorial 
+            28 - Práce s dialogy</b></font></p></td>
+          </tr>
+          <tr>
+            <td width="281" align="center">
+            <p style="text-align: center"><b>
+            <font size="2" face="Verdana" color="#FFCC66">Autor
+              : Ruprt</font></b></p></td>
+          </tr>
+          <tr>
+            <td style="text-align: center" width="281" align="center">
+            <b><font color="#FF9933">
+            <a href="HelloWorld.intro.zip">Download</a> </font></b>= Tento tutorial + ukázka</td>
+          </tr>
+        </tbody></table>
+        </center>
+      </div>
+      <p style="margin-top: 0; margin-bottom: 0" align="justify">&nbsp;</p>
+      <p style="margin-top: 0; margin-bottom: 0" align="justify">&nbsp;</p>
+      <p style="margin-top: 0; margin-bottom: 0" align="justify">
+      <font size="2" face="Verdana"><b><font color="#FFCC66">Co je to vlastně 
+      dialog ?</font></b><br>
+      Dialog je všem uživatelům PC dobře znám i přesto, že kolikrát vlastně ani 
+      nevědí, že se o dialogové okno právě jedná. Dialogem jsou veškerá okna 
+      aplikací sloužící k tomu, aby uživateli podaly nějakou zprávu nebo 
+      informaci, nebo aby od uživatele daná aplikace získala nějaká data nebo 
+      rozhodnutí. Typickým dialogovým oknem je například okno požadující po 
+      uživateli zadání jména a hesla při spouštění operačního systému Windows, 
+      nebo okénko zobrazené po provedení změny v souboru např. u aplikace MS 
+      Word dotazující se uživatele, zda-li mají být provedené změny uloženy. U 
+      OFP je typickým dialogovým oknem celý Editor misí nebo okénko spouštěné 
+      pomocí příkazu HintC. Když se to vezme kolem a kolem OFP celé je vlastně 
+      založeno na dialogových oknech -&gt; brífingovým zápisníkem počínaje (zkuste 
+      si jen tak pro zajímavost jednou napsat do pole PŘI AKTIVACI jakéhokoli 
+      spínače vysílačky toto : check = CreateDialog "RscDisplayMainMap", a pak 
+      ji spusťte) a zobrazením cinemaborderu při zabití hráče konče (check = 
+      CreateDialog "RscDisplayMissionEnd").<br>
+      <br>
+      <br>
+      <b><font color="#FFCC66">K čemu v OFP potřebujeme dialogy ?</font></b><br>
+      Dialog je velmi silný nástroj pomáhající tvůrci misí vytvářet mise mnohem 
+      zajímavější, větvené, poskytující hráči možnosti volby, jak se bude hra 
+      dále vyvíjet v závislosti na jeho rozhodnutí. Takto je jednoduše možné dát 
+      hráči na výběr tím, že v určité fázi hry se mu objeví dialogové okno, 
+      které mu nabídne např. takovéto možnosti : 1) bude pokračovat dál, sám a s 
+      větším rizikem, 2) Přivolá na pomoc další vojáky, 3) Úkol ležící před ním 
+      vynechá a bude pokračovat dál aniž by daný úkol splnil (a mise by dál 
+      nemohla pokračovat), nebo 4) Misi prostě ukončí, přičemž každá z těchto 
+      voleb bude nějak bodově ohodnocena (toto se jeví aplikovatelné především u 
+      kampaní) a podle dosaženého počtu bodů se bude kampaň dále vyvíjet.<br>
+      V neposlední řadě může být dialogové okno velmi silným pomocníkem tvůrce 
+      při samotném vývoji a testování mise. Kdokoli si již alespoň jednou zkusil 
+      misi vytvořit, bude se mnou souhlasit, že by práce byla mnohem jednodušší, 
+      kdyby při při testovacím běhu mise věděl, na jakých souřadnicích se např. 
+      určitá jednotka nachází, jak daleko je nejbližší nepřítel, jakou zbraň 
+      právě používá raketometčík, který má odpálit BVPéčko (obvykle má zrovna v 
+      ruce jenom klacek) a kde se (ksakru) zrovna nachází podpůrná skupina. Tak 
+      tohle všechno lze jednoduše zjistit pomocí jednoho předem definovaného 
+      dialogového debug okna, které si spustíte např. nabídkou v akčním menu 
+      nebo prostě vysílačkou.<br>
+      <br>
+&nbsp;</font></p>
+      <p style="margin-top: 0; margin-bottom: 0" align="justify">
+      <font size="2" face="Verdana"><b><font color="#FFCC66">Popis logiky 
+      definice tříd dialogů - description.ext</font></b><br>
+      Základem jakéhokoli dialogového okna je definice jeho tříd (class), které 
+      OFP vyhledává v souborech v pořadí :<br>
+      1) description.ext - v adresáři mise<br>
+      2) description.ext - v adresáři kampaně<br>
+      3) resource.bin - v vdresáři \Res\Bin nebo\Bin hry OFP<br>
+      <br>
+      Tyto třídy jsou vlastně stavební kameny jednotlivých prvků (objektů) 
+      dialogu jako jsou např. tlačítka, rámečky, texty, obrázky, comboboxy apod. 
+      (pozn. skládají se z vlastností, metod a funkcí - ale to není důležité 
+      vědět. Pokud však máte nějaké zkušenosti s některými programovacími jazyky 
+      jako jsou např. VisulaBasic, C++, Visual FoxPro, budete mít práci s 
+      pochopením tříd velmi usnadněnou).<br>
+      <br>
+&nbsp;</font></p>
+      <p style="margin-top: 0; margin-bottom: 0" align="justify">
+      <font size="2" face="Verdana"><b><font color="#FFCC66">Příklad vytvoření 
+      dialogu</font></b><br>
+      Pro základní pochopení tvorby dialogu zde popíšu postup vytvoření a 
+      spuštění velmi oblíbeného okna začátečníků ve všech programovacích 
+      jazycích "Hello, World!", které doplním o combobox a funkci získání a 
+      zobrazení souřadnic jednotlivých vojáků ve skupině hráče. Misi provedeme 
+      ve dvojjazyčném zpracování.<br>
+      Misi si umístíme na ostrov Desert Island (nejrychleji se načítá). Kamkoli 
+      (na pevninu :o)) si umístíme skupinu vojáků Západu a hráče uděláme 
+      velitelem. Poté si misi uložíme jako HelloWorld.<br>
+      V adresáři HelloWorld, který nám hra sama vytvořila, najdeme pouze soubor 
+      mission.sqm. V tomto adresáři vytvoříme soubor description.ext 
+      (upozornění: pokaždé, když upravíte soubor desription.ext nebo stringtable.csv, 
+      je nutné misi znovu načíst aby se změny projevily) do kterého vepíšeme 
+      následující kód:<br>
+      <br>
+&nbsp;</font></p>
+        <table style="border-collapse: collapse" id="AutoNumber1" width="95%" height="516" border="0">
+          <tbody><tr>
+            <td width="33%" height="16">
+            <font size="2" face="Verdana" color="#D5FDCE">#define 
+            FontMAINCZ</font></td>
+            <td width="19%" height="16" align="left">
+            <font size="2" face="Verdana" color="#D5FDCE">
+            "SteelfishB64CE"</font></td>
+            <td style="margin-left: 6" width="76%" height="16" align="left">
+            <font size="2" face="Verdana" color="#D5FDCE">// definice typu písma</font></td>
+          </tr>
+          <tr>
+            <td width="33%" height="16">
+            <font size="2" face="Verdana" color="#D5FDCE">#define 
+            FontNOTES </font></td>
+            <td width="19%" height="16" align="left">
+            <font size="2" face="Verdana" color="#D5FDCE">
+            "AudreysHandI48"</font></td>
+            <td style="margin-left: 6" width="76%" height="16" align="left">
+            <font size="2" face="Verdana" color="#D5FDCE">// definice typu písma</font></td>
+          </tr>
+          <tr>
+            <td width="33%" height="16">
+            <font size="2" face="Verdana" color="#D5FDCE">#define 
+            FontS</font></td>
+            <td width="19%" height="16" align="left">
+            <font size="2" face="Verdana" color="#D5FDCE">
+            "tahomaB24"</font></td>
+            <td style="margin-left: 6" width="76%" height="16" align="left">
+            <font size="2" face="Verdana" color="#D5FDCE">// definice typu písma</font></td>
+          </tr>
+          <tr>
+            <td width="33%" height="16">
+            <font size="2" face="Verdana" color="#D5FDCE">#define 
+            FontM</font></td>
+            <td width="19%" height="16" align="left">
+            <font size="2" face="Verdana" color="#D5FDCE">
+            "tahomaB36"</font></td>
+            <td style="margin-left: 6" width="76%" height="16" align="left">
+            <font size="2" face="Verdana" color="#D5FDCE">// definice typu písma</font></td>
+          </tr>
+          <tr>
+            <td width="33%" height="18"></td>
+            <td width="19%" height="18" align="left"></td>
+            <td style="margin-left: 6" width="76%" height="18" align="left">
+            </td>
+          </tr>
+          <tr>
+            <td width="33%" height="18">
+            <font size="2" face="Verdana" color="#D5FDCE">// Control 
+            types</font></td>
+            <td width="19%" height="18" align="left"></td>
+            <td style="margin-left: 6" width="76%" height="18" align="left">
+            </td>
+          </tr>
+          <tr>
+            <td width="33%" height="16">
+            <font size="2" face="Verdana" color="#D5FDCE">#define CT_STATIC
+            </font></td>
+            <td width="19%" height="16" align="left">
+            <font size="2" face="Verdana" color="#D5FDCE">0</font></td>
+            <td style="margin-left: 6" width="76%" height="16" align="left">
+            <font size="2" face="Verdana" color="#D5FDCE">// statický typ (text, pozadí, obrázek apod.)</font></td>
+          </tr>
+          <tr>
+            <td width="33%" height="16">
+            <font size="2" face="Verdana" color="#D5FDCE">#define CT_BUTTON</font></td>
+            <td width="19%" height="16" align="left">
+            <font size="2" face="Verdana" color="#D5FDCE">1</font></td>
+            <td style="margin-left: 6" width="76%" height="16" align="left">
+            <font size="2" face="Verdana" color="#D5FDCE">// Tlačítka</font></td>
+          </tr>
+          <tr>
+            <td width="33%" height="16">
+            <font size="2" face="Verdana" color="#D5FDCE">#define CT_COMBO</font></td>
+            <td width="19%" height="16" align="left">
+            <font size="2" face="Verdana" color="#D5FDCE">4</font></td>
+            <td style="margin-left: 6" width="76%" height="16" align="left">
+            <font size="2" face="Verdana" color="#D5FDCE">// ComboBoxy</font></td>
+          </tr>
+          <tr>
+            <td width="33%" height="18"></td>
+            <td width="19%" height="18" align="left"></td>
+            <td style="margin-left: 6" width="76%" height="18" align="left">
+            </td>
+          </tr>
+          <tr>
+            <td width="33%" height="18">
+            <font size="2" face="Verdana" color="#D5FDCE">// Static 
+            styles</font></td>
+            <td width="19%" height="18" align="left"></td>
+            <td style="margin-left: 6" width="76%" height="18" align="left">
+            </td>
+          </tr>
+          <tr>
+            <td width="33%" height="16">
+            <font size="2" face="Verdana" color="#D5FDCE">#define 
+            ST_LEFT</font></td>
+            <td width="19%" height="16" align="left">
+            <font size="2" face="Verdana" color="#D5FDCE">0</font></td>
+            <td style="margin-left: 6" width="76%" height="16" align="left">
+            <font size="2" face="Verdana" color="#D5FDCE">// zarovnání textu doleva</font></td>
+          </tr>
+          <tr>
+            <td width="33%" height="16">
+            <font size="2" face="Verdana" color="#D5FDCE">#define 
+            ST_RIGHT</font></td>
+            <td width="19%" height="16" align="left">
+            <font size="2" face="Verdana" color="#D5FDCE">1</font></td>
+            <td style="margin-left: 6" width="76%" height="16" align="left">
+            <font size="2" face="Verdana" color="#D5FDCE">// zarovnání textu doprava</font></td>
+          </tr>
+          <tr>
+            <td width="33%" height="16">
+            <font size="2" face="Verdana" color="#D5FDCE">#define 
+            ST_CENTER</font></td>
+            <td width="19%" height="16" align="left">
+            <font size="2" face="Verdana" color="#D5FDCE">2</font></td>
+            <td style="margin-left: 6" width="76%" height="16" align="left">
+            <font size="2" face="Verdana" color="#D5FDCE">// zarovnání textu na střed</font></td>
+          </tr>
+          <tr>
+            <td width="33%" height="16">
+            <font size="2" face="Verdana" color="#D5FDCE">#define 
+            ST_UP</font></td>
+            <td width="19%" height="16" align="left">
+            <font size="2" face="Verdana" color="#D5FDCE">3</font></td>
+            <td style="margin-left: 6" width="76%" height="16" align="left">
+            <font size="2" face="Verdana" color="#D5FDCE">// zarovnání textu nahoru</font></td>
+          </tr>
+          <tr>
+            <td width="33%" height="16">
+            <font size="2" face="Verdana" color="#D5FDCE">#define 
+            ST_DOWN </font></td>
+            <td width="19%" height="16" align="left">
+            <font size="2" face="Verdana" color="#D5FDCE">4</font></td>
+            <td style="margin-left: 6" width="76%" height="16" align="left">
+            <font size="2" face="Verdana" color="#D5FDCE">// zarovnání textu dolu</font></td>
+          </tr>
+          <tr>
+            <td width="33%" valign="top" height="32">
+            <font size="2" face="Verdana" color="#D5FDCE">#define ST_VCENTER </font></td>
+            <td width="19%" valign="top" height="32" align="left">
+            <font size="2" face="Verdana" color="#D5FDCE">5</font></td>
+            <td style="margin-left: 6" width="76%" height="32" align="left">
+            <font size="2" face="Verdana" color="#D5FDCE">// zarovnání textu vertikálně - otočí 
+            text o 90° po směru hodinových ručiček</font></td>
+          </tr>
+          <tr>
+            <td width="33%" valign="top" height="18"></td>
+            <td width="19%" valign="top" height="18" align="left"></td>
+            <td style="margin-left: 6" width="76%" height="18" align="left">
+            </td>
+          </tr>
+          <tr>
+            <td width="33%" valign="top" height="31">
+            <font size="2" face="Verdana" color="#D5FDCE">#define ST_SINGLE</font></td>
+            <td width="19%" valign="top" height="31" align="left">
+            <font size="2" face="Verdana" color="#D5FDCE">0</font></td>
+            <td style="margin-left: 6" width="76%" height="31" align="left">
+            <font size="2" face="Verdana" color="#D5FDCE">// do pole lze zadat pouze 1 řádek textu 
+            - nelze použít \n pro přechod na další řádek</font></td>
+          </tr>
+          <tr>
+            <td width="33%" valign="top" height="32">
+            <font size="2" face="Verdana" color="#D5FDCE">#define ST_MULTI</font></td>
+            <td width="19%" valign="top" height="32" align="left">
+            <font size="2" face="Verdana" color="#D5FDCE">16</font></td>
+            <td style="margin-left: 6" width="76%" height="32" align="left">
+            <font size="2" face="Verdana" color="#D5FDCE">// do pole lze zapsat více řádek textu - 
+            lze použít \n pro přechod na další řádek</font></td>
+          </tr>
+          <tr>
+            <td width="33%" valign="top" height="21">
+            <font size="2" face="Verdana" color="#D5FDCE">#define ST_TITLE</font></td>
+            <td width="19%" valign="top" height="21" align="left">
+            <font size="2" face="Verdana" color="#D5FDCE">32</font></td>
+            <td style="margin-left: 6" width="76%" valign="top" height="21" align="left">
+            <font size="2" face="Verdana" color="#D5FDCE">// titulkový rámeček</font></td>
+          </tr>
+          <tr>
+            <td width="33%" valign="top" height="21">
+            <font size="2" face="Verdana" color="#D5FDCE">#define ST_PICTURE</font></td>
+            <td width="19%" valign="top" height="21" align="left">
+            <font size="2" face="Verdana" color="#D5FDCE">48</font></td>
+            <td style="margin-left: 6" width="76%" valign="top" height="21" align="left">
+            <font size="2" face="Verdana" color="#D5FDCE">// obrázek</font></td>
+          </tr>
+          <tr>
+            <td width="33%" valign="top" height="16">
+            <font size="2" face="Verdana" color="#D5FDCE">#define 
+            ST_3D_BORDER</font></td>
+            <td width="19%" valign="top" height="16" align="left">
+            <font size="2" face="Verdana" color="#D5FDCE">80</font></td>
+            <td style="margin-left: 6" width="76%" height="16" align="left">
+            <font size="2" face="Verdana" color="#D5FDCE">// rámeček je vyplněn a má 3D okraj</font></td>
+          </tr>
+          <tr>
+            <td width="33%" height="18">
+            <font size="2" face="Verdana" color="#D5FDCE">#define ST_NO_BORDER</font></td>
+            <td width="19%" height="18" align="left">
+            <font size="2" face="Verdana" color="#D5FDCE">96</font></td>
+            <td style="margin-left: 6" width="76%" height="18" align="left">
+            <font size="2" face="Verdana" color="#D5FDCE">// rámeček bez okraje</font></td>
+          </tr>
+          <tr>
+            <td width="33%" height="18"></td>
+            <td width="19%" height="18" align="left"></td>
+            <td style="margin-left: 6" width="76%" height="18" align="left">
+            </td>
+          </tr>
+          <tr>
+            <td width="33%" height="16">
+            <font size="2" face="Verdana" color="#D5FDCE">#define 
+            ST_HUD_BACKGROUND</font></td>
+            <td width="19%" height="16" align="left">
+            <font size="2" face="Verdana" color="#D5FDCE">128</font></td>
+            <td style="margin-left: 6" width="76%" height="16" align="left">
+            <font size="2" face="Verdana" color="#D5FDCE">// typ podkladu - je průsvitný</font></td>
+          </tr>
+          <tr>
+            <td width="33%" height="16">
+            <font size="2" face="Verdana" color="#D5FDCE">#define 
+            ST_WITH_RECT</font></td>
+            <td width="19%" height="16" align="left">
+            <font size="2" face="Verdana" color="#D5FDCE">160</font></td>
+            <td style="margin-left: 6" width="76%" height="16" align="left">
+            <font size="2" face="Verdana" color="#D5FDCE">// rámeček bude mít viditelný okraj</font></td>
+          </tr>
+          <tr>
+            <td width="33%" height="16">
+            <font size="2" face="Verdana" color="#D5FDCE">#define 
+            ST_SHADOW</font></td>
+            <td width="19%" height="16" align="left">
+            <font size="2" face="Verdana" color="#D5FDCE">256</font></td>
+            <td style="margin-left: 6" width="76%" height="16" align="left">
+            <font size="2" face="Verdana" color="#D5FDCE">// písmo bude mít stín</font></td>
+          </tr>
+          <tr>
+            <td width="33%" height="16">
+            <font size="2" face="Verdana" color="#D5FDCE">#define 
+            ST_NO_RECT</font></td>
+            <td width="19%" height="16" align="left">
+            <font size="2" face="Verdana" color="#D5FDCE">512</font></td>
+            <td style="margin-left: 6" width="76%" height="16" align="left">
+            <font size="2" face="Verdana" color="#D5FDCE">// rámeček nebude mít viditelný okraj</font></td>
+          </tr>
+        </tbody></table>
+      <p style="margin-top: 0; margin-bottom: 0" align="justify">
+      <font size="2" face="Verdana">&nbsp;<br>
+      <br>
+      (toto není tak moc důležité neboť se tím pouze přiřadily lépe 
+      zapamatovatelné názvy typům a stylům objektů - důležitá jsou čísla a ta 
+      jsou již předem nadefinována. Jinými slovy kód by fungoval i bez výše 
+      uvedeného, ale musely by se používat pouze čísla a ta se hůře pamatují)<br>
+      <br>
+      Nyní si nadefinujeme základní třídy objektů dialogu (base control classes). 
+      Opět to není nutné, ale práce se tím podstatně zjednodušuje, neboť bez 
+      základních tříd by se musely všechny objekty definovat zvlášť, což zabírá 
+      moc času a mnohem víc řádek kódu. Takto vždy každý objekt odvodíme od již 
+      definované základní třídy. Takže :<br>
+      <br>
+      <font color="#D5FDCE">class RscBackground<br>
+      {<br>
+      type=CT_STATIC<br>
+      idc=-1<br>
+      style=ST_3D_BORDER<br>
+      x=0.150000;<br>
+      y=0.150000;<br>
+      w=0.700000;<br>
+      h=0.700000;<br>
+      text="";<br>
+      colorBackground[]={1,1,1,1};<br>
+      colorText[]={0,0,0,0};<br>
+      font="tahomaB24";<br>
+      sizeEx=0<br>
+      };<br>
+      <br>
+      class RscTitle<br>
+      {<br>
+      type=CT_STATIC<br>
+      idc=-1<br>
+      style=ST_TITLE + ST_CENTER;<br>
+      x=0.150000;<br>
+      y=0.164000;<br>
+      w=0.700000;<br>
+      h=0.060000;<br>
+      text="";<br>
+      colorBackground[]={1,1,0,1};<br>
+      colorText[]={1,1,1,1};<br>
+      font="tahomaB36";<br>
+      sizeEx="1.0714 * 0.03";<br>
+      };<br>
+      <br>
+      class RscGroupBox<br>
+      {<br>
+      type=CT_STATIC<br>
+      idc=-1<br>
+      style=ST_NO_BORDER<br>
+      text="";<br>
+      colorBackground[]={0,0,0,0};<br>
+      colorText[]={0,0,0,0};<br>
+      font="tahomaB24";<br>
+      sizeEx=0.020000;<br>
+      };<br>
+      <br>
+      class RscText<br>
+      {<br>
+      type=CT_STATIC<br>
+      idc=-1<br>
+      style=ST_LEFT + ST_MULTI + ST_NO_RECT;<br>
+      lineSpacing=1.000000;<br>
+      h=0.040000;<br>
+      colorBackground[]={0,0,0,0};<br>
+      colorText[]={0.080000,0.080000,0.120000,0.750000};<br>
+      font="tahomaB24";<br>
+      sizeEx=0.020000;<br>
+      };<br>
+      <br>
+      class RscPicture<br>
+      {<br>
+      type=CT_STATIC<br>
+      idc=-1<br>
+      style=ST_PICTURE<br>
+      colorBackground[]={0,0,0,0};<br>
+      colorText[]={1,1,1,1};<br>
+      font="tahomaB24";<br>
+      sizeEx=0<br>
+      };<br>
+      <br>
+      class RscButton<br>
+      {<br>
+      type=CT_BUTTON<br>
+      style=ST_CENTER<br>
+      w=0.110000;<br>
+      h=0.050000;<br>
+      colorText[]={0.080000,0.080000,0.120000,1};<br>
+      font="tahomaB24";<br>
+      sizeEx=0.020000;<br>
+      default=0<br>
+      soundPush[]={"ui\ui_ok",0.200000,1};<br>
+      soundClick[]={"",0.200000,1};<br>
+      soundEscape[]={"ui\ui_cc",0.200000,1};<br>
+      };<br>
+      <br>
+      class RscCombo<br>
+      {<br>
+      type=CT_COMBO<br>
+      style=ST_LEFT<br>
+      h=0.040000;<br>
+      wholeHeight=0.250000;<br>
+      colorSelect[]={0.350000,0.380000,0.360000,1};<br>
+      colorText[]={0.080000,0.080000,0.120000,0.750000};<br>
+      colorBackground[]={0.350000,0.380000,0.360000,0.750000};<br>
+      font="tahomaB24";<br>
+      sizeEx=0.020000;<br>
+      };<br>
+      </font><br>
+      <b>Vysvětlivky :</b><br>
+      idc - index třídy objektu (vlastně takový číselný název), zde většinou -1, 
+      neboť se jedná o base class<br>
+      style - chování objektu (zarovnání apod.)<br>
+      colorBackground - barva pozadí RGBA (1 = 255 = FF (HEX) a 0 = 0 = 00(HEX)) 
+      - A je průsvitnost<br>
+      colorText - barva písma RGBA (1 = 255 = FF (HEX) a 0 = 0 = 00(HEX)) - A je 
+      průsvitnost<br>
+      colorSelect - barva podkladu myší vybrané položky ComboBoxu - RGBA<br>
+      font - typ písma (lze použít i ony definice např. FontMAINCZ, ale tady je 
+      lepší používat název písma)<br>
+      lineSpacing - velikost mezery mezi řádky při stylu ST_MULTI<br>
+      sizeEx - velikost písma<br>
+      size - velikost písma<br>
+      default - standardní/hlavní tlačítko (když se stiskne ENTER stiskne se 
+      tlačítko s default=1)<br>
+      soundPush/Escape/Click - zvuk, který se přehraje při stisku tlačítka OK/Cancel/ostatní<br>
+      x - vzdálenost levého horního rohu objektu od levého okraje obrazovky, 
+      0-úplně vlevo, 1-úplně vpravo<br>
+      y - vzdálenost levého horního rohu objektu od horního okraje obrazovky, 
+      0-úplně nahoře, 1-úplně dole<br>
+      w - šířka objektu<br>
+      h - výška objektu<br>
+      wholeHeight - výška rozbaleného ComboBoxu<br>
+      <br>
+      No a teď když máme definovány základní třídy objektů, můžeme se vrhnout na 
+      samotnou tvorbu dialogového okna :<br>
+      <br>
+      <font color="#D5FDCE">class RscHelloWorld<br>
+      {<br>
+      idd=1000<br>
+      movingEnable=1<br>
+      class Controls<br>
+      {<br>
+      <br>
+      // ----------------------------------------<br>
+      // --------- Dialog Appearence ------------<br>
+      // ----------------------------------------<br>
+      <br>
+      class Background: RscBackground //vytvoří základní rámeček celého dialogu<br>
+      {<br>
+      x=0.250000;<br>
+      y=0.250000;<br>
+      w=0.500000;<br>
+      h=0.500000;<br>
+      };<br>
+      class SubBackground: RscGroupBox // vytvoří druhý rámeček uvnitř základníh, 
+      čímž se zvýrazní<br>
+      {<br>
+      x=0.270000;<br>
+      y=0.270000;<br>
+      w=0.460000;<br>
+      h=0.460000;<br>
+      };<br>
+      <br>
+      // ----------------------------------------<br>
+      // -------------- TextBoxes ---------------<br>
+      // ----------------------------------------<br>
+      <br>
+      <br>
+      class Title: RscTitle //Rámeček titulku dialogu s nadpisem "Hello, World 
+      !"<br>
+      {<br>
+      idc=1001<br>
+      x=0.350000;<br>
+      y=0.270000;<br>
+      w=0.300000;<br>
+      h=0.060000;<br>
+      text="$STR_DLG_Title";<br>
+      };<br>
+      <br>
+      class TextBox1: RscTitle //Rámeček pro výpis textů <br>
+      {<br>
+      idc=1002<br>
+      x=0.290000;<br>
+      y=0.350000;<br>
+      w=0.420000;<br>
+      h=0.180000;<br>
+      text="";<br>
+      sizeEx="0.022";<br>
+      };<br>
+      class TextBox2: RscText //Textové pole pro výpis textů uvnitř 1.rámečku<br>
+      {<br>
+      idc=1003<br>
+      x=0.300000;<br>
+      y=0.360000;<br>
+      w=0.400000;<br>
+      h=0.160000;<br>
+      colorBackground[]={0,0,0,0};<br>
+      colorText[]={1,1,0,1};<br>
+      text="$STR_TextBox2_1";<br>
+      sizeEx="0.024";<br>
+      };<br>
+      <br>
+      <br>
+      // ----------------------------------------<br>
+      // -------------- Buttons -----------------<br>
+      // ----------------------------------------<br>
+      <br>
+      class GetData: RscButton // Tlačítko "Získej údaje"<br>
+      {<br>
+      idc=2001;<br>
+      x=0.580000;<br>
+      y=0.550000;<br>
+      text=$STR_BTN_GetData;<br>
+      action="Player Exec ""onClickGetData.sqs""";<br>
+      };<br>
+      <br>
+      class ButtonCancel: RscButton //Tlačítko "Cancel"<br>
+      {<br>
+      idc=2002<br>
+      x=0.385000;<br>
+      y=0.640000;<br>
+      w=0.130000;<br>
+      h=0.050000;<br>
+      text="$STR_BTN_CANCEL";<br>
+      action="CloseDialog 1000; sd = Nil";<br>
+      };<br>
+      // ----------------------------------------<br>
+      // -------------- ComboBoxes --------------<br>
+      // ----------------------------------------<br>
+      <br>
+      class CBSoldiers: RscCombo //Vytvoří ComboBox<br>
+      {<br>
+      idc=3001<br>
+      style = ST_TITLE + ST_CENTER;<br>
+      x=0.315000;<br>
+      y=0.565000;<br>
+      w=0.250000;<br>
+      h=0.025000;<br>
+      colorSelect[]={1,1,1,1};<br>
+      colorText[]={0,0,0,0.750000};<br>
+      rowHeight=0.025000;<br>
+      };<br>
+      <br>
+      // ----------------------------------------<br>
+      // --------------- Pictures ---------------<br>
+      // ----------------------------------------<br>
+      <br>
+      class RuprtLogo: RscPicture //Umístí do dialogu obrazek<br>
+      {<br>
+      idc=4001<br>
+      text="ruprtslogo.jpg";<br>
+      x=0.581900;<br>
+      y=0.610000;<br>
+      w=0.107500;<br>
+      h=0.115000;<br>
+      colorText[]={1,1,1,1};<br>
+      };<br>
+      };<br>
+      };<br>
+      </font><br>
+      A toť vše.<br>
+      Údaj Action u tlačítek je vlastně metoda, která se spustí při stisku 
+      daného tlačítka a provede veškeré příkazy uvedené v uvozovkách za 
+      rovnítkem. Příkazů může být několik, musí však být odděleny středníkem. 
+      Nastavení této metody lze za běhu programu změnit příkazem ButtonSetAction.<br>
+      <br>
+      Teď je nutné si vytvořit soubor stringtable.csv, aby mohly být získávány 
+      texty pro všechny objekty dialogu a do tohoto souboru zapsat následující :<br>
+      <br>
+      <font color="#D5FDCE">Language, Czech, English, Comment<br>
+      <br>
+      STR_DLG_Title, "Hello, World !", "Hello, World !",<br>
+      <br>
+      STR_TextBox2_1, "\nVyberte z ComboBoxu níže vojáka, jehož\n\nsouřadnice se 
+      vám zobrazí v tomto rámečku.", "\nChoose a soldier from ComboBox bellow\n\nto 
+      display his coordinates.",<br>
+      STR_TextBox2_2, "Voják ""%1"" je na souřadnicích :\nOsa X = %2\nOsa Y = 
+      %3\nOsa Z = %4\núhel = %5°\nnázev jednotky = %6", "Soldier ""%1"" is on 
+      coordinates :\nX axis = %2\nY axis = %3\nZ axis = %4\nangle = %5°\nname of 
+      unit = %6",<br>
+      <br>
+      STR_BTN_GetData, Získej údaje, Get Data,<br>
+      STR_BTN_CANCEL, Ukončit, Cancel,<br>
+      <br>
+      STR_CB_Txt_0, Vyberte vojáka, Choose a soldier,<br>
+      STR_AddAction_0, Spustit dialog, Start dialog,<br>
+      <br>
+      STR_Hint, "Nyní máte otevřené Akční menu.\nStiskem první 
+      položky\n""Spustit dialog""\notevřete dialog ""Hello, World !""", "The 
+      Action menu is opened now.\nPress first item to open\n""Hello, World !"" 
+      dialog.",<br>
+      STR_Error, "Nevybral jste žádného vojáka !!!", "You havn't selected any 
+      soldier !!!",<br>
+      </font><br>
+      Teď již máme hotovo vše abychom mohli dialog spustit příkazem check = 
+      CreateDialog "RscHelloWorld". Ale....... Tento dialog se nám sice otevře, 
+      ale nebude zcela funkční, neboť je ještě zapotřebí vytvořit pár 
+      jednoduchých scriptů, pomocí kterých budeme chování dialogu ovládat. <br>
+      První script přidá položku do Akčního menu, kterou se aktivuje dialog a 
+      napoví hráči co že to má vlastně udělat. Je to všem velmi dobře známý init.sqs, 
+      který obsahuje pouze :<br>
+      <br>
+      <font color="#D5FDCE">player AddAction [Localize"STR_AddAction_0", "activatedialog.sqs"]<br>
+      ~0.5<br>
+      Hint Localize"STR_Hint"<br>
+      Exit<br>
+      <br>
+      Druhý script je o něco složitější neboť má za úkol aktivovat dialog a 
+      iniciovat jeho impicitní nastavení. Je to script activatedialog.sqs, který 
+      obsahuje tento kód :<br>
+      <br>
+      _check = CreateDialog "RscHelloWorld"<br>
+      <br>
+      ; ******* Zde lze vytvořit chybovou rutinu pro případ, že by se dialog 
+      neotevřel *****<br>
+      ;? _check: GoTo "OK"<br>
+      ;TitleText["Něco je špatně dialog nelze otevřít.\nZkuste restartovat misi, 
+      nebo tak něco", "Plain"]<br>
+      ;ForceEnd<br>
+      ;Exit<br>
+      ;#OK<br>
+      ;******************************************************************<br>
+      <br>
+      ; ------------- Nastaví hodnoty položek ComboBoxu s IDC 3001 
+      ----------------------<br>
+      _countgrp = Count (Units Group Player)<br>
+      _x = 0<br>
+      lbAdd [3001, Localize"STR_CB_Txt_0"]<br>
+      #Loop1<br>
+      _x = _x + 1<br>
+      _index3001 = _index3001 + [lbAdd [3001, Name (Units Group Player Select 
+      _x)]]<br>
+      ? _x &lt; (_countgrp - 1): GoTo "Loop1"<br>
+      <br>
+      ; ------------ Nastaví implicitní položku ComboBoxu 
+      ---------------------------<br>
+      lbSetCurSel [3001, 0]<br>
+      <br>
+      Exit<br>
+      </font><br>
+      No a na závěr vytvoříme poslední, bohužel taky nejsložitější script, který 
+      má za úkol zjistit hráčem požadovaná data a vypsat je do textového pole 
+      dialogu. Tento script si pojmenujeme třeba onClickGetData.sqs, a to proto, 
+      že se spustí při kliknutí na tlačítko "Získej data". Soubor obsahuje 
+      následující kód :<br>
+      <br>
+      <font color="#D5FDCE">; ------- Získat hodnoty z vybrané položky 
+      CombnoBoxu -------<br>
+      _cbindex = lbCurSel 3001<br>
+      <br>
+      ; ******************** Chybová rutina ***************************<br>
+      ; ***** v případě, že hráč nevybere žádnou položku Combo boxu *****<br>
+      ? _cbindex == 0: Hint Localize"STR_Error"; Exit<br>
+      ; ******************************************************************<br>
+      <br>
+      ; ---------- Získat údaje o pozici vybraného vojáka ---------<br>
+      _soldiername = lbText [3001, _cbindex]<br>
+      _soldierpos = GetPos (Units Group Player Select _cbindex)<br>
+      _soldierposx = _soldierpos Select 0<br>
+      _soldierposy = _soldierpos Select 1<br>
+      _soldierposz = _soldierpos Select 2<br>
+      Goto "GetAngle"<br>
+      #Return<br>
+      _unitname = Units Group Player Select _cbindex<br>
+      <br>
+      ; ------------- Vypsat získané údaje do TextBoxu ------------<br>
+      ctrlSetText [1003, Format[Localize"STR_TextBox2_2", _soldiername, _soldierposx, 
+      _soldierposy, _soldierposz, _angle, _unitname]]<br>
+      <br>
+      Exit<br>
+      <br>
+      <br>
+      ; --------- Subprocedura pro získání úhlu mezi vojákem a hráčem 
+      -----------<br>
+      ; --------- Např. pro použití v příkazu SetDir, příkaz DoWatch 
+      ------------<br>
+      ; --------- totiž ne vždy spolehlivě pracuje 
+      ------------------------------<br>
+      #GetAngle<br>
+      _playerpos = GetPos player<br>
+      _playerposx = _playerpos Select 0<br>
+      _playerposy = _playerpos Select 1<br>
+      _distancex = _soldierposx - _playerposx<br>
+      _distancey = _soldierposy - _playerposy<br>
+      _absgoniometry = Abs(_distancex) + Abs(_distancey)<br>
+      <br>
+      _asinderived = _distancex / _absgoniometry<br>
+      _acosderived = _distancey / _absgoniometry<br>
+      <br>
+      ? _asinderived &gt;= 0 AND _acosderived &gt;= 0: _angle = Asin(_asinderived)<br>
+      ? _asinderived &gt;= 0 AND _acosderived &lt; 0: _angle = 180 - Asin(_asinderived)<br>
+      ? _asinderived &lt; 0 AND _acosderived &lt; 0: _angle = 180 + Abs(Asin(_asinderived))<br>
+      ? _asinderived &lt; 0 AND _acosderived &gt;= 0: _angle = 360 - Abs(Asin(_asinderived))<br>
+      <br>
+      Goto "Return"<br>
+      </font><br>
+      <br>
+      No a teď je to již opravdu vše. Pokud jste postupovali přesně podle tohoto 
+      návodu, měl by se Vám dialog "Hello, World !" bezproblémů otevřít a 
+      správně pracovat. Pro jistotu si však vše co je výše uvedeno můžete 
+      stáhnout
+      <a style="color: #00FFFF" href="HelloWorld.intro.zip">odstud</a>.<br>
+      <br>
+        &nbsp;</font></p>
+      </td></tr></tbody></table>
+  </center>
+</div>
+
+</body></html>

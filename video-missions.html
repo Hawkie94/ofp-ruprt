@@ -1,0 +1,543 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+	<head>
+		<title>Ruprtova poradna k OFP - Video Mise</title>
+		<meta content="False" name="vs_snapToGrid">
+		<meta http-equiv="Content-Type" content="text/html; charset=windows-1250">
+		<meta content="Microsoft Visual Studio .NET 7.1" name="GENERATOR">
+		<meta content="Visual Basic .NET 7.1" name="CODE_LANGUAGE">
+		<meta content="JavaScript" name="vs_defaultClientScript">
+		<meta content="http://schemas.microsoft.com/intellisense/ie5" name="vs_targetSchema">
+		<link href="Styles.css" type="text/css" rel="stylesheet">
+		<script language="javascript">
+		<!--
+			// ------------- Info strings --------------------
+			var STR_Default = "<BR>Ruprtova poradna<BR><BR>ke hře<br><BR>Operation Flashpoint®";
+			var STR_News = "Sekce<BR>Novinky<BR>-<BR>Domovská<BR>stránka RP";
+			var STR_NewsArchive = "<BR><BR>Archív novinek<BR>RP";
+			var STR_Forum = "<BR><BR>Vstoupit do<BR>fóra";
+			var STR_Tutors = "<BR><BR>Sekce<BR>Tutoriály";
+			var STR_Scripts = "<BR><BR>Sekce<BR>Scripty";
+			var STR_Tips = "<BR><BR>Sekce<BR>Tipy & Triky";
+			var STR_Download = "<BR><BR>Sekce<BR>Download";
+			var STR_Links = "<BR><BR>Odkazy<br>&<br>Emaily";
+			//var STR_Emails = "Osobní<br>nastavení<BR>tohoto webu";
+			var STR_MissionUpload = "<BR>Otevře<BR>Uživatelské rozhraní pro upload misí";
+			//var STR_OFPMDE = "Otevře stránku o aplikaci<BR><BR>OFP<BR>Mission<BR>Development<BR>Environment";
+			var STR_MissionNews = "Sekce<BR>Mission News<BR>-<BR>Novinky psané jednotlivými autory misí";
+			var STR_SP = "Sekce<BR>SP Mise :<BR>hodnocení a<BR>download<BR>neofiko SP misí";
+			var STR_MP = "Sekce<BR>MP Mise :<BR>hodnocení a<BR>download<BR>neofiko MP misí";
+			var STR_Camp = "Sekce<BR>Kampaně :<BR>hodnocení a<BR>download<BR>neofiko kampaní";
+			var STR_Video = "Sekce<BR>Video mise :<BR>hodnocení a<BR>download<BR>neofiko<BR>Video misí";
+			var STR_Ptak = "Sekce<BR>Ptákoviny :<BR>Mise, které<BR>nelze nikam<BR>zařadit";
+			var STR_Rules = "Pravidla<BR>hodnocení a<BR>zveřejňování<BR>misí";
+			var STR_Search = "Vyhledávání<BR>údajů na<BR>těchto<BR>stránkách";
+			var STR_OFPCZSquad = "Celý download<BR>je uložen na<BR>serveru OFP CZ Squadu.<BR>Díky chlapi !";
+
+			// ---------- Preload & Initialize Images --------------
+			var missionnews1 = newImage('images/btns/missionnews1.jpg');
+			var missionnews2 = newImage('images/btns/missionnews2.jpg');
+			var missionnews3 = newImage('images/btns/missionnews3.jpg');
+			var sp1 = newImage('images/btns/sp1.jpg');
+			var sp2 = newImage('images/btns/sp2.jpg');
+			var sp3 = newImage('images/btns/sp3.jpg');
+			var mp1 = newImage('images/btns/mp1.jpg');
+			var mp2 = newImage('images/btns/mp2.jpg');
+			var mp3 = newImage('images/btns/mp3.jpg');
+			var camp1 = newImage('images/btns/camp1.jpg');
+			var camp2 = newImage('images/btns/camp2.jpg');
+			var camp3 = newImage('images/btns/camp3.jpg');
+			var video1 = newImage('images/btns/video1.jpg');
+			var video2 = newImage('images/btns/video2.jpg');
+			var video3 = newImage('images/btns/video3.jpg');
+			var ptak1 = newImage('images/btns/ptak1.jpg');
+			var ptak2 = newImage('images/btns/ptak2.jpg');
+			var ptak3 = newImage('images/btns/ptak3.jpg');
+			var rules1 = newImage('images/btns/rules1.jpg');
+			var rules2 = newImage('images/btns/rules2.jpg');
+			var rules3 = newImage('images/btns/rules3.jpg');
+			var search1 = newImage('images/btns/search1.jpg');
+			var search2 = newImage('images/btns/search2.jpg');
+			var search3 = newImage('images/btns/search3.jpg');
+			var auxObject;
+		
+			// ----------- Functions ------------
+			function newImage(imgPath)
+			{
+				rslt = new Image();
+				rslt.src = imgPath;
+				return rslt;
+			};
+			
+			function defaultInfo()
+			{
+				var infoArea = document.getElementById("InfoArea");
+				infoArea.innerHTML = STR_Default;
+			};
+			
+			function woknoMise(adr)
+			{
+				var newWndLeft = ((self.screen.width-733)/2);
+				var newWndTop = ((self.screen.height-468)/2);
+				window.open('missiondetail.aspx'+adr, '_blank', 'toolbar=no,location=no,status=no,menubar=no,scrollbars=no,resizable=no,width=733,height=468,left='+newWndLeft+',top='+newWndTop);
+			};
+
+			function woknoTipScript(adr)
+			{
+				var newWndLeft = ((self.screen.width-774)/2);
+				var newWndTop = ((self.screen.height-607)/2);
+				window.open('tipscriptdetail.aspx'+adr, '_blank', 'toolbar=no,location=no,status=no,menubar=no,scrollbars=no,resizable=no,width=774,height=607,left='+newWndLeft+',top='+newWndTop);
+			};
+
+			// ----------- Event handlers ------------
+			// =========== Right Area ================
+			function btn_onMouseOver(btn)
+			{
+				var infoArea = document.getElementById("InfoArea");
+				switch(btn.id)
+				{
+					case "btnMissionNews":
+						btn.src = missionnews2.src;
+						infoArea.innerHTML = STR_MissionNews;
+						break;
+					case "btnSP":
+						btn.src = sp2.src;
+						infoArea.innerHTML = STR_SP;
+						break;
+					case "btnMP":
+						btn.src = mp2.src;
+						infoArea.innerHTML = STR_MP;
+						break;
+					case "btnCamp":
+						btn.src = camp2.src;
+						infoArea.innerHTML = STR_Camp;
+						break;
+					case "btnVideo":
+						btn.src = video2.src;
+						infoArea.innerHTML = STR_Video;
+						break;
+					case "btnPtak":
+						btn.src = ptak2.src;
+						infoArea.innerHTML = STR_Ptak;
+						break;
+					case "btnRules":
+						btn.src = rules2.src;
+						infoArea.innerHTML = STR_Rules;
+						break;
+					case "linkRules":
+						//The Rules link onMouseOver Eventhandler
+						btn.style.background = "url(images/btns/rules2.jpg)";
+						btn.style.backgroundImage = "url(images/btns/rules2.jpg)";
+						infoArea.innerHTML = STR_Rules;
+						break;
+					case "btnSearch":
+						btn.src = search2.src;
+						infoArea.innerHTML = STR_Search;
+						break;
+					default:
+						infoArea.innerHTML = STR_Default;
+				};
+			};
+			
+			function btn_onMouseOut(btn)
+			{
+				var infoArea = document.getElementById("InfoArea");
+				switch(btn.id)
+				{
+					case "btnMissionNews":
+						btn.src = missionnews1.src;
+						break;
+					case "btnSP":
+						btn.src = sp1.src;
+						break;
+					case "btnMP":
+						btn.src = mp1.src;
+						break;
+					case "btnCamp":
+						btn.src = camp1.src;
+						break;
+					case "btnVideo":
+						btn.src = video1.src;
+						break;
+					case "btnPtak":
+						btn.src = ptak1.src;
+						break;
+					case "btnRules":
+						btn.src = rules1.src;
+						break;
+					case "linkRules":
+						//The Rules link onMouseOver Eventhandler
+						btn.style.background = "url(images/btns/rules1.jpg)";
+						btn.style.backgroundImage = "url(images/btns/rules1.jpg)";
+						break;
+					case "btnSearch":
+						btn.src = search1.src;
+						break;
+				};
+				infoArea.innerHTML = STR_Default;
+			};
+
+			function btn_onClick(btn)
+			{
+				//var infoArea = document.getElementById("InfoArea");
+				auxObject = btn;
+				switch(btn.id)
+				{
+					case "btnMissionNews":
+						btn.src = missionnews3.src;
+						window.setTimeout("btn_onMouseOver(auxObject)", 150);
+						break;
+					case "btnSP":
+						btn.src = sp3.src;
+						window.setTimeout("btn_onMouseOver(auxObject)", 150);
+						break;
+					case "btnMP":
+						btn.src = mp3.src;
+						window.setTimeout("btn_onMouseOver(auxObject)", 150);
+						break;
+					case "btnCamp":
+						btn.src = camp3.src;
+						window.setTimeout("btn_onMouseOver(auxObject)", 150);
+						break;
+					case "btnVideo":
+						btn.src = video3.src;
+						window.setTimeout("btn_onMouseOver(auxObject)", 150);
+						break;
+					case "btnPtak":
+						btn.src = ptak3.src;
+						window.setTimeout("btn_onMouseOver(auxObject)", 150);
+						break;
+					case "btnRules":
+						btn.src = rules3.src;
+						window.setTimeout("btn_onMouseOver(auxObject)", 150);
+						var newWndLeft = newWndLeft = ((self.screen.width-433)/2);
+						window.open('rules.aspx','_blank','width=433,height=581,left='+newWndLeft+',top=15');
+						return false;
+						break;
+					case "linkRules":
+						btn.style.background = "url(images/btns/rules3.jpg)";
+						btn.style.backgroundImage = "url(images/btns/rules3.jpg)";
+						window.setTimeout("btn_onMouseOver(auxObject)", 150);
+						break;
+					case "btnSearch":
+						btn.src = search3.src;
+						window.setTimeout("btn_onMouseOver(auxObject)", 150);
+						break;
+				};
+			};
+			
+			// =========== Top Area ================
+			function link_onMouseOver(link)
+			{
+				var infoArea = document.getElementById("InfoArea");
+				switch(link.id)
+				{
+					case "linkNews":
+						infoArea.innerHTML = STR_News;
+						break;
+					case "linkNewsArchive":
+						infoArea.innerHTML = STR_NewsArchive;
+						break;
+					case "linkForum":
+						infoArea.innerHTML = STR_Forum;
+						break;
+					case "linkTutors":
+						infoArea.innerHTML = STR_Tutors;
+						break;
+					case "linkScripts":
+						infoArea.innerHTML = STR_Scripts;
+						break;
+					case "linkTips":
+						infoArea.innerHTML = STR_Tips;
+						break;
+					case "linkDload":
+						infoArea.innerHTML = STR_Download;
+						break;
+					case "linkLinks":
+						infoArea.innerHTML = STR_Links;
+						break;
+					case "linkMissionUpload":
+						infoArea.innerHTML = STR_MissionUpload;
+						break;
+					case "linkSquad":
+						//This is the button from RightArea linking to OFP CZ Squad
+						infoArea.innerHTML = STR_OFPCZSquad;
+						break;
+				};
+			};
+			
+			//Combo's Change Eventhandler
+			function cb_onChange(combo)
+			{
+				__doPostBack(combo.name, combo.selectedIndex);
+			};
+			
+			function _doSearchPrePostBack()
+			{
+				var theform;
+				if (window.navigator.appName.toLowerCase().indexOf("netscape") > -1)
+				{
+					theform = document.forms["frmMain"];
+				}
+				else
+				{
+					theform = document.frmMain;
+				};
+				
+				if (theform.tbExp.value == "")
+				{
+					alert("Musíte zadat hledaný výraz !");
+					theform.tbExp.focus();
+					return false;
+				}
+				return true;
+			};
+		//-->
+		</script>
+	</head>
+	<body ms_positioning="GridLayout" onload="javascript:self.offscreenBuffering=true">
+		<center>
+			<div class="CONTENT_AREA" id="ContentArea" align="center">
+				<!-- Data Area -->
+				<div class="DATA_AREA" id="DataArea">
+					<table id="tblData" class="DA_DATA_TABLE" style="border-bottom-style:solid;border-bottom-width:1px;border-bottom-color:#000000;" width="100%" cellspacing="0" cellpadding="2">
+						<tbody>
+							<tr>
+								<td style="border:solid 2px #DFDFDF;color:black;font-weight:bold;background-color:#C0C0C0;vertical-align:top;" colspan="6" width="100%" height="12px" align="center"><p style="font-size:1.5em;">Video Mise</p></td>
+							</tr>
+							<tr style="background-color:#C0C0C0;" height="30px">
+								<td rowspan="2" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%">&nbsp;</td>
+								<td rowspan="2" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="42%" align="center">Název mise</td>
+								<td colspan="2" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="12%" align="center">Hodnocení</td>
+								<td rowspan="2" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="9%" align="center">Ostrov</td>
+								<td rowspan="2" style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;border-top-width:1px;border-left-color:#000000;font-weight:bold;border-top-color:#000000;font-size:0.8em;border-right-width:1px;border-right-style:solid;border-left-style:solid;" width="9%" align="center">Autor</td>
+							</tr>
+							<tr style="background-color:#C0C0C0;" height="15px">
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="6%" align="center">RP</td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="6%" align="center">Public</td>
+							</tr>
+							<tr height="30px">
+								<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">1)</td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;" width="42%" align="left"><p style="margin-left:3;margin-right:3;"><a href="./video-missions-pages/cas-partyzanu.html">Čas partyzánů</a></p></td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="6%" align="center">---</td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="6%" align="center">10/10</td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="9%" align="center">Nogova</td>
+								<td style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;border-top-width:1px;border-left-color:#000000;font-weight:bold;border-top-color:#000000;font-size:0.8em;border-right-width:1px;border-right-style:solid;border-left-style:solid;" width="9%" align="center">TheRaptor</td>
+							</tr>
+							<tr style="background-color:#C0C0C0;" height="30px">
+								<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">2)</td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;" width="42%" align="left"><p style="margin-left:3;margin-right:3;"><a href="./video-missions-pages/fair-play.html">Fair Play</a></p></td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="6%" align="center">---</td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="6%" align="center">10/10</td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="9%" align="center">Nogova</td>
+								<td style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;border-top-width:1px;border-left-color:#000000;font-weight:bold;border-top-color:#000000;font-size:0.8em;border-right-width:1px;border-right-style:solid;border-left-style:solid;" width="9%" align="center">Str</td>
+							</tr>
+							<tr height="30px">
+								<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">3)</td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;" width="42%" align="left"><p style="margin-left:3;margin-right:3;"><a href="./video-missions-pages/anim-pack.html">Anim Pack 2.00</a></p></td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="6%" align="center">---</td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="6%" align="center">9/10</td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="9%" align="center">Nogova</td>
+								<td style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;border-top-width:1px;border-left-color:#000000;font-weight:bold;border-top-color:#000000;font-size:0.8em;border-right-width:1px;border-right-style:solid;border-left-style:solid;" width="9%" align="center">TheRaptor</td>
+							</tr>
+							<tr style="background-color:#C0C0C0;" height="30px">
+								<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">4)</td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;" width="42%" align="left"><p style="margin-left:3;margin-right:3;"><a href="./video-missions-pages/jak-nebyt-videt.html">Jak nebýt vidět</a></p></td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="6%" align="center">---</td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="6%" align="center">8/10</td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="9%" align="center">Everon</td>
+								<td style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;border-top-width:1px;border-left-color:#000000;font-weight:bold;border-top-color:#000000;font-size:0.8em;border-right-width:1px;border-right-style:solid;border-left-style:solid;" width="9%" align="center">2DMM team</td>
+							</tr>
+							<tr height="30px">
+								<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">5)</td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;" width="42%" align="left"><p style="margin-left:3;margin-right:3;"><a href="./video-missions-pages/stowaway.html">Stowaway</a></p></td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="6%" align="center">---</td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="6%" align="center">9,4/10</td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="9%" align="center">Winter Nogojev</td>
+								<td style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;border-top-width:1px;border-left-color:#000000;font-weight:bold;border-top-color:#000000;font-size:0.8em;border-right-width:1px;border-right-style:solid;border-left-style:solid;" width="9%" align="center">Anonymní</td>
+							</tr>
+							<tr style="background-color:#C0C0C0;" height="30px">
+								<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">6)</td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;" width="42%" align="left"><p style="margin-left:3;margin-right:3;"><a href="./video-missions-pages/the-war.html">The War...</a></p></td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="6%" align="center">---</td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="6%" align="center">2/10</td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="9%" align="center">Everon</td>
+								<td style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;border-top-width:1px;border-left-color:#000000;font-weight:bold;border-top-color:#000000;font-size:0.8em;border-right-width:1px;border-right-style:solid;border-left-style:solid;" width="9%" align="center">W4S3K</td>
+							</tr>
+							<tr height="30px">
+								<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">7)</td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;" width="42%" align="left"><p style="margin-left:3;margin-right:3;"><a href="./video-missions-pages/black-bear-intro.html">Black Bear intro</a></p></td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="6%" align="center">---</td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="6%" align="center">---</td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="9%" align="center">Everon</td>
+								<td style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;border-top-width:1px;border-left-color:#000000;font-weight:bold;border-top-color:#000000;font-size:0.8em;border-right-width:1px;border-right-style:solid;border-left-style:solid;" width="9%" align="center">LuckyM</td>
+							</tr>
+							<tr style="background-color:#C0C0C0;" height="30px">
+								<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">8)</td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;" width="42%" align="left"><p style="margin-left:3;margin-right:3;"><a href="./video-missions-pages/legends-of-ofp.html">Legends of OFP</a></p></td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="6%" align="center">---</td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="6%" align="center">7,6/10</td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="9%" align="center">Desert Island</td>
+								<td style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;border-top-width:1px;border-left-color:#000000;font-weight:bold;border-top-color:#000000;font-size:0.8em;border-right-width:1px;border-right-style:solid;border-left-style:solid;" width="9%" align="center">Bobor SK</td>
+							</tr>
+							<tr height="30px">
+								<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">9)</td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;" width="42%" align="left"><p style="margin-left:3;margin-right:3;"><a href="./video-missions-pages/vnj.html">Vzpomínky nebezkého jezdce</a></p></td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="6%" align="center">---</td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="6%" align="center">9,5/10</td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="9%" align="center">Nogova</td>
+								<td style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;border-top-width:1px;border-left-color:#000000;font-weight:bold;border-top-color:#000000;font-size:0.8em;border-right-width:1px;border-right-style:solid;border-left-style:solid;" width="9%" align="center">LuckyM</td>
+							</tr>
+							<tr style="background-color:#C0C0C0;" height="30px">
+								<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">10)</td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;" width="42%" align="left"><p style="margin-left:3;margin-right:3;"><a href="./video-missions-pages/vycvik.html">Výcvik</a></p></td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="6%" align="center">---</td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="6%" align="center">6,9/10</td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="9%" align="center">Nogova</td>
+								<td style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;border-top-width:1px;border-left-color:#000000;font-weight:bold;border-top-color:#000000;font-size:0.8em;border-right-width:1px;border-right-style:solid;border-left-style:solid;" width="9%" align="center">TheRaptor</td>
+							</tr>
+							<tr height="30px">
+								<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">11)</td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;" width="42%" align="left"><p style="margin-left:3;margin-right:3;"><a href="./video-missions-pages/war-video.html">War Video</a></p></td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="6%" align="center">---</td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="6%" align="center">8,7/10</td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="9%" align="center">Nogova</td>
+								<td style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;border-top-width:1px;border-left-color:#000000;font-weight:bold;border-top-color:#000000;font-size:0.8em;border-right-width:1px;border-right-style:solid;border-left-style:solid;" width="9%" align="center">Ali</td>
+							</tr>
+							<tr style="background-color:#C0C0C0;" height="30px">
+								<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">12)</td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;" width="42%" align="left"><p style="margin-left:3;margin-right:3;"><a href="./video-missions-pages/protiuder.html">Protiúder</a></p></td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="6%" align="center">3/10</td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="6%" align="center">5/10</td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="9%" align="center">Nogova</td>
+								<td style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;border-top-width:1px;border-left-color:#000000;font-weight:bold;border-top-color:#000000;font-size:0.8em;border-right-width:1px;border-right-style:solid;border-left-style:solid;" width="9%" align="center">Frostyman</td>
+							</tr>
+							<tr height="30px">
+								<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">13)</td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;" width="42%" align="left"><p style="margin-left:3;margin-right:3;"><a href="./video-missions-pages/mrazek-ustredna.html">Mrázek ústředna</a></p></td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="6%" align="center">---</td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="6%" align="center">7,3/10</td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="9%" align="center">Nogova</td>
+								<td style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;border-top-width:1px;border-left-color:#000000;font-weight:bold;border-top-color:#000000;font-size:0.8em;border-right-width:1px;border-right-style:solid;border-left-style:solid;" width="9%" align="center">Ali</td>
+							</tr>
+							<tr style="background-color:#C0C0C0;" height="30px">
+								<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">14)</td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;" width="42%" align="left"><p style="margin-left:3;margin-right:3;"><a href="./video-missions-pages/bomber-man.html">BomberMan</a></p></td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="6%" align="center">---</td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="6%" align="center">6/10</td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="9%" align="center">Desert Island</td>
+								<td style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;border-top-width:1px;border-left-color:#000000;font-weight:bold;border-top-color:#000000;font-size:0.8em;border-right-width:1px;border-right-style:solid;border-left-style:solid;" width="9%" align="center">Night-hawk</td>
+							</tr>
+							<tr height="30px">
+								<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">15)</td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;" width="42%" align="left"><p style="margin-left:3;margin-right:3;"><a href="./video-missions-pages/abrams.html">Abrams</a></p></td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="6%" align="center">---</td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="6%" align="center">7,7/10</td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="9%" align="center">Desert Island</td>
+								<td style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;border-top-width:1px;border-left-color:#000000;font-weight:bold;border-top-color:#000000;font-size:0.8em;border-right-width:1px;border-right-style:solid;border-left-style:solid;" width="9%" align="center">Ali</td>
+							</tr>
+							<tr style="background-color:#C0C0C0;" height="30px">
+								<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">16)</td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;" width="42%" align="left"><p style="margin-left:3;margin-right:3;"><a href="./video-missions-pages/mini-trailer.html">Mini trailer</a></p></td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="6%" align="center">4.5/10</td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="6%" align="center">5,7/10</td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="9%" align="center">Nogova</td>
+								<td style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;border-top-width:1px;border-left-color:#000000;font-weight:bold;border-top-color:#000000;font-size:0.8em;border-right-width:1px;border-right-style:solid;border-left-style:solid;" width="9%" align="center">Ali + LuckyM</td>
+							</tr>
+							<tr height="30px">
+								<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">17)</td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;" width="42%" align="left"><p style="margin-left:3;margin-right:3;"><a href="./video-missions-pages/klip.html">Klip</a></p></td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="6%" align="center">---</td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="6%" align="center">9,5/10</td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="9%" align="center">Nogova</td>
+								<td style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;border-top-width:1px;border-left-color:#000000;font-weight:bold;border-top-color:#000000;font-size:0.8em;border-right-width:1px;border-right-style:solid;border-left-style:solid;" width="9%" align="center">Vojtoo</td>
+							</tr>
+							<tr style="background-color:#C0C0C0;" height="30px">
+								<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">18)</td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;" width="42%" align="left"><p style="margin-left:3;margin-right:3;"><a href="./video-missions-pages/dark-blue-world.html">Dark Blue World</a></p></td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="6%" align="center">10/10</td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="6%" align="center">8,2/10</td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="9%" align="center">Nogova</td>
+								<td style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;border-top-width:1px;border-left-color:#000000;font-weight:bold;border-top-color:#000000;font-size:0.8em;border-right-width:1px;border-right-style:solid;border-left-style:solid;" width="9%" align="center">Didymos</td>
+							</tr>
+							<tr height="30px">
+								<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">19)</td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;" width="42%" align="left"><p style="margin-left:3;margin-right:3;"><a href="./video-missions-pages/afghanistan-2001.html">Afghanistan 2001</a></p></td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="6%" align="center">---</td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="6%" align="center">?/10</td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="9%" align="center">Desert Island</td>
+								<td style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;border-top-width:1px;border-left-color:#000000;font-weight:bold;border-top-color:#000000;font-size:0.8em;border-right-width:1px;border-right-style:solid;border-left-style:solid;" width="9%" align="center">Vojtoo</td>
+							</tr>
+							<tr style="background-color:#C0C0C0;" height="30px">
+								<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">20)</td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;" width="42%" align="left"><p style="margin-left:3;margin-right:3;"><a href="./video-missions-pages/resistance.html">Resistance</a></p></td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="6%" align="center">---</td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="6%" align="center">7/10</td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="9%" align="center">Everon</td>
+								<td style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;border-top-width:1px;border-left-color:#000000;font-weight:bold;border-top-color:#000000;font-size:0.8em;border-right-width:1px;border-right-style:solid;border-left-style:solid;" width="9%" align="center">Didymos</td>
+							</tr>
+							<tr height="30px">
+								<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">21)</td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;" width="42%" align="left"><p style="margin-left:3;margin-right:3;"><a href="./video-missions-pages/winter-story.html">Winter Story</a></p></td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="6%" align="center">---</td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="6%" align="center">5,5/10</td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="9%" align="center">Winter Nogojev</td>
+								<td style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;border-top-width:1px;border-left-color:#000000;font-weight:bold;border-top-color:#000000;font-size:0.8em;border-right-width:1px;border-right-style:solid;border-left-style:solid;" width="9%" align="center">Vojtoo</td>
+							</tr>
+							<tr style="background-color:#C0C0C0;" height="30px">
+								<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">22)</td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;" width="42%" align="left"><p style="margin-left:3;margin-right:3;"><a href="./video-missions-pages/war-months-II.html">War Months II.</a></p></td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="6%" align="center">7/10</td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="6%" align="center">7,8/10</td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="9%" align="center">Kolgujev</td>
+								<td style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;border-top-width:1px;border-left-color:#000000;font-weight:bold;border-top-color:#000000;font-size:0.8em;border-right-width:1px;border-right-style:solid;border-left-style:solid;" width="9%" align="center">Vojtoo</td>
+							</tr>
+							<tr height="30px">
+								<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">23)</td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;" width="42%" align="left"><p style="margin-left:3;margin-right:3;"><a href="./video-missions-pages/war.html">War</a></p></td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="6%" align="center">---</td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="6%" align="center">---</td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="9%" align="center">Everon</td>
+								<td style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;border-top-width:1px;border-left-color:#000000;font-weight:bold;border-top-color:#000000;font-size:0.8em;border-right-width:1px;border-right-style:solid;border-left-style:solid;" width="9%" align="center">Paladin</td>
+							</tr>
+							<!--<tr style="background-color:#C0C0C0;" height="30px">
+								<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">24)</td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;" width="42%" align="left"><p style="margin-left:3;margin-right:3;"><a href="./video-missions-pages/war-months.html">War Months</a></p></td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="6%" align="center">---</td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="6%" align="center">?/10</td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="9%" align="center">Everon</td>
+								<td style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;border-top-width:1px;border-left-color:#000000;font-weight:bold;border-top-color:#000000;font-size:0.8em;border-right-width:1px;border-right-style:solid;border-left-style:solid;" width="9%" align="center">Vojtoo</td>
+							</tr>-->
+						</tbody>
+					</table>
+					<div id="divFooter" class="DA_FOOTER"></div>
+				</div>
+				<!-- Topbar Area -->
+				<div class="TOP_AREA" id="TopArea">
+					<a id="linkNews" onmouseover="link_onMouseOver(this)" onmouseout="defaultInfo()" href="index.html">Novinky</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						<a id="linkNewsArchive" onmouseover="link_onMouseOver(this)" onmouseout="defaultInfo()" href="news-archive.html">Archív novinek</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<a id="linkTutors" onmouseover="link_onMouseOver(this)" onmouseout="defaultInfo()" href="tutorials.html">Tutoriály</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<a id="linkScripts" onmouseover="link_onMouseOver(this)" onmouseout="defaultInfo()" href="scripts.html">Scripty</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<a id="linkTips" onmouseover="link_onMouseOver(this)" onmouseout="defaultInfo()" href="tips-tricks.html">Tipy &amp; Triky</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<a id="linkDload" onmouseover="link_onMouseOver(this)" onmouseout="defaultInfo()" href="download.html">Download</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<a id="linkLinks" onmouseover="link_onMouseOver(this)" onmouseout="defaultInfo()" href="links.html">Odkazy</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				</div>
+				<!-- Title Area -->
+				<div id="TitleArea" class="TITLE_AREA">Download</div>
+				<!-- Info Area -->
+				<div class="INFO_AREA" id="InfoArea"><br>Ruprtova poradna<br><br>ke hře<br><br>Operation Flashpoint®</div>
+				<!-- Right button Area -->
+				<div class="RIGHT_AREA" id="RightArea">
+					<a href="mission-news.html"><img src="images/btns/missionnews1.jpg" class="RA_BTNS" style="border-width:0px; TOP:0px" name="btnMissionNews" id="btnMissionNews" onmouseover="btn_onMouseOver(this)" onmouseout="btn_onMouseOut(this)" onclick="btn_onClick(this);"></a>
+					<a href="sp-missions.html"><img src="images/btns/sp1.jpg" class="RA_BTNS" style="border-width:0px; TOP:32px" name="btnSP" id="btnSP" onmouseover="btn_onMouseOver(this)" onmouseout="btn_onMouseOut(this)" onclick="btn_onClick(this);"></a>
+					<a href="mp-missions.html"><img src="images/btns/mp1.jpg" class="RA_BTNS" style="border-width:0px; TOP:64px" name="btnMP" id="btnMP" onmouseover="btn_onMouseOver(this)" onmouseout="btn_onMouseOut(this)" onclick="btn_onClick(this);"></a>
+					<a href="campaigns.html"><img src="images/btns/camp1.jpg" class="RA_BTNS" style="border-width:0px; TOP:96px" name="btnCamp" id="btnCamp" onmouseover="btn_onMouseOver(this)" onmouseout="btn_onMouseOut(this)" onclick="btn_onClick(this);"></a>
+					<a href="video-missions.html"><img src="images/btns/video1.jpg" class="RA_BTNS" style="border-width:0px; TOP:128px" name="btnVideo" id="btnVideo" onmouseover="btn_onMouseOver(this)" onmouseout="btn_onMouseOut(this)" onclick="btn_onClick(this);"></a>
+					<a href="funny-missions.html"><img src="images/btns/ptak1.jpg" class="RA_BTNS" style="border-width:0px; TOP:160px" name="btnPtak" id="btnPtak" onmouseover="btn_onMouseOver(this)" onmouseout="btn_onMouseOut(this)" onclick="btn_onClick(this);"></a>
+					
+					<a class="RA_SQUAD_LINK" id="linkSquad" onmouseover="link_onMouseOver(this)" onmouseout="defaultInfo()"></a>
+				</div>
+			</div>
+		</center>
+	</body>
+</html>

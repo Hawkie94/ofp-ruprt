@@ -1,0 +1,24 @@
+---> AKCE WOLFRAM III: OPERACE WOTAN <---
+
+Autor: Wulfgar
+Potřebná verze OFP: 1.96
+Potřebné addony: nejspíš žádné (maximálně EditorUpdate102 od Kegetyse - ten má snad každý :o)
+Typ mise: pěchotní
+Obtížnost: jak pro koho ;-)
+Intro: Ano
+Outro: Ano
+Popis: Přímé pokračování série 'Akce Wolfram', jehož třetím dílem se završí trilogie. Tenkrát si ale nezahráte za důstojníka Zjizvenova,
+	nýbrž za rotmistra Kováře z partyzánskych jednotek. Vžijte se do jeho role a zasaďte Ivanovi ránu tam, kde ho to bolí!
+Použita hudba:
+	- ze hry Return to Castle: Wolfenstein od Billa Browna
+	- ze hry Codename: Panzers
+	- Sleipnir - Unbekannter Soldat
+Skripty:
+	- Wulfgar
+	- TonyHawk
+	- Ruprtova poradna k OFP
+
+Děkuji, že jste si stáhli mou misi, a přejí Vám příjemnou zábavu ;o).
+P.S. Kdybyste mě chtěli kontaktovat, napište adminům Ruprtový poradně, možná Vám s tím pomůžou :o).
+
+©2010 Wulfgar OFP studio

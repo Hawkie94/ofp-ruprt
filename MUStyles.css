@@ -1,0 +1,97 @@
+body
+{
+	font-family: Verdana, Arial, Tahoma, sans-serif;
+	font-size: 0.8em;
+	text-transform: none;
+	color: #000000;
+	margin:0px;
+	padding:0px;
+	background-color: #B4B4B4;
+}
+
+A:link
+{	
+	text-decoration: underline;
+	color:	#004A25;
+	font-size: 11px;
+}	
+		
+A:visited
+{	
+	text-decoration:	underline;
+	color:	#004A25;
+	font-size: 11px;
+}	
+		
+A:active
+{
+	text-decoration:	underline;
+	color:	#004A25;
+	font-size: 11px;
+}	
+		
+A:hover
+{
+	text-decoration:	none;
+	color:	#009300;
+	font-size: 11px;
+}
+
+TABLE	
+{
+	font-size: 1.0em;
+	color: #000000;
+}
+
+/* Classes */
+
+.FrameLineTable
+{
+	background-color: #ACACAC;
+	border: solid 1px #787878;
+	padding: 4px;
+	width: 100%;
+	margin-bottom: 2px;
+}
+
+.TitleLineTableCell
+{
+	border: solid 1px #787878;
+	background-image: url(images/mu/cellpic1.gif);
+	text-align: center;
+}
+
+.SimpleContentCell, .MainFrameCell
+{
+	border: solid 1px #787878;
+	background-color: #EBEBEB;
+	text-align: left;
+}
+
+.SmileyCell
+{
+	border-left: solid 1px #147645;
+	border-top: solid 1px #147645;
+	border-bottom: solid 1px #147645;
+}
+
+.ScrollableDiv
+{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+}
+
+/* --- Flat controls --- */
+.FlatButton
+{
+	color: #FFEECE;
+	BORDER-RIGHT: #FFFFFF 2px solid;
+	BORDER-TOP: #FFFFFF 2px solid;
+	BORDER-LEFT: #FFFFFF 2px solid;
+	BORDER-BOTTOM: #FFFFFF 2px solid;
+	BACKGROUND-COLOR: #000000;
+	font-size: 0.95em;
+	font-weight: bold;
+}

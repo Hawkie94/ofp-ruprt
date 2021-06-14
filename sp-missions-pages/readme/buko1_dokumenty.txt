@@ -1,0 +1,39 @@
+Nazev mise : Dokumenty
+Ostrov : Sttdesert_Malden
+Autor : buko1
+Kontakt na autora : stefan.bukovan@mil.sk, bukovan@tiscali.cz
+Tato mise vyzaduje verzi hry 1.91 a vyssi, na nizsej to nebolo testovane
+
+Pro spravnou funkci teto mise musite mit nainstalovany tyto AddOny :
+1) editirupdate102.pbo - pri misii
+2) streetlamp.pbo - pri misii
+3) The Lost Brothers Addon Pack #2 - lobodemo2.rar - ftp://www.gamezone.cz:8021/ofpd/unofaddons2/LoBoDemo2.rar alebo ftp://www.gamezone.cz/ofpd/unofaddons2/LoBoDemo2.rar
+4) sttdesert_malden.zip - http://ofp.gamezone.cz/islands/STTDesert_Malden1_00.zip
+5) JAM2 - ftp://www.gamezone.cz:8021/ofpd/unofaddons2/JAM2.rar alebo ftp://www.gamezone.cz/ofpd/unofaddons2/JAM2.rar
+6) JOF_Objects1_2.rar - ftp://www.gamezone.cz:8021/ofpd/unofaddons2/JOF_Objects1_2.zip
+7) MineLtdObjects.zip - ftp://www.gamezone.cz:8021/ofpd/unofaddons2/MineLtdObjects.zip
+8) Map_Heaps_V1.1.rar - ftp://www.gamezone.cz:8021/ofpd/unofaddons2/MAP_Heaps_V1.1.rar
+
+Popis mise : ako príslušník egyptského commandos získaj informácie o činnosti izraelu v oblasti
+
+Poznamka : beta tester Peter Smolar
+
+#################################
+Mission name: Dokumenty
+Language: Sk/Cz, UK
+Island: SttDesertMalden
+Autor: buko1 - stefan.bukovan@mil.sk, bukovan@tiscali.cz
+OFP version: 1.91
+Beta tester: Peter Smolar
+
+Egypt´s commandos vs Israeli Defence Forces
+
+Required addons:
+1) editirupdate102.pbo - include
+2) streetlamp.pbo - include
+3) The Lost Brothers Addon Pack #2 - lobodemo2.rar - ftp://www.gamezone.cz:8021/ofpd/unofaddons2/LoBoDemo2.rar alebo ftp://www.gamezone.cz/ofpd/unofaddons2/LoBoDemo2.rar
+4) sttdesert_malden.zip - http://ofp.gamezone.cz/islands/STTDesert_Malden1_00.zip
+5) JAM2 - ftp://www.gamezone.cz:8021/ofpd/unofaddons2/JAM2.rar alebo ftp://www.gamezone.cz/ofpd/unofaddons2/JAM2.rar
+6) JOF_Objects1_2.rar - ftp://www.gamezone.cz:8021/ofpd/unofaddons2/JOF_Objects1_2.zip
+7) MineLtdObjects.zip - ftp://www.gamezone.cz:8021/ofpd/unofaddons2/MineLtdObjects.zip
+8) Map_Heaps_V1.1.rar - ftp://www.gamezone.cz:8021/ofpd/unofaddons2/MAP_Heaps_V1.1.rar

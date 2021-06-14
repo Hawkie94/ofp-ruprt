@@ -1,0 +1,122 @@
+					****************************************
+                                        **************** HINDS *****************
+					****************************************
+                                                        v. 1.00
+
+	OBSAH:
+		1. Úvod
+		2. Popis mise
+		  a) základní údaje
+		  b) addony
+		3. Minimální požadavky
+		4. Verze
+		5. Autoři
+		6. Poděkování
+		7. Práva
+		8. Kontakt
+-----------------------------------------------------------------------------------------------------------------------------
+
+	1. Mise Hinds, se odehrává v roce 1984, kdy jako mladý desátník vstupuješ do armády a chceš se po vzoru svého
+	otce stát bojovým pilotem. Doba je nejistá ,napjatá a stačí málo a nechci ani domyslet...
+-----------------------------------------------------------------------------------------------------------------------------
+	
+	2. Popis mise:
+	  
+           a)
+		-Typ:		Letecká
+		-Ostrov:	Nogova
+		-Intro:		Ano
+		-Outro:		Ano
+		-Dabing:	Ano
+		-Verze OFP:	1.96
+		-Verze mise:	1.00
+		-Velikost:
+		
+    	   b)
+
+		-CSLA Update 1	http://games.tiscali.cz/clanek/dl.asp?id=9347
+		-Jah Chair	(přibaleno)
+		-Sarge tatra	(přibaleno)
+-----------------------------------------------------------------------------------------------------------------------------
+
+	3. Minimální požadavky:
+	   
+	   Pro chod mise minimální verze OFP 1.96 Resistance, CSLA Update 1, 
+	   PC alespoň 1 GHZ 256MB RAM 3D grafická karta 64MB
+-----------------------------------------------------------------------------------------------------------------------------
+	
+	4. Verze mise:
+
+	   1.00	- První oficiální verze
+-----------------------------------------------------------------------------------------------------------------------------
+
+	5: Autoři:	
+		
+
+		(SgS team)
+
+		-Sarge		Mise, Kamera, Scripty a všechny ty blbinky okolo
+		-LuckyM		Kamera
+		-Spawn		Scripty
+		-Raptor		Interní Beta test
+
+
+		(dabing)
+
+		-Sarge		Pilot
+		-Spawn 		Střelec
+		-LuckyM		Abditus
+		-Pavka		Důstojník
+		-Blaf		Alfa
+
+
+		(další)
+
+		-Kuba, Hurby	Překlad, korektura
+		-Ježuro		Tutoriál o dialogu
+		-PAPA		Script posun času , face zeny
+		-Gaia		Uzamčení pohledu 3rd , face zeny , Betatest
+		-TheSun		Převrácená tatra (práce s O2)
+		-Sak		Nepoužitý dabig
+		-Raptor		Nepoužitý dabig
+-----------------------------------------------------------------------------------------------------------------------------
+
+	6. Poděkování:
+
+		-Děkuji neznámému uživateli Koflex fóra, který mne v začátcích mé tvorby inspiroval k vytvoření této mise.
+		-Děkuji svým rodičům sourozencům a známým za trpělivost, kterou se mnou měli a slibuju, ty zkoušky dám.
+		-Děkuji Ruprtovu editor helpu a všem jeho přispěvovatelům, za ucelený souhrn rad a návodů, který denně využívám.
+		-Děkuji a zároveň se omlouvám všem, kteří se na misi nějakým způsobem podíleli a nenalezli zde své jméno.
+-----------------------------------------------------------------------------------------------------------------------------
+
+	7. Práva:
+		
+		Tato mise vznikla v Sarge Studiu. Jakékoliv úpravy mise a předělávky mohou byt provedeny pouze za souhlasu
+		autoru tj. Sarge Studia. Tato mise je nekomerční počin a je určena k šíření po internetu. Proto jakékoliv prodávání
+		za účelem zisku je, bez souhlasu autoru zakázáno (stejně, kdo by to kupoval). Pokud mate zájem využít některou
+		část mise k obohaceni vlastni tvorby, uvědomte prosím o tom nejprve Sarge Studio a uveďte jeho jméno v titulcích
+		vaší mise. 
+		Autoři nenesou žádnou zodpovědnost, za použití nebo pozření teto mise. V případě poškození vašeho PC dat či jiné ujmi finanční
+		či nefinanční nenese Sarge Studio, Codemasters ani Bohemia Interactive žádnou zodpovědnost. Misi používáte na
+		VLASTNÍ riziko. 
+
+		Všechny osoby a události v misi jsou smyšlené. Jakákoliv podobnost se skutečností je pouze neúmyslná a náhodná.
+-----------------------------------------------------------------------------------------------------------------------------
+		
+	8. Kontakt:
+
+		V případě jakéhokoliv námětu, dotazu či problému mě kontaktujte:
+
+		-Sarge
+	
+			-ICQ		297-005-838
+			-Email		sarge.Vaclav@seznam.cz
+
+		-Sarge Studio		
+
+			-stránky	www.sarge-studio.wz.cz
+-----------------------------------------------------------------------------------------------------------------------------
+
+
+						Sarge Studio 2004 - 2006
+

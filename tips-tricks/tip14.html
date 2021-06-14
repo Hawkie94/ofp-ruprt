@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=windows-1250">
+		<title>Detail tipu</title>
+		<meta name="GENERATOR" content="Microsoft Visual Studio .NET 7.1">
+		<meta name="CODE_LANGUAGE" content="Visual Basic .NET 7.1">
+		<meta name="vs_defaultClientScript" content="JavaScript">
+		<meta name="vs_targetSchema" content="http://schemas.microsoft.com/intellisense/ie5">
+		<link href="./../Styles.css" type="text/css" rel="stylesheet">
+	</head>
+	<body ms_positioning="GridLayout"><center>
+		<div class="TIP_BCKG_AREA" align="center">
+				<div class="TIP_CONTENT_AREA" id="TipContentArea">
+					<table id="tblContent" class="MD_TABLE_INFO" width="448px" cellspacing="0" cellpadding="3" align="left">
+	<tbody><tr>
+		<td style="color:#FFFFFF;font-weight:bold;" width="50%">Autor : M.P.</td>
+		<td style="color:#FFFFFF;font-weight:bold;" width="50%" align="right">
+			<a href="samples/Ohen.noe.zip" target="_blank">Stáhnout ukázku</a><br>
+			<a href="./../tips-tricks.html">Zpět na Tipy &amp Triky</a>
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2" height="9px" bgcolor="#9FA5C5"></td>
+	</tr>
+	<tr>
+		<td colspan="2" style="font-size:1.0em;font-weight:bold;color:#FF6600;" align="center">Hrátky s ohněm</td>
+	</tr>
+	<tr>
+		<td colspan="2" height="9px" bgcolor="#9FA5C5"></td>
+	</tr>
+	<tr>
+		<td colspan="2" style="font-size:1.05em;font-weight:normal;text-align:justify;color:#EBE7D8;">Při
+ hraní Resistance jste si určitě všimli, že je tam použitý nový oheň. 
+Nějak mě nelákalo si oheň vytvořit, protože po rozbalení na mě koukaly 4
+ podivné scripty. Potom jsem však zjistil, že na tom není nic tak 
+těžkého. 4 scripty k tomu sice potřebujete, ale nemusíte v nich nic 
+upravovat. Vytvořte si nějakou jednotku v Kvildě. Misi uložte a 
+nakopírujte do nich přiložené scripty. Vytvořte si soubor Init.sqs. Do 
+něho vložte tento řádek:<br><br>[[11074.41,11596.64,1.63], [0,0,1], 1000, 5, '' ] exec 'firesource.sqs'<br><br>Pak běhejte po Kvildě a zjistěte, kterému domu hoří okno. Teď si vysvětlíme parametry scriptu. <br>1)
+ [11074.41,11596.64,1.63] - souřadnice ohně. Poté, co Paladin prozradil a
+ Didymos to zveřejnil, je určování souřadnic jednoduché.<br>2) [0,0,1] - určuje, kam bude oheň plápolat.<br>3) 1000 - čas, po které oheň plynule zmizí (v sekundách).<br>4)
+ 5 - intenzita plamene. Takhle můžete zapálit celou vesnici jednim 
+ohněm, což ale nevypadá dobře. Hodnota 5 je ideální pro plameny z okna.<br><br>Na pěkně vypadající požár domu potřebujete asi 7 ohňů. Ty pak musíte zapalovat každý zvlášť. Vypadá to asi takhle:<br><br>[[11074.73,11600.22,1.63], [0,0,1], 1000, 5, '' ] exec 'firesource.sqs'<br>[[11075.40,11597.82,1.63], [0,0,1], 1000, 5, '' ] exec 'firesource.sqs'<br>[[11074.95,11598.65,3.95], [0,0,1], 1000, 5, '' ] exec 'firesource.sqs'<br>[[11074.94,11599.38,3.95], [0,0,1], 1000, 5, '' ] exec 'firesource.sqs'<br><br>A
+ to je vše.Tohle je jen jednoduchý, ale 100% účinný script. Ostatní 
+možné parametry popisuje Ruprt ve své skvělé nápovědě. Zde jsou však 
+zbytečné. Pokud by jste někdo měl trpělivost zapálit 2 věžáky v 
+Petrovicích nebo rovnou celé Petrovice, tak mi tu misi určitě pošlete. A
+ když nebudete něčemu rozumět, navštivte diskusi nebo mi napište na <a href="mailto:zdendamp@atlas.cz">zdendamp@atlas.cz</a>. Ukázkovou videomisi (krátká cutscéna požáru domu) + scripty si můžete stáhnout z odkazu výše.<br></td>
+	</tr>
+</tbody></table>
+
+				</div>
+			</div>
+		</form>
+	
+
+</center></body></html>

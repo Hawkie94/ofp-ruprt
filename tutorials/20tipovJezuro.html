@@ -1,0 +1,169 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!--?XML VERSION = 1.0 ENCODING = "windows-1250" ?-->
+<html><head>
+ <title>
+  20 tipů a triků pro OFP missionmakery by Ježuro
+ </title>
+ <meta http-equiv="Content-Type" content="text/html; charset=windows-1250">
+ <style>
+
+  BODY		{MARGIN-LEFT : 15px; MARGIN-RIGHT : 15px; BACKGROUND-COLOR : RGB(90,65,44); BACKGROUND-REPEAT : Repeat; COLOR : RGB(255,255,255); FONT-WEIGHT : Normal; FONT-FAMILY : Tahoma, "Trebuchet MS", Arial; TEXT-DECORATION : None; FONT-SIZE : 8pt; TEXT-INDENT : 0pt; SCROLLBAR-TRACK-COLOR : RGB(130,125,97); SCROLLBAR-FACE-COLOR : RGB(90,65,44); SCROLLBAR-HIGHLIGHT-COLOR : RGB(255,255,255); SCROLLBAR-3DLIGHT-COLOR : RGB(130,125,97); SCROLLBAR-DARKSHADOW-COLOR : RGB(0,0,0); SCROLLBAR-SHADOW-COLOR : RGB(130,125,97); SCROLLBAR-ARROW-COLOR : RGB(130,125,97)}
+
+  TD		{FONT-SIZE : 8pt}
+
+  .GB_User	{FONT-WEIGHT : Bold}
+  .GB_Body	{}
+  .GB_Head	{}
+
+  HR		{COLOR : RGB(130,125,97)}
+
+  A:Link	{COLOR : RGB(255,234,0); FONT-WEIGHT : Normal; FONT-FAMILY : Tahoma, "Trebuchet MS", Arial; TEXT-DECORATION : None; FONT-SIZE : 8pt; TEXT-INDENT : 0pt}
+
+  A:Visited	{COLOR : RGB(255,234,0); FONT-WEIGHT : Normal; FONT-FAMILY : Tahoma, "Trebuchet MS", Arial; TEXT-DECORATION : None; FONT-SIZE : 8pt; TEXT-INDENT : 0pt}
+
+  A:Hover	{COLOR : RGB(255,255,0); FONT-WEIGHT : Normal; FONT-FAMILY : Tahoma, "Trebuchet MS", Arial; TEXT-DECORATION : None; FONT-SIZE :8pt; TEXT-INDENT : 0pt}
+
+  TABLE		{COLOR : RGB(255,255,255); BORDER-WIDTH : 0px; BORDER-STYLE : None; BORDER-COLOR : RGB(130,125,97)}
+
+ </style>
+</head>
+		
+<body>
+
+<center>
+<h3>20 tipů a triků pro OFP missionmakery<br>
+aneb co v tutoriálech nenajdete</h3>
+<h5>Autor : Ježuro</h5>
+</center>
+
+<br>
+
+K tématu editace misí vyšla již spousta tutoriálů v podstatě o všem, ale
+ přesto si myslím, že těchto dvacet tipů pomůže začínajícím (a možná i 
+zkušeným) missionmakerům ještě zvýšit kvlitu jejich misí. Pokud jste tak
+ ještě neučinili, měli byste si přečíst <a href="sumarizace10.html">"Jakys pokus o sumarizaci"</a> od Edy Mrcocha i Silver Falconův <a href="OFP%20MISSION%20DESIGN.html">článek o OFP designu</a>.<br>
+Tyto tipy by měly být jejich jakýmsi "doplněním", taky tady ve většině 
+případů nenajdete konkrétní příkazy, jen rady co kdy určitě 
+dělat/nedělat a na co si dávat pozor. Pořadí, ve kterém jsou tipy 
+napsány, je naprosto nahodilé podle toho, co mě zrovna napadlo. 
+Očísloval jsem to kvůli tomu, aby se na ně dalo dobře odkazovat v 
+případných diskuzích.<br>
+Samozřejmě se podle mě nemusíte řídit a dělat vše po svém (ostatně o tom
+ někdy editace misí bývá), ale berte v potaz, že se touhle činností už 
+nějaký ten pátek zabývám a moje postřehy by se vám mohly hodit.<br><br><br><br>
+
+<b>
+1) Vždy před spuštěním editoru si pusťte nějakou single misi na 
+obtížnost "Kadet". Potom se vám budou při testování mise objevovat 
+waypointy.<br><br>
+
+2) Když spouštíte radiovou hlášku velitele nějaké skupiny, nedělejte to 
+přes název velitele v editoru, ale použijte příkaz "leader". V momentě, 
+kdy se má původní velitel hlásit, může být už dávno po smrti.<br><br>
+
+3) Pokud hráč není velitelem své skupiny, dávejte všem z dotyčné skupiny
+ AllowFleeing na 0. Ustupovat přes kilometr zpátky před pěti 
+nepřátelskými vojáky není zábava.<br><br>
+
+4) Pokud má hráč na začátku nastaveno chování na safe nebo careless 
+(cokoliv, kdy má zbraň na zádech), nastavte mu v nějakou vhodnou dobu 
+před začátkem boje chování na aware nebo combat (prostě aby měl zbraň v 
+ruce). Normálně to nejde poznat, ale když hráč vystupuje z vozidla s 
+klidným chováním, po vystoupení má zbraň na zádech - to může způsobit po
+ nouzovém opuštění tanku uprostřed bitvy velké mínus na váš učet.<br><br>
+
+5) Když děláte vrtulníkovou misi, ve které má hráč se svým strojem za 
+úkol vyčistit nějakou oblast, nespoléhejte se jen na spínač 
+Strana-Nepřítomen, ale kontrolujte to přes CountType na tanky, 
+vrtulníky, APC, popřípadě auta a lodě. Je skutečně opruz hledat s Cobrou
+ nebo dokonce Thunderboltem ve městě zašité připosrané vojáky.<br><br>
+
+6) Snažte se hlídat skilly vlastních i nepřátelských vojáků. Myslete na 
+to, že vojáci vložení na mapu přes F1 (Jednotky) mají defaultně skilly 
+daleko vyšší než přes F2 (Skupiny), kde dovednosti závisí na hodnostech.<br><br>
+
+7) Autosave přes SaveGame aktivujte s rozvahou, není nic horšího, než 
+když se vám hra automaticky uloží v okamžiku, kdy uslyšíte výstřel 
+nepřátelského snipera.<br><br>
+
+8) Pokud děláte misi bez dabingu, vždy se ujistěte, že při vysílání 
+nějakého velmi důležitého radiového vysílání má hráč čas to všechno 
+číst. Uprostřed boje to asi stíhat nebude, obzvláště při dlouhých 
+textech o neuvěřitelném dějovém zvratu.<br><br>
+
+9) Pokud děláte misi s dabingem, vždy se ujistěte, že při rozhovoru nebo
+ čemkoli jiném, kdy se z reproduktorů linou hlasy vašich dabérů, nehraje
+ muzika nebo je alespoň pořádně ztlumená. Na co je pak dabing, když přes
+ tu ohranou vypalovačku Lifeless vůbec není slyšet a hráč je odkázán na 
+titulky?<br><br>
+
+10) Co dokáže opravdu, ale opravdu znechutit hraní mise, je sledování 
+dlouhé úvodní scény v misi po každém restartu. Takže pokud vám nestačí 
+intro a chcete mít cutscénu i po brífingu, VŽDY co nejdříve po jejím 
+konci použijte autosave.<br><br>
+
+11) Jak už předeslal Eda, pokud už chcete dát do mise vlastní hudbu, 
+dobře si rozmyslete její výběr. To, že se vám nějaká hudba opravdu hodně
+ líbí, ještě neznamená, že ji musíte za každou cenu protlačit do OFP. 
+Pokuste se tyto sklony potlačit a vybírejte hudbu pro situaci, ne 
+situaci pro hudbu (výjimkou jsou samozřejmě speciální videomise a 
+ptákoviny, viz např. diskoška od Vojty).<br><br>
+
+12) NIKDY nespouštějte cutscénu ve chvíli, kdy je byť i sebemenší 
+možnost zabití hráče nebo jakékoliv jiné negativní reakce, způsobené 
+jeho imobilitou (odpočítávání časového limitu, ústup před přesilout 
+atd.).<br><br>
+
+13) Samostatnou kapitolou je používání neoficiálních addonů. Opět zde 
+platí pravidlo "méně je někdy více" - nesnažte se vsázet všechno na cizí
+ addony, není v tom ani kapka vaší práce a na to myslete. Taky není 
+příliš moudré požadovat od hráčů stáhnutí dvacetimegového addonu jen 
+kvůli jednomu "opravdu pěkně udělanému tanku" (tedy pokud nehraje 
+nějakou OPRAVDU zásadní roli v misi). Uvědomte si, že spousta lidí z 
+našich luhů a hájů si setsakramentsky rozmyslí, jestli má cenu stahovat 
+nějaké obří addony kvůli vaší misi.<br><br>
+
+14) Komprese do formátu OGG se vyplatí pro zvuky WAV od velikosti asi 20
+ - 30kB. Nejsou to žádná závratná čísla, to jenom abyste věděli.<br><br>
+
+15) Pokud vám pod Windows XP nefunguje generátor souborů LIP, zkuste to ve složce WINDOWS\system32.<br><br>
+
+16) Zpátky k misím ve vzduchu (vrtulník, letadlo, ...) - když hráč 
+pilotuje, neznamená to automaticky, že MUSÍ potkat několik Šilek. V 
+každé průměrné letecké misi potkáte průměrně 2 Šilky. Kolik jich potkáte
+ v tankových misích? Povětšinou žádnou. Opět dejte na zdravý rozum a 
+umisťujte Šilku tam, kde by mohla být v reálu. Taky si uvědomte, že 
+velení má v drtivé většině případů před posláním vzdušných sil do 
+nepřátelské oblasti detailní informace o protivzdušné obraně nepřítele a
+ ještě před startem se postará o jejich redukci na minimum. Letadla a 
+vrtulníky jsou v armádě to nejdražší železo.<br><br>
+
+17) Rozhodnete-li se přeci jen obohatit svou misi o dabing, mělo by to 
+stát za to. Na internetu je ke stažení spousta několikamegových misí, ve
+ kterých je dabing přímo na škodu. Z většiny hlásek bývá cítit umělost 
+projevu, nervozita, chvilky zaseknutí v pravidelných intervalech 
+(posunutí jezdce při čtení dlouhého řádku ve stringtablu). Tón hlasu by 
+měl dokonale splynout s náladou mluvčího (toho ve hře, samozřejmě) a 
+nebojte se sáhnout k nespisovným nebo i sprostým slovům (všeho ale 
+samozřejmě s mírou a rozvahou). Ano, i hrdinní američtí paladinové můžou
+ být nechutní sprosťáci.<br><br>
+
+18) VŽDYCKY se pořádně ujistěte, že se mise JISTOJISTĚ ukončí. Neukončení mise může srazit veškeré původní kvality do zapomnění.<br><br>
+
+19) Nesnažte se být za každou cenu originální. I klišé s útokem na 
+základnu/obranou základny může být v dobrém technickém zpracování a 
+připravenou atmosférou absolutní bomba.<br><br>
+
+20) Nepoužívejte nic z primu (objekty se značkou VBS nebo prim na 
+začátku názvu). Pokud se vám z jakéhokoliv důvodu vyskytne prim v 
+seznamu addonů v mission.sqm, najděte ho a zlikvidujte. Addon prim je 
+appendix české verze OFP a v žádné jiné není. Do pekla s ním!<br><br><br><br>
+</b>
+
+<p align="Right">Jakékoliv reakce mi můžete posílat na můj mail <a href="mailto:jezuro@post.cz">jezuro@post.cz</a>, nebo do guestbooku na našich stránkách <a href="http://2dmm.wz.cz/" target="_blank">http://2dmm.wz.cz</a>.<br><br>
+Ježuro
+</p>
+
+
+
+</body></html>

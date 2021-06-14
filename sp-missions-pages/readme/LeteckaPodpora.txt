@@ -1,0 +1,32 @@
+Autor mise: Sarge
+Typ mise  : Single Player
+Ostrov    : Everon
+Typ mise  : Letecká
+Verze hry : 1.46
+Intro     : Ano. Netýká se mise ale letecké kampaně kterou chci udělat.
+Přídavky  : žádné
+Popis     :
+Kontakt   :
+Jste pilot americké armády. Nasedněte do helikoptér a vydejte se do akce.
+
+Plánuji také udělat leteckou kampaň. Zde je její stručný popis.
+
+
+Má kampaň by měla být celá letecká, měla by mít okolo 10 misí. V první polovině budete hrát za Američany a v druhé za Rusi.
+
+Příběh kampaně : Jste pilotem americké armády. USA se rozhodlo že vyžene Ruské jednotky z ostrova protože zde utlačují zdejší 
+obyvatele. Poté co je ostrov již skoro zcela pod kontrolou USA jste při akci sestřelen. Stihnete se katapultovat a zajmou vás Rusové.
+Vysvětlí vám že Američané na ostrov vtrhli ne kvůli civilistům ale protože jsou zde velká ložiska drahých kovů která náhodou odhalil jeden Americký satelit. 
+To se vám nelíbí a rozhodnete se přidat na stranu Rusů. S vypětím všech sil a za pomoci partyzánů kterým se také nelíbí vpád
+Američanů vyženete je z ostrova a stanete se obyvatelem Everonu.
+
+Poznámka. Pokud budete pozorní můžete najít na ostrově ruské helikoptéry a plnit úkol s nimi. 
+
+
+
+
+ 
+
+
+
+  

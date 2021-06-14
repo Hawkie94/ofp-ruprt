@@ -1,0 +1,34 @@
+-----------------------------------------------------------------------------------------
+
+  Markéta      :  singleplayer misia
+   
+-----------------------------------------------------------------------------------------
+
+  Krátky popis :  Naša rozviedka zistila, že na ostrove operuje neznáma skupina, ktorá
+                  používa neznámy rádiový mód, ktorý sa nedá dešifrovať.
+                  Velenie preto rozhodlo, že skupinu treba najsť a zlikvidovať. 
+                  Ty, ako radio - špecialista máš za úlohu skupinu nájsť a zlikvidovať. 
+
+-----------------------------------------------------------------------------------------
+
+  Autor        :  PAPA (om3pv@pobox.sk - http://www.papa.wbl.sk)
+
+  Verzia OFP   :  1.96
+
+  Ostrov       :  Nogova 
+
+-----------------------------------------------------------------------------------------
+
+  Potrebné addony sú priložené.
+
+-----------------------------------------------------------------------------------------
+
+  Vzhľadom k situácii okolo OFP /nástup ARMY/ misia je ochudobnená o "kvalitné" video
+  a nebol dotiahnuty do konca dabing.
+
+  Rozhodol som sa ju vydat iba preto, že v misii sú použité prvky, ktoré sa doteraz 
+  v OFP  nevyskytovali. 
+
+-----------------------------------------------------------------------------------------
+
+									PAPA - 2007

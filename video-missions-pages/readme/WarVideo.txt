@@ -1,0 +1,23 @@
+==============================================================================
+=====WAR VIDEO================================================================
+==============================================================================
+=Autor:	Ali
+=ICQ:	179462725
+=E-Mail:	awi@centrum.cz
+=WWW:	http://flashpoint.bonusweb.cz
+==============================================================================
+
+=Ostrov:		Nogova
+
+=Typ mise:	video mise
+
+=Poznámky:	-potřebná verze k této misi je minimálně 1.90	
+		-mise byla editována i testována ve verzi 1.96
+
+=Instalace:	-soubor 'WarVideo.pbo' nakopírujte do adresáře \OperationFlashpoint\missions\
+
+=AddOny:	-datadisk resistance + patch 1.90 nebo vyžší
+
+==============================================================================
+==============©2003 Ali & BonusWeb=============================================
+==============================================================================

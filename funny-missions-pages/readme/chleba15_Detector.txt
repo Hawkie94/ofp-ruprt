@@ -1,0 +1,25 @@
+Slošku Detector.Abel vložte do "...Operation Flashpoint\Users\<váš nick>\missions"
+
+
+Detector 1.0
+
+Najděte na Maldenu ostřelovače.
+
+Ovládání:
+
+0-0-0:	Zapne Detector, pokud jste od vysílače méně jak 2.5km tak se chytne a začne
+		ukazovat přibližnou vzdálenost a měnit intenzitu pípání. Pokud nejste v
+		dostatečné vzdálenosti nechytí se a musíte to zkusit později znovu.
+
+0-0-9:	Vypne Detector, pokud se chytnul a zapnul.
+
+0-0-8:	Zapne vyhledávací mód, tzn. upozorní zda-li jste v dosahu či nikoliv.
+		(po nalezení signálu se vypne)
+
+
+
+Dělat si s tím může dělat každý co chce , jenom jsem si to zkoušel "sestavit" ;)
+
+OFP WILL NEVER DIE!!!
+
+Kony the Dodye | KonyII@seznam.cz | Xfire: kony02

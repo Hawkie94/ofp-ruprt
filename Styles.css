@@ -1,0 +1,625 @@
+/* Default CSS Stylesheet for a new Web Application project */
+
+BODY
+{
+    BACKGROUND-COLOR: blue;
+    FONT-FAMILY: Verdana, Helvetica, sans-serif;
+    FONT-SIZE: .8em;
+    FONT-WEIGHT: normal;
+    LETTER-SPACING: normal;
+    TEXT-TRANSFORM: none;
+    WORD-SPACING: normal;
+    scrollbar-arrow-color: #6FB9FA;
+	scrollbar-face-color:#195DD0;
+	scrollbar-darkshadow-color:#195DD0;
+	scrollbar-shadow-color:#195DD0;
+	scrollbar-3dlight-color:#195DD0;
+	scrollbar-highlight-color: #2993FF;
+	scrollbar-track-color: #6FB9FA;
+
+}
+
+H1, H2, H3, H4, H5, TH, THEAD, TFOOT
+{
+    COLOR: #003366;
+}
+H1	{	
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:	2em;
+	font-weight:	700;
+	font-style:	normal;
+	text-decoration:	none;
+	word-spacing:	normal;
+	letter-spacing:	normal;
+	text-transform:	none;
+	}	
+		
+H2	{	
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:	1.75em;
+	font-weight:	700;
+	font-style:	normal;
+	text-decoration:	none;
+	word-spacing:	normal;
+	letter-spacing:	normal;
+	text-transform:	none;
+	}	
+		
+H3	{	
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:	1.58em;
+	font-weight:	500;
+	font-style:	normal;
+	text-decoration:	none;
+	word-spacing:	normal;
+	letter-spacing:	normal;
+	text-transform:	none;
+	}	
+		
+H4	{	
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:	1.33em;
+	font-weight:	500;
+	text-decoration:	none;
+	word-spacing:	normal;
+	letter-spacing:	normal;
+	text-transform:	none;
+	}	
+		
+H5, DT	{	
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:	1em;
+	font-weight:	700;
+	font-style:	normal;
+	text-decoration:	none;
+	word-spacing:	normal;
+	letter-spacing:	normal;
+	text-transform:	none;
+	}	
+		
+H6	{	
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:	.8em;
+	font-weight:	700;
+	font-style:	normal;
+	text-decoration:	none;
+	word-spacing:	normal;
+	letter-spacing:	normal;
+	text-transform:	none;
+	}	
+		
+TFOOT, THEAD	{	
+	font-size:	1em;
+	word-spacing:	normal;
+	letter-spacing:	normal;
+	text-transform:	none;
+	font-family: Arial, Helvetica, sans-serif;
+	}	
+		
+TH	{	
+	vertical-align:	baseline;
+	font-size:	1em;
+	font-weight:	bold;
+	word-spacing:	normal;
+	letter-spacing:	normal;
+	text-transform:	none;
+	font-family: Arial, Helvetica, sans-serif;
+	}	
+
+/*
+A:link	{	
+	text-decoration:	none;
+	color:	#00FFFF;
+	}	
+		
+A:visited	{	
+	text-decoration:	none;
+	color:	#00FFFF;
+	}	
+		
+A:active	{	
+	text-decoration:	none;
+	color:	#00FFFF;
+	}	
+		
+A:hover	{	
+	text-decoration:	underline;
+	color:	#3333cc;
+	}
+*/	
+SMALL	{	
+	font-size:	.7em;
+	}	
+
+BIG	{	
+	font-size:	1.17em;
+	}	
+
+BLOCKQUOTE, PRE	{	
+	font-family:	Courier New, monospace;
+	}	
+	
+
+UL LI	{	
+	list-style-type:	square ;
+	}	
+
+UL LI LI	{	
+	list-style-type:	disc;
+	}	
+
+UL LI LI LI	{	
+	list-style-type:	circle;
+	}	
+	
+OL LI	{	
+	list-style-type:	decimal;
+	}	
+
+OL OL LI	{	
+	list-style-type:	lower-alpha;
+	}	
+
+OL OL OL LI	{	
+	list-style-type:	lower-roman;
+	}	
+
+IMG 	{
+	margin-top: 5px;
+	margin-left: 10px;
+	margin-right: 10px;
+	}
+
+/* ======================================================== */
+/* =================== Page Areas ========================= */
+/* ======================================================== */
+.CONTENT_AREA
+{
+	Z-INDEX: 101;
+	position: relative;
+	width: 800px;
+	height: 600px;
+	overflow: hidden;
+	background-image: url(images/background8x6.jpg);
+	background: url(images/background8x6.jpg);
+	background-attachment: scroll;
+}
+
+.DATA_AREA
+{
+	z-index: 1000;
+	position: absolute;
+	top: 60px;
+	left: 35px;
+	width: 565px;
+	height: 515px;
+	overflow: auto;
+	/*border-width: thick;
+	border-right: aqua thin solid;
+	border-top: aqua thin solid;
+	border-left: aqua thin solid;
+	border-bottom: aqua thin solid;*/
+	SCROLLBAR-FACE-COLOR: 696767;
+	SCROLLBAR-HIGHLIGHT-COLOR: A4A2A2;
+	SCROLLBAR-SHADOW-COLOR: A4A2A2;
+	SCROLLBAR-3DLIGHT-COLOR: A4A2A2;
+	SCROLLBAR-ARROW-COLOR: FFFFFF;
+	SCROLLBAR-TRACK-COLOR: E3DFE0;
+	SCROLLBAR-DARKSHADOW-COLOR: A4A2A2;
+}
+
+.TOP_AREA
+{
+	z-index: 1000;
+	position: absolute;
+	font-weight : bolder;
+	color: #6FB9FA;
+	overflow: hidden;
+	top: 13px;
+	left: 82px;
+	width: 544px;
+	height: 19px;
+	text-align: left;
+    FONT-FAMILY: Verdana, Helvetica, sans-serif;
+    FONT-SIZE: .8em;
+    FONT-WEIGHT: bolder;
+    LETTER-SPACING: normal;
+    TEXT-TRANSFORM: none;
+    WORD-SPACING: normal;
+    color: #00FFFF;
+}
+
+.TITLE_AREA
+{
+	z-index: 1000;
+	position: absolute;
+	overflow: hidden;
+	top: 10px;
+	left: 658px; /*668px;*/
+	width: 114px; /*104px;*/
+	height: 19px;
+	text-align: center;
+    FONT-FAMILY: Verdana, Helvetica, sans-serif;
+    FONT-SIZE: 1.17em;
+    FONT-WEIGHT: bold;
+    LETTER-SPACING: normal;
+    TEXT-TRANSFORM: none;
+    WORD-SPACING: normal;
+    color: #CCCCCC;
+}
+
+.COUNTER_AREA
+{
+	z-index: 1000;
+	position: absolute;
+	overflow: hidden;
+	top: 560px;
+	left: 663px;
+	width: 104px;
+	height: 20px;
+	text-align: left;
+}
+
+.INFO_AREA
+{
+	z-index: 1000;
+	position: absolute;
+	top: 70px;
+	left: 668px;
+	width: 104px;
+	height: 92px;
+    FONT-FAMILY: Verdana, Helvetica, sans-serif;
+    FONT-SIZE: .8em;
+    FONT-WEIGHT: normal;
+    LETTER-SPACING: normal;
+    TEXT-TRANSFORM: none;
+    WORD-SPACING: normal;
+    color: #00FF00;
+}
+
+.RIGHT_AREA
+{
+	z-index: 1000;
+	position: absolute;
+	top: 176px;
+	left: 666px;
+	width: 110px;
+	height: 373px;
+}
+
+/* ======================================================== */
+/* ============= Areas' controls appearance =============== */
+/* ======================================================== */
+
+.TOP_AREA A:link
+{
+	text-decoration: none;
+	color: #E3DFE0;
+}
+
+.TOP_AREA A:active
+{
+	text-decoration: none;
+	color: #E3DFE0;
+}
+
+.TOP_AREA A:visited
+{	
+	text-decoration: none;
+	color: #E3DFE0;
+}	
+
+.TOP_AREA A:hover
+{
+	text-decoration: none;
+	color: #5CC6FE;
+}
+
+.RA_BTNS
+{
+	position: absolute;
+	left: 0px;
+	width: 106px;
+	height: 31px;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.RA_SQUAD_LINK
+{
+	position: absolute;
+	background: url(images/logos/ofpczsquadlogo.jpg);
+	background-image: url(images/logos/ofpczsquadlogo.jpg);
+	background-attachment: scroll;
+	left: 8px;
+	top: 299px;
+	width: 79px;
+	height: 69px;
+	border-style: outset;
+	border-width: 3px;
+	border-color: #CCCCCC;
+}
+
+.DA_DATA_TABLE
+{
+	position: relative;
+	width: 100%;
+	left: 0px;
+	border-style: none;
+	FONT-FAMILY: Verdana, Helvetica, sans-serif;
+    FONT-SIZE: 0.85em;
+    FONT-WEIGHT: normal;
+    LETTER-SPACING: normal;
+    TEXT-TRANSFORM: none;
+    WORD-SPACING: normal;
+    color: #000000;
+}
+
+.DA_FOOTER
+{
+	position: static;
+	width: 95%;
+	FONT-FAMILY: Verdana, Helvetica, sans-serif;
+    FONT-SIZE: 0.8em;
+    FONT-WEIGHT: bold;
+    LETTER-SPACING: normal;
+    TEXT-TRANSFORM: none;
+    WORD-SPACING: normal;
+    color: #FF6600;
+}
+
+.DATA_AREA A:link
+{
+	text-decoration: none;
+	color: #3333CC;
+}
+
+.DATA_AREA A:active
+{
+	text-decoration: none;
+	color: #3333CC;
+}
+
+.DATA_AREA A:visited
+{	
+	text-decoration: none;
+	color: #3333CC;
+}	
+
+.DATA_AREA A:hover
+{
+	text-decoration: none;
+	color: #5CC6FE;
+}
+
+.CA_TBL_COUNTER
+{
+	width: 100%;
+	border-style: none;
+	border-width: 2px;
+	border-color: #CCCCCC;
+    FONT-FAMILY: Verdana, Helvetica, sans-serif;
+    FONT-SIZE: 1.0em;
+    FONT-WEIGHT: bold;
+    LETTER-SPACING: normal;
+    TEXT-TRANSFORM: none;
+    WORD-SPACING: normal;
+    color: #00FF00;
+}
+
+.WEB_COUNTER_DIGIT
+{
+	BORDER-RIGHT: #cccccc 1px solid;
+	BORDER-TOP: #cccccc 1px solid;
+	BORDER-LEFT: #cccccc 1px solid;
+	BORDER-BOTTOM: #cccccc 1px solid
+}
+
+.ZK
+{
+	border-style: solid;
+	border-bottom-style:solid;
+	border-width: thick;
+	border-color: Gray;
+	border: solid thick Gray;
+	background-color: #DFDFDF;
+	text-align:justify;
+	vertical-align:middle;
+}
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+/* >>>>>>>>>>>>>>>>>> Mission detail page styles <<<<<<<<<<<<<<<<<< */
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+.MD_CONTENT_AREA
+{
+	Z-INDEX: 101;
+	position: relative;
+	width: 732px;
+	height: 468px;
+	overflow: hidden;
+	background-image: url(images/notes.jpg);
+	background: url(images/notes.jpg);
+	background-attachment: scroll;
+	margin: 0 0 0 0;
+}
+
+.MD_INFO_AREA
+{
+	z-index: 102;
+	position: absolute;
+	overflow: hidden;
+	top: 50px;
+	left: 85px;
+	width: 220px;
+	height: 280px;
+}
+
+.MD_RANKING_AREA
+{
+	z-index: 102;
+	position: absolute;
+	overflow: hidden;
+	top: 260px;
+	left: 82px;
+	width: 211px;
+	height: 151px;
+}
+
+.MD_DESCRIPTION_AREA
+{
+	z-index: 102;
+	position: absolute;
+	overflow: hidden;
+	top: 40px;
+	left: 375px;
+	width: 230px;
+	height: 375px;
+	text-align: justify;
+    FONT-FAMILY: Verdana, Helvetica, sans-serif;
+    FONT-SIZE: 1.0em;
+    FONT-WEIGHT: normal;
+    LETTER-SPACING: normal;
+    TEXT-TRANSFORM: none;
+    WORD-SPACING: normal;
+    color: #000000;
+
+}
+
+.MD_TABLE_INFO
+{
+    FONT-FAMILY: Verdana, Helvetica, sans-serif;
+    FONT-SIZE: 0.8em;
+    FONT-WEIGHT: bold;
+    LETTER-SPACING: normal;
+    TEXT-TRANSFORM: none;
+    WORD-SPACING: normal;
+    color: #000000;
+}
+
+.MD_TABLE_RANKING
+{
+    FONT-FAMILY: Verdana, Helvetica, sans-serif;
+    FONT-SIZE: 0.8em;
+    FONT-WEIGHT: normal;
+    LETTER-SPACING: normal;
+    TEXT-TRANSFORM: none;
+    WORD-SPACING: normal;
+    color: #000000;
+}
+
+.MD_DIV_NOTES
+{
+	width: 99%;
+	height: 100%;
+	overflow: auto;
+	border: solid 1px #000000;
+	SCROLLBAR-FACE-COLOR: 696767;
+	SCROLLBAR-HIGHLIGHT-COLOR: A4A2A2;
+	SCROLLBAR-SHADOW-COLOR: A4A2A2;
+	SCROLLBAR-3DLIGHT-COLOR: A4A2A2;
+	SCROLLBAR-ARROW-COLOR: FFFFFF;
+	SCROLLBAR-TRACK-COLOR: E3DFE0;
+	SCROLLBAR-DARKSHADOW-COLOR: A4A2A2;
+}
+
+.MD_TABLE_DESCR
+{
+	z-index: 105;
+	width: 99%;
+	text-align: justify;
+    FONT-FAMILY: Verdana, Helvetica, sans-serif;
+    FONT-SIZE: 0.9em;
+    FONT-WEIGHT: normal;
+    LETTER-SPACING: normal;
+    TEXT-TRANSFORM: none;
+    WORD-SPACING: normal;
+    color: #000000;
+}
+
+.MD_CONTENT_AREA A:link
+{
+	text-decoration: none;
+	color: #3333CC;
+}
+
+.MD_CONTENT_AREA A:active
+{
+	text-decoration: none;
+	color: #3333CC;
+}
+
+.MD_CONTENT_AREA A:visited
+{	
+	text-decoration: none;
+	color: #3333CC;
+}	
+
+.MD_CONTENT_AREA A:hover
+{
+	text-decoration: underline;
+	color: #0000FF;
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+/* >>>>>>>>>>>>>> Tips & Tricks detail page styles <<<<<<<<<<<<<<< */
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+.TIP_BCKG_AREA
+{
+	Z-INDEX: 101;
+	position: relative;
+	width: 774px;
+	height: 607px;
+	overflow: hidden;
+	background-image: url(images/notebook.jpg);
+	background: url(images/notebook.jpg);
+	background-attachment: scroll;
+	margin: 0 0 0 0;
+}
+
+.TIP_CONTENT_AREA
+{
+	Z-INDEX: 102;
+	position: absolute;
+	top: 72px;
+	left: 204px;
+	width: 465px;
+	height: 328px;
+	overflow: auto;
+	margin: 0 0 0 0;
+	SCROLLBAR-FACE-COLOR: #9FA5C5;
+	SCROLLBAR-HIGHLIGHT-COLOR: #A4A2A2;
+	SCROLLBAR-SHADOW-COLOR: #A4A2A2;
+	SCROLLBAR-3DLIGHT-COLOR: #A4A2A2;
+	SCROLLBAR-ARROW-COLOR: #5A5B6D;
+	SCROLLBAR-TRACK-COLOR: #807D8E;
+	SCROLLBAR-DARKSHADOW-COLOR: #A4A2A2;
+}
+
+.TIP_CONTENT_AREA A:link
+{
+	text-decoration: none;
+	color: #FFFF00;
+}
+
+.TIP_CONTENT_AREA A:active
+{
+	text-decoration: none;
+	color: #FFFF00;
+}
+
+.TIP_CONTENT_AREA A:visited
+{	
+	text-decoration: none;
+	color: #FFFF00;
+}	
+
+.TIP_CONTENT_AREA A:hover
+{
+	text-decoration: underline;
+	color: #FFFFFF;
+}

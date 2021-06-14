@@ -1,0 +1,102 @@
+
+Nazov   : Malden airport 2002 (UN)
+
+Autor   : Peter alias PAPA - Trnava - Slovakia
+
+E-mail  : om3pv@pobox.sk
+
+Ostrovy : Malden, Ackropolis a Kodiak
+
+
+Potrebne addOny  : su pribalene ku kampani.
+
+                   
+Animacne subory  : ackropolis_anim       
+                   kodiak_anims
+
+                   nakopirovat do OFP/ADDONS  !!
+                   =============================
+
+
+
+Addony prilozene : ackropolis
+                   baracken
+                   bfv_gecko 
+                   CATintro
+                   csjoxcart
+                   editorup
+                   editorupdate102
+                   EditorUpdate175Noe 
+                   EditorUpgrade1
+                   EditorUpgrade102
+                   F3WX_01
+                   JAM magazines
+                   JAM sounds
+                   jjr_rebels
+                   JOF_Objects1
+                   kodiak
+                   NAF_UN_APC_medic
+                   NAF_UN_HMMWV
+                   NAF_UN_JEEP_medic
+                   PC_embassy2
+                   PC_horse3
+                   PV_UN_objects
+                   radiotower
+                   streetlamp
+                   UNaddon
+
+                   
+                    nakopirovat do OFP/RES/ADDONS
+                    ==============================
+
+  doporucujem v OFP iba oficialne addony + addony potrebne pre kampan  !!
+  =======================================================================
+
+
+Verzia hry : 1.96 - resistance
+
+
+Campaign obsahuje celkom 8 misii.
+
+Ackropolis 7 misii
+Kodiak     1 misia
+
+
+Strucny popis :  Republika Malden bola prizvana do mierovych sil OSN.
+                 Jej posobisko je ostrov Ackropolis na strednom vychode.
+
+
+Historia      :  April 2005      - pociatok editovania
+                 December 2005   - Beta verzia 
+                 Januar 2006     - zadanie testerom  
+                 April 2006      - zadanie testerom  
+                 April 2006      - dokoncenie finalnej verzie 
+ 
+                      
+Podakovanie   : Hlavne BIS, za tak krasnu hru !!!
+
+                Ruprtovi za tak krasne spracovanu `Napovedu pre editor misii`.
+
+                Golem, Sarge, Litlekubo za testovanie
+
+                Dusand, Sarge a Dusapa za dabing
+
+                Dusandovi za pomoc pri umiestneni na Webe.
+
+                a celej komunite OFP.    
+         
+
+
+
+==========================================================================================
+
+    
+
+
+
+
+
+
+
+
+

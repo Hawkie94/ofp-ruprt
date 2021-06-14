@@ -1,0 +1,32 @@
+ Jméno mise:         Průzkum
+  
+ Autor:              maniak
+
+ Ostrov:             Malden
+ 
+ Addony:             Officiální a ČSLA II mod
+
+ Potřebná verze hry: Mělo by to fungovat se základní verzí Resistance,
+                     mise byla dělaná na verzy 1.96
+
+ Mail:               zzzf@seznam.cz
+
+ Typ:                SP Mise
+
+ 
+ Odkaz na stránku ČSLA II modu: http://games.tiscali.cz/clanek/dl.asp?id=6881
+
+ Mise je dělaná na sestavě:  AMD Athlon XP 2500+
+                             512 Mb RAM
+                             GeForce 5200 FX
+
+ Instalace:       Skopírujte soubor"Průzkum.Abel .pbo/Standardně do
+                  C:\Program files\OperationFlashpoint\missions
+
+
+  Známé chyby: Hned na začátku, jak nad vámi přelétají dvě Su-25-občas přiletí jen jedna
+    
+
+ Tohle je moje první mise, kterou sem se rozhodl dát na internet, takže
+ toho moc neočekávejte! Rady a připomínky pište buď na mail: zzzf@seznam.cz
+                                                nebo na ICQ: 191-106-222

@@ -1,0 +1,35 @@
+README:                               _____      __                       ____
+ _______                 _           | ____|    | | \        ___         | |  \\     _______
+ |______|      ____     | |          | |        | |  |      //  \\       | |  //    |_______|
+   | |         |___|    | |          | |____    | |  /     ||    ||      | | //        | |
+   | |         |___     | |          | |____|   | |_       \\    //      | | \\        | |
+   | |         |___     | |___       | |____    | |         \\__//       | |  \\       | | 
+   |_|         |___|    |____|       |_____|    |_|                      |_|   \\      |_|
+      
+
+
+
+---------------------------------PTÁKOVINA------------------------------------------------------------
+
+Autor Jack (Jaofp@seznam.cz)
+
+
+Mise se odehrává na ostrově nogova (Ostrov přidaný resistancí) a kromě Resistance, nemusíte nic stahovat.
+
+
+
+Misi (nebo spíš ptákovinu)jsem Vytvořil na verzy 1.96 (za chyby na této, ani na jiné verzy NERUČÍM!!)
+
+PS: BUGY: snažil jsem se, ale bohužel marně --> tudíž pokud se chcete teleportovat I S TANKEM,
+musíte být jako řidič.
+
+Ovládání:
+
+Teleportace: -- jen kliknout někam na mapu
+Tachometr  : -- pomocí rádia navolit "povolit INFO"
+Pohled letící střely: -- pomocí rádia navolit "povolit INFO" a vystřelit z TANKU
+
+
+Toť vše přeji hoodně zábavy
+
+JACK

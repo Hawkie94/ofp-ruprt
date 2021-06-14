@@ -1,0 +1,37 @@
+Autor: Celoush
+Název: Rychlý blesk II
+Ostrov: Nogova (NOE)
+Typ mise: Single
+Intro: Ano
+Outro: Ano
+Doporučená verze: 1.90
+----------------------
+
+Addony: Pouze oficiální (včetně kola)
+bis_resistance, BIS_weaponpack, bradley, kolo, HMMWW, ch47d,
+bmp2, ah64, Vulcan, MM1, XMS, Steyr, G63a, Bizon.
+
+---------- UPOZORNĚNÍ ----------
+
+Tato mise obsahuje velké množství jednotek a tak
+může být na pomalých strojích nehratelná.
+
+Hra byla vytvořena na Athlonu 1200, 256 MB, 64 MB ATI Radeon 7200.
+Její hratelnost byla tak akorát.
+---------- POPIS MISE ----------
+
+V této misi vystupujete jako pět vojáků v různých úkolech.
+Myslím, že misi lze dohrát tak za čtvrt hodiny, i když vám to bude 
+pravděpodobně trvat déle. Ale osobně si myslím, že není příliš obtížná.
+
+---------- PODĚKOVÁNÍ ----------
+
+I když jsem misi udělal celou sám, přesto děkuji všem, kteří mi hlavně svými 
+radami (především na svých stránkách) pomáhali. 
+Mezi ně patří Ruprt, Didymos, Maa, Leon a další a další.
+Ale třeba David Berka a jeho Flashpoint Equipment Editor.
+
+
+Kontakt: celoush@seznam.cz
+ICQ: 144701758
+Web: http://www.mujweb.cz/www/ofp.celoush

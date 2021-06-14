@@ -1,0 +1,10 @@
+mise:Peklo(Pokus o horrorovou misi)
+autor:Gravedigger;gravedigger-ofp@volny.cz;
+ostrov:Kolgujev
+rada:Jestli se vám nelíbí pistolka,hned za vámi jsou mrtvoly a nějáké zbraně.Když sejdete daleko ze silnice zemřete!
+verze:1.91
+addony:Nic 
+chyby:Zatím nic.
+NENESU ZODPOVĚDNOST ZA ŠKODY,KTERÉ VÁM MISE MŮŽE ZPŮSOBIT(Snad se nic nestane)
+Mise sice není moc flashpointová a navíc je tahle mise jeden z prvních pokusů mojí tvorby,ale snad se vám bude líbit.
+Hodně zábavy a štěstí.

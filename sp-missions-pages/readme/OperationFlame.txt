@@ -1,0 +1,15 @@
+Operation Flame
+Misi vytvoøil:Player
+Vytvoøeno na verzi:1.96
+Strana:Západ
+Email:kuba.englicky@email.cz
+ICQ:292-397-733
+Ostrov:Nogova
+Potøebné addony:
+BAS De/Ra 1.55
+(ftp://www.gamezone.cz:8021/ofpd/unofaddons2/bas_dera_v1_55.rar)
+JAM 2
+(http://www.gotf.net/download.asp?dl=72)
+
+Popis mise:Jako velitel malé jednotky 
+Rangerù máte za úkol dobýt 3 vesnice.

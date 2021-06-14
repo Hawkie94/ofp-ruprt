@@ -1,0 +1,122 @@
+NOČNÍ MŮRA
+Verze 1.00
+Readme Soubor
+Květen 10, 2005
+
+
+***********************************************************************
+
+		    	OBSAH
+
+		  I.	ÚVOD
+		 II.	SYSTÉMOVÉ POŽADAVKY
+		III.	POTŘEBNÉ ADDONY
+	  	 IV.	INSTRUKCE K INSTALACI
+                  V.	TVŮRCI
+		 VI.	UPOZORNĚNÍ
+
+	               
+I. ÚVOD
+=========================
+
+  Berte prosím ohled na to, že samotná mise Nightmare je více než rok a půl stará.
+  Tehdy jsem vytváře snigle player misi, ale ke konci roku 2003 jsem ji zařadil
+  do kampaně Battlefield 2006. Celáý projekt byl ale zrušen v půli roku 2004
+  a na misi se zapomnělo. Až před několika měsíci jsem ji objevil v jedné staré
+  složce a rozhodl jsem si ji konečně vydat
+
+
+II. SYSTÉMOVÉ POŽADAVKY
+=========================
+
+K instalaci a hraní mise Nightmare jsou nutné následující specifikace:
+
+  900 MHz Pentium® III nebo podobná sestava
+  Windows® 98 / 98SE / ME / 2000 / XP 
+  128 MB RAM (256MB pro Windows XP)
+  32MB Direct3D kompatibilní 3D karta podoporující HARDWARE T&L, 32-bitové barvy,
+  a DirectX 8.1 kompatibilní ovladač
+  DirectSound® kompatibilní 16-bitová zvuková karta s DirectX 8.1 kompatibilním ovladačem
+  Windows® kompatibilní klávesnice a myš
+  DirectX® 8.1 nebo vyšší
+  5,16 MB volného místa na disku pro instalaci
+
+K plynulému hraní mise by váš počítač měl splňovat tyto požadavky:
+
+  1,8 GHz Pentium® III nebo podobná sestava
+  Windows® 98 / 98SE / ME / 2000 / XP  
+  256MB RAM 
+  64MB Direct3D kompatibilní 3D karta podoporující HARDWARE T&L, 32-bitové barvy,
+  a DirectX 8.1 kompatibilní ovladač
+  DirectSound® kompatibilní 16-bitová zvuková karta s DirectX 8.1 kompatibilním ovladačem
+  Windows® kompatibilní klávesnice a myš
+  DirectX® 8.1 nebo vyšší
+  5,16 MB volného místa na disku pro instalaci
+
+
+III. POTŘEBNÉ ADDONY
+=========================
+
+BAS Delta/Rangers pack [16.5 MB]
+http://www.gotf.net/downloads.asp?id=25
+
+BAS Littlebirds [6 MB]
+http://www.gotf.net/downloads.asp?id=77
+
+JAM2 Addon
+http://www.ofpec.com/addons/JAM.php
+
+MT-LB pack by Sebastian Müller [16.65 MB]
+ftp://www.gamezone.cz:8021/ofpd/unofaddons2/MT-LB_Update_Installer2.exe
+
+Ostatní addony jsou přiloženy k misi.
+
+
+IV. INSTRUKCE K INSTALACI
+=========================
+EXE - Soubory se umístí do potřebných složek automaticky.
+RAR - Držte se prosím instrukcí popsaných níže:
+
+gaia_nightmare.noe.pbo - Mise; Přesuňte do složky Missions ve vašem adresáři OFP
+gs_b2006 - Addon vytvořený pro misi; Přesuňte do složky Res\Missions ve vašem adresáři OFP
+Hunter_anims_static.pbo - Hunterův balík pohybů; Přesuňte do složky Res\Missions ve vašem adresáři OFP
+
+
+V. TVŮRCI
+=========================
+Režie			Gaia
+Kamera			Gaia
+			Ali
+Příběh & Design		Gaia
+			MilWin
+Hudba			Bill Brown
+Zvuky			Tom Clancy's Ghost Recon
+Kontrola kvality	P.W.
+			MilWin
+			Jezuro
+Poděkování		Sebastian Müller
+			BAS 
+			TOW
+			Hunter
+			MAA
+Speciální poděkování	Yoshimitsu
+			BI Studio
+
+
+VI. UPOZORNĚNÍ
+=========================
+Tato mise není vytvořena pro komerční použití. Není podporována vývojáři hry "Operace Flashpoint". Tato mise je neformální
+produkt. Autoři nenesou žádnou zodpovědnost za případná selhání vašeho počítače, které mohou nastat při běhu mise.
+Všechna práva na tento produkt jsou chráněna a náleží autorům.
+
+Ještě jednou to připomínáme: můžete použít misi pouze pro nekomerční účely! Nemáte povolení komukoli prodávat tento produkt!
+
+
+Informace o právech:
+Operation Flashpoin(TM) 
+Resistance(TM) 
+Copyright (c) 2002 Bohemia Interactive Studio a The Codemasters Software Company Limited.
+Nightmare mission (c) 2003/2004 Gaia Studios
+Nightmare mission (c) 2005 GS-Mod
+
+Všechna ostatní práva a ochranné známky patří jejich příslušným vlastníkům.

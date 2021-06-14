@@ -1,0 +1,89 @@
+
+	****************
+	*OPERACE REMURA*			Pouze ceska verze!!! / Czech version only!!!
+	****************			--------------------------------------------
+
+-kampan pro hru Operace Flashpoint
+
+Vytvoril MarS
+
+(SlavicekMarek@seznam.cz)
+	
+
+	************************************************************************
+	*DULEZITE!: Pred rozbalenim kampane si poradne prectete toto Read me!!!*
+	*	    Je zde nekolik dulezitych veci!!!			       *
+	************************************************************************
+
+
+! NAROKY: OFP ceske verze 1.46 (mozna i 1.30, ale neni to vyskousene)
+	  pozn. Kampan je delana v editoru Resistance, ale chodi i pod puvodnim Flashpointem
+	
+	=> par chyb u v. 1.46 -hlavni obrazek je vetsi a neni uprostred
+		     	      -pokud hrajete kampan pod Resist., nespoustejte ji
+			       pak pod puv. OFP -> bude hlasit chybu a spadne do "woken"
+		     	       (alespon me = jiny zpusob ukladani pod Res.???)
+
+
+	  Kampan otestoval Milan Ropek, za coz mu patri muj dik.
+	  Testovano na pocitaci AMD Athlon 950 MHz, 64 MB GeForce 3 pri 1024 x 768 ve 32bit, 128 MB RAM
+	  Vytvareno na pocitaci AMD Duron 800 MHz, 32 MB NIVDIA RIVA TNT2 Pro, 1024 x 768 ve 32bit, 128 MB RAM
+
+	  Na obou pocitacich sla kampan bez problemu a prakticky bez sekani.
+
+
+********************************************************************************************
+
+! INSTALACE - rozbalte veskere soubory z Operace_Remura.zip
+	      do adresare x:\....\Operation Flashpoint\Campaigns
+	      (popripade x:\....\Operation Flashpoint\Res\Campaigns)
+	    - soubory se automaticky usporadaji (musite mit zvoleno "Rozbalit i s cestou" nebo
+	      neco podobneho)
+	  
+	(=> toto reseni jsem zvolil vzhledem k problemum se zapakovanym souborem do .PBO)
+
+*********************************************************************************************
+
+! POTREBNE ADDONY: ! radar CWKStatHawk verze 1.0.0 BETA (Bob Watt - Colonel_Klink)
+		   ----------------------------------
+
+			DOWNLOAD: ftp://www.gamezone.cz/ofpd/unofaddons/cwkstathawk.zip
+			--------
+		(v pripade nefunkcnosti odkazu -> otevrit www.operationflashpoint.cz
+		-> vlevo je odkaz Addony -> Ruzne -> asi pata strana-meni se to,
+		musite hledat)
+
+		 ! Editor upgrade v. 1.02 (Gunslider)
+		   ----------------------
+
+			DOWNLOAD: http://games.worldonline.cz/flashpoint/download/EditorUpgrade102.exe
+			--------
+		(opet www.operationflashpoint.cz
+		-> vlevo je odkaz Addony -> Ruzne -> myslim, ze je to posledni strana
+
+		nebo http://games.worldonline.cz/flashpoint
+		-> vlevo je Download, v nem odkaz na stahnuti)
+
+	o dalsich nevim, melo by to byt OK - snazil jsem se to delat bez dalsich
+	addonu (ten radar je nutnost - okolo nej se vsechno toci)
+
+*********************************************************************************************
+
+BUDOUCI PLANY: 	V soucasnosti pracuji na pokracovani Operace Remury-pocitam s asi 10-15 misemi,
+	       	bude ozvucena a i pro anglickou verzi.
+	
+
+*********************************************************************************************
+
+PODEKOVANI: Milanu Ropkovi (otestovani), OFP.Info foru (informace, zdokonaleni), BIS Studiu
+	    (za OFP) a vam za stazeni me kampane
+
+
+								MarS
+
+
+POZNAMKA NA ZAVER: Veskere rady, pripominky a kritiku zasilejte na adresu:
+
+								SlavicekMarek@seznam.cz
+
+								http://mars.webzdarma.cz

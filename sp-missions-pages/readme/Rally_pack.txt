@@ -1,0 +1,25 @@
+
+ =================================== Rally_pack ==============================================
+ 
+ -Misie  : Rally , Rally2 a Rally3  pre hru - Operace Flashpoint
+
+ -Autor  : Vojtoo
+
+ -Ostrov : MALDEN , EVERON , KOLGUJEV
+
+ -Addony : INTSkodaRallyCar a streetlamp (Oba addony sú priložené k packu)
+
+ -Mail   : Vojtoo@centrum.sk
+
+ -ICQ    : 132810742
+
+ -Toto je pack troch starších misií Rally.Súbory z adresára Misie skopírujte do vášho
+  adresára /ofp/missions a súbory z adresára adony skopírujte do vášho adresára /ofp/ADDONS
+        
+ -Potrebná verzia hry : 1.46 - najlepšie česká.
+
+ -Prajem príjemnú zábavu pri hraní misií.
+
+
+  V o j t o o
+

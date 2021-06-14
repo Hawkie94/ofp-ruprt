@@ -1,0 +1,214 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8"></head><body onload="dynAnimation()" vlink="#FF0000" link="#FF0000" background="eventhandlers_files/pozadi.JPG" alink="#FF0000">
+
+
+<meta name="VI60_defaultClientScript" content="JavaScript">
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Ali - www.operaveflashpoint.wz.cz</title>
+<script language="JavaScript" fptype="dynamicanimation">
+<!--
+function dynAnimation() {}
+function clickSwapImg() {}
+//-->
+</script>
+<script language="JavaScript1.2" fptype="dynamicanimation" src="eventhandlers_files/anim.js">
+</script>
+
+
+<!-- --- barva posuvníku ----->
+<style>
+BODY
+{
+	SCROLLBAR-FACE-COLOR: #EADDCC;
+	SCROLLBAR-HIGHLIGHT-COLOR: #000000;
+	SCROLLBAR-SHADOW-COLOR: #000000;
+	SCROLLBAR-3DLIGHT-COLOR: #666666;
+	SCROLLBAR-ARROW-COLOR: #000000;
+	SCROLLBAR-TRACK-COLOR: #898989;
+	SCROLLBAR-DARKSHADOW-COLOR: #666666;
+}
+</style>
+<!-- --- barva posuvníku ----->
+
+
+
+<div align="center">
+  <center>
+  <table style="border-collapse: collapse" id="AutoNumber1" width="800" cellspacing="0" cellpadding="0" bordercolor="#111111" border="0">
+    <tbody><tr>
+      <td colspan="2" height="200" background="eventhandlers_files/pozadi_2.JPG">
+      <p align="center"><map name="FPMap0">
+      <area alt="Napište mi" href="mailto:inbox@ali.borec.cz?subject=operace flashpoint" shape="rect" coords="383, 161, 422, 182">
+      </map><img src="eventhandlers_files/logo.jpg" usemap="#FPMap0" width="800" height="200" border="0"></p></td>
+      <td rowspan="5" width="5" height="2529" background="eventhandlers_files/stin.GIF">&nbsp;</td>
+    </tr>
+    <tr>
+      <td rowspan="2" width="20" height="2311" background="eventhandlers_files/pozadi_2.JPG">&nbsp;</td>
+      <td height="102" background="eventhandlers_files/pozadi_2.JPG"><p><b><font size="2">Autor:</font></b><font size="2"> Ali<br>
+      <b>E-Mail:</b>
+      <a style="text-decoration: none" dynamicanimation="fpAnimformatRolloverFP1" fprolloverstyle="text-decoration: underline" onmouseover="rollIn(this)" onmouseout="rollOut(this)" language="Javascript1.2" title="E-Mail" href="mailto:inbox@ali.borec.cz?subject=operace flashpoint">inbox@ali.borec.cz</a><br>
+      <b>WWW:</b> </font>
+      <a style="text-decoration: none" dynamicanimation="fpAnimformatRolloverFP1" fprolloverstyle="text-decoration: underline" onmouseover="rollIn(this)" onmouseout="rollOut(this)" language="Javascript1.2" title="www" href="http://www.operaceflashpoint.wz.cz/">
+      <font size="2" color="#FF0000">www.operaceflashpoint.wz.cz</font></a></p>
+      <p align="center"><br>
+      <b>Příkaz "addEventHandler"</b></p></td>
+    </tr>
+    <tr>
+      <td height="2209" background="eventhandlers_files/pozadi_2.JPG"><font size="2">Používá se this addEventHandler ["<i>typ</i>",{<i>Při aktivaci</i>}]<br>
+      <br>
+      <b>Typy použití:</b><br>
+      killed<br>
+      hit<br>
+      dammaged<br>
+      getIn<br>
+      getOut<br>
+      init<br>
+      engine<br>
+      gear<br>
+      fuel<br>
+      fired<br>
+      incomingMissile<br>
+      <br>
+      <br>
+      <i>Zde si jednotlivé typy vysvětlíme:</i><br>
+      <br>
+      <b>Killed</b><br>
+      Zjisti, jestli daná jednotka je mrtvá. Příkaz vypište do inicializačního 
+      pole jednotky u které chcete zjistit jestli během hry zemře. <br>
+      Příklad - this 
+      addEventHandler ["killed",{zemrel = true}]<br>
+      <br>
+      Obdoba tohoto příkazu je "alive", v praxi by to vypadalo asi takhle...<br>
+      <br>
+      <img src="eventhandlers_files/image1.JPG" width="540" height="200" border="0"><br>
+      <br>
+      <br>
+      <br>
+      <b>Hit</b><br>
+      Zjistí, jestli daná jednotka se během hry poškodí nebo zraní (zranění muže 
+      být i smrtelné), musí být poškozena tím způsobem, že se poškození projeví 
+      na její vlastnostech (například voják nebude moc chodit, tank se 
+      pohybovat...). Příkaz vypište do inicializačního pole jednotky u které 
+      chcete zjistit jestli během hry se jí něco stane. Příklad - this addEventHandler ["hit",{this 
+      sideChat "Jsem pod palbou, potřebuji podporu!"}]<br>
+      <br>
+      <br>
+      Příkazy s podobnýmy vlastnostmi:<br>
+      CanFire<br>
+      CanMove<br>
+      CanStand<br>
+      HandsHit<br>
+      Alive<br>
+      <br>
+      <br>
+      <br>
+      <b>Dammaged</b><br>
+      Zjistí, jestli se jednotka sama poškodila (neplatí zde když ji někdo 
+      postřelí, nebo když se letadlo poškodí vlastními zbraněmi), například auto 
+      narazí do stromu, helikoptéra o něco zaháči a poškodí se. Příkaz vypište 
+      do inicializačního pole jednotky, u které chcete zjistit jestli během hry 
+      se nějak zraní, nebo poškodí. Příklad -&nbsp; this addEventHandler ["Dammaged",{this 
+      setDammage 0}]<br>
+      <br>
+      <b>GetIn</b><br>
+      Příkaz vypište do inicializačního pole jednotky, u které chcete zjistit 
+      jestli během hry do ní někdo nastoupil. <br>
+      Příklad -
+      this addEventHandler ["GetIn",{voj1 
+      sideChat "Vylez z toho auta!!"}]<br>
+      <br>
+      Příkaz s podobnými vlastnostmi je "in", v praxi by to vypadalo asi 
+      takhle...<br>
+      <br>
+      <img src="eventhandlers_files/image2.JPG" width="540" height="200" border="0"><br>
+      <br>
+      &nbsp;<br>
+      <br>
+      <b>GetOut</b><br>
+      Příkaz vypište do inicializačního pole jednotky, u které chcete zjistit 
+      jestli během hry z ní někdo vystoupil. <br>
+      Příklad -
+      this addEventHandler ["GetOut",{uaz 
+      stop true}]<br>
+      <br>
+      Příkaz s podobnými vlastnostmi je "in", v praxi by to vypadalo asi 
+      takhle...<br>
+      <br>
+      <img src="eventhandlers_files/image3.JPG" width="540" height="200" border="0"><br>
+      <br>
+      <br>
+      <br>
+      <b>Init</b><br>
+      Tuto funkci se mi zatím nepodařila ověřit<br>
+      <br>
+      <br>
+      <br>
+      <b>Engine</b><br>
+      Příkaz vypište do inicializačního pole jednotky, u které chcete zjistit 
+      jestli během hry zapne motor (vrtulník roztočí vrtuli, auto se rozjede). 
+      <br>
+      Příklad -
+      this addEventHandler ["Engine",{voj1 setMimic "happy"}]<br>
+      <br>
+      <br>
+      <br>
+      <b>Gear</b><br>
+      Tuto funkci se mi zatím nepodařila ověřit<br>
+      <br>
+      <br>
+      <br>
+      <b>Fuel</b><br>
+      Příkaz vypište do inicializačního pole jednotky, u které chcete zjistit 
+      jestli během hry ji ubere palivo příkaz setFuel na nulu. <br>
+      Příklad -
+      this 
+      addEventHandler ["Fuel",{UnassignVehicle voj1}]<br>
+      <br>
+      <br>
+      <br>
+      <b>Fired</b><br>
+      Příkaz vypište do inicializačního pole jednotky, u které chcete zjistit 
+      jestli během hry vystřelila z jakékoliv zbraně. <br>
+      Příklad -
+      this addEventHandler ["Fired",{voj1 
+      sideChat "Zbláznil jste se,tohle má být tajná operace!!"}]<br>
+      <br>
+      <br>
+      <br>
+      <b>IncomingMissile</b><br>
+      Příkaz vypište do inicializačního pole jednotky, u které chcete zjistit 
+      jestli během hry na ní někdo vystřelil z raketometu. <br>
+      Příklad -
+      this addEventHandler 
+      ["IncomingMissile",{this setBehaviour "COMBAT"}]<br>
+      Příkaz zjistí jestli někdo jednotku zamířil a vystřelil, nemusel ji 
+      zaručeně trefit, příkaz jde použít na hráče, ale když hráč vystřelí na 
+      jednotku osazenou tímto příkazem tak to nefunguje.<br>
+      <br>
+      <br>
+      <br>
+      K odebráni funkce EventHandler slouží dva příkazy a to removeEventHandler 
+      &amp; removeAllEventHandlers. Bouhužel tyto příkazy mi nějak nefungovali.<br>
+      <br>
+      <br>
+      A to je vše...<br>
+&nbsp;</font></td>
+    </tr>
+    <tr>
+      <td width="10" height="9" background="eventhandlers_files/pozadi_2.JPG">
+      <p align="center">&nbsp;</p></td>
+      <td width="10" height="9" background="eventhandlers_files/pozadi_2.JPG">
+      <font size="1">Copyright©<a dynamicanimation="fpAnimformatRolloverFP1" fprolloverstyle="text-decoration: underline" onmouseover="rollIn(this)" onmouseout="rollOut(this)" language="Javascript1.2" style="text-decoration: none" href="mailto:inbox@ali.borec.cz?subject=operace flashpoint"><font color="#000000">Ali</font></a>2003</font></td>
+    </tr>
+    <tr>
+      <td colspan="2" width="20" height="5" background="eventhandlers_files/stin_2.html"><font style="font-size: 5">a</font></td>
+    </tr>
+    </tbody></table>
+  </center>
+</div>
+
+
+
+</body></html>

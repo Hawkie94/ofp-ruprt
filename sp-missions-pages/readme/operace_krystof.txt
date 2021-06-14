@@ -1,0 +1,55 @@
+  5.ledna 2004
+
+  *****************************************************
+  Operace Kryštof - Singleplayerová mise ver: 3.0 Final
+  *****************************************************
+
+
+  DOPORUČENÁ KONFIGURACE: Hra Operace Flashpoint: Resistance ver: 1.91 a vyšší
+
+  PODPOROVANÉ JAZYKY: Čeština
+ 
+  POTŘEBNÉ ADDONY: *** Žádné ***
+
+  LINKY NA ADDONY: *** Žádné ***
+
+  INSTALACE: Zkopíruj soubor mise "Operace Kryštof.Noe.pbo" do adresáře tvé hry
+             "OperationFlashPoint\Missions\Resistance"
+ 
+  POPIS: Hlavním úkolem této rozsáhlé operace je zničení nepřátelské protivzdušné
+         obrany (ZSU-23 Šilka) a likvidace rádiových hlídek na okolních ostrovech.
+         Velíte šestičlenému družstvu, se kterým jste byli v noci vysazeni na 
+         jihovýchodní části Nogovy.
+         Začínáte ráno v 05:00, severně od obce St. Sedlo. 
+         Zničte první Šilku na jižním poloostrově. Ihned se zmocněte nějaké lodě a 
+         podle mapy doplujte na první ostrov. Vyhledejte a zlikvidujte první 
+         rádiovou hlídku. 
+         Doplujte na druhý ostrov a opět zlikvidujte rádiovou hlídku.
+         Pravděpodobnost že vás někdo uslyší je malá, přesto dávejte pozor na
+         případné hlídky. 
+         Vydejte se na plavbu k souostroví, kde se nachází další Šilka. Oblast je 
+         poměrně dosti chráněna vojáky a určitě i nějakou technikou. 
+         Zničte Šilku, pokud nenastanou komplikace budete evakuováni našim vrtulníkem.
+         Informace ze štábu podává: "DEXI"
+         Krycí znak pro evakuační vrtulník: "taxi" 
+         Krycí znak pro Šilky: "Vejce"
+         Hodně štěstí!
+         
+         
+
+  MISI VYTVOŘIL: Ondřej "Eiffel" Molata
+                 molataeiffel@volny.cz
+                 http://eiffel.hyperlink.cz
+
+  NAMLUVIL:      Romanka "DEXI" Kohoutová, Jaroslav "Alf" Molata
+
+  BETATEST:      Martin "Mr.BAZ" Fišer
+
+  KOREKCE:       Romanka "DEXI" Kohoutová
+
+
+  *****************************************************
+
+
+
+

@@ -1,0 +1,41 @@
+Ante Portas - Arma 2 SP campaign by EMSI © 2oo9-2o11
+----------------------------------------------------------------------------------------------------------
+
+This ZIP archive contains the "EMSI_AP.pbo" file which is located in the "Campaigns" folder.
+Move this folder in to your main Arma 2 directory.
+The standard location of this directory is: "C:\Program Files\Bohemia Interactive\ArmA 2"
+... so the campaign file will be located in: "C:\Program Files\Bohemia Interactive\ArmA 2\Campaigns"
+
+You don't need to install this campaign into the "Addons" directory. 
+
+After launching the game, select in the Campaigns menu the "Ante Portas" campaign.
+----------------------------------------------------------------------------------------------------------
+
+Basic info:
+------------
+Required game/version:  Arma 2:CO v1.57 or vanilla Arma 2 v1.08
+Required addons: NONE (only official)
+Campaign name: Ante Portas
+Playing region: Utes and whole Chernarus
+Main character: Ltn. Alan Beton, USMC
+
+Features:
+------------
+Complete dubbing with slovak/czech/english subtitles.
+Switching between characters according to the current mission story.
+Some situations in the missions can be finished by different ways.
+
+Special thanks:
+---------------
+Martinius, Kuba, Sarge, Terablick, Faly, Hurby, Pochyst, Str
+... and Zdenka
+
+Note:
+-----
+v1.1
+For detailed info see attached file "EMSI_Ante_Portas_bug-fix.txt"
+
+----------------------------------------------------------------------------------------------------------
+http://anteportas.xf.cz
+http://arma2.xf.cz
+EMSI © 2oo9-2o11

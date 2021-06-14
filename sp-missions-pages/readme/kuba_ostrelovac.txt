@@ -1,0 +1,13 @@
+Název:Ostøelovaè
+Potøebné addony:žádné
+Ostrov:Nogova
+Typ mise:SP
+Intro a outro:NE
+Brifing a overview:ANO
+Vyrobeno na verzi:1.96
+Kontakt:kuba.englicky@email.cz
+Strana:Partyzáni
+Vyrobil:Player
+
+Nìco o misi:
+Jako ostøelovaè musíte zabít nepøátelského dùstojníka.

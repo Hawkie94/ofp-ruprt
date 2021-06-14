@@ -1,0 +1,13 @@
+ARTILERY
+
+Autor: Hammer
+Strana: Partyzáni
+Typ mise: Pìchotní
+Ostrov: Everon
+Verze ofp: 1.96
+Addony: editorupdate102 (pøibalen)
+Instalace: Soubor ARTILERY.Eden.pbo zkopírujte do C:/.../Operace Flashpoint/missions
+a soubor editorupdate102.pbo zkopírujte do C:/.../Operace Flashpoint/addons
+Kontakt: Email: zatloukal.v@seznam.cz
+         ICQ: 395-494-829
+         WWW: WWW.HAMMER.ESTRANKY.CZ

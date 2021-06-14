@@ -1,0 +1,36 @@
+PRE SPRÁVNE ZOBRAZENIE ODPORÚÈAM ZAPNÚ SI ZALOMENIE TEXTU
+
+Autor: TonyHawk
+Názov misie: Ninja
+Verzia misie: 1.4
+Typ misie: kombinovaná s prevanım prvkom stealth
+Ve¾kos: 24.3 MB
+Potrebné addony:
+	- Kegetysov EditorUpdate102 (priloené)
+	- Itweasov addon Ninju (na stiahnutie tu: ftp://ftp.armedassault.info/ofpd/unofaddons2/Shinobi.zip)
+Tvorené na verzii OFP: 1.96
+Potrebná verzia k hraniu: 1.96
+
+Kontakt na autora:
+	Web-stránka - www.tonyhawkblog.estranky.cz
+	E-mail	    - TonyHawk94@azet.sk
+
+Bugy a problémy: Misia bola viackrát testovaná, napriek tomu sú tam viaceré bugy, ktoré sa mi nepodarilo odstráni (najmä strašná reakcia nepriate¾skej AI, ktorá skoro vôbec nereaguje na prítomnos Vás - vojaka ninju - v ich zornom poli, a okolí. V sumári je ale misia plne hrate¾ná, a bez problémov dohrate¾ná ;o).
+
+Zopár slov: Je to moja prvá misia, resp. moja prvá dokonèená misia (dokonèená bola v roku 2008, toto readme píšem s odstupom èasu - 2021), do ktorej som chcel da všetky "super-vychytávky", ako napr. dynamickı vıpis textu, dabing, super hudba, atï... Misia sa prerábala na nieko¾kokrát (hneï po vydaní deò-dva-tri, resp. do tıdòa na to vyšla opravná verzia 1.1; neskôr verzia 1.2 s novo pridanou muzikou a opravenımi viacerımi chybami. Na verzie 1.3 a (najnovšiu) 1.4 si presne nespomínam, ale viem, e som zredukoval muziku (resp. pridal/odstránil), pridal ve¾mi drobné vychytávky, a ve¾mi jemne upravil briefing. Nako¾ko ale dabérov som u kvôli zopár zmenenım hláškam nechcel "otravova", hlášky zostali tak, ako sú (hoci sa mierne zmenilo zameranie misie). Kadopádne, posledné úpravy (verzia 1.4) boli vykonané v roku 2011, a odvtedy u niè).
+
+Pôvodnım zámerom bolo vytvori misiu s ve¾kou dávkou vo¾nosti, kde budete ma za cie¾ vyèisti 3-4 mestá, budete ma jedno miesto, odkia¾ si budete môc zobra zbrane, vıstroj, atï., a na záver sa tam vrátite. Z nejakıch (doposia¾ nezistenıch) príèin sa mi pôvodná myšlienka vykåzla spod rúk, a dopadlo to tak, e som pridal ve¾mi jednoduchı (a ve¾mi primitívny, a nevyladenı) príbeh o tom, e sa hlavnı hrdina ide pomsti za vradu svojej priate¾ky, a preto sa pridá do americkej armády, v ktorej (ehm...) ve¾mi rıchlo prejde aj vıcvikom/kurzom ninju - chcel som ve¾mi vyui (v mojich oèiach) dokonalı addon Ninju od Itweasa (uznajte sami, e je geniálny ;o). Uznávam, e mi to nie celkom vyšlo, ale teraz je to u pasé :o). Napriek tomu misiu zverejòujem, ako nostalgickú pamiatku na moje zaèiatky tvorby v OFP.
+
+Poïakovanie:
+ - ¾uïom, èo mi poskytli dabing (Wallas, Jeuro, Gaia (neboli Str), Edge, Sarge)
+ - Paøanovi za pomoc v poèiatoènej fáze tvorby misie
+ - beta-testerom (Paøan, Zob, RockyBalboa)
+ - všetkım tım, od ktorıch som "vykradol" skripty (a zabudol sa im poïakova) - menovite najmä Jeuro, Gaia, Sumrak
+ - Anurisovi za všetko, èo ma nauèil v tvorbe k OFP
+ - bıvalému AATH Studiu (Anuris, Zob, Hammer, Paøan), s ktorımi sme síce nikdy nedokonèili hlavnı projekt, napriek tomu sme sa navzájom podporovali a pomáhali si v tvorbe, atï. :o)
+
+Špeciálne poïakovanie:
+ - Ruprtova poradòa k OFP/ArmA
+ - Bohemia Interactive Studio za skvelú hru
+
+(Ak som na niekoho náhodou zabudol, tak sa ospravedlòujem a dodatoène ïakujem :o))

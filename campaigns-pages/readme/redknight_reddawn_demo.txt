@@ -1,0 +1,18 @@
+Red Dawn DEMO
+
+Autor: RedKnight
+Ostrov: Everon
+Potøebné addony: všechny pøiloženy
+Potøebná verze OFP: 1.96
+Poèet misí: 15 + 4 cutscény
+Hrající postavy: Gregorij Lemontov (SpetzNatz), Sergej Rashiv (voják), Nikolaj Ablomov (pilot), Dimitrij Kukuschkin (tankista)
+Hrající frakce: SSSR
+
+Pøíbìh:
+Neoficiální prequel ke kampani Fight for Territory nás zavede na ostrov Everon, na kterém si v období studené války v 1978 americká armáda udìlala výcvikové støedisko.
+Místní obyvatelé s tím nebyli zrovna spokojeni. Ruský plukovník Livanoch má obavy z Gorbaèovové Perestrojky. Nestabilní situaci v Kremlu se snaží využít k obsazení Everonu,
+pøièemž vinu chce hodit na Amerièany. Oèima dùstojníka SpetzNatz, vojáka, pilota a tankisty uvidíte válku na vlastní oèi.
+
+Potøebné addony jsou vloženy v ZIPu (nakopírujte je všechny do složky se hrou s názvem Addons). Soubor dawn.pbo nakopírujte do složky Campaigns.
+
+Pøíjemnou zábavu pøeje RedKnight.

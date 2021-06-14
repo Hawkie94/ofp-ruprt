@@ -1,0 +1,39 @@
+Název mise: Noèní likvidace
+Typ mise: Speciální jednotky
+Ostrov:Malden
+Velikost mise:22kB
+Intro:Ano
+Použité addony: HK PSG (pøiložen)
+Potøeba verze hry:1.46
+Vytvoøeno ve verzy hry:1.46 
+Autor:Sapi
+E-mail:p.szabo@tiscali.cz
+
+
+
+Instalace:
+
+Misi nakopírujte do adresáøe: Codemasters/Operace Flashpoint/Missions
+Addon nakopírujte do adresáøe: Codemasters/Operace Flashpoint/Missions/Addons
+
+Podìkování:
+
+Úplnì všem,kteøí mi kdy pomohli øešit problémy týkající se
+editace ve høe Operace Flashpoint. Mimo jiné hlavnì Ruprt, Dydimos - www.koflex.cz/ruprt
+A taky Tobì, že tu misi hraješ.
+
+
+
+Poznámky:
+
+Rád bych Vás chtìl tímto požádat o Vaše ohlasy na mùj výše uvedený e-mail,
+zda-li se Vám tato mise vùbec líbila, èi nikoli.
+Tak se nestyïte a napište, snesu i kritiku :o))
+
+
+Pøeji pøíjemnou zábavu. 
+
+                                  
+
+                                     Sapi
+				     2003

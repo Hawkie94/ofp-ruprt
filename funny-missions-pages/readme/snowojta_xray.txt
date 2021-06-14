@@ -1,0 +1,21 @@
+                                 *****    *****           *******     ****        ***    ***
+                                  *****  *****            ***  **    **  **        ***  ***
+                                   **********   ========= *******   ********        ******
+                                  ***** *****             *** **   **      **         ***
+                                 *****   *****            ***  ** **        **       ***
+=======================================================================================================
+
+Autor: snowojta
+Verze: 1.0
+Potøebné addony: editorupdate 1.02 -pøiložen (pro lepší chod mise dopouèuji dat do addons pøiložený addon protože jiné editorupdaty a editorupgrady mohou dìlat potíže)
+Typ mise: Kombinovaná  (pìchotní,plošinovka,logická :)
+Popis: Jsou zde èásti kde se mise jeví jako pìchotní ale pøidal jsem pár vìcí aby to bylo originálnìjší( možnost vytvoøit kryt nebo zmìna zbraní pøi akci ->cca 7 zbraní) Pak jsou zde èásti které musíte rolezt po paletách jako plošinovky atd.
+Mise se skládá pøibližnì z 11 menších "misí" a ùkolù.
+Podìkování: ofp.ruprt.cz - jsou tam nedocenitelné rady
+            ofpec.com - je tam množství skcriptù, ukázky drop-comandu 
+            =S.O.F= clan - za inspiraci z jejich map ;P
+            BIS - za OFP ;D
+            a mì za vytvoøení :DD
+Vytvoøeno pro soutìž L. Gastovského a pro mou vlastní potøebu :P ^^
+
+NPE exit

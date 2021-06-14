@@ -1,0 +1,43 @@
+Bitva o Davli(1.1)
+____________________________
+Potřebné addony:
+
+EditorUpdate 1.75Noe.pbo
+maa_csla.pbo
+ORS_Position.pbo
+fightposwdl.pbo
+ Všechny addony jsou přibaleny
+____________________________
+Verze hry: 1.96
+____________________________
+HW požadavky - silnej počítač (výbuchy , spoustu vojáků atd.)
+____________________________
+Wo co go?
+
+Hrajete za ČSLA průzkumníka.
+Musíte zapnout vysílač (u kterého dostanete echo) a jít podpořit obranu davle
+V druhé vlně by vám nad hlavama měli létat A-10 a aby přišla 3. vlna musíte jedno z nich sestřelit.
+Pak musíte vyhodit most do povětří.
+_____________________________
+Tipy & triky
+
+Můžete si naverbovat výsadkáře když půjdete do lesa kolem souřadnice Hc40.
+Ze začátku vám doporučuju používat dopravní prostředky , jinak by to mohlo být zdlouhavé
+Potom radím dát si bacha na PBR které za vámi vyjede až nasednete do člunu.
+A v Davli si dávejte bacha na letadla (když uvidíte stín jak nad váma proletí , tak zdrhejte pryč) a
+taky si dejte pozor na ostřelování z kopce (možná ani nebude ale pro jistotu... ho můŽete zničit tak , že vylezete na ten kopec s kostelíkem 
+nedaleko Davle a zničíte dělo)
+Jo a taky se nenervujte když přiběhnete k šilce a nebudete moct do ni nastoupit , za pár minut by měl přiběhnout tankista a opravit (odemknout) ji.
+___________________________
+Kontakt: 
+0000000ZOB@seznam.cz
+___________________________
+Thx
+Tomu člověku co napsal skript firesource.sqs(nepoužil jsem ho - bohužel)
+___________________________
+Jazyk: Čeština 
+___________________________
+Doufám že vás mise bude bavit.
+___________________________
+1.1
+Měl jsem menší trapas - nepřibalil jsem potřebný addony a nahrál jsem starší verzi mise ,ale už by to mělo být opravený.

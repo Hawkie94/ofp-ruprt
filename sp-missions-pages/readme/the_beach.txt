@@ -1,0 +1,37 @@
+THE BEACH
+                                                                      
+Typ: singleplayer mise
+Autor: Michal "SHADOW" Štefaòák
+Ostrov: Malden
+
+Náplò mise: Prostì se snate pøeít vylodìní, a pak u to nìjak zvládnete.
+
+Poadavky: - verze hry 1.30 a vyšší
+                   - všechny oficiální pøídavky do této verze           
+                                                                            
+
+E-mail: jackasser@centrum.cz
+
+Mise obsahuje: intro
+	       outro - vıtìzství
+               outro - prohra ( Kdy vás pøi tom vylodìní moc chcípne)
+               (fakt stojí za to, take to jednou úmyslnì podìlejte)
+
+Návod: Po vylodìní se snate dret vpravo. Bunkry s kulometem nechte plavat
+       a radìji se snate co nejrychleji vystøílet rusáky za tím valem z pytlù
+       s pískem. A všechny vystøílíte pøiletí posily (Pøibìhnìte co nejblíe k jijich 
+       veliteli a se pohnete v misi dál).
+       Po deseti hodinách (timeskip) na vás rusové zautoèí tak je znovu všechny killnìte,
+       pak pøijedou T-72. Pøiletí Longbows a sundaj je (cutscene). Pøíletí recon team,
+       opìt pøijdìte co nejblíe k recon team veliteli, joinete se k jeho skupinì a 
+       pøesunete se nìkam daleko. Tam killnou vašeho velitele (cutscene) a vy se ujímate
+       velení. Najdete tábor, všechny tam vystøílíte a konec.
+
+P.S. Psal jsem to v angliètinì take tam budou asi nìjakı chyby.
+
+========================================================================
+2021 quick-fix version
+ - upravil TonyHawk
+ - zmeny:	- pridaná verzia pre Resistance (pre 1.96)
+		- odstránené chyby s nefungujúcimi hláškami
+		- intro a outro sa teraz u aj ukonèí

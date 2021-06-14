@@ -1,0 +1,314 @@
+<!DOCTYPE html PUBLIC "-//IETF//DTD HTML//EN">
+<html><head><title>Baconbomb Modworks: Weapon Modeling Tutorial</title>
+
+<link rel="stylesheet" type="text/css" href="tut_ofp_custom_optics_files/style.css"></head>
+
+<body>
+<table align="center" width="786">
+  <tbody><tr>
+    <td>
+	<center>
+	<div class="header"><img src="tut_ofp_custom_optics_files/header.jpg"></div>
+	<div class="menu">
+	<a class="header" href="http://www.baconbomb.com/modworks/index.html">NEWS </a> &nbsp; &nbsp;
+	<a class="header" href="http://www.baconbomb.com/modworks/projects.html">PROJECTS </a> &nbsp; &nbsp;
+	<a class="header" href="http://www.baconbomb.com/modworks/tools.html">TOOLS </a> &nbsp; &nbsp;
+	<a class="header" href="http://www.baconbomb.com/modworks/tutorials.html">TUTORIALS </a> &nbsp; &nbsp;
+	<a class="header" href="mailto:earl@baconbomb.com">CONTACT</a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+	</div>
+	</center>
+	<br>
+	<br>
+	<br>
+
+<h3><center>Making Custom Optics Views for Operation Flashpoint</center></h3>
+<br>
+
+<center>
+<table width="650">
+  <tbody><tr>
+    <td>
+<p class="plainbody">
+This tutorial will help you create custom iron sights or scope views
+for your Operation Flashpoint weapon addon. These instructions are
+based on Photoshop 7.0, but additional instructions are provided for
+Photoshop 5.5 which should also apply to older versions.<br>
+<br>
+A custom optic view requires two image files and a P3D model file
+created in Oxygen. The first image is your optic view, and the second
+is the muzzle flash as it should look when seen though the optic view.
+The model file is simply two squares which will be textured with the
+two images.<br>
+<br>
+To save you some time, I have extracted the optika_mildot.P3D and textures from the FIL0 M24 Addon by HuBBa and Skaven.
+<br>
+I've renamed the model file and mapped my demo scope texture to it.  The <a href="http://www.baconbomb.com/modworks/files/ofp_custom_optics_view.zip">download</a> is required to work through the tutorial.<br>
+</p>
+    </td>
+  </tr>
+</tbody></table>
+</center>
+
+
+
+
+<p class="itemheaderwide">1. Image Size</p>
+<p class="itembodywide">
+Begin with an image size of 512x683 or 1024x1346.<br>
+<br>
+The proper ratio for our optic image is 800x600, the standard
+proportion for Windows displays. It's best to begin working with an
+image in these proportions. To match our image to the contraints of
+OFP, we can resize the final image to 512x512 or 1024x1024. It will
+cause image to squish horizontally, but then it will look right again
+when stretched to fit the 8x6 square in Oxygen.<br>
+</p>
+
+
+
+
+<p class="itemheaderwide">2. Set Guides for Image Center</p>
+<p class="itembodywide">
+Before we start making scope shapes, we need to find the center of the
+image, otherwise our scope will not be properly adjusted. We can create
+some guides that will intersect at the center.<br>
+<br>
+- Display the rulers, View &gt; Rulers.<br>
+- Click on the info tab to display cursor coordinates.<br>
+- Move your cursor into the vertical ruler area and drag out into the image area.  You will have a new guide.<br>
+- Look at the info panel to see your guide's X coords. You want it to
+be at the halfway mark. My exampleimage is 683x512, so I will drop a
+guide at 341.<br>
+- Do the same for the horizontal ruler, dropping a guide at 256.<br>
+<br>
+<img src="tut_ofp_custom_optics_files/create_guides.jpg"><br>
+<br>
+To move guides, you need to use the Move Tool (V).  To remove them, just drag them off the image.<br>
+<br>
+- Enable cursor snap, View &gt; Snap<br>
+- Check snap settings, View &gt; Snap To &gt; Guides<br>
+</p>
+
+
+
+<p class="itemheaderwide">3. Layer Setup</p>
+<p class="itembodywide">
+Photoshop lets us work in layers, so we can keep different elements of
+the image on different layers. I will use four layers for my scope, one
+for each of the following:<br>
+<br>
+- Mask (the black around the screen)<br>
+- Crosshairs<br>
+- Glass effect<br>
+- Dust and scratches<br>
+<br>
+A Photoshop image starts with a white background layer by default. This
+is a special layer that is locked in the background, and can never be
+transparent. Since we want our scope to have transparency, we need to
+create new layers then delete the background layer.<br>
+<br>
+- Create four new layers, Layer &gt; New &gt; Layer...<br>
+- Select the Background Layer and delete it, Layer &gt; Delete &gt; Layer.<br>
+<br>
+Your image should now display a grey and white checkerboard pattern.  This pattern means the RGB channels are all transparent.<br>
+ </p>
+
+
+
+<p class="itemheaderwide">4. Create Mask</p>
+<p class="itembodywide">
+Now we can create the black section which will mask our view in-game.<br>
+<br>
+- Select the layer at the top of the list in the Layer panel.
+- Fill this layer with black, Edit &gt; Fill &gt; Black.
+- Select the Elliptical Marquee tool (M).  If you don't see it, click and hold the button for the Rectangular Marquee tool.<br>
+- Place the cursor at the center of the image. You won't notice the
+snap-to-guide effect until you click to begin the selection shape.<br>
+- To constrain the selection to a circle, and to have the circle expand
+from center, hold Shift+Alt when you drag out the selection.<br>
+- Drag the selection to an appropriate size.<br>
+<br>
+The selection area currenly has sharp edges, you may prefer to have a faded edge.<br>
+<br>
+- Feather the edges of the selection, Select &gt; Feather &gt; Set radius in pixels.  8px works well for a 683x512 image.<br>
+- Hit the Delete key to clear the selected area.<br>
+<br>
+<a href="http://www.baconbomb.com/modworks/images/ofp_custom_optics_view/mask.jpg" target="_new"><img src="tut_ofp_custom_optics_files/t_mask.jpg" border="0"></a><br>
+</p>
+
+
+
+
+<p class="itemheaderwide">5. Create Crosshairs</p>
+<p class="itembodywide">
+Now it's time to create crosshairs. This can be done in a number of
+ways. You can copy an image off the net, but they are usually low
+quality and won't look good. If you use Adobe Illustrator, you may find
+it easier to create an image there and import the shape into Photoshop.
+Otherwise, you will have to use the meagre shape tools available in
+Photoshop. Choose the layer below your mask layer.<br>
+<br>
+For my demo scope, I'm just going to make simple crosshairs.<br>
+<br>
+- Use the Single [vertical] Row Marquee tool and move the selection inline with the vertical guide.<br>
+- Use the Single [Horizontal] Row Marquee tool, hold Shift to add to selection, and move it inline with the horizontal guide.<br>
+- Expand the selection, Select &gt; Modify &gt; Expand:4px<br>
+- Fill the selection with black to make some very thick crosshairs, Edit &gt; Fill &gt; Use:Black.<br>
+- Use the Rectangular Marquee tool, hold Alt+Shift while dragging the
+selection from image center. It should create a perfect square in
+center. Expand it until it is a little bit smaller than the circle of
+the Mask Layer.<br>
+- Clear the selection by hitting Delete.<br>
+- Remake the thin crosshairs, but this time don't expand the selection.  Just fill the thin selections with black.<br>
+<br>
+<a href="http://www.baconbomb.com/modworks/images/ofp_custom_optics_view/crosshairs.jpg" target="_new"><img src="tut_ofp_custom_optics_files/t_crosshairs.jpg" border="0"></a><br>
+<br>
+That's all we need for crosshairs.  You can add details such as numbers or text if you like.<br>
+</p>
+
+
+
+
+<p class="itemheaderwide">6.  Add Lens Effect</p>
+<p class="itembodywide">
+You probably noticed that optics in Flashpoint seem to have a glass
+effect. To achieve this, we work in next layer below the crosshairs.<br>
+<br>
+- Select white or very light blue for your foreground colour.<br>
+- Fill the layer, Edit &gt; Fill &gt; Use:Foreground<br>
+<br>
+Now we've got a solid blue lens, which isn't very good. We will need a
+new layer with a Flashpoint screenshot, just to judge the look of our
+lens.<br>
+<br>
+- Find a good screenshot from OFP, I've provided one for you in the download.<br>
+- Open the image in Photoshop, Edit &gt; Select All (Ctrl+A), Edit &gt; Copy (Ctrl+C).<br>
+- Go to your scope image and Paste the screenshot (Ctrl+V).<br>
+- Move the new layer to the bottom of the list.<br>
+- Select your blue lens layer.<br>
+- In the Layers panel, find the Opacity slider, and reduce the opacity of the lens layer until you are happy with it.<br>
+<br>
+Be subtle, 3-5% opacity on this layer is about all you need. Any more
+and you will find that it washes out the player's view ingame.<br>
+</p>
+
+
+
+
+
+<p class="itemheaderwide">7.  Add Dust and Scratches</p>
+<p class="itembodywide">
+We can add a few tiny specs to the lens, like OFP's binoculars, to give
+the scope view a good effect. Again, don't go nuts, just a few specs is
+enough. You might want to add a temporary black layer underneath the
+dust layer, so that you can easily see the light marks that you are
+drawing, but it's not necessary<br>
+<br>
+- Choose the last empty layer and move it on top of the blue lens layer.  Your layer order should look like this:<br>
+<br>
+<a href="http://www.baconbomb.com/modworks/images/ofp_custom_optics_view/layers_order.jpg" target="_new"><img src="tut_ofp_custom_optics_files/t_layers_order.jpg" border="0"></a><br>
+<br>
+- Using a fine brush, draw a few tiny scratches and specks in whatever colour you want.<br>
+- Adjust layer opacity to your preference.<br>
+- Delete the screenshot layer since it is no longer needed.<br>
+<br>
+This completes the look of the scope.
+</p>
+
+
+
+
+<p class="itemheaderwide">8. Convert to TGA then to PAA</p>
+<p class="itembodywide">
+Here comes the important differences between Photoshop 5.5 and
+Photoshop 7. I'm not certain how Photoshop 6 handles transparency. As
+far as Photoshop 7 is concerned, we are ready to save this as a TGA and
+it will automatically save the transparency data into an Alpha Channel.
+For Photoshop 5, we need to manually create the Alpha channel.<br>
+<br>
+- Merge all layers into one, Layer &gt; Merge Visible<br>
+- Switch to the Channels panel<br>
+- Load the RGB channel as a selection, click the little circle button at the bottom of the Channel panel<br>
+- Create an Alpha channel, click the little page button at the bottom of the Channel panel.<br>
+<br>
+<a href="http://www.baconbomb.com/modworks/images/ofp_custom_optics_view/create_alpha.jpg" target="_new"><img src="tut_ofp_custom_optics_files/t_create_alpha.jpg" border="0"></a><br>
+<br>
+- Clear the selection by hitting the Delete key.<br>
+- Deselect, (Ctrl+D)<br>
+- Invert the image, Image &gt; Adjustments &gt; Invert.<br>
+<br>
+That's all we need to get older versions of Photoshop to save the Alpha
+data into a TGA. Now lets squish our image down to the proportions we
+need for Operation Flashpoint.<br>
+<br>
+- Image &gt; Image Size... &gt; Disable 'constrain proportions' and change the width to 512.  The height should remain 512.<br>
+- Save the image as a 32-Bit TGA (If you use 24-Bit, TexView won't recognize the alpha channel).<br>
+- Open the TGA with TexView and save as a PAA.<br>
+</p>
+
+
+
+
+<p class="itemheaderwide">9. Assign Textures to P3D Objects</p>
+<p class="itembodywide">
+Now we can assign the new texture to the p3d model.<br>
+<br>
+- Move the PAA texture file to your weapon's folder in the O2_Viewer folder.<br>
+- Copy the demo_optic.p3d file provided in the download to the same location, rename it to something appropriate.<br>
+- Copy the front_flash.paa texture to the same location. You can create
+a new flash texture if you like, using the same alpha channel skills
+you just applied to making the scope view texture.<br>
+- Start Oxygen Light and open the p3d model in your weapon's folder.<br>
+- Select the taller square and hit E to bring up the face properties dialog.<br>
+<br>
+<a href="http://www.baconbomb.com/modworks/images/ofp_custom_optics_view/assign_texture.jpg" target="_new"><img src="tut_ofp_custom_optics_files/t_assign_texture.jpg" border="0"></a><br>
+<br>
+- click the folder button in the bottom right corner to brower to your texture.<br>
+- Make sure you hit the Apply button to save the changes.<br>
+- If you made a new flash texture, repeat the same process for the smaller square.<br>
+- Preview the changes in Buldozer.<br>
+<br>
+<a href="http://www.baconbomb.com/modworks/images/ofp_custom_optics_view/buldozer_view.jpg" target="_new"><img src="tut_ofp_custom_optics_files/t_buldozer_view.jpg" border="0"></a><br>
+<br>
+- Save the p3d.<br>
+</p>
+
+
+
+
+<p class="itemheaderwide">10. Final steps</p>
+<p class="itembodywide">
+In your weapons config.cpp file, change the optic filename to match your new p3d file.<br>
+<br>
+Now you're ready to compress the addon into a PBO and test it in the game - Good luck!<br>
+<br>
+Now you've got the basics, but don't stop there! There's lots of
+possibilities. Here's a concept sketch and the final optics view for my
+Trijicon ACOG 4x scope:<br>
+<br>
+<a href="http://www.baconbomb.com/modworks/images/ofp_custom_optics_view/acog_sketch.jpg" target="_new"><img src="tut_ofp_custom_optics_files/t_acog_sketch.jpg" border="0"></a> &nbsp;
+<a href="http://www.baconbomb.com/modworks/images/ofp_custom_optics_view/acog.jpg" target="_new"><img src="tut_ofp_custom_optics_files/t_acog.jpg" border="0"></a> &nbsp; <br>
+<br>
+It will be released in the near future with my SR-47 beta addon.<br>
+<br>
+As a final word, thanks to HuBBa and Skaven at OFPEC for the original
+P3D and textures, which I extracted from the FILO M24 in order to
+figure all this out.
+<br>
+<br>
+<br>
+</p>
+
+
+
+
+
+
+
+</td>
+</tr>
+</tbody></table>
+
+
+
+</body></html>

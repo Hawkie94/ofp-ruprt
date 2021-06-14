@@ -1,0 +1,30 @@
+
+ ======================================= S H 2 ==============================================
+ 
+ -Misia  : SH2  pre hru - Operace Flashpoint:Resistance
+
+ -Autor  : Vojtoo
+
+ -Ostrov : KOLGUJEV
+
+ -Addony : oficiálne (G36, XMS, Steyr . . .)
+           StreetLamp - je priložený k misií.
+           EditorUpdate102 - je priložený k misií.
+
+ -Mail   : Vojtoo@pobox.sk
+
+ -ICQ    : 132810742
+
+ -Súbor SH2.cain.pbo   skopírujte do vašej zložky ofp/missions
+        streetlamp.pbo  skopírujte do vašej zložky ofp/ADDONS
+        editorupdate102.pbo  skopírujte do vašej zložky ofp/Res/AddOns
+
+ -Potrebná verzia hry : 1.91 - najlepšie česká.
+
+ -Toto nie je štandardná misia. Je to pokračovanie fantasy misie SH2.
+
+ -Prajem príjemnú zábavu pri hraní misie.
+
+
+  V o j t o o
+

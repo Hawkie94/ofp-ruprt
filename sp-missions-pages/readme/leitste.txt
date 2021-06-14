@@ -1,0 +1,22 @@
+Mise: Vylodění-Přístav
+--------------------
+
+Vytvořil: Batyskaf.xXx@seznam.cz
+
+Ostrov: Malden
+
+Typ mise: Single Player
+
+Typ hráče: Velitel jednotky ČSLA o deseti mužích
+
+Použité addony: OFPAddon_FlagPack_Updated,ČSLA Addon ver 1.1,EditorUpgrade102.pbo(je součástí balíku-stačí překopírovat do složky Addons),
+
+Získání addonů: http://games.worldonline.cz/flashpoint/
+
+Vytvořeno ve verzi: Operation Flashpoint 1.46 
+
+
+Popis mise: Vašim ůkolem je dobytí přístavu a osvobození zajatců.
+
+Hodně propařených hodin u této mise přeje Batyskaf.
+

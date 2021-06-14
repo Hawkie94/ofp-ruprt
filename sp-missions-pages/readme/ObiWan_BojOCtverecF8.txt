@@ -1,0 +1,9 @@
+Boj o čtverec F8
+
+Autor: Obi-Wan
+Ostrov: Everon
+Typ misie: pechotná
+Potrebné addony: asi žiadne (maximálne editorupdate102)
+Potrebná verzia OFP: 1.96
+
+Readme vytvoril TonyHawk. Užite si misiu ;).

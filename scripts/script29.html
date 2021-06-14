@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=windows-1250">
+		<title>Detail scriptu</title>
+		<meta name="GENERATOR" content="Microsoft Visual Studio .NET 7.1">
+		<meta name="CODE_LANGUAGE" content="Visual Basic .NET 7.1">
+		<meta name="vs_defaultClientScript" content="JavaScript">
+		<meta name="vs_targetSchema" content="http://schemas.microsoft.com/intellisense/ie5">
+		<link href="./../Styles.css" type="text/css" rel="stylesheet">
+	</head>
+	<body ms_positioning="GridLayout"><center>
+		<div class="TIP_BCKG_AREA" align="center">
+				<div class="TIP_CONTENT_AREA" id="TipContentArea">
+					<table id="tblContent" class="MD_TABLE_INFO" width="448px" cellspacing="0" cellpadding="3" align="left">
+	<tbody><tr>
+		<td style="color:#FFFFFF;font-weight:bold;" width="50%">Autor : Ruprt</td>
+		<td style="color:#FFFFFF;font-weight:bold;" width="50%" align="right">
+			<a href="files/checkammo.zip" target="_blank">Stáhnout script</a><br>
+			<a href="./../scripts.html">Zpět na scripty</a>
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2" height="9px" bgcolor="#9FA5C5"></td>
+	</tr>
+	<tr>
+		<td colspan="2" style="font-size:1.0em;font-weight:bold;color:#FF6600;" align="center">Kontrola a doplnění munice kulometu vrtulníku</td>
+	</tr>
+	<tr>
+		<td colspan="2" height="9px" bgcolor="#9FA5C5"></td>
+	</tr>
+	<tr>
+		<td colspan="2" style="font-size:1.05em;font-weight:normal;text-align:justify;color:#EBE7D8;">Velký
+ Montiumuf se mě zeptal, jak má doplnit munici kulometu vrtulníku během 
+boje, když hráč není velitelem - pilotem vrtulníku a nemůže tedy 
+rozhodovat o tom, kam vrtulník poletí a nemůže se tak dostat zpět na 
+svoji základnu za účelen doplnění munice. Samozřejmě, že lze použít 
+příkaz AddMagazine, ale to by nebylo příliš realistické, když by se 
+během boje po vyprazdnění zásobníku najednou opět zásobník sám od sebe 
+naplnil.<br>Takže jsem nejen pro Montiho udělal script 'checkammo.sqs', včetně ukázkové mise :<br>Tento
+ script je rezidentní (tzn. že je spuštěn pocelou dobu mise), je tedy 
+nutné jej spustit hned na začátku mise (nebo až hráč vleze do vrtulníku 
+na pozici střelce). Vypnout samozřejmě lze přidáním podmínky pro jeho 
+vypnutí.<br>Script se volá standardním způsobem za použití příkazu Exec a má 4 volací argumenty, které jsou :<br>_ammoAmount
+ - číslo, které je-li počet kulek v zásobníku menší, tak se vydá příkaz 
+pilotovi, aby letěl na základnu - _base - munici doplnit<br>_ammoName -  název doplňované munice, tento argument být umístěn do uvozovek<br>_base - název objektu, kam má pilot letět doplnit munici (Heliport)<br>_helicopter - název vrtulníku<br></td>
+	</tr>
+	<tr>
+		<td colspan="2" height="9px" bgcolor="#9FA5C5"></td>
+	</tr>
+	<tr>
+		<td colspan="2" align="center"><a href="samples/RearmHeliMGun.intro.zip" target="_blank">Stáhnout ukázkovou misi</a></td>
+	</tr>
+</tbody></table>
+
+				</div>
+			</div>
+		</form>
+	
+
+</center></body></html>

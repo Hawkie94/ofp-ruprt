@@ -1,0 +1,18 @@
+=================================== BomberMan =========================================
+ 
+ VideoMise
+
+ Autor  : night-hawk
+
+ Ostrov : Desert Island
+
+ Addony : Přiloženy, doufám že to jsou tu správné protože mám Addonů kotel.
+
+ Mail   : night-hawk@seznm.cz
+ 
+ Soubor "vybuch.Intro"  skopírujte do složky C:\...  ...ofp/missions
+
+ Verze hry na které jsem vše spáchal - 1.91
+
+
+ Příjemnou zábavu přeje night-hawk.

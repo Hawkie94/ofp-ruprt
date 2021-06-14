@@ -1,0 +1,35 @@
+		######################################################
+		#                                                    #
+		#             SKRYTÝ DRAVEC BY VICHR                #
+		#                                                    #
+		######################################################
+
+Potřebná verze hry: vytvářeno ve verzi 1.96
+AddOny: Datadisc Resistance
+Ostrov: Nogova
+
+-------------------------------------------------------------------------------------------------------
+POPIS MISE V KOSTCE:
+
+Jako velitel jednoho ze dvou pěchotních družstev máte za úkol zničit šilku ve vesničce Blata.
+-------------------------------------------------------------------------------------------------------
+Hlas v dabingu není můj, respektive je můj, ale je upravený, takže se nedivte když bude znít divně.
+Až budete ve vesnici dejte si pozor aby jste nezasáhli sudy - nemuselo by to dopadnout dobře...
+OMLOUVÁM SE ČSLA TÝMU, ŽE JSEM ODKOUKAL LOKALITU A PŘÍJEZD JEDNOTEK PO CESTĚ JAKO V JEJICH MISI BLATA, TAK DOUFÁM, ŽE MĚ ZA TO NEPOVĚSÍ ZA PALCE...
+-------------------------------------------------------------------------------------------------------
+AUTOŘI:
+
+mise: vichr (vichr.ofp@atlas.cz)
+scripty: Bobor SK
+	   vichr
+speciální poděkování: všem tvůrcům OFPEH
+			    the Raptor (i když jsem jeho verzi scriptu nakonec nepoužil)
+			    Bobor SK
+			    BIS za skvělou hru...
+-------------------------------------------------------------------------------------------------------
+UPOZORNĚNÍ:
+
+AUTOR (JAROMÍR VICHER) NENESE V ŽÁDNÉM PŘÍPADĚ ODPOVĚDNOST 
+ZA NÁSLEDNÉ ŠKODY, AŤ JSOU JAKÉKOLIV, I KDYŽ ŠKODY VZNIKLY NA ZÁKLADĚ 
+POUŽITÍ NEBO NEMOŽNOSTI POUŽITÍ PRODUKTU 
+A TO I V PŘÍPADĚ, ŽE AUTOR BYL OZNAČEN JAKO MOŽNÝ PŮVODCE TĚCHTO ŠKOD.

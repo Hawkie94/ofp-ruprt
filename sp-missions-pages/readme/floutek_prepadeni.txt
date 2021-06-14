@@ -1,0 +1,9 @@
+Operace resistance. :
+Přepadení
+
+typ: Pěchotní
+addony: ČSLA addon
+
+popis: Jako elitní výsadkář ČSLA máte za ůkol dobýt americký tábor.
+
+mission made by "Floutek"

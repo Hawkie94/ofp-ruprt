@@ -1,0 +1,9 @@
+Vžijte se do velitele NAPA hlídky, která má splnit několik úkolů a přesunout své působiště.
+
+------------------------------
+Umístění: Černarus
+Addony: Pouze oficiální
+Intro: Ano (krátké)
+Outro: Ano (ještě kratší)
+Velikost: 44kB
+-----------------------------

@@ -1,0 +1,44 @@
+-------------------------- > > > P O S L E D N Í  Z Á S A H < < < --------------------------------
+                                      	   
+					   Version 1.1
+						
+-------------------
+
+Tvůrce mise a intra: Speder38
+
+-------------------
+
+Typ: Singleplayer
+
+-------------------
+
+Ostrov: Kolgujev
+
+-------------------
+
+Verze hry: Děláno pod 1.46 ale na původnim Flashpointu by to mělo jít
+
+-------------------
+
+Požadované addony: Teď už žádné:-)
+
+-------------------
+
+Kontakt: Speder38@seznam.cz
+
+-------------------
+
+Ve verzi 1.1
+
+Opraveno: -poskakující vrtulníky
+	  -odemčené vrtulníky
+	  -v intru přidané noční vidění(na konci)
+	  -odstraněny všechny addony
+	  -v intru pobíhající vojáci se zbraní v ruce
+
+
+
+Přeju příjemnou zábavu !
+
+Speder38
+                        

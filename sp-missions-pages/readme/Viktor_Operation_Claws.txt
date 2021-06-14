@@ -1,0 +1,42 @@
+*********************************************************************************************
+*      O P E R A T I O N :   C L A W S
+*
+********************************************************************************************
+
+Singleplayer mise
+-Briefing: Ano
+-Overview: Ano
+-Intro:    Ano
+-Outro:    Ano
+-Jazyk:    Čeština
+-Český název: OPERACE KLEPETA 
+*************
+
+Autoři:
+-Jan Petržilka "Viktor"
+-J*P* PRODUCTS
+
+*************
+
+Instalace:
+-Jednoduše přesunete soubor "JPPOperationClaws[1].pbo" do adresáře \Flashpoint\Missions.
+
+*************
+
+Potřebné verze a addony:
+-Operation Flashpoint Resistance 1.96, možná i nižší (nevím, netestováno)
+-ČSLA II. (tady je link pro stažení: http://download.gamezone.cz/OFP/mody/CSLA2_Update1.exe)
+
+*************
+
+Dodatek:
+-Toto je nikým netestovaná mise, žádné chyby zatím nebyly zjištěny. Pokud nějaké zjistím,     tak misi opravím, případné stížnosti, náměty či pocity z mise zasílejte na
+ e-mail: jpp.petrzilka@seznam.cz 
+ nebo ICQ: 330-173-409 (spíše používejte ICQ)
+-Tato mise není propagandistický nástroj, je to pouze pro Vaší zábavu. Příběh je celý         smyšlený a shoda osob, či příběhů, s Vašimi příbuznými, nebo snad dokonce s Vámi, je zcela   náhodná.
+	
+********************************************************************************************
+
+-To je vše, co jsem Vám chtěl říct, užijte si hraní mé mise, a určitě si stáhněte její        pokračování.
+
+*********************************************************************J*P**PRODUCTS**********

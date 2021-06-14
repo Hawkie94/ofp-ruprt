@@ -1,0 +1,17 @@
+název mise: Na válečné stezce
+autor: Biker OFP
+typ mise: Single-player mise
+vytvořeno ve verzi: 1.90
+ostrov: Kolgujev
+addony: jen oficiální
+
+UPOZORŇĚNÍ!!!!!
+Nemohu vám zaručit správný chod mise v případě, že nebudete poslouchat velitelovi rozkazi!
+Pro takové případy jsem misi moc netestoval.
+
+Známé chyby: Někdy vyjímečně blbne přistání vrtulníku. Přesto doufám, že se mi ten
+problém podařilo dostatečně vyřešit.
+
+kontakt: roman.krnoul@seznam.cz /nebo/ blahoslava.krnoulova@volny.cz  
+         
+Snad se vám má mise bude líbit. S pozdravem Biker OFP.

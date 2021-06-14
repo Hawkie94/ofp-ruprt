@@ -1,0 +1,16 @@
+[COOP] Borderline
+
+Pôvodný autor misie: 	Sumrak
+MP konverzia a úpravy: 	Sumrak & TonyHawk
+Typ MP misie: 		COOP
+Typ misie: 		záškodnícka
+Ostrov: 		Everon
+Potrebné addony: 	editorupdate102
+Tvorené na verzii: 	1.96
+Potrebná verzia OFP: 	1.96
+Popis misie: 		Neznáma frakcia má na Everone vytvorený kvalitný systém protileteckej obrany. Tvojím cieľom je zničiť ju
+Poďakovanie:		Topal12, Snowojta - nápady a beta-testing
+			Petrroll - testovanie staršej verzie
+			Pařan, Zob, Anuris, Hammer - tím AATH studia
+Poznámka:		Veľkosť misie (vyše 10 MB) je spôsobená veľkým množstvom hudby, ktorá má dotvárať skvelú atmosféru akcie.
+			Použitá hudba je z hier Metal Gear Solid: Portable Ops, Metal Gear Solid 4: Guns of the Patriots, Metal Gear Acid a Crysis: Warhead.

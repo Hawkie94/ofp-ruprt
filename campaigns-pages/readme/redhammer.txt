@@ -1,0 +1,4 @@
+OPERATION FLASHPOINT: RED HAMMER
+
+- česká konverzia (resp. len lokalizácia) kampane od Codemasters
+- je potrebný addon VoiceRH.pbo (priložený) a OFP: Resistance

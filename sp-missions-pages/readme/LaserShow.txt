@@ -1,0 +1,27 @@
+-------Laser show-------
+
+Autor: NOU spamer@zoznam.sk
+
+Ostrov: EVERON
+
+Addony: žiadne
+
+Verzia: misia je tvorená na 1.91 minimalna verzia je 1.75 (netestované ale pôjde)
+
+Intro:Áno
+Misia:Áno :-)
+Outro:Nie
+
+Popis:
+V misii ide o zbombardovanie zbrojného skladu na Everone. Je to 
+jediný ciel aj keď mohlo ich byť viac ale zle by sa to zlaďovalo.
+Je to moja prva misia preto mi pošlite e-maili na povzbudenie alebo
+ma rovno ukameňujte. Keď nie mail tak aspoň hodnotenie. Malí tip nakonie
+cieľ skúste zamerať.
+
+Konfigurácia: Tvorené na 666Mhz Celeron, Voodoo 3 16MB, RAM 192MB.
+	      keď vám to bude sekať obeste sa. :-))
+
+Dabing:	Pilot: 		NOU
+	Vojak s jeepom: NOU
+	Dôjstojník:	NOU

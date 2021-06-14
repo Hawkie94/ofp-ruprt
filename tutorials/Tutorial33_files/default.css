@@ -1,0 +1,21 @@
+A:Link		{COLOR : rgb(32,131,201); FONT-WEIGHT : Bold; FONT-FAMILY : Verdana; TEXT-DECORATION : Underline}
+
+.SampleLink	{COLOR : rgb(32,131,201); FONT-WEIGHT : Bold; FONT-FAMILY : Verdana; TEXT-DECORATION : Underline}
+
+A:Visited	{COLOR : rgb(255,255,255); FONT-WEIGHT : Bold; FONT-FAMILY : Verdana; TEXT-DECORATION : Underline}
+
+.SampleVisited	{COLOR : rgb(255,255,255); FONT-WEIGHT : Bold; FONT-FAMILY : Verdana; TEXT-DECORATION : Underline}
+
+A:Hover		{COLOR : rgb(150,63,63); FONT-WEIGHT : Bold; FONT-FAMILY : Verdana; TEXT-DECORATION : None}
+
+.SampleHover	{COLOR : rgb(150,63,63); FONT-WEIGHT : Bold; FONT-FAMILY : Verdana; TEXT-DECORATION : None}
+
+FONT		{COLOR : rgb(0,0,0); FONT-WEIGHT : Normal; FONT-FAMILY : Verdana; FONT-SIZE : 10pt; TEXT-DECORATION : None; TEXT-INDENT : 0pt}
+
+H2		{COLOR : rgb(161,91,0); FONT-FAMILY : Verdana; FONT-SIZE : 15pt; FONT-WEIGHT : Bold; TEXT-DECORATION : Underline; TEXT-INDENT :0pt}
+
+PRE		{COLOR : rgb(0,16,196); FONT-FAMILY : Courier; FONT-SIZE : 12pt; FONT-WEIGHT : Bold}
+
+.SamplePRE	{COLOR : rgb(0,16,196); FONT-FAMILY : Courier; FONT-SIZE : 12pt; FONT-WEIGHT : Bold}
+
+

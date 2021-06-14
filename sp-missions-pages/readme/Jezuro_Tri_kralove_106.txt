@@ -1,0 +1,78 @@
+-----------------------------------------------------------------------------------------
+
+  T Ř I   K R Á L O V É
+
+   > singleplayer mise pro hru Operace Flashpoint
+   > verze 1.06
+   > podporované jazyky: ENG, CZ
+
+-----------------------------------------------------------------------------------------
+
+  AUTOR
+		Ježuro ( jezuro@post.cz | ICQ# 197968874 | http://2dmm.wz.cz )
+  VERZE OFP
+		1.96
+  OSTROV
+		Malden
+  BETATEST
+		Mikero
+		cEph
+		Cheetah
+		Wallas
+  DABING
+		Ježuro
+		Wallas
+		Money
+		Hydergine
+		cEph
+		Sak
+		Velký Bratr
+  HUDBA
+		Requiem for a Dream OST
+  EXTRA ZVUKY
+		Dynamic Range
+		Quake III Arena
+
+-----------------------------------------------------------------------------------------
+
+  POTŘEBNÉ ADDONY
+
+		BAS Delta / Rangers units	http://www.gotf.net/download.asp?dl=25
+		BAS Blackhawks pack		http://www.gotf.net/download.asp?dl=78
+		BAS JAM2			http://www.gotf.net/download.asp?dl=72
+		StreetLamp			- přibaleno k misi -
+		
+-----------------------------------------------------------------------------------------
+
+  KOMPATIBILITA S MODY
+		> Tato mise není pro žádný MOD vytvořena ani pod jakýmkoliv testována.
+
+-----------------------------------------------------------------------------------------
+
+  INSTALACE
+		> Extrahujte stažený ZIP soubor
+		> Soubor ze složky \Mission zkopírujte do složky \Missions ve vašem
+                  adresáři OFP (standardně C:\Program Files\OperationFlashpoint\Missions)
+		> Soubor ze složky \Addon zkopírujte do složky \Addons ve vašem adresáři
+		  OFP (standardně C:\Program Files\OperationFlashpoint\Addons)
+		> Pro instalaci potřebných addonů od BAS následujte instrukce v jejich
+		  souborech readme
+
+-----------------------------------------------------------------------------------------
+
+  NĚCO NAVÍC
+		> Volba obtížnosti (na začátku mise, ovlivňuje AI)
+		> Ukazatel zdraví (lze jej vypnout přes rádio 0-0-0)
+		> Skrytý bonus (jenom hledejte...)
+
+-----------------------------------------------------------------------------------------
+
+  CHCETE PŘIDAT?
+		> Pokud se vám mise líbila, možná byste mohli vyzkoušet moji předchozí.
+		> Jmenuje se "Ranní rosa" a umístila se na 3. pozici v OFP Mission
+		  Editing Competition 2005.
+		> Můžete stahovat z http://2dmm.wz.cz/Files/MD_Final.zip
+
+-----------------------------------------------------------------------------------------
+
+									Ježuro, 2006

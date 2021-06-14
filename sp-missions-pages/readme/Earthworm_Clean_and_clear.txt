@@ -1,0 +1,17 @@
+*******************************************************
+*******************Clean and clear*********************
+*******************************************************
+
+Autor: Earthworm
+-------------------------------------------------------
+Verze 1.0
+-------------------------------------------------------
+Potřebné addony: žádné
+-------------------------------------------------------
+Vytvářeno na verzi: 1.96
+-------------------------------------------------------
+Instalace: Archiv rozbalte. Rozbalený soubor clean and clear.abel.pbo zkopírujte do adresáře missions v kořenovém adresáři hry.
+-------------------------------------------------------
+Popis mise: Máte za úkol vyhodit do vzduchu přijíždějící tanky a potom s podporou dobýt La Trinite.
+-------------------------------------------------------
+Kontakt: www: http://earthworm.webzdarma.cz (zde mi můžete nechat vzkaz v guestbooku. Odpovím, jak nejrychleji to půjde.)

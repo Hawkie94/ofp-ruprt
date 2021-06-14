@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=windows-1250">
+		<title>Detail tipu</title>
+		<meta name="GENERATOR" content="Microsoft Visual Studio .NET 7.1">
+		<meta name="CODE_LANGUAGE" content="Visual Basic .NET 7.1">
+		<meta name="vs_defaultClientScript" content="JavaScript">
+		<meta name="vs_targetSchema" content="http://schemas.microsoft.com/intellisense/ie5">
+		<link href="./../Styles.css" type="text/css" rel="stylesheet">
+	</head>
+	<body ms_positioning="GridLayout"><center>
+		<div class="TIP_BCKG_AREA" align="center">
+				<div class="TIP_CONTENT_AREA" id="TipContentArea">
+					<table id="tblContent" class="MD_TABLE_INFO" width="448px" cellspacing="0" cellpadding="3" align="left">
+	<tbody><tr>
+		<td style="color:#FFFFFF;font-weight:bold;" width="50%">Autor : Brt</td>
+		<td style="color:#FFFFFF;font-weight:bold;" width="50%" align="right">
+			<a href="samples/loadek.zip" target="_blank">Stáhnout ukázku</a><br>
+			<a href="./../tips-tricks.html">Zpět na Tipy &amp Triky</a>
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2" height="9px" bgcolor="#9FA5C5"></td>
+	</tr>
+	<tr>
+		<td colspan="2" style="font-size:1.0em;font-weight:bold;color:#FF6600;" align="center">Zachycení načtení mise</td>
+	</tr>
+	<tr>
+		<td colspan="2" height="9px" bgcolor="#9FA5C5"></td>
+	</tr>
+	<tr>
+		<td colspan="2" style="font-size:1.05em;font-weight:normal;text-align:justify;color:#EBE7D8;">Jak
+ zachytit načteni rozehráté mise z uložené pozice? Lze k tomu využit 
+příkaz time, který vrací počet sekund od začátku mise. Nevím jestli to 
+tak má být nebo ne, ale načtením uložené pozice se hodnota funkce 
+vynuluje. Takto to funguje zatím alespoň do verze 1.94 beta. Pak už na 
+zachycení načtení pozice stačí jednoduchý script, který se spustí 
+nejlépe ze scriptu init.sqs: [DayTime] Exec 'loadek.sqs'<br>loadek.sqs:<br>-----------<br>_casek=_this Select 0<br>#start<br>? (Time&lt;=1 AND DayTime&lt;_casek) OR (Time&lt;=1 AND DayTime&gt;=_casek+0.0001):Goto 'Load'<br>~1<br>Goto 'start'<br><br>#load<br>HintC 'Mise byla načtena'<br>~1<br>Goto 'start' <br>------------<br><br>Napadají mě hned tři věci, u kterých by se toto dalo využít:<br>1) Spuštění načtením přerušené hudby<br>2)
+ Zamezení podvádění přes SAVEMISSION - u tohoto je avšak potřeba myslet 
+na to, že se mise dá ukládat i přerušením hry nebo volbou uložit.<br>3) Obnovení správného počasí u misí, jejichž průběh je na něm závislý</td>
+	</tr>
+</tbody></table>
+
+				</div>
+			</div>
+		</form>
+	
+
+</center></body></html>

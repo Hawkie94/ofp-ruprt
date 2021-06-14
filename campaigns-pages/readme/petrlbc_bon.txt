@@ -1,0 +1,34 @@
+KAMPAÒ "BITVA O NOGOVO 1984"
+
+ PRÁVÌ JSTE SI STÁHLI KAMPAÒ BITVA O NOGOVO. JEDNÁ SE O KAMPAÒ, TKERÁ NAVAZUJE NA RESISTANCI. SAMA O SOBÌ OBSAHUJE EFEKTY, TAKŽE, KDYŽ JÍ BUDETE HRÁT NA RESISTANCI, O NIC JSTE NEPØIŠLI. KAMPAÒ BYLA PÙVODNÌ VYTVOØENA PRO MOD "BATTLE FOR NOGOVO 1984", ALE BLÍŽÍCÍ SE PØÍCHOD "AA" MÌ DONUTIL K TOMU, ŽE KAMPAÒ VYDÁVÁM SAMOSTATNÌ. 
+  V KAMPANI SE VYSKYTUJÍ EFEKTY PÍSKÁNÍ V UŠÍCH, ODLETUJÍCÍ STØEPINY GRANÁTÙ, HOØENÍ A RUSOVÉ NA VÁS V BOJI MOHOU POKØIKOVAT. JE TAM I JINÝ ZVUK ALARMU A PØI KRÁDEŽI TANKÙ V JEDNÉ MISI JSOU SLYŠET RUSKÉ HLÁŠKY. KAMPAÒ JE DÌLANÁ SPÍŠE PRO OSTØÍLENÉ HRÁÈE NEŽ AMATÉRY. JAKO POMÙCKU OBSAHUJE HERNÍ MENU. DABING JE V KAMPANI TAKY, COŽ JE JASNÉ. 
+ JAK JSEM PSAL, JEDNÁ SE O NÁVAZNOST NA RESISTANCI, TAKŽE ZBRANÌ A MUNICE JE PØENOSNÁ Z MISE DO MISE, SBÍRAT JÍ MÙŽETE TAKY, ALE MYSLÍM, ŽE KDO JE ŠETØÍLEK A MOC NEPLÝTVÁ, TAK MOC SBÍRAT NEBUDE MUSET, VŽDY JSOU K DISPOZICI RAKETOMETY A SAMOPALY.
+=============================================================================================================
+
+
+autor: "petr.t.lbc"
+hrajete za stranu: západ, civilisti a partyzáni 
+skrypty:    OFP.help (èsla)
+ 	"Ali" (download Ruprtova poradna)
+	"Spaw" (download Ruprtova poradna)
+	"petr.t.lbc"
+	"ORCS Development Studios" (Mod Battle for Nogovo 1984 má svolení autorù)
+
+web:  www.bitvaonogovo.xf.cz
+potøebné addony: editroupdate102
+dìláno na verzi: 1.96
+kompatibilita: snad se všemi mody, ale u FFUR si nejsem jist (tím je zahrnuta i ÈSLA, která vyuèívá FFUR efekty). 
+poèet misí: 20
+
+
+
+
+============================================================================================================
+problémy:  1)v misi "Jana"  se koukáte dlouho do stromu,  není to chyba, kampaò byla dìlána pro mod Bitva o Nogovo 1984, ta využívá jiný model Nogovy u kterého se strom vyskytuje na stejném místì, ale vìtve stromù jsou výše.
+	2)Obèas "ustøelí" intro, nejedná se o mojí chybu, ale dìlá to OFP. Kampaò testovalo celkem 10 lidí, nezávisle na sobì, tak vím, že moje chyba to není. Nechci aby jste se nechali tím odradit od hraní kampanì, tøeba si intro zkuste znovu a uvidíte.
+	3)V jednom intru jsem si muset zjednodušit popravu partyzánù, protože mi nechtìli rusové reágovat na pøíkaz dofire, tak snad to tak na vadu nebude, krom jiného zvuku AK74 to poznat nebude.
+	4)Kampaò byla dìlaná na CPU 2Gb, Ram 1024, tak u tìch slabších poèítaèù by mohlo dojít s trhání v nìkterých misích, ale na toto si žádný z betatesterù nestìžoval (mohlo by to dìlat tak u modù s hodnì efekty, jako FFUR,ÈSLA).
+	5)Kampaò je rázu jako resistance, takže se mùžete nesplnìním jedné mise ochudit o nìkolik dalších.
+	6)Jedná se jen o èeskou verzi, takže na anglických a jiných budete mít problémy s titulky a briefingy. Tím chci øíci, že na internetu je hodnì kampaní, ale hlavnì v angliètinì a dokonce od èeských autorù, tak proè nemít jen èeskou.
+	7)V prùbìhu mise si kontrolujte briefing, ve vìtšínì pøípadù se mìní náplò mise, takže byste mohli divit, že mise nejde ukonèit. Tím je napøíklad mise "sniper", kde máte zastøelit prezidenta. Nìkdy si lehne na zem, takže doporuèuji ho dostat na první ránu.
+	8)Kde máte otazníky na mapì, tak se mùžete doèkat pøípadnì pomoci z øad místního obyvatelstva. Tím myslím v misích V lese a Sniper. Když civilistu pøed pomocí zastøelíte, tak vám pomoci nemùže (zapùjèení vozu nebo schování doma).

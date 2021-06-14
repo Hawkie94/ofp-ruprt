@@ -1,0 +1,31 @@
+Minimální verze hry: 1.96 CZ
+
+Potřebné addony SG modu:
+SGC-solider,
+Jaffa v 1.2(Pozor, s novými Jaffy v packu zbraní od BXBX je mise nekompatibilní!!!!!), 
+Stargate mod v. 1.1, M2 machingun (shield)
+
+-veškeré tyto addony jsou na adrese: http://stargate.games-reactor.com/addon.php
+
+Další potřebné addony(budovy): Pack budov AGS, Pack přístavů AGS, Průmyslový pack AGS
+ -ftp://ftp.gamepark.cz:8021/ofpd/unofaddons3/AGS_Buildings_Pack_2.6.zip
+ -ftp://ftp.gamepark.cz:8021/ofpd/unofaddons3/AGS_Harbor_Pack_2.0.zip
+ -ftp://www.gamepark.cz:8021/ofpd/unofaddons2/AGS_Industrial_Pack_v.3.0.zip
+
+Addony zbraní a doplňkové: HKMP5 pack, Jam3,
+ -ftp://ftp.gamepark.cz:8021/ofpd/unofaddons2/HK_MP5_1.0.rar
+ -ftp://ftp.gamepark.cz:8021/ofpd/unofaddons2/JAM3.rar
+
+-Editor Update, EditorUpgrade (přiloženo)
+
+Veškeré bugy pište na ICQ: 245-646-348
+
+Poznámka: Zahrnul jsem ostrov Kolgujev, protože Lukemaxovi Stargate světy se mi nelíbí
+a navíc v nich blbnou textury. Proto následující mise, které se chystám vydat, budou na
+různých ostrovech stažených z OFP.info. Pokud do té doby vyjde nějaký normální a nezabugovaný
+SG-svět, použiji ten.
+
+-Misi instalujete na vlastní nebezpečí, za škody způsobené touto misí nenesu žádnou odpovědnost.
+
+Bugy: Na záčatku mise se vypíše hláška o chybějícím packu zbraní MP5. Ignorujte ji.
+Nevím proč se zobrazuje, mise běží korektně i bez ní.

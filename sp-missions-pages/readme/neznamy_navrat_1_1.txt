@@ -1,0 +1,5 @@
+AUtor: Neznámý
+Potřebná verze: 1.75
+Addony- pouze oficiání
+Poznámka: toto je opravená verze mise, kterou jsem opravil, abyste se vůbec dostali 
+na souš ze člunu a na radu Kubi jsem dal jednotkám jiné místo vylodění. 

@@ -1,0 +1,447 @@
+<html><head>
+<meta http-equiv="Content-Language" content="cs">
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Tutorial #30 </title>
+<style type="text/css">
+BODY
+{
+	scrollbar-arrow-color:#FFFFFF;
+	scrollbar-face-color:#000000;
+	scrollbar-highlight-color:#000000;
+	scrollbar-shadow-color:#000000;
+	scrollbar-3dlight-color:#FFFFFF;
+	scrollbar-darkshadow-color:#FFFFFF;
+	scrollbar-track-color:#000000;
+}
+td
+{
+	font-family: Verdana;
+	font-size: 10pt;
+	color: #FFFFFF;
+	text-align: Justify;
+	word-spacing:0;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+p
+{
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: 5;
+	margin-right: 5;
+}
+
+</style>
+
+<style fprolloverstyle="">A:hover {color: #FF6600}
+</style>
+</head>
+
+<body vlink="#00FFFF" link="#00FFFF" bgcolor="#000000" alink="#00FFFF">
+
+<div align="center">
+  <center>
+  <table style="border-collapse: collapse" id="AutoNumber1" width="100%" border="2" bgcolor="#000000">
+    <tbody><tr>
+      <td width="100%">
+      <div align="center">
+        <center>
+        <table style="border-collapse: collapse" id="AutoNumber2" width="50%" cellspacing="0" cellpadding="0" border="2">
+          <tbody><tr>
+            <td style="text-align: center" width="100%"><b>
+            <font size="3" color="#FFFF00">Tutorial 30 - Podmínky</font></b></td>
+          </tr>
+          <tr>
+            <td style="text-align: center" width="100%"><font color="#FF9933">
+            <b>Autor :  Didymos</b></font></td>
+          </tr>
+          <tr>
+            <td style="text-align: center" width="100%"><font color="#FF9933">
+            <b><a href="podminky.zip">Download</a></b></font> = Tento tutorial + ukázka</td>
+          </tr>
+        </tbody></table>
+        </center>
+      </div>
+      <p>&nbsp;</p>
+
+      <p></p><dd>Muttley nás požádal o napsání tutoriálu, který 
+by se zabýval podmínkami. Toto je ale velmi těžký úkol, protože 
+podmínek může být opravdu mnoho. Z E-mailu, který Muttley napsal, 
+jsem pochopil, že mu jde o podmínku, kterou vyskočí z nějaké 
+smyčky. Na začátek bychom si mohli slovo podmínka nějakým 
+způsobem definovat. Podmínka je v podstatě věc, která podmiňuje 
+něco jiného, tudíž je na něčem jiném závislá. Bez toho 
+něčeho, co podmínka podmiňuje, by byla podmínka zbytečná. 
+Jednoduše řečeno se nestane daná věc, dokud se nenaplní určitá 
+podmínka nebo naopak se bude jistá věc dít, dokud se nenaplní 
+podmínka pro její skončení. Co se ale editace v OFP týče, tak tady
+ bychom našli opravdu velmi mnoho podmínek a v podstatě by se dalo 
+říct, že celá hra je na podmínkách založená, protože dokud 
+nesplníte úkol (což je také podmínka), tak se např. neukončí 
+mise. Teď bych mohl do nekonečna pokračovat ve výčtu podmínek. Jak
+ jsem ale psal na začátku, tak dotaz, který byl vznešen se týká 
+nějaké určité podmínky. Já bych to převedl na kamerové 
+podmínky, kde se to dá alespoň trochu ukázat. V této souvislosti 
+mě napadá asi ta nejjednodušší podmínka, kterou je podmínka 
+časová, vytvoříme si kameru, která bude z pozice objekt1 sledovat 
+objekt2:
+<p>&nbsp;</p>
+<b>_CameraPos = getpos objekt1<br>
+_cmx = (_CameraPos select 0)<br>
+_cmy = (_CameraPos select 1)<br>
+_cmz = (_CameraPos select 2) + 1<br>
+_cam = "camera" CamCreate [_cmx,_cmy,_cmz]<br>
+_cam CameraEffect ["Internal","back"]<br>
+_cam CamCommit 0<br>
+_cam CamSetTarget objekt2<br>
+_cam CamSetFov 0.5<br>
+_cam CamCommit 0<br>
+@camCommitted _cam<br>
+~4<br>
+</b>
+<p>&nbsp;</p>
+</dd><dd>To celé bude probíhat po dobu 4 sec. Což je právě podmínka úplně na konci v posledním řádku. (~4)<br>
+Budeme pokračovat dál, kdy kamera sleduje vozidlo (pojmenované 
+vozidlo, z pozice hacko1) a chcete, aby ho sledovala tak dlouho, dokud 
+ho neopustí (v tomto případě) vojak. Když hned pod to přidáte 
+podmínku časovou (~3), tak tam kamera vydrží ještě další tři 
+vteřiny. Hned máte jistotu, že se kamera nepředběhne a že tam 
+vydrží opravdu do doby, než se nenaplní podmínka opuštění 
+vozidla a následně ještě pak 3 sec. jak je vidět tady:
+<p>&nbsp;</p>
+<b>_CameraPos = GetPos hacko1<br>
+_cmx = (_CameraPos select 0) - 50<br>
+_cmy = (_CameraPos select 1) + 30<br>
+_cmz = (_CameraPos select 2) + 1.7<br>
+_cam CamSetPos [_cmx,_cmy,_cmz]<br>
+_cam CamSetTarget boing1<br>
+_cam CamSetFov 0.4<br>
+_cam CamCommit 0<br>
+@camCommitted _cam<br>
+@not (vojak in vozidlo)<br>
+</b><p>&nbsp;</p>
+</dd><dd>Můžete zadat do posledního řádku kamery např.:
+<p>&nbsp;</p>
+<b>@neco</b>
+<p>&nbsp;</p>
+</dd><dd>kde neco je proměnná, která dokud nenabude hodnoty true, 
+nebude vytvořena podmínka pro pokračování. Jakým způsobem, jestli
+ do spínače nebo scriptu nebo kamkoli jinam hodnotu něco=true zadáte
+ záleží už jen na Vás. Důležité ale je někde na začátku zadat
+ hodnotu neco na false. (neco=false)  Nejlépe do "init.sqs".<br>
+
+Jestliže napíšete do posledního řádku tuto podmínku:
+<p>&nbsp;</p>
+<b>@not alive vojak</b>
+<p>&nbsp;</p>
+ </dd><dd>Kamera bude sledovat zadaný objekt do doby, dokud bude žít 
+vojak. (not alive vojak) Dalším jednoduchým příkladem je podmínka,
+ kdy bude kamera sledovat jednotku dem1 z pozice objekt do doby, než 
+splní nějaký dříve zadaný příkaz. Přímo tady jsem zadal 
+jednotce dem1 příkaz k položení nálože (dem1 fire ["put", 
+"pipebomb"] ), až to dokončí (@unitready dem1) pokračuje dalším 
+příkazem a to přesunem k nějakému objektu v editoru podle čísla 
+ID. (dem1 move [GetPOs object 137398 select 0, GetPOs object 137398 
+select 1]) Poté tam kamera vydrží ještě další dvě vteřiny, (~2)
+ než bude pokračovat. 
+<p>&nbsp;</p>
+<b>_CameraPos = GetPos objekt<br>
+_cmx = (_CameraPos select 0) + 5<br>
+_cmy = (_CameraPos select 1) - 5<br>
+_cmz = (_CameraPos select 2) + 1<br>
+_cam CamSetPos [_cmx,_cmy,_cmz]<br>
+_cam CamSetTarget dem1<br>
+_cam CamSetFov 0.7<br>
+_cam CamCommit 0<br>
+@camCommitted _cam<br>
+dem1 fire ["put", "pipebomb"]<br>
+@unitready dem1<br>
+dem1 move [GetPOs object 137398 select 0, GetPOs object 137398 select 1]<br>
+~2 <br>
+</b>
+<p>&nbsp;</p>
+</dd><dd>Dalším příkladem je ukončení kamery zachycené za vozidlo:
+ <p>&nbsp;</p>
+<b>#let 
+_CameraPos = getpos ah <br>
+_cmx = (_CameraPos select 0) +2<br>
+_cmy = (_CameraPos select 1) - 5<br>
+_cmz = (_CameraPos select 2) + 1.7<br>
+_cam = "camera" CamCreate [_cmx,_cmy,_cmz] <br>
+_cam CameraEffect ["Internal","back"] <br>
+_cam CamSetTarget ah <br>
+_cam CamSetFov 0.7 <br>
+_cam CamCommit 0 <br>
+~0.01 <br>
+ ? NOT (zrus) : goto "let"<br>
+</b>
+<p>&nbsp;</p>
+</dd><dd>Kamera bude sledovat vozidlo ah do doby, než se proměnná 
+zrus nenaplní na true. Nesmíme opět zapomenout někde na začátku 
+skriptu zanést: zrus=false! (init.sqs)<br>
+</dd><dd>Na další ukázky podmínek použiji jednu starší Ruprtovu 
+ukázkovou misi, na které je to zcela zřejmé. Máme tu tři vozidla: 
+hummer, motorku a letadlo. Kamera začíná zavěšená za hummrem (v1) a
+ to takto:
+<p>&nbsp;</p>
+<b>_CameraPos = getpos v1<br>
+_cmx = _CameraPos select 0<br>
+_cmy = _CameraPos select 1<br>
+_cmz = _CameraPos select 2<br>
+_cam = "camera" CamCreate [_cmx - 20,_cmy - 200, 1.5]<br>
+_cam CameraEffect ["Internal","Front"]<br>
+_cam CamSetTarget v1<br>
+_cam CamSetFov 0.5<br>
+_cam CamCommit 0<br>
+@CamCommitted _cam<br>
+<p>&nbsp;</p>
+#Jizda1<br>
+_cam CamSetRelPos [0, -10, 1.5]<br>
+_cam CamCommit 0<br>
+~0.01<br>
+? (v1 Distance v2) &gt; 35 : GoTo "Jizda1"<br>
+</b>
+<p>&nbsp;</p>
+</dd><dd>Jak je vidět, tato kamera bude následovat hummer a to do 
+doby, než se podmínka naplní. Tady ta doba nastane, když se vozidlo 
+v1 (hummer) přiblíží k vozidlu v2 a to na vzdálenost 35m. Po 
+naplnění této podmínky bude kamera sledovat vozidlo v2 v našem 
+případě motorku. 
+<p>&nbsp;</p>
+<b>_cam CamSetRelPos [0, 9, 1.5]<br>
+_cam CamSetTarget v2<br>
+_cam CamCommit 1<br>
+@CamCommitted _cam<br>
+<p>&nbsp;</p>
+_mytime = _time<br>
+#Jizda2<br>
+_cam CamSetRelPos [0, 10, 1.5]<br>
+_cam CamCommit 0<br>
+~0.01<br>
+? _time &lt; (_mytime + 15): GoTo "Jizda2"<br>
+</b>
+<p>&nbsp;</p>
+</dd><dd>Zde se podmínka naplní po uplynutí času 15 sec. Po té následuje pomalé a plynulé přiblížení k letadlu a1:
+<p>&nbsp;</p>
+<b>_cam CamSetTarget a1<br>
+_cam CamCommit 4<br>
+@CamCommitted _cam<br>
+<p>&nbsp;</p>
+dive = 0<br>
+_dy = - 300<br>
+_dz = 0 - (GetPos a1 Select 2) + 1.5<br>
+#Approach<br>
+_cam CamSetRelPos [-20, _dy, _dz]<br>
+_cam CamCommit 0<br>
+@CamCommitted _cam<br>
+~0.01<br>
+_dy = _dy + 1<br>
+_dz = _dz + 1<br>
+? _dz &gt;= 0: _dz = 0<br>
+? _dy &lt; -20 : GoTo "Approach"<br>
+<p>&nbsp;</p>
+#Loop1<br>
+_cam CamSetRelPos [-20, -20, 0]<br>
+_cam CamCommit 0<br>
+~0.01<br>
+? dive == 0 : GoTo "Loop1"<br>
+</b>
+<p>&nbsp;</p>
+</dd><dd>Tady ukázková mise končí. Tímto jsem chtěl naznačit, že
+ opravdu záleží na vaší fantazii, kolik podmínek tady vytvoříte.
+ Je doufám jasné, že se podmínky nevztahují pouze na kamery, už v 
+samotném spínači je kolonka s názvem podmínka, která je řekl bych
+ hodně podobná s těmito podmínkami pro kameru. Když si třeba 
+vytvoříte spínač, který bude mít v kolonce Podmínka:
+<p>&nbsp;</p>
+<b>west1 distance east1&lt;20</b>
+<p>&nbsp;</p>
+</dd><dd>a do pole Pří aktivaci zadáte:
+<p>&nbsp;</p>
+<b>[west1, east1] exec "poplach.sqs"
+</b>
+<p>&nbsp;</p>
+</dd><dd>pak se stane to, že v případě, kdy se přiblíží west1 k 
+east1 na vzdálenost 20m., spustí se skript s názvem poplach. Co 
+zadáte do tohoto skriptu, už záleží na vás. Může to být třeba 
+pouhý text, ale s trochou důvtipu přidají podmínky tohoto typu na 
+kvalitě celé mise. Pozor ale na to, aby se vám jednotlivé podmínky 
+neprolínaly a především na to, aby nebyla nějaká podmínka 
+závislá na dokončení celé mise!!! Naopak, jestliže je dokončení 
+mise závislé na životě nějaké jiné osoby, zadáte do pole 
+Podmínka ve spínači:
+<p>&nbsp;</p>
+<b>not alive vip</b>
+<p>&nbsp;</p>
+</dd><dd>a do pole Typ zadáte Prohra. Tady se stane to, že v 
+případě ztráty vip se mise ukončí prohrou. Pak už stačí 
+vytvořit scutscénu Outro - prohra. 
+<img src="Tutorial30_files/16x16_smiley-wink.gif" width="16" height="16"><br>
+</dd><dd>Tohle je o podmínkách odemě vše. Teď tu mám ještě doplněk <b>Ruprt</b>a o strukturovaných podmínkách, které jsou od verze 1.75.
+<p>&nbsp;</p>
+<center><h3>Strukturovaná podmínka</h3></center>
+
+</dd><dd>S verzí hry 1.75 a vyšší nám BIStudio dalo do rukou nový nástroj na vytváření podmínek a to strukturovanou funkci <b>If… Then …Else</b> a <b>While … Do</b>.
+<p>&nbsp;</p>
+</dd><dd>Každý skriptovací příkaz nebo funkce v souborech skriptů 
+*.SQS (v to počítaje i podmínky) je vykonán pouze v případě, že 
+příkaz včetně jeho parametrů a argumentů je umístěn na jednom 
+řádku, případně může být uvedeno na jednom řádku více 
+příkazů, musí však být odděleny středníkem. Nelze tedy vykonat 
+jeden příkaz zapsaný v jednom řádku s parametrem uvedeným v jiném
+ řádku. Tento způsob programového zpracování příkazů se 
+nazývá "řádkově založený skript" (Line Based Skript). Tento 
+způsob však do značné míry omezuje programovací možnosti daného 
+jazyka.<br>
+
+</dd><dd>Oproti tomu výše uvedené strukturované funkce <b>If… Then … Else</b> a <b>While… Do</b>
+ mohou být vykonány i když jsou zapsány na neomezeném počtu 
+řádků. Toto se nazývá "víceřádkově založený script" 
+(Multiline Based Skript) V tomto případě však je nutné funkce 
+umístit do souboru s příponou SQF nikoli SQS. Zároveň berte na 
+vědomí, že ne všechny výrazy skriptovacího jazyka hry OFP mohou 
+být ve skriptech funkcí vykonány, např. nelze v nich použít 
+prodlevu (~číslo nebo &amp;číslo), neboť funkce je vždy vykonána 
+jako celek, nikoli jako soubor několika příkazů.<br>
+
+Tyto funkce pak mají poněkud odlišnou syntaxi :<br>
+<p>&nbsp;</p>
+
+<b>If  (podmínka) Then {výraz1} Else {výraz2}<br>
+| podmínka -&gt;| | tělo funkce --------------&gt;|
+</b><p>&nbsp;</p>
+</dd><dd>Přeloženo do češtiny to znamená:<br>
+Pokud (podmínka) vrátí TRUE pak(THEN) udělej {výraz1}, jinak (ELSE)
+ udělej {výraz2}. Výrazy 1 i 2 musí být uzavřeny v kudrnatých 
+závorkách (správně) nebo v uvozovkách (nedoporučuji).
+<p>&nbsp;</p>
+<b>While "podmínka" Do {výraz}
+| podmínka ------&gt;| | tělo funkce-&gt;|
+</b><p>&nbsp;</p>
+</dd><dd>Přeloženo do češtiny to znamená :<br>
+Pokud "podmínka" vrací TRUE vykonávej pořád dokola {výraz}. 
+Maximální počet opakování je stanoven na 10.000. Pokud se smyčka 
+zopakuje 10.000x a podmínka stále vrací TRUE, smyčka se ukončí a 
+je zobrazena chybová zpráva.
+<p>&nbsp;</p>
+
+<b>Příklad #1 - Funkce If … Then…Else umístěná v souboru *.SQS.</b><br>
+</dd><dd>Pokud je tato podmínková funkce umístěná v souboru .SQS chová se naprosto identicky jako dosud známé ? výraz : výraz .
+<p>&nbsp;</p>
+<b>_query = 5<br>
+_zk = 0<br>
+_zk1 = 5<br>
+_zk2 = 10<br>
+If (_query = = 5) Then {_zk = _zk1 + _zk2} Else {_zk = _zk2 - _zk1}<br>
+</b><p>&nbsp;</p>
+<b>Výsledkem je že : _zk = 15</b>
+<p>&nbsp;</p>
+</dd><dd>Naprosto stejného výsledku však dosáhnete i použitím starého dobrého :
+<p>&nbsp;</p>
+<b>? _query = = 5: _zk = _zk1 + _zk2; Goto "Skip"<br>
+_zk = _zk2 - _zk1<br>
+#Skip<br>
+Příklad #2 - Funkce If … Then…Else umístěná v souboru *.SQF.
+</b><p>&nbsp;</p>
+</dd><dd>Soubor funkcí *.SQF nelze spouštět pomocí příkazu Exec. 
+Pro vykonání kódu zapsaného do souboru *.SQF je nutno použít též
+ nově implemtované příkazy PreprocessFile nebo LoadFile, který na 
+své místo v souboru *.SQS dosadí obsah volaného souboru *.SQF, anebo
+ příkaz Call v kombinaci s PreprocessFile nebo LoadFile, který rovnou
+ kód v souboru *.SQF vykoná.
+<p>&nbsp;</p>
+<b>Kód souboru *.SQS<br>
+_query = 5<br>
+_zk = 0<br>
+_zk1 = 5<br>
+_zk2 = 10<br>
+[] Call PreprocessFile "zkouska.sqf"
+<p>&nbsp;</p>
+Kód souboru ZKOUSKA.SQF
+<p>&nbsp;</p>
+If  (_query = = 5) Then<br>
+{<br>
+</b></dd><dd><b>	_zk = zk1 + zk2<br>
+}<br>
+Else<br>
+{<br>
+</b></dd><dd><b>	_zk = _zk2 - _zk1<br>
+}<br>
+Výsledkem je že : _zk = 15<br>
+
+</b><p>&nbsp;</p>
+</dd><dd>Protože v souborech funkcí *.SQF nemá konec řádku žádný
+ speciální význam, musíte, pokud bude výraz obsahovat více 
+příkazů, každý řádek výrazu ukončit středníkem, např. takto :
+<p>&nbsp;</p>
+<b>If  (_query = = 5) Then<br>
+{<br>
+</b></dd><dd><b>	_zk = zk1 + zk2;<br>
+</b></dd><dd><b>	Player SetDamage 0<br>
+}<br>
+Else<br>
+{<br>
+</b></dd><dd><b>	_zk = _zk2 - _zk1<br>
+}<br>
+Výsledkem je že : _zk = 15 a hráč bude mít hodnotu poškození 0.</b>
+<p>&nbsp;</p>
+</dd><dd><b>Vše co je zpracováno v souboru *.SQF je zpracováno jako 
+řetězec. Nelze proto použít příkaz PreprocessFile nebo LoadFile 
+jako samostatný příkaz v souboru scriptu, ale pouze jako část 
+(výraz) funkce If … Then … Else nebo While … Do, nebo jako tělo 
+příkazu Call.</b> Naopak vše co je uvedeno v souboru *.SQF lze 
+použít jako řetězcový parametr nebo argument jakékoli skriptovací
+ funkce nebo příkazu, který takový argument podporuje. Jinými 
+slovy, pokud by jste ve svém souboru skriptu uvedli např. :
+<p>&nbsp;</p>
+<b>TitleText [PreprocessFile "zkouska.sqf", "PLAIN"]
+</b><p>&nbsp;</p>
+</dd><dd>Pak se vám podle předchozího příkazu vypíše na obrazovku :<p>&nbsp;</p>
+<b>If  (_query = = 5) Then{	_zk = zk1 + zk2}Else{	_zk = _zk2 - _zk1}</b>
+<p>&nbsp;</p>
+<b>Příklad #3 - Funkce While… Do umístěná do souboru *.SQF.<p>&nbsp;</p>
+</b>
+</dd><dd>Tento příklad doplní do hráčovi skupiny tolik vojáků, aby jich celkem celá skupina obsahovala 10.
+<p>&nbsp;</p>
+<b>Kód souboru *.SQS :<br>
+[] Call PreprocessFile "zkouska1.sqf"
+</b><p>&nbsp;</p>
+<b>Kód souboru ZKOUSKA1.SQF :<br>
+While "(Count Units Group Player) &lt; 10" Do<br>
+{<br>
+</b></dd><dd><b>	"SoldierWB" CreateUnit<br>
+</b></dd><dd><b>	[<br>
+</b></dd><dd><b>	[<br>
+</b></dd><dd><b>	(Position Player Select 0) + Random 5,<br>
+</b></dd><dd><b>	(Position Player Select 1) + Random 5,<br>
+</b></dd><dd><b>	Position Player Select 2<br>
+</b></dd><dd><b>	],<br>
+</b></dd><dd><b>	Group Player<br>
+</b></dd><dd><b>	]<br>
+}<br>
+</b><p>&nbsp;</p>
+</dd><dd>Tolik tedy od <a href="ruprt@atlas.cz" title="ruprt@atlas.cz">Ruprta</a>.
+ Jeslti pochopíte tohle, tak si myslím, že už není potřeba 
+pokračovat a mě už stačí vám jen popřát hodně trpělivosti. Na 
+závěr snad ještě poslední podmínku:
+<p>&nbsp;</p>
+<b>Abyste pochopili co tady píšu, musíte si to celé přečíst a zřejmě to nebude stačit jednou.</b> 
+<img src="./../pictures/smilici/16x16_smiley-tongue.gif" width="16" height="16"> (věta účelová, ne podmínková) 
+
+<p>&nbsp;</p><p align="RIGHT">
+<a href="mailto:Didymos@seznam.cz" title="Didymos@seznam.cz">Didymos</a>
+
+
+</p>
+
+      </dd></td>
+    </tr>
+  </tbody></table>
+  </center>
+</div>
+
+
+
+</body></html>

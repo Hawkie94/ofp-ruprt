@@ -1,0 +1,37 @@
+============================================================================================                              
+                                     STOWAWAY 
+                                      v 1.0
+                         Developed by Anonymous Creator 2005 
+                                  Czech Republic 
+
+============================================================================================
+
+ OBSAH: 1) Instalation and addons (you need to have)
+        2) Credits
+                                               
+____________________________________________________________________________________________
+
+ 1) INSTALATION AND ADDONS : 
+    
+    Copy SAYAddons.pbo, Streetlamp.pbo and EditorUpdate102.pbo to addons folder
+    Copy Stowaway.kegnoecain_snow.pbo to Missions folder.
+
+    Required ADDONS:
+    -An-72 Coaler by Footmunch:
+      http://ofp.gamezone.cz/index.php?showthis=8503&newlang=eng
+    -Kiowa Warrior by Kegetys:
+      http://ofp.gamezone.cz/index.php?showthis=2422&newlang=eng
+    -Winter Nogojev by Kegetys:
+      http://koti.mbnet.fi/kegetys/ofp/index.php?p=addon_wnogo
+    -Russian Weapons pack by Kegetys (needed for Winter Nogojev)
+      http://koti.mbnet.fi/kegetys/ofp/index.php?p=addon_ruswe
+
+____________________________________________________________________________________________
+
+ 2) CREDITS:
+    -Based on story by: Silver Falcon
+    -Co-worker on SAY Addon: jagy
+    -Special thanks to: Spawn
+
+    (sorry for mistakes in text)
+                    

@@ -1,0 +1,61 @@
+----------------------------------------------------------------------------------------
+
+  T Ø I   K R Á L O V É
+
+   > singleplayer mise pro hru Operace Flashpoint
+
+   > verze 1.04 CZ
+
+-----------------------------------------------------------------------------------------
+
+  AUTOR
+		Ježuro ( jezuro@post.cz | ICQ# 197968874 | http://2dmm.wz.cz)
+
+  BETATEST
+		Mikero
+		cEph
+		Wallas
+
+  DABING
+		Ježuro
+		Wallas
+		Many
+		Hydergine
+		cEph
+		Sak
+		Velký Bratr
+
+  HUDBA
+		Requiem for a Dream OST
+
+  ZVUKY
+		Dynamic Range
+		Quake III Arena
+
+-----------------------------------------------------------------------------------------
+
+  POTØEBNÉ ADDONY
+
+		BAS Delta / Rangers units	http://www.gotf.net/download.asp?dl=25
+
+		BAS Blackhawks pack		http://www.gotf.net/download.asp?dl=78
+
+		BAS JAM2			http://www.gotf.net/download.asp?dl=72
+
+		StreetLamp			- pøibaleno k misi -
+		
+-----------------------------------------------------------------------------------------
+
+  INSTALACE
+		> extrahujte stažený ZIP soubor
+
+		> soubor ze složky \Mise zkopírujte do složky \Missions ve vašem adresáøi
+		  OFP (standardnì C:\Program Files\OperationFlashpoint\Missions)
+
+		> soubor ze složky \Addon zkopírujte do složky \Addons ve vašem adresáøi
+		  OFP (standardnì C:\Program Files\OperationFlashpoint\Addons)
+
+		> pro instalaci potøebných addonù od BAS následujte instrukce v jejich
+		  souborech readme
+
+-----------------------------------------------------------------------------------------

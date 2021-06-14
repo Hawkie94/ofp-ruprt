@@ -1,0 +1,22 @@
+***********************************************************************************
+
+Název mise: Protiútok [ČSLA 1]                            (Nogova) 
+Autor: Blackjabel                                         (Blackjabel@seznam.cz)
+-------------------------------
+Addony: Addon CSLA 1.1, addon upgrade 1 + addon upgrade 2 (CSLA1)
+
+ *****Prostě celý ČSLA 1 !!!pozor 1 nikoliv CSLA 2!!!******
+--------------------------------------------------------------------
+Verze: testováno na 1.96 verzi
+  Mělo by být funkční na resistance (1.75)
+Popis: V roli čecha Zvolenského máte za úkol hlídat Malou Ves!
+--------------------------------------------------------------------
+Instalace: zkopírujte soubor Protiútok.Noe do adresáře 
+C:/program files/codemasters/operation flashpoint/missions/     (standartně)
+---------------------------------------------------------------------------------
+****Speciální: Omlouvám se celému ČSLA teamu, že jsem se nezeptal na souhlas ****
+    k uvedení jejich addonů v mé misi, ale nebyl jsem schopen nalézt nějaký
+    e-mail či tak něco, abych je mohl kontaktovat.
+               
+                     http://www.blackjabel.webz.cz
+***********************************************************************************

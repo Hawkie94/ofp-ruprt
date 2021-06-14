@@ -1,0 +1,95 @@
+WORDL END TALE
+Verze 1.0
+Readme Soubor
+Listopad 4., 2006
+vytvoøil Gaia aka Str [http://gsmod.wz.cz]
+
+
+***********************************************************************
+
+		    	OBSAH
+
+		  I.	ÚVOD
+		 II.	POTØEBNÉ ADDONY
+	  	III.	INSTRUKCE K INSTALACI
+                 IV.	TVÙRCI
+		  V.	UPOZORNÌNÍ
+
+
+I. ÚVOD
+=========================
+World End Tale - Historka z konce svìta. Doplòující pøíbìh k misi When The World Ends, jehož hlavním hrdinou je kapitán Diego Checa, velitel týmu Rangerù ochraòujícícho piloty bìhem Stolbovojského incidentu. Pøíbìh zaèíná v okamžiku, kdy vrtulník odlétne na svou poslední misi - znièení atomového sila - a tým se pøipravuje k odjezdu. Podle pùvodního plánu se zbaví veškerého vybavení, pøevlékne se do civilních šatù a v maskování za skupinu prodejcù španìlského vína opustí za pomoci dùstojníka CIA Marka Reynoldse ostrov. Jenže jak èasto jde vše podle plánu?
+Mise je ve své podstatì hotová a funkèní, pøesto v ní chybí mnoho prvkù, které nebyly kvùli nedostatku èasu pøidány. Kromì chybìjící funkce zdravotníka jednoho z vojákù chybí druhá verze outra (dostupná v pøípadì, že hráè úspìšnì splnil poslední úkol) a závìr s Charlesem Brownem.
+
+
+II. POTØEBNÉ ADDONY
+=========================
+
+WTWE addon [14.5 MB]
+http://wtwe.rival.cz/download.php?get=gaia_wtwe_addons
+
+RAH-66 Commanche od DKM Mod [5.89 MB]
+http://ofp.gamepark.cz/index.php?showthis=5687&newlang=eng
+
+Antonov An-124 [6.4 MB]*
+http://ofp.gamepark.cz/index.php?showthis=5158&newlang=eng
+
+Hlídková loï tøídy Miraja [1.3 MB]
+http://ofp.gamepark.cz/index.php?showthis=3833&newlang=eng
+
+Piloti bez pøilby a padáku [0.5 MB]
+http://ofp.gamepark.cz/index.php?showthis=2793&newlang=eng
+
+* - Pro správný chod mise je BEZPODMÍNEÈNÌ nutné, aby byl použit addon Antonova pouze ve verzi 1.0!
+
+
+IV. INSTRUKCE K INSTALACI
+=========================
+gaia_wtwe_tale.stol.pbo - Soubor s misí; Pøesuòte do složky Missions ve vašem adresáøi OFP
+
+
+V. TVÙRCI
+=========================
+Režie			Gaia
+Pøíbìh			Gaia
+Dabing			Pavka
+			Gaia
+			Martinius
+			Globus
+3D umìlci		Jagy
+			CSJ
+			UWAR
+Odborný poradce		Martinius
+Vizuální efekty		Gaia
+			Kegetys
+Zvukové efekty		VIT
+			Ghost Recon
+			No One Lives Forever
+Hudba			Nirihiko Hibino
+			Akiro Honda
+Ovìøení kvality		Marinius
+			BoborSK
+			LAW
+Podìkování		Faly
+			TheRaptor
+			Hideo Kojima
+
+Vìnováno památce hry Operace Flashpoint.
+
+
+VI. UPOZORNÌNÍ
+=========================
+Tato mise není vytvoøena pro komerèní použití. Není podporována vývojáøi hry "Operace Flashpoint". Tato mise je neformální
+produkt. Autoøi nenesou žádnou zodpovìdnost za pøípadná selhání vašeho poèítaèe, které mohou nastat pøi bìhu mise.
+Všechna práva na tento produkt jsou chránìna a náleží autorùm.
+
+Ještì jednou to pøipomínáme: mùžete použít misi pouze pro nekomerèní úèely! Nemáte povolení komukoli prodávat tento produkt!
+
+
+Informace o právech:
+Operation Flashpoin(TM) 
+Resistance(TM) 
+Copyright (c) 2002 Bohemia Interactive Studio a The Codemasters Software Company Limited.
+World End Tale, WET (c) 2005/2006 GS-Mod
+
+Všechna ostatní práva a ochranné známky patøí jejich pøíslušným vlastníkùm.

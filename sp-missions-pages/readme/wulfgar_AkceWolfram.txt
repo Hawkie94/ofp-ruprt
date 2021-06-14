@@ -1,0 +1,12 @@
+---> AKCE WOLFRAM <---
+
+Autor: Wulfgar
+Potřebná verze OFP: 1.96
+Potřebné addony: nejspíš žádné (maximálně EditorUpdate102 od Kegetyse - ten má snad každý :o)
+Typ mise: pěchotní
+Obtížnost: jak pro koho ;-)
+Intro: Ano
+Outro: Ne
+Popis: V misi se zúčastníte postupu sovětských vojsk k obsazení ostrova Nogova.
+
+Příjemnou pařbu ;).

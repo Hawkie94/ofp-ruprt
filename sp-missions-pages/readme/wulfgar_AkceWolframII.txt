@@ -1,0 +1,17 @@
+---> AKCE WOLFRAM II: OPERACE PERESTROJKA <---
+
+Autor: Wulfgar
+Potřebná verze OFP: 1.96
+Potřebné addony: nejspíš žádné (maximálně EditorUpdate102 od Kegetyse - ten má snad každý :o)
+Typ mise: pěchotní
+Obtížnost: jak pro koho ;-)
+Intro: Ano
+Outro: Ano
+Popis: Přímé pokračování mise Akce Wolfram, kde v rámci postupu obsazení ostrova Nogova po masakru a katastrofě
+	z předchozího dne znovu zaútočíte na Davle, čímž se přiblížíte k obsazení ostrova Nogova.
+
+Poznámka - v misi je použita hudba ze hry Return to Castle: Wolfenstein od Billa Browna.
+
+Příjemnou pařbu ;).
+
+©2009-2010 Wulfgar OFP studio

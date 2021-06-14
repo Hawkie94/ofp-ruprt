@@ -1,0 +1,15 @@
+
+  NÁZEV MISE:	Operace SIGMA
+  TYP MISE:	Pìchotní útoèná
+  AUTOR:	Walter(CZ)
+  HUDBA: 	od skupiny BURNING IN HELL - Believe
+
+
+V misi jsou scripty použité z "OFPEditorHelpCZ". Briefing (upraven) z modu ÈSLA I 
+[neumím vytváøet briefingy]
+
+
+MISE:
+Jste èlenem malého úderného družstva US Army a musíte zneškodnit pašeráky munice a 
+jejich zboží. Ovšem probìhne vše hladce?
+ 

@@ -1,0 +1,80 @@
+-------------------------------------------------->
+* Atentátník by JAMES (jakubmatejicek@seznam.cz) *
+-------------------------------------------------->
+verze mise: 1.6
+----------------->
+Ostrov: Kolgujev
+----------------->
+čas: 17:30
+----------------->
+typ mise: sniper
+----------------->
+Dabing: ANO 
+------------------------------->
+Intro:           ANO (6min 30sec)
+Outro vytězství: ANO (3min 02sec)
+Outro prohra:    NE
+-------------------------------->
+Min verze: 1:75 
+----------------------------->
+vyrobeno na verzi: 1.91 CZ a 1.94
+--------------------------
+Addony: Jsou ve přiloženy u mise kromě Editor update 102. Najdeteho na www.ofp.gamezone.cz v sekci addony/ostatní.
+        (hedgehog, objects1, JBAAsoldierE)
+--------------------------------------------------------------×
+Problémy:
+          2)V Brífinku když kliknete na některý odkaz a poté na "zpět k plánu" tak se vám nezobrazí ukoly proto klikněte znovu na plán
+          3)Generál se mi jednou srazil s m113 a nedorazil.
+          4)Za další problémy se předem omlouvám, ale flashpoint je nepředvídatelný.
+------------------------------------------------------------------------------------>
+Cheaty: Jelikož je mise docela těžká přidal jsem do hry Neomezený save: 0-0-8
+        chtěl jsem jenom předejít situacím  #kill-him --> alt+tab --> smazat save -->alt+tab -->goto killhim
+------------------------------------------------------------------------------------------------------------>
+Misi jsem vytvářel: Hooodně dlouho (asi 100x byla předělávaná) (300+hodin)
+---------------------------------------------------------------------------->
+počátek práce na misi: ůnor 2003 (nekecám) (proto je tak zastaralá)
+----------------------------------------------------------------------->
+Donkončeno: 9.3.2004 (pro zajímavost první plánované datum bylo 14.4.2003)
+------------------------------------------
+Hardware požadavky: PIII 1GH 256MbRAm. nebo vyšší. Kdyby se vám mise sekala tak rádio 0-0-4 vám sníží viditelnost na 500m což by mělo značně urychlit hru.
+----------------------------------------
+Vyrobeno na počítači: PIII 1,GH, 512RAM, RADEON 9000 128mb (kde se trochu sekala) a později na P4 2,6GH HT, 512DDR 400, Radeon 9000 (kde se nesekala :-)
+-------------------------------------------------------------------------------------->
+Popis: 	Mise je dost zastaralá, to je spůsobeno jejím stářim, tak to prosím omluvte.
+	Mise není nic originálního a je to moje první mise kterou jsem dokončil.
+       	Udělal jsem jí na Kolgujevu aby si ji mohly zahrát i nemajtelé Resistance, 
+       	ale někaj se to zvrtlo a Resistance to vyžaduje :-(
+       	Jo a nebojte se že vám generál ujede. Nemusíte vůbec spěchat, přijede vždy akorát :)
+       	!!!dodržujte pokyny jinak vám mise nepojede korekně!!!
+	Mise obsahuje 36 scriptů :-)
+--------------------------------------------------------------------------------->
+Poděkování: Leonovi, Ruprtovi, Didymosovi, MAA a všem kdo
+            se o nás hráče OPF "stará" Dík patří také Muttleymu za vysvětlení scriptu, který je pro misi velmi důležitý
+            Samozřejmě Bikerovy OFP, neovi a Marinovi za betatest a JBrzymu za addon snipera. Také bych chtěl poděkovat všem lidem z fóra na Ruprtově a Didymosově stránce (www.koflex.cz/Ruprt) 
+            a na Tiscali (games.tiscali/flashpoint) ajestli jsem na někoho zapomněl tak sorry :-)
+	    A samozřejmě těm kdo pro mě namluvili postavy! (viz OUTRO)
+------------------------------------------------------------>
+
+V Bklízké době se chystá vydání zimní popř. opravené verze.
+
+
+         *    ***   **   **  *****     ****
+         *   *   *  * * * *  *        *
+         *   *   *  *  *  *  ****     *
+     *   *   *****  *     *  *         ***
+      ***    *   *  *     *  *****        *
+                                          *
+                                      ****
+
+---------------
+Dabing:
+---------------
+hráč: já (james)
+velitel: Nighthawk
+Dustojník (vlevo od stolu): Sarge
+D§stojník2 (vpravo od stolu) : Davson
+Guba: Pavka
+Pilot: james
+English: james
+
+

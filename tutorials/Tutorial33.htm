@@ -1,0 +1,642 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Ježurův tutoriál o dialozích</title>
+<link rel="Stylesheet" type="text/css" href="Tutorial33_files/default.css">
+</head>
+
+<body vlink="White" link="Teal" background="Tutorial33_files/Back.jpg" alink="Maroon">
+<font>
+<p align="Center"><img src="Tutorial33_files/OFPLogo.jpg"><br>
+<img src="Tutorial33_files/Cara_H.jpg" align="Center">
+
+<table cellspacing="30" cellpadding="0" border="0">
+<tbody><tr>
+<td align="Center"><a href="#Uvod" title="Pár slov před tím, než začneme">Úvod</a></td>
+<td align="Center"><a href="#FAQ" title="Často kladené otázky">FAQ</a></td>
+<td align="Center"><a href="#Popis" title="Vysvětlení základních pojmů">Popis dialogového okna</a></td>
+<td align="Center"><a href="#Zdrojak" title="Vzorová definice zdrojového kódu">Ukázka definice</a></td>
+<td align="Center"><a href="#Znacky" title="Popis funkce značek v Description.ext">Značky</a></td>
+<td align="Center"><a href="#PopisII" title="Vysvětlení definice dialogu">Popis definice</a></td>
+<td align="Center"><a href="#Zaver" title="Závěr tohoto tutoriálu">Závěr</a></td>
+</tr>
+</tbody></table>
+
+<img src="Tutorial33_files/Cara_H.jpg" align="Center"></p>
+
+<h2 align="Center"><a name="Uvod">TUTORIÁL O PRÁCI S DIALOGY V OFP</a></h2>
+<table cellspacing="0" cellpadding="0" border="0" align="Center">
+<tbody><tr>
+<td width="900" valign="Top">
+Dialogy jsou VELICE užitečným nástrojem v editaci misí a jejich 
+pochopení vám rozšíří možnosti ve tvorbě misí stejně (ne-li 
+víc) jako další nové příkazy od verze 1.75. To mě motivovalo k 
+tomu, abych napsal tento tutoriál. Je to vlastně doplněná forma 
+ruprtova tutoriálu, který můžete najít v jeho OFP EditorHelpu.<br>
+Tato stránka je udělaná pro rozlišení 1024*768, takže vám 
+doporučuji na toto rozlišení přepnout (jde to v pohodě i na 15" 
+monioru.)<br>
+Nenavštívené odkazy jsou psány <font class="SampleLink">modře, tučně, a podtrženě</font>, právě navštívené <font class="SampleHover">červeně a tučně</font> a již navštívené <font class="SampleVisited">bíle, tučně, a podtrženě</font>. Zdrojový kód bude psán <font class="SamplePRE">tmavomodře neproporcionálním fontem Courier</font>. Názvy souborů nebo jiné důležité věci budou <u>podtrženy</u>, popřípadě <b>zvýrazněny</b>.<br>
+Nebudu se tady sáhodlouze rozepisovat o nějakých autorských právech
+ - klidně si cokoli jakkoli změňte, když vám to pomůže. Jenom by 
+mě docela nakrklo, kdyby někdo nahradil moje jméno svým a tohle 
+prodával. Ale to se doufám stejně nestane (koneckonců, kdo by si to 
+koupil, že :).)<br>
+Ať už mi budete chtít sdělit cokoliv, pište mi na mail <a href="mailto:jezuro@post.cz">jezuro@post.cz</a>.<br>
+Tak se pohodlně usaďte, lekce začíná...<br><br>
+
+<h2><a name="FAQ">FAQ (Frequently Asked Questions) - Často kladené otázky</a></h2>
+
+<b><u>Co je to sakra ten dialog?</u></b><br>
+1) Rozhovor dvou osob<br>
+2) Typ rozhraní v programech<br>
+-hádejte, o které možnosti se budeme bavit...<br>
+Možná vás to překvapí, ale CELÝ interface (tedy uživatelské 
+rozhraní) Operace Flashpoint jsou dialogy. Dialogem může být takřka
+ cokoliv - od nenápadnou černou čárku po tabulku pro vkládání 
+jednotek v editoru. Ano, celý editor misí je také "jenom" soustava 
+různých dialogových oken!<br><br>
+
+<b><u>Nějaký okna - na co mi to bude?</u></b><br>
+Tuhle otázku jsem sám sobě taky položil. A sám si taky dal 
+odpověď - bohužel tu klasickou (na ho*no, abych byl slušný). To mě
+ na nějakou dobu od této tématiky odradilo, ale když se mi dostal do
+ rukou OFP EdiorHelp a ukázková mise k tématu dialogů, uvědomil 
+jsem si, že tohle nemůžu jen tak přejít.<br>
+Pomocí dialogů můžete v OFP udělat v podstatě jakékoli okno, od 
+černého čtverečku v pravém dolním rohu monitoru po velící panel 
+koordinovaného útoku několika skupin spojený s rozkazy jednotlivým 
+vojákům. Možností je nepřeberné množství a já vám v tomto 
+tutoriálu ukážu základy, na nichž můžete vybudovat 
+sebesložitější dialog.<br><br>
+
+<b><u>Tak jo - co k tomu budu potřebovat?</u></b><br>
+Pro základní dialogy stačí jenom klasický soubor <u>Description.ext</u>. Dále můžete přidat obrázky a samozřejmě skritpy, soubory <u>Stringtable.csv</u> nebo ty s příponou <u>.sqf</u>. Soubor <u>Description.ext</u>
+ může být umístěn buď ve složce s misí (tam ho program hledá 
+nejdřív) nebo v hlavní složce kampaně (když ho v misi nenajde, 
+hledá tam.) A když není ani tady, podívá se do souboru <u>Resource.bin</u> ve složce OFP\Res\Bin, popřípadě OFP\BIN.<br><br>
+
+<b><u>Je těžký se to naučit?</u></b><br>
+Nic není těžké, jenom zdlouhavé. A pokud pochopíte základy, nebude to ani zdlouhavé ;)<br><br>
+
+<h2><a name="Popis">Popis dialogového okna</a></h2>
+Než se pustíme do samotného kódu a definic, musíte vědět, jak se 
+různým částem dialogu říká. Tady je jedno dialogové okno, na 
+kterém si jednotlivé části ukážeme:<br><br><br>
+
+<p align="Center"><img src="Tutorial33_files/Popis.jpg"></p><br>
+
+<b><u>1</u></b> - <u>Rámeček</u> : "Oblemování" dialogového okna.<br>
+<b><u>2</u></b> - <u>Pozadí okna</u> : Textura vypňující prostor okna.<br>
+<b><u>3</u></b> - <u>Titulek okna</u> : Tabulka pro nadpis okna.<br>
+<b><u>4</u></b> - <u>Docela obyčejný text</u> : Prostě text...<br>
+<b><u>5</u></b> - <u>Tlačítko</u> : Co k tomu říct?<br>
+<b><u>6</u></b> - <u>EditBox</u> : Kolonka, kam může uživatel vpisovat údaje.<br>
+<b><u>7</u></b> - <u>Slider (vertikální)</u> : Posuvník neboli jezdec, tento svislý.<br>
+<b><u>8</u></b> - <u>Slider (horizontální)</u> : Posuvník neboli jezdec, vodorovný.<br>
+<b><u>9</u></b> - <u>ComboBox</u> : Rolovací nabídka pro výběr údajů.<br>
+<b><u>10</u></b> - <u>Docela nepovedený obrázek :)</u> : Opravdu nepovedený...<br><br>
+
+<h2><a name="Zdrojak">Ukázka definice</a></h2>
+
+Aby jsme to měli pěkně pohromadě, napišu sem hned zdrojový kód k 
+dialogu na obrázku. Hned potom si ho podrobně projdeme.<br>
+Tento text je zapsán v souboru Description.ext:<br><br>
+<pre>// FONTY
+
+#define FontS		"tahomaB24"
+#define FontM 		"tahomaB36"
+#define FontHTML 		"courierNewB64"
+#define FontHTMLBold 	"courierNewB64"
+#define FontMAP 		"courierNewB64"
+#define FontMAIN 		"SteelfishB64"
+#define FontMAINCZ 		"SteelfishB64CE"
+#define FontTITLE 		"SteelfishB128"
+#define FontTITLEHalf 	"SteelfishB64"
+#define FontBOOK 		"garamond64"
+#define FontNOTES 		"AudreysHandI48"
+
+// TYPY OBJEKTŮ
+
+#define CT_STATIC 		0
+#define CT_BUTTON		1
+#define CT_EDIT		2
+#define CT_SLIDER		3
+#define CT_COMBO		4
+
+// STYLY OBJEKTŮ - ZAROVNÁNÍ
+
+#define ST_LEFT		0
+#define ST_RIGHT		1
+#define ST_CENTER		2
+#define ST_UP		3
+#define ST_DOWN 		4
+#define ST_VCENTER 		5
+
+// STYLY OBJEKTŮ - VZHLED
+
+#define ST_SINGLE		0
+#define ST_MULTI		16
+#define ST_TITLE		32
+#define ST_PICTURE		48
+#define ST_3D_BORDER	80
+#define ST_NO_BORDER	96
+#define ST_HUD_BACKGROUND	128
+#define ST_WITH_RECT	160
+#define ST_SHADOW		256
+#define ST_NO_RECT		512
+
+
+// PŘEDDEFINOVANÉ ČÁSTI DIALOGŮ
+
+// OTEXTUROVANÉ POZADÍ S MALÝM RÁMEČKEM
+
+class RscBackground
+{
+	type = CT_STATIC
+	IDC = -1
+	style = ST_3D_BORDER
+	x=0.150000;
+	y=0.150000;
+	w=0.700000;
+	h=0.700000;
+	text="";
+	ColorBackground[]={1,1,1,1};
+	ColorText[]={0,0,0,0};
+	font="tahomaB24";
+	SizeEx = 0
+};
+
+// NADPIS OKNA DIALOGU
+
+class RscTitle
+{
+	type = CT_STATIC
+	IDC = -1
+	style = ST_TITLE + ST_CENTER;
+	x = 0.150000;
+	y = 0.164000;
+	w = 0.700000;
+	h = 0.060000;
+	text = "";
+	ColorBackground[] = {1,1,0,1};
+	ColorText[] = {1,1,1,1};
+	font = "tahomaB36";
+	SizeEx = "1.0714 * 0.03";
+};
+
+// MÍSTO PRO TEXT
+
+class RscGroupBox
+{
+	type = CT_STATIC
+	IDC = -1
+	style = ST_NO_BORDER
+	text = "";
+	ColorBackground[] = {0,0,0,0};
+	ColorText[] = {0,0,0,0};
+	font = "tahomaB24";
+	SizeEx = 0.020000;
+};
+
+// HORIZONTÁLNÍ JEZDEC
+
+class RscSliderH
+{
+	type = CT_SLIDER
+	style = ST_RIGHT
+	h = 0.028000;
+	color[] = {0.080000,0.080000,0.120000,0.750000};
+};
+
+// VERTIKÁLNÍ JEZDEC
+
+class RscSliderV
+{
+	type = CT_SLIDER
+	style = ST_LEFT
+	w = 0.021000;
+	color[] = {0.080000,0.080000,0.120000,0.750000};
+};
+
+// TEXT ;)
+
+class RscText
+{
+	type = CT_STATIC
+	IDC = -1
+	style = ST_LEFT + ST_MULTI + ST_NO_RECT;
+	LineSpacing = 1.000000;
+	h = 0.040000;
+	ColorBackground[] = {0,0,0,0};
+	ColorText[] = {0.080000,0.080000,0.120000,0.750000};
+	font = "tahomaB24";
+	SizeEx = 0.020000;
+};
+
+// OBRÁZEK
+
+class RscPicture
+{
+	type = CT_STATIC
+	IDC = -1
+	style = ST_PICTURE
+	ColorBackground[] = {0,0,0,0};
+	ColorText[] = {1,1,1,1};
+	font = "tahomaB24";
+	SizeEx = 0
+};
+
+// TLAČÍTKO
+
+class RscButton
+{
+	type = CT_BUTTON
+	style = ST_CENTER
+	w = 0.110000;
+	h = 0.050000;
+	ColorText[] = {0.080000,0.080000,0.120000,1};
+	font = "tahomaB24";
+	SizeEx = 0.020000;
+	default = 0
+	SoundPush[] = {"ui\ui_ok",0.200000,1};
+	SoundClick[] = {"",0.200000,1};
+	SoundEscape[] = {"ui\ui_cc",0.200000,1};
+};
+
+// COMBOBOX - ROLOVACÍ NABÍDKA
+
+class RscCombo
+{
+	type = CT_COMBO
+	style = ST_LEFT
+	h = 0.040000;
+	WholeHeight = 0.250000;
+	colorSelect[] = {0.350000,0.380000,0.360000,1};
+	ColorText[] = {0.080000,0.080000,0.120000,0.750000};
+	ColorBackground[] = {0.350000,0.380000,0.360000,0.750000};
+	font = "tahomaB24";
+	SizeEx = 0.020000;
+};
+
+// PROSTOR, DO KTERÉHO MŮŽE UŽIVATEL PSÁT
+
+class RscEdit
+{
+	type = CT_EDIT
+	style = ST_LEFT
+	h = 0.032000;
+	ColorBackground[] = {0,0,0,0};
+	ColorText[] = {0.080000,0.080000,0.120000,0.750000};
+	ColorSelection[] = {1,1,1,0.250000};
+	font = "tahomaB24";
+	SizeEx = 0.020000;
+	AutoComplete = "";
+};
+
+
+// TADY ZAČÍNÁ DEFINICE SAMOTNÉHO DIALOGOVÉHO OKNA
+
+class RscTest
+{
+	IDD = 1000;
+	MovingEnable = 1;
+
+	class Controls
+	{
+		class Background : RscBackground
+		{
+			x = 0.250000;
+			y = 0.250000;
+			w = 0.500000;
+			h = 0.500000;
+		};
+		
+		class SubBackground : RscGroupBox
+		{
+			x = 0.270000;
+			y = 0.270000;
+			w = 0.460000;
+			h = 0.460000;
+		};
+
+		class Title : RscTitle
+		{
+			IDC = 1001
+			x = 0.350000;
+			y = 0.270000;
+			w = 0.300000;
+			h = 0.060000;
+			text = "Nadpis";
+		};
+
+		class Kolonka : RscEdit
+		{
+			IDC = 1002
+			x = 0.430000;
+			y = 0.400000;
+			w = 0.250000;
+			text = "";
+		};
+
+
+		class Cudlik : RscButton
+		{
+			IDC = 1003
+			x = 0.300000;
+			y = 0.400000;
+			w = 0.10000;
+			h = 0.035000;
+			text = "Tlačítko";
+			default = 1;
+			action = "CloseDialog 1000";
+		};
+
+		class TextTabulka: RscGroupBox
+		{
+			x = 0.320000;
+			y = 0.450000;
+			w = 0.360000;
+			h = 0.055000;
+		};
+
+		class Napis: RscText
+		{
+			IDC = 1004
+			x = 0.320000;
+			y = 0.450000;
+			w = 0.360000;
+			h = 0.100000;
+			text = "Toto je ukázkové dialogové okno.";
+			sizeEx = "0.022";
+		};
+		
+		class JezdecH : RscSliderH
+		{
+			IDC = 1005
+			x = 0.32;
+			y = 0.55;
+			w = 0.36;
+			h = 0.03;
+		};
+
+		class JezdecV : RscSliderV
+		{
+			IDC = 1006
+			x = 0.695;
+			y = 0.35;
+			w = 0.02;
+			h = 0.36;
+		};
+
+
+		class Kombo : RscCombo
+		{
+			IDC = 1007
+			style = ST_TITLE + ST_CENTER;
+			x = 0.320000;
+			y = 0.620000;
+			w = 0.250000;
+			h = 0.025000;
+			colorSelect[] = {1,1,1,1};
+			colorText[] = {0,0,0,0.750000};
+			rowHeight = 0.025000;
+		};
+
+		class Obrazek : RscPicture
+		{
+			IDC = 1008
+			text = "Obrazek.jpg";
+			x = 0.580000;
+			y = 0.610000;
+			w = 0.107500;
+			h = 0.115000;
+			colorText[] = {1,1,1,1};
+		};
+	};
+};
+</pre>
+<a href="TestDialog.Intro.rar" title="Ukázková mise ke stáhnutí">Tady</a>
+ si můžete stáhnout ukázkouvou misi - je v ní nadefinován dialog z
+ obrázku výše. Misi zkopírujte do složky 
+Flashpoint\Users\Jméno\missions.
+<br><br>
+
+<h2><a name="Znacky">Značky</a></h2>
+
+Určitě nebude od věci si vysvětlit, co jednotlivé "značky" v definici dialogu znamenají ;)<br><br>
+
+<a name="Typy"><b><u>Typy objektů</u></b></a> - <u>určuje, jak se bude objekt chovat.</u><br>
+<font class="SamplePRE">CT_STATIC</font> : Do této kategorie patří 
+objekty, se kterými uživatel nemuže nic dělat - prostě tam jen 
+jsou. Spadají sem například obrázky, titulní rámečky, pozadí 
+okna, texty a další neinteraktivní objekty.
+<font class="SamplePRE">CT_BUTTON</font> : Tlačítka. Když je zmáčknete, ozve se ťuknutí a provede nějaká akce. O tom později.<br>
+<font class="SamplePRE">CT_EDIT</font> : Kolonka na text, do které 
+může uživatel sám něco vepsat a potom to třeba zkopírovat. Tohoto
+ typu je třeba v editoru misí kolonka "Při aktivaci" ve spínačích.<br>
+<font class="SamplePRE">CT_SLIDER</font> : Jezdec. Když uživatel 
+ťukne na šipku a drží ji, může s ní jezdit po stupnici. Jezec je 
+třeba "Pravděpodobnost výskytu" při vkládání jednotek v editoru.<br>
+<font class="SamplePRE">CT_COMBO</font> : Vysunovací nabídka, 
+"roletka". Při kliknutí na rámeček se nabídka rozbalí a vy si 
+můžete vybrat z různých položek v ní. Při dalším kliknutí se 
+nabídka zavře a v rámečku zůstane vámi vybraná položka. Použito
+ třeba při výběru hudby ve spínačích.<br><br>
+
+<b><u><a name="Zarovnani">Styly objektů - zarovnání</a></u></b> - <u>určuje, jak bude objekt zarovnán.</u><br>
+<font class="SamplePRE">ST_LEFT</font> : Běžné zarovnání - vlevo.<br>
+<font class="SamplePRE">ST_RIGHT</font> : Zarovnání vpravo.<br>
+<font class="SamplePRE">ST_CENTER</font> : Zarovnání doprostřed.<br>
+<font class="SamplePRE">ST_UP</font> : Text začíná na horní straně vyhrazeného prostoru.<br>
+<font class="SamplePRE">ST_DOWN</font> : Text začíná na dolní straně vyznačeného prostoru.<br>
+<font class="SamplePRE">ST_VCENTER</font> : Otočí text o 90° - bude psán ve sloupečku od shora dolů.<br><br>
+
+<b><u><a name="Vzhled">Styly objektů - vzhled</a></u></b> - <u>určuje, jak bude objekt vypadat.</u><br>
+<font class="SamplePRE">ST_SINGLE</font> : Text, který je takto vypsán, může být napsán jen na jeden řádek.<br>
+<font class="SamplePRE">ST_MULTI</font> : Text, který je takto vypsán, může být napsán na více řádků.<br>
+<font class="SamplePRE">ST_TITLE</font> : Rámeček pro nadpis dialogového okna.<br>
+<font class="SamplePRE">ST_PICTURE</font> : Obrázek.<br>
+<font class="SamplePRE">ST_3D_BORDER</font> : "Oblemování" - 3D okraj dialogového okna.<br>
+<font class="SamplePRE">ST_NO_BORDER</font> : Bez texturové výplně.<br>
+<font class="SamplePRE">ST_HUD_BACKGROUND</font> : Poloprůhledné pozadí.<br>
+<font class="SamplePRE">ST_WITH_RECT</font> : Okolo objektu (např. textu) bude vykreslen rámeček.<br>
+<font class="SamplePRE">ST_SHADOW</font> : Objekt má stín.<br>
+<font class="SamplePRE">ST_NO_RECT</font> : Objekt (např. text) není ohraničen rámečkem.<br><br>
+
+<b><u>Parametry</u></b> - <u>upřesňují podrobné vlastnosti dialogů.</u><br>
+<font class="SamplePRE">IDD</font> : Identifikační číslo dialogu. 
+Každý dialog musí mít svoje vlastní IDD - na toto číslo se 
+odkazují různé příkazy. Za IDD si můžete dát libovolné číslo,
+ doporučuji ale začít zažitou tisícovkou.<br>
+<font class="SamplePRE">MovingEnable</font> : Nevím, co to dělá - při změně čísla nezaznamenáte změnu. Tak tam nechte tu jedničku...<br>
+<font class="SamplePRE">IDC</font> : V podstatě to samé jako <font class="SamplePRE">IDD</font>, jen je to identifikátor jednotlivých objektů.<br>
+<font class="SamplePRE">type</font> : Viz <a href="#Typy">Typy objektů</a>.<br>
+<font class="SamplePRE">style</font> : Viz Styly objektů - <a href="#Zarovnani">zarovnání</a> a <a href="#vzhled">vzhled</a>.<br>
+<font class="SamplePRE">x</font> : Vzdálenost levého horního rohu objektu od levé strany monitoru.<br>
+<font class="SamplePRE">y</font> : Vzdálenost horní strany objektu od horní strany monitoru.<br>
+<font class="SamplePRE">w</font> : �&nbsp;ířka objektu.<br>
+<font class="SamplePRE">h</font> : Výška objektu.<br>
+Pro tyto parametry (<font class="SamplePRE">x</font>, <font class="SamplePRE">y</font>, <font class="SamplePRE">w</font>, <font class="SamplePRE">h</font>)
+ platí relativní velikost/vzdálenost vůči monitoru. Když tedy 
+chcete, aby byl objekt široký přes půlku monitoru, nastavíte <font class="SamplePRE">w = 0.5;</font>. Když chcete, aby objekt začínal ve čtvrtině obrazovky shora, nastavíte <font class="SamplePRE">y = 0.25;</font>.<br>
+Pro lepší pochopení přidám vysvětlující obrázek:
+
+<p align="Center"><img src="Tutorial33_files/XYWH.jpg"></p><br>
+
+Myslím, že v tomhle už máte jasno. Tak jdeme dál...<br><br>
+<font class="SamplePRE">text</font> : Text, který bude vepsán v objektu (u <font class="SamplePRE">RscText</font> to bude samozřejmě ten text :)), např. popis tlačítka. U <font class="SamplePRE">RscPicture</font> je to název obrázku.<br>
+<font class="SamplePRE">font</font> : Font písma použitý pro text. Zde je přehled těchto fontů:
+
+<p align="Center"><img src="Tutorial33_files/Fonts.jpg"></p><br>
+
+<font class="SamplePRE">SizeEx</font> : Relativní velikost písma vůči monitoru - například pro písmo o výšce dvacetiny obrazovky bude <font class="SamplePRE">SizeEx = 0.05;</font>.<br>
+<font class="SamplePRE">size</font> : Absolutní velikost písma - "<font class="SamplePRE">size = 1;</font>" znamená defaultní (základní) velikost fontu, "<font class="SamplePRE">size = 1.5;</font>" je o 50% větší než základní atd.<br>
+<font class="SamplePRE">ColorBackground[]</font> : Barva pozadí ve 
+formátu RGB + I (Red, Green, Blue, Intensity) - červená, zelená, 
+modrá, intenzita. Když chcete udělat poloprůhledné pozadí, zadáte
+ za intenzitu 0.5. Defaultní intenzita je 1 - neprůhledná.<br>
+<font class="SamplePRE">ColorText[]</font> : To samé, jako <font class="SamplePRE">ColorBackground[]</font>, ale vztahuje se na barvu písma.<br>
+<font class="SamplePRE">color[]</font> : Prostě barva objektu, formát stejný jako u předchozích dvou.<br>
+<font class="SamplePRE">LineSpacing</font> : Řádkování. "<font class="SamplePRE">LineSpacing = 1;</font>" je standardní řádkování, "<font class="SamplePRE">LineSpacing = 1.5;</font>" udělá mezeru mezi řádky o 50% vyšší atd.<br>
+<font class="SamplePRE">default</font> : Používá se u tlačítek. 
+Když je hodnota zadána na 1, je tlačítko označeno už při 
+spuštění dialogu a po stisku klávesy Enter se sepne. Pří hodnotě 0
+ musíte na tlačítko ťuknout myší.<br>
+<font class="SamplePRE">SoundPush[]</font> : Zvuk, který tlačítko 
+vydá, když na něj ťuknete. První parametr je název zvuku a cesta k
+ němu, druhý je hlasitost (1.0 znamená běžnou hlasitost, ale 
+používá se 0.2) a třetí udává rychlost, jakou je zvuk 
+přehráván (standartně 1.0).<br>
+<font class="SamplePRE">SoundClick[]</font> : U tohoto si nejsem úplně jist. Jak můžete vidět v příkladu, při této události se žádný zvuk nepřehraje.<br>
+<font class="SamplePRE">SoundEscape[]</font> : Tak tady si taky nejsem jist :(. Ten zvuk se občas přehraje - můžete ho slyšet, ale nevím přesně kdy.<br>
+<font class="SamplePRE">WholeHeight</font> : Maximální výška 
+rozbaleného ComboBoxu. Pokud se do této výšky všechny položky 
+nevejdou, bude na pravé straně jezdec, kterým můžete výběr 
+posouvat.<br>
+<font class="SamplePRE">ColorSelect[]</font> : Barva písma vybrané položky ComboBoxu.<br>
+<font class="SamplePRE">AutoComplete</font> : Sem můžete dosadit <font class="SamplePRE">"Scripting"</font> - Potom se bude nad vepisovaným textem objevovat nabídka editačních příkazů. Jinak můžete nechat prázdné.<br>
+<font class="SamplePRE">action</font> : Příkaz, který se vykoná po stisknutí tlačítka.<br>
+<font class="SamplePRE">RowHeight</font> : Při měnění hodnot jsem nezaznamenal změnu. Tak to nechte, jak to je... :).<br>
+
+<h2><a name="PopisII">Popis definice</a></h2>
+
+Jak vidíte, definice dialogu je v podstatě úplně něco jiného, než
+ s čím jsme se mohli doposud setkat. Některé obecné zásady jsou 
+ale stejné. Tak si je tady uvedeme nejdřív.<br><br>
+
+<b><u>Psaní</u></b> :<br>
+U kódů v Operaci Flashpoint je úplně jedno, jestli budete psát všechna písmena <i>malá</i>, <i>VELKÁ</i>, nebo třeba <i>rOzHáZeNá</i>.
+ Jak ale vidíte, ne všechny styly psaní jsou přehledné. Těm, co 
+mají nějaké zkušenosti s programovacími jazyky (obzvláště C nebo
+ C++), bude asi nejvíc vyhovovat psaní příkazů stylem "první 
+písmeno prvního slova malé, první písmena ostatních slov velká 
+(např. <font class="SamplePRE">colorBackground[]</font>). Většina 
+(nebo alespoň mnoho) příkazů v OFP je totiž tvořeno složením 
+více slov. Já píšu stylem "první písmena všech slov velká, pokud
+ je příkaz pouze jednoslovný, na začátku malé (aby se mi to 
+nepletlo s názvy proměnných nebo objektů, např. <font class="SamplePRE">ColorBackground[]</font>)". Jak jsem ale řekl, je to jenom na vás...<br>
+Asi jste si všimli i toho, že se jinak píšou i poznámky. V souboru 
+Description.ext se k tomuto účelu používají dvě lomítka ("<font class="SamplePRE">//</font>"). Poznámku můžete vložit i za konec kódu v řádku.<br>
+Jako vždy, i zde platí, že název třídy nebo jakékoli jiné uživatelem pojmenované části dialogu <b>nesmí</b> obsahovat mezery ani diakritiku.<br><br>
+
+<b><u>Formátování textu</u></b> :<br>
+Stejně jako u velikosti písmen, i u formátování textu je vše jenom
+ na vás. Mezi jednotlivými příkazy si můžete vložit kolik mezer 
+chcete. Co ale určitě doporučuji, je používat tabulátor k 
+rozdělení vnořených tříd. Když se vám třeba stane, že někde 
+zapomenete ukončovací středník, bude pro vás daleko jednodušší 
+najít kde. Doporučuji použít další tabuláto vždy, když 
+otevřete nějakou další třídu levou složenou závorkou ("<font class="SamplePRE">{</font>"). Tady se můžete podívat na rozdíl mezi formátovaným a neformátovaným kódem:
+<pre>// FORMÁTOVANÝ TEXT
+
+class RscTest
+{
+	IDD = 1000;
+	MovingEnable = 1;
+
+	class Controls
+	{
+		class Background : RscBackground
+		{
+			x = 0.250000;
+			y = 0.250000;
+			w = 0.500000;
+			h = 0.500000;
+		};
+		
+		class SubBackground : RscGroupBox
+		{
+			x = 0.270000;
+			y = 0.270000;
+			w = 0.460000;
+			h = 0.460000;
+		};
+	};
+};
+
+// NEFORMÁTOVANÝ TEXT
+
+class RscTest
+{
+IDD=1000;
+MovingEnable=1;
+class Controls
+{
+class Background:RscBackground
+{
+x=0.250000;
+y=0.250000;
+w=0.500000;
+h=0.500000;
+};
+class SubBackground : RscGroupBox
+{
+x=0.270000;
+y=0.270000;
+w=0.460000;
+h=0.460000;
+};
+};
+};
+</pre>
+
+Tohle byl jenom krátky vyňatek, běžný kód bývá asi 20x delší :)<br><br>
+
+<b><u>Konečně samotný zdroj</u></b> :<br>
+Na začátku zdrojového kódu je definice jednotlivých typů písma. 
+Tato definice je v tom případě úplně zbytečná - jak jste si 
+všimli, používám přesný název fontů. Dále jsou definovány typy
+ a styly objektů - tady už vlastní pojmenování smysl rozhodně má,
+ protože se třeba <font class="SamplePRE">ST_PICTURE</font> asi pamatuje lépe než číslo 48. Nejsou zde uvedeny všechny, ale jen ty, které se běžně používají.<br>
+Co to vlastně definice je? V tomto případě je to přiřazení 
+vlastního názvu předem jinak definovaného typu nebo stylu. Vlastně 
+takové "přejmenování".<br><br>
+
+Potom následuje předdefinování, "nachystání" jednotlivých tříd. Každý objekt v dialogu <b>musí</b>
+ mít definované všechny svoje atributy neboli vlastnosti. Toto 
+předdefinování vás ušetří toho, abyste museli při každém 
+začlenění nějakého objektu do dialogu vždycky definovat všechny 
+jeho vlastnosti. Takhle si můžete předem připravit ty hodnoty, 
+které budete měnit jen velmi zřídka nebo vůbec.<br><br>
+
+A konečně posední část přípravy dialogu - samotné umísťování
+ objektů. Není k tomu zrovna moc co říct, prostě si představíte, 
+jak velké by mělo okno nebo nějaký objekt být, podle toho ho 
+umístíte na obrazovku a přidáváte další objekty. Nejlepší bude,
+ když si pořádně přečtete vzorový kód <a href="#Zdrojak">výše</a>.<br><br>
+
+<h2><a name="Zaver">Závěr</a></h2>
+
+Tak a je tu konec. Doufám, že vám tenhle tutoriál aspoň trochu 
+pomohl a vaše hranice v editaci misí se zase posunuly o kus dál. 
+Ještě jsem chtěl přidat výčet a popis skriptiovacích příkazů 
+týkajících se dialogů, ale ty má Ruprt všechny dobře vysvětlené
+ v jeho <a href="./../download/OFPEditorHelpCZ.zip">OFPEditorHelpu</a>, který stejně všichni máme. Jestli něčemu nerozumíte, neváhejte a <a href="mailto:jezuro@post.cz">mailujte</a> jako o život.<br><br>
+
+<img src="Tutorial33_files/Jezuro.gif"> Ježuro
+</td>
+</tr>
+</tbody></table><p align="RIGHT">
+Stáhnout tento tutoriál: <a href="DialogybyJezuro.zip">DOWNLOAD</a>
+
+</p></font></body></html>

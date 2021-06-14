@@ -1,0 +1,108 @@
+SP misia Day of Days pre ArmA
+
+Copyright © 2oo7 MHstudio - Michal "EMSI" Horňák
+
+This ReadMe file is available ONLY in Slovak and English language !
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
+· SLOVENSKY
+ 
+
+Info:
+- single misia pre hru ArmA: Armed Assault 
+- pre hranie vyžaduje minimálne verziu hry 1.02
+- tento program (EMSI_dod.Sara.pbo) je FREEWARE
+- akékoľvek úpravy misie, alebo použitie špecifických prvkov v inej misii môže byť uskutočnené iba so súhlasom autora
+- tento krok je následne podmienený uvedením MHstudia v credits
+
+Strana:
+západ - USA
+
+Druh:
+pechotná
+
+Ostrov:
+severovýchod Sahrani
+
+Popis:
+Major Tom Lucas a jeho pár mužov dostali za úlohu vypátrať uväzneného zajatého člena špeciálnych jednotiek a bezpečne ho eskortovať zo zajatia na najbližšiu americkú základňu.
+
+AddOny:
+G85_Editor.pbo - pribalený (odomknuté niektoré skryté veci v editore hry)
+               - Germany 1985 Editor Update v0.9 by Karel85
+               - http://g85.combataddons.net/
+
+BETA-test:
+Terablick, LiLeK
+
+Upozornenie:
+Tento ZIP archív neobsahuje žiadne iné súbory (napr.: malware, spyware a pod.) a neobsahuje ani žiadne odkazy na iné súbory tohto typu.
+Kontrolované pomocou avast! Antivirus v4.7.942 (Virus base: 0719-0.28.02.2007), NOD32 v2.7 (Virus base: 2085 20070228) a pomocou Ad-Aware SE Personal (Definitions file: SE1R155 26.02.2007).
+
+MHstudio nenesie žiadnu zodpovednosť za prípadné škody spôsobené používaním tohto programu.
+Takisto nenesú prípadnú zodpovednosť ani spoločnosti IDEA Games a Bohemia Interactive Studio.
+
+Všetky osoby a udalosti v tejto misii sú vymyslené.
+Akákoľvek podobnosť so skutočnosťou je čisto náhodná.
+
+Kontakty:
+ArmA web: http://www.arma.szm.sk
+OFP web:  http://www.operacia.jantar.szm.sk
+email:    operacia.jantar@post.sk
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
+· ENGLISH
+
+Info:
+- single mission for game ArmA: Armed Assault 
+- for correct playing is recomended ArmA version 1.02
+- this program (EMSI_dod.Sara.pbo) is FREEWARE
+- any changes in mission or any using of speciffic elements from this mission are allowed only with approval of author 
+- if you do this, please don't forget to add MHstudio to your credits 
+
+Side:
+west - USA
+
+Type of mission:
+Infantry
+
+Island:
+North-East of Sahrani
+
+Story:
+Major Tom Lucas and his few men have received a job to find a POW.
+It's a member of special forces of U.S. ARMY.
+They must find him and safely escort to nearest secret US AIR FORCE base.
+
+AddOns:
+G85_Editor.pbo - pack in (unlocked few hidden items in game editor)
+               - Germany 1985 Editor Update v0.9 by Karel85
+               - http://g85.combataddons.net/
+
+BETA-test:
+Terablick, LiLeK
+
+Attention:
+This ZIP archive not contains any other files (like for example.: malware, spyware ...) and also not contains any shortcuts to any similar files.
+This was checked with avast! Antivirus v4.7.942 (Virus base: 0719-0.28.02.2007), NOD32 v2.7 (Virus base: 2085 20070228) and with Ad-Aware SE Personal (Definitions file: SE1R155 26.02.2007).
+
+MHstudio have no responsibility for potential claims of using this program.
+So the same nonresponsibility have companies IDEA Games and Bohemia Interactive Studio.
+
+All characters and events used in this mission are fictious.
+Any appearance with reality is strictly casual.
+
+Contacts:
+ArmA web: http://www.arma.szm.sk
+OFP web:  http://www.operacia.jantar.szm.sk
+email:    operacia.jantar@post.sk
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
+· CREDITS
+
+EMSI & crew from MHstudio (http://www.arma.szm.sk) © 2oo7
+
+Campaign CLEAR & PRESENT DANGER coming soon ...

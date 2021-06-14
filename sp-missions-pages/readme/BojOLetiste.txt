@@ -1,0 +1,9 @@
+Mise: Boj o letiště
+Typ mise: Singl
+Intro: Ano
+Outro: Ano
+Briefing, Overview: Ano
+Addony: žádné
+Vyrobeno ve verzi 1.91
+Autor: Vit Chrastina
+ICQ: 141312704

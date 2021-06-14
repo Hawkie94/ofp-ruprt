@@ -1,0 +1,48 @@
+Název mise:Dobytí ráje
+Typ mise: Letecká - helikoptéra
+Ostrov:Everon
+Velikost mise:377K
+Intro:Ano
+Outro:Ano
+Pouité addony: AH 64 Stinger (pøiloen)
+Potøeba verze hry:1.46
+Vytvoøeno ve verzy hry:1.46 
+Autor:Sapi
+E-mail:p.szabo@tiscali.cz
+
+Toto je jedna z mıch prvních misí,není to nic extra zvláštního a není nadabována, jednak s tím zatím nemám moc zkušeností a taky si nemyslím, e je tak dobrá, aby si dabing zaslouila.
+
+
+Instalace:
+
+Misi nakopírujte do adresáøe: Codemasters/Operace Flashpoint/Missions
+Addon nakopírujte do adresáøe: Codemasters/Operace Flashpoint/Missions/Addons
+
+Podìkování:
+
+Úplnì všem,kteøí mi kdy pomohli øešit problémy tıkající se
+editace ve høe Operace Flashpoint. Mimo jiné hlavnì Ruprt, Dydimos - www.koflex.cz/ruprt
+A taky Tobì, e tu misi hraješ.
+
+Tipy (pokud se nebude daøit úspìšnì dohrát)
+
+Lete nízko a rychle. A se budete blíit k letišti hra se uloí a potom zaènìte stoupat. V prvé øadì zneškodnìtì dvì šilky.
+Jedna je na zaèátku pøistávací plochy a druhá vlevo vedle lesa kterı leí za pøistávací plochou letištì, nápovìdou by mìlo bıt pro Vás Intro.
+Potom otoète nad èerpací stanici a zniète dva startující Hindy potom zvolte zbraò "Stinger" a sejmìte MI17. A nyní mùete v klidu vyèistit vše ostatní a pokraèovat v úkolu. 
+Já osobnì pouívám na jakékoli rakety ruèní støelbu. Pøi pouití kulometu u vše nechávám na støelci a já lítám v klidu nízko a pomalu
+a on za mnì vše vyøeší, rychle a v klidu.
+
+Poznámky:
+
+
+Taky bych Vás chtìl tímto poádat o Vaše ohlasy na mùj vıše uvedenı e-mail,
+zda-li se Vám tato mise vùbec líbila, èi nikoli.
+Tak se nestyïte a napište, snesu i kritiku :o))
+
+
+Pøeji pøíjemnou zábavu. 
+
+                                  
+
+                                     Sapi
+				     2003

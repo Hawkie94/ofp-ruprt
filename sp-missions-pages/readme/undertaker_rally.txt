@@ -1,0 +1,51 @@
+==========================================================
+Mise: Demo - Undertaker Rally
+==========================================================
+Ostrov: Rally Island
+==========================================================
+Verze: 1.75
+==========================================================
+Addony: rally_island.pbo a un_rally_pack.pbo
+==========================================================
+Autor: UNDERTAKER
+==========================================================
+Kontakt: Undertaker.flash@centrum.cz
+==========================================================
+Poznamka: Nakopirujte misi - un_rally_demo.rally_island.pbo
+do adresaře Missions
+(C:\Program Files\Codemasters\OperationFlashpoint\Missions)
+
+Addony nakopírujte do adresáře Addons
+(C:\Program Files\Codemasters\OperationFlashpoint\Addons)
+==========================================================
+Po spuštění menu mise vyberte Trénink > RZ 1 > Start
+Můžete si vybrat z jedno ze dvou vozidel :-)
+==========================================================
+Chyby,díky atd.: Trošku hapruje časomíra tak se občas stane 
+že se započítá nesprávný čas. 
+Není žádné video na pozadí hlavního menu - při ukončení hry 
+se v hlavním menu Operace Flashpoint zobrazí mise v realnem 
+čase
+Mise je testovaná pro verzi 1.75 a není jisté že bude
+fungovat ve vyšší verzi. 
+V menu hry se vracíte do předchozí obrazovky Klávesou Esc
+Jestli se vám podaří vyklikat se escapem až úplně pryč z 
+menu dostanete se zpět jedině při restartu mise.
+Tahle verze vznikla asi za 15 hodin čistého času i s
+návrhem zkoušky - plná verze je zatím v nedohlednu :-) ale 
+mela by obsahovat asi 12 různých úseků a spoustu módů
+Ale toho se možná nikdo nedožije :-)
+Za ostatní chyby se omlouvám ale za tak krátkou dobu se 
+nedá vše vychytat,proto budu rád když mi zjištěné chyby 
+pošlete mailem aby se už nevyskatly v plné verzi.
+
+Pozor!!! - nerad bych aby se toto demo stalo návodem pro 
+vychytralce kteří z něj několika zkopírovanými skripty 
+vytvoří plnou verzi - Dík
+
+Závěrem bych chtěl poděkovat:
+
+Special thanks to - Jakub Velička - bez jehož PC a ochoty 
+podělit se o své nápady by to nevypadalo tak jak vypadá.
+==========================================================
+	       

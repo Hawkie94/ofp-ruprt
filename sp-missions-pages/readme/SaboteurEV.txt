@@ -1,0 +1,30 @@
+
+ =================================== Saboteur EV ========================================
+ 
+ -Misia  : Saboteur EV  pre hru Operace flashpoint:Resistance
+
+ -Autor  : Vojtoo
+
+ -Ostrov : EVERON
+
+ -Addon  : Streetlamp - je prilozeny k misii
+
+ -Mail   : Vojtoo@seznam.cz
+
+ -ICQ    : 132810742
+
+ -Potrebná verzia hry : 1.75 - najlepšie česká.
+
+ -Subor Saboteur EV.Eden.pbo skupirujte do vasej zlozky ofp/Missions
+ -Subor streetLamp.pbo skopirujte do vasej zlozky ofp/ADDONS
+
+ -Toto je prerobena misia z povodnej kampane CWC.Konkretne sa jedna o misiu Saboter.
+  Misia sa hra za vychod a su tam nejake mensie odlisnosti.
+
+ -Misia nema intro ani outro
+
+ -Prajem príjemnú zábavu pri hraní misie.
+
+
+  V o j t o o
+

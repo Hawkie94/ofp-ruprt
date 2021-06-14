@@ -1,0 +1,35 @@
+Autor : JMM
+Jméno mise: Kopec 
+Typ mise : SP
+E-mail : malyhonza@centrum.cz
+Ostrov: Nogova
+Intro: ano
+Ountro: ne
+Briefing : ano
+Overview : ano
+Podporovaný jazyk: Čeština
+Potřebná verze OFP: 1.96 (ale může být i 1.75)
+Addony: CSLA2
+LINK: http://download.games.tiscali.cz/game/downloadcz/addons5/csla2_setup.exe (227Mb)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+================================================
+=================== H E L P ======================
+                        (toto nečtěte pokud jste se v misi nezasekli)
+---------------------------------------------------------------------------------------
+Mise se ukončí až po zničení všech nepřátel=>i pomocných sil SSSR
+(BVP+pěchota), pokud je nezničíte najednou a oni utečou, tak je můžete 
+najít v oblasti Ee-Ef:37-38.

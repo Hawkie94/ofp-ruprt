@@ -1,0 +1,30 @@
+               ***Železná Čistka ČSLA***
+==================================================
+
+AUTOR    : Lukes 
+OSTROV   : Kolgujev 
+ADDONY   : ČSLA Addon 1.1
+           ČSLA Upgrade 1
+           
+
+Vytvořeno na verzi: 1.46
+
+Požadované addony na: http://flashpoint.tiscali.cz/
+
+Stručný popis mise:
+Jako velitelovi speciální jednotky vám byl dán úkol
+pomoci při jedné vzdušné misi. A to pomoci se dostat
+letce tygr na ostrov Kolgujev. Brání jim protivzdušná
+obrana. Po spojení s partyzány ji musíte zničit, aby
+mohli naši piloti pokračovat v misi.
+P.S. 
+S touto misi se uz delam asi mesic, protoze vubec 
+nemam cas, tak se ji chci uz zbavit. Pri testovani
+jsem nasel par chyb, tak jsem je snad opravil, ale 
+dal uz jsem to netestoval. Tak vas prosim, pokud se
+vyskytne nejaka zavaznejsi chyba, napiste mi, a ja to 
+opravim. Moc diky za pochopeni.                          
+                               Přeji příjemnou zábavu                     
+                         Lukes
+kontakt: lukesvoboda@seznam.cz
+               

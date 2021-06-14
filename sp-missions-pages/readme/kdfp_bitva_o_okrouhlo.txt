@@ -1,0 +1,21 @@
+========================
+Název mise : Bitva o Okrouhlo
+Autor Mise : Kimster & Denny Flashpoint Project (Michael a Daniel Gescheidtovi)
+E-mail : michael-gescheidt@volny.cz
+
+=======================
+Ostrov : Nogova
+Add Ony : žádné nejsou potřeba
+Vyžadovaná verze hry : 1.75 - Operation Flashpoin Resistance
+
+
+=======================
+
+Instalace :
+Složku KDFP zkopírujte do složky missions, jež se nachází ve vašem adresáři OFP (standartně C/program files/operation flashpoint/missions)
+
+Dofuáme, že se vám mise bude líbit. :-)
+
+Jakékoliv připomínky můžete psát na výše zmíněný mail.
+
+Created by KDFP (kimster & denny flashpoint project)

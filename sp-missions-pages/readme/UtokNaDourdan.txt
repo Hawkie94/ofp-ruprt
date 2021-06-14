@@ -1,0 +1,9 @@
+Mise: Útok na Dourdan
+Intro: Ano
+Outro: Ano
+Briefing: Ano
+Overview: Ano
+Typ mise: Singl
+Addony: Nejsou ;-)
+Autor: Vít Chrastina
+Mail: vita@infoatlas.cz

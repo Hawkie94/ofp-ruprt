@@ -1,0 +1,6 @@
+Autor: Spitfire
+Název mise: Zajatec
+Potøebná verze ofp: Tvoøeno pod verzí 1.96
+Potøebné addony: nejspíš žádné (možná editorupdate102)
+Typ mise: utìk ze zajetí
+Obtížnost: støední

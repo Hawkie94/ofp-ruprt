@@ -1,0 +1,18 @@
+
+          spetz natz
+*****************************************************************************************************************************
+
+mise určená do hry Operation Flashpoint
+Potřebná verze hry:1.75+ (resistance)
+addony:přibaleny
+*****************************************************************************************************************************
+
+instalace:
+
+1) obsah složky addon rozbalte do addon složky ve vašem OFP
+2) spetz natz.pbo překopírujte do složky (...operationFlashpoint\missions\...)
+*****************************************************************************************************************************
+
+poděkování....maa,leon,ruprt.....skvělé tutoriály
+
+jestlisi najdete čas tak napište na Robertkulhanek@seznam.cz

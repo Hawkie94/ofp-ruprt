@@ -1,0 +1,41 @@
+  _  _   ___      ___  _____  _   _  ___  ___  ___     ___  _   _    ___  ____
+ | \| | / __|___ / __||_   _|| | | ||   \|_ _|/ _ \   ( _ )| | | |  / __||_  /
+ | .` || (__|___|\__ \  | |  | |_| || |) || || (_) |_ / _ \| |_| |_| (__  / / 
+ |_|\_| \___|    |___/  |_|   \___/ |___/|___|\___/(_)\___/ \___/(_)\___|/___|
+                                                                              
+
+
+
+
+
+Soubor stažen z webu http://nc-studio.8u.cz
+
+Obsah ZIP souboru:
+- readme.txt
+- LettersKate.Altis.pbo
+
+LETTERS TO KATE
+[SP] Arma 3 mise
+Autor: Obi-Wan / Feuerex
+
+Kate dostala od svého manžela Gavina tøi dopisy.
+Gavin, voják NATO popisuje své úkoly na ostrovì Altis ve støedozemí.
+S každým novým øádkem v dopise se Kate dozvídá nové informace o 
+svém milovaném...
+
+
+Single-player mise s øadou neobvyklých a inovativních prvkù,
+velkým poètem efektù a jedineènou atmosférou.
+Hra automaticky reaguje na hráèova rozhodnutí, upravuje
+koneèný výsledek mise a nabízí rùzné zážitky pro každého hráèe.
+
+
+Struèný popis:
+- Mise ve stylu "sabotáž nepøátelské základny" s narùstající obtížností
+- Øada netradièních metod a konceptù, které dodávají misi jedineènou atmosféru
+- Otevøený konec nabízející nìkolik rùzných zakonèení mise
+- Pøíbìh hráèe vede po vytyèené cestì, ale nebrání mu ve svobodném pohybu
+- Implementované cheaty pøímo uvnitø mise
+
+
+Mise byla vydána 23.10.2014 pro #MakeArmaNotWar soutìž.

@@ -1,0 +1,11 @@
+Mission Name: Osvobození Provins
+Ostrov: Everon
+Autor: Jiří Pazděra
+Použité addony: EditorUpgrade102
+Potrebná verzia hry: ideálne 1.46 (na 1.96 síce beží, ale potrebujete addon EditorUpdate102, navyše - nefunguje s ním intro)
+
+Inštalácia:
+Misiu nahrajte do príslušného adresára na vašom disku ./Operation Flashpoint/missions/, resp. ./Arma Cold War Assault/missions/
+
+Poznámka :
+Toto readme nie je originálne. Vytvoril ho TonyHawk.

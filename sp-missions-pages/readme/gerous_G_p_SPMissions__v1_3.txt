@@ -1,0 +1,47 @@
+		MISE PRO OPERACI FLASHPOINT (Verze 1.96)
+
+----------------Gerous_pack_SPMissions_v1.3-----------------------------------,,,
+
+JMÉNO MISE:
+	
+	Alka			(ostrov-Nogova)		G_Alca
+	Sekera			(ostrov-Nogova)		G_Axe
+	Bumerang		(ostrov-Nogova)		G_Boomerang
+	Jelen			(ostrov-Nogova)		G_Buck
+	Pouštní Liška		(ostrov-Nogova)		G_DesertFox
+	Dingo_1			(ostrov-Nogova)		G_Dingo_1
+	Dingo_2			(ostrov-Nogova)		G_Dingo_2
+	Dingo_3			(ostrov-Nogova)		G_Dingo_3
+	Pes			(ostrov-Nogova)		G_Dog
+	Dora			(ostrov-Nogova)		G_Dora
+	Liška			(ostrov-Everon)		G_Fox
+	Fred			(ostrov-Nogova)		G_Fred
+	Dobrý ráno_1		(ostrov-Nogova)		G_GoodMorning_1
+	Dobrý ráno_2		(ostrov-Nogova)		G_GoodMorning_2
+	Dobrý ráno_3		(ostrov-Nogova)		G_GoodMorning_3
+	Kuře			(ostrov-Kolgujev)	G_Chicken
+	Červený drak		(ostrov-Nogova)		G_RedDragon
+	Samba			(ostrov-Malden)		G_Samba
+	Mořská kobra		(ostrov-Kolgujev)	G_SeaCobra
+	Slunečnice_1		(ostrov-Malden)		G_Sun-flower_1
+	Slunečnice_2		(ostrov-Malden)		G_Sun-flower_2
+	Slunečnice_3		(ostrov-Malden)		G_Sun-flower_3
+	Tornádo			(ostrov-Kolgujev)	G_Tornado
+
+
+	G_Missions zkopírujte do [C:\OpraceFlashpoint\Missions\**]
+
+
+ADDONS: editorupdate102.pbo
+	G_flags2.pbo
+	cwk_seagull.pbo
+
+	Addons nainstalujte do [C:\OperaceFlashpoint\Res\Addons\**].
+
+BONUS:  STRINGTABLE.txt
+
+	STRINGTABLE zkopírujte do [C:\OperaceFlashpoint\Res\Bin\**].
+
+AUTOR: Gerous
+
+e-mail: gerous@centrum.cz

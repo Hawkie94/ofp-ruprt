@@ -1,0 +1,40 @@
+readme
+
+Název: Procházka pouští v1.1
+
+Autor: Golem
+
+Ostrov: Nogova
+
+Kontakt: golemikofp@centrum.cz
+
+Addony: SEBDeltaForce2 (http://ofp.gamezone.cz/unofaddons/SEBDelta...STTMKey1_10.zip )
+        Editorupdate
+Typ: Pěchotní (spec. jednotka)
+
+Mise je vytvořena ve verzi 1.96, vytvořena na sestavě: AMDAthlon 1800 Mgh
+                                                       256 MgRAM
+                                                       ATIRadeon 6000 64Mb
+Betatest: Vít Vojtek 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Misi zkopírujte ( C:\Program files\Codemasters\OperationFlashpoint\Missions)
+
+¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤
+Mise obsahuje asi dvě chyby, které nevím jak odstranit: A někteří vojáci nechtějí přelézt
+                                                        přes kopec, ale stačí trochu ho 
+                                                        obejít (tak 100-200m).
+
+Předchozí verze obsahovala chyby a doufám, že se mi je podařilo odstranit;-)
+Případné další chyby mi prosím pište na mail nebo 
+na Ruprtovo na fórum.
+Přeji příjemné hraní.
+
+Creat by Golem
+©2004 
+ 
+ **   $$  €   @@@ &   &
+*  * $  $ €   @   && &&
+*    $  $ €   @@  & & &
+* ** $  $ €   @   &   &
+ ***  $$  €€€ @@@ &   &

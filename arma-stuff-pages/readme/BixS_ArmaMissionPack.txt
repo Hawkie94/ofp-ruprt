@@ -1,0 +1,5 @@
+Co: balík 5 misí :)
+Kdo (autor): BixS
+Co ještě (potřebné addony): asi žádné
+Kde (ostrovy): Sahrani, South Sahrani
+Ako (potřebná verze ArmA): nejspíš nejnovější (1.18)

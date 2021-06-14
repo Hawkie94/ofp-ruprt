@@ -1,0 +1,37 @@
+---------------------------------------------------------------
+--------------------------ÈTYØI DÙSTOJNÍCI---------------------
+---------------------------------------------------------------
+
+KMT pøedstavuje síovou kooperativní misi Ètyøi dùstojníci. S tımem partyzánù ukrytıch v horách zabijte ètyry ruské dùstojníky, kteøí se právì pohybují na ostrovì. Úkol nebude jednoduchı, protoe ostrov je doslova prolezlı ruskımi hlídkami, pìchotami a pøesouvající se tìkou technikou.
+
+Mise nevyaduje ádné addony.
+
+
+---------------------------------------------------------------
+--------------------------INSTALACE----------------------------
+---------------------------------------------------------------
+
+1.	Ze souboru "4_dustojnici.zip" extrahuj soubor mise "Ctyri_dustojnici.Noe.pbo" do sloky "MPMissions" ve tvém adresáøi hry
+
+2.	Vytvoø novou síovou hru, mùeš hrát i sám, ale ve dvou je to vìtší zábava :)
+
+
+---------------------------------------------------------------
+--------------------------PØÍBÌH-------------------------------
+---------------------------------------------------------------
+
+"Ètyøi vysocí ruští dùstojníci musí zemøít, aby si Sovìtskı svaz uvìdomil, e i kdy zradila vláda, my, obyvatelé Nogovy jsme se s okupací našeho ostrova nesmíøili...
+
+Americká armáda zamítla velkı útok na Nogovu, protoe by to bylo moc nákladné. Tak jsme se my, partizáni z republiky Nogova, rozhodli zneškodnit hlavní mozky øídící ruská vojska na ostrovì. Bıvalı prezident nám sehnal potøebné informace:
+
+Dùstojníci jsou celkem ètyøi. První se údajnì nachází na statku u Doliny. Jedná se o krutého dùstojníka Ivana Èechova. Druhı se nachází v Troskách u zøíceniny a jeho jméno je Alexandr enìv. Tøetího hledejte v Opatovì, mìstì na jihu. Zde se ukrıvá Pjotr Soldát. Ètvrtı je zaúkolován tím, e pøedává informace mezi Troskami a Opatovem. Najdete ho tedy v dùstojnickém dípu, nìkde po cestì mezi tìmito mìsty. Je to dùstojník, kterı je z nich nejmírumilovnìjší. Jeho jméno je Alexej Oveckin.Všichni a na Oveckina maji u sebe svojí prostitutku, kterou si udìlali z prostıch nogovskıch dívek. Buïte proto opatrní a za ádnou cenu nedopuste, aby tyto dívky zemøely. Celı ostrov je obsazen ruskımi pìchotami, tanky a pravdìpodobnì i vrtulníky. Nesnate se tedy mìøit své síly s tìmito jednotkami a zamìøte se na svùj úkol. Buïte ale ve støehu, protoe nikdy nevíte, koho mùete potkat. 
+
+Hodnì štìstí vám pøeje prezident republiky Nogova, Jiøí Šafáø."
+
+
+---------------------------------------------------------------
+--------------------------VYTVOØIL-----------------------------
+---------------------------------------------------------------
+
+Studio KMT 2009
+www.michail.g6.cz

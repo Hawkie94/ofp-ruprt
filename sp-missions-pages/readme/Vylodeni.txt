@@ -1,0 +1,26 @@
+
+Mise: Vylodění
+--------------------
+
+Vytvořil: Batyskaf.xXx@seznam.cz
+
+Ostrov: Malden
+
+Typ mise: Single Player
+
+Typ hráče: Velitel jednotky o osmi mužích
+
+Použité addony: OFPAddon_FlagPack_Updated, ČSLA Addon ver 1.1
+
+Získání addonů: http://games.worldonline.cz/flashpoint/
+
+Vytvořeno ve verzi: Operation Flashpoint 1.46 (Zlatá verze)
+
+
+Popis mise: Vaším ůkolem je po vylodění na Maldenu neutralizovat vzdušnou obranu která se 
+skládá ze čtyř VULCANů,které jsou zakresleny na mapě.Po jejich neutralizaci zavolejte
+protivzdušnou obranu která vyřídí těžkou techniku ve městě Le Port,které musíte získat
+na naší stranu.Před hranicemi města zavolejte výsadek který vám pomůže získat mesto pod
+kontrolu.Získání kontroly nad městem je cílem mise.
+
+Hodně propařených hodin u této mise přeje Batyskaf.

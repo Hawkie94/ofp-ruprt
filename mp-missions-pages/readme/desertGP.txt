@@ -1,0 +1,9 @@
+Autor: Topal12
+Velikost mise: 1,12 MB
+Ostrov: Desert Island
+Zvláštní poděkování: Původní scripty G.Berger[TWK]
+		     Beta testing: TonyHawk a [»KR«]Snwˆ	
+Popis: Závod pro šest lidí, ktery vede přes celý ostrov a moře. Po cestě se nachází spousta překážek, ostrých zatáček a Rovinek.
+Na některých místech se cesta rozděluje.
+Potřebné addony: editorupdate102
+Testováno na verzi: 1.96 a 1.99

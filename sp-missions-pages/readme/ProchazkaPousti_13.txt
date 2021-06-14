@@ -1,0 +1,29 @@
+---------------------
+------English-----
+---------------------
+Mission name: Walk on the desert
+Created by: Golem
+E-mail: golemikofp@centrum.cz
+Missions version: 1.2
+Addons: BAS De/Ra 1.55 (ftp://www.gamezone.cz:8021/ofpd/unofaddons2/bas_dera_v1_55.rar)
+              CoC Mines (http://www.downloads.thechainofcommand.net/zips/COC_Mines.zip) 
+              Editorupdate102 (in archive)
+Game version: 1.96
+Island: Nogovo
+
+http://acgteam.wz.cz	
+
+--------------------
+------Czech------
+--------------------
+Nazev mise: Prochazka pousti
+Autor: Golem	
+E-mail: golemikofp@centrum.cz
+Verze mise: 1.2
+Addony:BAS De/Ra 1.55 (ftp://www.gamezone.cz:8021/ofpd/unofaddons2/bas_dera_v1_55.rar)
+              CoC Mines (http://www.downloads.thechainofcommand.net/zips/COC_Mines.zip) 
+              Editorupdate102 (in archive)
+Verze hry: 1.96
+Ostrov: Nogova
+http://acgteam.wz.cz	
+http://golemofp.wz.cz

@@ -1,0 +1,8 @@
+
+ Misia :     Noc Temna
+ Autor :     Vojtoo
+ Ostrov:     Malden
+ Verzia OFP: 1.46
+ 
+ POZOR !!-Misia potrebuje addony : Verejná bezpeènos (VB); Terminátor (T-800).
+ Tieto addony sú priloené : Snowstorm; Streetlamp; Trabant taxi; Armoured Mgun Turret.

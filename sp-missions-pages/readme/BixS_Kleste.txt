@@ -1,0 +1,12 @@
+Misia  K L É Š T Ě
+
+Autor: BixS
+Ostrov: Malden
+Potrebná verzia OFP: asi 1.96
+Potrebné addony: priložené (PKMg, AshT55East, editorupdate102)
+Intro: áno
+Outro: nie
+Dabing: áno
+Typ misie: pechotná
+
+Readme vytvoril TonyHawk pri príležitosti umiestnenia misie na Ruprtovu poradňu k OFP.

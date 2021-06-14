@@ -1,0 +1,52 @@
+BODY {
+	SCROLLBAR-FACE-COLOR: #ECC674; 
+	SCROLLBAR-HIGHLIGHT-COLOR: #ECC674; 
+	SCROLLBAR-SHADOW-COLOR: gray; 
+	SCROLLBAR-3DLIGHT-COLOR: #CAB486; 
+	SCROLLBAR-ARROW-COLOR: #CAB486; 
+	SCROLLBAR-TRACK-COLOR: #CAB486; 
+	SCROLLBAR-DARKSHADOW-COLOR: #CAB486; 
+	FONT-SIZE: 11pt;
+	FONT-FAMILY: Times New Roman CE; 
+	COLOR: #000000;
+	BACKGROUND-COLOR: #ECC674
+}
+
+TD {
+	FONT-SIZE: 11pt; 
+	COLOR: #000000; 
+	FONT-FAMILY: verdana; 
+	TEXT-ALIGN: justify
+}
+
+A:visited {
+	FONT-SIZE: 11pt; 
+	COLOR: navy; 
+	FONT-FAMILY: verdana
+}
+A:active {
+	FONT-SIZE: 11pt; 
+	COLOR: white; 
+	FONT-FAMILY: verdana
+}
+A:hover {
+	FONT-SIZE: 11pt; 
+	COLOR: green; 
+	FONT-FAMILY: Verdana
+}
+A {
+	FONT-SIZE: 11pt; 
+	COLOR: black; 
+	FONT-FAMILY: verdana
+}
+
+HR {
+	COLOR: #8d8d8d; 
+	TEXT-ALIGN: center
+}
+
+P {
+	FONT-SIZE: 11pt; 
+	text-indent: 30px; 
+	margin: 0px 0px 0px 0px,
+}

@@ -1,0 +1,17 @@
+[PvP] Borderline
+
+Pôvodný autor misie: 	Sumrak
+MP konverzia a úpravy: 	TonyHawk (čiastočne Sumrak)
+Typ MP misie: 		Team-COOP, resp. PvP
+Typ misie: 		záškodnícka (obrana základne pred záškodníkmi)
+Ostrov: 		Everon
+Potrebné addony: 	editorupdate102
+Tvorené na verzii: 	1.96
+Potrebná verzia OFP: 	1.96
+Popis misie: 		Neznáma frakcia má na Everone vytvorený kvalitný systém protileteckej obrany. Záškodnícky tím sa ju bude snažiť zničiť.
+			Obrancovia majú za úlohu im v tom zabrániť.
+Poďakovanie:		Topal12, Snowojta - nápady a beta-testing
+			Petrroll - testovanie staršej verzie
+			Pařan, Zob, Anuris, Hammer - tím AATH studia
+Poznámka:		Veľkosť misie (vyše 11 MB) je spôsobená veľkým množstvom hudby, ktorá má dotvárať skvelú atmosféru akcie.
+			Použitá hudba je z hier Metal Gear Solid: Portable Ops, Metal Gear Solid 4: Guns of the Patriots, Metal Gear Acid a Crysis: Warhead.

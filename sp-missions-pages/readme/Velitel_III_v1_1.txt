@@ -1,0 +1,95 @@
+*********************************************************************************************
+*************************************** VELITEL III.*****************************************
+****************************************** v1.1 *********************************************
+*********************************************************************************************
+
+!Zapni zalamování řádků!
+-------------------------
+
+1.)INFO
+      
+   - Autor mise : F.D.O.F.
+   - Typ mise   : Single
+   - Ostrov     : Malden
+   - Strana     : Partyzáni (ČSLA 2)
+   - Verze      : 1.96 Resistance
+   - Addony     : ČSLA 2.00 + ČSLA patch 2.01
+                  (http://games.tiscali.cz/flashpoint/)
+
+   - Briefing   : ano (CZ)
+   - Dabing     : ano
+   - Intro      : ano
+   - Outro      : ano
+   - Délka mise : cca 30 minut + (cca 20 minut)
+
+=============================================================================================
+
+2.)SYSTÉMOVÉ POŽADAVKY
+
+   - Vytvořeno na : PIV 2.8GHz HT, 512MB RAM, ATI Radeon 9200(256MB)
+
+   - Minimum      : CPU 1.0GHz
+                    256MB RAM
+                    64MB Graf. karta
+ 
+   - Doporučeno   : CPU 2.0GHz
+                    512MB RAM
+                    128MB Graf. karta
+
+   - (Berte to s nadhledem!)
+
+=============================================================================================
+
+3.)OPRAVENO A VYLEPŠENO
+
+1.1 (opraveno) : - Odstraněna chyba v podmínce při nástupu všech členů hráčovi skupiny do                        BVP.
+1.1 (opraveno) : - Odstraněna chyba v intru při odebírání zásobníku speciální jednotce.
+1.1 (vylepšeno): - Nyní budou odstraňována i (těla,vozidla...) ČSLA.
+1.1 (opraveno) : - Opraveny povšimnuté chyby v briefingu a stringtablu.
+1.1 (vylepšeno): - Zlepšená podmínka dobytí cíle 1 a 2.
+1.1 (opraveno) : - Po zvolení pokračování mise nebude ohlášena ztráta jednotlivých týmu.
+1.1 (opraveno) : - Po příchodu do 2. vesnice si hráč povídal s Yankee, i když tým Yankee byl                     zničen.
+1.1 (opraveno) : - Podmínka při žádosti o dělostřeleckou podporu.
+1.1 (vylepšeno): - Zlepšené chování některých nepřátelských jednotek.
+1.1 (přidáno)  : - Výběr zbraní v briefingu.
+1.1 (vylepšeno): - Spousta drobností.
+1.1 (vylepšeno): - vylepšen script na odstraňování mrtvol.
+
+=============================================================================================
+
+4.)CHYBY & TIPY
+
+   - Chyby : - Dialogy           : - Celá mise byla vyrobena pod rozlišením 1152x864, takže                                        je možné, že některé věci nebudou vypadat tak, jak by                                         měli. Týká se to hlavně rozlišení 800x600.
+             - AI                : - Tankům občas trvá dýl, než se přesunou na pozici x
+             - Intro             : - Téměř vždy spadne celé OFP. Řešení jsem zatím nenašel,                                        protože nevím čím to je.
+
+   - Tipy  : - Odstraň. mrtvol   : - Hráč má možnost na začátku mise nastavit, zda                                                 odstarňovat mrtvoli nebo ne. Ano = mrtví vojáci se po                                         60 - 240 sekundách ponoří a vymažou. částečně = bude
+                                     odtraněno určité % mtrvol. Ne = mrtvoli se vymazávat                                          nebudou. Odstraňování má jednu výhodu - změnší to zátěž                                       PC.              
+
+             - Dobrovolné úkoly  : - Po splnění všech povinných úkolů se zobrazí nabídka,                                          zda ukončit misi, nebo pokračovat dále. Pokračovat v                                          misi = 5 dobrovolných úkolů navíc a je kdykoli možné                                          misi ukončit. Konec mise = Ukončení mise a mise se tak                                        standartně ukončí.
+
+             - Náhody            : - 1.) jednotky : Asi 5% nepřátelských má určité %                                                              pravděpo. výskytu. Může se to zdát jako                                                       nic, ale když do vesnice přijedou 2 nebo                                                      3 tanky, tak je to poznat.                                                       
+             - Rádio             : - všechny příkazy rádiem se dávájí akční nábídka  =>                                            Nabídka rádia
+
+             - Dělo. podpora     : - Hráč má k dispozici dělostřeleckou podporu. 2x v kadet                                        módu, 1x ve Veteránovi. Děl. podpora se volá přes                                             nabídku rádia. Po kliknutí na dělo. podporu je hráč                                           vyzván, aby si vybral místo kliknutím na mapě...
+             - Podpora           : - volá se přes nábídku rádia. Přijede vždy na hráčovu                                           pozici.
+
+=============================================================================================
+
+5.)CREDITS
+
+                    
+   - Speciální dík : - Ruprtovi a všem co se podíleli na Edit Helpu!
+                     - Celoushovi za (Bombing.sqs)
+                     - Ježurovi za (Grid.sqs) a (Vypis.sqs)
+                     - Brtovi za řešení malého problému, BROCCOvi za snahu :-)))
+                   
+=============================================================================================
+
+6.)KONTAKT
+
+   - e-mail : fdof@centrum.cz
+   - web    : http://www.rtcz.wz.cz
+
+    
+  

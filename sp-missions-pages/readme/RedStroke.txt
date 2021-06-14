@@ -1,0 +1,22 @@
+název mise: RED STROKE
+autor: Biker OFP
+typ mise: Single-player mise
+vytvořeno ve verzi: 1.90
+ostrov: Malden
+addony: oficiální + ČSLA addon (k nalezení na games.tiscali/flashpoint)
+intro: ano
+outro: ano
+cutscéna: ano
+briefing + owerview: ano
+
+V misi jsem použil pro lepší efekt Dydimosův "hvizd.ogg", čímž se mu zde za to omlouvám.
+
+známé chyby: Někdy se stane, že v intru při rozhovoru s plukovníkem se nedostane mluvčí
+             do záběru. Rozhodl jsem se to neopravovat, neboť bych musel zase trochu 
+             předělávat intro. Nejspíš se to však nestane.
+obťižnost: Záleží na schopnostech hráče. Možná se někde zadrhnete, ale snad ne.
+           Každopádně se snažte ze začátku nepřijít o své lidi! Budete je potřebovat!!!
+
+kontakt: roman.krnoul@seznam.cz  
+
+Doufám, že se vám bude mise líbit a přeji skvělou zábavu. 

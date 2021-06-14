@@ -1,0 +1,25 @@
+Jednoducho vložte súbor Everon Siege.pbo do vašej zlošky Res/Campaigns/.
+
+Defaultne C:/Program Files/Bohemia Interactive/Operace Flashpiont/Res/Campaigns.
+
+Potrebné Addony: žiadne
+
+Ostrov: Nogova
+
+Strana: Civilista
+
+Počet misií: 6 alebo 8
+
+Autor: Tomáš Alexy
+
+Alias: tomo
+
+Nájdené chyby: zatial žiadne
+
+Potrebná verzia: Resistance 1.96
+
+E-mail: alexyovahenriette@chello.sk
+
+To je všetko :)
+
+P.S: Toto je opravená verzia

@@ -1,0 +1,80 @@
+
+
+                                 OPERACE WOLFRAM
+      
+                  Vytvořilo OFP.StudioSpalov 2002 / 2003
+		         version 1.00
+                
+
+============================================================================================
+
+ OBSAH: 1) Instalace, systémové požadavky a potřebné addony atd..
+              2) Tipy a rady
+              3) Známé problémy
+              4) Credits
+              5) E-mail
+              6) Upozornění
+____________________________________________________________________________________________
+
+ 1) INSTALACE,SYSTÉMOVÉ POŽADAVKY A POTŘEBNÉ ADDONY:
+
+	Zkopírujte soubor "Operace Wolfram.Noe.pbo" do vašeho adresáře Missions
+
+	MINIMÁLNÍ POŽADAVKY:
+	Pentium 3/4 nebo Athlon 600CPU
+	128MB RAM
+	32MB Grafická karta
+ 
+	DOPORUČENÉ POŽADAVKY:
+	Pentium 3/4 nebo Athlon 1000CPU
+	256MB RAM
+	64MB Grafická karta
+ 
+POTŘEBNÉ ADDONY:
+- ČSLA Addon 1.0 
+-editorupdate102 , EditorUpdate175 , EditorUpgrade1 , EditorUpgrade102 , objects1 , objects2 - toto vše přibalené k misi !!
+-Russian Paratroopers v1 - Také přibalen k misi !!
+               
+OSTROV:
+- Nogovo
+
+TYP MISE:
+- Singl-Player mise
+
+TESTING:
+-FELIX
+
+EDITACE:
+-ROBIN
+
+VYTVOŘENO VE VERZI:
+-1.75
+
+____________________________________________________________________________________________
+
+ 2) TIPY A RADY: - - - - - - - -
+
+
+____________________________________________________________________________________________
+ 3) ZNÁMÉ PROBLÉMY:
+
+	- Žádné nenalezeny. Pokud ale nějaké najdete, dejte nám vědět.
+____________________________________________________________________________________________
+ 4) CREDITS:
+	   Misi vytvoříl ze vším všudy - ROBIN A FELIX
+
+____________________________________________________________________________________________
+ 5) E-mail
+     E-mail autora mise: Velitel.Tomáš-Matějka@seznam.cz
+     E-mail testera: FELIX.chaosOFP@seznam.cz            
+
+____________________________________________________________________________________________
+
+ 5) UPOZORNĚNÍ
+
+Toto je neoficiální mise pro hru Operation Flashpoint (Copyright © 2001 Bohemia Interactive 
+Studio and The Codemasters Software Company Limited ("Codemasters"). All rights reserved.)
+Jako taková je podle rozhodnutí Bohemia Interactive, Codemasters a OFP.StudioSaplov FREEWARE a
+NESMÍ být využita ke KOMERČNÍM účelům!
+Bohemia Interactive, Codemasters ani OPF.StudioSpalov neručí za problémy vzniklé používáním
+tohoto software.  

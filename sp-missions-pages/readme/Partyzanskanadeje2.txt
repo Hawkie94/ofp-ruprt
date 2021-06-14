@@ -1,0 +1,43 @@
+=========================>>>P A R T Y Z Á N S K Á  N A D Ě J E<<<================================
+                                      (v e r z e  2)
+
+Gratuluji, stáhli jste si opravenou verzi moji mise, viz. níže
+-------------------
+Tvůrce intra: Muttley
+-------------------
+Tvůrce mise a outra: Davson
+-------------------
+Typ: Singleplayer
+-------------------
+Ostrov: Everon
+-------------------
+Verze hry: Děláno povětšinou pod 1.46, doladěno pod 1.91, ale v původním
+           Flashpointu by to mělo jít
+-------------------
+Požadované addony: Žádné
+-------------------
+Možné problémy: Všechny jsem (snad) odstranil
+-------------------
+Poděkování: Muttleyovi za jeho intro, Leonovi za jeho tutoriály, Ruprtovi za jeho OFP Editor 
+            Help a lidem kteří mi odpovídali ve fórech na otázky
+-------------------
+Omluva: Muttleyovi, že to trvalo tak dlouho 
+-------------------
+Verze 2: opraveno - chování vojáků
+         opraveno - podmínky u wp
+         opraveno - konec mise může nastat až splníte všechny úkoly
+         opraveno - stoleček s dokumenty mizel, dal jsem ho jinam a ještě to trochu pojistil
+         opraveno - nemůžete si už běhat po celém Everonu (jakmile se příliš vzdálíte, zemřete)
+         přidáno - jedna cutscéna ve hře
+         přidáno - outro (vítězství, prohra nemůže být)
+         přidáno - outro ve hře
+         přidáno - no a hlavně DABING!!!
+-------------------
+Kontakt: einspigel.david@seznam.cz
+-------------------
+
+P ř e j i  p ř í j e m n o u  z á b a v u ! ! !
+
+D A V S O N
+          
+                        

@@ -1,0 +1,50 @@
+****************************Gravette**************************
+
+--------------------------
+Autor: Jay
+kontakt: JakubHrachovec@seznam.cz
+--------------------------
+Pořadí mise: 2
+--------------------------
+Typ: Singleplayer
+--------------------------
+Ostrov: Everon
+--------------------------
+Verze hry: 1.96 (půjde to na 1.44 a vyšších)
+--------------------------
+Požadované AddOny: Žádné
+--------------------------
+Briefing: Ano
+--------------------------
+Overview: Ano
+--------------------------
+Intro: Ne
+--------------------------
+Outro Win: pomocí scriptu
+--------------------------
+Outro Lose: Ne
+--------------------------
+
+Poděkování: Leonovi a MAAovi za jejich skvělé tutoriály,
+            Ruprtovi za OFP Editor Help
+
+--------------------------
+
+
+
+
+
+
+16:17 15.10.2004
+
+
+
+
+
+
+
+
+
+
+
+

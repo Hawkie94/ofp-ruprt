@@ -1,0 +1,19 @@
+Název mise: Ostřelovač !!
+Ostrov: Kolgujev
+Tvůrce mise: Muttley
+Intro: ano 
+Outro: ano
+Neoficiální addony: ne
+Velikost mise:zhruba 86k
+Nutná verze hry: 1.30
+Vytvořeno ve verzy hry: 1.46
+
+E-mail: muttley.flashpoint@centrum.cz
+
+Instalace: adresář Mission.Cain nakopírujte do adresáře: 
+OperaceFlashpoint\Missions
+
+Přeji příjemnou zábavu.
+
+				
+				Muttley

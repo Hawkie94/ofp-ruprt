@@ -1,0 +1,82 @@
+
+
+                                 PROLOMENÍ OBRANY
+                                      v2.10
+			      ***Prim Free Mission***
+                      	Vytvořilo Gaia Studios 2002 a 2003
+			     http://gajastudios.wz.cz 
+                                  Czech Republic 
+
+============================================================================================
+
+ OBSAH: 1) Instalace, systémové požadavky a potřebné addony
+	2) Tipy a rady
+	3) Známé problémy
+        4) Credits
+	5) Upozornění
+____________________________________________________________________________________________
+
+ 1) INSTALACE,SYSTÉMOVÉ POŽADAVKY A POTŘEBNÉ ADDONY:
+
+	Zkopírujte soubor "gaja_ro.pbo" do vašeho adresáře Missions
+
+	MINIMÁLNÍ POŽADAVKY:
+	Pentium 3/4 nebo Athlon 600CPU
+	128MB RAM
+	32MB Grafická karta
+ 
+	DOPORUČENÉ POŽADAVKY:
+	Pentium 3/4 nebo Athlon 1000CPU
+	256MB RAM
+	64MB Grafická karta
+ 
+	Potřebné ADDONY:
+	ČSLA Addon 2.0
+
+____________________________________________________________________________________________
+
+ 2) TIPY A RADY:
+
+	- Využívejte toho, že nepřítel vlastní lepší zbraně a neváhejte měnit vybavení každou chvíli. SVD Dragunov je
+	sice vhodný na dálku, ale ve vesnici je lepší vyměnit ho za nějaký kulomet a proti větší skupince vojáků je
+	nejúčinější MM-1 (těžký granátomet) nebo minomet. A na tanky samozřejmě nechybí LAW. Ve vesnici je jeden muniční
+	sklad, ale najít si ho musíte sami.
+
+	- Využívejte naplno ruční granátky. Známá poučka zní: "Když si myslím, že za rohem je nepřítel, hodím tam granát a uvidí se".
+	V této misi to platí dvojnásob a mnohdy vám ty malé odjištěné věcičky zachrání život.
+
+	- Chraňte za každou přátelské tanky, protože bez nich se vaš šance na úspěch značně sníží.
+
+____________________________________________________________________________________________
+ 3) ZNÁMÉ PROBLÉMY:
+
+	- Žádné nenalezeny. Pokud ale nějaké najdete, dejte nám vědět pomocí chybové zprávy na naší stránce.
+____________________________________________________________________________________________
+ 4) CREDITS:
+	
+	Directed by:				GAIA
+	Director of photography:		P.W.
+	Lead programmer:			GAIA
+	Scripting & Editing:			GAIA
+	Credits director:			P.W.
+	Music mixed by:				GAIA
+	Conversion to ČSLA2			GAIA
+
+	Internal betatesting:			P.W. & GAIA
+	External betatesting:			Milwin
+
+	Special thanks to:			Munch - za pomoc při úpravě obrázků do *.paa.
+						Leon - za dynamický výpis textu.
+						ČSLA Team - za vytvoření ČSLA2 addonu a kampaně.
+						BIS - za to, že vytvořili OFP. Nebýt nich, tak tohle nečtete...
+
+____________________________________________________________________________________________
+
+ 5) UPOZORNĚNÍ
+
+Toto je neoficiální mise pro hru Operation Flashpoint (Copyright © 2001 Bohemia Interactive 
+Studio and The Codemasters Software Company Limited ("Codemasters"). All rights reserved.)
+Jako taková je podle rozhodnutí Bohemia Interactive, Codemasters a GAIA Studios FREEWARE a
+NESMÍ být využita ke KOMERČNÍM účelům!
+Bohemia Interactive, Codemasters ani GAIA Studios neručí za problémy vzniklé používáním
+tohoto software.  

@@ -1,0 +1,19 @@
+---> S.T.N.A. 1 <---
+
+Autor: Wulfgar
+Potřebná verze OFP: 1.96
+Potřebné addony: EditorUpdate102 od Kegetyse - ten má snad každý :o)
+Typ mise: tichá akce, záškodnícká, osvobození zajatce
+Obtížnost: jak pro koho ;-)
+Naročnost: normální
+Ostrov: Kolgujev
+Intro: Ano
+Outro: Ano
+Popis: V misi hrajete za agenta Arnolda Sharpa (kódové označení S.T.N.A. 1). Vašim cílem je zabít 2 důstojníky Rudé armády a osvobodit agenta Storma (S.T.N.A. 8).
+Rady: 	1. Na různých místech se snažte nebýt odhalen. 
+	2. Před úkolem osvobození S.T.N.A. 8 si zoberte AK s granátometem - granátomet je dobrej na velkou skupinu vojáků.
+	3. Při posledním úkolu (evakuace) si dejte pozor na hlídku na břehu moře, a taky na přicházejíci tanky (T80, resp. BVP).
+
+Závěrem: Je to moje první mise, kde jsem použil skriptované kamery, a taky, misi jsem dělal pod rouškem noci, takže některé chyby se mi možná nepodařilo úplně odstranit. Věřím ale, že mise je plně hratelná ;).
+
+Příjemnou pařbu ;).
