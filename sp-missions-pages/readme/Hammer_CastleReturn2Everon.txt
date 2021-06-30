@@ -5,26 +5,26 @@
 ;##########################R E A D M E###################################
 ;#########Info o misi:###################################################
 ;###Autor: Hammer
-;###Strana: Západ USAF
-;###Typ mise: Pøeití po sestøelení, útok na Saint Pierre a Hrad
+;###Strana: ZÃ¡pad USAF
+;###Typ mise: PÅ™eÅ¾itÃ­ po sestÅ™elenÃ­, Ãºtok na Saint Pierre a Hrad
 ;###Ostrov: Everon
 ;########################################################################
 ;#########Popis mise:####################################################
-;###Volné pokraèování mise Castle - Shadow of the Red Star ve které
-;### partyzáni bránili hrad a poté je evakuovala UH60 v doprovodu Cobry
-;### která, ale byla pøi odletu sestøelena, piloti se katapultovali a vy
-;### budete hrát za jednoho z nich, vašim úkolem je pøeít.
+;###VolnÃ© pokraÄovÃ¡nÃ­ mise Castle - Shadow of the Red Star ve kterÃ©
+;### partyzÃ¡ni brÃ¡nili hrad a potÃ© je evakuovala UH60 v doprovodu Cobry
+;### kterÃ¡, ale byla pÅ™i odletu sestÅ™elena, piloti se katapultovali a vy
+;### budete hrÃ¡t za jednoho z nich, vaÅ¡im Ãºkolem je pÅ™eÅ¾Ã­t.
 ;########################################################################
-;#########Poadavky:#####################################################
-;###Potøebná verze Operace FlashPoint: 1.96
-;###Addony: 	Editorupdate102 (pøibalen)
-;###		Hammer Music Addon (pøibalen)
+;#########PoÅ¾adavky:#####################################################
+;###PotÅ™ebnÃ¡ verze Operace FlashPoint: 1.96
+;###Addony: 	Editorupdate102 (pÅ™ibalen)
+;###		Hammer Music Addon (pÅ™ibalen)
 ;########################################################################
 ;#########Instalace:#####################################################
 ;###Soubor "Castle - Shadow of The Red Star - v13 delta.Eden.pbo"
-;###zkopírujte do C:/.../Operace Flashpoint/missions a soubor
-;###editorupdate102.pbo zkopírujte do C:/.../Operace Flashpoint/addons
-;###hammer_music_addon.pbo zkopírujte do C:/.../Operace Flashpoint/addons
+;###zkopÃ­rujte do C:/.../Operace Flashpoint/missions a soubor
+;###editorupdate102.pbo zkopÃ­rujte do C:/.../Operace Flashpoint/addons
+;###hammer_music_addon.pbo zkopÃ­rujte do C:/.../Operace Flashpoint/addons
 ;########################################################################
 ;########################################################################
 ;########################################################################
@@ -32,15 +32,15 @@
 ;########################################################################
 ;########################################################################
 ;#########Slovo autora:##################################################
-;###Na této misi jsem pracoval s pøestávkami skoro pùl roku za tu dobu se
-;### na ní spousta vìcí zmìnila, pùvodnì se Saint Pierre nemìlo vùbec
-;### dobıvat ale hráè se pøes nìj mìl nenápadnì proplazit a k lesu na
-;### západì odkud se mìl dostat k hradu kterı mìl vyèistit, aby ho tam
-;### poté mohl vyzvednout vrtulník kterı ho odtamtud dostane a to vše ve
-;### spolupráci jen s kopilotem a ještì k tomu v noci, naštìstí to
-;### dopadlo tak jak mùete sami vidìt kdy si misi zahrajete.
-;### Mise je bez vìtších bugù které by bránili projití mise, ale jakmile
-;### naleznete nìjakı bug dejte mi o nìm prosím vìdìt
+;###Na tÃ©to misi jsem pracoval s pÅ™estÃ¡vkami skoro pÅ¯l roku za tu dobu se
+;### na nÃ­ spousta vÄ›cÃ­ zmÄ›nila, pÅ¯vodnÄ› se Saint Pierre nemÄ›lo vÅ¯bec
+;### dobÃ½vat ale hrÃ¡Ä se pÅ™es nÄ›j mÄ›l nenÃ¡padnÄ› proplazit aÅ¾ k lesu na
+;### zÃ¡padÄ› odkud se mÄ›l dostat k hradu kterÃ½ mÄ›l vyÄistit, aby ho tam
+;### potÃ© mohl vyzvednout vrtulnÃ­k kterÃ½ ho odtamtud dostane a to vÅ¡e ve
+;### spoluprÃ¡ci jen s kopilotem a jeÅ¡tÄ› k tomu v noci, naÅ¡tÄ›stÃ­ to
+;### dopadlo tak jak mÅ¯Å¾ete sami vidÄ›t kdyÅ¾ si misi zahrajete.
+;### Mise je bez vÄ›tÅ¡Ã­ch bugÅ¯ kterÃ© by brÃ¡nili projitÃ­ mise, ale jakmile
+;### naleznete nÄ›jakÃ½ bug dejte mi o nÄ›m prosÃ­m vÄ›dÄ›t
 ;########################################################################
 ;########################################################################
 ;###Kontakt: Email: zatloukal.v@seznam.cz
@@ -62,19 +62,19 @@
 ;###			EDITH PIAF
 ;###			MARCIN CZARTYNSKI
 ;###
-;###	TESTING:	PAØAN
+;###	TESTING:	PAÅ˜AN
 ;###			TONYHAWK
 ;###
-;###	PODÌKOVÁNÍ:	PAØAN
+;###	PODÄšKOVÃNÃ:	PAÅ˜AN
 ;###			TONYHAWK
 ;###			DIDYMOS
 ;###			STR
 ;###			KEGETYS
 ;###			MAA & LEON
 ;###			BOHEMIA INTERACTIVE STUDIO
-;###			VŠEM JEŠTÌ AKTIVNÍM ÈLENÙM OFP KOMUNITY
+;###			VÅ EM JEÅ TÄš AKTIVNÃM ÄŒLENÅ®M OFP KOMUNITY
 ;###
-;###	VÌNOVÁNO MÉMU OTCI
+;###	VÄšNOVÃNO MÃ‰MU OTCI
 ;###
 ;########################################################################
 ;#######by Hammer (c) 2009###############################################
@@ -100,7 +100,7 @@
 ;.#.#.###.###.###_#############...................
 ;.###.###########_#############..............#.#.#
 ;.####____________############.............##.###
-;###_/###########_########—\###.............######
+;###_/###########_########â€”\###.............######
 ;#_/#####/.\#####_#######____##............#######
 ;/#######...#####_######/######............#######
 ;########...#####_#####/#######...........########

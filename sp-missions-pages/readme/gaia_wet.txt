@@ -2,27 +2,27 @@ WORDL END TALE
 Verze 1.0
 Readme Soubor
 Listopad 4., 2006
-vytvoøil Gaia aka Str [http://gsmod.wz.cz]
+vytvoÅ™il Gaia aka Str [http://gsmod.wz.cz]
 
 
 ***********************************************************************
 
 		    	OBSAH
 
-		  I.	ÚVOD
-		 II.	POTØEBNÉ ADDONY
+		  I.	ÃšVOD
+		 II.	POTÅ˜EBNÃ‰ ADDONY
 	  	III.	INSTRUKCE K INSTALACI
-                 IV.	TVÙRCI
-		  V.	UPOZORNÌNÍ
+                 IV.	TVÅ®RCI
+		  V.	UPOZORNÄšNÃ
 
 
-I. ÚVOD
+I. ÃšVOD
 =========================
-World End Tale - Historka z konce svìta. Doplòující pøíbìh k misi When The World Ends, jeho hlavním hrdinou je kapitán Diego Checa, velitel tımu Rangerù ochraòujícícho piloty bìhem Stolbovojského incidentu. Pøíbìh zaèíná v okamiku, kdy vrtulník odlétne na svou poslední misi - znièení atomového sila - a tım se pøipravuje k odjezdu. Podle pùvodního plánu se zbaví veškerého vybavení, pøevlékne se do civilních šatù a v maskování za skupinu prodejcù španìlského vína opustí za pomoci dùstojníka CIA Marka Reynoldse ostrov. Jene jak èasto jde vše podle plánu?
-Mise je ve své podstatì hotová a funkèní, pøesto v ní chybí mnoho prvkù, které nebyly kvùli nedostatku èasu pøidány. Kromì chybìjící funkce zdravotníka jednoho z vojákù chybí druhá verze outra (dostupná v pøípadì, e hráè úspìšnì splnil poslední úkol) a závìr s Charlesem Brownem.
+World End Tale - Historka z konce svÄ›ta. DoplÅˆujÃ­cÃ­ pÅ™Ã­bÄ›h k misi When The World Ends, jehoÅ¾ hlavnÃ­m hrdinou je kapitÃ¡n Diego Checa, velitel tÃ½mu RangerÅ¯ ochraÅˆujÃ­cÃ­cho piloty bÄ›hem StolbovojskÃ©ho incidentu. PÅ™Ã­bÄ›h zaÄÃ­nÃ¡ v okamÅ¾iku, kdy vrtulnÃ­k odlÃ©tne na svou poslednÃ­ misi - zniÄenÃ­ atomovÃ©ho sila - a tÃ½m se pÅ™ipravuje k odjezdu. Podle pÅ¯vodnÃ­ho plÃ¡nu se zbavÃ­ veÅ¡kerÃ©ho vybavenÃ­, pÅ™evlÃ©kne se do civilnÃ­ch Å¡atÅ¯ a v maskovÃ¡nÃ­ za skupinu prodejcÅ¯ Å¡panÄ›lskÃ©ho vÃ­na opustÃ­ za pomoci dÅ¯stojnÃ­ka CIA Marka Reynoldse ostrov. JenÅ¾e jak Äasto jde vÅ¡e podle plÃ¡nu?
+Mise je ve svÃ© podstatÄ› hotovÃ¡ a funkÄnÃ­, pÅ™esto v nÃ­ chybÃ­ mnoho prvkÅ¯, kterÃ© nebyly kvÅ¯li nedostatku Äasu pÅ™idÃ¡ny. KromÄ› chybÄ›jÃ­cÃ­ funkce zdravotnÃ­ka jednoho z vojÃ¡kÅ¯ chybÃ­ druhÃ¡ verze outra (dostupnÃ¡ v pÅ™Ã­padÄ›, Å¾e hrÃ¡Ä ÃºspÄ›Å¡nÄ› splnil poslednÃ­ Ãºkol) a zÃ¡vÄ›r s Charlesem Brownem.
 
 
-II. POTØEBNÉ ADDONY
+II. POTÅ˜EBNÃ‰ ADDONY
 =========================
 
 WTWE addon [14.5 MB]
@@ -34,62 +34,62 @@ http://ofp.gamepark.cz/index.php?showthis=5687&newlang=eng
 Antonov An-124 [6.4 MB]*
 http://ofp.gamepark.cz/index.php?showthis=5158&newlang=eng
 
-Hlídková loï tøídy Miraja [1.3 MB]
+HlÃ­dkovÃ¡ loÄ tÅ™Ã­dy Miraja [1.3 MB]
 http://ofp.gamepark.cz/index.php?showthis=3833&newlang=eng
 
-Piloti bez pøilby a padáku [0.5 MB]
+Piloti bez pÅ™ilby a padÃ¡ku [0.5 MB]
 http://ofp.gamepark.cz/index.php?showthis=2793&newlang=eng
 
-* - Pro správnı chod mise je BEZPODMÍNEÈNÌ nutné, aby byl pouit addon Antonova pouze ve verzi 1.0!
+* - Pro sprÃ¡vnÃ½ chod mise je BEZPODMÃNEÄŒNÄš nutnÃ©, aby byl pouÅ¾it addon Antonova pouze ve verzi 1.0!
 
 
 IV. INSTRUKCE K INSTALACI
 =========================
-gaia_wtwe_tale.stol.pbo - Soubor s misí; Pøesuòte do sloky Missions ve vašem adresáøi OFP
+gaia_wtwe_tale.stol.pbo - Soubor s misÃ­; PÅ™esuÅˆte do sloÅ¾ky Missions ve vaÅ¡em adresÃ¡Å™i OFP
 
 
-V. TVÙRCI
+V. TVÅ®RCI
 =========================
-Reie			Gaia
-Pøíbìh			Gaia
+ReÅ¾ie			Gaia
+PÅ™Ã­bÄ›h			Gaia
 Dabing			Pavka
 			Gaia
 			Martinius
 			Globus
-3D umìlci		Jagy
+3D umÄ›lci		Jagy
 			CSJ
 			UWAR
-Odbornı poradce		Martinius
-Vizuální efekty		Gaia
+OdbornÃ½ poradce		Martinius
+VizuÃ¡lnÃ­ efekty		Gaia
 			Kegetys
-Zvukové efekty		VIT
+ZvukovÃ© efekty		VIT
 			Ghost Recon
 			No One Lives Forever
 Hudba			Nirihiko Hibino
 			Akiro Honda
-Ovìøení kvality		Marinius
+OvÄ›Å™enÃ­ kvality		Marinius
 			BoborSK
 			LAW
-Podìkování		Faly
+PodÄ›kovÃ¡nÃ­		Faly
 			TheRaptor
 			Hideo Kojima
 
-Vìnováno památce hry Operace Flashpoint.
+VÄ›novÃ¡no pamÃ¡tce hry Operace Flashpoint.
 
 
-VI. UPOZORNÌNÍ
+VI. UPOZORNÄšNÃ
 =========================
-Tato mise není vytvoøena pro komerèní pouití. Není podporována vıvojáøi hry "Operace Flashpoint". Tato mise je neformální
-produkt. Autoøi nenesou ádnou zodpovìdnost za pøípadná selhání vašeho poèítaèe, které mohou nastat pøi bìhu mise.
-Všechna práva na tento produkt jsou chránìna a náleí autorùm.
+Tato mise nenÃ­ vytvoÅ™ena pro komerÄnÃ­ pouÅ¾itÃ­. NenÃ­ podporovÃ¡na vÃ½vojÃ¡Å™i hry "Operace Flashpoint". Tato mise je neformÃ¡lnÃ­
+produkt. AutoÅ™i nenesou Å¾Ã¡dnou zodpovÄ›dnost za pÅ™Ã­padnÃ¡ selhÃ¡nÃ­ vaÅ¡eho poÄÃ­taÄe, kterÃ© mohou nastat pÅ™i bÄ›hu mise.
+VÅ¡echna prÃ¡va na tento produkt jsou chrÃ¡nÄ›na a nÃ¡leÅ¾Ã­ autorÅ¯m.
 
-Ještì jednou to pøipomínáme: mùete pouít misi pouze pro nekomerèní úèely! Nemáte povolení komukoli prodávat tento produkt!
+JeÅ¡tÄ› jednou to pÅ™ipomÃ­nÃ¡me: mÅ¯Å¾ete pouÅ¾Ã­t misi pouze pro nekomerÄnÃ­ ÃºÄely! NemÃ¡te povolenÃ­ komukoli prodÃ¡vat tento produkt!
 
 
-Informace o právech:
+Informace o prÃ¡vech:
 Operation Flashpoin(TM) 
 Resistance(TM) 
 Copyright (c) 2002 Bohemia Interactive Studio a The Codemasters Software Company Limited.
 World End Tale, WET (c) 2005/2006 GS-Mod
 
-Všechna ostatní práva a ochranné známky patøí jejich pøíslušnım vlastníkùm.
+VÅ¡echna ostatnÃ­ prÃ¡va a ochrannÃ© znÃ¡mky patÅ™Ã­ jejich pÅ™Ã­sluÅ¡nÃ½m vlastnÃ­kÅ¯m.

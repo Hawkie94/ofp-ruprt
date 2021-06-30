@@ -1,31 +1,31 @@
 Autor: Wulfgar
-Název: Chernogorsk: Zemì mrtvıch (big-fix verze 1.1 by TonyHawk - opraveno a vylepšeno mnostvo vìcí)
-Typ mise: Pìchotní-stealth-akce
+NÃ¡zev: Chernogorsk: ZemÄ› mrtvÃ½ch (big-fix verze 1.1 by TonyHawk - opraveno a vylepÅ¡eno mnoÅ¾stvo vÄ›cÃ­)
+Typ mise: PÄ›chotnÃ­-stealth-akce
 Ostrov: Chernogorsk
-Potøebná verze OFP: 1.96
-Pouitá hudba: z her Return to Castle Wolfenstein, Half-life, Mafia a CoD 4: Modern Warfare
-Pouitı mód: Nightstalkers
-Potøebné addony:
-	- mód Nightstalkers: Return to Chernogorsk Zone 1.01
-	- addony z Nightstalkers: Shadow of Namalsk beta 0.1 (konkretnì soubory NS.pbo, facestex2.pbo, IL86.pbo, TRs301.pbo)
+PotÅ™ebnÃ¡ verze OFP: 1.96
+PouÅ¾itÃ¡ hudba: z her Return to Castle Wolfenstein, Half-life, Mafia a CoD 4: Modern Warfare
+PouÅ¾itÃ½ mÃ³d: Nightstalkers
+PotÅ™ebnÃ© addony:
+	- mÃ³d Nightstalkers: Return to Chernogorsk Zone 1.01
+	- addony z Nightstalkers: Shadow of Namalsk beta 0.1 (konkretnÄ› soubory NS.pbo, facestex2.pbo, IL86.pbo, TRs301.pbo)
 	- autor obou je Sumrak
-	- web ke stáhnutí: nightstalkers.cz
+	- web ke stÃ¡hnutÃ­: nightstalkers.cz
 ------------------------------------------------
 Tipy & triky:
-- pøi získávaní séra se v hangáru na ruské základnì nachází BTR-80 (má málo paliva, avšak na vaší základnì mu mùete palivo doplnit - jsou tam sudy)
-- na Snorka je hodnì dobré pouít raketomet (RPG-7V - hocikterou ze støel VL, VR, nebo TBG)
-- 2 nejlepší zbranì pro pouití (podle mnì) jsou RPK-74 PSO1 a SVD Dragunov
-- na obyèejné zombíky je hodnì úèinná Dragunovka (1 støela do hlavy a zombík je mrtvej)
-- schválnì, jaké se vám povede získat skóre (vypíše na konci mise v debriefingu ;o)) - moje poslední bylo kolem 59-tisíc :D
+- pÅ™i zÃ­skÃ¡vanÃ­ sÃ©ra se v hangÃ¡ru na ruskÃ© zÃ¡kladnÄ› nachÃ¡zÃ­ BTR-80 (mÃ¡ mÃ¡lo paliva, avÅ¡ak na vaÅ¡Ã­ zÃ¡kladnÄ› mu mÅ¯Å¾ete palivo doplnit - jsou tam sudy)
+- na Snorka je hodnÄ› dobrÃ© pouÅ¾Ã­t raketomet (RPG-7V - hocikterou ze stÅ™el VL, VR, nebo TBG)
+- 2 nejlepÅ¡Ã­ zbranÄ› pro pouÅ¾itÃ­ (podle mnÄ›) jsou RPK-74 PSO1 a SVD Dragunov
+- na obyÄejnÃ© zombÃ­ky je hodnÄ› ÃºÄinnÃ¡ Dragunovka (1 stÅ™ela do hlavy a zombÃ­k je mrtvej)
+- schvÃ¡lnÄ›, jakÃ© se vÃ¡m povede zÃ­skat skÃ³re (vypÃ­Å¡e na konci mise v debriefingu ;o)) - moje poslednÃ­ bylo kolem 59-tisÃ­c :D
 
-Dùleité upozornìní: MUSÍTE UDÌLAT ÚKOLY PRO VŠECHNY TØI STALKERY, NEBO SE NEDOSTANETE DÁL!
+DÅ¯leÅ¾itÃ© upozornÄ›nÃ­: MUSÃTE UDÄšLAT ÃšKOLY PRO VÅ ECHNY TÅ˜I STALKERY, NEBO SE NEDOSTANETE DÃL!
 
-Poznámky autora:
-- Toto je má první a asi i jediná mise do tohoto módu.
-- Vyzkoušejte si také moje pøedchozí mise do hry Operation Flashpoint:
+PoznÃ¡mky autora:
+- Toto je mÃ¡ prvnÃ­ a asi i jedinÃ¡ mise do tohoto mÃ³du.
+- VyzkouÅ¡ejte si takÃ© moje pÅ™edchozÃ­ mise do hry Operation Flashpoint:
 	- Akce Wolfram
 	- Akce Wolfram 2: Operace Perestrojka
 	- S.T.N.A. 1
 
-Pøíjemnou PAØBU!
+PÅ™Ã­jemnou PAÅ˜BU!
 Wulfgar OFP studio, 2009

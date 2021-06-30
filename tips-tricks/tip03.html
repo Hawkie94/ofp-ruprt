@@ -8,7 +8,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-K3867HR');</script>
 <!-- End Google Tag Manager -->
 
-<meta http-equiv="content-type" content="text/html; charset=windows-1250">
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
 		<title>Detail tipu</title>
 		<meta name="GENERATOR" content="Microsoft Visual Studio .NET 7.1">
 		<meta name="CODE_LANGUAGE" content="Visual Basic .NET 7.1">
@@ -28,29 +28,29 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	<tbody><tr>
 		<td style="color:#FFFFFF;font-weight:bold;" width="50%">Autor : Brt</td>
 		<td style="color:#FFFFFF;font-weight:bold;" width="50%" align="right">
-			<a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/editor-stuff/tips-tricks/samples/loadek.zip" target="_blank">Stáhnout ukázku</a><br>
-			<a href="./../tips-tricks.html">Zpět na Tipy &amp Triky</a>
+			<a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/editor-stuff/tips-tricks/samples/loadek.zip" target="_blank">StĂˇhnout ukĂˇzku</a><br>
+			<a href="./../tips-tricks.html">ZpÄ›t na Tipy &amp Triky</a>
 		</td>
 	</tr>
 	<tr>
 		<td colspan="2" height="9px" bgcolor="#9FA5C5"></td>
 	</tr>
 	<tr>
-		<td colspan="2" style="font-size:1.0em;font-weight:bold;color:#FF6600;" align="center">Zachycení načtení mise</td>
+		<td colspan="2" style="font-size:1.0em;font-weight:bold;color:#FF6600;" align="center">ZachycenĂ­ naÄŤtenĂ­ mise</td>
 	</tr>
 	<tr>
 		<td colspan="2" height="9px" bgcolor="#9FA5C5"></td>
 	</tr>
 	<tr>
 		<td colspan="2" style="font-size:1.05em;font-weight:normal;text-align:justify;color:#EBE7D8;">Jak
- zachytit načteni rozehráté mise z uložené pozice? Lze k tomu využit 
-příkaz time, který vrací počet sekund od začátku mise. Nevím jestli to 
-tak má být nebo ne, ale načtením uložené pozice se hodnota funkce 
-vynuluje. Takto to funguje zatím alespoň do verze 1.94 beta. Pak už na 
-zachycení načtení pozice stačí jednoduchý script, který se spustí 
-nejlépe ze scriptu init.sqs: [DayTime] Exec 'loadek.sqs'<br>loadek.sqs:<br>-----------<br>_casek=_this Select 0<br>#start<br>? (Time&lt;=1 AND DayTime&lt;_casek) OR (Time&lt;=1 AND DayTime&gt;=_casek+0.0001):Goto 'Load'<br>~1<br>Goto 'start'<br><br>#load<br>HintC 'Mise byla načtena'<br>~1<br>Goto 'start' <br>------------<br><br>Napadají mě hned tři věci, u kterých by se toto dalo využít:<br>1) Spuštění načtením přerušené hudby<br>2)
- Zamezení podvádění přes SAVEMISSION - u tohoto je avšak potřeba myslet 
-na to, že se mise dá ukládat i přerušením hry nebo volbou uložit.<br>3) Obnovení správného počasí u misí, jejichž průběh je na něm závislý</td>
+ zachytit naÄŤteni rozehrĂˇtĂ© mise z uloĹľenĂ© pozice? Lze k tomu vyuĹľit 
+pĹ™Ă­kaz time, kterĂ˝ vracĂ­ poÄŤet sekund od zaÄŤĂˇtku mise. NevĂ­m jestli to 
+tak mĂˇ bĂ˝t nebo ne, ale naÄŤtenĂ­m uloĹľenĂ© pozice se hodnota funkce 
+vynuluje. Takto to funguje zatĂ­m alespoĹ do verze 1.94 beta. Pak uĹľ na 
+zachycenĂ­ naÄŤtenĂ­ pozice staÄŤĂ­ jednoduchĂ˝ script, kterĂ˝ se spustĂ­ 
+nejlĂ©pe ze scriptu init.sqs: [DayTime] Exec 'loadek.sqs'<br>loadek.sqs:<br>-----------<br>_casek=_this Select 0<br>#start<br>? (Time&lt;=1 AND DayTime&lt;_casek) OR (Time&lt;=1 AND DayTime&gt;=_casek+0.0001):Goto 'Load'<br>~1<br>Goto 'start'<br><br>#load<br>HintC 'Mise byla naÄŤtena'<br>~1<br>Goto 'start' <br>------------<br><br>NapadajĂ­ mÄ› hned tĹ™i vÄ›ci, u kterĂ˝ch by se toto dalo vyuĹľĂ­t:<br>1) SpuĹˇtÄ›nĂ­ naÄŤtenĂ­m pĹ™eruĹˇenĂ© hudby<br>2)
+ ZamezenĂ­ podvĂˇdÄ›nĂ­ pĹ™es SAVEMISSION - u tohoto je avĹˇak potĹ™eba myslet 
+na to, Ĺľe se mise dĂˇ uklĂˇdat i pĹ™eruĹˇenĂ­m hry nebo volbou uloĹľit.<br>3) ObnovenĂ­ sprĂˇvnĂ©ho poÄŤasĂ­ u misĂ­, jejichĹľ prĹŻbÄ›h je na nÄ›m zĂˇvislĂ˝</td>
 	</tr>
 </tbody></table>
 

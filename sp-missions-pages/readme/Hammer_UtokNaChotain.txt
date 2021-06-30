@@ -1,12 +1,12 @@
-Útok na Chotain
+Ãštok na Chotain
 
 Autor: Hammer
-Strana: Rusové
-Typ mise: Pìchotní
+Strana: RusovÃ©
+Typ mise: PÄ›chotnÃ­
 Ostrov: Everon
 Verze ofp: 1.96
-Addony: editorupdate102 (pøibalen)
-Instalace:Soubor Útok na Chotain.Eden.pbo zkopírujte do C:/.../Operace Flashpoint/missions a soubor editorupdate102.pbo zkopírujte do C:/.../Operace Flashpoint/addons
+Addony: editorupdate102 (pÅ™ibalen)
+Instalace:Soubor Ãštok na Chotain.Eden.pbo zkopÃ­rujte do C:/.../Operace Flashpoint/missions a soubor editorupdate102.pbo zkopÃ­rujte do C:/.../Operace Flashpoint/addons
 Kontakt: Email: zatloukal.v@seznam.cz
          ICQ: 395-494-829
          WWW: WWW.HAMMER.ESTRANKY.CZ

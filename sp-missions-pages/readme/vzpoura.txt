@@ -7,7 +7,7 @@ e-mail: petrtlach@seznam.cz
 VERZE HRY:         1.75
 OSTROV:               KOLGUJEV
 ADDONY:               NE
-STRANA:               VİCHOD
+STRANA:               VÃCHOD
 DABING:                ANO
 BRIEFING:            ANO 
 OVERVIEW:          ANO
@@ -16,7 +16,7 @@ OUTRO:                  NE
 SUTSCENE:            NE
 
 POPIS MISE:
-  Na Kolgujevu se vylodili síly U.S.Army, Rudou armádu na ostrovì zachvátila panika a nìkteré jednotky se vzdávají bez boje. 
-  Na severovıchodì ostrova je jedna vzpouøená jednota, která nechce dál bojovat. Vaším úkolem je tuto vzpouru potlaèit, ba rovnou znièit, nikdo nesmí pøeít.
+  Na Kolgujevu se vylodili sÃ­ly U.S.Army, Rudou armÃ¡du na ostrovÄ› zachvÃ¡tila panika a nÄ›kterÃ© jednotky se vzdÃ¡vajÃ­ bez boje. 
+  Na severovÃ½chodÄ› ostrova je jedna vzpouÅ™enÃ¡ jednota, kterÃ¡ nechce dÃ¡l bojovat. VaÅ¡Ã­m Ãºkolem je tuto vzpouru potlaÄit, ba rovnou zniÄit, nikdo nesmÃ­ pÅ™eÅ¾Ã­t.
 
-POZN: Hernímenu z modu ÈSLA II
+POZN: HernÃ­menu z modu ÄŒSLA II

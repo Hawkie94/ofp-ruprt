@@ -3,15 +3,15 @@
 '-=>-----------------------------------------------------------------------------------------------------------------<=-,
 '-=>------------------------------------------by Hammer----------------------------------------------------------<=-,
 
-PRO SPRÁVNÉ ZOBRAZENÍ TOHOTO README SI V POZNÁMKOVÉM BLOKU ZVOLTE 
-PÍSMO "Comic Sans MS" VELIKOST 10 A POZNÁMKOVÝ BLOK SI MAXIMALIZUJTE, DÌKUJI ZA POCHOPENÍ
+PRO SPRÃVNÃ‰ ZOBRAZENÃ TOHOTO README SI V POZNÃMKOVÃ‰M BLOKU ZVOLTE 
+PÃSMO "Comic Sans MS" VELIKOST 10 A POZNÃMKOVÃ BLOK SI MAXIMALIZUJTE, DÄšKUJI ZA POCHOPENÃ
 
 Autor: Hammer
 Typ : Mission Pack
-Ostrovy: Desert island, Nogova, Everon, Avignon a Pliocén
+Ostrovy: Desert island, Nogova, Everon, Avignon a PliocÃ©n
 Verze ofp: 1.96
-Módy potøebné pro nìkteré mise:AÈSR1938, FiS, ÈSLA II update 2
-Instalace: Složku Hammer mission pack zkopírujte do C:/.../Operace Flashpoint/missions
+MÃ³dy potÅ™ebnÃ© pro nÄ›kterÃ© mise:AÄŒSR1938, FiS, ÄŒSLA II update 2
+Instalace: SloÅ¾ku Hammer mission pack zkopÃ­rujte do C:/.../Operace Flashpoint/missions
 
 Kontakt: Email: zatloukal.v@seznam.cz
          ICQ: 395-494-829

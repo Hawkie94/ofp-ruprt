@@ -8,7 +8,7 @@
 
 
 
-Soubor staen z webu http://nc-studio.8u.cz
+Soubor staÅ¾en z webu http://nc-studio.8u.cz
 
 Obsah ZIP souboru:
 - readme.txt
@@ -18,24 +18,24 @@ LETTERS TO KATE
 [SP] Arma 3 mise
 Autor: Obi-Wan / Feuerex
 
-Kate dostala od svého manela Gavina tøi dopisy.
-Gavin, voják NATO popisuje své úkoly na ostrovì Altis ve støedozemí.
-S kadım novım øádkem v dopise se Kate dozvídá nové informace o 
-svém milovaném...
+Kate dostala od svÃ©ho manÅ¾ela Gavina tÅ™i dopisy.
+Gavin, vojÃ¡k NATO popisuje svÃ© Ãºkoly na ostrovÄ› Altis ve stÅ™edozemÃ­.
+S kaÅ¾dÃ½m novÃ½m Å™Ã¡dkem v dopise se Kate dozvÃ­dÃ¡ novÃ© informace o 
+svÃ©m milovanÃ©m...
 
 
-Single-player mise s øadou neobvyklıch a inovativních prvkù,
-velkım poètem efektù a jedineènou atmosférou.
-Hra automaticky reaguje na hráèova rozhodnutí, upravuje
-koneènı vısledek mise a nabízí rùzné záitky pro kadého hráèe.
+Single-player mise s Å™adou neobvyklÃ½ch a inovativnÃ­ch prvkÅ¯,
+velkÃ½m poÄtem efektÅ¯ a jedineÄnou atmosfÃ©rou.
+Hra automaticky reaguje na hrÃ¡Äova rozhodnutÃ­, upravuje
+koneÄnÃ½ vÃ½sledek mise a nabÃ­zÃ­ rÅ¯znÃ© zÃ¡Å¾itky pro kaÅ¾dÃ©ho hrÃ¡Äe.
 
 
-Struènı popis:
-- Mise ve stylu "sabotá nepøátelské základny" s narùstající obtíností
-- Øada netradièních metod a konceptù, které dodávají misi jedineènou atmosféru
-- Otevøenı konec nabízející nìkolik rùznıch zakonèení mise
-- Pøíbìh hráèe vede po vytyèené cestì, ale nebrání mu ve svobodném pohybu
-- Implementované cheaty pøímo uvnitø mise
+StruÄnÃ½ popis:
+- Mise ve stylu "sabotÃ¡Å¾ nepÅ™Ã¡telskÃ© zÃ¡kladny" s narÅ¯stajÃ­cÃ­ obtÃ­Å¾nostÃ­
+- Å˜ada netradiÄnÃ­ch metod a konceptÅ¯, kterÃ© dodÃ¡vajÃ­ misi jedineÄnou atmosfÃ©ru
+- OtevÅ™enÃ½ konec nabÃ­zejÃ­cÃ­ nÄ›kolik rÅ¯znÃ½ch zakonÄenÃ­ mise
+- PÅ™Ã­bÄ›h hrÃ¡Äe vede po vytyÄenÃ© cestÄ›, ale nebrÃ¡nÃ­ mu ve svobodnÃ©m pohybu
+- ImplementovanÃ© cheaty pÅ™Ã­mo uvnitÅ™ mise
 
 
-Mise byla vydána 23.10.2014 pro #MakeArmaNotWar soutì.
+Mise byla vydÃ¡na 23.10.2014 pro #MakeArmaNotWar soutÄ›Å¾.

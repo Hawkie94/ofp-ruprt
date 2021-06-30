@@ -1,17 +1,17 @@
-Ke høe potøebujete :
-addony: stejnı jako ke kampaani CSLA + kegetys objfiles a editor upgr.1,02- ke staení u Flashpoint.tiscali.cz - sekce downloads
+Ke hÅ™e potÅ™ebujete :
+addony: stejnÃ½ jako ke kampaani CSLA + kegetys objfiles a editor upgr.1,02- ke staÅ¾enÃ­ u Flashpoint.tiscali.cz - sekce downloads
 verzi: 1.30 nej.1.46
 
-Kampaò má 17 misí, z toho 3 nehratelné
-Intro má asi 12 min.
+KampaÅˆ mÃ¡ 17 misÃ­, z toho 3 nehratelnÃ©
+Intro mÃ¡ asi 12 min.
 
-Kampaò byla pùvodnì celá ozvuèená a namluvená ale z dùvodu velikosti 
-jsou v adresáøí dtaext\music - jenom zástupci.
-Jestli chcete, muete si tam vlastní hudbu pøidat. Taky nezapomeòte soubory pøevést do formátu ogg pøes ogg vorbis decoder a pøejmenovat stejnì jako zástupce.
-To je všechno...
-Jinak doufám, e se vám kampaò bude líbit...
+KampaÅˆ byla pÅ¯vodnÄ› celÃ¡ ozvuÄenÃ¡ a namluvenÃ¡ ale z dÅ¯vodu velikosti 
+jsou v adresÃ¡Å™Ã­ dtaext\music - jenom zÃ¡stupci.
+Jestli chcete, muÅ¾ete si tam vlastnÃ­ hudbu pÅ™idat. Taky nezapomeÅˆte soubory pÅ™evÃ©st do formÃ¡tu ogg pÅ™es ogg vorbis decoder a pÅ™ejmenovat stejnÄ› jako zÃ¡stupce.
+To je vÅ¡echno...
+Jinak doufÃ¡m, Å¾e se vÃ¡m kampaÅˆ bude lÃ­bit...
 
-Dotazy mùete psát na :
+Dotazy mÅ¯Å¾ete psÃ¡t na :
 romek@tiscali.cz
 
 

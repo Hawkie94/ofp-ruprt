@@ -8,7 +8,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-K3867HR');</script>
 <!-- End Google Tag Manager -->
 
-<meta http-equiv="content-type" content="text/html; charset=windows-1250">
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
 		<title>Detail scriptu</title>
 		<meta name="GENERATOR" content="Microsoft Visual Studio .NET 7.1">
 		<meta name="CODE_LANGUAGE" content="Visual Basic .NET 7.1">
@@ -29,8 +29,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	<tbody><tr>
 		<td style="color:#FFFFFF;font-weight:bold;" width="50%">Autor : Ali</td>
 		<td style="color:#FFFFFF;font-weight:bold;" width="50%" align="right">
-			<a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/editor-stuff/scripts/files/krabice.zip" target="_blank">Stáhnout script</a><br>
-			<a href="./../scripts.html">Zpět na scripty</a>
+			<a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/editor-stuff/scripts/files/krabice.zip" target="_blank">StĂˇhnout script</a><br>
+			<a href="./../scripts.html">ZpÄ›t na scripty</a>
 		</td>
 	</tr>
 	<tr>
@@ -43,16 +43,16 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		<td colspan="2" height="9px" bgcolor="#9FA5C5"></td>
 	</tr>
 	<tr>
-		<td colspan="2" style="font-size:1.05em;font-weight:normal;text-align:justify;color:#EBE7D8;">; krabice_boom.sqs<br>; Ali ( aleshw@gmail.com )<br>; pro verzi hry 1,75+<br>; ----------------------------------------------------------<br>; script na simulaci výbuchu krabice s municí<br>; script se spouští [<krabice>,[<zvuky>],<doba>] exec 'krabice_boom.sqs'<br>; *legenda*<br>; 	-krabice - jméno krabice, pro kterou script platí, která p&#248;i zásahu vybouchne<br>; 	-zvuky - seznam zvuk&#249; (muže byt i jeden), ze kterého script náhodn&#236; vybere jeden a p&#248;i zásahu krabice p&#248;ehraje<br>; 		-zvuky musí byt v 'uvozovkách' a když jich bude více, tak je t&#248;eba je odd&#236;lit &#232;árkami ',' (bez citací)<br>; 		-pokud parametr nevyplníte, tak se p&#248;ehrají zvuky, které jsou zadány hned na za&#232;átku scriptu v prom&#236;nné '_defaultni_zvuky'<br>; 		-m&#249;žete zm&#236;nit samoz&#248;ejm&#236; podle pot&#248;eby, ale nezapome&#242;te je zadefinovat v 'description.ext' !!<br>;		-zvuky by m&#236;li mít všechny stejnou dobu trvání<br>;
- 	-doba - délka zvuku udávána v sekundách, parametr se udává jenom z 
-toho d&#249;vodu, aby vizuální efekt skon&#232;il zárove&#242; se zvukovým<br>; 		-pokud nevyplníte parametr 2 <zvuky>, tak nevypl&#242;ujte ani tento<br>;<br>; zvuky, použité v ukázkové misí jsou ze hry Max Payne 2<br>;<br>; p&#248;íklad spušt&#236;ni scriptu<br>;	[this,['zvuk1','zvuk2','zvuk3']] exec 'krabice_boom.sqs' nebo [this] exec 'krabice_boom.sqs'<br>; ----------------------------------------------------------<br>private ['_defaultni_zvuky','_parametry','_unit','_dam','_cas'];<br>; ----------------------------------------------------------<br>; ===tyhle zvuky musí byt zadefinovány v 'description.ext' !! pokud nezadáte parametr 2 <zvuky>===<br>_defaultni_zvuky = ['krab_1','krab_2','krab_3'];<br>; ===tyhle zvuky musí byt zadefinovány v 'description.ext' !! pokud nezadáte parametr 2 <zvuky>===<br>; ----------------------------------------------------------<br>_parametry = count _this;<br>if (_parametry &gt; 0) then {_unit = _this select 0; _dam = damage _unit} else {hint 'Chyba!!
-Parametry scriptu nebyly zadány správn&#236;!!'; exit};<br><br>#control<br>~0.1<br>if (damage _unit == _dam) then {goto 'control'} else {goto 'start'};<br>exit;<br><br>#start<br>private ['_zvuk','_zvuky','_sound','_ran'];<br>if
+		<td colspan="2" style="font-size:1.05em;font-weight:normal;text-align:justify;color:#EBE7D8;">; krabice_boom.sqs<br>; Ali ( aleshw@gmail.com )<br>; pro verzi hry 1,75+<br>; ----------------------------------------------------------<br>; script na simulaci vĂ˝buchu krabice s municĂ­<br>; script se spouĹˇtĂ­ [<krabice>,[<zvuky>],<doba>] exec 'krabice_boom.sqs'<br>; *legenda*<br>; 	-krabice - jmĂ©no krabice, pro kterou script platĂ­, kterĂˇ p&#248;i zĂˇsahu vybouchne<br>; 	-zvuky - seznam zvuk&#249; (muĹľe byt i jeden), ze kterĂ©ho script nĂˇhodn&#236; vybere jeden a p&#248;i zĂˇsahu krabice p&#248;ehraje<br>; 		-zvuky musĂ­ byt v 'uvozovkĂˇch' a kdyĹľ jich bude vĂ­ce, tak je t&#248;eba je odd&#236;lit &#232;Ăˇrkami ',' (bez citacĂ­)<br>; 		-pokud parametr nevyplnĂ­te, tak se p&#248;ehrajĂ­ zvuky, kterĂ© jsou zadĂˇny hned na za&#232;Ăˇtku scriptu v prom&#236;nnĂ© '_defaultni_zvuky'<br>; 		-m&#249;Ĺľete zm&#236;nit samoz&#248;ejm&#236; podle pot&#248;eby, ale nezapome&#242;te je zadefinovat v 'description.ext' !!<br>;		-zvuky by m&#236;li mĂ­t vĹˇechny stejnou dobu trvĂˇnĂ­<br>;
+ 	-doba - dĂ©lka zvuku udĂˇvĂˇna v sekundĂˇch, parametr se udĂˇvĂˇ jenom z 
+toho d&#249;vodu, aby vizuĂˇlnĂ­ efekt skon&#232;il zĂˇrove&#242; se zvukovĂ˝m<br>; 		-pokud nevyplnĂ­te parametr 2 <zvuky>, tak nevypl&#242;ujte ani tento<br>;<br>; zvuky, pouĹľitĂ© v ukĂˇzkovĂ© misĂ­ jsou ze hry Max Payne 2<br>;<br>; p&#248;Ă­klad spuĹˇt&#236;ni scriptu<br>;	[this,['zvuk1','zvuk2','zvuk3']] exec 'krabice_boom.sqs' nebo [this] exec 'krabice_boom.sqs'<br>; ----------------------------------------------------------<br>private ['_defaultni_zvuky','_parametry','_unit','_dam','_cas'];<br>; ----------------------------------------------------------<br>; ===tyhle zvuky musĂ­ byt zadefinovĂˇny v 'description.ext' !! pokud nezadĂˇte parametr 2 <zvuky>===<br>_defaultni_zvuky = ['krab_1','krab_2','krab_3'];<br>; ===tyhle zvuky musĂ­ byt zadefinovĂˇny v 'description.ext' !! pokud nezadĂˇte parametr 2 <zvuky>===<br>; ----------------------------------------------------------<br>_parametry = count _this;<br>if (_parametry &gt; 0) then {_unit = _this select 0; _dam = damage _unit} else {hint 'Chyba!!
+Parametry scriptu nebyly zadĂˇny sprĂˇvn&#236;!!'; exit};<br><br>#control<br>~0.1<br>if (damage _unit == _dam) then {goto 'control'} else {goto 'start'};<br>exit;<br><br>#start<br>private ['_zvuk','_zvuky','_sound','_ran'];<br>if
  (_parametry &gt; 1) then {_zvuk = (_this select 1); _zvuky = count 
 _zvuk; if (_zvuky &gt; 1) then {_ran = (random (count _zvuk)) + 0.4; 
 _ran = _ran - (_ran % 1); _sound = (_zvuk select _ran)} else {_sound = 
 _zvuk}; if (_parametry &gt; 2) then {_cas = (_this select 2)} else {hint
  'Chyba!!
-Parametry scriptu nebyly zadány správn&#236;!!'; exit}} else {_ran = (random 
+Parametry scriptu nebyly zadĂˇny sprĂˇvn&#236;!!'; exit}} else {_ran = (random 
 (count _defaultni_zvuky)) + 0.4; _ran = _ran - (_ran % 1); _sound = 
 (_defaultni_zvuky select _ran); _cas = 2};<br>private ['_detector','_waterDetector','_result'];<br>_detector = 'EmptyDetector' createVehicle [0,0,0];<br>_waterDetector
  = {_detector setPos [(position _unit select 0),(position _unit select 

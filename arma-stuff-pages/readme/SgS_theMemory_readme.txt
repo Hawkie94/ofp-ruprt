@@ -2,51 +2,51 @@
                                         ************* the Memory ***************
 					****************************************
                                                         v. 1.00
-			     (pro bezproblémové zobrazování prosím vypnìte zalamování øádkù)
+			     (pro bezproblÃ©movÃ© zobrazovÃ¡nÃ­ prosÃ­m vypnÄ›te zalamovÃ¡nÃ­ Å™Ã¡dkÅ¯)
 
 
 
 	OBSAH:
-		1. Úvod
-		2. Popis kampanì
-		  a) základní údaje
+		1. Ãšvod
+		2. Popis kampanÄ›
+		  a) zÃ¡kladnÃ­ Ãºdaje
 		  b) addony
 		  c) instalace
-		3. Minimální poadavky
+		3. MinimÃ¡lnÃ­ poÅ¾adavky
 		4. Verze
-		5. Autoøi
-		6. Podìkování
-		7. Práva
+		5. AutoÅ™i
+		6. PodÄ›kovÃ¡nÃ­
+		7. PrÃ¡va
 		8. Kontakt
 -----------------------------------------------------------------------------------------------------------------------------
 
 	1. 
 
-	Malá prosba na úvod. Tato kampaò vznikala ve volném èase mnoha lidí a do její tvorby byly vloeny nemalé finanèní prostøedky. Pøesto je urèena k šíøení ZDARMA. Autorùm budi odmìnou
-	zábava, kterou hráèi toto dílo pøinese, pøípadnì pozitivní komentáø nebo pochvala od hráèe. Pøesto, pokud máte chu a chtìli byste nìjakım zpùsobem podpoøit autory, mùete tak uèinit  				
-	prostøednictvím darovacího formuláøe: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=F7N6V7B3H26E8
+	MalÃ¡ prosba na Ãºvod. Tato kampaÅˆ vznikala ve volnÃ©m Äase mnoha lidÃ­ a do jejÃ­ tvorby byly vloÅ¾eny nemalÃ© finanÄnÃ­ prostÅ™edky. PÅ™esto je urÄena k Å¡Ã­Å™enÃ­ ZDARMA. AutorÅ¯m budiÅ¾ odmÄ›nou
+	zÃ¡bava, kterou hrÃ¡Äi toto dÃ­lo pÅ™inese, pÅ™Ã­padnÄ› pozitivnÃ­ komentÃ¡Å™ nebo pochvala od hrÃ¡Äe. PÅ™esto, pokud mÃ¡te chuÅ¥ a chtÄ›li byste nÄ›jakÃ½m zpÅ¯sobem podpoÅ™it autory, mÅ¯Å¾ete tak uÄinit  				
+	prostÅ™ednictvÃ­m darovacÃ­ho formulÃ¡Å™e: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=F7N6V7B3H26E8
 
-	"Je tìké napsat cokoliv, by jen pár vìt, o tom, o èem kampaò the Memory je, protoe to, o èem je pøedevším, je pøíbìh a jeho postupné rozkrıvání. Proto jen nastíním situaci...
+	"Je tÄ›Å¾kÃ© napsat cokoliv, byÅ¥ jen pÃ¡r vÄ›t, o tom, o Äem kampaÅˆ the Memory je, protoÅ¾e to, o Äem je pÅ™edevÅ¡Ã­m, je pÅ™Ã­bÄ›h a jeho postupnÃ© rozkrÃ½vÃ¡nÃ­. Proto jen nastÃ­nÃ­m situaci...
 
-	V èervnu 1991 se rozpadá Socialistická federativní republika Jugoslávie. Jednou z odtrenıch zemí je i Èernarus. Prakticky okamitì propukají nepokoje mezi obyvatelstvem pravoslavného vyznání a 		
-	muslimskou menšinou. Rozpadá se armáda, vláda prakticky neexistuje, boje trvají dlouhıch 8 let.
+	V Äervnu 1991 se rozpadÃ¡ SocialistickÃ¡ federativnÃ­ republika JugoslÃ¡vie. Jednou z odtrÅ¾enÃ½ch zemÃ­ je i ÄŒernarus. Prakticky okamÅ¾itÄ› propukajÃ­ nepokoje mezi obyvatelstvem pravoslavnÃ©ho vyznÃ¡nÃ­ a 		
+	muslimskou menÅ¡inou. RozpadÃ¡ se armÃ¡da, vlÃ¡da prakticky neexistuje, boje trvajÃ­ dlouhÃ½ch 8 let.
 
-	V èervenci 1999 do zemì vstupují Ruské mírové jednotky RFOR. Pod záštitou NATO mají na starost, stejnì jako jednotky KFOR v sousedním Kosovu, dohled nad distribucí humanitární pomoci a zajištìní 		
-	bezpeènosti. To se ale nedaøí. Obyvatelé zemì chápou pøitomnost ruskıch jednotek jako okupaci. Dlouholeté spory jsou zapomenuty, z nepøátel na ivot a na smrt se stávají spojenci s jedinnım cílem: 		
-	vyhnat cizí vojáky ze své zemì.
+	V Äervenci 1999 do zemÄ› vstupujÃ­ RuskÃ© mÃ­rovÃ© jednotky RFOR. Pod zÃ¡Å¡titou NATO majÃ­ na starost, stejnÄ› jako jednotky KFOR v sousednÃ­m Kosovu, dohled nad distribucÃ­ humanitÃ¡rnÃ­ pomoci a zajiÅ¡tÄ›nÃ­ 		
+	bezpeÄnosti. To se ale nedaÅ™Ã­. ObyvatelÃ© zemÄ› chÃ¡pou pÅ™itomnost ruskÃ½ch jednotek jako okupaci. DlouholetÃ© spory jsou zapomenuty, z nepÅ™Ã¡tel na Å¾ivot a na smrt se stÃ¡vajÃ­ spojenci s jedinnÃ½m cÃ­lem: 		
+	vyhnat cizÃ­ vojÃ¡ky ze svÃ© zemÄ›.
 
-	28. 9. 1999 dochází k prvnímu incidentu mezi RFOR a novì vzniklou CDF. Na místì jsou dva mrtví ruští vojáci. RFOR není vybavená pro vedení vìtších vojenskıch operací, proto stahuje veškeré své síly k 	
-	jedinému letišti v zemi. Na mimoøádné schùzi NATO je vydána rezoluce 1244, která umoòuje Rusku vyslat do zemì další vojáky a techniku. O nìkolik dní pozdìji do Èernarusi vstupují první 			
-	vojáci. Jedná 	se o nejvìtší ruskou operaci od války v Afganistánu..."
+	28. 9. 1999 dochÃ¡zÃ­ k prvnÃ­mu incidentu mezi RFOR a novÄ› vzniklou CDF. Na mÃ­stÄ› jsou dva mrtvÃ­ ruÅ¡tÃ­ vojÃ¡ci. RFOR nenÃ­ vybavenÃ¡ pro vedenÃ­ vÄ›tÅ¡Ã­ch vojenskÃ½ch operacÃ­, proto stahuje veÅ¡kerÃ© svÃ© sÃ­ly k 	
+	jedinÃ©mu letiÅ¡ti v zemi. Na mimoÅ™Ã¡dnÃ© schÅ¯zi NATO je vydÃ¡na rezoluce 1244, kterÃ¡ umoÅ¾Åˆuje Rusku vyslat do zemÄ› dalÅ¡Ã­ vojÃ¡ky a techniku. O nÄ›kolik dnÃ­ pozdÄ›ji do ÄŒernarusi vstupujÃ­ prvnÃ­ 			
+	vojÃ¡ci. JednÃ¡ 	se o nejvÄ›tÅ¡Ã­ ruskou operaci od vÃ¡lky v AfganistÃ¡nu..."
 
 -----------------------------------------------------------------------------------------------------------------------------
 	
-	2. Popis kampanì:
+	2. Popis kampanÄ›:
 	  
            a)
-		-Typ:		Pìchotní
-		-Ostrov:	Èernarus
-		-Poèet misí	11
+		-Typ:		PÄ›chotnÃ­
+		-Ostrov:	ÄŒernarus
+		-PoÄet misÃ­	11
 		-Dabing:	Ano
 		-Verze ArmA2:	1.11
 		-Verze mise:	1.00
@@ -54,64 +54,64 @@
 		
     	   b)
 
-		- MAP_EU						(pøibaleno)  389(kB)	Alternativa: http://sarge.cyrilek.net/projekty/TM/MAP_EU.zip
-		- SgS_plot						(pøibaleno)   77(kB) 	Atrernativa: http://sarge.cyrilek.net/projekty/TM/SgS_Plot.zip			
+		- MAP_EU						(pÅ™ibaleno)  389(kB)	Alternativa: http://sarge.cyrilek.net/projekty/TM/MAP_EU.zip
+		- SgS_plot						(pÅ™ibaleno)   77(kB) 	Atrernativa: http://sarge.cyrilek.net/projekty/TM/SgS_Plot.zip			
 
 
 	   c)	
 		
-		Sloku SgS nakopírujte do sloky .../ArmA2	
-		Spouštìjte jako samostatnı MOD. Vytvoøte si kopii zástupce, kterım standardnì spouštíte hru a pøidejte spouštìcí parametr -mod=SgS , naø tedy C:\ArmA2\arma2.exe -mod=SgS
+		SloÅ¾ku SgS nakopÃ­rujte do sloÅ¾ky .../ArmA2	
+		SpouÅ¡tÄ›jte jako samostatnÃ½ MOD. VytvoÅ™te si kopii zÃ¡stupce, kterÃ½m standardnÄ› spouÅ¡tÃ­te hru a pÅ™idejte spouÅ¡tÄ›cÃ­ parametr -mod=SgS , naÅ™ tedy C:\ArmA2\arma2.exe -mod=SgS
 
 -----------------------------------------------------------------------------------------------------------------------------
 
-	3. Minimální poadavky:
+	3. MinimÃ¡lnÃ­ poÅ¾adavky:
 	   
-	   Pro správnı chod kampanì je tøeba verze hry ArmA2 1.11 
-	   PC splòující minimální poadavky hry ArmA2.
+	   Pro sprÃ¡vnÃ½ chod kampanÄ› je tÅ™eba verze hry ArmA2 1.11 
+	   PC splÅˆujÃ­cÃ­ minimÃ¡lnÃ­ poÅ¾adavky hry ArmA2.
 		
-	   Kampaò byla testována i na verzi s datadiskem Operace Arrowhead v. 1.60. Kampaò je v této verzi hratelná, vyskytují se ale rùzné anomálie a problémy, zejména ve cutscénách. 
-	   Špatné èasování, pozice postav atd.
+	   KampaÅˆ byla testovÃ¡na i na verzi s datadiskem Operace Arrowhead v. 1.60. KampaÅˆ je v tÃ©to verzi hratelnÃ¡, vyskytujÃ­ se ale rÅ¯znÃ© anomÃ¡lie a problÃ©my, zejmÃ©na ve cutscÃ©nÃ¡ch. 
+	   Å patnÃ© ÄasovÃ¡nÃ­, pozice postav atd.
 -----------------------------------------------------------------------------------------------------------------------------
 	
-	4. Verze kampanì:
+	4. Verze kampanÄ›:
 
-	   1.00 - První oficiální verze
+	   1.00 - PrvnÃ­ oficiÃ¡lnÃ­ verze
 	  
 
 -----------------------------------------------------------------------------------------------------------------------------
 
-	5: Autoøi:	
+	5: AutoÅ™i:	
 		
 
 		(SgS team)
 
-		-Sarge			vedoucí projektu
-					design misí
+		-Sarge			vedoucÃ­ projektu
+					design misÃ­
 					skripty
 					kamera
 
-		-Jan Èepera		design
+		-Jan ÄŒepera		design
 					skripty
 					2D grafika	
-					interní test
+					internÃ­ test
 
-		-Raptor			korekce èeskıch textù
-					interní test
+		-Raptor			korekce ÄeskÃ½ch textÅ¯
+					internÃ­ test
 
 		-LuckyM 		zvuk pumpy
 
-		-Spawn			skript vystøelení svìtlice
+		-Spawn			skript vystÅ™elenÃ­ svÄ›tlice
 
 
 		
-		(další)
+		(dalÅ¡Ã­)
 
-		-Noorb			hlavní pøeklad
+		-Noorb			hlavnÃ­ pÅ™eklad
 	
-		-Adriana Gajdosova 	hlavní pøeklad
+		-Adriana Gajdosova 	hlavnÃ­ pÅ™eklad
 
-		-Mrakoplas		pøeklad
+		-Mrakoplas		pÅ™eklad
 
 		-FFLover		preklad readme
 
@@ -130,31 +130,31 @@
 
 
 
-		(FÉNIX PRO DABING team)
+		(FÃ‰NIX PRO DABING team)
 
-		-Mephi			vedoucí projektu
+		-Mephi			vedoucÃ­ projektu
 		
-		-Martina		asistentka vedoucího projektu
+		-Martina		asistentka vedoucÃ­ho projektu
 
-		-VÍa Vanèák		zpracování dabingu
+		-VÃÅ¥a VanÄÃ¡k		zpracovÃ¡nÃ­ dabingu
 
 
-		(dabéøi v abecedním poøadí)
+		(dabÃ©Å™i v abecednÃ­m poÅ™adÃ­)
 
 		-Astonov
 		-Beren
 		-Cent
 		-Cupido
-		-Dvoøka
+		-DvoÅ™ka
 		-Elfi
 		-Felix
-		-Gabryš
+		-GabryÅ¡
 		-Hanz
-		-Jáchym
+		-JÃ¡chym
 		-Lubas
 		-Martin
 		-Matt.Murdock
-		-Méla
+		-MÃ©la
 		-Mephi
 		-WoxMortys
 		-Zady
@@ -166,31 +166,31 @@
 		
 -----------------------------------------------------------------------------------------------------------------------------
 
-	6. Podìkování:
+	6. PodÄ›kovÃ¡nÃ­:
 
-		-Dìkuji EMSImu za editor help a všem jeho pøispìvovatelùm za ucelenı souhrn rad a návodù, kterı dennì vyuívám.
-		-Dìkuji a zároveò se omlouvám všem, kteøí se na misi nìjakım zpùsobem podíleli a nenalezli zde své jméno.
-		-A hlavnì dìkuji tobì, hráèi. :-)
+		-DÄ›kuji EMSImu za editor help a vÅ¡em jeho pÅ™ispÄ›vovatelÅ¯m za ucelenÃ½ souhrn rad a nÃ¡vodÅ¯, kterÃ½ dennÄ› vyuÅ¾Ã­vÃ¡m.
+		-DÄ›kuji a zÃ¡roveÅˆ se omlouvÃ¡m vÅ¡em, kteÅ™Ã­ se na misi nÄ›jakÃ½m zpÅ¯sobem podÃ­leli a nenalezli zde svÃ© jmÃ©no.
+		-A hlavnÄ› dÄ›kuji tobÄ›, hrÃ¡Äi. :-)
 
 -----------------------------------------------------------------------------------------------------------------------------
 
-	7. Práva:
+	7. PrÃ¡va:
 		
-		Tuto kampaò vytvoøilo Sarge Studio. Jakékoliv úpravy kampanì a pøedìlávky mohou bıt provedeny pouze za souhlasu
-		autorù, tj. Sarge Studia. Tato kampaò je nekomerèní poèin a je urèena k šíøení po internetu. Proto jakıkoliv prodej
-		za úèelem zisku je, bez souhlasu autorù, zakázán. Pokud máte zájem vyuít nìkterou
-		èást mise k obohacení vlastní tvorby, uvìdomte o tom prosím nejprve Sarge Studio a uveïte jej v titulcích
-		vaší práce. 
-		Autoøi nenesou ádnou odpovìdnost za pouití nebo poití tohoto díla. V pøípadì poškození Vašeho PC, dat èi jiné újmy finanèní
-		èi nefinanèní, nenese Sarge Studio ani Bohemia Interactive ádnou odpovìdnost. Kampaò pouíváte na VLASTNÍ riziko. 
+		Tuto kampaÅˆ vytvoÅ™ilo Sarge Studio. JakÃ©koliv Ãºpravy kampanÄ› a pÅ™edÄ›lÃ¡vky mohou bÃ½t provedeny pouze za souhlasu
+		autorÅ¯, tj. Sarge Studia. Tato kampaÅˆ je nekomerÄnÃ­ poÄin a je urÄena k Å¡Ã­Å™enÃ­ po internetu. Proto jakÃ½koliv prodej
+		za ÃºÄelem zisku je, bez souhlasu autorÅ¯, zakÃ¡zÃ¡n. Pokud mÃ¡te zÃ¡jem vyuÅ¾Ã­t nÄ›kterou
+		ÄÃ¡st mise k obohacenÃ­ vlastnÃ­ tvorby, uvÄ›domte o tom prosÃ­m nejprve Sarge Studio a uveÄte jej v titulcÃ­ch
+		vaÅ¡Ã­ prÃ¡ce. 
+		AutoÅ™i nenesou Å¾Ã¡dnou odpovÄ›dnost za pouÅ¾itÃ­ nebo poÅ¾itÃ­ tohoto dÃ­la. V pÅ™Ã­padÄ› poÅ¡kozenÃ­ VaÅ¡eho PC, dat Äi jinÃ© Ãºjmy finanÄnÃ­
+		Äi nefinanÄnÃ­, nenese Sarge Studio ani Bohemia Interactive Å¾Ã¡dnou odpovÄ›dnost. KampaÅˆ pouÅ¾Ã­vÃ¡te na VLASTNÃ riziko. 
 
-		Všechny osoby a události v misi jsou smyšlené. Jakákoliv podobnost se skuteèností je pouze neúmyslná a náhodná.
+		VÅ¡echny osoby a udÃ¡losti v misi jsou smyÅ¡lenÃ©. JakÃ¡koliv podobnost se skuteÄnostÃ­ je pouze neÃºmyslnÃ¡ a nÃ¡hodnÃ¡.
 
 -----------------------------------------------------------------------------------------------------------------------------
 		
 	8. Kontakt:
 
-		V pøípadì jakéhokoliv námìtu, dotazu èi problému mì kontaktujte:
+		V pÅ™Ã­padÄ› jakÃ©hokoliv nÃ¡mÄ›tu, dotazu Äi problÃ©mu mÄ› kontaktujte:
 
 		-Sarge
 	
@@ -199,7 +199,7 @@
 
 		-Sarge Studio		
 
-			-stránky	www.sarge-studio.wz.cz
+			-strÃ¡nky	www.sarge-studio.wz.cz
 
 -----------------------------------------------------------------------------------------------------------------------------
 

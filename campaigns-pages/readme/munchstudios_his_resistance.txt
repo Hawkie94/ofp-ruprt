@@ -12,17 +12,17 @@
 
 ============================================================================================
 
- OBSAH: 1) Instalace a potøebné addony
-        2) Alarm systém a další nadstandardní vlastnosti
+ OBSAH: 1) Instalace a potÅ™ebnÃ© addony
+        2) Alarm systÃ©m a dalÅ¡Ã­ nadstandardnÃ­ vlastnosti
         3) Credits
-       +4) Poznámky designera + struèná historie vıvoje
-       +5) 2021 poznámky
+       +4) PoznÃ¡mky designera + struÄnÃ¡ historie vÃ½voje
+       +5) 2021 poznÃ¡mky
 
 ____________________________________________________________________________________________
 
- 1) INSTALACE A POTØEBNÉ ADDONY :
+ 1) INSTALACE A POTÅ˜EBNÃ‰ ADDONY :
 
-    Zkopírujte adesáøe ADDONS a Campaigns do vašeho adresáøe s Flashpointem.
+    ZkopÃ­rujte adesÃ¡Å™e ADDONS a Campaigns do vaÅ¡eho adresÃ¡Å™e s Flashpointem.
 
     Required ADDONS:
     -Winter Nogojev by Kegetys
@@ -32,94 +32,94 @@ ________________________________________________________________________________
     -Lamp and Lampicka by Munch (included)
     -EditorUpdate102 by Kegetys
 
-    Poznámky:
-	- v adresáøi s OFP mìjte pouze addon editorupdate102 (ostatní update-y a upgrade-y
-	  dìlají potíe)
-	- rovnì musíte mít pouze zimní addony od Kegetyse (kegepacksnow.pbo plnì nahrádza
-	  addony zimních vozidel a jednotek)
+    PoznÃ¡mky:
+	- v adresÃ¡Å™i s OFP mÄ›jte pouze addon editorupdate102 (ostatnÃ­ update-y a upgrade-y
+	  dÄ›lajÃ­ potÃ­Å¾e)
+	- rovnÄ›Å¾ musÃ­te mÃ­t pouze zimnÃ­ addony od Kegetyse (kegepacksnow.pbo plnÄ› nahrÃ¡dza
+	  addony zimnÃ­ch vozidel a jednotek)
 
-    Potøebná verze OFP: 1.96
+    PotÅ™ebnÃ¡ verze OFP: 1.96
 ____________________________________________________________________________________________
 
- 2) ALARM SYSTÉM 1.0 A DALŠÍ NESTANDARDNÍ VLASTNOSTI
+ 2) ALARM SYSTÃ‰M 1.0 A DALÅ Ã NESTANDARDNÃ VLASTNOSTI
 
-    Alarm systém 1.0 (originaly developed by Munch Studios), dovoluje vojákùm zvolat  
-    poplach, pokud o vás ví. Narozdíl od pùvodního systému, voják nejdøíve zavolá na 
-    vás (a souèasnì namíøí zbraò), aby se pøesvìdèil kdo jste ("Hej ty, co to tam dìláš",
-    nebo "Stùj, ani hnout"). Teprve potom zvolá poplach. Dùleité je pøedevším to, e nic 
-    nezavolá, pokud je mrtev (2x kontrola). 
-    Monost reagovat na mrtvoly byla zrušena, nebo fungovala nespolehlivì (není chybou  
-    scriptu; script bude popsán v bodu 4) a z dùvodu hardwarovıch nárokù (5 spínaèù na 
-    vojáka).
+    Alarm systÃ©m 1.0 (originaly developed by Munch Studios), dovoluje vojÃ¡kÅ¯m zvolat  
+    poplach, pokud o vÃ¡s vÃ­. NarozdÃ­l od pÅ¯vodnÃ­ho systÃ©mu, vojÃ¡k nejdÅ™Ã­ve zavolÃ¡ na 
+    vÃ¡s (a souÄasnÄ› namÃ­Å™Ã­ zbraÅˆ), aby se pÅ™esvÄ›dÄil kdo jste ("Hej ty, co to tam dÄ›lÃ¡Å¡",
+    nebo "StÅ¯j, ani hnout"). Teprve potom zvolÃ¡ poplach. DÅ¯leÅ¾itÃ© je pÅ™edevÅ¡Ã­m to, Å¾e nic 
+    nezavolÃ¡, pokud je mrtev (2x kontrola). 
+    MoÅ¾nost reagovat na mrtvoly byla zruÅ¡ena, neboÅ¥ fungovala nespolehlivÄ› (nenÃ­ chybou  
+    scriptu; script bude popsÃ¡n v bodu 4) a z dÅ¯vodu hardwarovÃ½ch nÃ¡rokÅ¯ (5 spÃ­naÄÅ¯ na 
+    vojÃ¡ka).
 
-    V druhé misi mùete vysílaèkou ukládat pozice (0-0-2) i kdy se v nìkterıch místech mise
-    sama uloí. Tato monost supluje stupnì obtínosti (EASY). Pokud chcete vyšší obtínost,
-    tak toho nevyuívejte.  
+    V druhÃ© misi mÅ¯Å¾ete vysÃ­laÄkou uklÃ¡dat pozice (0-0-2) i kdyÅ¾ se v nÄ›kterÃ½ch mÃ­stech mise
+    sama uloÅ¾Ã­. Tato moÅ¾nost supluje stupnÄ› obtÃ­Å¾nosti (EASY). Pokud chcete vyÅ¡Å¡Ã­ obtÃ­Å¾nost,
+    tak toho nevyuÅ¾Ã­vejte.  
 
-    Pokud pøehlédnete zprávu z vysílaèky a nevíte, co dìlat, mùete zavolat Plukovníkovi,
-    kterı vám váš momentální úkol zopakuje (0-0-1 na vysílaèce).
+    Pokud pÅ™ehlÃ©dnete zprÃ¡vu z vysÃ­laÄky a nevÃ­te, co dÄ›lat, mÅ¯Å¾ete zavolat PlukovnÃ­kovi,
+    kterÃ½ vÃ¡m vÃ¡Å¡ momentÃ¡lnÃ­ Ãºkol zopakuje (0-0-1 na vysÃ­laÄce).
 
-    Mùete také najít bonusy, které jsou sice spíše zpestøením, ale také mohou bıt uiteèné.
+    MÅ¯Å¾ete takÃ© najÃ­t bonusy, kterÃ© jsou sice spÃ­Å¡e zpestÅ™enÃ­m, ale takÃ© mohou bÃ½t uÅ¾iteÄnÃ©.
  
-    Kampaò není zákernì (kupo!) komprimována do PBO, aby se dala pozdìji lehce upgradovat.
+    KampaÅˆ nenÃ­ zÃ¡kernÄ› (kupo!) komprimovÃ¡na do PBO, aby se dala pozdÄ›ji lehce upgradovat.
 ____________________________________________________________________________________________
 
  3) CREDITS:
-    Vìtšina designování a pøíbìh: Silver Falcon
-    Vìtšina editování a scripting: Munch
-    Zjednocení jazykovıch verzí a konverze do Resistance (2021): TonyHawk
+    VÄ›tÅ¡ina designovÃ¡nÃ­ a pÅ™Ã­bÄ›h: Silver Falcon
+    VÄ›tÅ¡ina editovÃ¡nÃ­ a scripting: Munch
+    ZjednocenÃ­ jazykovÃ½ch verzÃ­ a konverze do Resistance (2021): TonyHawk
 
 ____________________________________________________________________________________________
 
- 4) POZNÁMKY DESIGNERA
+ 4) POZNÃMKY DESIGNERA
   
-    Hawk In Shadows byl designován jako jednotlivá mise, z technickıch dùvodù však bylo  
-    nutno ji rozdìlit na dvì èásti. Do kampanì byly spojeny pøedevším kvùli úspoøe objemu
+    Hawk In Shadows byl designovÃ¡n jako jednotlivÃ¡ mise, z technickÃ½ch dÅ¯vodÅ¯ vÅ¡ak bylo  
+    nutno ji rozdÄ›lit na dvÄ› ÄÃ¡sti. Do kampanÄ› byly spojeny pÅ™edevÅ¡Ã­m kvÅ¯li ÃºspoÅ™e objemu
     dat (asi 3MB - hudba).
   
-    Bìhem vıvoje byl poprvé pouit script, kterı dovolil vojákùm reagovat na mrtvoly. Ze
-    zaèátku, kdy mise ještì neobsahovala tolik jednotek a spínaèù, fungoval nejménì v
-    75% pøípadù a poèítalo se s jeho pouitím. I pozdìji jsme obèas bìhem testování
-    zaslechli hlášku, oznamující, e voják zahlédl mrtvolu (a hned nato zvolal poplach),
-    ale u se to nedalo nazvat pravidlem, tak jsme se vzhledem k úspoøe HW nárokù rozhodli
-    vymazat tento script zahrnující 5 spínaèù na vojáka.
+    BÄ›hem vÃ½voje byl poprvÃ© pouÅ¾it script, kterÃ½ dovolil vojÃ¡kÅ¯m reagovat na mrtvoly. Ze
+    zaÄÃ¡tku, kdy mise jeÅ¡tÄ› neobsahovala tolik jednotek a spÃ­naÄÅ¯, fungoval nejmÃ©nÄ› v
+    75% pÅ™Ã­padÅ¯ a poÄÃ­talo se s jeho pouÅ¾itÃ­m. I pozdÄ›ji jsme obÄas bÄ›hem testovÃ¡nÃ­
+    zaslechli hlÃ¡Å¡ku, oznamujÃ­cÃ­, Å¾e vojÃ¡k zahlÃ©dl mrtvolu (a hned nato zvolal poplach),
+    ale uÅ¾ se to nedalo nazvat pravidlem, tak jsme se vzhledem k ÃºspoÅ™e HW nÃ¡rokÅ¯ rozhodli
+    vymazat tento script zahrnujÃ­cÃ­ 5 spÃ­naÄÅ¯ na vojÃ¡ka.
 
-    Prakticky kompletní návrh mise a první èást byla témìø hotova ještì v roce 2001. Tato
-    mise není ani z èásti inspirována misí Siberian Fox (napø. název SPECTRE a další vìci
-    byly vymyšleny zcela nezávisle). Mise je inspirována pouze hrou Metal Gear Solid a
-    èásteènì Commandos. Bohuel dolaïování a dokonèení se ponìkud protáhlo. Vìøíme e
-    dopadneme spíše jako Flashpoint, nebo Max Payne ne jako Daikatana.
+    Prakticky kompletnÃ­ nÃ¡vrh mise a prvnÃ­ ÄÃ¡st byla tÃ©mÄ›Å™ hotova jeÅ¡tÄ› v roce 2001. Tato
+    mise nenÃ­ ani z ÄÃ¡sti inspirovÃ¡na misÃ­ Siberian Fox (napÅ™. nÃ¡zev SPECTRE a dalÅ¡Ã­ vÄ›ci
+    byly vymyÅ¡leny zcela nezÃ¡visle). Mise je inspirovÃ¡na pouze hrou Metal Gear Solid a
+    ÄÃ¡steÄnÄ› Commandos. BohuÅ¾el dolaÄovÃ¡nÃ­ a dokonÄenÃ­ se ponÄ›kud protÃ¡hlo. VÄ›Å™Ã­me Å¾e
+    dopadneme spÃ­Å¡e jako Flashpoint, nebo Max Payne neÅ¾ jako Daikatana.
   
 
-    Misi jsme dùkladnì testovali a snaili jsme se zabránit tomu, aby hráè mohl znièit
-    nìkterou dùleitou jednotku a pak nemohl dokonèit misi. V tìch pøípadech vás mise
-    poádá o restartování (asi 2 moné). Také jsme se snaili, zabránit tomu, aby bloudil a
-    nevìdìl, co má dìlat. Proto mùete zavolat Plukovníkovi, kterı vám poradí (zopakuje
-    úkol). Pøesto však mùe teoreticky dojít k nìjaké chybì (AI). V tom pøípadì ji prosím
-    restartujte, nebo nám napište, o jakı problém jde (nejpravdìpodobnìji se nedostaví 
-    dùleitá jednotka). Vìøíme však, e podobné problémy budou pouze ojedinìlé.
+    Misi jsme dÅ¯kladnÄ› testovali a snaÅ¾ili jsme se zabrÃ¡nit tomu, aby hrÃ¡Ä mohl zniÄit
+    nÄ›kterou dÅ¯leÅ¾itou jednotku a pak nemohl dokonÄit misi. V tÄ›ch pÅ™Ã­padech vÃ¡s mise
+    poÅ¾Ã¡dÃ¡ o restartovÃ¡nÃ­ (asi 2 moÅ¾nÃ©). TakÃ© jsme se snaÅ¾ili, zabrÃ¡nit tomu, aby bloudil a
+    nevÄ›dÄ›l, co mÃ¡ dÄ›lat. Proto mÅ¯Å¾ete zavolat PlukovnÃ­kovi, kterÃ½ vÃ¡m poradÃ­ (zopakuje
+    Ãºkol). PÅ™esto vÅ¡ak mÅ¯Å¾e teoreticky dojÃ­t k nÄ›jakÃ© chybÄ› (AI). V tom pÅ™Ã­padÄ› ji prosÃ­m
+    restartujte, nebo nÃ¡m napiÅ¡te, o jakÃ½ problÃ©m jde (nejpravdÄ›podobnÄ›ji se nedostavÃ­ 
+    dÅ¯leÅ¾itÃ¡ jednotka). VÄ›Å™Ã­me vÅ¡ak, Å¾e podobnÃ© problÃ©my budou pouze ojedinÄ›lÃ©.
    
-    Hudba byla pøevzata ze hry Metal Gear Solid, bez souhlasu tvùrcù. Slibujeme však, e
-    nebude vyuita ke komerèním úèelùm.
+    Hudba byla pÅ™evzata ze hry Metal Gear Solid, bez souhlasu tvÅ¯rcÅ¯. Slibujeme vÅ¡ak, Å¾e
+    nebude vyuÅ¾ita ke komerÄnÃ­m ÃºÄelÅ¯m.
 
-    Témìø 20 minut cutscén (i s intrem a outrem).
+    TÃ©mÄ›Å™ 20 minut cutscÃ©n (i s intrem a outrem).
 
-    V urèité fázi vıvoje mìly obì èásti dohromady více ne 500 spínaèù.
+    V urÄitÃ© fÃ¡zi vÃ½voje mÄ›ly obÄ› ÄÃ¡sti dohromady vÃ­ce neÅ¾ 500 spÃ­naÄÅ¯.
 
-    Kampaò obsahuje rovnıch 20 zvukovıch (hudebních) stop (namluvení bohuel neobsahuje).
+    KampaÅˆ obsahuje rovnÃ½ch 20 zvukovÃ½ch (hudebnÃ­ch) stop (namluvenÃ­ bohuÅ¾el neobsahuje).
 
                     
 ____________________________________________________________________________________________
 
- 5) 2021 POZNÁMKY (TonyHawk)
+ 5) 2021 POZNÃMKY (TonyHawk)
 
-   Táto špeciálna verzia, ktorá bez problémov funguje po Resistance verziou OFP vznikla
-   na môj osobnı podnet (bez toho, aby so skontaktoval autorov alebo kohoko¾vek iného).
+   TÃ¡to Å¡peciÃ¡lna verzia, ktorÃ¡ bez problÃ©mov funguje po Resistance verziou OFP vznikla
+   na mÃ´j osobnÃ½ podnet (bez toho, aby so skontaktoval autorov alebo kohokoÄ¾vek inÃ©ho).
 
-   Mám za to, e táto vynikajúca kampaò (jedna z najlepších, ktoré kedy boli vytvorené
-   pod OFP) si zaslúi ma verziu, ktorú si môe zahra ktoko¾vek aj v roku 2021, kedy
-   je viac-menej nemoné zohna starú Cold War Crisis verziu hry OFP.
+   MÃ¡m za to, Å¾e tÃ¡to vynikajÃºca kampaÅˆ (jedna z najlepÅ¡Ã­ch, ktorÃ© kedy boli vytvorenÃ©
+   pod OFP) si zaslÃºÅ¾i maÅ¥ verziu, ktorÃº si mÃ´Å¾e zahraÅ¥ ktokoÄ¾vek aj v roku 2021, kedy
+   je viac-menej nemoÅ¾nÃ© zohnaÅ¥ starÃº Cold War Crisis verziu hry OFP.
 
-   Zároveò, znovu-obnovená Ruprtova poradòa je exkluzívne (a jediné) miesto, kde sa táto
-   kampaò dá stiahnu. Neváhajte si ju zahra aj dnes. Niektoré skripty síce môu pôsobi
-   zastaralo, ale celkovı dojem, atmosféra, príbeh (a aj custcény) dozaista zanechajú dojem.
+   ZÃ¡roveÅˆ, znovu-obnovenÃ¡ Ruprtova poradÅˆa je exkluzÃ­vne (a jedinÃ©) miesto, kde sa tÃ¡to
+   kampaÅˆ dÃ¡ stiahnuÅ¥. NevÃ¡hajte si ju zahraÅ¥ aj dnes. NiektorÃ© skripty sÃ­ce mÃ´Å¾u pÃ´sobiÅ¥
+   zastaralo, ale celkovÃ½ dojem, atmosfÃ©ra, prÃ­beh (a aj custcÃ©ny) dozaista zanechajÃº dojem.

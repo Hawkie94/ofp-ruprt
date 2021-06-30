@@ -2,35 +2,35 @@
                                         *********** Maybe Tomorrow *************
 					****************************************
                                                         v. 1.20
-			     (pro bezproblémové zobrazování prosím vypnìte zalamování øádkù)
+			     (pro bezproblÃ©movÃ© zobrazovÃ¡nÃ­ prosÃ­m vypnÄ›te zalamovÃ¡nÃ­ Å™Ã¡dkÅ¯)
 
 
 
 	OBSAH:
-		1. Úvod
+		1. Ãšvod
 		2. Popis mise
-		  a) základní údaje
+		  a) zÃ¡kladnÃ­ Ãºdaje
 		  b) addony
 		  c) instalace
-		3. Minimální poadavky
+		3. MinimÃ¡lnÃ­ poÅ¾adavky
 		4. Verze
-		5. Autoøi
-		6. Podìkování
-		7. Práva
+		5. AutoÅ™i
+		6. PodÄ›kovÃ¡nÃ­
+		7. PrÃ¡va
 		8. Kontakt
 -----------------------------------------------------------------------------------------------------------------------------
 
-	1. "Harry Olson je typickı vlk samotáø, kterı dobøe ví co dìlá a proto to jeho mladší bratr Tim nemá snadné. 
-	    Narozdíl od svého staršího protìjšku Tim jedná impulsivnì a leckdy unáhlenì ve snaze bıt alespoò v nìèem lepší. 
-            Harry vdy zpochybòoval jeho názory, rozhodnutí i zásady a pøes všechny svìtlejší spoleènì strávené chvilky mu Tim jeho slepou bezohlednost nikdy neodpustil. 
-            Kdy však dojde na boj o holı ivot, Tim si zaène uvìdomovat v jakém il sebeklamu a jak Harryho potøebuje a e i tìch pár vzpomínek na strávenı èas s ním, 
-            jsou jedny z nejlepších v jeho ivotì..."
+	1. "Harry Olson je typickÃ½ vlk samotÃ¡Å™, kterÃ½ dobÅ™e vÃ­ co dÄ›lÃ¡ a proto to jeho mladÅ¡Ã­ bratr Tim nemÃ¡ snadnÃ©. 
+	    NarozdÃ­l od svÃ©ho starÅ¡Ã­ho protÄ›jÅ¡ku Tim jednÃ¡ impulsivnÄ› a leckdy unÃ¡hlenÄ› ve snaze bÃ½t alespoÅˆ v nÄ›Äem lepÅ¡Ã­. 
+            Harry vÅ¾dy zpochybÅˆoval jeho nÃ¡zory, rozhodnutÃ­ i zÃ¡sady a pÅ™es vÅ¡echny svÄ›tlejÅ¡Ã­ spoleÄnÄ› strÃ¡venÃ© chvilky mu Tim jeho slepou bezohlednost nikdy neodpustil. 
+            KdyÅ¾ vÅ¡ak dojde na boj o holÃ½ Å¾ivot, Tim si zaÄne uvÄ›domovat v jakÃ©m Å¾il sebeklamu a jak Harryho potÅ™ebuje a Å¾e i tÄ›ch pÃ¡r vzpomÃ­nek na strÃ¡venÃ½ Äas s nÃ­m, 
+            jsou jedny z nejlepÅ¡Ã­ch v jeho Å¾ivotÄ›..."
 -----------------------------------------------------------------------------------------------------------------------------
 	
 	2. Popis mise:
 	  
            a)
-		-Typ:		pìchotní
+		-Typ:		pÄ›chotnÃ­
 		-Ostrov:	Sahrani
 		-Intro:		Ano
 		-Outro:		Ano
@@ -41,72 +41,72 @@
 		
     	   b)
 
-		- SgS_mh_crashed					(pøibaleno) 0.59(MB)	Alternativa: http://sarge.cyrilek.net/projekty/MbT/SgS_mh6_crash.zip
-		- InvTargets						(pøibaleno) 0.04(MB) 	Atrernativa: http://sarge.cyrilek.net/projekty/MbT/InvTargets.zip				
-		- EditorUpdate_v102					(pøibaleno) 1.15(MB) 	Atrernativa: http://sarge.cyrilek.net/projekty/MbT/EditorUpdate_v102.zip
-		- G85_Editor						(pøibaleno) 0.59(MB) 	Atrernativa: http://sarge.cyrilek.net/projekty/MbT/G85_Editor.zip
+		- SgS_mh_crashed					(pÅ™ibaleno) 0.59(MB)	Alternativa: http://sarge.cyrilek.net/projekty/MbT/SgS_mh6_crash.zip
+		- InvTargets						(pÅ™ibaleno) 0.04(MB) 	Atrernativa: http://sarge.cyrilek.net/projekty/MbT/InvTargets.zip				
+		- EditorUpdate_v102					(pÅ™ibaleno) 1.15(MB) 	Atrernativa: http://sarge.cyrilek.net/projekty/MbT/EditorUpdate_v102.zip
+		- G85_Editor						(pÅ™ibaleno) 0.59(MB) 	Atrernativa: http://sarge.cyrilek.net/projekty/MbT/G85_Editor.zip
 		- Rellikki's Resistance Troops (v 1.2)				   10.00(MB)    Alternativa: http://sarge.cyrilek.net/projekty/MbT/RLK_Guer.rar 	
 	   c)	
 		
-		Obsah sloky Addons nakopírujte do sloky .../ArmA/Addons	
-		Obsah sloky Campaign nakopírujte do sloky .../ArmA/Campaign
+		Obsah sloÅ¾ky Addons nakopÃ­rujte do sloÅ¾ky .../ArmA/Addons	
+		Obsah sloÅ¾ky Campaign nakopÃ­rujte do sloÅ¾ky .../ArmA/Campaign
 
 -----------------------------------------------------------------------------------------------------------------------------
 
-	3. Minimální poadavky:
+	3. MinimÃ¡lnÃ­ poÅ¾adavky:
 	   
-	   Pro chod mise minimální verze AmrA: Armed Assault 1.14.
-	   PC splòující minimální poadavky hry AmrA: Armed Assault.
+	   Pro chod mise minimÃ¡lnÃ­ verze AmrA: Armed Assault 1.14.
+	   PC splÅˆujÃ­cÃ­ minimÃ¡lnÃ­ poÅ¾adavky hry AmrA: Armed Assault.
 -----------------------------------------------------------------------------------------------------------------------------
 	
 	4. Verze mise:
 
-	   1.00 - První oficiální verze
+	   1.00 - PrvnÃ­ oficiÃ¡lnÃ­ verze
 
-	   1.10 - Druhá oficiální verze
-		- Opravena závaná chyba v tøetí èásti
-		- Vytvoøena verze nevyadující datadisk Qeen´s Gambit
-		- Opraveny rùzné drobnosti
+	   1.10 - DruhÃ¡ oficiÃ¡lnÃ­ verze
+		- Opravena zÃ¡vaÅ¾nÃ¡ chyba v tÅ™etÃ­ ÄÃ¡sti
+		- VytvoÅ™ena verze nevyÅ¾adujÃ­cÃ­ datadisk QeenÂ´s Gambit
+		- Opraveny rÅ¯znÃ© drobnosti
 		- Opraven problem se zamrznutim PC
 
-	   1.20 - Opraven problém s nesmrtelnım rybáøem
-		- Upraven postih v pøípadì nemorálního konce
-		- Pøidán struènı popis situace do poznámek pøed zaèátek mise
-		- Pøidáno shrnutí událostí po kadé èásti
-		- Opraven problém se širokoúhlím rozlièením v outru
-		- Opraveno spoustu dalších detailù a drobností z postøehù na fórech
-		- Vylepšené preloady pro intro (neèekejte ale zázraky)
+	   1.20 - Opraven problÃ©m s nesmrtelnÃ½m rybÃ¡Å™em
+		- Upraven postih v pÅ™Ã­padÄ› nemorÃ¡lnÃ­ho konce
+		- PÅ™idÃ¡n struÄnÃ½ popis situace do poznÃ¡mek pÅ™ed zaÄÃ¡tek mise
+		- PÅ™idÃ¡no shrnutÃ­ udÃ¡lostÃ­ po kaÅ¾dÃ© ÄÃ¡sti
+		- Opraven problÃ©m se Å¡irokoÃºhlÃ­m rozliÄenÃ­m v outru
+		- Opraveno spoustu dalÅ¡Ã­ch detailÅ¯ a drobnostÃ­ z postÅ™ehÅ¯ na fÃ³rech
+		- VylepÅ¡enÃ© preloady pro intro (neÄekejte ale zÃ¡zraky)
 
 -----------------------------------------------------------------------------------------------------------------------------
 
-5: Autoøi:	
+5: AutoÅ™i:	
 		
 
 		(SgS team)
 
-		-Sarge		hratelná èást
-				pøedìlové scény
-				pøíbìh
-				scénáø
+		-Sarge		hratelnÃ¡ ÄÃ¡st
+				pÅ™edÄ›lovÃ© scÃ©ny
+				pÅ™Ã­bÄ›h
+				scÃ©nÃ¡Å™
 
 		-LuckyM		intro
 				outro
-				scénáø
+				scÃ©nÃ¡Å™
 
 		-Raptor		betatest
 
 
 		
-		(další)
+		(dalÅ¡Ã­)
 
-		-Kuba		pøeklad ENG
+		-Kuba		pÅ™eklad ENG
 				korektura
 
 		-TheSun		InvTargets addon
 
-		-Edge		pøeklad ENG
+		-Edge		pÅ™eklad ENG
 		
-		-Vláïa		pøeklad ENG			
+		-VlÃ¡Äa		pÅ™eklad ENG			
 
 
 
@@ -114,7 +114,7 @@
 
 		-Str
 		-Sarge
-		-Jeuro
+		-JeÅ¾uro
 		-Wallas
 		-Martinius
 		-Banan
@@ -144,29 +144,29 @@
 		
 -----------------------------------------------------------------------------------------------------------------------------
 
-	6. Podìkování:
+	6. PodÄ›kovÃ¡nÃ­:
 
-		-Dìkuji EMSImu za editor help a všem jeho pøispìvovatelùm, za ucelenı souhrn rad a návodù, kterı dennì vyuívám.
-		-Dìkuji a zároveò se omlouvám všem, kteøí se na misi nìjakım zpùsobem podíleli a nenalezli zde své jméno.
+		-DÄ›kuji EMSImu za editor help a vÅ¡em jeho pÅ™ispÄ›vovatelÅ¯m, za ucelenÃ½ souhrn rad a nÃ¡vodÅ¯, kterÃ½ dennÄ› vyuÅ¾Ã­vÃ¡m.
+		-DÄ›kuji a zÃ¡roveÅˆ se omlouvÃ¡m vÅ¡em, kteÅ™Ã­ se na misi nÄ›jakÃ½m zpÅ¯sobem podÃ­leli a nenalezli zde svÃ© jmÃ©no.
 -----------------------------------------------------------------------------------------------------------------------------
 
-	7. Práva:
+	7. PrÃ¡va:
 		
-		Tuto misi vytvoøilo Sarge Studio. Jakékoliv úpravy mise a pøedìlávky mohou bıt provedeny pouze za souhlasu
-		autorù tj. Sarge Studia. Tato mise je nekomerèní poèin a je urèena k šíøení po internetu. Proto jakékoliv prodávání
-		za úèelem zisku je, bez souhlasu autoru zakázáno (stejnì, kdo by to kupoval). Pokud máte zájem vyuít nìkterou
-		èást mise k obohacení vlastní tvorby, uvìdomte prosím o tom nejprve Sarge Studio a uveïte jej v titulcích
-		vaší práce. 
-		Autoøi nenesou ádnou zodpovìdnost, za pouití nebo poití tohoto díla. V pøípadì poškození vašeho PC dat èi jiné újmy finanèní
-		èi nefinanèní nenese Sarge Studio, IDEA games ani Bohemia Interactive ádnou zodpovìdnost. Misi pouíváte na
-		VLASTNÍ riziko. 
+		Tuto misi vytvoÅ™ilo Sarge Studio. JakÃ©koliv Ãºpravy mise a pÅ™edÄ›lÃ¡vky mohou bÃ½t provedeny pouze za souhlasu
+		autorÅ¯ tj. Sarge Studia. Tato mise je nekomerÄnÃ­ poÄin a je urÄena k Å¡Ã­Å™enÃ­ po internetu. Proto jakÃ©koliv prodÃ¡vÃ¡nÃ­
+		za ÃºÄelem zisku je, bez souhlasu autoru zakÃ¡zÃ¡no (stejnÄ›, kdo by to kupoval). Pokud mÃ¡te zÃ¡jem vyuÅ¾Ã­t nÄ›kterou
+		ÄÃ¡st mise k obohacenÃ­ vlastnÃ­ tvorby, uvÄ›domte prosÃ­m o tom nejprve Sarge Studio a uveÄte jej v titulcÃ­ch
+		vaÅ¡Ã­ prÃ¡ce. 
+		AutoÅ™i nenesou Å¾Ã¡dnou zodpovÄ›dnost, za pouÅ¾itÃ­ nebo poÅ¾itÃ­ tohoto dÃ­la. V pÅ™Ã­padÄ› poÅ¡kozenÃ­ vaÅ¡eho PC dat Äi jinÃ© Ãºjmy finanÄnÃ­
+		Äi nefinanÄnÃ­ nenese Sarge Studio, IDEA games ani Bohemia Interactive Å¾Ã¡dnou zodpovÄ›dnost. Misi pouÅ¾Ã­vÃ¡te na
+		VLASTNÃ riziko. 
 
-		Všechny osoby a události v misi jsou smyšlené. Jakákoliv podobnost se skuteèností je pouze neúmyslná a náhodná.
+		VÅ¡echny osoby a udÃ¡losti v misi jsou smyÅ¡lenÃ©. JakÃ¡koliv podobnost se skuteÄnostÃ­ je pouze neÃºmyslnÃ¡ a nÃ¡hodnÃ¡.
 -----------------------------------------------------------------------------------------------------------------------------
 		
 	8. Kontakt:
 
-		V pøípadì jakéhokoliv námìtu, dotazu èi problému mì kontaktujte:
+		V pÅ™Ã­padÄ› jakÃ©hokoliv nÃ¡mÄ›tu, dotazu Äi problÃ©mu mÄ› kontaktujte:
 
 		-Sarge
 	
@@ -175,7 +175,7 @@
 
 		-Sarge Studio		
 
-			-stránky	www.sarge-studio.wz.cz
+			-strÃ¡nky	www.sarge-studio.wz.cz
 -----------------------------------------------------------------------------------------------------------------------------
 
 

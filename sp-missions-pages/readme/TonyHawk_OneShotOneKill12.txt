@@ -1,27 +1,27 @@
 Autor: TonyHawk
-Názov misie: One shot, One kill
+NÃ¡zov misie: One shot, One kill
 Verzia misie: 1.2
-Typ misie: ostrelovaè-atentát-stealth
-Ve¾kos: 3,70 MB
-Potrebné addony: editorupdate102
-Tvorené na verzii OFP: 1.96
-Potrebná verzia k hraniu: 1.96
+Typ misie: ostrelovaÄ-atentÃ¡t-stealth
+VeÄ¾kosÅ¥: 3,70 MB
+PotrebnÃ© addony: editorupdate102
+TvorenÃ© na verzii OFP: 1.96
+PotrebnÃ¡ verzia k hraniu: 1.96
 
-Zopár slov: je to misia do súae misií organizovanej Lanom Gastovskim (v roku 2008), pri ktorej som sa nauèil zopár drobností (pri kadej jednej vytvorenej misii sa èlovek uèí). Misia ako taká je pomerne krátka a ve¾mi ve¾a vecí v nej by sa pri terajšom poh¾ade (rok 2021) dalo urobi lepšie, krajšie, realistickejšie... Ale tak to u bıva, keï vytvoríte raz misiu, nejdete ju celú od piky prerába :).
+ZopÃ¡r slov: je to misia do sÃºÅ¥aÅ¾e misiÃ­ organizovanej Lanom Gastovskim (v roku 2008), pri ktorej som sa nauÄil zopÃ¡r drobnostÃ­ (pri kaÅ¾dej jednej vytvorenej misii sa Älovek uÄÃ­). Misia ako takÃ¡ je pomerne krÃ¡tka a veÄ¾mi veÄ¾a vecÃ­ v nej by sa pri terajÅ¡om pohÄ¾ade (rok 2021) dalo urobiÅ¥ lepÅ¡ie, krajÅ¡ie, realistickejÅ¡ie... Ale tak to uÅ¾ bÃ½va, keÄ vytvorÃ­te raz misiu, nejdete ju celÃº od piky prerÃ¡baÅ¥ :).
 
-Dodatok k verzii 1.2: Najnovšia verzia obsahuje zopár drobností navyše - anglickı preklad, zopár vyladení a vo¾bu zbrane na zaèiatku misie.
+Dodatok k verzii 1.2: NajnovÅ¡ia verzia obsahuje zopÃ¡r drobnostÃ­ navyÅ¡e - anglickÃ½ preklad, zopÃ¡r vyladenÃ­ a voÄ¾bu zbrane na zaÄiatku misie.
 
 Kontakt na autora:
-	Web-stránka - www.tonyhawkblog.estranky.cz
+	Web-strÃ¡nka - www.tonyhawkblog.estranky.cz
 	E-mail	    - TonyHawk94@azet.sk
 
-Poïakovanie: dabérom - Str (Gaia) a Paøan
-             Paøanovi za rozhovory na ICQ
-             Anurisovi za rôzne rady
+PoÄakovanie: dabÃ©rom - Str (Gaia) a PaÅ™an
+             PaÅ™anovi za rozhovory na ICQ
+             Anurisovi za rÃ´zne rady
 	     Ruprtovej poradne k OFP/ARMA
-             a Bohemia Interactive Studio za skvelú hru, ktorá ešte aj teraz ije
+             a Bohemia Interactive Studio za skvelÃº hru, ktorÃ¡ eÅ¡te aj teraz Å¾ije
 
-(Ak som na niekoho zabudol, tak sa ospravedlòujem a dodatoène ïakujem :))
+(Ak som na niekoho zabudol, tak sa ospravedlÅˆujem a dodatoÄne Äakujem :))
 
-Bugy a problémy: ak by sa nejaké vyskytli, neváhajte ma kontaktova. Misia bola ve¾akrát testovaná, ale vdy sa nieèo môe nájs...
-Uite si to!!!
+Bugy a problÃ©my: ak by sa nejakÃ© vyskytli, nevÃ¡hajte ma kontaktovaÅ¥. Misia bola veÄ¾akrÃ¡t testovanÃ¡, ale vÅ¾dy sa nieÄo mÃ´Å¾e nÃ¡jsÅ¥...
+UÅ¾ite si to!!!

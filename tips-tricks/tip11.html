@@ -8,7 +8,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-K3867HR');</script>
 <!-- End Google Tag Manager -->
 
-<meta http-equiv="content-type" content="text/html; charset=windows-1250">
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
 		<title>Detail tipu</title>
 		<meta name="GENERATOR" content="Microsoft Visual Studio .NET 7.1">
 		<meta name="CODE_LANGUAGE" content="Visual Basic .NET 7.1">
@@ -28,74 +28,74 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	<tbody><tr>
 		<td style="color:#FFFFFF;font-weight:bold;" width="50%">Autor : Didymos</td>
 		<td style="color:#FFFFFF;font-weight:bold;" width="50%" align="right">
-			<a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/editor-stuff/tips-tricks/samples/horici_vrtulnik.exe" target="_blank">Stáhnout ukázku</a><br>
-			<a href="./../tips-tricks.html">Zpět na Tipy &amp Triky</a>
+			<a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/editor-stuff/tips-tricks/samples/horici_vrtulnik.exe" target="_blank">StĂˇhnout ukĂˇzku</a><br>
+			<a href="./../tips-tricks.html">ZpÄ›t na Tipy &amp Triky</a>
 		</td>
 	</tr>
 	<tr>
 		<td colspan="2" height="9px" bgcolor="#9FA5C5"></td>
 	</tr>
 	<tr>
-		<td colspan="2" style="font-size:1.0em;font-weight:bold;color:#FF6600;" align="center">Hořící vrtulník nebo jakýkoli jiný pohybující se objekt</td>
+		<td colspan="2" style="font-size:1.0em;font-weight:bold;color:#FF6600;" align="center">HoĹ™Ă­cĂ­ vrtulnĂ­k nebo jakĂ˝koli jinĂ˝ pohybujĂ­cĂ­ se objekt</td>
 	</tr>
 	<tr>
 		<td colspan="2" height="9px" bgcolor="#9FA5C5"></td>
 	</tr>
 	<tr>
 		<td colspan="2" style="font-size:1.05em;font-weight:normal;text-align:justify;color:#EBE7D8;">Jde
- v podstatě o velmi jednoduchou věc. Dáte do smyčky hořící objekt podle 
-toho, jak psal M.P. v sekci Tipy a triky: Hrátky s ohněm. <br><br>_bum = ah<br><br>_mytime = _time<br>#ohen<br>[[(GetPos _bum select 0), (GetPos _bum select 1), (GetPos _bum select 2)+1], [0,0,1], 1, 0.1, '' ] exec 'firesource.sqs'<br>~0.01<br>? _time &lt; (_mytime + 10): GoTo 'ohen'<br><br>a
- pouze tam změníte některé hodnoty. Konkrétně, dobu hoření a intenzitu 
-plamene. Že musíte mít v adresáři s vaší misí skripty: fire.sqs, 
-firesource.sqs, smoke.sqs, spark.sqs  tu snad psát nemusím, na to se 
-podívejte ve zmiňovaných hrátkách s ohněm nebo jsou samozřejmě v i v 
-ukázkové misi. <br>Jednička na konci řádku je číslo udávající dobu 
-hoření. Toto číslo musíte mít malé, protože by se vám plamen držel na 
-místě, kde už pohybující objekt nebude a číslo za, v našem případě 0.1  
-ukazuje intenzitu plamene, což , jak už vás jistě napadlo vám umožní to,
- aby se z objektu buď jen kouřilo nebo aby přímo hořel. Toto samotné vám
- pro samotný efekt hoření pohybujícího se objektu stačí, ale protože v 
-životě není nic jednoduché, tak i tady bude nějaké to ale. V tomto 
-případě bude největší „ale“ u toho, že tento plamen nemá zničující 
-účinky. Když si stáhnete ukázkovou misi, tak jsem se tam pokusil 
-vytvořit něco jako poruchu vrtulníku s následným únikem paliva a 
-hořením. Hned na začátek, ještě před tím, než se tu pokusím vysvětlit 
-můj záměr chci podotknout, že nejsem žádný scriptař a že jsem 
-přesvědčený, že by to šlo udělat mnohem jednodušeji a elegantněji a budu
- rád, když se nad tím nějaká chytrá hlava zamyslí a budu ještě raději, 
-když mi pak ukáže, jak to udělat lépe. Teď už k samotnému skriptu. <br>Nejprve
- je třeba podotknout, že jsem celou situaci simuloval tak, že dojde k 
-nezvratnému zničení vrtulníku. Hráč nebo AI, mají dvě možnosti, buď 
-vyskočit, což by nebylo příliš reálné nebo se pokusit s poškozeným 
-strojem přistát. Jak jsem naznačil, protože hoření nemá zničující s
-účinek, vytvořil jsem ještě jeden podružný script, který zajistí plynulé
- ničení vrtulníku a zároveň s poškozením ubývá i paliva. Protože, jak 
-jsem již řekl, dochází k jeho úniku. To vypadá takto:<br><br>#poskozen<br>_bum setdamage (damage _bum + 0.001)<br>_bum setfuel (fuel _bum - 0.001)<br>~0.1<br>? (GetPos _bum select 2) &lt; 0.5 : goto 'konec'<br><br>Goto 'poskozen'<br><br>#konec<br><br>Exit<br><br>
- Tím máme zajištěno, že hráč jako pilot bude muset chtě nechtě přistát, 
-jestli chce celou krizovou situaci přežít. Toto postupné ničení se 
-zastaví až ve chvíli, kdy už bude stroj téměř na zemi, přesně pak 0,5 m 
-nad Zemí. To už se ale aktivuje jiný skript, díky němuž dojde po určité 
-době k výbuchu vrtulníku. Tím bychom měli mít jistotu, že bude stroj 
-chtě, nechtě zničen, teď už stačí k celé situaci přidat ohýnek. :o) A 
-protože jsem chtěl, aby to vypadalo co možná nejlépe, tak jsem intenzitu
- plamene postupně zvedal, což v praxi znamená, že se z vrtulníku nejprve
- kouří, poté se tam objeví malý plamínek, pak větší, pak dojde k 
-poškození zadního motoru a vrtulník je tak téměř neovladatelný a jediná 
-možnost zůstává přistát nebo pak tedy ještě vyskočit, čímž se ale 
-nezastaví již spuštěný script, což bude asi největší slabina celého 
-kódu. Jak je ve scriptu patrné, tak jsem toto postupné hoření řešil 
-časem, tedy ukončením po určité době, přidáním intenzity plamene a opět 
-nastavením času a to až do doby, kdy dojde k poškození zadního motoru.<br><br>_chopperdir = GetDir ah<br><br>#loop<br>[[(GetPos ah select 0), (GetPos ah select 1), (GetPos ah select 2)+1], [0,0,1], 0.5, 4, '' ] exec 'firesource.sqs'<br>_chopperdir = _chopperdir + 5<br>ah SetDir _chopperdir<br>~0.01<br>? (GetPos ah select 2) &lt; 20 : goto 'konec'<br>Goto 'loop'<br><br>#konec<br><br>
- Další v pořadí spuštěný script totiž zastaví hoření až když bude výška 
-objektu nad Zemí 0,5 m. Další hoření bude ukončeno až absolutním 
-zničením celého vrtulníku. Potom by šel zřejmě přidat ještě nějaký ten 
-plamínek, ale po výbuchu se i tak z celého vrtulníku ještě kouří.<br> 
-Tak to by byl velký popis k malému scriptu. :o) Pro zpestření celé 
-situace jsem tam script zopakoval ještě jednou a to na hořícím pilotovi,
- který se snaží utéci z hořícího vrtulníku, který co nevidět vybouchne. 
-Bohužel i jeho zranění jsou předem odsouzená. :o(  Celým skriptem jsem 
-chtěl pouze naznačit možnosti, co vymyslíte vy, na to se budu těšit. Na 
-závěr tu mám pro vás několik obrázků: <a target="_blank" href="vrtulec.htm">hořící vrtulník.</a><br><br>Didymos<br></td>
+ v podstatÄ› o velmi jednoduchou vÄ›c. DĂˇte do smyÄŤky hoĹ™Ă­cĂ­ objekt podle 
+toho, jak psal M.P. v sekci Tipy a triky: HrĂˇtky s ohnÄ›m. <br><br>_bum = ah<br><br>_mytime = _time<br>#ohen<br>[[(GetPos _bum select 0), (GetPos _bum select 1), (GetPos _bum select 2)+1], [0,0,1], 1, 0.1, '' ] exec 'firesource.sqs'<br>~0.01<br>? _time &lt; (_mytime + 10): GoTo 'ohen'<br><br>a
+ pouze tam zmÄ›nĂ­te nÄ›kterĂ© hodnoty. KonkrĂ©tnÄ›, dobu hoĹ™enĂ­ a intenzitu 
+plamene. Ĺ˝e musĂ­te mĂ­t v adresĂˇĹ™i s vaĹˇĂ­ misĂ­ skripty: fire.sqs, 
+firesource.sqs, smoke.sqs, spark.sqs  tu snad psĂˇt nemusĂ­m, na to se 
+podĂ­vejte ve zmiĹovanĂ˝ch hrĂˇtkĂˇch s ohnÄ›m nebo jsou samozĹ™ejmÄ› v i v 
+ukĂˇzkovĂ© misi. <br>JedniÄŤka na konci Ĺ™Ăˇdku je ÄŤĂ­slo udĂˇvajĂ­cĂ­ dobu 
+hoĹ™enĂ­. Toto ÄŤĂ­slo musĂ­te mĂ­t malĂ©, protoĹľe by se vĂˇm plamen drĹľel na 
+mĂ­stÄ›, kde uĹľ pohybujĂ­cĂ­ objekt nebude a ÄŤĂ­slo za, v naĹˇem pĹ™Ă­padÄ› 0.1  
+ukazuje intenzitu plamene, coĹľ , jak uĹľ vĂˇs jistÄ› napadlo vĂˇm umoĹľnĂ­ to,
+ aby se z objektu buÄŹ jen kouĹ™ilo nebo aby pĹ™Ă­mo hoĹ™el. Toto samotnĂ© vĂˇm
+ pro samotnĂ˝ efekt hoĹ™enĂ­ pohybujĂ­cĂ­ho se objektu staÄŤĂ­, ale protoĹľe v 
+ĹľivotÄ› nenĂ­ nic jednoduchĂ©, tak i tady bude nÄ›jakĂ© to ale. V tomto 
+pĹ™Ă­padÄ› bude nejvÄ›tĹˇĂ­ â€žaleâ€ś u toho, Ĺľe tento plamen nemĂˇ zniÄŤujĂ­cĂ­ 
+ĂşÄŤinky. KdyĹľ si stĂˇhnete ukĂˇzkovou misi, tak jsem se tam pokusil 
+vytvoĹ™it nÄ›co jako poruchu vrtulnĂ­ku s nĂˇslednĂ˝m Ăşnikem paliva a 
+hoĹ™enĂ­m. Hned na zaÄŤĂˇtek, jeĹˇtÄ› pĹ™ed tĂ­m, neĹľ se tu pokusĂ­m vysvÄ›tlit 
+mĹŻj zĂˇmÄ›r chci podotknout, Ĺľe nejsem ĹľĂˇdnĂ˝ scriptaĹ™ a Ĺľe jsem 
+pĹ™esvÄ›dÄŤenĂ˝, Ĺľe by to Ĺˇlo udÄ›lat mnohem jednoduĹˇeji a elegantnÄ›ji a budu
+ rĂˇd, kdyĹľ se nad tĂ­m nÄ›jakĂˇ chytrĂˇ hlava zamyslĂ­ a budu jeĹˇtÄ› radÄ›ji, 
+kdyĹľ mi pak ukĂˇĹľe, jak to udÄ›lat lĂ©pe. TeÄŹ uĹľ k samotnĂ©mu skriptu. <br>Nejprve
+ je tĹ™eba podotknout, Ĺľe jsem celou situaci simuloval tak, Ĺľe dojde k 
+nezvratnĂ©mu zniÄŤenĂ­ vrtulnĂ­ku. HrĂˇÄŤ nebo AI, majĂ­ dvÄ› moĹľnosti, buÄŹ 
+vyskoÄŤit, coĹľ by nebylo pĹ™Ă­liĹˇ reĂˇlnĂ© nebo se pokusit s poĹˇkozenĂ˝m 
+strojem pĹ™istĂˇt. Jak jsem naznaÄŤil, protoĹľe hoĹ™enĂ­ nemĂˇ zniÄŤujĂ­cĂ­ s
+ĂşÄŤinek, vytvoĹ™il jsem jeĹˇtÄ› jeden podruĹľnĂ˝ script, kterĂ˝ zajistĂ­ plynulĂ©
+ niÄŤenĂ­ vrtulnĂ­ku a zĂˇroveĹ s poĹˇkozenĂ­m ubĂ˝vĂˇ i paliva. ProtoĹľe, jak 
+jsem jiĹľ Ĺ™ekl, dochĂˇzĂ­ k jeho Ăşniku. To vypadĂˇ takto:<br><br>#poskozen<br>_bum setdamage (damage _bum + 0.001)<br>_bum setfuel (fuel _bum - 0.001)<br>~0.1<br>? (GetPos _bum select 2) &lt; 0.5 : goto 'konec'<br><br>Goto 'poskozen'<br><br>#konec<br><br>Exit<br><br>
+ TĂ­m mĂˇme zajiĹˇtÄ›no, Ĺľe hrĂˇÄŤ jako pilot bude muset chtÄ› nechtÄ› pĹ™istĂˇt, 
+jestli chce celou krizovou situaci pĹ™eĹľĂ­t. Toto postupnĂ© niÄŤenĂ­ se 
+zastavĂ­ aĹľ ve chvĂ­li, kdy uĹľ bude stroj tĂ©mÄ›Ĺ™ na zemi, pĹ™esnÄ› pak 0,5 m 
+nad ZemĂ­. To uĹľ se ale aktivuje jinĂ˝ skript, dĂ­ky nÄ›muĹľ dojde po urÄŤitĂ© 
+dobÄ› k vĂ˝buchu vrtulnĂ­ku. TĂ­m bychom mÄ›li mĂ­t jistotu, Ĺľe bude stroj 
+chtÄ›, nechtÄ› zniÄŤen, teÄŹ uĹľ staÄŤĂ­ k celĂ© situaci pĹ™idat ohĂ˝nek. :o) A 
+protoĹľe jsem chtÄ›l, aby to vypadalo co moĹľnĂˇ nejlĂ©pe, tak jsem intenzitu
+ plamene postupnÄ› zvedal, coĹľ v praxi znamenĂˇ, Ĺľe se z vrtulnĂ­ku nejprve
+ kouĹ™Ă­, potĂ© se tam objevĂ­ malĂ˝ plamĂ­nek, pak vÄ›tĹˇĂ­, pak dojde k 
+poĹˇkozenĂ­ zadnĂ­ho motoru a vrtulnĂ­k je tak tĂ©mÄ›Ĺ™ neovladatelnĂ˝ a jedinĂˇ 
+moĹľnost zĹŻstĂˇvĂˇ pĹ™istĂˇt nebo pak tedy jeĹˇtÄ› vyskoÄŤit, ÄŤĂ­mĹľ se ale 
+nezastavĂ­ jiĹľ spuĹˇtÄ›nĂ˝ script, coĹľ bude asi nejvÄ›tĹˇĂ­ slabina celĂ©ho 
+kĂłdu. Jak je ve scriptu patrnĂ©, tak jsem toto postupnĂ© hoĹ™enĂ­ Ĺ™eĹˇil 
+ÄŤasem, tedy ukonÄŤenĂ­m po urÄŤitĂ© dobÄ›, pĹ™idĂˇnĂ­m intenzity plamene a opÄ›t 
+nastavenĂ­m ÄŤasu a to aĹľ do doby, kdy dojde k poĹˇkozenĂ­ zadnĂ­ho motoru.<br><br>_chopperdir = GetDir ah<br><br>#loop<br>[[(GetPos ah select 0), (GetPos ah select 1), (GetPos ah select 2)+1], [0,0,1], 0.5, 4, '' ] exec 'firesource.sqs'<br>_chopperdir = _chopperdir + 5<br>ah SetDir _chopperdir<br>~0.01<br>? (GetPos ah select 2) &lt; 20 : goto 'konec'<br>Goto 'loop'<br><br>#konec<br><br>
+ DalĹˇĂ­ v poĹ™adĂ­ spuĹˇtÄ›nĂ˝ script totiĹľ zastavĂ­ hoĹ™enĂ­ aĹľ kdyĹľ bude vĂ˝Ĺˇka 
+objektu nad ZemĂ­ 0,5 m. DalĹˇĂ­ hoĹ™enĂ­ bude ukonÄŤeno aĹľ absolutnĂ­m 
+zniÄŤenĂ­m celĂ©ho vrtulnĂ­ku. Potom by Ĺˇel zĹ™ejmÄ› pĹ™idat jeĹˇtÄ› nÄ›jakĂ˝ ten 
+plamĂ­nek, ale po vĂ˝buchu se i tak z celĂ©ho vrtulnĂ­ku jeĹˇtÄ› kouĹ™Ă­.<br> 
+Tak to by byl velkĂ˝ popis k malĂ©mu scriptu. :o) Pro zpestĹ™enĂ­ celĂ© 
+situace jsem tam script zopakoval jeĹˇtÄ› jednou a to na hoĹ™Ă­cĂ­m pilotovi,
+ kterĂ˝ se snaĹľĂ­ utĂ©ci z hoĹ™Ă­cĂ­ho vrtulnĂ­ku, kterĂ˝ co nevidÄ›t vybouchne. 
+BohuĹľel i jeho zranÄ›nĂ­ jsou pĹ™edem odsouzenĂˇ. :o(  CelĂ˝m skriptem jsem 
+chtÄ›l pouze naznaÄŤit moĹľnosti, co vymyslĂ­te vy, na to se budu tÄ›Ĺˇit. Na 
+zĂˇvÄ›r tu mĂˇm pro vĂˇs nÄ›kolik obrĂˇzkĹŻ: <a target="_blank" href="vrtulec.htm">hoĹ™Ă­cĂ­ vrtulnĂ­k.</a><br><br>Didymos<br></td>
 	</tr>
 </tbody></table>
 

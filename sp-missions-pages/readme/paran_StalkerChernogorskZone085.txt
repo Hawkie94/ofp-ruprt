@@ -1,65 +1,65 @@
-Název mise: Stalker: Chernogorsk zone
+NÃ¡zev mise: Stalker: Chernogorsk zone
 
 verze: Betaverze 0.85
 
-Potøebná verze ofp: Tvoøeno pod verzí 1.96
+PotÅ™ebnÃ¡ verze ofp: TvoÅ™eno pod verzÃ­ 1.96
 
-Potøebné modifikace:
+PotÅ™ebnÃ© modifikace:
 	- Return to Chernogorsk Zone v 1.01
-	- addony z Nightstalkers Shadow of Namalsk prologue beta 0.3 (konkretnì soubory NS.pbo, facestex2.pbo, IL86.pbo, TRs301.pbo)
+	- addony z Nightstalkers Shadow of Namalsk prologue beta 0.3 (konkretnÄ› soubory NS.pbo, facestex2.pbo, IL86.pbo, TRs301.pbo)
 
-Obtínost: Vysoká
+ObtÃ­Å¾nost: VysokÃ¡
 
-Nároènost: Hodnì vysoká (je to zpùsobeno tím, e v misi funguje hodnì scriptù a taky tam je hromada jednotek) NEDOPORUÈENO HRÁT NA SLABŠÍCH PC A NA VYSOKÉ DETAILY
+NÃ¡roÄnost: HodnÄ› vysokÃ¡ (je to zpÅ¯sobeno tÃ­m, Å¾e v misi funguje hodnÄ› scriptÅ¯ a taky tam je hromada jednotek) NEDOPORUÄŒENO HRÃT NA SLABÅ ÃCH PC A NA VYSOKÃ‰ DETAILY
  
 Intro: ne
 
 Outro: ne
 
-O misi: V misi hrajete za stalkera(jméno jedno jaké) a vydáváte se do nebezpeèné zóny na ostrovì Chernogorsk (viz. pøíruèka pro pøeití v zónì). 
+O misi: V misi hrajete za stalkera(jmÃ©no jedno jakÃ©) a vydÃ¡vÃ¡te se do nebezpeÄnÃ© zÃ³ny na ostrovÄ› Chernogorsk (viz. pÅ™Ã­ruÄka pro pÅ™eÅ¾itÃ­ v zÃ³nÄ›). 
 
-Mise je betaverze, ale je plnì hratelná, èeká vás nìkolik úkolù, které kdy splníte, dostanete souøadnice artefaktu. Musíte splnit všechny úkoly a potom dostanete monost misi ukonèit. Ale nemusíte a mùete pokraèovat v prùzkumu zóny.
-Spoustu vìcí je vypuštìna nebo zjednodušena, protoe jinak by vıvoj trval další rok. Na misi jsem pracoval 9 mìsícù a nìkolikrát jsem misi pøedìlával. Další verze se neplánuje, ale moná vyjde nìjakı ten opravnı patch. Mise samozøejmì obshauje chyby, ale spousta vìcí by mìla fungovat tak, jak má. Nìkteré vìci ani ovlivnit nejdou. Snail jsem se misi udìlat co nejoriginálnìjší v rámci moností a je v ní spoustu vìcí, které jsem si pùjèil ze Sumrakovi kampanì v modifikaci Return to Chernogorsk zone. Mise je inspirována hrou S.T.A.L.K.E.R Shadow of Chernobyl, kterou jsem ale nikdy nehrál.
+Mise je betaverze, ale je plnÄ› hratelnÃ¡, ÄekÃ¡ vÃ¡s nÄ›kolik ÃºkolÅ¯, kterÃ© kdyÅ¾ splnÃ­te, dostanete souÅ™adnice artefaktu. MusÃ­te splnit vÅ¡echny Ãºkoly a potom dostanete moÅ¾nost misi ukonÄit. Ale nemusÃ­te a mÅ¯Å¾ete pokraÄovat v prÅ¯zkumu zÃ³ny.
+Spoustu vÄ›cÃ­ je vypuÅ¡tÄ›na nebo zjednoduÅ¡ena, protoÅ¾e jinak by vÃ½voj trval dalÅ¡Ã­ rok. Na misi jsem pracoval 9 mÄ›sÃ­cÅ¯ a nÄ›kolikrÃ¡t jsem misi pÅ™edÄ›lÃ¡val. DalÅ¡Ã­ verze se neplÃ¡nuje, ale moÅ¾nÃ¡ vyjde nÄ›jakÃ½ ten opravnÃ½ patch. Mise samozÅ™ejmÄ› obshauje chyby, ale spousta vÄ›cÃ­ by mÄ›la fungovat tak, jak mÃ¡. NÄ›kterÃ© vÄ›ci ani ovlivnit nejdou. SnaÅ¾il jsem se misi udÄ›lat co nejoriginÃ¡lnÄ›jÅ¡Ã­ v rÃ¡mci moÅ¾nostÃ­ a je v nÃ­ spoustu vÄ›cÃ­, kterÃ© jsem si pÅ¯jÄil ze Sumrakovi kampanÄ› v modifikaci Return to Chernogorsk zone. Mise je inspirovÃ¡na hrou S.T.A.L.K.E.R Shadow of Chernobyl, kterou jsem ale nikdy nehrÃ¡l.
 
-verze 0.85 opravené vìci:
--mise se u ukonèuje(bylo to zpùsobeno zvuky)- K tomuhle musím øíct, e moná budete muset zkusit ukonèit misi nìkolikrát, musí se toti vypnout zvuky a tak a dohraje zvuk je funkce ukonèit misi funkèní
--opraveno ukládání
--pøidána funkce lékárnièka
--akce PDA u by se mìli odstraòovat
--texty v cutscénách u nemizí (to také zpùsobovali zvuky zóny)
--zvìtšen dosah artefaktù, aby se lépe hledali
--zvìtšil jsem dosah spínaèù spouštìjících muziku
--pøidány dva dobrovolné úkoly (není potøeba splnit pro ukonèení mise)
--pøidán snork (hledejte a bojte se :-)
+verze 0.85 opravenÃ© vÄ›ci:
+-mise se uÅ¾ ukonÄuje(bylo to zpÅ¯sobeno zvuky)- K tomuhle musÃ­m Å™Ã­ct, Å¾e moÅ¾nÃ¡ budete muset zkusit ukonÄit misi nÄ›kolikrÃ¡t, musÃ­ se totiÅ¾ vypnout zvuky a tak aÅ¾ dohraje zvuk je funkce ukonÄit misi funkÄnÃ­
+-opraveno uklÃ¡dÃ¡nÃ­
+-pÅ™idÃ¡na funkce lÃ©kÃ¡rniÄka
+-akce PDA uÅ¾ by se mÄ›li odstraÅˆovat
+-texty v cutscÃ©nÃ¡ch uÅ¾ nemizÃ­ (to takÃ© zpÅ¯sobovali zvuky zÃ³ny)
+-zvÄ›tÅ¡en dosah artefaktÅ¯, aby se lÃ©pe hledali
+-zvÄ›tÅ¡il jsem dosah spÃ­naÄÅ¯ spouÅ¡tÄ›jÃ­cÃ­ch muziku
+-pÅ™idÃ¡ny dva dobrovolnÃ© Ãºkoly (nenÃ­ potÅ™eba splnit pro ukonÄenÃ­ mise)
+-pÅ™idÃ¡n snork (hledejte a bojte se :-)
 
 
-Vìci, které jsem vypustil:
+VÄ›ci, kterÃ© jsem vypustil:
 Intro
 Outro
-Dialogová zbrojnice
-Nìkteré druhy anomálií
+DialogovÃ¡ zbrojnice
+NÄ›kterÃ© druhy anomÃ¡liÃ­
 Jednu frakce
-Jednu èást pøíbìhu
-Nìkteré úkoly
-a nìkteré další vìci, na které jsem u zapomnìl
+Jednu ÄÃ¡st pÅ™Ã­bÄ›hu
+NÄ›kterÃ© Ãºkoly
+a nÄ›kterÃ© dalÅ¡Ã­ vÄ›ci, na kterÃ© jsem uÅ¾ zapomnÄ›l
 
-Podìkování:
-Rád bych podìkoval tìmto lidem
+PodÄ›kovÃ¡nÃ­:
+RÃ¡d bych podÄ›koval tÄ›mto lidem
 
-Sumrak-Za to, e mi mnohokrát poradil, udìlal skvìlı mód a dovolil pouít svoje vìci do mé mise
+Sumrak-Za to, Å¾e mi mnohokrÃ¡t poradil, udÄ›lal skvÄ›lÃ½ mÃ³d a dovolil pouÅ¾Ã­t svoje vÄ›ci do mÃ© mise
 
-Hammer-Za to, e mi na zaèátku pomohl s misí
+Hammer-Za to, Å¾e mi na zaÄÃ¡tku pomohl s misÃ­
 
-TonyHawk- Za dlouhé rozhovory na icq
+TonyHawk- Za dlouhÃ© rozhovory na icq
 
-Ruprtova poradna pro ofp/arma- za to, e mi lidé pùsobící na poradnì mnohokrát poradili, kdy jsem øešil problémy
+Ruprtova poradna pro ofp/arma- za to, Å¾e mi lidÃ© pÅ¯sobÃ­cÃ­ na poradnÄ› mnohokrÃ¡t poradili, kdyÅ¾ jsem Å™eÅ¡il problÃ©my
 
-Bohemia Interactive- Za skvìlou hru
+Bohemia Interactive- Za skvÄ›lou hru
 
-Všem zbylím pøíznivcùm ofp 
+VÅ¡em zbylÃ­m pÅ™Ã­znivcÅ¯m ofp 
 
 
-A SAMOZØEJMÌ TOBÌ, E JSI SI PØEÈETL ÈTIMNÌ
+A SAMOZÅ˜EJMÄš TOBÄš, Å½E JSI SI PÅ˜EÄŒETL ÄŒTIMNÄš
 
 
 paran-modelar.blog.cz
@@ -72,7 +72,7 @@ paran-modelar.blog.cz
 
 
 
--------------------------------------POMOC PRO HRÁÈE, KTEØÍ SI NEVÌDÍ RADY-----------------------------
+-------------------------------------POMOC PRO HRÃÄŒE, KTEÅ˜Ã SI NEVÄšDÃ RADY-----------------------------
 
 
 
@@ -86,7 +86,7 @@ paran-modelar.blog.cz
 
 
 
----------------------------------SKUTEÈNÌ TO CHCEŠ PØEÈÍST A VYZRADIT VÌCI V MISI?----------------------
+---------------------------------SKUTEÄŒNÄš TO CHCEÅ  PÅ˜EÄŒÃST A VYZRADIT VÄšCI V MISI?----------------------
 
 
 
@@ -97,7 +97,7 @@ paran-modelar.blog.cz
 
 
 
----------------------------------------PØIJDEŠ O PØEKVAPENÍ!--------------------------------------------
+---------------------------------------PÅ˜IJDEÅ  O PÅ˜EKVAPENÃ!--------------------------------------------
 
 
 
@@ -108,7 +108,7 @@ paran-modelar.blog.cz
 
 
 
--------------------------------------------OPRAVDU TO CHCEŠ???------------------------------------------
+-------------------------------------------OPRAVDU TO CHCEÅ ???------------------------------------------
 
 
 
@@ -118,10 +118,10 @@ paran-modelar.blog.cz
 
 
 
-No tak jo, kdy teda chceš.
+No tak jo, kdyÅ¾ teda chceÅ¡.
 
-V misi se nachází 4 artefakty a to na souøadnicích Be 60 a DB 71, tyhle dva dostaneš od Maxe a potom jsou dva na Dc 58 a Ei 81. Souøadnice tìhle dvou dostaneš po splnìní úkolù.
+V misi se nachÃ¡zÃ­ 4 artefakty a to na souÅ™adnicÃ­ch Be 60 a DB 71, tyhle dva dostaneÅ¡ od Maxe a potom jsou dva na Dc 58 a Ei 81. SouÅ™adnice tÄ›hle dvou dostaneÅ¡ po splnÄ›nÃ­ ÃºkolÅ¯.
 
-Základna stalkerù se nachází na Dc 74 a základna vìdcù se nachází na Df 60.
+ZÃ¡kladna stalkerÅ¯ se nachÃ¡zÃ­ na Dc 74 a zÃ¡kladna vÄ›dcÅ¯ se nachÃ¡zÃ­ na Df 60.
 
-V elektrárnì ani Surgutu se ádné cíle mise nenacházejí, kvùli velké nároènosti tamních oblastí.
+V elektrÃ¡rnÄ› ani Surgutu se Å¾Ã¡dnÃ© cÃ­le mise nenachÃ¡zejÃ­, kvÅ¯li velkÃ© nÃ¡roÄnosti tamnÃ­ch oblastÃ­.

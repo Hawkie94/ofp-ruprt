@@ -5,21 +5,21 @@ Verze 1.3 Delta
 --------------------------------
 Info o misi:
 Autor: Hammer
-Strana: Partyz·ni
+Strana: Partyz√°ni
 Typ mise: Obrana Hradu
 Ostrov: Everon
 ----------------------
 Slovo autora
--Nov· verze tÈto mise ve kterÈ je opraveno p·r chyb z verze 1.2 Cindy
+-Nov√° verze t√©to mise ve kter√© je opraveno p√°r chyb z verze 1.2 Cindy
 -------------------------------------------------------------
-Poûadavky:
-Pot¯ebn· verze ofp: 1.96
-Addony: Editorupdate102 (p¯ibalen)
+Po≈æadavky:
+Pot≈ôebn√° verze ofp: 1.96
+Addony: Editorupdate102 (p≈ôibalen)
 ----------------------------------
 Instalace:
 Soubor "Castle - Shadow of The Red Star - v13 delta.Eden.pbo"
-zkopÌrujte do C:/.../Operace Flashpoint/missions a soubor
-editorupdate102.pbo zkopÌrujte do C:/.../Operace Flashpoint/addons
+zkop√≠rujte do C:/.../Operace Flashpoint/missions a soubor
+editorupdate102.pbo zkop√≠rujte do C:/.../Operace Flashpoint/addons
 -------------------------------------------------------------
 
 "Install it, Play it and ENJOY IT!!!"

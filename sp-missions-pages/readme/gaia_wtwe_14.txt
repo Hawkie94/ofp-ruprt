@@ -1,58 +1,58 @@
 WHEN THE WORLD ENDS
-Verze 1.4 pro èasopis SCORE
+Verze 1.4 pro Äasopis SCORE
 Readme Soubor
-Øíjen 29., 2006
-vytvoøil Gaia aka Str [http://gsmod.wz.cz]
+Å˜Ã­jen 29., 2006
+vytvoÅ™il Gaia aka Str [http://gsmod.wz.cz]
 
 
 ***********************************************************************
 
 		    	OBSAH
 
-		  I.	ÚVOD
-		 II.	SYSTÉMOVÉ POADAVKY
-		III.	POTØEBNÉ ADDONY
+		  I.	ÃšVOD
+		 II.	SYSTÃ‰MOVÃ‰ POÅ½ADAVKY
+		III.	POTÅ˜EBNÃ‰ ADDONY
 	  	 IV.	INSTRUKCE K INSTALACI
-                  V.	TVÙRCI
-		 VI.	UPOZORNÌNÍ
+                  V.	TVÅ®RCI
+		 VI.	UPOZORNÄšNÃ
 
 
-I. ÚVOD
+I. ÃšVOD
 =========================
 
-Atomovı vıbuch v Èeèensku pùl roku pøed pøíbìhem mise pøivedl svìt na pokraj války. USA obviòovaly z útoku Rusko, které však všechnu vinu popíralo. Nechybìlo mnoho a svìtová válka zaèala, avšak v poslední chvíli zjistil Mark Reynolds, zpravodajskı dùstojník CIA, e za vším stáli teroristé. Útok byl odvolán a napìtí povolilo. Avšak teroristé nebyli nalezeni.
-Rozbíhá se vyšetøování a celıch šest mìsícù trvá, ne se Reynolds dostane na stopu ruského dùstojníka, plukovníka Karelina, kterı velí silám na ostrovì Stolbovoj na vıchodním pobøeí Federace. Mark Reynolds se také vydává na ostrov, aby zjistil více. Kdy z Èeèenska na plukovníkùv rozkaz vzlétne letadlo s podezøelım nákladem, je na ostrov vyslán i Charles Brown s Timem Robbinsem, piloti bojového vrtulníku, a Diego Checa s tımem, jejich ochránci. A kdo ví, kdo ještì se na ostrovì objeví. Šachovnice je pøipravena. Figurky jsou v pohybu. Jste pøipraveni na válku?
+AtomovÃ½ vÃ½buch v ÄŒeÄensku pÅ¯l roku pÅ™ed pÅ™Ã­bÄ›hem mise pÅ™ivedl svÄ›t na pokraj vÃ¡lky. USA obviÅˆovaly z Ãºtoku Rusko, kterÃ© vÅ¡ak vÅ¡echnu vinu popÃ­ralo. NechybÄ›lo mnoho a svÄ›tovÃ¡ vÃ¡lka zaÄala, avÅ¡ak v poslednÃ­ chvÃ­li zjistil Mark Reynolds, zpravodajskÃ½ dÅ¯stojnÃ­k CIA, Å¾e za vÅ¡Ã­m stÃ¡li teroristÃ©. Ãštok byl odvolÃ¡n a napÄ›tÃ­ povolilo. AvÅ¡ak teroristÃ© nebyli nalezeni.
+RozbÃ­hÃ¡ se vyÅ¡etÅ™ovÃ¡nÃ­ a celÃ½ch Å¡est mÄ›sÃ­cÅ¯ trvÃ¡, neÅ¾ se Reynolds dostane na stopu ruskÃ©ho dÅ¯stojnÃ­ka, plukovnÃ­ka Karelina, kterÃ½ velÃ­ silÃ¡m na ostrovÄ› Stolbovoj na vÃ½chodnÃ­m pobÅ™eÅ¾Ã­ Federace. Mark Reynolds se takÃ© vydÃ¡vÃ¡ na ostrov, aby zjistil vÃ­ce. KdyÅ¾ z ÄŒeÄenska na plukovnÃ­kÅ¯v rozkaz vzlÃ©tne letadlo s podezÅ™elÃ½m nÃ¡kladem, je na ostrov vyslÃ¡n i Charles Brown s Timem Robbinsem, piloti bojovÃ©ho vrtulnÃ­ku, a Diego Checa s tÃ½mem, jejich ochrÃ¡nci. A kdo vÃ­, kdo jeÅ¡tÄ› se na ostrovÄ› objevÃ­. Å achovnice je pÅ™ipravena. Figurky jsou v pohybu. Jste pÅ™ipraveni na vÃ¡lku?
 
 
-II. SYSTÉMOVÉ POADAVKY
+II. SYSTÃ‰MOVÃ‰ POÅ½ADAVKY
 =========================
 
-K instalaci a hraní mise jsou nutné následující specifikace:
+K instalaci a hranÃ­ mise jsou nutnÃ© nÃ¡sledujÃ­cÃ­ specifikace:
 
-  1,6 GHz Pentium® IV nebo podobná sestava
-  Windows® 98 / 98SE / ME / 2000 / XP 
+  1,6 GHz PentiumÂ® IV nebo podobnÃ¡ sestava
+  WindowsÂ® 98 / 98SE / ME / 2000 / XP 
   256 MB RAM
-  64MB Direct3D kompatibilní 3D karta podoporující HARDWARE T&L, 32-bitové barvy,
-  a DirectX 8.1 kompatibilní ovladaè
-  DirectSound® kompatibilní 16-bitová zvuková karta s DirectX 8.1 kompatibilním ovladaèem
-  Windows® kompatibilní klávesnice a myš
-  DirectX® 8.1 nebo vyšší
-  24 MB volného místa na disku pro instalaci
+  64MB Direct3D kompatibilnÃ­ 3D karta podoporujÃ­cÃ­ HARDWARE T&L, 32-bitovÃ© barvy,
+  a DirectX 8.1 kompatibilnÃ­ ovladaÄ
+  DirectSoundÂ® kompatibilnÃ­ 16-bitovÃ¡ zvukovÃ¡ karta s DirectX 8.1 kompatibilnÃ­m ovladaÄem
+  WindowsÂ® kompatibilnÃ­ klÃ¡vesnice a myÅ¡
+  DirectXÂ® 8.1 nebo vyÅ¡Å¡Ã­
+  24 MB volnÃ©ho mÃ­sta na disku pro instalaci
 
-K plynulému hraní mise by váš poèítaè mìl splòovat tyto poadavky:
+K plynulÃ©mu hranÃ­ mise by vÃ¡Å¡ poÄÃ­taÄ mÄ›l splÅˆovat tyto poÅ¾adavky:
 
-  3 GHz Pentium® IV nebo podobná sestava
-  Windows® 98 / 98SE / ME / 2000 / XP  
+  3 GHz PentiumÂ® IV nebo podobnÃ¡ sestava
+  WindowsÂ® 98 / 98SE / ME / 2000 / XP  
   1024 MB RAM 
-  256MB Direct3D kompatibilní 3D karta podoporující HARDWARE T&L, 32-bitové barvy,
-  a DirectX 8.1 kompatibilní ovladaè
-  DirectSound® kompatibilní 16-bitová zvuková karta s DirectX 8.1 kompatibilním ovladaèem
-  Windows® kompatibilní klávesnice a myš
-  DirectX® 8.1 nebo vyšší
-  24 MB volného místa na disku pro instalaci
+  256MB Direct3D kompatibilnÃ­ 3D karta podoporujÃ­cÃ­ HARDWARE T&L, 32-bitovÃ© barvy,
+  a DirectX 8.1 kompatibilnÃ­ ovladaÄ
+  DirectSoundÂ® kompatibilnÃ­ 16-bitovÃ¡ zvukovÃ¡ karta s DirectX 8.1 kompatibilnÃ­m ovladaÄem
+  WindowsÂ® kompatibilnÃ­ klÃ¡vesnice a myÅ¡
+  DirectXÂ® 8.1 nebo vyÅ¡Å¡Ã­
+  24 MB volnÃ©ho mÃ­sta na disku pro instalaci
 
 
-III. POTØEBNÉ ADDONY
+III. POTÅ˜EBNÃ‰ ADDONY
 =========================
 
 RAH-66 Commanche od DKM Mod [5.89 MB]
@@ -61,89 +61,89 @@ http://ofp.gamepark.cz/index.php?showthis=5687&newlang=eng
 Antonov An-124 [6.4 MB]*
 http://ofp.gamepark.cz/index.php?showthis=5158&newlang=eng
 
-Hlídková loï tøídy Miraja [1.3 MB]
+HlÃ­dkovÃ¡ loÄ tÅ™Ã­dy Miraja [1.3 MB]
 http://ofp.gamepark.cz/index.php?showthis=3833&newlang=eng
 
-Piloti bez pøilby a padáku [0.5 MB]
+Piloti bez pÅ™ilby a padÃ¡ku [0.5 MB]
 http://ofp.gamepark.cz/index.php?showthis=2793&newlang=eng
 
-Ostatní addony jsou pøiloeny k misi.
+OstatnÃ­ addony jsou pÅ™iloÅ¾eny k misi.
 
-* - Pro správnı chod mise je BEZPODMÍNEÈNÌ nutné, aby byl pouit addon Antonova pouze ve verzi 1.0!
+* - Pro sprÃ¡vnÃ½ chod mise je BEZPODMÃNEÄŒNÄš nutnÃ©, aby byl pouÅ¾it addon Antonova pouze ve verzi 1.0!
 
 
 IV. INSTRUKCE K INSTALACI
 =========================
-GS-Mod Missions - Sloka s misí; Pøesuòte do sloky Missions ve vašem adresáøi OFP
-gaia_ro2_addon - Addon pro misi; Pøesuòte do sloky Res\Addons ve vašem adresáøi OFP
-safe.pbo - Trezor od Everon Cartelu; Pøesuòte do sloky Res\Addons ve vašem adresáøi OFP
+GS-Mod Missions - SloÅ¾ka s misÃ­; PÅ™esuÅˆte do sloÅ¾ky Missions ve vaÅ¡em adresÃ¡Å™i OFP
+gaia_ro2_addon - Addon pro misi; PÅ™esuÅˆte do sloÅ¾ky Res\Addons ve vaÅ¡em adresÃ¡Å™i OFP
+safe.pbo - Trezor od Everon Cartelu; PÅ™esuÅˆte do sloÅ¾ky Res\Addons ve vaÅ¡em adresÃ¡Å™i OFP
 
 
-V. TVÙRCI
+V. TVÅ®RCI
 =========================
-Reie			Gaia
+ReÅ¾ie			Gaia
 Kamera			Gaia
-Pøíbìh			Gaia
+PÅ™Ã­bÄ›h			Gaia
 			Silver Falcon
 Design mise		Gaia
-Speciální designér	Silver Falcon
+SpeciÃ¡lnÃ­ designÃ©r	Silver Falcon
 Scripty			Gaia
 			Brt
 			Munch
 Choreografie		TheRaptor
 			Hunter
-Speciální efekty	Enhaced Config Project
+SpeciÃ¡lnÃ­ efekty	Enhaced Config Project
 			Kegetys
 			Gaia
-Efekt atomové exploze	Xenom
-Producent exteriérù	Schusch
-3D umìlec		Pavka
-Externí umìlci		Finnish Defense Forces
+Efekt atomovÃ© exploze	Xenom
+Producent exteriÃ©rÅ¯	Schusch
+3D umÄ›lec		Pavka
+ExternÃ­ umÄ›lci		Finnish Defense Forces
 			Decesive Killing Machine
 			MAPfact studio
 			Everon Cartel
 Hudba			Bill Brown
-Originální motiv	Dave Matthews band
-Dodateèná hudba		John Williams
+OriginÃ¡lnÃ­ motiv	Dave Matthews band
+DodateÄnÃ¡ hudba		John Williams
 			Harry-Gregson Williams
 Zvuky			No One Lives Forever
 			JAM addon
 			Finnish Defense Forces mod
-Vedoucí kontrolor	Spawn
+VedoucÃ­ kontrolor	Spawn
 Kontrola kvality	Munch
-			Jeuro
+			JeÅ¾uro
 			Faly
 			LAW
-Anglickı pøeklad	Silver Falcon
+AnglickÃ½ pÅ™eklad	Silver Falcon
 			Dusand
-Podìkování		ofp.ruprt.cz fórum
+PodÄ›kovÃ¡nÃ­		ofp.ruprt.cz fÃ³rum
 			Sarge Studio
 			2DMM Team
 			BAS
 			Amalfi
 			Illustrate sowtware
 			ICQ
-Speciální podìkování	Yoshimitsu
+SpeciÃ¡lnÃ­ podÄ›kovÃ¡nÃ­	Yoshimitsu
 			MAA
 			MilWin
 			Peter Pearson
 
-Zvláštní podìkování si zaslouí Munch a Silver Falcon, kteøí i pøesto, e mìli doma VBS1, mi dál pomáhali s dokonèovacími pracemi na misi. Nejvìtší dík patøí P.W. za to, e je.
+ZvlÃ¡Å¡tnÃ­ podÄ›kovÃ¡nÃ­ si zaslouÅ¾Ã­ Munch a Silver Falcon, kteÅ™Ã­ i pÅ™esto, Å¾e mÄ›li doma VBS1, mi dÃ¡l pomÃ¡hali s dokonÄovacÃ­mi pracemi na misi. NejvÄ›tÅ¡Ã­ dÃ­k patÅ™Ã­ P.W. za to, Å¾e je.
 
 
-VI. UPOZORNÌNÍ
+VI. UPOZORNÄšNÃ
 =========================
-Tato mise není vytvoøena pro komerèní pouití. Není podporována vıvojáøi hry "Operace Flashpoint". Tato mise je neformální
-produkt. Autoøi nenesou ádnou zodpovìdnost za pøípadná selhání vašeho poèítaèe, které mohou nastat pøi bìhu mise.
-Všechna práva na tento produkt jsou chránìna a náleí autorùm.
+Tato mise nenÃ­ vytvoÅ™ena pro komerÄnÃ­ pouÅ¾itÃ­. NenÃ­ podporovÃ¡na vÃ½vojÃ¡Å™i hry "Operace Flashpoint". Tato mise je neformÃ¡lnÃ­
+produkt. AutoÅ™i nenesou Å¾Ã¡dnou zodpovÄ›dnost za pÅ™Ã­padnÃ¡ selhÃ¡nÃ­ vaÅ¡eho poÄÃ­taÄe, kterÃ© mohou nastat pÅ™i bÄ›hu mise.
+VÅ¡echna prÃ¡va na tento produkt jsou chrÃ¡nÄ›na a nÃ¡leÅ¾Ã­ autorÅ¯m.
 
-Ještì jednou to pøipomínáme: mùete pouít misi pouze pro nekomerèní úèely! Nemáte povolení komukoli prodávat tento produkt!
+JeÅ¡tÄ› jednou to pÅ™ipomÃ­nÃ¡me: mÅ¯Å¾ete pouÅ¾Ã­t misi pouze pro nekomerÄnÃ­ ÃºÄely! NemÃ¡te povolenÃ­ komukoli prodÃ¡vat tento produkt!
 
 
-Informace o právech:
+Informace o prÃ¡vech:
 Operation Flashpoin(TM) 
 Resistance(TM) 
 Copyright (c) 2002 Bohemia Interactive Studio a The Codemasters Software Company Limited.
 When The World Ends, WTWE (c) 2005/2006 GS-Mod
 
-Všechna ostatní práva a ochranné známky patøí jejich pøíslušnım vlastníkùm.
+VÅ¡echna ostatnÃ­ prÃ¡va a ochrannÃ© znÃ¡mky patÅ™Ã­ jejich pÅ™Ã­sluÅ¡nÃ½m vlastnÃ­kÅ¯m.

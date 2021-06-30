@@ -1,11 +1,11 @@
-Název mise: Noèní likvidace
-Typ mise: Speciální jednotky
+NÃ¡zev mise: NoÄnÃ­ likvidace
+Typ mise: SpeciÃ¡lnÃ­ jednotky
 Ostrov:Malden
 Velikost mise:22kB
 Intro:Ano
-Pouité addony: HK PSG (pøiloen)
-Potøeba verze hry:1.46
-Vytvoøeno ve verzy hry:1.46 
+PouÅ¾itÃ© addony: HK PSG (pÅ™iloÅ¾en)
+PotÅ™eba verze hry:1.46
+VytvoÅ™eno ve verzy hry:1.46 
 Autor:Sapi
 E-mail:p.szabo@tiscali.cz
 
@@ -13,25 +13,25 @@ E-mail:p.szabo@tiscali.cz
 
 Instalace:
 
-Misi nakopírujte do adresáøe: Codemasters/Operace Flashpoint/Missions
-Addon nakopírujte do adresáøe: Codemasters/Operace Flashpoint/Missions/Addons
+Misi nakopÃ­rujte do adresÃ¡Å™e: Codemasters/Operace Flashpoint/Missions
+Addon nakopÃ­rujte do adresÃ¡Å™e: Codemasters/Operace Flashpoint/Missions/Addons
 
-Podìkování:
+PodÄ›kovÃ¡nÃ­:
 
-Úplnì všem,kteøí mi kdy pomohli øešit problémy tıkající se
-editace ve høe Operace Flashpoint. Mimo jiné hlavnì Ruprt, Dydimos - www.koflex.cz/ruprt
-A taky Tobì, e tu misi hraješ.
-
-
-
-Poznámky:
-
-Rád bych Vás chtìl tímto poádat o Vaše ohlasy na mùj vıše uvedenı e-mail,
-zda-li se Vám tato mise vùbec líbila, èi nikoli.
-Tak se nestyïte a napište, snesu i kritiku :o))
+ÃšplnÄ› vÅ¡em,kteÅ™Ã­ mi kdy pomohli Å™eÅ¡it problÃ©my tÃ½kajÃ­cÃ­ se
+editace ve hÅ™e Operace Flashpoint. Mimo jinÃ© hlavnÄ› Ruprt, Dydimos - www.koflex.cz/ruprt
+A taky TobÄ›, Å¾e tu misi hrajeÅ¡.
 
 
-Pøeji pøíjemnou zábavu. 
+
+PoznÃ¡mky:
+
+RÃ¡d bych VÃ¡s chtÄ›l tÃ­mto poÅ¾Ã¡dat o VaÅ¡e ohlasy na mÅ¯j vÃ½Å¡e uvedenÃ½ e-mail,
+zda-li se VÃ¡m tato mise vÅ¯bec lÃ­bila, Äi nikoli.
+Tak se nestyÄte a napiÅ¡te, snesu i kritiku :o))
+
+
+PÅ™eji pÅ™Ã­jemnou zÃ¡bavu. 
 
                                   
 

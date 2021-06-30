@@ -1,11 +1,11 @@
-Název mise: Rudı rozbøesk
-Potøebná verze ofp: Tvoøeno pod verzí 1.96
-Potøebné addony: nejspíš ádné
-Typ mise: pìchotní
-Obtínost: støední
+NÃ¡zev mise: RudÃ½ rozbÅ™esk
+PotÅ™ebnÃ¡ verze ofp: TvoÅ™eno pod verzÃ­ 1.96
+PotÅ™ebnÃ© addony: nejspÃ­Å¡ Å¾Ã¡dnÃ©
+Typ mise: pÄ›chotnÃ­
+ObtÃ­Å¾nost: stÅ™ednÃ­
 
-Pouita hudba z Call of Duty 4: Modern Warfare
-Misi vytvoøil Chrapan
+PouÅ¾ita hudba z Call of Duty 4: Modern Warfare
+Misi vytvoÅ™il Chrapan
 
 
 

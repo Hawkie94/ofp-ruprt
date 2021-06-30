@@ -1,36 +1,36 @@
-PRE SPRÁVNE ZOBRAZENIE ODPORÚÈAM ZAPNÚ SI ZALOMENIE TEXTU
+PRE SPRÃVNE ZOBRAZENIE ODPORÃšÄŒAM ZAPNÃšÅ¤ SI ZALOMENIE TEXTU
 
 Autor: TonyHawk
-Názov misie: Ninja
+NÃ¡zov misie: Ninja
 Verzia misie: 1.4
-Typ misie: kombinovaná s prevanım prvkom stealth
-Ve¾kos: 24.3 MB
-Potrebné addony:
-	- Kegetysov EditorUpdate102 (priloené)
+Typ misie: kombinovanÃ¡ s prevaÅ¾nÃ½m prvkom stealth
+VeÄ¾kosÅ¥: 24.3 MB
+PotrebnÃ© addony:
+	- Kegetysov EditorUpdate102 (priloÅ¾enÃ©)
 	- Itweasov addon Ninju (na stiahnutie tu: ftp://ftp.armedassault.info/ofpd/unofaddons2/Shinobi.zip)
-Tvorené na verzii OFP: 1.96
-Potrebná verzia k hraniu: 1.96
+TvorenÃ© na verzii OFP: 1.96
+PotrebnÃ¡ verzia k hraniu: 1.96
 
 Kontakt na autora:
-	Web-stránka - www.tonyhawkblog.estranky.cz
+	Web-strÃ¡nka - www.tonyhawkblog.estranky.cz
 	E-mail	    - TonyHawk94@azet.sk
 
-Bugy a problémy: Misia bola viackrát testovaná, napriek tomu sú tam viaceré bugy, ktoré sa mi nepodarilo odstráni (najmä strašná reakcia nepriate¾skej AI, ktorá skoro vôbec nereaguje na prítomnos Vás - vojaka ninju - v ich zornom poli, a okolí. V sumári je ale misia plne hrate¾ná, a bez problémov dohrate¾ná ;o).
+Bugy a problÃ©my: Misia bola viackrÃ¡t testovanÃ¡, napriek tomu sÃº tam viacerÃ© bugy, ktorÃ© sa mi nepodarilo odstrÃ¡niÅ¥ (najmÃ¤ straÅ¡nÃ¡ reakcia nepriateÄ¾skej AI, ktorÃ¡ skoro vÃ´bec nereaguje na prÃ­tomnosÅ¥ VÃ¡s - vojaka ninju - v ich zornom poli, a okolÃ­. V sumÃ¡ri je ale misia plne hrateÄ¾nÃ¡, a bez problÃ©mov dohrateÄ¾nÃ¡ ;o).
 
-Zopár slov: Je to moja prvá misia, resp. moja prvá dokonèená misia (dokonèená bola v roku 2008, toto readme píšem s odstupom èasu - 2021), do ktorej som chcel da všetky "super-vychytávky", ako napr. dynamickı vıpis textu, dabing, super hudba, atï... Misia sa prerábala na nieko¾kokrát (hneï po vydaní deò-dva-tri, resp. do tıdòa na to vyšla opravná verzia 1.1; neskôr verzia 1.2 s novo pridanou muzikou a opravenımi viacerımi chybami. Na verzie 1.3 a (najnovšiu) 1.4 si presne nespomínam, ale viem, e som zredukoval muziku (resp. pridal/odstránil), pridal ve¾mi drobné vychytávky, a ve¾mi jemne upravil briefing. Nako¾ko ale dabérov som u kvôli zopár zmenenım hláškam nechcel "otravova", hlášky zostali tak, ako sú (hoci sa mierne zmenilo zameranie misie). Kadopádne, posledné úpravy (verzia 1.4) boli vykonané v roku 2011, a odvtedy u niè).
+ZopÃ¡r slov: Je to moja prvÃ¡ misia, resp. moja prvÃ¡ dokonÄenÃ¡ misia (dokonÄenÃ¡ bola v roku 2008, toto readme pÃ­Å¡em s odstupom Äasu - 2021), do ktorej som chcel daÅ¥ vÅ¡etky "super-vychytÃ¡vky", ako napr. dynamickÃ½ vÃ½pis textu, dabing, super hudba, atÄ... Misia sa prerÃ¡bala na niekoÄ¾kokrÃ¡t (hneÄ po vydanÃ­ deÅˆ-dva-tri, resp. do tÃ½Å¾dÅˆa na to vyÅ¡la opravnÃ¡ verzia 1.1; neskÃ´r verzia 1.2 s novo pridanou muzikou a opravenÃ½mi viacerÃ½mi chybami. Na verzie 1.3 a (najnovÅ¡iu) 1.4 si presne nespomÃ­nam, ale viem, Å¾e som zredukoval muziku (resp. pridal/odstrÃ¡nil), pridal veÄ¾mi drobnÃ© vychytÃ¡vky, a veÄ¾mi jemne upravil briefing. NakoÄ¾ko ale dabÃ©rov som uÅ¾ kvÃ´li zopÃ¡r zmenenÃ½m hlÃ¡Å¡kam nechcel "otravovaÅ¥", hlÃ¡Å¡ky zostali tak, ako sÃº (hoci sa mierne zmenilo zameranie misie). KaÅ¾dopÃ¡dne, poslednÃ© Ãºpravy (verzia 1.4) boli vykonanÃ© v roku 2011, a odvtedy uÅ¾ niÄ).
 
-Pôvodnım zámerom bolo vytvori misiu s ve¾kou dávkou vo¾nosti, kde budete ma za cie¾ vyèisti 3-4 mestá, budete ma jedno miesto, odkia¾ si budete môc zobra zbrane, vıstroj, atï., a na záver sa tam vrátite. Z nejakıch (doposia¾ nezistenıch) príèin sa mi pôvodná myšlienka vykåzla spod rúk, a dopadlo to tak, e som pridal ve¾mi jednoduchı (a ve¾mi primitívny, a nevyladenı) príbeh o tom, e sa hlavnı hrdina ide pomsti za vradu svojej priate¾ky, a preto sa pridá do americkej armády, v ktorej (ehm...) ve¾mi rıchlo prejde aj vıcvikom/kurzom ninju - chcel som ve¾mi vyui (v mojich oèiach) dokonalı addon Ninju od Itweasa (uznajte sami, e je geniálny ;o). Uznávam, e mi to nie celkom vyšlo, ale teraz je to u pasé :o). Napriek tomu misiu zverejòujem, ako nostalgickú pamiatku na moje zaèiatky tvorby v OFP.
+PÃ´vodnÃ½m zÃ¡merom bolo vytvoriÅ¥ misiu s veÄ¾kou dÃ¡vkou voÄ¾nosti, kde budete maÅ¥ za cieÄ¾ vyÄistiÅ¥ 3-4 mestÃ¡, budete maÅ¥ jedno miesto, odkiaÄ¾ si budete mÃ´cÅ¥ zobraÅ¥ zbrane, vÃ½stroj, atÄ., a na zÃ¡ver sa tam vrÃ¡tite. Z nejakÃ½ch (doposiaÄ¾ nezistenÃ½ch) prÃ­Äin sa mi pÃ´vodnÃ¡ myÅ¡lienka vykÄºzla spod rÃºk, a dopadlo to tak, Å¾e som pridal veÄ¾mi jednoduchÃ½ (a veÄ¾mi primitÃ­vny, a nevyladenÃ½) prÃ­beh o tom, Å¾e sa hlavnÃ½ hrdina ide pomstiÅ¥ za vraÅ¾du svojej priateÄ¾ky, a preto sa pridÃ¡ do americkej armÃ¡dy, v ktorej (ehm...) veÄ¾mi rÃ½chlo prejde aj vÃ½cvikom/kurzom ninju - chcel som veÄ¾mi vyuÅ¾iÅ¥ (v mojich oÄiach) dokonalÃ½ addon Ninju od Itweasa (uznajte sami, Å¾e je geniÃ¡lny ;o). UznÃ¡vam, Å¾e mi to nie celkom vyÅ¡lo, ale teraz je to uÅ¾ pasÃ© :o). Napriek tomu misiu zverejÅˆujem, ako nostalgickÃº pamiatku na moje zaÄiatky tvorby v OFP.
 
-Poïakovanie:
- - ¾uïom, èo mi poskytli dabing (Wallas, Jeuro, Gaia (neboli Str), Edge, Sarge)
- - Paøanovi za pomoc v poèiatoènej fáze tvorby misie
- - beta-testerom (Paøan, Zob, RockyBalboa)
- - všetkım tım, od ktorıch som "vykradol" skripty (a zabudol sa im poïakova) - menovite najmä Jeuro, Gaia, Sumrak
- - Anurisovi za všetko, èo ma nauèil v tvorbe k OFP
- - bıvalému AATH Studiu (Anuris, Zob, Hammer, Paøan), s ktorımi sme síce nikdy nedokonèili hlavnı projekt, napriek tomu sme sa navzájom podporovali a pomáhali si v tvorbe, atï. :o)
+PoÄakovanie:
+ - Ä¾uÄom, Äo mi poskytli dabing (Wallas, JeÅ¾uro, Gaia (neboli Str), Edge, Sarge)
+ - PaÅ™anovi za pomoc v poÄiatoÄnej fÃ¡ze tvorby misie
+ - beta-testerom (PaÅ™an, Zob, RockyBalboa)
+ - vÅ¡etkÃ½m tÃ½m, od ktorÃ½ch som "vykradol" skripty (a zabudol sa im poÄakovaÅ¥) - menovite najmÃ¤ JeÅ¾uro, Gaia, Sumrak
+ - Anurisovi za vÅ¡etko, Äo ma nauÄil v tvorbe k OFP
+ - bÃ½valÃ©mu AATH Studiu (Anuris, Zob, Hammer, PaÅ™an), s ktorÃ½mi sme sÃ­ce nikdy nedokonÄili hlavnÃ½ projekt, napriek tomu sme sa navzÃ¡jom podporovali a pomÃ¡hali si v tvorbe, atÄ. :o)
 
-Špeciálne poïakovanie:
- - Ruprtova poradòa k OFP/ArmA
- - Bohemia Interactive Studio za skvelú hru
+Å peciÃ¡lne poÄakovanie:
+ - Ruprtova poradÅˆa k OFP/ArmA
+ - Bohemia Interactive Studio za skvelÃº hru
 
-(Ak som na niekoho náhodou zabudol, tak sa ospravedlòujem a dodatoène ïakujem :o))
+(Ak som na niekoho nÃ¡hodou zabudol, tak sa ospravedlÅˆujem a dodatoÄne Äakujem :o))

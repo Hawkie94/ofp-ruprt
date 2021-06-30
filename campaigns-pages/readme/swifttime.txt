@@ -1,25 +1,25 @@
-Návod na instalaci kampanì Swift Time
+NÃ¡vod na instalaci kampanÄ› Swift Time
 
- - Rozbalte jakımkoli monım zpùsobem tento Zip archiv Swift Time.
- - Soubor Swift Time.pbo ulote do sloky Res/Campaigns v adresáøi s vaší hrou OFP.
- - Soubory ZombieScripts.pbo a FML_HP3.pbo ulote do sloky Addons v adresáøi s vaší hrou OFP.
- - Standardní cesta k adresáøi s hrou je : C:/Program Files/Codemasters/Operation Flashpoint
- - Spuste OFP a v hlavním menu zvolte : Kampaò
- - Z nabídky kampaní vyberte Swift Time a Zaèít pro spuštìní hry.
+ - Rozbalte jakÃ½mkoli moÅ¾nÃ½m zpÅ¯sobem tento Zip archiv Swift Time.
+ - Soubor Swift Time.pbo uloÅ¾te do sloÅ¾ky Res/Campaigns v adresÃ¡Å™i s vaÅ¡Ã­ hrou OFP.
+ - Soubory ZombieScripts.pbo a FML_HP3.pbo uloÅ¾te do sloÅ¾ky Addons v adresÃ¡Å™i s vaÅ¡Ã­ hrou OFP.
+ - StandardnÃ­ cesta k adresÃ¡Å™i s hrou je : C:/Program Files/Codemasters/Operation Flashpoint
+ - SpusÅ¥te OFP a v hlavnÃ­m menu zvolte : KampaÅˆ
+ - Z nabÃ­dky kampanÃ­ vyberte Swift Time a ZaÄÃ­t pro spuÅ¡tÄ›nÃ­ hry.
 
-Seznam všech vìcí, které potøebujete pro spuštìní kampanì :
- - Celı archiv Swift Time se všemi soubory, umístìnımi v adresáøích podle návodu vıše.
+Seznam vÅ¡ech vÄ›cÃ­, kterÃ© potÅ™ebujete pro spuÅ¡tÄ›nÃ­ kampanÄ› :
+ - CelÃ½ archiv Swift Time se vÅ¡emi soubory, umÃ­stÄ›nÃ½mi v adresÃ¡Å™Ã­ch podle nÃ¡vodu vÃ½Å¡e.
  - Hru Operation Flashpoint Platinum verze 1.96
- - Jakıkoli program na otevøení tohoto archivu ( ten asi máte, pokud tohle ètete )
- - Váš poèítaè musí splòovat minimální hardwarové poadavky pro hru Operation Flashpoint : Platinum nebo pro Operation Flashpoint : Resistance.
+ - JakÃ½koli program na otevÅ™enÃ­ tohoto archivu ( ten asi mÃ¡te, pokud tohle Ätete )
+ - VÃ¡Å¡ poÄÃ­taÄ musÃ­ splÅˆovat minimÃ¡lnÃ­ hardwarovÃ© poÅ¾adavky pro hru Operation Flashpoint : Platinum nebo pro Operation Flashpoint : Resistance.
 
 
-V pøípadì, e mise nepokraèuje, zasekává se v urèitém bodì nebo je pro vás pøíliš nároèná, zkuste naèíst misi z poslední uloené pozice.
-Pokud ani poté nelze mise dokonèit, restartujte celou misi. Pokud budou problémy pøetrvávat, podívejte se na http://obi-wan.blog.cz, kde moná najdete odpovìï na svou otázku.
+V pÅ™Ã­padÄ›, Å¾e mise nepokraÄuje, zasekÃ¡vÃ¡ se v urÄitÃ©m bodÄ› nebo je pro vÃ¡s pÅ™Ã­liÅ¡ nÃ¡roÄnÃ¡, zkuste naÄÃ­st misi z poslednÃ­ uloÅ¾enÃ© pozice.
+Pokud ani potÃ© nelze mise dokonÄit, restartujte celou misi. Pokud budou problÃ©my pÅ™etrvÃ¡vat, podÃ­vejte se na http://obi-wan.blog.cz, kde moÅ¾nÃ¡ najdete odpovÄ›Ä na svou otÃ¡zku.
  
-Ujistìte se, e máte poslední oficiální verzi kampanì ( 1.1 )
+UjistÄ›te se, Å¾e mÃ¡te poslednÃ­ oficiÃ¡lnÃ­ verzi kampanÄ› ( 1.1 )
 
-Dìkuji vám za váš èas, kterı jste se rozhodli trávit s kampaní Swift Time.
+DÄ›kuji vÃ¡m za vÃ¡Å¡ Äas, kterÃ½ jste se rozhodli trÃ¡vit s kampanÃ­ Swift Time.
 
 Addon made by Farmland Project team
 Campaign made by Obi-Wan

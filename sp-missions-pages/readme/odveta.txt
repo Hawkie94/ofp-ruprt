@@ -1,9 +1,9 @@
-Název mise:Odveta
+NÃ¡zev mise:Odveta
 
-Strana:Západ
+Strana:ZÃ¡pad
 
-Verze hry na které byla mise testována:1.96
+Verze hry na kterÃ© byla mise testovÃ¡na:1.96
 
 Kontakt:sg3@seznam.cz
 
-Popis:Pìchotní mise ve které máte za ùkol nahlásit veliteli co se stalo a následnì dobıt stracené mìsto.
+Popis:PÄ›chotnÃ­ mise ve kterÃ© mÃ¡te za Å¯kol nahlÃ¡sit veliteli co se stalo a nÃ¡slednÄ› dobÃ½t stracenÃ© mÄ›sto.

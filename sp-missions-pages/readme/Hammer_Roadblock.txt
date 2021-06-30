@@ -1,11 +1,11 @@
 ROADBLOCK
 
 Autor: Hammer
-Strana: Západ (Amerièani)
-Typ mise: útok na obranné pozice, a nejspíš kombinovaná (je to na vás, máte volnost)
+Strana: ZÃ¡pad (AmeriÄani)
+Typ mise: Ãºtok na obrannÃ© pozice, a nejspÃ­Å¡ kombinovanÃ¡ (je to na vÃ¡s, mÃ¡te volnost)
 Ostrov: Nogova
 Verze OFP: 1.96
-Addony: asi ádné
+Addony: asi Å¾Ã¡dnÃ©
 
 Kontakt: Email: zatloukal.v@seznam.cz
          ICQ: 395-494-829

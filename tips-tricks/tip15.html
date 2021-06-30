@@ -8,7 +8,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-K3867HR');</script>
 <!-- End Google Tag Manager -->
 
-<meta http-equiv="content-type" content="text/html; charset=windows-1250">
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
 		<title>Detail tipu</title>
 		<meta name="GENERATOR" content="Microsoft Visual Studio .NET 7.1">
 		<meta name="CODE_LANGUAGE" content="Visual Basic .NET 7.1">
@@ -27,42 +27,42 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 					<table id="tblContent" class="MD_TABLE_INFO" width="448px" cellspacing="0" cellpadding="3" align="left">
 	<tbody><tr>
 		<td style="color:#FFFFFF;font-weight:bold;" width="50%">Autor : Ruprt</td>
-		<td style="color:#FFFFFF;font-weight:bold;" width="50%" align="right">Ukázka není k dispozici<br>
-			<a href="./../tips-tricks.html">Zpět na Tipy &amp Triky</a>
+		<td style="color:#FFFFFF;font-weight:bold;" width="50%" align="right">UkĂˇzka nenĂ­ k dispozici<br>
+			<a href="./../tips-tricks.html">ZpÄ›t na Tipy &amp Triky</a>
 		</td>
 	</tr>
 	<tr>
 		<td colspan="2" height="9px" bgcolor="#9FA5C5"></td>
 	</tr>
 	<tr>
-		<td colspan="2" style="font-size:1.0em;font-weight:bold;color:#FF6600;" align="center">Utržené sluchátko aneb Telefonující osoba.</td>
+		<td colspan="2" style="font-size:1.0em;font-weight:bold;color:#FF6600;" align="center">UtrĹľenĂ© sluchĂˇtko aneb TelefonujĂ­cĂ­ osoba.</td>
 	</tr>
 	<tr>
 		<td colspan="2" height="9px" bgcolor="#9FA5C5"></td>
 	</tr>
 	<tr>
-		<td colspan="2" style="font-size:1.05em;font-weight:normal;text-align:justify;color:#EBE7D8;">Již mnohokrát jsem dostal dotaz jak dát vojákovi do ruky telefonní sluchátko. Postup je velmi jednoduchý.<br>Třída
- Telefon (Phone) je odvozen od třídy Dalekohled (Binocular), je proto 
-nutné nejdřív vojákovi tento telefon přiřadit a teprve poté mu můžete 
-dát povel k telefonování. Takto :<br><br>vojak AddWeapon 'Phone'<br>vojak SwitchMove 'FXStandToTelHand'<br><br>Do
+		<td colspan="2" style="font-size:1.05em;font-weight:normal;text-align:justify;color:#EBE7D8;">JiĹľ mnohokrĂˇt jsem dostal dotaz jak dĂˇt vojĂˇkovi do ruky telefonnĂ­ sluchĂˇtko. Postup je velmi jednoduchĂ˝.<br>TĹ™Ă­da
+ Telefon (Phone) je odvozen od tĹ™Ă­dy Dalekohled (Binocular), je proto 
+nutnĂ© nejdĹ™Ă­v vojĂˇkovi tento telefon pĹ™iĹ™adit a teprve potĂ© mu mĹŻĹľete 
+dĂˇt povel k telefonovĂˇnĂ­. Takto :<br><br>vojak AddWeapon 'Phone'<br>vojak SwitchMove 'FXStandToTelHand'<br><br>Do
  verze 1.46 to sluchatko umi zvednout jenom civil 2, protoze to byl 
 udelanej model jenom pro CWC kampan - civil 2 byl James Gastovski. Od 
-verze 1.75 uz to umi kazda jednotka.<br><br>Ruprt<br><br><font color="#FF9933"><b>Poznámka - Ježuro</b></font><br><br>To co je výše popsáno je OK, ale jak udělat, aby hráč zvedl sluchátko? Postup je následující:<br><br>Někam
- na mapu si umístíte telefon (je v seznamu třídy EMPTY - OBJECTS, 
-nazveme si ho třeba Tel1) a jakýkoli jiný objekt ze stejného seznamu 
-(třeba vlajku - název Tel2). Uložíte misi a pak si v jejím souboru 
-Mission.sqm najdete onen druhý objekt(Tel2) a přepíšete jeho název 
+verze 1.75 uz to umi kazda jednotka.<br><br>Ruprt<br><br><font color="#FF9933"><b>PoznĂˇmka - JeĹľuro</b></font><br><br>To co je vĂ˝Ĺˇe popsĂˇno je OK, ale jak udÄ›lat, aby hrĂˇÄŤ zvedl sluchĂˇtko? Postup je nĂˇsledujĂ­cĂ­:<br><br>NÄ›kam
+ na mapu si umĂ­stĂ­te telefon (je v seznamu tĹ™Ă­dy EMPTY - OBJECTS, 
+nazveme si ho tĹ™eba Tel1) a jakĂ˝koli jinĂ˝ objekt ze stejnĂ©ho seznamu 
+(tĹ™eba vlajku - nĂˇzev Tel2). UloĹľĂ­te misi a pak si v jejĂ­m souboru 
+Mission.sqm najdete onen druhĂ˝ objekt(Tel2) a pĹ™epĂ­Ĺˇete jeho nĂˇzev 
 (jestli jste zvolili vlajku, tak to bude<br>FlagCarrier) na PhoneBase. 
-Tím jste z vlajky udělali telefon bez sluchátka. Další postup je 
-nasnadě: Telefon (i se sluchátkem) umístíte na stůl. Nejvhodnější je to 
-dělat přes příkaz SetPos. Pozici můžete zjistit kamerou, viz. Článek o 
-novém způsobu práce s kamerou. Teď je důležité vhodně umístit člověka, 
-aby ruku natáhl přímo k telefonu. Trochu si s tím vyhrajte. Soustava 
-pohybů na zvednutí sluchátka je tato: Jednotka SwitchMove 'FXStandToTel'
- Jednotka PlayMove 'FXStandToTelHand' Pro správné fungování pohybů bude 
-možná nutno nastavit chování jednotky na 'Careless'. Jo a nezapomeňte jí
- přidat to sluchátko : Jednotka AddWeapon 'Phone'. Celá část skriptu 
-potom bude vypadat<br>takhle:<br><br>Jednotka SwitchMove 'FXStandToTel'<br>Jednotka PlayMove 'FXStandToTelHand'<br>~0.5<br>_tel1pos = (GetPos Tel1)<br>_tel2pos = (GetPos Tel2)<br>Tel1 SetPos _tel2pos<br>Tel2 SetPos _tel1pos<br><br>----------------------<br>No a to je vše.<br><br>Ježuro</td>
+TĂ­m jste z vlajky udÄ›lali telefon bez sluchĂˇtka. DalĹˇĂ­ postup je 
+nasnadÄ›: Telefon (i se sluchĂˇtkem) umĂ­stĂ­te na stĹŻl. NejvhodnÄ›jĹˇĂ­ je to 
+dÄ›lat pĹ™es pĹ™Ă­kaz SetPos. Pozici mĹŻĹľete zjistit kamerou, viz. ÄŚlĂˇnek o 
+novĂ©m zpĹŻsobu prĂˇce s kamerou. TeÄŹ je dĹŻleĹľitĂ© vhodnÄ› umĂ­stit ÄŤlovÄ›ka, 
+aby ruku natĂˇhl pĹ™Ă­mo k telefonu. Trochu si s tĂ­m vyhrajte. Soustava 
+pohybĹŻ na zvednutĂ­ sluchĂˇtka je tato: Jednotka SwitchMove 'FXStandToTel'
+ Jednotka PlayMove 'FXStandToTelHand' Pro sprĂˇvnĂ© fungovĂˇnĂ­ pohybĹŻ bude 
+moĹľnĂˇ nutno nastavit chovĂˇnĂ­ jednotky na 'Careless'. Jo a nezapomeĹte jĂ­
+ pĹ™idat to sluchĂˇtko : Jednotka AddWeapon 'Phone'. CelĂˇ ÄŤĂˇst skriptu 
+potom bude vypadat<br>takhle:<br><br>Jednotka SwitchMove 'FXStandToTel'<br>Jednotka PlayMove 'FXStandToTelHand'<br>~0.5<br>_tel1pos = (GetPos Tel1)<br>_tel2pos = (GetPos Tel2)<br>Tel1 SetPos _tel2pos<br>Tel2 SetPos _tel1pos<br><br>----------------------<br>No a to je vĹˇe.<br><br>JeĹľuro</td>
 	</tr>
 </tbody></table>
 

@@ -1,34 +1,34 @@
-KAMPAÒ "BITVA O NOGOVO 1984"
+KAMPAÅ‡ "BITVA O NOGOVO 1984"
 
- PRÁVÌ JSTE SI STÁHLI KAMPAÒ BITVA O NOGOVO. JEDNÁ SE O KAMPAÒ, TKERÁ NAVAZUJE NA RESISTANCI. SAMA O SOBÌ OBSAHUJE EFEKTY, TAKE, KDY JÍ BUDETE HRÁT NA RESISTANCI, O NIC JSTE NEPØIŠLI. KAMPAÒ BYLA PÙVODNÌ VYTVOØENA PRO MOD "BATTLE FOR NOGOVO 1984", ALE BLÍÍCÍ SE PØÍCHOD "AA" MÌ DONUTIL K TOMU, E KAMPAÒ VYDÁVÁM SAMOSTATNÌ. 
-  V KAMPANI SE VYSKYTUJÍ EFEKTY PÍSKÁNÍ V UŠÍCH, ODLETUJÍCÍ STØEPINY GRANÁTÙ, HOØENÍ A RUSOVÉ NA VÁS V BOJI MOHOU POKØIKOVAT. JE TAM I JINİ ZVUK ALARMU A PØI KRÁDEI TANKÙ V JEDNÉ MISI JSOU SLYŠET RUSKÉ HLÁŠKY. KAMPAÒ JE DÌLANÁ SPÍŠE PRO OSTØÍLENÉ HRÁÈE NE AMATÉRY. JAKO POMÙCKU OBSAHUJE HERNÍ MENU. DABING JE V KAMPANI TAKY, CO JE JASNÉ. 
- JAK JSEM PSAL, JEDNÁ SE O NÁVAZNOST NA RESISTANCI, TAKE ZBRANÌ A MUNICE JE PØENOSNÁ Z MISE DO MISE, SBÍRAT JÍ MÙETE TAKY, ALE MYSLÍM, E KDO JE ŠETØÍLEK A MOC NEPLİTVÁ, TAK MOC SBÍRAT NEBUDE MUSET, VDY JSOU K DISPOZICI RAKETOMETY A SAMOPALY.
+ PRÃVÄš JSTE SI STÃHLI KAMPAÅ‡ BITVA O NOGOVO. JEDNÃ SE O KAMPAÅ‡, TKERÃ NAVAZUJE NA RESISTANCI. SAMA O SOBÄš OBSAHUJE EFEKTY, TAKÅ½E, KDYÅ½ JÃ BUDETE HRÃT NA RESISTANCI, O NIC JSTE NEPÅ˜IÅ LI. KAMPAÅ‡ BYLA PÅ®VODNÄš VYTVOÅ˜ENA PRO MOD "BATTLE FOR NOGOVO 1984", ALE BLÃÅ½ÃCÃ SE PÅ˜ÃCHOD "AA" MÄš DONUTIL K TOMU, Å½E KAMPAÅ‡ VYDÃVÃM SAMOSTATNÄš. 
+  V KAMPANI SE VYSKYTUJÃ EFEKTY PÃSKÃNÃ V UÅ ÃCH, ODLETUJÃCÃ STÅ˜EPINY GRANÃTÅ®, HOÅ˜ENÃ A RUSOVÃ‰ NA VÃS V BOJI MOHOU POKÅ˜IKOVAT. JE TAM I JINÃ ZVUK ALARMU A PÅ˜I KRÃDEÅ½I TANKÅ® V JEDNÃ‰ MISI JSOU SLYÅ ET RUSKÃ‰ HLÃÅ KY. KAMPAÅ‡ JE DÄšLANÃ SPÃÅ E PRO OSTÅ˜ÃLENÃ‰ HRÃÄŒE NEÅ½ AMATÃ‰RY. JAKO POMÅ®CKU OBSAHUJE HERNÃ MENU. DABING JE V KAMPANI TAKY, COÅ½ JE JASNÃ‰. 
+ JAK JSEM PSAL, JEDNÃ SE O NÃVAZNOST NA RESISTANCI, TAKÅ½E ZBRANÄš A MUNICE JE PÅ˜ENOSNÃ Z MISE DO MISE, SBÃRAT JÃ MÅ®Å½ETE TAKY, ALE MYSLÃM, Å½E KDO JE Å ETÅ˜ÃLEK A MOC NEPLÃTVÃ, TAK MOC SBÃRAT NEBUDE MUSET, VÅ½DY JSOU K DISPOZICI RAKETOMETY A SAMOPALY.
 =============================================================================================================
 
 
 autor: "petr.t.lbc"
-hrajete za stranu: západ, civilisti a partyzáni 
-skrypty:    OFP.help (èsla)
+hrajete za stranu: zÃ¡pad, civilisti a partyzÃ¡ni 
+skrypty:    OFP.help (Äsla)
  	"Ali" (download Ruprtova poradna)
 	"Spaw" (download Ruprtova poradna)
 	"petr.t.lbc"
-	"ORCS Development Studios" (Mod Battle for Nogovo 1984 má svolení autorù)
+	"ORCS Development Studios" (Mod Battle for Nogovo 1984 mÃ¡ svolenÃ­ autorÅ¯)
 
 web:  www.bitvaonogovo.xf.cz
-potøebné addony: editroupdate102
-dìláno na verzi: 1.96
-kompatibilita: snad se všemi mody, ale u FFUR si nejsem jist (tím je zahrnuta i ÈSLA, která vyuèívá FFUR efekty). 
-poèet misí: 20
+potÅ™ebnÃ© addony: editroupdate102
+dÄ›lÃ¡no na verzi: 1.96
+kompatibilita: snad se vÅ¡emi mody, ale u FFUR si nejsem jist (tÃ­m je zahrnuta i ÄŒSLA, kterÃ¡ vyuÄÃ­vÃ¡ FFUR efekty). 
+poÄet misÃ­: 20
 
 
 
 
 ============================================================================================================
-problémy:  1)v misi "Jana"  se koukáte dlouho do stromu,  není to chyba, kampaò byla dìlána pro mod Bitva o Nogovo 1984, ta vyuívá jinı model Nogovy u kterého se strom vyskytuje na stejném místì, ale vìtve stromù jsou vıše.
-	2)Obèas "ustøelí" intro, nejedná se o mojí chybu, ale dìlá to OFP. Kampaò testovalo celkem 10 lidí, nezávisle na sobì, tak vím, e moje chyba to není. Nechci aby jste se nechali tím odradit od hraní kampanì, tøeba si intro zkuste znovu a uvidíte.
-	3)V jednom intru jsem si muset zjednodušit popravu partyzánù, protoe mi nechtìli rusové reágovat na pøíkaz dofire, tak snad to tak na vadu nebude, krom jiného zvuku AK74 to poznat nebude.
-	4)Kampaò byla dìlaná na CPU 2Gb, Ram 1024, tak u tìch slabších poèítaèù by mohlo dojít s trhání v nìkterıch misích, ale na toto si ádnı z betatesterù nestìoval (mohlo by to dìlat tak u modù s hodnì efekty, jako FFUR,ÈSLA).
-	5)Kampaò je rázu jako resistance, take se mùete nesplnìním jedné mise ochudit o nìkolik dalších.
-	6)Jedná se jen o èeskou verzi, take na anglickıch a jinıch budete mít problémy s titulky a briefingy. Tím chci øíci, e na internetu je hodnì kampaní, ale hlavnì v angliètinì a dokonce od èeskıch autorù, tak proè nemít jen èeskou.
-	7)V prùbìhu mise si kontrolujte briefing, ve vìtšínì pøípadù se mìní náplò mise, take byste mohli divit, e mise nejde ukonèit. Tím je napøíklad mise "sniper", kde máte zastøelit prezidenta. Nìkdy si lehne na zem, take doporuèuji ho dostat na první ránu.
-	8)Kde máte otazníky na mapì, tak se mùete doèkat pøípadnì pomoci z øad místního obyvatelstva. Tím myslím v misích V lese a Sniper. Kdy civilistu pøed pomocí zastøelíte, tak vám pomoci nemùe (zapùjèení vozu nebo schování doma).
+problÃ©my:  1)v misi "Jana"  se koukÃ¡te dlouho do stromu,  nenÃ­ to chyba, kampaÅˆ byla dÄ›lÃ¡na pro mod Bitva o Nogovo 1984, ta vyuÅ¾Ã­vÃ¡ jinÃ½ model Nogovy u kterÃ©ho se strom vyskytuje na stejnÃ©m mÃ­stÄ›, ale vÄ›tve stromÅ¯ jsou vÃ½Å¡e.
+	2)ObÄas "ustÅ™elÃ­" intro, nejednÃ¡ se o mojÃ­ chybu, ale dÄ›lÃ¡ to OFP. KampaÅˆ testovalo celkem 10 lidÃ­, nezÃ¡visle na sobÄ›, tak vÃ­m, Å¾e moje chyba to nenÃ­. Nechci aby jste se nechali tÃ­m odradit od hranÃ­ kampanÄ›, tÅ™eba si intro zkuste znovu a uvidÃ­te.
+	3)V jednom intru jsem si muset zjednoduÅ¡it popravu partyzÃ¡nÅ¯, protoÅ¾e mi nechtÄ›li rusovÃ© reÃ¡govat na pÅ™Ã­kaz dofire, tak snad to tak na vadu nebude, krom jinÃ©ho zvuku AK74 to poznat nebude.
+	4)KampaÅˆ byla dÄ›lanÃ¡ na CPU 2Gb, Ram 1024, tak u tÄ›ch slabÅ¡Ã­ch poÄÃ­taÄÅ¯ by mohlo dojÃ­t s trhÃ¡nÃ­ v nÄ›kterÃ½ch misÃ­ch, ale na toto si Å¾Ã¡dnÃ½ z betatesterÅ¯ nestÄ›Å¾oval (mohlo by to dÄ›lat tak u modÅ¯ s hodnÄ› efekty, jako FFUR,ÄŒSLA).
+	5)KampaÅˆ je rÃ¡zu jako resistance, takÅ¾e se mÅ¯Å¾ete nesplnÄ›nÃ­m jednÃ© mise ochudit o nÄ›kolik dalÅ¡Ã­ch.
+	6)JednÃ¡ se jen o Äeskou verzi, takÅ¾e na anglickÃ½ch a jinÃ½ch budete mÃ­t problÃ©my s titulky a briefingy. TÃ­m chci Å™Ã­ci, Å¾e na internetu je hodnÄ› kampanÃ­, ale hlavnÄ› v angliÄtinÄ› a dokonce od ÄeskÃ½ch autorÅ¯, tak proÄ nemÃ­t jen Äeskou.
+	7)V prÅ¯bÄ›hu mise si kontrolujte briefing, ve vÄ›tÅ¡Ã­nÄ› pÅ™Ã­padÅ¯ se mÄ›nÃ­ nÃ¡plÅˆ mise, takÅ¾e byste mohli divit, Å¾e mise nejde ukonÄit. TÃ­m je napÅ™Ã­klad mise "sniper", kde mÃ¡te zastÅ™elit prezidenta. NÄ›kdy si lehne na zem, takÅ¾e doporuÄuji ho dostat na prvnÃ­ rÃ¡nu.
+	8)Kde mÃ¡te otaznÃ­ky na mapÄ›, tak se mÅ¯Å¾ete doÄkat pÅ™Ã­padnÄ› pomoci z Å™ad mÃ­stnÃ­ho obyvatelstva. TÃ­m myslÃ­m v misÃ­ch V lese a Sniper. KdyÅ¾ civilistu pÅ™ed pomocÃ­ zastÅ™elÃ­te, tak vÃ¡m pomoci nemÅ¯Å¾e (zapÅ¯jÄenÃ­ vozu nebo schovÃ¡nÃ­ doma).

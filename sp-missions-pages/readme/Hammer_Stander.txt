@@ -5,12 +5,12 @@
 
 
 Autor: Hammer
-Typ : parodická mise
+Typ : parodickÃ¡ mise
 Ostrov: Nogova
 Verze mise: 1.1 Cindy
 Verze ofp: 1.96
-Addony: ádné
-Instalace:Soubor "STANDER cindy.Noe.pbo" zkopírujte do C:/.../Operace Flashpoint/missions
+Addony: Å½Ã¡dnÃ©
+Instalace:Soubor "STANDER cindy.Noe.pbo" zkopÃ­rujte do C:/.../Operace Flashpoint/missions
 
 Kontakt: Email: zatloukal.v@seznam.cz
          ICQ: 395-494-829
@@ -24,32 +24,32 @@ Kontakt: Email: zatloukal.v@seznam.cz
 ====================================================================================
 
 
-Hammer - Tvùrce mise
+Hammer - TvÅ¯rce mise
 
  
 --------------------------------------------------------------------------------------------------------------------
-------------------------------------------PODÌKOVÁNÍ---------------------------------------------------------
+------------------------------------------PODÄšKOVÃNÃ---------------------------------------------------------
 --------------------------------------------------------------------------------------------------------------------
 
-Wallas - Za misi dnes neutírej, kterou jsem se trochu inspiroval a za definici poètu granátù které hráè vlastní
+Wallas - Za misi dnes neutÃ­rej, kterou jsem se trochu inspiroval a za definici poÄtu granÃ¡tÅ¯ kterÃ© hrÃ¡Ä vlastnÃ­
 
-Paøan - Za nápad pouítí granátù jako artefaktù
+PaÅ™an - Za nÃ¡pad pouÅ¾Ã­tÃ­ granÃ¡tÅ¯ jako artefaktÅ¯
 
-Bohemia Interactive Studio – Za skvìlou hru ( Operace Flashpoint ), a za to e snad brzy vydají ArmA II ;-)
+Bohemia Interactive Studio â€“ Za skvÄ›lou hru ( Operace Flashpoint ), a za to Å¾e snad brzy vydajÃ­ ArmA II ;-)
 
-GSC GAME WORLD – Za STALKERa kterı byl mou hlavní inspirací
+GSC GAME WORLD â€“ Za STALKERa kterÃ½ byl mou hlavnÃ­ inspiracÃ­
 
-Všem co se podílely na tvorbì OFP Editor Helpu – Za OFP Editor Help
+VÅ¡em co se podÃ­lely na tvorbÄ› OFP Editor Helpu â€“ Za OFP Editor Help
 
-QIP – Za skvìlıho internetovıho kecálka :o)
+QIP â€“ Za skvÄ›lÃ½ho internetovÃ½ho kecÃ¡lka :o)
  
 --------------------------------------------------------------------------------------------------------------------
----------------------------------SPECIÁLNÍ PODÌKOVÁNÍ---------------------------------------------------
+---------------------------------SPECIÃLNÃ PODÄšKOVÃNÃ---------------------------------------------------
 --------------------------------------------------------------------------------------------------------------------
-Paøan – Za dlouhé rozhovory na ICQ a za spoustu dobrıch rad a nápadù
+PaÅ™an â€“ Za dlouhÃ© rozhovory na ICQ a za spoustu dobrÃ½ch rad a nÃ¡padÅ¯
 
-TonyHawk – Za to e mì vzal do AATH Studia a za to e mì nauèil pracovat s kamerou
+TonyHawk â€“ Za to Å¾e mÄ› vzal do AATH Studia a za to Å¾e mÄ› nauÄil pracovat s kamerou
 
-Str - Za spoustu inspirace a za to e mì jeho mise nauèily hodnì novıch vìcí
+Str - Za spoustu inspirace a za to Å¾e mÄ› jeho mise nauÄily hodnÄ› novÃ½ch vÄ›cÃ­
 
-A nakonec ještì jedno velké podìkování a omluva všem tìm na které jsem zapomnìl
+A nakonec jeÅ¡tÄ› jedno velkÃ© podÄ›kovÃ¡nÃ­ a omluva vÅ¡em tÄ›m na kterÃ© jsem zapomnÄ›l

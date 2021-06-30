@@ -1,33 +1,33 @@
-				Osvobození Mírova
+				OsvobozenÃ­ MÃ­rova
 				by Hammer
 				Verze 1.1
 -----------------------------------------------------------------------------------------------------------------------------
 -------------------Novinky ve verzi 1.1-------------------------------------------------------------------------------------
--Pøidán systém podpálení znièené techniky
--Pøidáni dva spolubojovníci pod velení hráèe
--Pøidáno outro
+-PÅ™idÃ¡n systÃ©m podpÃ¡lenÃ­ zniÄenÃ© techniky
+-PÅ™idÃ¡ni dva spolubojovnÃ­ci pod velenÃ­ hrÃ¡Äe
+-PÅ™idÃ¡no outro
 -Upraveno intro
--OPRAVENO-Startovní pozice pøemístìna z vrtulníku nad moøem k heliportu na statku u vesnice Dolina
--OPRAVENO-Zkráceny délky pøesunù hráèe
--OPRAVENO-Sníená obtínost
+-OPRAVENO-StartovnÃ­ pozice pÅ™emÃ­stÄ›na z vrtulnÃ­ku nad moÅ™em k heliportu na statku u vesnice Dolina
+-OPRAVENO-ZkrÃ¡ceny dÃ©lky pÅ™esunÅ¯ hrÃ¡Äe
+-OPRAVENO-SnÃ­Å¾enÃ¡ obtÃ­Å¾nost
 ------------------------------------------------------------------------------------------------------------------------------
 
-TATO MISE JE URÈENA PRO MISSIONMAKERSKOU SOUTÌ LANA GASTOVSKIHO
+TATO MISE JE URÄŒENA PRO MISSIONMAKERSKOU SOUTÄšÅ½ LANA GASTOVSKIHO
 
 Autor: Hammer
-Typ : Soutìní pìchotní útoèná mise
+Typ : SoutÄ›Å¾nÃ­ pÄ›chotnÃ­ ÃºtoÄnÃ¡ mise
 Ostrov: Nogova
 Verze mise: 1.0
 Verze ofp: 1.96
-Addony: ádné
-Instalace:Sloku "Osvobození Mírova.Noe.pbo" zkopírujte do C:/.../Operace Flashpoint/missions
+Addony: Å½Ã¡dnÃ©
+Instalace:SloÅ¾ku "OsvobozenÃ­ MÃ­rova.Noe.pbo" zkopÃ­rujte do C:/.../Operace Flashpoint/missions
 
 Kontakt: Email: zatloukal.v@seznam.cz
          ICQ: 395-494-829
          WWW: WWW.HAMMER.ESTRANKY.CZ
 
 
-Pár slov autora: Není to sice ádná svìtoborná mise, ale v této tìké dobì kdy toho pro OFP u moc nevychází, je to lepší ne nic. Je to spíše klasická mise, sice s trošku vìtší obtínosti, ale alespoò ji nebudete mít bìhem pìti minut dohranou... 
+PÃ¡r slov autora: NenÃ­ to sice Å¾Ã¡dnÃ¡ svÄ›tobornÃ¡ mise, ale v tÃ©to tÄ›Å¾kÃ© dobÄ› kdy toho pro OFP uÅ¾ moc nevychÃ¡zÃ­, je to lepÅ¡Ã­ neÅ¾ nic. Je to spÃ­Å¡e klasickÃ¡ mise, sice s troÅ¡ku vÄ›tÅ¡Ã­ obtÃ­Å¾nosti, ale alespoÅˆ ji nebudete mÃ­t bÄ›hem pÄ›ti minut dohranou... 
 ====================================================================================
 ====================================================================================
 =================================CREDITS===========================================
@@ -35,31 +35,31 @@ Pár slov autora: Není to sice ádná svìtoborná mise, ale v této tìké dobì kdy t
 ====================================================================================
 
 
-Hammer - Tvùrce mise
+Hammer - TvÅ¯rce mise
 
  
 --------------------------------------------------------------------------------------------------------------------
-------------------------------------------PODÌKOVÁNÍ---------------------------------------------------------
+------------------------------------------PODÄšKOVÃNÃ---------------------------------------------------------
 --------------------------------------------------------------------------------------------------------------------
 
-Lan Gastovski - Za jeho snahu oivit OFP Komunitu
+Lan Gastovski - Za jeho snahu oÅ¾ivit OFP Komunitu
 
-Bohemia Interactive Studio – Za skvìlou hru ( Operace Flashpoint ), a za to e snad brzy vydají ArmA II ;-)
+Bohemia Interactive Studio â€“ Za skvÄ›lou hru ( Operace Flashpoint ), a za to Å¾e snad brzy vydajÃ­ ArmA II ;-)
 
-Všem co se podílely na tvorbì OFP Editor Helpu – Za OFP Editor Help
+VÅ¡em co se podÃ­lely na tvorbÄ› OFP Editor Helpu â€“ Za OFP Editor Help
 
-QIP – Za skvìlıho internetovıho kecálka :o)
+QIP â€“ Za skvÄ›lÃ½ho internetovÃ½ho kecÃ¡lka :o)
  
 --------------------------------------------------------------------------------------------------------------------
----------------------------------SPECIÁLNÍ PODÌKOVÁNÍ---------------------------------------------------
+---------------------------------SPECIÃLNÃ PODÄšKOVÃNÃ---------------------------------------------------
 --------------------------------------------------------------------------------------------------------------------
-Paøan – Za dlouhé rozhovory na ICQ, za spoustu dobrıch rad a nápadù a za konstruktivní kritiku
+PaÅ™an â€“ Za dlouhÃ© rozhovory na ICQ, za spoustu dobrÃ½ch rad a nÃ¡padÅ¯ a za konstruktivnÃ­ kritiku
 
-TonyHawk – Za to e mì vzal do AATH Studia, za to e mì nauèil pracovat s kamerou a za konstruktivní kritiku
+TonyHawk â€“ Za to Å¾e mÄ› vzal do AATH Studia, za to Å¾e mÄ› nauÄil pracovat s kamerou a za konstruktivnÃ­ kritiku
 
-Str - Za spoustu inspirace a za to e mì jeho mise nauèily hodnì novıch vìcí
+Str - Za spoustu inspirace a za to Å¾e mÄ› jeho mise nauÄily hodnÄ› novÃ½ch vÄ›cÃ­
 
-A nakonec ještì jedno velké podìkování a omluva všem tìm na které jsem zapomnìl
+A nakonec jeÅ¡tÄ› jedno velkÃ© podÄ›kovÃ¡nÃ­ a omluva vÅ¡em tÄ›m na kterÃ© jsem zapomnÄ›l
 
 
 by Hammer (c) 2008

@@ -1,13 +1,13 @@
 Operation Close Gate demo v.1
 
-Poadavky:
+PoÅ¾adavky:
 Verze: Operace Flashpoint Resistance - v. 1.96
-Addony: EditorUpdate175Noe.pbo (pøibalen)
+Addony: EditorUpdate175Noe.pbo (pÅ™ibalen)
 
 Instalace:
 
-Rozbal archív do sloky \Campaigns v koøenovém adresáøi hry.
-Addon EditorUpdate175Noe.pbo nahraj do sloky \AddOns v koøenovém adresáøi hry.
-Kampaò pak bude dostupná ve høe.
+Rozbal archÃ­v do sloÅ¾ky \Campaigns v koÅ™enovÃ©m adresÃ¡Å™i hry.
+Addon EditorUpdate175Noe.pbo nahraj do sloÅ¾ky \AddOns v koÅ™enovÃ©m adresÃ¡Å™i hry.
+KampaÅˆ pak bude dostupnÃ¡ ve hÅ™e.
 
-Uíjte si to ;)
+UÅ¾Ã­jte si to ;)

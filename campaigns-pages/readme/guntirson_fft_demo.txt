@@ -1,17 +1,17 @@
 DEMO
 
 Ostrov: Everon
-Poèet misí: 5 + 2 cutscény
-Hrající postavy: Jason Twombly (Voják); Geroge Dyaconsen (Spec. jednotka)
-Hrající frakce: NATO
+PoÄet misÃ­: 5 + 2 cutscÃ©ny
+HrajÃ­cÃ­ postavy: Jason Twombly (VojÃ¡k); Geroge Dyaconsen (Spec. jednotka)
+HrajÃ­cÃ­ frakce: NATO
 
-Plná verze
+PlnÃ¡ verze
 Ostrovy: Everon; Nogova
-Poèet misí: Pøes 30
-Hrající frakce: NATO; SSSR (1 mise); OSN; Partyzáni
-Hrající postavy: Jason Twombly (Voják); Geroge Dyaconsen (Spec. jednotka); Paul Hatton (Tankovı velitel); Ed Wallsh (Pilot); Derek Stawford (Dùstojník OSN); Stanislav Bohulík (Partyzánskı voják)
+PoÄet misÃ­: PÅ™es 30
+HrajÃ­cÃ­ frakce: NATO; SSSR (1 mise); OSN; PartyzÃ¡ni
+HrajÃ­cÃ­ postavy: Jason Twombly (VojÃ¡k); Geroge Dyaconsen (Spec. jednotka); Paul Hatton (TankovÃ½ velitel); Ed Wallsh (Pilot); Derek Stawford (DÅ¯stojnÃ­k OSN); Stanislav BohulÃ­k (PartyzÃ¡nskÃ½ vojÃ¡k)
 
-Pøíbìh:
-Spojené státy americké stále drí pod kontrolou ostrovy Nogova a Everon, z Everonu si Americká armáda udìlala vıcvikové støedisko. To se obyvatelùm ostrova pochopitelnì nelíbí a tak vypukne povstání. Jeliko se armáda NATO na Everonu skládá pøevánì z nováèkù, budou v konfliktu Amerièané trpìt. Zrovna, kdy obì strany hodlají jednat o pøímìøí, vtrhnou na ostrov Rusové a válka nabere jinı smìr. Amerièané budou pøinuceni stáhnout svùj zbytek sil z Everonu na Nogovu, kam také pozdìji Sovìti zaútoèí a bude hrozit Tøetí svìtová válka, kterou by SSSR uvítalo. Situace na Nogovì bude tak napjatá, e se do války pøipletei OSN, aby zabránilo hrozící se svìtovému konfliktu. Poté, co Ruští bombardìøi podniknou nálet na San Francisco, rozhodnou se OSN pomoc Amerièanùm Rusy vyhnat a osvobodit od nich Everon a donutit je podepsat mír, aby se tak zabránilo hrozící se svìtové válce.
+PÅ™Ã­bÄ›h:
+SpojenÃ© stÃ¡ty americkÃ© stÃ¡le drÅ¾Ã­ pod kontrolou ostrovy Nogova a Everon, z Everonu si AmerickÃ¡ armÃ¡da udÄ›lala vÃ½cvikovÃ© stÅ™edisko. To se obyvatelÅ¯m ostrova pochopitelnÄ› nelÃ­bÃ­ a tak vypukne povstÃ¡nÃ­. JelikoÅ¾ se armÃ¡da NATO na Everonu sklÃ¡dÃ¡ pÅ™evÃ¡Å¾nÄ› z novÃ¡ÄkÅ¯, budou v konfliktu AmeriÄanÃ© trpÄ›t. Zrovna, kdyÅ¾ obÄ› strany hodlajÃ­ jednat o pÅ™Ã­mÄ›Å™Ã­, vtrhnou na ostrov RusovÃ© a vÃ¡lka nabere jinÃ½ smÄ›r. AmeriÄanÃ© budou pÅ™inuceni stÃ¡hnout svÅ¯j zbytek sil z Everonu na Nogovu, kam takÃ© pozdÄ›ji SovÄ›ti zaÃºtoÄÃ­ a bude hrozit TÅ™etÃ­ svÄ›tovÃ¡ vÃ¡lka, kterou by SSSR uvÃ­talo. Situace na NogovÄ› bude tak napjatÃ¡, Å¾e se do vÃ¡lky pÅ™ipletei OSN, aby zabrÃ¡nilo hrozÃ­cÃ­ se svÄ›tovÃ©mu konfliktu. PotÃ©, co RuÅ¡tÃ­ bombardÄ›Å™i podniknou nÃ¡let na San Francisco, rozhodnou se OSN pomoc AmeriÄanÅ¯m Rusy vyhnat a osvobodit od nich Everon a donutit je podepsat mÃ­r, aby se tak zabrÃ¡nilo hrozÃ­cÃ­ se svÄ›tovÃ© vÃ¡lce.
 
-Ze sloky Addony všechny soubory pøendejte do sloky se hrou s názvem Addons. Z kampanì soubor do sloky Campaigns. Pøíjemnou zábavu pøeje Guntirson.
+Ze sloÅ¾ky Addony vÅ¡echny soubory pÅ™endejte do sloÅ¾ky se hrou s nÃ¡zvem Addons. Z kampanÄ› soubor do sloÅ¾ky Campaigns. PÅ™Ã­jemnou zÃ¡bavu pÅ™eje Guntirson.

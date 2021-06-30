@@ -8,7 +8,7 @@
 	})(window,document,'script','dataLayer','GTM-K3867HR');</script>
 	<!-- End Google Tag Manager -->
 	
-	<meta http-equiv="content-type" content="text/html; charset=windows-1250">
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
 		<title>Detail tipu</title>
 		<meta name="GENERATOR" content="Microsoft Visual Studio .NET 7.1">
 		<meta name="CODE_LANGUAGE" content="Visual Basic .NET 7.1">
@@ -28,65 +28,65 @@
 					<table id="tblContent" class="MD_TABLE_INFO" width="448px" cellspacing="0" cellpadding="3" align="left">
 	<tbody><tr>
 		<td style="color:#FFFFFF;font-weight:bold;" width="50%">Autor : Ruprt</td>
-		<td style="color:#FFFFFF;font-weight:bold;" width="50%" align="right">Ukázka není k dispozici<br>
-			<a href="./../tips-tricks.html">Zpět na Tipy &amp Triky</a>
+		<td style="color:#FFFFFF;font-weight:bold;" width="50%" align="right">UkĂˇzka nenĂ­ k dispozici<br>
+			<a href="./../tips-tricks.html">ZpÄ›t na Tipy &amp Triky</a>
 		</td>
 	</tr>
 	<tr>
 		<td colspan="2" height="9px" bgcolor="#9FA5C5"></td>
 	</tr>
 	<tr>
-		<td colspan="2" style="font-size:1.0em;font-weight:bold;color:#FF6600;" align="center">Opatření proti hráčům MP misí, kteří střílejí na nepřátele v místě jejich respawnu.</td>
+		<td colspan="2" style="font-size:1.0em;font-weight:bold;color:#FF6600;" align="center">OpatĹ™enĂ­ proti hrĂˇÄŤĹŻm MP misĂ­, kteĹ™Ă­ stĹ™Ă­lejĂ­ na nepĹ™Ăˇtele v mĂ­stÄ› jejich respawnu.</td>
 	</tr>
 	<tr>
 		<td colspan="2" height="9px" bgcolor="#9FA5C5"></td>
 	</tr>
 	<tr>
 		<td colspan="2" style="font-size:1.05em;font-weight:normal;text-align:justify;color:#EBE7D8;">Harrier
- mně položil dotaz, zda-li je možné udělat ochranu v MP misi proti 
-hráčům, kteří střílejí do protihráčů na místě jejich respawnu. 
-Představoval si to tak, že v případě, že hráč zastřelí protihráče na 
-respawnu, tak by mu byli odebrány všechny zbrane, 5 minut by byl jako 
-mrtvý a pak by se "probral" na svém respawnu.<br>Vzhledem k tomu, že 
-počet a prodleva respawnu se nastavuje pro všechny hráče MP mise stejně a
- ještě k tomu v description.ext, nelze takové řešení úplně přesně 
-provést, protože description.ext v průběhu hry prostě změnit nelze.<br><br>Vymyslel
- jsem ale jiné řešení. Pro hry udělané ve verzi 1.90 je již k dispozici 
-EvenHandler (Obsluha událostí). Pro starší verze mám však také řešení.<br><br>1) MP mise pro verzi 1.90 - Příklad<br>Mise
- bude mít 4 hráče WEST a 4 hráče EAST. Na místě respawnu hráčů WEST 
-umístíme jakýkoli objekt (doporučuji Logický člen), který pojmenujeme 
-"respawnWest". Na místě respawnu hráčů EAST umístíme opět objekt - 
-Logický člen a pojmenujeme ho "respawnEast".<br>Ve vzdálenosti od 
-"respawnWest"(ve směru dozadu od herní oblasti), kterou by voják beze 
-zbraně uběhl asi tak za 5 minut umístíme další logický člen, který 
-pojmenujem třeba "badBoyPointWest". To samé uděláme pro stranu EAST s 
-tím rozdílem, že ten druhý logický člen pojmenujem "badBoyPointEast". No
- a teď už ke scriptu.<br>V závislosti na tom, zda-li chcete provinilce 
-potrestat pouze za to, že protihráče trefil, ale ještě nezabil, nebo ho 
-chcete potresta jenom když protihrače nedovoleně zabije, zvolíte 
-EventHandler.<br>a) pouze strefa - protihrac na respawnu je pouze zraněn :<br>do init.sqs zapiste nasledujici kód<br>hracEast1 addEventHandler ["Hit",{_this exec "badboywest.sqs"}]<br>hracEast2 addEventHandler ["Hit",{_this exec "badboywest.sqs"}]<br>hracEast3 addEventHandler ["Hit",{_this exec "badboywest.sqs"}]<br>hracEast4 addEventHandler ["Hit",{_this exec "badboywest.sqs"}]<br><br>hracWest1 addEventHandler ["Hit",{_this exec "badboyeast.sqs"}]<br>hracWest2 addEventHandler ["Hit",{_this exec "badboyeast.sqs"}]<br>hracWest3 addEventHandler ["Hit",{_this exec "badboyeast.sqs"}]<br>hracWest4 addEventHandler ["Hit",{_this exec "badboyeast.sqs"}]<br>(pozn. pokud jsou hraci jedne strany ve stejne skupine muzete samozrejme pouzit prikaz ForEach : <br>"_x addEventHandler [""Hit"",{_this exec ""respointwest.sqs""}]" ForEach Units Group hracEast1<br>"_x addEventHandler [""Hit"",{_this exec ""respointeast.sqs""}]" ForEach Units Group hracWest1 )<br><br>Poté si vytvoříte ony dva scripty badboywest.sqs a badboyeast.sqs kde bude náledující kód ;<br>soubor badboywest.sqs :<br>_mrtvola = _this Select 0<br>_kdozabil = _this Select 1<br><br>?
+ mnÄ› poloĹľil dotaz, zda-li je moĹľnĂ© udÄ›lat ochranu v MP misi proti 
+hrĂˇÄŤĹŻm, kteĹ™Ă­ stĹ™Ă­lejĂ­ do protihrĂˇÄŤĹŻ na mĂ­stÄ› jejich respawnu. 
+PĹ™edstavoval si to tak, Ĺľe v pĹ™Ă­padÄ›, Ĺľe hrĂˇÄŤ zastĹ™elĂ­ protihrĂˇÄŤe na 
+respawnu, tak by mu byli odebrĂˇny vĹˇechny zbrane, 5 minut by byl jako 
+mrtvĂ˝ a pak by se "probral" na svĂ©m respawnu.<br>Vzhledem k tomu, Ĺľe 
+poÄŤet a prodleva respawnu se nastavuje pro vĹˇechny hrĂˇÄŤe MP mise stejnÄ› a
+ jeĹˇtÄ› k tomu v description.ext, nelze takovĂ© Ĺ™eĹˇenĂ­ ĂşplnÄ› pĹ™esnÄ› 
+provĂ©st, protoĹľe description.ext v prĹŻbÄ›hu hry prostÄ› zmÄ›nit nelze.<br><br>Vymyslel
+ jsem ale jinĂ© Ĺ™eĹˇenĂ­. Pro hry udÄ›lanĂ© ve verzi 1.90 je jiĹľ k dispozici 
+EvenHandler (Obsluha udĂˇlostĂ­). Pro starĹˇĂ­ verze mĂˇm vĹˇak takĂ© Ĺ™eĹˇenĂ­.<br><br>1) MP mise pro verzi 1.90 - PĹ™Ă­klad<br>Mise
+ bude mĂ­t 4 hrĂˇÄŤe WEST a 4 hrĂˇÄŤe EAST. Na mĂ­stÄ› respawnu hrĂˇÄŤĹŻ WEST 
+umĂ­stĂ­me jakĂ˝koli objekt (doporuÄŤuji LogickĂ˝ ÄŤlen), kterĂ˝ pojmenujeme 
+"respawnWest". Na mĂ­stÄ› respawnu hrĂˇÄŤĹŻ EAST umĂ­stĂ­me opÄ›t objekt - 
+LogickĂ˝ ÄŤlen a pojmenujeme ho "respawnEast".<br>Ve vzdĂˇlenosti od 
+"respawnWest"(ve smÄ›ru dozadu od hernĂ­ oblasti), kterou by vojĂˇk beze 
+zbranÄ› ubÄ›hl asi tak za 5 minut umĂ­stĂ­me dalĹˇĂ­ logickĂ˝ ÄŤlen, kterĂ˝ 
+pojmenujem tĹ™eba "badBoyPointWest". To samĂ© udÄ›lĂˇme pro stranu EAST s 
+tĂ­m rozdĂ­lem, Ĺľe ten druhĂ˝ logickĂ˝ ÄŤlen pojmenujem "badBoyPointEast". No
+ a teÄŹ uĹľ ke scriptu.<br>V zĂˇvislosti na tom, zda-li chcete provinilce 
+potrestat pouze za to, Ĺľe protihrĂˇÄŤe trefil, ale jeĹˇtÄ› nezabil, nebo ho 
+chcete potresta jenom kdyĹľ protihraÄŤe nedovolenÄ› zabije, zvolĂ­te 
+EventHandler.<br>a) pouze strefa - protihrac na respawnu je pouze zranÄ›n :<br>do init.sqs zapiste nasledujici kĂłd<br>hracEast1 addEventHandler ["Hit",{_this exec "badboywest.sqs"}]<br>hracEast2 addEventHandler ["Hit",{_this exec "badboywest.sqs"}]<br>hracEast3 addEventHandler ["Hit",{_this exec "badboywest.sqs"}]<br>hracEast4 addEventHandler ["Hit",{_this exec "badboywest.sqs"}]<br><br>hracWest1 addEventHandler ["Hit",{_this exec "badboyeast.sqs"}]<br>hracWest2 addEventHandler ["Hit",{_this exec "badboyeast.sqs"}]<br>hracWest3 addEventHandler ["Hit",{_this exec "badboyeast.sqs"}]<br>hracWest4 addEventHandler ["Hit",{_this exec "badboyeast.sqs"}]<br>(pozn. pokud jsou hraci jedne strany ve stejne skupine muzete samozrejme pouzit prikaz ForEach : <br>"_x addEventHandler [""Hit"",{_this exec ""respointwest.sqs""}]" ForEach Units Group hracEast1<br>"_x addEventHandler [""Hit"",{_this exec ""respointeast.sqs""}]" ForEach Units Group hracWest1 )<br><br>PotĂ© si vytvoĹ™Ă­te ony dva scripty badboywest.sqs a badboyeast.sqs kde bude nĂˇledujĂ­cĂ­ kĂłd ;<br>soubor badboywest.sqs :<br>_mrtvola = _this Select 0<br>_kdozabil = _this Select 1<br><br>?
  (_mrtvola Distance respawnEast) &lt; 20: _kdozabil SetPos GetPos 
-badBoyPointWest; RemoveAllWeapons _kdozabil; _mrtvola SetDamage 0<br>Exit<br><br>no a soubor badboyeast.sqs pak bude obsahovat tento kód :<br>_mrtvola = _this Select 0<br>_kdozabil = _this Select 1<br><br>?
+badBoyPointWest; RemoveAllWeapons _kdozabil; _mrtvola SetDamage 0<br>Exit<br><br>no a soubor badboyeast.sqs pak bude obsahovat tento kĂłd :<br>_mrtvola = _this Select 0<br>_kdozabil = _this Select 1<br><br>?
  (_mrtvola Distance respawnWest) &lt; 20: _kdozabil SetPos GetPos 
 badBoyPointEast; RemoveAllWeapons _kdozabil; _mrtvola SetDamage 0<br>Exit<br><br>A
- to je vše. Hráč, který se proviní tím, že zraní protihráče ve 
-vzdálenosti do 20 metrů od jeho respawnu, pak bude přemístěn na pozici 
-objektu BadBoyPointStrana a bude muset beze zbraně běžet 5 minut na 
-místo svého respawnu, kde si vezme z beden s municí novou zbraň a munici
- a příště už si rozmyslí, zbaběle střílet do nepřátel na respawnu. Navíc
- postižený hráč bude "opraven" příkazem " _mrtvola SetDamage 0".<br><br>b)
- V případě, že chcete hráče potrestat jenom za zabití protihráče na 
-respawnu, použijte v init.sqs EventHandler "Killed" namísto "Hit" a ze 
-souborů badboystrana.sqs odeberete za RemoveAllWeapons _kdozabil toto : 
-"; _mrtvola SetDamage 0".<br><br><br>2) MP mise pro verzi nižší než 1.90 - Příklad<br>Zde
- lze použít pouze trest za zabití protihráče nikoli za pouhé zranění. 
-Takže ... objekty umístíte stejně jako u předchozího příkladu a stejně 
-je také pojmenujete.<br>Soubor init.sqs nemusí obsahovat nic. Musíte však vytvořit soubor onPlayerKilled.sqs, který bude obsahovat následující kód :<br>_mrtvola = _this Select 0<br>_kdozabil = _this Select 1<br><br>? (_mrtvola Distance respawnWest) &lt; 20 AND (Side _mrtvola) == West: Goto "ResPointEast"<br>? (_mrtvola Distance respawnEast) &lt; 20 AND (Side _mrtvola) == East: Goto "ResPointWest"<br><br>#ResPointWest<br>_kdozabil SetPos GetPos badBoyPointWest<br>RemoveAllWeapons _kdozabil<br>Exit<br><br>#ResPointEast<br>_kdozabil SetPos GetPos badBoyPointEast<br>RemoveAllWeapons _kdozabil<br>Exit<br><br>A
- toť vše. Mějte na paměti, že každý script lze v OFP spustit ve více 
-instancích a EvenHandlery "Hit" a "Killed" a soubor onPlayerKilled.sqs 
-jsou vykonávány pouze lokálně a nehrozí tedy kolize kódu scriptu ani v 
-případě, že by byli zabiti třeba všichni hráči najednou. Je to prostě 
-bezpečné a pro provinilce dostatečně zpruzující.</td>
+ to je vĹˇe. HrĂˇÄŤ, kterĂ˝ se provinĂ­ tĂ­m, Ĺľe zranĂ­ protihrĂˇÄŤe ve 
+vzdĂˇlenosti do 20 metrĹŻ od jeho respawnu, pak bude pĹ™emĂ­stÄ›n na pozici 
+objektu BadBoyPointStrana a bude muset beze zbranÄ› bÄ›Ĺľet 5 minut na 
+mĂ­sto svĂ©ho respawnu, kde si vezme z beden s municĂ­ novou zbraĹ a munici
+ a pĹ™Ă­ĹˇtÄ› uĹľ si rozmyslĂ­, zbabÄ›le stĹ™Ă­let do nepĹ™Ăˇtel na respawnu. NavĂ­c
+ postiĹľenĂ˝ hrĂˇÄŤ bude "opraven" pĹ™Ă­kazem " _mrtvola SetDamage 0".<br><br>b)
+ V pĹ™Ă­padÄ›, Ĺľe chcete hrĂˇÄŤe potrestat jenom za zabitĂ­ protihrĂˇÄŤe na 
+respawnu, pouĹľijte v init.sqs EventHandler "Killed" namĂ­sto "Hit" a ze 
+souborĹŻ badboystrana.sqs odeberete za RemoveAllWeapons _kdozabil toto : 
+"; _mrtvola SetDamage 0".<br><br><br>2) MP mise pro verzi niĹľĹˇĂ­ neĹľ 1.90 - PĹ™Ă­klad<br>Zde
+ lze pouĹľĂ­t pouze trest za zabitĂ­ protihrĂˇÄŤe nikoli za pouhĂ© zranÄ›nĂ­. 
+TakĹľe ... objekty umĂ­stĂ­te stejnÄ› jako u pĹ™edchozĂ­ho pĹ™Ă­kladu a stejnÄ› 
+je takĂ© pojmenujete.<br>Soubor init.sqs nemusĂ­ obsahovat nic. MusĂ­te vĹˇak vytvoĹ™it soubor onPlayerKilled.sqs, kterĂ˝ bude obsahovat nĂˇsledujĂ­cĂ­ kĂłd :<br>_mrtvola = _this Select 0<br>_kdozabil = _this Select 1<br><br>? (_mrtvola Distance respawnWest) &lt; 20 AND (Side _mrtvola) == West: Goto "ResPointEast"<br>? (_mrtvola Distance respawnEast) &lt; 20 AND (Side _mrtvola) == East: Goto "ResPointWest"<br><br>#ResPointWest<br>_kdozabil SetPos GetPos badBoyPointWest<br>RemoveAllWeapons _kdozabil<br>Exit<br><br>#ResPointEast<br>_kdozabil SetPos GetPos badBoyPointEast<br>RemoveAllWeapons _kdozabil<br>Exit<br><br>A
+ toĹĄ vĹˇe. MÄ›jte na pamÄ›ti, Ĺľe kaĹľdĂ˝ script lze v OFP spustit ve vĂ­ce 
+instancĂ­ch a EvenHandlery "Hit" a "Killed" a soubor onPlayerKilled.sqs 
+jsou vykonĂˇvĂˇny pouze lokĂˇlnÄ› a nehrozĂ­ tedy kolize kĂłdu scriptu ani v 
+pĹ™Ă­padÄ›, Ĺľe by byli zabiti tĹ™eba vĹˇichni hrĂˇÄŤi najednou. Je to prostÄ› 
+bezpeÄŤnĂ© a pro provinilce dostateÄŤnÄ› zpruzujĂ­cĂ­.</td>
 	</tr>
 </tbody></table>
 

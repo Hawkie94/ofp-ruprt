@@ -4,21 +4,21 @@ CASTLE - Shadow of the red star BETA
 --------------------------------
 Info o misi:
 Autor: Hammer
-Strana: Partyz·ni
+Strana: Partyz√°ni
 Typ mise: Obrana Hradu
 Ostrov: Everon
 ----------------------
 Slovo autora
--star· verze mise Castle (urËitÏ si zahrejte novou verzi ;))
+-star√° verze mise Castle (urƒçitƒõ si zahrejte novou verzi ;))
 -------------------------------------------------------------
-Poûadavky:
-Pot¯ebn· verze ofp: 1.96
-Addony: Editorupdate102 (p¯ibalen)
+Po≈æadavky:
+Pot≈ôebn√° verze ofp: 1.96
+Addony: Editorupdate102 (p≈ôibalen)
 ----------------------------------
 Instalace:
 Soubor "castle.Eden.pbo"
-zkopÌrujte do C:/.../Operace Flashpoint/missions a soubor
-editorupdate102.pbo zkopÌrujte do C:/.../Operace Flashpoint/addons
+zkop√≠rujte do C:/.../Operace Flashpoint/missions a soubor
+editorupdate102.pbo zkop√≠rujte do C:/.../Operace Flashpoint/addons
 -------------------------------------------------------------
 
 "Install it, Play it and ENJOY IT!!!"

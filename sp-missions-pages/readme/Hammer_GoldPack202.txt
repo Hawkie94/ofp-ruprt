@@ -2,33 +2,33 @@ README
 Hammer GOLD Pack - Verze 2.02
 
 Instalace:
-	Obsah sloky Hammer GOLD PACK 2.0 extrahujte do sloky Operation Flashpoint ve které máte nainstalované OFP
+	Obsah sloÅ¾ky Hammer GOLD PACK 2.0 extrahujte do sloÅ¾ky Operation Flashpoint ve kterÃ© mÃ¡te nainstalovanÃ© OFP
 
 Obsah:Mise :						2009
 							Artilery
 							Battle
-							Castle – Shadow of The Red Star 
+							Castle â€“ Shadow of The Red Star 
 									-verze 1.0 a 1.3 Delta
-							Castle – Return 2 Everon
+							Castle â€“ Return 2 Everon
 							Church
 							God
-							Megality a Zajímavosti
+							Megality a ZajÃ­mavosti
 							Mountain King verze 1.1
 							Original War
-							Osvobození Mírova – verze 1.0 a 1.1
-							Podzemní chodba
-							Poklad na Støíbrném jezeøe
+							OsvobozenÃ­ MÃ­rova â€“ verze 1.0 a 1.1
+							PodzemnÃ­ chodba
+							Poklad na StÅ™Ã­brnÃ©m jezeÅ™e
 							Projekt GASTOVSKI - verze 1.1
 							Roadblock
 							Sniper on the mountains
 							Sniper
-							STANDER – verze 1.1
+							STANDER â€“ verze 1.1
 							Statek
-							Útok na Chotain
+							Ãštok na Chotain
 
-	Kampanì:					Teneriffe
+	KampanÄ›:					Teneriffe
 
-	Pøiloené Addony:				Editor update 102
+	PÅ™iloÅ¾enÃ© Addony:				Editor update 102
 							Hammer music addon
 							HMMR_CopperSphere									HMMR_Excavator
 							HMMR_Gravi
@@ -43,12 +43,12 @@ Obsah:Mise :						2009
 
 	Bonusy:					Tapety na Plochu
 						WIP screens
-						Nedokonèené projekty (Just War, Status Quo)
+						NedokonÄenÃ© projekty (Just War, Status Quo)
 Credits:
 
 	Autor: 			HAMMER (aka don_Taz aka God3D)
 
-	Spolupracovali:		PAØAN
+	Spolupracovali:		PAÅ˜AN
 				TONYHAWK
 				MIKI45
 
@@ -61,9 +61,9 @@ Credits:
 				RANDY EDELMAN
 				EDITH PIAF
 				MARCIN CZARTYNSKI
-				A DALŠÍ…
+				A DALÅ Ãâ€¦
 
-	Podìkování:		PAØAN
+	PodÄ›kovÃ¡nÃ­:		PAÅ˜AN
 				TONYHAWK
 				MIKI45
 				DIDYMOS
@@ -75,6 +75,6 @@ Credits:
 				AL SIMMONS
 				BOHEMIA INTERACTIVE STUDIO
 
-				VŠEM JEŠTÌ AKTIVNÍM ÈLENÙM  
+				VÅ EM JEÅ TÄš AKTIVNÃM ÄŒLENÅ®M  
 				OFP KOMUNITY
-				A VŠEM NA KTERÉ JSEM ZAPOMNÌL
+				A VÅ EM NA KTERÃ‰ JSEM ZAPOMNÄšL

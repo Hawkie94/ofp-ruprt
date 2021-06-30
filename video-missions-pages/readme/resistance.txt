@@ -9,29 +9,29 @@ ________________________________________________________________________________
 ==================================
 AUOTR: Didymos (Didymos@seznam.cz)
 ==================================
-JMÉNO MISE: RESISTANCE
+JMÃ‰NO MISE: RESISTANCE
 ==================================
 TYP MISE: video mise
 ==============================================================
-POUITÉ ADDONY: 
-- neukázali se mi ádné, tudí by si to mìl prohlédnout kadı
-- Ale je za potøebí EditorUpgrade102 Ke staení napø. tady: "http://www.sweb.cz/didymos/EditorUpgrade102.zip"
+POUÅ½ITÃ‰ ADDONY: 
+- neukÃ¡zali se mi Å¾Ã¡dnÃ©, tudÃ­Å¾ by si to mÄ›l prohlÃ©dnout kaÅ¾dÃ½
+- Ale je za potÅ™ebÃ­ EditorUpgrade102 Ke staÅ¾enÃ­ napÅ™. tady: "http://www.sweb.cz/didymos/EditorUpgrade102.zip"
 =============================================================================================================
 INSTALACE: 
-- Soubor "resistance.Eden.pbo" rozbal do adresáøe Missions.
+- Soubor "resistance.Eden.pbo" rozbal do adresÃ¡Å™e Missions.
   Obvykle: "C:\Program Files\Codemasters\OperationFlashpoint\Missions\resistance.Eden.pbo" 
 
 =============================================================================================================
-POZNÁMKY:
-- Potom, co jsem vidìl Resistance trailer k pøipravovanému datadisku pro OFP mì napadla taková 
-  malá klukovina. Podívej se sám. Nemìl jsem v úmyslu opisovat, jen jsem se chtìl podívat na 
-  rozdíl. :o))  
+POZNÃMKY:
+- Potom, co jsem vidÄ›l Resistance trailer k pÅ™ipravovanÃ©mu datadisku pro OFP mÄ› napadla takovÃ¡ 
+  malÃ¡ klukovina. PodÃ­vej se sÃ¡m. NemÄ›l jsem v Ãºmyslu opisovat, jen jsem se chtÄ›l podÃ­vat na 
+  rozdÃ­l. :o))  
 
-  Pøíjemnou zábavu a hezkı den. 
+  PÅ™Ã­jemnou zÃ¡bavu a hezkÃ½ den. 
 ==================================================================================================================
 OMLUVA:
-- Pracoval jsem na tom dvì odpoledne, take asi 10-15 hodin, take tam bude asi spousta chyb a vùbec bych radìji 
-  nerozebíral zdroják. Take pardón. :o)
+- Pracoval jsem na tom dvÄ› odpoledne, takÅ¾e asi 10-15 hodin, takÅ¾e tam bude asi spousta chyb a vÅ¯bec bych radÄ›ji 
+  nerozebÃ­ral zdrojÃ¡k. TakÅ¾e pardÃ³n. :o)
 ==================================================================================================================
 
 

@@ -1,46 +1,46 @@
-Název mise:Dobytí ráje
-Typ mise: Letecká - helikoptéra
+NÃ¡zev mise:DobytÃ­ rÃ¡je
+Typ mise: LeteckÃ¡ - helikoptÃ©ra
 Ostrov:Everon
 Velikost mise:377K
 Intro:Ano
 Outro:Ano
-Pouité addony: AH 64 Stinger (pøiloen)
-Potøeba verze hry:1.46
-Vytvoøeno ve verzy hry:1.46 
+PouÅ¾itÃ© addony: AH 64 Stinger (pÅ™iloÅ¾en)
+PotÅ™eba verze hry:1.46
+VytvoÅ™eno ve verzy hry:1.46 
 Autor:Sapi
 E-mail:p.szabo@tiscali.cz
 
-Toto je jedna z mıch prvních misí,není to nic extra zvláštního a není nadabována, jednak s tím zatím nemám moc zkušeností a taky si nemyslím, e je tak dobrá, aby si dabing zaslouila.
+Toto je jedna z mÃ½ch prvnÃ­ch misÃ­,nenÃ­ to nic extra zvlÃ¡Å¡tnÃ­ho a nenÃ­ nadabovÃ¡na, jednak s tÃ­m zatÃ­m nemÃ¡m moc zkuÅ¡enostÃ­ a taky si nemyslÃ­m, Å¾e je tak dobrÃ¡, aby si dabing zaslouÅ¾ila.
 
 
 Instalace:
 
-Misi nakopírujte do adresáøe: Codemasters/Operace Flashpoint/Missions
-Addon nakopírujte do adresáøe: Codemasters/Operace Flashpoint/Missions/Addons
+Misi nakopÃ­rujte do adresÃ¡Å™e: Codemasters/Operace Flashpoint/Missions
+Addon nakopÃ­rujte do adresÃ¡Å™e: Codemasters/Operace Flashpoint/Missions/Addons
 
-Podìkování:
+PodÄ›kovÃ¡nÃ­:
 
-Úplnì všem,kteøí mi kdy pomohli øešit problémy tıkající se
-editace ve høe Operace Flashpoint. Mimo jiné hlavnì Ruprt, Dydimos - www.koflex.cz/ruprt
-A taky Tobì, e tu misi hraješ.
+ÃšplnÄ› vÅ¡em,kteÅ™Ã­ mi kdy pomohli Å™eÅ¡it problÃ©my tÃ½kajÃ­cÃ­ se
+editace ve hÅ™e Operace Flashpoint. Mimo jinÃ© hlavnÄ› Ruprt, Dydimos - www.koflex.cz/ruprt
+A taky TobÄ›, Å¾e tu misi hrajeÅ¡.
 
-Tipy (pokud se nebude daøit úspìšnì dohrát)
+Tipy (pokud se nebude daÅ™it ÃºspÄ›Å¡nÄ› dohrÃ¡t)
 
-Lete nízko a rychle. A se budete blíit k letišti hra se uloí a potom zaènìte stoupat. V prvé øadì zneškodnìtì dvì šilky.
-Jedna je na zaèátku pøistávací plochy a druhá vlevo vedle lesa kterı leí za pøistávací plochou letištì, nápovìdou by mìlo bıt pro Vás Intro.
-Potom otoète nad èerpací stanici a zniète dva startující Hindy potom zvolte zbraò "Stinger" a sejmìte MI17. A nyní mùete v klidu vyèistit vše ostatní a pokraèovat v úkolu. 
-Já osobnì pouívám na jakékoli rakety ruèní støelbu. Pøi pouití kulometu u vše nechávám na støelci a já lítám v klidu nízko a pomalu
-a on za mnì vše vyøeší, rychle a v klidu.
+LeÅ¥te nÃ­zko a rychle. AÅ¾ se budete blÃ­Å¾it k letiÅ¡ti hra se uloÅ¾Ã­ a potom zaÄnÄ›te stoupat. V prvÃ© Å™adÄ› zneÅ¡kodnÄ›tÄ› dvÄ› Å¡ilky.
+Jedna je na zaÄÃ¡tku pÅ™istÃ¡vacÃ­ plochy a druhÃ¡ vlevo vedle lesa kterÃ½ leÅ¾Ã­ za pÅ™istÃ¡vacÃ­ plochou letiÅ¡tÄ›, nÃ¡povÄ›dou by mÄ›lo bÃ½t pro VÃ¡s Intro.
+Potom otoÄte nad ÄerpacÃ­ stanici a zniÄte dva startujÃ­cÃ­ Hindy potom zvolte zbraÅˆ "Stinger" a sejmÄ›te MI17. A nynÃ­ mÅ¯Å¾ete v klidu vyÄistit vÅ¡e ostatnÃ­ a pokraÄovat v Ãºkolu. 
+JÃ¡ osobnÄ› pouÅ¾Ã­vÃ¡m na jakÃ©koli rakety ruÄnÃ­ stÅ™elbu. PÅ™i pouÅ¾itÃ­ kulometu uÅ¾ vÅ¡e nechÃ¡vÃ¡m na stÅ™elci a jÃ¡ lÃ­tÃ¡m v klidu nÃ­zko a pomalu
+a on za mnÄ› vÅ¡e vyÅ™eÅ¡Ã­, rychle a v klidu.
 
-Poznámky:
-
-
-Taky bych Vás chtìl tímto poádat o Vaše ohlasy na mùj vıše uvedenı e-mail,
-zda-li se Vám tato mise vùbec líbila, èi nikoli.
-Tak se nestyïte a napište, snesu i kritiku :o))
+PoznÃ¡mky:
 
 
-Pøeji pøíjemnou zábavu. 
+Taky bych VÃ¡s chtÄ›l tÃ­mto poÅ¾Ã¡dat o VaÅ¡e ohlasy na mÅ¯j vÃ½Å¡e uvedenÃ½ e-mail,
+zda-li se VÃ¡m tato mise vÅ¯bec lÃ­bila, Äi nikoli.
+Tak se nestyÄte a napiÅ¡te, snesu i kritiku :o))
+
+
+PÅ™eji pÅ™Ã­jemnou zÃ¡bavu. 
 
                                   
 

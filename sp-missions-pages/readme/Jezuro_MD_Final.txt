@@ -1,15 +1,15 @@
 -----------------------------------------------------------------------------------------
 
-  R A N N Õ   R O S A
+  R A N N √ç   R O S A
 
    > singleplayer mise pro hru Operace Flashpoint
-   > fin·lnÌ verze
-   > podporovanÈ jazyky: ENG, CZ
+   > fin√°ln√≠ verze
+   > podporovan√© jazyky: ENG, CZ
 
 -----------------------------------------------------------------------------------------
 
   AUTOR
-		Jeûuro ( jezuro@post.cz | ICQ# 197968874 | http://2dmm.wz.cz )
+		Je≈æuro ( jezuro@post.cz | ICQ# 197968874 | http://2dmm.wz.cz )
   VERZE OFP
 		1.96
   OSTROV
@@ -19,31 +19,31 @@
 		Hydergine
 		Money
   DABING
-		Jeûuro
+		Je≈æuro
 		Wallas
 		Hydergine
 
 -----------------------------------------------------------------------------------------
 
-  POTÿEBN… ADDONY
+  POT≈òEBN√â ADDONY
 
-		- pouze ofici·lnÌ -
+		- pouze ofici√°ln√≠ -
 		
 -----------------------------------------------------------------------------------------
 
   INSTALACE
-		> extrahujte staûen˝ ZIP soubor
-		> soubor ze MD_Final.Cain.pbo zkopÌrujte do sloûky \Missions ve vaöem adres·¯i
-		  OFP (standardnÏ C:\Program Files\OperationFlashpoint\Missions)
+		> extrahujte sta≈æen√Ω ZIP soubor
+		> soubor ze MD_Final.Cain.pbo zkop√≠rujte do slo≈æky \Missions ve va≈°em adres√°≈ôi
+		  OFP (standardnƒõ C:\Program Files\OperationFlashpoint\Missions)
 
 -----------------------------------------------------------------------------------------
 
-  NÃCO NAVÕC
-		> Volba obtÌûnosti (na zaË·tku mise, ovlivÚuje AI)
-		> Ukazatel zdravÌ (lze jej vypnout p¯es r·dio 0-0-0)
-		> Tato mise se umÌstila na 3. pozici v OFP Mission Editing Competition
+  NƒöCO NAV√çC
+		> Volba obt√≠≈ænosti (na zaƒç√°tku mise, ovliv≈àuje AI)
+		> Ukazatel zdrav√≠ (lze jej vypnout p≈ôes r√°dio 0-0-0)
+		> Tato mise se um√≠stila na 3. pozici v OFP Mission Editing Competition
 		  2005.
 
 -----------------------------------------------------------------------------------------
 
-									Jeûuro, 2006
+									Je≈æuro, 2006

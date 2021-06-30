@@ -1,5 +1,5 @@
 =================================
-//KRVAVÁ ODPLATA (MISE) od Doomka///
+//KRVAVÃ ODPLATA (MISE) od Doomka///
 =================================
 
 //Verze hry: 1.09 
@@ -8,7 +8,7 @@
                    Datadisk Queen's Gambit
 
 
-//Credits:     Doomek - Vedoucí mise, scripty, addony, dabing atd..
+//Credits:     Doomek - VedoucÃ­ mise, scripty, addony, dabing atd..
                    Mara - Dabing
                    Chicago - Betatesting, Dabing
 
@@ -16,10 +16,10 @@
                    http://doomek.blog.cz
                    ICQ: 389-779-066 (Doomek)
 
-//Speciální podìkování:
+//SpeciÃ¡lnÃ­ podÄ›kovÃ¡nÃ­:
 
-                   Ruprtovì poradnì (je to nejlepší èeské forum)
-                   Chicagovi (za jeho ochotu namluvit daging i pøes spousty práce a za betatesting)
+                   RuprtovÄ› poradnÄ› (je to nejlepÅ¡Ã­ ÄeskÃ© forum)
+                   Chicagovi (za jeho ochotu namluvit daging i pÅ™es spousty prÃ¡ce a za betatesting)
                    Marovi (za dabing)
 
 

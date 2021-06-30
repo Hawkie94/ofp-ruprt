@@ -1,4 +1,4 @@
-Ante Portas - Arma 2 SP campaign by EMSI © 2oo9-2o11
+Ante Portas - Arma 2 SP campaign by EMSI Â© 2oo9-2o11
 ----------------------------------------------------------------------------------------------------------
 
 This ZIP archive contains the "EMSI_AP.pbo" file which is located in the "Campaigns" folder.
@@ -38,4 +38,4 @@ For detailed info see attached file "EMSI_Ante_Portas_bug-fix.txt"
 ----------------------------------------------------------------------------------------------------------
 http://anteportas.xf.cz
 http://arma2.xf.cz
-EMSI © 2oo9-2o11
+EMSI Â© 2oo9-2o11

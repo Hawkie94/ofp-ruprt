@@ -1,6 +1,6 @@
 ----------------------------------------------------------------------------------------
 
-  T ÿ I   K R ¡ L O V …
+  T ≈ò I   K R √Å L O V √â
 
    > singleplayer mise pro hru Operace Flashpoint
 
@@ -9,7 +9,7 @@
 -----------------------------------------------------------------------------------------
 
   AUTOR
-		Jeûuro ( jezuro@post.cz | ICQ# 197968874 | http://2dmm.wz.cz)
+		Je≈æuro ( jezuro@post.cz | ICQ# 197968874 | http://2dmm.wz.cz)
 
   BETATEST
 		Mikero
@@ -17,13 +17,13 @@
 		Wallas
 
   DABING
-		Jeûuro
+		Je≈æuro
 		Wallas
 		Many
 		Hydergine
 		cEph
 		Sak
-		Velk˝ Bratr
+		Velk√Ω Bratr
 
   HUDBA
 		Requiem for a Dream OST
@@ -34,7 +34,7 @@
 
 -----------------------------------------------------------------------------------------
 
-  POTÿEBN… ADDONY
+  POT≈òEBN√â ADDONY
 
 		BAS Delta / Rangers units	http://www.gotf.net/download.asp?dl=25
 
@@ -42,20 +42,20 @@
 
 		BAS JAM2			http://www.gotf.net/download.asp?dl=72
 
-		StreetLamp			- p¯ibaleno k misi -
+		StreetLamp			- p≈ôibaleno k misi -
 		
 -----------------------------------------------------------------------------------------
 
   INSTALACE
-		> extrahujte staûen˝ ZIP soubor
+		> extrahujte sta≈æen√Ω ZIP soubor
 
-		> soubor ze sloûky \Mise zkopÌrujte do sloûky \Missions ve vaöem adres·¯i
-		  OFP (standardnÏ C:\Program Files\OperationFlashpoint\Missions)
+		> soubor ze slo≈æky \Mise zkop√≠rujte do slo≈æky \Missions ve va≈°em adres√°≈ôi
+		  OFP (standardnƒõ C:\Program Files\OperationFlashpoint\Missions)
 
-		> soubor ze sloûky \Addon zkopÌrujte do sloûky \Addons ve vaöem adres·¯i
-		  OFP (standardnÏ C:\Program Files\OperationFlashpoint\Addons)
+		> soubor ze slo≈æky \Addon zkop√≠rujte do slo≈æky \Addons ve va≈°em adres√°≈ôi
+		  OFP (standardnƒõ C:\Program Files\OperationFlashpoint\Addons)
 
-		> pro instalaci pot¯ebn˝ch addon˘ od BAS n·sledujte instrukce v jejich
+		> pro instalaci pot≈ôebn√Ωch addon≈Ø od BAS n√°sledujte instrukce v jejich
 		  souborech readme
 
 -----------------------------------------------------------------------------------------

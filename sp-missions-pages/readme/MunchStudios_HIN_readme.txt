@@ -8,19 +8,19 @@
 ============================================================================================
 
 
- OBSAH: 1) Instalace a potøebné addony
+ OBSAH: 1) Instalace a potÅ™ebnÃ© addony
         2) Alarm system Full v1.0
-        3) Další nestandardní vlastnosti
+        3) DalÅ¡Ã­ nestandardnÃ­ vlastnosti
 	4) Tipy a rady
         5) Credits
 	6) Disclaimer
 ____________________________________________________________________________________________
 
- 1) INSTALACE A POTØEBNÉ ADDONY :
+ 1) INSTALACE A POTÅ˜EBNÃ‰ ADDONY :
 
-	Zkopírujte adesáøe ADDONS, RES a MISSIONS do vašeho adresáøe s Flashpointem.
+	ZkopÃ­rujte adesÃ¡Å™e ADDONS, RES a MISSIONS do vaÅ¡eho adresÃ¡Å™e s Flashpointem.
 
-	Potøebné ADDONY:
+	PotÅ™ebnÃ© ADDONY:
 
 	The HK pack by LOBO-TEAM
         http://lostbrothers.ofpmatch.com/OFPHK/download.php
@@ -47,89 +47,89 @@ ________________________________________________________________________________
 
  2) ALARM SYSTEM FULL V1.0 
 
-	Alarm System Full v1.0 je finální verzí Alarm Systemu Basic, kterı byl pouit 
-	v misi Hawk In Shadows a jde o zcela originální script vytvoøenı Munch Studios.
-	Je kompletnì upraven do formy skriptu a obsahuje pùvodnì plánovanou reakci
-	stráí na mrtvolu kterou vidí, je byla u H.I.S odstranìna v dùsledku
+	Alarm System Full v1.0 je finÃ¡lnÃ­ verzÃ­ Alarm Systemu Basic, kterÃ½ byl pouÅ¾it 
+	v misi Hawk In Shadows a jde o zcela originÃ¡lnÃ­ script vytvoÅ™enÃ½ Munch Studios.
+	Je kompletnÄ› upraven do formy skriptu a obsahuje pÅ¯vodnÄ› plÃ¡novanou reakci
+	strÃ¡Å¾Ã­ na mrtvolu kterou vidÃ­, jeÅ¾ byla u H.I.S odstranÄ›na v dÅ¯sledku
 	nekompatibility AI s addonem Editor Upgrade.
 
 	Funkce Alarm System Full:
 	
-	Kdy stránı objeví nepøítele, nebo uslyší vıstøel, nejdøíve zavolá "Who's there?!",
-	"Hey, you!" nebo "Hey, what are you doing there!?", aby se zda nejde o "planı
- 	poplach" a strhává zbraò z ramene.
+	KdyÅ¾ strÃ¡Å¾nÃ½ objevÃ­ nepÅ™Ã­tele, nebo uslyÅ¡Ã­ vÃ½stÅ™el, nejdÅ™Ã­ve zavolÃ¡ "Who's there?!",
+	"Hey, you!" nebo "Hey, what are you doing there!?", aby se zda nejde o "planÃ½
+ 	poplach" a strhÃ¡vÃ¡ zbraÅˆ z ramene.
 
-	Pokud stránı zahlédne mrtvolu, zavolá "What the hell?! He's dead!" èi "Oh my god!".
+	Pokud strÃ¡Å¾nÃ½ zahlÃ©dne mrtvolu, zavolÃ¡ "What the hell?! He's dead!" Äi "Oh my god!".
 
-	Pokud není ihned zneškodnìn zaène volat "Alarm!!! Alarm!!!" a v té dobì u není
- 	mono zabránit poplachu.
+	Pokud nenÃ­ ihned zneÅ¡kodnÄ›n zaÄne volat "Alarm!!! Alarm!!!" a v tÃ© dobÄ› uÅ¾ nenÃ­
+ 	moÅ¾no zabrÃ¡nit poplachu.
 
 	
 ____________________________________________________________________________________________
 
- 3) Další nestandardní vlastnosti:
+ 3) DalÅ¡Ã­ nestandardnÃ­ vlastnosti:
 
 	TRAPSATS
 	Tactical Reconnaissance Auto-Positioning SATellite System 
-	(Taktickı Prùzkumnı Samo-Zamìøovací SATelitní Systém) byl vyvinut pøímo pro 
-	infiltrující agenty SPECTRE. Automaticky zamìøuje agenta a na malé obrazovce 
-	mu zobrazuje jeho blízké okolí. To je velice uiteèné, protoe umoòuje sledovat 
-	pohyb stráí, rozmístìní bezpeènostních systémù a pastí. 
+	(TaktickÃ½ PrÅ¯zkumnÃ½ Samo-ZamÄ›Å™ovacÃ­ SATelitnÃ­ SystÃ©m) byl vyvinut pÅ™Ã­mo pro 
+	infiltrujÃ­cÃ­ agenty SPECTRE. Automaticky zamÄ›Å™uje agenta a na malÃ© obrazovce 
+	mu zobrazuje jeho blÃ­zkÃ© okolÃ­. To je velice uÅ¾iteÄnÃ©, protoÅ¾e umoÅ¾Åˆuje sledovat 
+	pohyb strÃ¡Å¾Ã­, rozmÃ­stÄ›nÃ­ bezpeÄnostnÃ­ch systÃ©mÅ¯ a pastÃ­. 
 	
 	MUCS
-	Melee & Unarmed Combat System (Systém pro boj zblízka a beze zbranì) dovoluje hráèi
-	zabít nepøítele potichu bez pouití tlumené zbranì (a plıtvání nábojù).
+	Melee & Unarmed Combat System (SystÃ©m pro boj zblÃ­zka a beze zbranÄ›) dovoluje hrÃ¡Äi
+	zabÃ­t nepÅ™Ã­tele potichu bez pouÅ¾itÃ­ tlumenÃ© zbranÄ› (a plÃ½tvÃ¡nÃ­ nÃ¡bojÅ¯).
 
-	Systém bezpeènostních kamer
-	Bezpeènostní kamery reagují na pøítomnost hráèe, nebo mrtvoly v zorném poli.
+	SystÃ©m bezpeÄnostnÃ­ch kamer
+	BezpeÄnostnÃ­ kamery reagujÃ­ na pÅ™Ã­tomnost hrÃ¡Äe, nebo mrtvoly v zornÃ©m poli.
 
 	Ostrov Cybelle
-	Mise obsahuje malı ostrov vytvoøenı pøímo pro její potøeby.
+	Mise obsahuje malÃ½ ostrov vytvoÅ™enÃ½ pÅ™Ã­mo pro jejÃ­ potÅ™eby.
 
-	Tøi stupnì obtínosti
-	Mise obsahuje obtínosti 'Normal', 'Hard' a 'Extreme'
+	TÅ™i stupnÄ› obtÃ­Å¾nosti
+	Mise obsahuje obtÃ­Å¾nosti 'Normal', 'Hard' a 'Extreme'
 ____________________________________________________________________________________________
 
  4)Tipy a rady:
 
-	!Doporuèené nastavení!: Terén - nízká (!!!) mise byla pod tímto nastavením vytvoøena
+	!DoporuÄenÃ© nastavenÃ­!: TerÃ©n - nÃ­zkÃ¡ (!!!) mise byla pod tÃ­mto nastavenÃ­m vytvoÅ™ena
 	                        Viditelnost - 500 (dle hardware)
 
-	Napoprvé doporuèujeme obtínost 'Normal', 'Extreme' je vızva pro hráèe, kterı ji
-	misi dohrál.
+	NapoprvÃ© doporuÄujeme obtÃ­Å¾nost 'Normal', 'Extreme' je vÃ½zva pro hrÃ¡Äe, kterÃ½ jiÅ¾
+	misi dohrÃ¡l.
 
-	Ukládání: Ne si uloíte pozici, pøesvìète se, e nejste v situaci, kdy nemùete 
-	napravit chybu vedoucí k vašemu odhalení èi smrti!
-	Neukládejte bìhem pouívání TRAPSATS.
+	UklÃ¡dÃ¡nÃ­: NeÅ¾ si uloÅ¾Ã­te pozici, pÅ™esvÄ›Äte se, Å¾e nejste v situaci, kdy nemÅ¯Å¾ete 
+	napravit chybu vedoucÃ­ k vaÅ¡emu odhalenÃ­ Äi smrti!
+	NeuklÃ¡dejte bÄ›hem pouÅ¾Ã­vÃ¡nÃ­ TRAPSATS.
 
-	Skrıvání tìl: Design mise vás bude nutit schovat vìtšinu mrtvıch tìl, nebo odhalení
-	mrtvoly vyvolá poplach!
+	SkrÃ½vÃ¡nÃ­ tÄ›l: Design mise vÃ¡s bude nutit schovat vÄ›tÅ¡inu mrtvÃ½ch tÄ›l, neboÅ¥ odhalenÃ­
+	mrtvoly vyvolÃ¡ poplach!
 
-	Kamery: Kamery reagují na pøítomnost jak hráèe, tak mrvoly v zorném poli a je tøeba
-	s nimi poèítat.
+	Kamery: Kamery reagujÃ­ na pÅ™Ã­tomnost jak hrÃ¡Äe, tak mrvoly v zornÃ©m poli a je tÅ™eba
+	s nimi poÄÃ­tat.
 
-	TRAPSATS a plánování: K nepozorovanému pøesunu nepøátelskım územím je tøeba peèlivé
-	plánování a pøesné provedení. K tomu je nutné mít dokonalı pøehled o nejbliším
-	okolí, které zajistí satelitní systém TRAPSATS. Pøed kadım postupem vìnujte chvíli
-	prùzkumu a plánování s pomocí satelitního systému!
+	TRAPSATS a plÃ¡novÃ¡nÃ­: K nepozorovanÃ©mu pÅ™esunu nepÅ™Ã¡telskÃ½m ÃºzemÃ­m je tÅ™eba peÄlivÃ©
+	plÃ¡novÃ¡nÃ­ a pÅ™esnÃ© provedenÃ­. K tomu je nutnÃ© mÃ­t dokonalÃ½ pÅ™ehled o nejbliÅ¾Å¡Ã­m
+	okolÃ­, kterÃ© zajistÃ­ satelitnÃ­ systÃ©m TRAPSATS. PÅ™ed kaÅ¾dÃ½m postupem vÄ›nujte chvÃ­li
+	prÅ¯zkumu a plÃ¡novÃ¡nÃ­ s pomocÃ­ satelitnÃ­ho systÃ©mu!
 
-	Tichı pohyb: Èím rychleji se pohybujete, tím jste hlasitìjší. Sprintujícího vojáka
-	stráe uslyší na velkou vzálenost, pomalu se plíící agent je velice tichı. Velice
-	tichá je také pomalá chùze s pistolí nebo beze zbranì. 
+	TichÃ½ pohyb: ÄŒÃ­m rychleji se pohybujete, tÃ­m jste hlasitÄ›jÅ¡Ã­. SprintujÃ­cÃ­ho vojÃ¡ka
+	strÃ¡Å¾e uslyÅ¡Ã­ na velkou vzÃ¡lenost, pomalu se plÃ­Å¾Ã­cÃ­ agent je velice tichÃ½. Velice
+	tichÃ¡ je takÃ© pomalÃ¡ chÅ¯ze s pistolÃ­ nebo beze zbranÄ›. 
 
-	Jak nepozorovanì zabít: Nejjednodušším zpùsobem je pouití pistole s tlumièem,
-	pokud ale není dostatek nábojù, je tøeba vyuít MUCS (Systém Boje Zblízka a
-	Beze zbranì). První podmínkou úspìšného útoku je dostat se k nepøíteli a pøekvapit
-	ho. Toho lze podle podmínek dosáhnout nenápadností (viz. tichı pohyb), nebo
-	rychlostí. Zaútoèit se dá buï pabou (rychlé, ale menší šance na úspìch), nebo
- 	úderem ruky (mnohem úèinnìjší a jistìjší). Podrobnosti jsou v Briefingu/ Poznámky.
+	Jak nepozorovanÄ› zabÃ­t: NejjednoduÅ¡Å¡Ã­m zpÅ¯sobem je pouÅ¾itÃ­ pistole s tlumiÄem,
+	pokud ale nenÃ­ dostatek nÃ¡bojÅ¯, je tÅ™eba vyuÅ¾Ã­t MUCS (SystÃ©m Boje ZblÃ­zka a
+	Beze zbranÄ›). PrvnÃ­ podmÃ­nkou ÃºspÄ›Å¡nÃ©ho Ãºtoku je dostat se k nepÅ™Ã­teli a pÅ™ekvapit
+	ho. Toho lze podle podmÃ­nek dosÃ¡hnout nenÃ¡padnostÃ­ (viz. tichÃ½ pohyb), nebo
+	rychlostÃ­. ZaÃºtoÄit se dÃ¡ buÄ paÅ¾bou (rychlÃ©, ale menÅ¡Ã­ Å¡ance na ÃºspÄ›ch), nebo
+ 	Ãºderem ruky (mnohem ÃºÄinnÄ›jÅ¡Ã­ a jistÄ›jÅ¡Ã­). Podrobnosti jsou v Briefingu/ PoznÃ¡mky.
 
-	Nepøekonatelná pøekáka: Pokud narazíte na pøekáku, která se nedá pøekonat,
-	prozkoumejte okolí. Cesta zdaleka nemusí bıt pøímá, je tøeba najít skulinku.
-	Nìkdy je tøeba trpìlivosti a vyèkat na správnou pøíleitost.
+	NepÅ™ekonatelnÃ¡ pÅ™ekÃ¡Å¾ka: Pokud narazÃ­te na pÅ™ekÃ¡Å¾ku, kterÃ¡ se nedÃ¡ pÅ™ekonat,
+	prozkoumejte okolÃ­. Cesta zdaleka nemusÃ­ bÃ½t pÅ™Ã­mÃ¡, je tÅ™eba najÃ­t skulinku.
+	NÄ›kdy je tÅ™eba trpÄ›livosti a vyÄkat na sprÃ¡vnou pÅ™Ã­leÅ¾itost.
 
-	Pokud se objeví problém, kterı nedokáete vyøešit, kontaktujte: 
-	http://munchstudios.wz.cz - support guestbook (pøedevším tecnické problémy)
+	Pokud se objevÃ­ problÃ©m, kterÃ½ nedokÃ¡Å¾ete vyÅ™eÅ¡it, kontaktujte: 
+	http://munchstudios.wz.cz - support guestbook (pÅ™edevÅ¡Ã­m tecnickÃ© problÃ©my)
 	nebo munchstudios@centrum.cz
 
 
@@ -169,10 +169,10 @@ ________________________________________________________________________________
 
  6) DISCLAIMER
 
-Toto je neoficiální mise pro hru Operation Flashpoint (Copyright © 2001 Bohemia Interactive 
+Toto je neoficiÃ¡lnÃ­ mise pro hru Operation Flashpoint (Copyright Â© 2001 Bohemia Interactive 
 Studio and The Codemasters Software Company Limited ("Codemasters"). All rights reserved.)
-Jako taková je podle rozhodnutí Bohemia Interactive, Codemasters a Munch Studios FREEWARE a
-NESMÍ bıt vyuita ke KOMERÈNÍM úèelùm!
-Bohemia Interactive, Codemasters ani Munch Studios neruèí za problémy vzniklé pouíváním
+Jako takovÃ¡ je podle rozhodnutÃ­ Bohemia Interactive, Codemasters a Munch Studios FREEWARE a
+NESMÃ bÃ½t vyuÅ¾ita ke KOMERÄŒNÃM ÃºÄelÅ¯m!
+Bohemia Interactive, Codemasters ani Munch Studios neruÄÃ­ za problÃ©my vzniklÃ© pouÅ¾Ã­vÃ¡nÃ­m
 tohoto software.  
 

@@ -1,36 +1,36 @@
 ---------------------------------------------------------------
---------------------------ÈTYØI DÙSTOJNÍCI---------------------
+--------------------------ÄŒTYÅ˜I DÅ®STOJNÃCI---------------------
 ---------------------------------------------------------------
 
-KMT pøedstavuje síovou kooperativní misi Ètyøi dùstojníci. S tımem partyzánù ukrytıch v horách zabijte ètyry ruské dùstojníky, kteøí se právì pohybují na ostrovì. Úkol nebude jednoduchı, protoe ostrov je doslova prolezlı ruskımi hlídkami, pìchotami a pøesouvající se tìkou technikou.
+KMT pÅ™edstavuje sÃ­Å¥ovou kooperativnÃ­ misi ÄŒtyÅ™i dÅ¯stojnÃ­ci. S tÃ½mem partyzÃ¡nÅ¯ ukrytÃ½ch v horÃ¡ch zabijte Ätyry ruskÃ© dÅ¯stojnÃ­ky, kteÅ™Ã­ se prÃ¡vÄ› pohybujÃ­ na ostrovÄ›. Ãškol nebude jednoduchÃ½, protoÅ¾e ostrov je doslova prolezlÃ½ ruskÃ½mi hlÃ­dkami, pÄ›chotami a pÅ™esouvajÃ­cÃ­ se tÄ›Å¾kou technikou.
 
-Mise nevyaduje ádné addony.
+Mise nevyÅ¾aduje Å¾Ã¡dnÃ© addony.
 
 
 ---------------------------------------------------------------
 --------------------------INSTALACE----------------------------
 ---------------------------------------------------------------
 
-1.	Ze souboru "4_dustojnici.zip" extrahuj soubor mise "Ctyri_dustojnici.Noe.pbo" do sloky "MPMissions" ve tvém adresáøi hry
+1.	Ze souboru "4_dustojnici.zip" extrahuj soubor mise "Ctyri_dustojnici.Noe.pbo" do sloÅ¾ky "MPMissions" ve tvÃ©m adresÃ¡Å™i hry
 
-2.	Vytvoø novou síovou hru, mùeš hrát i sám, ale ve dvou je to vìtší zábava :)
-
-
----------------------------------------------------------------
---------------------------PØÍBÌH-------------------------------
----------------------------------------------------------------
-
-"Ètyøi vysocí ruští dùstojníci musí zemøít, aby si Sovìtskı svaz uvìdomil, e i kdy zradila vláda, my, obyvatelé Nogovy jsme se s okupací našeho ostrova nesmíøili...
-
-Americká armáda zamítla velkı útok na Nogovu, protoe by to bylo moc nákladné. Tak jsme se my, partizáni z republiky Nogova, rozhodli zneškodnit hlavní mozky øídící ruská vojska na ostrovì. Bıvalı prezident nám sehnal potøebné informace:
-
-Dùstojníci jsou celkem ètyøi. První se údajnì nachází na statku u Doliny. Jedná se o krutého dùstojníka Ivana Èechova. Druhı se nachází v Troskách u zøíceniny a jeho jméno je Alexandr enìv. Tøetího hledejte v Opatovì, mìstì na jihu. Zde se ukrıvá Pjotr Soldát. Ètvrtı je zaúkolován tím, e pøedává informace mezi Troskami a Opatovem. Najdete ho tedy v dùstojnickém dípu, nìkde po cestì mezi tìmito mìsty. Je to dùstojník, kterı je z nich nejmírumilovnìjší. Jeho jméno je Alexej Oveckin.Všichni a na Oveckina maji u sebe svojí prostitutku, kterou si udìlali z prostıch nogovskıch dívek. Buïte proto opatrní a za ádnou cenu nedopuste, aby tyto dívky zemøely. Celı ostrov je obsazen ruskımi pìchotami, tanky a pravdìpodobnì i vrtulníky. Nesnate se tedy mìøit své síly s tìmito jednotkami a zamìøte se na svùj úkol. Buïte ale ve støehu, protoe nikdy nevíte, koho mùete potkat. 
-
-Hodnì štìstí vám pøeje prezident republiky Nogova, Jiøí Šafáø."
+2.	VytvoÅ™ novou sÃ­Å¥ovou hru, mÅ¯Å¾eÅ¡ hrÃ¡t i sÃ¡m, ale ve dvou je to vÄ›tÅ¡Ã­ zÃ¡bava :)
 
 
 ---------------------------------------------------------------
---------------------------VYTVOØIL-----------------------------
+--------------------------PÅ˜ÃBÄšH-------------------------------
+---------------------------------------------------------------
+
+"ÄŒtyÅ™i vysocÃ­ ruÅ¡tÃ­ dÅ¯stojnÃ­ci musÃ­ zemÅ™Ã­t, aby si SovÄ›tskÃ½ svaz uvÄ›domil, Å¾e i kdyÅ¾ zradila vlÃ¡da, my, obyvatelÃ© Nogovy jsme se s okupacÃ­ naÅ¡eho ostrova nesmÃ­Å™ili...
+
+AmerickÃ¡ armÃ¡da zamÃ­tla velkÃ½ Ãºtok na Nogovu, protoÅ¾e by to bylo moc nÃ¡kladnÃ©. Tak jsme se my, partizÃ¡ni z republiky Nogova, rozhodli zneÅ¡kodnit hlavnÃ­ mozky Å™Ã­dÃ­cÃ­ ruskÃ¡ vojska na ostrovÄ›. BÃ½valÃ½ prezident nÃ¡m sehnal potÅ™ebnÃ© informace:
+
+DÅ¯stojnÃ­ci jsou celkem ÄtyÅ™i. PrvnÃ­ se ÃºdajnÄ› nachÃ¡zÃ­ na statku u Doliny. JednÃ¡ se o krutÃ©ho dÅ¯stojnÃ­ka Ivana ÄŒechova. DruhÃ½ se nachÃ¡zÃ­ v TroskÃ¡ch u zÅ™Ã­ceniny a jeho jmÃ©no je Alexandr Å½enÄ›v. TÅ™etÃ­ho hledejte v OpatovÄ›, mÄ›stÄ› na jihu. Zde se ukrÃ½vÃ¡ Pjotr SoldÃ¡t. ÄŒtvrtÃ½ je zaÃºkolovÃ¡n tÃ­m, Å¾e pÅ™edÃ¡vÃ¡ informace mezi Troskami a Opatovem. Najdete ho tedy v dÅ¯stojnickÃ©m dÅ¾Ã­pu, nÄ›kde po cestÄ› mezi tÄ›mito mÄ›sty. Je to dÅ¯stojnÃ­k, kterÃ½ je z nich nejmÃ­rumilovnÄ›jÅ¡Ã­. Jeho jmÃ©no je Alexej Oveckin.VÅ¡ichni aÅ¾ na Oveckina maji u sebe svojÃ­ prostitutku, kterou si udÄ›lali z prostÃ½ch nogovskÃ½ch dÃ­vek. BuÄte proto opatrnÃ­ a za Å¾Ã¡dnou cenu nedopusÅ¥te, aby tyto dÃ­vky zemÅ™ely. CelÃ½ ostrov je obsazen ruskÃ½mi pÄ›chotami, tanky a pravdÄ›podobnÄ› i vrtulnÃ­ky. NesnaÅ¾te se tedy mÄ›Å™it svÃ© sÃ­ly s tÄ›mito jednotkami a zamÄ›Å™te se na svÅ¯j Ãºkol. BuÄte ale ve stÅ™ehu, protoÅ¾e nikdy nevÃ­te, koho mÅ¯Å¾ete potkat. 
+
+HodnÄ› Å¡tÄ›stÃ­ vÃ¡m pÅ™eje prezident republiky Nogova, JiÅ™Ã­ Å afÃ¡Å™."
+
+
+---------------------------------------------------------------
+--------------------------VYTVOÅ˜IL-----------------------------
 ---------------------------------------------------------------
 
 Studio KMT 2009

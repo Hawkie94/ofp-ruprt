@@ -1,13 +1,13 @@
-Název:Ostøelovaè
-Potøebné addony:ádné
+NÃ¡zev:OstÅ™elovaÄ
+PotÅ™ebnÃ© addony:Å¾Ã¡dnÃ©
 Ostrov:Nogova
 Typ mise:SP
 Intro a outro:NE
 Brifing a overview:ANO
 Vyrobeno na verzi:1.96
 Kontakt:kuba.englicky@email.cz
-Strana:Partyzáni
+Strana:PartyzÃ¡ni
 Vyrobil:Player
 
-Nìco o misi:
-Jako ostøelovaè musíte zabít nepøátelského dùstojníka.
+NÄ›co o misi:
+Jako ostÅ™elovaÄ musÃ­te zabÃ­t nepÅ™Ã¡telskÃ©ho dÅ¯stojnÃ­ka.

@@ -2,17 +2,17 @@ Red Dawn DEMO
 
 Autor: RedKnight
 Ostrov: Everon
-Potøebné addony: všechny pøiloeny
-Potøebná verze OFP: 1.96
-Poèet misí: 15 + 4 cutscény
-Hrající postavy: Gregorij Lemontov (SpetzNatz), Sergej Rashiv (voják), Nikolaj Ablomov (pilot), Dimitrij Kukuschkin (tankista)
-Hrající frakce: SSSR
+PotÅ™ebnÃ© addony: vÅ¡echny pÅ™iloÅ¾eny
+PotÅ™ebnÃ¡ verze OFP: 1.96
+PoÄet misÃ­: 15 + 4 cutscÃ©ny
+HrajÃ­cÃ­ postavy: Gregorij Lemontov (SpetzNatz), Sergej Rashiv (vojÃ¡k), Nikolaj Ablomov (pilot), Dimitrij Kukuschkin (tankista)
+HrajÃ­cÃ­ frakce: SSSR
 
-Pøíbìh:
-Neoficiální prequel ke kampani Fight for Territory nás zavede na ostrov Everon, na kterém si v období studené války v 1978 americká armáda udìlala vıcvikové støedisko.
-Místní obyvatelé s tím nebyli zrovna spokojeni. Ruskı plukovník Livanoch má obavy z Gorbaèovové Perestrojky. Nestabilní situaci v Kremlu se snaí vyuít k obsazení Everonu,
-pøièem vinu chce hodit na Amerièany. Oèima dùstojníka SpetzNatz, vojáka, pilota a tankisty uvidíte válku na vlastní oèi.
+PÅ™Ã­bÄ›h:
+NeoficiÃ¡lnÃ­ prequel ke kampani Fight for Territory nÃ¡s zavede na ostrov Everon, na kterÃ©m si v obdobÃ­ studenÃ© vÃ¡lky v 1978 americkÃ¡ armÃ¡da udÄ›lala vÃ½cvikovÃ© stÅ™edisko.
+MÃ­stnÃ­ obyvatelÃ© s tÃ­m nebyli zrovna spokojeni. RuskÃ½ plukovnÃ­k Livanoch mÃ¡ obavy z GorbaÄovovÃ© Perestrojky. NestabilnÃ­ situaci v Kremlu se snaÅ¾Ã­ vyuÅ¾Ã­t k obsazenÃ­ Everonu,
+pÅ™iÄemÅ¾ vinu chce hodit na AmeriÄany. OÄima dÅ¯stojnÃ­ka SpetzNatz, vojÃ¡ka, pilota a tankisty uvidÃ­te vÃ¡lku na vlastnÃ­ oÄi.
 
-Potøebné addony jsou vloeny v ZIPu (nakopírujte je všechny do sloky se hrou s názvem Addons). Soubor dawn.pbo nakopírujte do sloky Campaigns.
+PotÅ™ebnÃ© addony jsou vloÅ¾eny v ZIPu (nakopÃ­rujte je vÅ¡echny do sloÅ¾ky se hrou s nÃ¡zvem Addons). Soubor dawn.pbo nakopÃ­rujte do sloÅ¾ky Campaigns.
 
-Pøíjemnou zábavu pøeje RedKnight.
+PÅ™Ã­jemnou zÃ¡bavu pÅ™eje RedKnight.

@@ -7,15 +7,15 @@
 
 Autor: snowojta
 Verze: 1.0
-Potøebné addony: editorupdate 1.02 -pøiloen (pro lepší chod mise dopouèuji dat do addons pøiloenı addon protoe jiné editorupdaty a editorupgrady mohou dìlat potíe)
-Typ mise: Kombinovaná  (pìchotní,plošinovka,logická :)
-Popis: Jsou zde èásti kde se mise jeví jako pìchotní ale pøidal jsem pár vìcí aby to bylo originálnìjší( monost vytvoøit kryt nebo zmìna zbraní pøi akci ->cca 7 zbraní) Pak jsou zde èásti které musíte rolezt po paletách jako plošinovky atd.
-Mise se skládá pøiblinì z 11 menších "misí" a ùkolù.
-Podìkování: ofp.ruprt.cz - jsou tam nedocenitelné rady
-            ofpec.com - je tam mnoství skcriptù, ukázky drop-comandu 
+PotÅ™ebnÃ© addony: editorupdate 1.02 -pÅ™iloÅ¾en (pro lepÅ¡Ã­ chod mise dopouÄuji dat do addons pÅ™iloÅ¾enÃ½ addon protoÅ¾e jinÃ© editorupdaty a editorupgrady mohou dÄ›lat potÃ­Å¾e)
+Typ mise: KombinovanÃ¡  (pÄ›chotnÃ­,ploÅ¡inovka,logickÃ¡ :)
+Popis: Jsou zde ÄÃ¡sti kde se mise jevÃ­ jako pÄ›chotnÃ­ ale pÅ™idal jsem pÃ¡r vÄ›cÃ­ aby to bylo originÃ¡lnÄ›jÅ¡Ã­( moÅ¾nost vytvoÅ™it kryt nebo zmÄ›na zbranÃ­ pÅ™i akci ->cca 7 zbranÃ­) Pak jsou zde ÄÃ¡sti kterÃ© musÃ­te rolezt po paletÃ¡ch jako ploÅ¡inovky atd.
+Mise se sklÃ¡dÃ¡ pÅ™ibliÅ¾nÄ› z 11 menÅ¡Ã­ch "misÃ­" a Å¯kolÅ¯.
+PodÄ›kovÃ¡nÃ­: ofp.ruprt.cz - jsou tam nedocenitelnÃ© rady
+            ofpec.com - je tam mnoÅ¾stvÃ­ skcriptÅ¯, ukÃ¡zky drop-comandu 
             =S.O.F= clan - za inspiraci z jejich map ;P
             BIS - za OFP ;D
-            a mì za vytvoøení :DD
-Vytvoøeno pro soutì L. Gastovského a pro mou vlastní potøebu :P ^^
+            a mÄ› za vytvoÅ™enÃ­ :DD
+VytvoÅ™eno pro soutÄ›Å¾ L. GastovskÃ©ho a pro mou vlastnÃ­ potÅ™ebu :P ^^
 
 NPE exit

@@ -1,14 +1,14 @@
 Operation Close Gate demo v.2
 
-Poadavky:
+PoÅ¾adavky:
 Verze: Operace Flashpoint Resistance - v. 1.96
-Addony: nejspíš EditorUpdate102
+Addony: nejspÃ­Å¡ EditorUpdate102
 
 Instalace:
-Rozbal archív do sloky \Campaigns v koøenovém adresáøi hry.
-Kampaò pak bude dostupná ve høe.
+Rozbal archÃ­v do sloÅ¾ky \Campaigns v koÅ™enovÃ©m adresÃ¡Å™i hry.
+KampaÅˆ pak bude dostupnÃ¡ ve hÅ™e.
 
-Poznámka:
-Kampaò není dokonèena. Síce je zøejmé, jak pøíbìh skonèí, klíèové èásti chybí.
+PoznÃ¡mka:
+KampaÅˆ nenÃ­ dokonÄena. SÃ­ce je zÅ™ejmÃ©, jak pÅ™Ã­bÄ›h skonÄÃ­, klÃ­ÄovÃ© ÄÃ¡sti chybÃ­.
 
-Uíjte si to ;)
+UÅ¾Ã­jte si to ;)

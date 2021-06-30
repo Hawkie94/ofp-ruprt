@@ -2,11 +2,11 @@ Battle
 
 Autor: Hammer
 Strana: USA
-Typ mise: Pìchotní? :D
+Typ mise: PÄ›chotnÃ­? :D
 Ostrov: Malden
 Verze ofp: 1.96
-Addony: žádné
-Instalace:Soubor Battle.Abel.pbo zkopírujte do C:/.../Operace Flashpoint/missions
+Addony: Å¾Ã¡dnÃ©
+Instalace:Soubor Battle.Abel.pbo zkopÃ­rujte do C:/.../Operace Flashpoint/missions
 Kontakt: Email: zatloukal.v@seznam.cz
          ICQ: 395-494-829
          WWW: WWW.HAMMER.ESTRANKY.CZ

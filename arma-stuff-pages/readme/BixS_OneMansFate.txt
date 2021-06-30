@@ -1,21 +1,21 @@
 ;==== Czech ====;
 
-Kampaò Osud jednoho mue
+KampaÅˆ Osud jednoho muÅ¾e
 ~
-Pøíbìh
+PÅ™Ã­bÄ›h
 ~
-Bıvalı èlen Královské armády, èetaø Paul Clark, si uívá svùj vytouenı dùchod ve své rodné vesnici Hunapu. Zatím se jej válka netıká, ale vše se brzy zmìní. Do vesnice vpadnou pøíslušníci Sahranské osvobozenecké armády (SLA) a všechny ve vesnici postøílejí. Paulovi se podaøí uprchnout a z dùvodu pomsty se rozhodne se znovu pøipojit ke Královské armádì (RACS). Ovšem jeho svìdectví není dáno moc pozornosti a tak mu nezbıvá, ne se pøipojit k RACS a postupnì svou pomstu naplnit skrz válku, která na Sahrani právì panuje.
+BÃ½valÃ½ Älen KrÃ¡lovskÃ© armÃ¡dy, ÄetaÅ™ Paul Clark, si uÅ¾Ã­vÃ¡ svÅ¯j vytouÅ¾enÃ½ dÅ¯chod ve svÃ© rodnÃ© vesnici Hunapu. ZatÃ­m se jej vÃ¡lka netÃ½kÃ¡, ale vÅ¡e se brzy zmÄ›nÃ­. Do vesnice vpadnou pÅ™Ã­sluÅ¡nÃ­ci SahranskÃ© osvobozeneckÃ© armÃ¡dy (SLA) a vÅ¡echny ve vesnici postÅ™Ã­lejÃ­. Paulovi se podaÅ™Ã­ uprchnout a z dÅ¯vodu pomsty se rozhodne se znovu pÅ™ipojit ke KrÃ¡lovskÃ© armÃ¡dÄ› (RACS). OvÅ¡em jeho svÄ›dectvÃ­ nenÃ­ dÃ¡no moc pozornosti a tak mu nezbÃ½vÃ¡, neÅ¾ se pÅ™ipojit k RACS a postupnÄ› svou pomstu naplnit skrz vÃ¡lku, kterÃ¡ na Sahrani prÃ¡vÄ› panuje.
 ~
-Dùleité postavy
+DÅ¯leÅ¾itÃ© postavy
 ~
-Paul Clark - Hráèova postava, èetaø RACS
-Tom Smith - Paulùv kamarád z jiního Sahrani
+Paul Clark - HrÃ¡Äova postava, ÄetaÅ™ RACS
+Tom Smith - PaulÅ¯v kamarÃ¡d z jiÅ¾nÃ­ho Sahrani
 ~
-Sloky staèí vloit do adresáøe s vaší hrou ArmA: Armed Assault. Není tøeba datadisk Queen's Gambit. Pøíjemnou zábavu!
+SloÅ¾ky staÄÃ­ vloÅ¾it do adresÃ¡Å™e s vaÅ¡Ã­ hrou ArmA: Armed Assault. NenÃ­ tÅ™eba datadisk Queen's Gambit. PÅ™Ã­jemnou zÃ¡bavu!
 ~
 Vyrobil BixS, 2017.
 ~
-V pøípadì problémù mì zkuste kontaktovat skrz E-Mail - PytelSracek@atlas.cz
+V pÅ™Ã­padÄ› problÃ©mÅ¯ mÄ› zkuste kontaktovat skrz E-Mail - PytelSracek@atlas.cz
 
 ;==== English ====;
 

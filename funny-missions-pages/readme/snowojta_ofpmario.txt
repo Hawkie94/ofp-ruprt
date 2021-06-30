@@ -2,6 +2,6 @@ OFP MARIO
 =======================================================================================================
 
 Autor: Snowojta & Kulich
-Potøebné addony: (pravdìpodobnì pouze) EditorUpdate 1.02
-Typ mise: Plošinovka
-Popis: Jsou zde 2 mise, resp. 2 plošinovky, kde musíte dojít do cíle.
+PotÅ™ebnÃ© addony: (pravdÄ›podobnÄ› pouze) EditorUpdate 1.02
+Typ mise: PloÅ¡inovka
+Popis: Jsou zde 2 mise, resp. 2 ploÅ¡inovky, kde musÃ­te dojÃ­t do cÃ­le.

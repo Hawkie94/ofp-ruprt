@@ -1,12 +1,12 @@
-Název mise: Operace Jiskra
-Potøebná verze ofp: Tvoøeno pod verzí 1.96, 
-Potøebné addony: ádné
-Typ mise: pìchotní
-Obtínost: støední
-Nároènost: Hodnì vysoká (Na mojí mašinì se neseká, ale na slabších PC bych to nezkoušel)
+NÃ¡zev mise: Operace Jiskra
+PotÅ™ebnÃ¡ verze ofp: TvoÅ™eno pod verzÃ­ 1.96, 
+PotÅ™ebnÃ© addony: Å¾Ã¡dnÃ©
+Typ mise: pÄ›chotnÃ­
+ObtÃ­Å¾nost: stÅ™ednÃ­
+NÃ¡roÄnost: HodnÄ› vysokÃ¡ (Na mojÃ­ maÅ¡inÄ› se nesekÃ¡, ale na slabÅ¡Ã­ch PC bych to nezkouÅ¡el)
 
-V misi se zúèastníte vylodìní sovìtskıch vojsk na malı ostrùvek u Everonu,kde je opevnìná jednotka NATO . 
-Misi vytvoøil Migueli Baine (bunkrolog)
+V misi se zÃºÄastnÃ­te vylodÄ›nÃ­ sovÄ›tskÃ½ch vojsk na malÃ½ ostrÅ¯vek u Everonu,kde je opevnÄ›nÃ¡ jednotka NATO . 
+Misi vytvoÅ™il Migueli Baine (bunkrolog)
 
 
 

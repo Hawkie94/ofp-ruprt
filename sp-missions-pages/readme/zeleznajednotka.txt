@@ -1,11 +1,11 @@
-Jméno mise: elezná jednotka
+JmÃ©no mise: Å½eleznÃ¡ jednotka
 Autor: Minatory
 Kontakt: Minatoryho@email.cz
-Intro: Ne - pøišlo mi to zbyteèné
+Intro: Ne - pÅ™iÅ¡lo mi to zbyteÄnÃ©
 Birefing: Ano
 Overview: Ano
-Dabing: Ne - nebyl èas
+Dabing: Ne - nebyl Äas
 Skripty nebo dialogy: Ano
-Pokoèilı pøíbìh: Ne
+PokoÄilÃ½ pÅ™Ã­bÄ›h: Ne
 
-Mise obsahuje nìkolik chyb a vím o nich. Bohuel není èas, abych je opravil, ale jde krásnì dojet od zaèátku do konce a chyby nejsou nìjaké co by byly do oèí.
+Mise obsahuje nÄ›kolik chyb a vÃ­m o nich. BohuÅ¾el nenÃ­ Äas, abych je opravil, ale jde krÃ¡snÄ› dojet od zaÄÃ¡tku do konce a chyby nejsou nÄ›jakÃ© co by byly do oÄÃ­.

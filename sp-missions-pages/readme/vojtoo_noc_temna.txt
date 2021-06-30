@@ -4,5 +4,5 @@
  Ostrov:     Malden
  Verzia OFP: 1.46
  
- POZOR !!-Misia potrebuje addony : Verejná bezpeènos (VB); Terminátor (T-800).
- Tieto addony sú priloené : Snowstorm; Streetlamp; Trabant taxi; Armoured Mgun Turret.
+ POZOR !!-Misia potrebuje addony : VerejnÃ¡ bezpeÄnosÅ¥ (VB); TerminÃ¡tor (T-800).
+ Tieto addony sÃº priloÅ¾enÃ© : Snowstorm; Streetlamp; Trabant taxi; Armoured Mgun Turret.

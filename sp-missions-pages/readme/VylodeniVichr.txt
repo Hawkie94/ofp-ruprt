@@ -1,11 +1,11 @@
 
-Vylodìní
+VylodÄ›nÃ­
 
-Pøedem se omlouvám za velice pozdní vydání od slíbeného data. Jsou za to zodpovìdné hlavnì 
-problémy s HW a èastokrát velice problematickı engine hry. Doufám, e mì za to nezavrhnete a 
-budete se u mise øádnì bavit ;) .
+PÅ™edem se omlouvÃ¡m za velice pozdnÃ­ vydÃ¡nÃ­ od slÃ­benÃ©ho data. Jsou za to zodpovÄ›dnÃ© hlavnÄ› 
+problÃ©my s HW a ÄastokrÃ¡t velice problematickÃ½ engine hry. DoufÃ¡m, Å¾e mÄ› za to nezavrhnete a 
+budete se u mise Å™Ã¡dnÄ› bavit ;) .
 
-Potøebné Addony/Link:
+PotÅ™ebnÃ© Addony/Link:
 OFP Rasistance spatchem 1.96
 EditorUpdate102 / ftp://www.gamezone.cz:8021/ofpd/unofaddons/KegetysEditorAddon111.zip
 Vit/DKMmod APC pack / ftp://www.gamezone.cz:8021/ofpd/unofaddons2/VITAPC_PACK_1_3.rar
@@ -15,27 +15,27 @@ ________________________________________________________________________________
 Popis mise v kostce:
 
 Ostrov: Nogova
-Èas: Ráno 6:15
-Strana: Vıchod
-Typ mise: Pìchotní
+ÄŒas: RÃ¡no 6:15
+Strana: VÃ½chod
+Typ mise: PÄ›chotnÃ­
 Popis:
 
-Coby sovìtskı voják jedete v první invazní vlnì na Nogovu. Vylodíte se na plái u Vidlákova, 
-po masakru na ní pokraèujete k mìstu, které máte dobıt. (Mise je obyè "Flashpoitovka", take 
-neèekejte nic oslnivého.)
+Coby sovÄ›tskÃ½ vojÃ¡k jedete v prvnÃ­ invaznÃ­ vlnÄ› na Nogovu. VylodÃ­te se na plÃ¡Å¾i u VidlÃ¡kova, 
+po masakru na nÃ­ pokraÄujete k mÄ›stu, kterÃ© mÃ¡te dobÃ½t. (Mise je obyÄ "Flashpoitovka", takÅ¾e 
+neÄekejte nic oslnivÃ©ho.)
 __________________________________________________________________________________________________
 
-Známé chyby:
+ZnÃ¡mÃ© chyby:
 
-- V intru vojáci podivnì salutují
-- vrtulník, kterı má vysadit vojáky nad Vidlakovem si obèas mìstro jaksi obletí
-- sniper v bunkru ve mìstì sem tam (málokdy) propadne pod bunkr
+- V intru vojÃ¡ci podivnÄ› salutujÃ­
+- vrtulnÃ­k, kterÃ½ mÃ¡ vysadit vojÃ¡ky nad Vidlakovem si obÄas mÄ›stro jaksi obletÃ­
+- sniper v bunkru ve mÄ›stÄ› sem tam (mÃ¡lokdy) propadne pod bunkr
 __________________________________________________________________________________________________
 
-Zvláštní podìkování patøí Ransomovi, tvùrcùm OFPEH a všem co mi pomohli na fóru.
+ZvlÃ¡Å¡tnÃ­ podÄ›kovÃ¡nÃ­ patÅ™Ã­ Ransomovi, tvÅ¯rcÅ¯m OFPEH a vÅ¡em co mi pomohli na fÃ³ru.
 __________________________________________________________________________________________________
 
-!!!UPOZORNÌNÍ!!!
-AUTOR (JAROMÍR VICHER) NENESE V ÁDNÉM PØÍPADÌ ODPOVÌDNOST ZA NÁSLEDNÉ ŠKODY,
-A U JSOU JAÉKOLIV, I KDY ŠKODY VZNIKLY NA ZÁKLADÌ POUITÍ NEBO NEMONOSTI POUITÍ PRODUKTU
-A TO I V PØÍPADÌ, E AUTOR BYL OZNAÈEN JAKO MONİ PÙVODCE TÌCHTO ŠKOD.
+!!!UPOZORNÄšNÃ!!!
+AUTOR (JAROMÃR VICHER) NENESE V Å½ÃDNÃ‰M PÅ˜ÃPADÄš ODPOVÄšDNOST ZA NÃSLEDNÃ‰ Å KODY,
+AÅ¤ UÅ½ JSOU JAÃ‰KOLIV, I KDYÅ½ Å KODY VZNIKLY NA ZÃKLADÄš POUÅ½ITÃ NEBO NEMOÅ½NOSTI POUÅ½ITÃ PRODUKTU
+A TO I V PÅ˜ÃPADÄš, Å½E AUTOR BYL OZNAÄŒEN JAKO MOÅ½NÃ PÅ®VODCE TÄšCHTO Å KOD.

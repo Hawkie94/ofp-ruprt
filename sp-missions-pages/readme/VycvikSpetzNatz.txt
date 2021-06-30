@@ -1,14 +1,14 @@
-***** Vıcvik Spetz Natz v1.1 created by Munch (svoboda77@volny.cz) *****
+***** VÃ½cvik Spetz Natz v1.1 created by Munch (svoboda77@volny.cz) *****
 
 Features
--Vylepšené intro a outro
--Opraveny nìkteré chyby
+-VylepÅ¡enÃ© intro a outro
+-Opraveny nÄ›kterÃ© chyby
 
-Mise obsahuje addony EditorUpgrade102 od Gunslingera a object1 od Kegetyse. Kdy budete mít nìjaké problémy, tak mi napište.
+Mise obsahuje addony EditorUpgrade102 od Gunslingera a object1 od Kegetyse. KdyÅ¾ budete mÃ­t nÄ›jakÃ© problÃ©my, tak mi napiÅ¡te.
 
 *************************************************************************
 Dodatok (2021 by TonyHawk):
-- balík obsahuje 2 verzie misie - pre CWC (verzia OFP 1.46) a pre Resistance (1.96, resp. 1.99)
-- resistance-verzia misie pouíva addon EditorUpdate102 (NIE EditorUpgrade102 - ten treba odstráni)
-- obe verzie misie sú totoné, ale CWC verzia pod Resistance OFP nespustí intro ani outro
-- uvedomte si tie prosím, e misia je z roku 2001, a je teda medzi prvımi, ktoré kedy vyšli :) ;) (napriek tomu je plne hrate¾ná ^^)
+- balÃ­k obsahuje 2 verzie misie - pre CWC (verzia OFP 1.46) a pre Resistance (1.96, resp. 1.99)
+- resistance-verzia misie pouÅ¾Ã­va addon EditorUpdate102 (NIE EditorUpgrade102 - ten treba odstrÃ¡niÅ¥)
+- obe verzie misie sÃº totoÅ¾nÃ©, ale CWC verzia pod Resistance OFP nespustÃ­ intro ani outro
+- uvedomte si tieÅ¾ prosÃ­m, Å¾e misia je z roku 2001, a je teda medzi prvÃ½mi, ktorÃ© kedy vyÅ¡li :) ;) (napriek tomu je plne hrateÄ¾nÃ¡ ^^)

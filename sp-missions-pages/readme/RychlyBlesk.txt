@@ -1,25 +1,25 @@
-Mise: Rychlı blesk
+Mise: RychlÃ½ blesk
 Ostrov: Everon
 Vyrobil: Celoush 2002
-Addony: Pouze oficiální
-Intro: ne (a v misi)
+Addony: Pouze oficiÃ¡lnÃ­
+Intro: ne (aÅ¾ v misi)
 Outro: ano
-Potøebná verze: 1.46
+PotÅ™ebnÃ¡ verze: 1.46
 ***************************************************************************
-Zdarééc,
+ZdarÃ©Ã©c,
 
-take tato mise se zove Rychlı blesk.
-To abyste si ju mohli zahrát tak potøebujete oficiální addony a to tyto:
+takÅ¾e tato mise se zove RychlÃ½ blesk.
+ToÅ¾ abyste si ju mohli zahrÃ¡t tak potÅ™ebujete oficiÃ¡lnÃ­ addony a to tyto:
 G36a,Steyr,XMS,AH64,BMP2,Vulcan,HMMWV,Ch47D.
 
-Jeliko je asi budete všeci mít to pokraèujem.
+JelikoÅ¾ je asi budete vÅ¡eci mÃ­t toÅ¾ pokraÄujem.
 
-V této misi si zahráte jako voják (Desátník Trevor Linden), velitel tanku
-(Serant Jim Stewart), pilot helikoptéry (Kapitán Jack T. Robinson) a èlen
-speciální jednotky (Desátník John Abramowsky). Budete plnit likvidaèní úkoly.
+V tÃ©to misi si zahrÃ¡te jako vojÃ¡k (DesÃ¡tnÃ­k Trevor Linden), velitel tanku
+(SerÅ¾ant Jim Stewart), pilot helikoptÃ©ry (KapitÃ¡n Jack T. Robinson) a Älen
+speciÃ¡lnÃ­ jednotky (DesÃ¡tnÃ­k John Abramowsky). Budete plnit likvidaÄnÃ­ Ãºkoly.
 
-No a pokud budete hodnì dùslední, tak móete sejmout velitele Saint Pierre u z helikoptéry
-a v tom pøípadì se mise ukonèí døíve ne zaútoèíte na hrad v pozici Abramowskeho.
+No a pokud budete hodnÄ› dÅ¯slednÃ­, tak mÃ³Å¾ete sejmout velitele Saint Pierre uÅ¾ z helikoptÃ©ry
+a v tom pÅ™Ã­padÄ› se mise ukonÄÃ­ dÅ™Ã­ve neÅ¾ zaÃºtoÄÃ­te na hrad v pozici Abramowskeho.
 
-Zdraví a pìknó zábavu pøeje
+ZdravÃ­ a pÄ›knÃ³ zÃ¡bavu pÅ™eje
 Celoush

@@ -3,11 +3,11 @@ OPERACE FLASHPOINT  : "Den D-1".
 autor:  Petr Tlach
 web:    http://blog.lide.cz/petr.t.lbc/
 
-Dìláno na verzi 1.96
+DÄ›lÃ¡no na verzi 1.96
 
 Addony: editorupdate102.pbo
 
-Vısadek Rudé armády na Everon se blíí, vaším úkolem je jim pomoci svojí diverzní akcí. Zniète nepøátelskı vysílaè i s pøíslušenstvím, a pak zniète nepøátelské tanky. Spoleháme na vás. Pokud se vám úkol povede, bude vısadek hraèkou.
+VÃ½sadek RudÃ© armÃ¡dy na Everon se blÃ­Å¾Ã­, vaÅ¡Ã­m Ãºkolem je jim pomoci svojÃ­ diverznÃ­ akcÃ­. ZniÄte nepÅ™Ã¡telskÃ½ vysÃ­laÄ i s pÅ™Ã­sluÅ¡enstvÃ­m, a pak zniÄte nepÅ™Ã¡telskÃ© tanky. SpolehÃ¡me na vÃ¡s. Pokud se vÃ¡m Ãºkol povede, bude vÃ½sadek hraÄkou.
 
 
 INTRO: ANO

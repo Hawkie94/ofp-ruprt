@@ -10,7 +10,7 @@
 		
 		<title>Ruprtova poradna k OFP - Single-Player Mise</title>
 		<meta content="False" name="vs_snapToGrid">
-		<meta http-equiv="Content-Type" content="text/html; charset=windows-1250">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 		<meta content="Microsoft Visual Studio .NET 7.1" name="GENERATOR">
 		<meta content="Visual Basic .NET 7.1" name="CODE_LANGUAGE">
 		<meta content="JavaScript" name="vs_defaultClientScript">
@@ -18,27 +18,27 @@
 		<link href="Styles.css" type="text/css" rel="stylesheet">
 		<script language="javascript">
 			// ------------- Info strings --------------------
-			var STR_Default = "<BR>Ruprtova poradna<BR><BR>ke hře<br><BR>Operation Flashpoint®";
-			var STR_News = "Sekce<BR>Novinky<BR>-<BR>Domovská<BR>stránka RP";
-			var STR_NewsArchive = "<BR><BR>Archív novinek<BR>RP";
-			var STR_Forum = "<BR><BR>Vstoupit do<BR>fóra";
-			var STR_Tutors = "<BR><BR>Sekce<BR>Tutoriály";
+			var STR_Default = "<BR>Ruprtova poradna<BR><BR>ke hĹ™e<br><BR>Operation FlashpointÂ®";
+			var STR_News = "Sekce<BR>Novinky<BR>-<BR>DomovskĂˇ<BR>strĂˇnka RP";
+			var STR_NewsArchive = "<BR><BR>ArchĂ­v novinek<BR>RP";
+			var STR_Forum = "<BR><BR>Vstoupit do<BR>fĂłra";
+			var STR_Tutors = "<BR><BR>Sekce<BR>TutoriĂˇly";
 			var STR_Scripts = "<BR><BR>Sekce<BR>Scripty";
 			var STR_Tips = "<BR><BR>Sekce<BR>Tipy & Triky";
 			var STR_Download = "<BR><BR>Sekce<BR>Download";
 			var STR_Links = "<BR><BR>Odkazy<br>&<br>Emaily";
-			//var STR_Emails = "Osobní<br>nastavení<BR>tohoto webu";
-			var STR_MissionUpload = "<BR>Otevře<BR>Uživatelské rozhraní pro upload misí";
-			//var STR_OFPMDE = "Otevře stránku o aplikaci<BR><BR>OFP<BR>Mission<BR>Development<BR>Environment";
-			var STR_MissionNews = "Sekce<BR>Mission News<BR>-<BR>Novinky psané jednotlivými autory misí";
-			var STR_SP = "Sekce<BR>SP Mise :<BR>hodnocení a<BR>download<BR>neofiko SP misí";
-			var STR_MP = "Sekce<BR>MP Mise :<BR>hodnocení a<BR>download<BR>neofiko MP misí";
-			var STR_Camp = "Sekce<BR>Kampaně :<BR>hodnocení a<BR>download<BR>neofiko kampaní";
-			var STR_Video = "Sekce<BR>Video mise :<BR>hodnocení a<BR>download<BR>neofiko<BR>Video misí";
-			var STR_Ptak = "Sekce<BR>Ptákoviny :<BR>Mise, které<BR>nelze nikam<BR>zařadit";
-			var STR_Rules = "Pravidla<BR>hodnocení a<BR>zveřejňování<BR>misí";
-			var STR_Search = "Vyhledávání<BR>údajů na<BR>těchto<BR>stránkách";
-			var STR_OFPCZSquad = "Celý download<BR>je uložen na<BR>serveru OFPisnotdead.com.<BR>Díky retro!";
+			//var STR_Emails = "OsobnĂ­<br>nastavenĂ­<BR>tohoto webu";
+			var STR_MissionUpload = "<BR>OtevĹ™e<BR>UĹľivatelskĂ© rozhranĂ­ pro upload misĂ­";
+			//var STR_OFPMDE = "OtevĹ™e strĂˇnku o aplikaci<BR><BR>OFP<BR>Mission<BR>Development<BR>Environment";
+			var STR_MissionNews = "Sekce<BR>Mission News<BR>-<BR>Novinky psanĂ© jednotlivĂ˝mi autory misĂ­";
+			var STR_SP = "Sekce<BR>SP Mise :<BR>hodnocenĂ­ a<BR>download<BR>neofiko SP misĂ­";
+			var STR_MP = "Sekce<BR>MP Mise :<BR>hodnocenĂ­ a<BR>download<BR>neofiko MP misĂ­";
+			var STR_Camp = "Sekce<BR>KampanÄ› :<BR>hodnocenĂ­ a<BR>download<BR>neofiko kampanĂ­";
+			var STR_Video = "Sekce<BR>Video mise :<BR>hodnocenĂ­ a<BR>download<BR>neofiko<BR>Video misĂ­";
+			var STR_Ptak = "Sekce<BR>PtĂˇkoviny :<BR>Mise, kterĂ©<BR>nelze nikam<BR>zaĹ™adit";
+			var STR_Rules = "Pravidla<BR>hodnocenĂ­ a<BR>zveĹ™ejĹovĂˇnĂ­<BR>misĂ­";
+			var STR_Search = "VyhledĂˇvĂˇnĂ­<BR>ĂşdajĹŻ na<BR>tÄ›chto<BR>strĂˇnkĂˇch";
+			var STR_OFPCZSquad = "CelĂ˝ download<BR>je uloĹľen na<BR>serveru OFPisnotdead.com.<BR>DĂ­ky retro!";
 
 			// ---------- Preload & Initialize Images --------------
 			var missionnews1 = newImage('images/btns/missionnews1.jpg');
@@ -292,7 +292,7 @@
 				
 				if (theform.tbExp.value == "")
 				{
-					alert("Musíte zadat hledaný výraz !");
+					alert("MusĂ­te zadat hledanĂ˝ vĂ˝raz !");
 					theform.tbExp.focus();
 					return false;
 				}
@@ -318,8 +318,8 @@
 							</tr>
 							<tr style="background-color:#C0C0C0;" height="30px">
 								<td rowspan="2" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%">&nbsp;</td>
-								<td rowspan="2" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="42%" align="center">Název mise</td>
-								<td colspan="2" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="12%" align="center">Hodnocení</td>
+								<td rowspan="2" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="42%" align="center">NĂˇzev mise</td>
+								<td colspan="2" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="12%" align="center">HodnocenĂ­</td>
 								<td rowspan="2" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="9%" align="center">Ostrov</td>
 								<td rowspan="2" style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;border-top-width:1px;border-left-color:#000000;font-weight:bold;border-top-color:#000000;font-size:0.8em;border-right-width:1px;border-right-style:solid;border-left-style:solid;" width="9%" align="center">Autor</td>
 							</tr>
@@ -337,7 +337,7 @@
 							</tr>
 							<tr height="30px" style="background-color:#C0C0C0;">
 								<td width="5%" align="center" style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;">2)</td>
-								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/uklid-spiny.html">Úklid špíny</a></p></td>
+								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/uklid-spiny.html">Ăšklid ĹˇpĂ­ny</a></p></td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">---</td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">8/10</td>
 								<td width="9%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">Kolgujev</td>
@@ -345,7 +345,7 @@
 							</tr>
 							<tr height="30px">
 								<td width="5%" align="center" style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;">3)</td>
-								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/kleste.html">Kléště</a></p></td>
+								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/kleste.html">KlĂ©ĹˇtÄ›</a></p></td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">---</td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">6,5/10</td>
 								<td width="9%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">Malden</td>
@@ -353,7 +353,7 @@
 							</tr>
 							<tr height="30px" style="background-color:#C0C0C0;">
 								<td width="5%" align="center" style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;">4)</td>
-								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/zved.html">Zvěd</a></p></td>
+								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/zved.html">ZvÄ›d</a></p></td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">---</td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">7,2/10</td>
 								<td width="9%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">Everon</td>
@@ -369,7 +369,7 @@
 							</tr>
 							<tr height="30px" style="background-color:#C0C0C0;">
 								<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">6)</td>
-								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;" width="42%" align="left"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/boj-o-ctverec-f8.html">Boj o čtverec F8</a></p></td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;" width="42%" align="left"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/boj-o-ctverec-f8.html">Boj o ÄŤtverec F8</a></p></td>
 								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="6%" align="center">---</td>
 								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="6%" align="center">4,5/10</td>
 								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="9%" align="center">Everon</td>
@@ -377,7 +377,7 @@
 							</tr>
 							<tr height="30px">
 								<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">7)</td>
-								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;" width="42%" align="left"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/dlouha-cesta-domu.html">Dlouhá cesta domů</a></p></td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;" width="42%" align="left"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/dlouha-cesta-domu.html">DlouhĂˇ cesta domĹŻ</a></p></td>
 								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="6%" align="center">---</td>
 								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="6%" align="center">7,5/10</td>
 								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="9%" align="center">Nogova</td>
@@ -385,7 +385,7 @@
 							</tr>
 							<tr height="30px" style="background-color:#C0C0C0;">
 								<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">8)</td>
-								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;" width="42%" align="left"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/usvit-mezi-listy.html">Úsvit mezi listy</a></p></td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;" width="42%" align="left"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/usvit-mezi-listy.html">Ăšsvit mezi listy</a></p></td>
 								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="6%" align="center">---</td>
 								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="6%" align="center">3/10</td>
 								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="9%" align="center">Seb Ia Trang</td>
@@ -409,7 +409,7 @@
 							</tr>
 							<tr height="30px">
 								<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">11)</td>
-								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;" width="42%" align="left"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/neco-tady-nehraje.html">Něco tady nehraje</a></p></td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;" width="42%" align="left"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/neco-tady-nehraje.html">NÄ›co tady nehraje</a></p></td>
 								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="6%" align="center">---</td>
 								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="6%" align="center">3,5/10</td>
 								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="9%" align="center">Nogova</td>
@@ -428,12 +428,12 @@
 								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;" width="42%" align="left"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/gerous-mission-pack.html">G_p_SPMissions__v1.3</a></p></td>
 								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="6%" align="center">---</td>
 								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="6%" align="center">---</td>
-								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="9%" align="center">všechny</td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="9%" align="center">vĹˇechny</td>
 								<td style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;border-top-width:1px;border-left-color:#000000;font-weight:bold;border-top-color:#000000;font-size:0.8em;border-right-width:1px;border-right-style:solid;border-left-style:solid;" width="9%" align="center">gerous</td>
 							</tr>
 							<tr height="30px" style="background-color:#C0C0C0;">
 								<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">14)</td>
-								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;" width="42%" align="left"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/ruda-noc.html">Rudá noc</a></p></td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;" width="42%" align="left"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/ruda-noc.html">RudĂˇ noc</a></p></td>
 								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="6%" align="center">---</td>
 								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="6%" align="center">8,3/10</td>
 								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="9%" align="center">Everon</td>
@@ -444,7 +444,7 @@
 								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;" width="42%" align="left"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/tonyhawk-editing-pack-11.html">TonyHawk Editing Pack 1.1</a></p></td>
 								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="6%" align="center">---</td>
 								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="6%" align="center">?/10</td>
-								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="9%" align="center">rôzne</td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="9%" align="center">rĂ´zne</td>
 								<td style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;border-top-width:1px;border-left-color:#000000;font-weight:bold;border-top-color:#000000;font-size:0.8em;border-right-width:1px;border-right-style:solid;border-left-style:solid;" width="9%" align="center">TonyHawk</td>
 							</tr>
 							<tr height="30px" style="background-color:#C0C0C0;">
@@ -477,7 +477,7 @@
 								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="6%" align="center">---</td>
 								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="6%" align="center">9,3/10</td>
 								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="9%" align="center">Kolgujev</td>
-								<td style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;border-top-width:1px;border-left-color:#000000;font-weight:bold;border-top-color:#000000;font-size:0.8em;border-right-width:1px;border-right-style:solid;border-left-style:solid;" width="9%" align="center">Jan Čepera</td>
+								<td style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;border-top-width:1px;border-left-color:#000000;font-weight:bold;border-top-color:#000000;font-size:0.8em;border-right-width:1px;border-right-style:solid;border-left-style:solid;" width="9%" align="center">Jan ÄŚepera</td>
 							</tr>
 							<tr height="30px" style="background-color:#C0C0C0;">
 								<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">20)</td>
@@ -493,7 +493,7 @@
 								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="6%" align="center">---</td>
 								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="6%" align="center">9/10</td>
 								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="9%" align="center">Kolgujev</td>
-								<td style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;border-top-width:1px;border-left-color:#000000;font-weight:bold;border-top-color:#000000;font-size:0.8em;border-right-width:1px;border-right-style:solid;border-left-style:solid;" width="9%" align="center">Jan Čepera</td>
+								<td style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;border-top-width:1px;border-left-color:#000000;font-weight:bold;border-top-color:#000000;font-size:0.8em;border-right-width:1px;border-right-style:solid;border-left-style:solid;" width="9%" align="center">Jan ÄŚepera</td>
 							</tr>
 							<tr height="30px" style="background-color:#C0C0C0;">
 								<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">22)</td>
@@ -505,7 +505,7 @@
 							</tr>
 							<tr height="30px">
 								<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">23)</td>
-								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;" width="42%" align="left"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/prezivsi.html">Přeživší</a></p></td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;" width="42%" align="left"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/prezivsi.html">PĹ™eĹľivĹˇĂ­</a></p></td>
 								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="6%" align="center">---</td>
 								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="6%" align="center">---</td>
 								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="9%" align="center">Kolgujev</td>
@@ -521,7 +521,7 @@
 							</tr>
 							<tr height="30px">
 								<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">25)</td>
-								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;" width="42%" align="left"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/chernogorsk-zeme-mrtvych.html">Chernogorsk: Země mrtvých</a></p></td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;" width="42%" align="left"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/chernogorsk-zeme-mrtvych.html">Chernogorsk: ZemÄ› mrtvĂ˝ch</a></p></td>
 								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="6%" align="center">---</td>
 								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="6%" align="center">8/10</td>
 								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="9%" align="center">Chernogorsk</td>
@@ -540,7 +540,7 @@
 								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;" width="42%" align="left"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/hammer-gold-pack-202.html">Hammer GOLD Pack 2.02</a></p></td>
 								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="6%" align="center">---</td>
 								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="6%" align="center">8,5/10</td>
-								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="9%" align="center">rôzne</td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="9%" align="center">rĂ´zne</td>
 								<td style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;border-top-width:1px;border-left-color:#000000;font-weight:bold;border-top-color:#000000;font-size:0.8em;border-right-width:1px;border-right-style:solid;border-left-style:solid;" width="9%" align="center">Hammer</td>
 							</tr>
 							<tr height="30px" style="background-color:#C0C0C0;">
@@ -557,7 +557,7 @@
 								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="6%" align="center">---</td>
 								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="6%" align="center">7,6/10</td>
 								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="9%" align="center">Chernogorsk</td>
-								<td style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;border-top-width:1px;border-left-color:#000000;font-weight:bold;border-top-color:#000000;font-size:0.8em;border-right-width:1px;border-right-style:solid;border-left-style:solid;" width="9%" align="center">pařan</td>
+								<td style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;border-top-width:1px;border-left-color:#000000;font-weight:bold;border-top-color:#000000;font-size:0.8em;border-right-width:1px;border-right-style:solid;border-left-style:solid;" width="9%" align="center">paĹ™an</td>
 							</tr>
 							<tr height="30px" style="background-color:#C0C0C0;">
 								<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">30)</td>
@@ -569,7 +569,7 @@
 							</tr>
 							<tr height="30px">
 								<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">31)</td>
-								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;" width="42%" align="left"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/zubni-kaz-11.html">Zubní kaz (verze 1.1)</a></p></td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;" width="42%" align="left"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/zubni-kaz-11.html">ZubnĂ­ kaz (verze 1.1)</a></p></td>
 								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="6%" align="center">---</td>
 								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="6%" align="center">7,5/10</td>
 								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="9%" align="center">Everon</td>
@@ -585,7 +585,7 @@
 							</tr>
 							<tr height="30px">
 								<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">33)</td>
-								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;" width="42%" align="left"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/dobyti-houdanu.html">Dobytí Houdanu</a></p></td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;" width="42%" align="left"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/dobyti-houdanu.html">DobytĂ­ Houdanu</a></p></td>
 								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="6%" align="center">---</td>
 								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="6%" align="center">---</td>
 								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="9%" align="center">Malden</td>
@@ -593,7 +593,7 @@
 							</tr>
 							<tr height="30px" style="background-color:#C0C0C0;">
 								<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">34)</td>
-								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;" width="42%" align="left"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/rudy-rozbresk.html">Rudý rozbřesk</a></p></td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;" width="42%" align="left"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/rudy-rozbresk.html">RudĂ˝ rozbĹ™esk</a></p></td>
 								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="6%" align="center">---</td>
 								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="6%" align="center">4,5/10</td>
 								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="9%" align="center">Everon</td>
@@ -625,7 +625,7 @@
 							</tr>
 							<tr height="30px" style="background-color:#C0C0C0;">
 								<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">38)</td>
-								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;" width="42%" align="left"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/mec-svobody.html">Meč svobody</a></p></td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;" width="42%" align="left"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/mec-svobody.html">MeÄŤ svobody</a></p></td>
 								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="6%" align="center">---</td>
 								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="6%" align="center">4,5/10</td>
 								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="9%" align="center">Malden</td>
@@ -633,7 +633,7 @@
 							</tr>
 							<tr height="30px">
 								<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">39)</td>
-								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;" width="42%" align="left"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/utek-z-chernobylu.html">útěk z chernobylu - pro začátečníky</a></p></td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;" width="42%" align="left"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/utek-z-chernobylu.html">ĂştÄ›k z chernobylu - pro zaÄŤĂˇteÄŤnĂ­ky</a></p></td>
 								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="6%" align="center">---</td>
 								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="6%" align="center">0/10</td>
 								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="9%" align="center">chernobyl</td>
@@ -641,7 +641,7 @@
 							</tr>
 							<tr height="30px" style="background-color:#C0C0C0;">
 								<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">40)</td>
-								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;" width="42%" align="left"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/osvobozeni-petrovic.html">Osvobození petrovic</a></p></td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;" width="42%" align="left"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/osvobozeni-petrovic.html">OsvobozenĂ­ petrovic</a></p></td>
 								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="6%" align="center">---</td>
 								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="6%" align="center">---</td>
 								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="9%" align="center">nogovo</td>
@@ -673,7 +673,7 @@
 							</tr>
 							<tr height="30px" style="background-color:#C0C0C0;">
 								<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">44)</td>
-								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;" width="42%" align="left"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/osvobozeni-mirova-11.html">Osvobození Mírova 1.1</a></p></td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;" width="42%" align="left"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/osvobozeni-mirova-11.html">OsvobozenĂ­ MĂ­rova 1.1</a></p></td>
 								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="6%" align="center">---</td>
 								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="6%" align="center">5,8/10</td>
 								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="9%" align="center">Nogova</td>
@@ -689,7 +689,7 @@
 							</tr>
 							<tr height="30px" style="background-color:#C0C0C0;">
 								<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">46)</td>
-								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;" width="42%" align="left"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/zubni-kaz.html">Zubní kaz</a></p></td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;" width="42%" align="left"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/zubni-kaz.html">ZubnĂ­ kaz</a></p></td>
 								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="6%" align="center">---</td>
 								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="6%" align="center">7,4/10</td>
 								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="9%" align="center">Everon</td>
@@ -737,7 +737,7 @@
 							</tr>
 							<tr height="30px" style="background-color:#C0C0C0;">
 								<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">52)</td>
-								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;" width="42%" align="left"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/osvobozeni-mirova-10.html">Osvobození Mírova 1.0</a></p></td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;" width="42%" align="left"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/osvobozeni-mirova-10.html">OsvobozenĂ­ MĂ­rova 1.0</a></p></td>
 								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="6%" align="center">---</td>
 								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="6%" align="center">5,5/10</td>
 								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="9%" align="center">Nogova</td>
@@ -745,11 +745,11 @@
 							</tr>
 							<tr height="30px">
 								<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">53)</td>
-								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;" width="42%" align="left"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/operace-navrat.html">Operace Návrat</a></p></td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;" width="42%" align="left"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/operace-navrat.html">Operace NĂˇvrat</a></p></td>
 								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="6%" align="center">---</td>
 								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="6%" align="center">6,7/10</td>
 								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="9%" align="center">Nogova</td>
-								<td style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;border-top-width:1px;border-left-color:#000000;font-weight:bold;border-top-color:#000000;font-size:0.8em;border-right-width:1px;border-right-style:solid;border-left-style:solid;" width="9%" align="center">pařan</td>
+								<td style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;border-top-width:1px;border-left-color:#000000;font-weight:bold;border-top-color:#000000;font-size:0.8em;border-right-width:1px;border-right-style:solid;border-left-style:solid;" width="9%" align="center">paĹ™an</td>
 							</tr>
 							<tr height="30px" style="background-color:#C0C0C0;">
 								<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">54)</td>
@@ -780,7 +780,7 @@
 								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;" width="42%" align="left"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/hammer-mission-pack.html">Hammer Mission Pack</a></p></td>
 								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="6%" align="center">---</td>
 								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="6%" align="center">7/10</td>
-								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="9%" align="center">rôzne</td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="9%" align="center">rĂ´zne</td>
 								<td style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;border-top-width:1px;border-left-color:#000000;font-weight:bold;border-top-color:#000000;font-size:0.8em;border-right-width:1px;border-right-style:solid;border-left-style:solid;" width="9%" align="center">Hammer</td>
 							</tr>
 							<tr height="30px" style="background-color:#C0C0C0;">
@@ -793,7 +793,7 @@
 							</tr>
 							<tr height="30px">
 								<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">59)</td>
-								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;" width="42%" align="left"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/utok-na-chotain.html">Útok na Chotain</a></p></td>
+								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;" width="42%" align="left"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/utok-na-chotain.html">Ăštok na Chotain</a></p></td>
 								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="6%" align="center">---</td>
 								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="6%" align="center">---</td>
 								<td style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;" width="9%" align="center">Everon</td>
@@ -833,7 +833,7 @@
 							</tr>
 							<tr height="30px" style="background-color:#C0C0C0;">
 								<td width="5%" align="center" style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;">64)</td>
-								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/usvit-nadeje.html">&#250;svit naděje</a></p></td>
+								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/usvit-nadeje.html">&#250;svit nadÄ›je</a></p></td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">---</td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">8/10</td>
 								<td width="9%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">Nogova</td>
@@ -841,7 +841,7 @@
 							</tr>
 							<tr height="30px">
 								<td width="5%" align="center" style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;">65)</td>
-								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/prepad.html">Přepad</a></p></td>
+								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/prepad.html">PĹ™epad</a></p></td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">---</td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">3,3/10</td>
 								<td width="9%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">Everon</td>
@@ -921,7 +921,7 @@
 							</tr>
 							<tr height="30px">
 								<td width="5%" align="center" style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;">75)</td>
-								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/slepa-ulicka.html">Slep&#225; ulička</a></p></td>
+								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/slepa-ulicka.html">Slep&#225; uliÄŤka</a></p></td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">---</td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">7,5/10</td>
 								<td width="9%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">Nogova</td>
@@ -953,11 +953,11 @@
 							</tr>
 							<tr height="30px">
 								<td width="5%" align="center" style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;">79)</td>
-								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/tri-kralove-106.html">Tři kr&#225;lov&#233; 1.06</a></p></td>
+								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/tri-kralove-106.html">TĹ™i kr&#225;lov&#233; 1.06</a></p></td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">---</td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">9,4/10</td>
 								<td width="9%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">Malden</td>
-								<td width="9%" align="center" style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;border-top-width:1px;border-left-color:#000000;font-weight:bold;border-top-color:#000000;font-size:0.8em;border-right-width:1px;border-right-style:solid;border-left-style:solid;">Ježuro</td>
+								<td width="9%" align="center" style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;border-top-width:1px;border-left-color:#000000;font-weight:bold;border-top-color:#000000;font-size:0.8em;border-right-width:1px;border-right-style:solid;border-left-style:solid;">JeĹľuro</td>
 							</tr>
 							<tr height="30px" style="background-color:#C0C0C0;">
 								<td width="5%" align="center" style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;">80)</td>
@@ -993,11 +993,11 @@
 							</tr>
 							<tr height="30px" style="background-color:#C0C0C0;">
 								<td width="5%" align="center" style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;">84)</td>
-								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/tri-kralove-104.html">Tři kr&#225;lov&#233; 1.04</a></p></td>
+								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/tri-kralove-104.html">TĹ™i kr&#225;lov&#233; 1.04</a></p></td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">---</td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">9,2/10</td>
 								<td width="9%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">Malden</td>
-								<td width="9%" align="center" style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;border-top-width:1px;border-left-color:#000000;font-weight:bold;border-top-color:#000000;font-size:0.8em;border-right-width:1px;border-right-style:solid;border-left-style:solid;">Ježuro</td>
+								<td width="9%" align="center" style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;border-top-width:1px;border-left-color:#000000;font-weight:bold;border-top-color:#000000;font-size:0.8em;border-right-width:1px;border-right-style:solid;border-left-style:solid;">JeĹľuro</td>
 							</tr>
 							<tr height="30px">
 								<td width="5%" align="center" style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;">85)</td>
@@ -1017,7 +1017,7 @@
 							</tr>
 							<tr height="30px">
 								<td width="5%" align="center" style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;">87)</td>
-								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/ostrelovac-kuba.html">Ostřelovač</a></p></td>
+								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/ostrelovac-kuba.html">OstĹ™elovaÄŤ</a></p></td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">---</td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">---</td>
 								<td width="9%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">Nogova</td>
@@ -1041,7 +1041,7 @@
 							</tr>
 							<tr height="30px" style="background-color:#C0C0C0;">
 								<td width="5%" align="center" style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;">90)</td>
-								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/zelezna-jednotka.html">Železná jednotka</a></p></td>
+								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/zelezna-jednotka.html">Ĺ˝eleznĂˇ jednotka</a></p></td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">---</td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">4,4/10</td>
 								<td width="9%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">Malden</td>
@@ -1108,7 +1108,7 @@
 								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/jungle-hills.html">Jungle Hells</a></p></td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">---</td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">---</td>
-								<td width="9%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">Seb Ia Trang (souč&#225;st Nam Pack 2)</td>
+								<td width="9%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">Seb Ia Trang (souÄŤ&#225;st Nam Pack 2)</td>
 								<td width="9%" align="center" style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;border-top-width:1px;border-left-color:#000000;font-weight:bold;border-top-color:#000000;font-size:0.8em;border-right-width:1px;border-right-style:solid;border-left-style:solid;">Dimitrij</td>
 							</tr>
 							<tr height="30px">
@@ -1185,7 +1185,7 @@
 							</tr>
 							<tr height="30px" style="background-color:#C0C0C0;">
 								<td width="5%" align="center" style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;">108)</td>
-								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/cistka-iv.html">Čistka IV</a></p></td>
+								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/cistka-iv.html">ÄŚistka IV</a></p></td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">---</td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">4,4/10</td>
 								<td width="9%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">Everon</td>
@@ -1217,7 +1217,7 @@
 							</tr>
 							<tr height="30px" style="background-color:#C0C0C0;">
 								<td width="5%" align="center" style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;">112)</td>
-								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/vylodeni-vichr.html">Vyloděn&#237;</a></p></td>
+								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/vylodeni-vichr.html">VylodÄ›n&#237;</a></p></td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">---</td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">---</td>
 								<td width="9%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">Nogova</td>
@@ -1228,8 +1228,8 @@
 								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/projekt-venek.html">Projekt VENEK</a></p></td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">---</td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">?/10</td>
-								<td width="9%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">Různé</td>
-								<td width="9%" align="center" style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;border-top-width:1px;border-left-color:#000000;font-weight:bold;border-top-color:#000000;font-size:0.8em;border-right-width:1px;border-right-style:solid;border-left-style:solid;">Kolektiv autorů</td>
+								<td width="9%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">RĹŻznĂ©</td>
+								<td width="9%" align="center" style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;border-top-width:1px;border-left-color:#000000;font-weight:bold;border-top-color:#000000;font-size:0.8em;border-right-width:1px;border-right-style:solid;border-left-style:solid;">Kolektiv autorĹŻ</td>
 							</tr>
 							<tr height="30px" style="background-color:#C0C0C0;">
 								<td width="5%" align="center" style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;">114)</td>
@@ -1241,7 +1241,7 @@
 							</tr>
 							<tr height="30px">
 								<td width="5%" align="center" style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;">115)</td>
-								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/nocni-mura.html">Nočn&#237; můra</a></p></td>
+								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/nocni-mura.html">NoÄŤn&#237; mĹŻra</a></p></td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">---</td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">7,2/10</td>
 								<td width="9%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">Nogova</td>
@@ -1249,11 +1249,11 @@
 							</tr>
 							<tr height="30px" style="background-color:#C0C0C0;">
 								<td width="5%" align="center" style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;">116)</td>
-								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/utok-z-pouste.html">&#218;tok z pouště</a></p></td>
+								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/utok-z-pouste.html">&#218;tok z pouĹˇtÄ›</a></p></td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">---</td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">2,8/10</td>
 								<td width="9%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">Malden</td>
-								<td width="9%" align="center" style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;border-top-width:1px;border-left-color:#000000;font-weight:bold;border-top-color:#000000;font-size:0.8em;border-right-width:1px;border-right-style:solid;border-left-style:solid;">flegmouš</td>
+								<td width="9%" align="center" style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;border-top-width:1px;border-left-color:#000000;font-weight:bold;border-top-color:#000000;font-size:0.8em;border-right-width:1px;border-right-style:solid;border-left-style:solid;">flegmouĹˇ</td>
 							</tr>
 							<tr height="30px">
 								<td width="5%" align="center" style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;">117)</td>
@@ -1297,7 +1297,7 @@
 							</tr>
 							<tr height="30px" style="background-color:#C0C0C0;">
 								<td width="5%" align="center" style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;">122)</td>
-								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/prepadeni.html">Přepaden&#237;</a></p></td>
+								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/prepadeni.html">PĹ™epaden&#237;</a></p></td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">---</td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">2,5/10</td>
 								<td width="9%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">Everon</td>
@@ -1313,7 +1313,7 @@
 							</tr>
 							<tr height="30px" style="background-color:#C0C0C0;">
 								<td width="5%" align="center" style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;">124)</td>
-								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/posledni-rozbresk-11.html">Posledn&#237; rozbřesk 1.1</a></p></td>
+								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/posledni-rozbresk-11.html">Posledn&#237; rozbĹ™esk 1.1</a></p></td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">---</td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">7/10</td>
 								<td width="9%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">Nogova</td>
@@ -1329,7 +1329,7 @@
 							</tr>
 							<tr height="30px" style="background-color:#C0C0C0;">
 								<td width="5%" align="center" style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;">126)</td>
-								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/posledni-rozbresk.html">Posledn&#237; rozbřesk</a></p></td>
+								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/posledni-rozbresk.html">Posledn&#237; rozbĹ™esk</a></p></td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">---</td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">5,9/10</td>
 								<td width="9%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">Nogova</td>
@@ -1345,7 +1345,7 @@
 							</tr>
 							<tr height="30px" style="background-color:#C0C0C0;">
 								<td width="5%" align="center" style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;">128)</td>
-								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/tankova-loupez.html">Tankov&#225; loupež</a></p></td>
+								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/tankova-loupez.html">Tankov&#225; loupeĹľ</a></p></td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">---</td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">3,4/10</td>
 								<td width="9%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">Nogova</td>
@@ -1353,7 +1353,7 @@
 							</tr>
 							<tr height="30px">
 								<td width="5%" align="center" style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;">129)</td>
-								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/pruzkum-maniak.html">Průzkum</a></p></td>
+								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/pruzkum-maniak.html">PrĹŻzkum</a></p></td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">---</td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">0,5/10</td>
 								<td width="9%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">Malden</td>
@@ -1393,7 +1393,7 @@
 							</tr>
 							<tr height="30px" style="background-color:#C0C0C0;">
 								<td width="5%" align="center" style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;">134)</td>
-								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/tankova-boure.html">Tankov&#225; bouře</a></p></td>
+								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/tankova-boure.html">Tankov&#225; bouĹ™e</a></p></td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">---</td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">5,2/10</td>
 								<td width="9%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">Everon</td>
@@ -1417,7 +1417,7 @@
 							</tr>
 							<tr height="30px">
 								<td width="5%" align="center" style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;">137)</td>
-								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/zenista.html">Ženista</a></p></td>
+								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/zenista.html">Ĺ˝enista</a></p></td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">---</td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">3,7/10</td>
 								<td width="9%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">Nogova</td>
@@ -1441,7 +1441,7 @@
 							</tr>
 							<tr height="30px" style="background-color:#C0C0C0;">
 								<td width="5%" align="center" style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;">140)</td>
-								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/boj-o-preziti.html">Boj o přežit&#237;</a></p></td>
+								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/boj-o-preziti.html">Boj o pĹ™eĹľit&#237;</a></p></td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">---</td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">7,2/10</td>
 								<td width="9%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">Everon</td>
@@ -1468,12 +1468,12 @@
 								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/x-ray.html">X-ray</a></p></td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">---</td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">5,9/10</td>
-								<td width="9%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">Seb Ia Drang (souč&#225;st Nam Pack 2)</td>
+								<td width="9%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">Seb Ia Drang (souÄŤ&#225;st Nam Pack 2)</td>
 								<td width="9%" align="center" style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;border-top-width:1px;border-left-color:#000000;font-weight:bold;border-top-color:#000000;font-size:0.8em;border-right-width:1px;border-right-style:solid;border-left-style:solid;">Blackjabel</td>
 							</tr>
 							<tr height="30px" style="background-color:#C0C0C0;">
 								<td width="5%" align="center" style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;">144)</td>
-								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/sestrelen.html">Sestřelen</a></p></td>
+								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/sestrelen.html">SestĹ™elen</a></p></td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">---</td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">9,1/10</td>
 								<td width="9%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">Nogova</td>
@@ -1489,11 +1489,11 @@
 							</tr>
 							<tr height="30px" style="background-color:#C0C0C0;">
 								<td width="5%" align="center" style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;">146)</td>
-								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/dobyti-mesta.html">Dobyt&#237; města</a></p></td>
+								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/dobyti-mesta.html">Dobyt&#237; mÄ›sta</a></p></td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">---</td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">5,3/10</td>
 								<td width="9%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">Everon</td>
-								<td width="9%" align="center" style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;border-top-width:1px;border-left-color:#000000;font-weight:bold;border-top-color:#000000;font-size:0.8em;border-right-width:1px;border-right-style:solid;border-left-style:solid;">Šroty</td>
+								<td width="9%" align="center" style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;border-top-width:1px;border-left-color:#000000;font-weight:bold;border-top-color:#000000;font-size:0.8em;border-right-width:1px;border-right-style:solid;border-left-style:solid;">Ĺ roty</td>
 							</tr>
 							<tr height="30px">
 								<td width="5%" align="center" style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;">147)</td>
@@ -1505,7 +1505,7 @@
 							</tr>
 							<tr height="30px" style="background-color:#C0C0C0;">
 								<td width="5%" align="center" style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;">148)</td>
-								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/prochazka-pousti-v13.html">Proch&#225;zka poušt&#237; v1.3</a></p></td>
+								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/prochazka-pousti-v13.html">Proch&#225;zka pouĹˇt&#237; v1.3</a></p></td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">---</td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">6,8/10</td>
 								<td width="9%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">Nogova</td>
@@ -1513,7 +1513,7 @@
 							</tr>
 							<tr height="30px">
 								<td width="5%" align="center" style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;">149)</td>
-								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/sas-utoci.html">SAS &#218;toč&#237;</a></p></td>
+								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/sas-utoci.html">SAS &#218;toÄŤ&#237;</a></p></td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">---</td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">5,4/10</td>
 								<td width="9%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">Everon</td>
@@ -1553,7 +1553,7 @@
 							</tr>
 							<tr height="30px" style="background-color:#C0C0C0;">
 								<td width="5%" align="center" style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;">154)</td>
-								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/pruzkum.html">Průzkum</a></p></td>
+								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/pruzkum.html">PrĹŻzkum</a></p></td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">---</td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">4/10</td>
 								<td width="9%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">Nogova</td>
@@ -1569,7 +1569,7 @@
 							</tr>
 							<tr height="30px" style="background-color:#C0C0C0;">
 								<td width="5%" align="center" style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;">156)</td>
-								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/prochazka-pousti-v11.html">Proch&#225;zka poušt&#237; v1.1</a></p></td>
+								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/prochazka-pousti-v11.html">Proch&#225;zka pouĹˇt&#237; v1.1</a></p></td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">---</td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">6,3/10</td>
 								<td width="9%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">Nogova</td>
@@ -1585,7 +1585,7 @@
 							</tr>
 							<tr height="30px" style="background-color:#C0C0C0;">
 								<td width="5%" align="center" style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;">158)</td>
-								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/prochazka-pousti.html">Proch&#225;zka poušt&#237;</a></p></td>
+								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/prochazka-pousti.html">Proch&#225;zka pouĹˇt&#237;</a></p></td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">---</td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">5,7/10</td>
 								<td width="9%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">Nogova</td>
@@ -1697,7 +1697,7 @@
 							</tr>
 							<tr height="30px" style="background-color:#C0C0C0;">
 								<td width="5%" align="center" style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;">172)</td>
-								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/bylo-nas-sest.html">Bylo n&#225;s šest</a></p></td>
+								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/bylo-nas-sest.html">Bylo n&#225;s Ĺˇest</a></p></td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">---</td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">4,8/10</td>
 								<td width="9%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">Nogova</td>
@@ -1713,7 +1713,7 @@
 							</tr>
 							<tr height="30px" style="background-color:#C0C0C0;">
 								<td width="5%" align="center" style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;">174)</td>
-								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/ostrelovac-III.html">Ostřelovač III.</a></p></td>
+								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/ostrelovac-III.html">OstĹ™elovaÄŤ III.</a></p></td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">9/10</td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">9,1/10</td>
 								<td width="9%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">Everon</td>
@@ -1729,7 +1729,7 @@
 							</tr>
 							<tr height="30px" style="background-color:#C0C0C0;">
 								<td width="5%" align="center" style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;">176)</td>
-								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/operace-poustni-boure.html">Operace Pouštn&#237; bouře</a></p></td>
+								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/operace-poustni-boure.html">Operace PouĹˇtn&#237; bouĹ™e</a></p></td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">---</td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">5,2/10</td>
 								<td width="9%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">Nogova</td>
@@ -1737,7 +1737,7 @@
 							</tr>
 							<tr height="30px">
 								<td width="5%" align="center" style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;">177)</td>
-								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/operace-krystof.html">Operace Kryštof</a></p></td>
+								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/operace-krystof.html">Operace KryĹˇtof</a></p></td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">---</td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">4,7/10</td>
 								<td width="9%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">Nogova</td>
@@ -1765,7 +1765,7 @@
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">---</td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">1,6/10</td>
 								<td width="9%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">Kolgujev</td>
-								<td width="9%" align="center" style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;border-top-width:1px;border-left-color:#000000;font-weight:bold;border-top-color:#000000;font-size:0.8em;border-right-width:1px;border-right-style:solid;border-left-style:solid;">Vj&#233;řa</td>
+								<td width="9%" align="center" style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;border-top-width:1px;border-left-color:#000000;font-weight:bold;border-top-color:#000000;font-size:0.8em;border-right-width:1px;border-right-style:solid;border-left-style:solid;">Vj&#233;Ĺ™a</td>
 							</tr>
 							<tr height="30px">
 								<td width="5%" align="center" style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;">181)</td>
@@ -1789,7 +1789,7 @@
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">---</td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">3/10</td>
 								<td width="9%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">Nogova</td>
-								<td width="9%" align="center" style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;border-top-width:1px;border-left-color:#000000;font-weight:bold;border-top-color:#000000;font-size:0.8em;border-right-width:1px;border-right-style:solid;border-left-style:solid;">Ondra Kudl&#225;ček</td>
+								<td width="9%" align="center" style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;border-top-width:1px;border-left-color:#000000;font-weight:bold;border-top-color:#000000;font-size:0.8em;border-right-width:1px;border-right-style:solid;border-left-style:solid;">Ondra Kudl&#225;ÄŤek</td>
 							</tr>
 							<tr height="30px" style="background-color:#C0C0C0;">
 								<td width="5%" align="center" style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;">184)</td>
@@ -1821,7 +1821,7 @@
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">---</td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">2,1/10</td>
 								<td width="9%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">Malden</td>
-								<td width="9%" align="center" style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;border-top-width:1px;border-left-color:#000000;font-weight:bold;border-top-color:#000000;font-size:0.8em;border-right-width:1px;border-right-style:solid;border-left-style:solid;">Vj&#233;řa</td>
+								<td width="9%" align="center" style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;border-top-width:1px;border-left-color:#000000;font-weight:bold;border-top-color:#000000;font-size:0.8em;border-right-width:1px;border-right-style:solid;border-left-style:solid;">Vj&#233;Ĺ™a</td>
 							</tr>
 							<tr height="30px" style="background-color:#C0C0C0;">
 								<td width="5%" align="center" style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;">188)</td>
@@ -1841,7 +1841,7 @@
 							</tr>
 							<tr height="30px" style="background-color:#C0C0C0;">
 								<td width="5%" align="center" style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;">190)</td>
-								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/muchomurky.html">Muchomůrky</a></p></td>
+								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/muchomurky.html">MuchomĹŻrky</a></p></td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">---</td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">8,3/10</td>
 								<td width="9%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">Trinity</td>
@@ -1865,7 +1865,7 @@
 							</tr>
 							<tr height="30px">
 								<td width="5%" align="center" style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;">193)</td>
-								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/rozsevani-ohne.html">Rozs&#233;v&#225;n&#237; ohně</a></p></td>
+								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/rozsevani-ohne.html">Rozs&#233;v&#225;n&#237; ohnÄ›</a></p></td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">---</td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">8,9/10</td>
 								<td width="9%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">Nogova</td>
@@ -1885,11 +1885,11 @@
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">---</td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">2,7/10</td>
 								<td width="9%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">Kolgujev</td>
-								<td width="9%" align="center" style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;border-top-width:1px;border-left-color:#000000;font-weight:bold;border-top-color:#000000;font-size:0.8em;border-right-width:1px;border-right-style:solid;border-left-style:solid;">Hašč&#225;k</td>
+								<td width="9%" align="center" style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;border-top-width:1px;border-left-color:#000000;font-weight:bold;border-top-color:#000000;font-size:0.8em;border-right-width:1px;border-right-style:solid;border-left-style:solid;">HaĹˇÄŤ&#225;k</td>
 							</tr>
 							<tr height="30px" style="background-color:#C0C0C0;">
 								<td width="5%" align="center" style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;">196)</td>
-								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/prilis-vzdaleny-most.html">Př&#237;liš vzd&#225;len&#253; most</a></p></td>
+								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/prilis-vzdaleny-most.html">PĹ™&#237;liĹˇ vzd&#225;len&#253; most</a></p></td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">8/10</td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">6,9/10</td>
 								<td width="9%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">Nogova</td>
@@ -1897,7 +1897,7 @@
 							</tr>
 							<tr height="30px">
 								<td width="5%" align="center" style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;">197)</td>
-								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/cjornij-jastriab.html">Čjornij Jastriab</a></p></td>
+								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/cjornij-jastriab.html">ÄŚjornij Jastriab</a></p></td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">---</td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">5,9/10</td>
 								<td width="9%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">Everon</td>
@@ -1921,7 +1921,7 @@
 							</tr>
 							<tr height="30px" style="background-color:#C0C0C0;">
 								<td width="5%" align="center" style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;">200)</td>
-								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/boj-o-letiste.html">Boj o letiště</a></p></td>
+								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/boj-o-letiste.html">Boj o letiĹˇtÄ›</a></p></td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">---</td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">5,6/10</td>
 								<td width="9%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">Nogova</td>
@@ -1953,7 +1953,7 @@
 							</tr>
 							<tr height="30px" style="background-color:#C0C0C0;">
 								<td width="5%" align="center" style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;">204)</td>
-								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/ciste-nebe.html">Čist&#233; nebe</a></p></td>
+								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/ciste-nebe.html">ÄŚist&#233; nebe</a></p></td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">---</td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">5/10</td>
 								<td width="9%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">Everon</td>
@@ -1969,7 +1969,7 @@
 							</tr>
 							<tr height="30px" style="background-color:#C0C0C0;">
 								<td width="5%" align="center" style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;">206)</td>
-								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/rodinna-zalezitost.html">Rodin&#225; z&#225;ležitost</a></p></td>
+								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/rodinna-zalezitost.html">Rodin&#225; z&#225;leĹľitost</a></p></td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">---</td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">7,2/10</td>
 								<td width="9%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">Nogova</td>
@@ -1977,7 +1977,7 @@
 							</tr>
 							<tr height="30px">
 								<td width="5%" align="center" style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;">207)</td>
-								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/na-valecne-stezce-2.html">Na v&#225;lečn&#233; stezce 2</a></p></td>
+								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/na-valecne-stezce-2.html">Na v&#225;leÄŤn&#233; stezce 2</a></p></td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">---</td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">9,1/10</td>
 								<td width="9%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">Kolgujev</td>
@@ -1985,7 +1985,7 @@
 							</tr>
 							<tr height="30px" style="background-color:#C0C0C0;">
 								<td width="5%" align="center" style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;">208)</td>
-								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/ranni-sichta.html">Rann&#237; šichta</a></p></td>
+								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/ranni-sichta.html">Rann&#237; Ĺˇichta</a></p></td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">5/10</td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">4/10</td>
 								<td width="9%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">Everon</td>
@@ -1993,7 +1993,7 @@
 							</tr>
 							<tr height="30px">
 								<td width="5%" align="center" style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;">209)</td>
-								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/muj-domov.html">Můj domov</a></p></td>
+								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/muj-domov.html">MĹŻj domov</a></p></td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">---</td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">?/10</td>
 								<td width="9%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">Nogova</td>
@@ -2001,7 +2001,7 @@
 							</tr>
 							<tr height="30px" style="background-color:#C0C0C0;">
 								<td width="5%" align="center" style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;">210)</td>
-								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/hawk-in-nets-final.html">Hawk in Nets - soutěžní verze</a></p></td>
+								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/hawk-in-nets-final.html">Hawk in Nets - soutÄ›ĹľnĂ­ verze</a></p></td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">10/10</td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">10/10</td>
 								<td width="9%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">Cybelle</td>
@@ -2009,11 +2009,11 @@
 							</tr>
 							<tr height="30px">
 								<td width="5%" align="center" style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;">211)</td>
-								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/ranni-rosa-final.html">Rann&#237; rosa - soutěžní verze</a></p></td>
+								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/ranni-rosa-final.html">Rann&#237; rosa - soutÄ›ĹľnĂ­ verze</a></p></td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">10/10</td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">9,5/10</td>
 								<td width="9%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">Kolgujev</td>
-								<td width="9%" align="center" style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;border-top-width:1px;border-left-color:#000000;font-weight:bold;border-top-color:#000000;font-size:0.8em;border-right-width:1px;border-right-style:solid;border-left-style:solid;">Ježuro</td>
+								<td width="9%" align="center" style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;border-top-width:1px;border-left-color:#000000;font-weight:bold;border-top-color:#000000;font-size:0.8em;border-right-width:1px;border-right-style:solid;border-left-style:solid;">JeĹľuro</td>
 							</tr>
 							<tr height="30px" style="background-color:#C0C0C0;">
 								<td width="5%" align="center" style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;">212)</td>
@@ -2021,7 +2021,7 @@
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">10/10</td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">9/10</td>
 								<td width="9%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">Kolgujev</td>
-								<td width="9%" align="center" style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;border-top-width:1px;border-left-color:#000000;font-weight:bold;border-top-color:#000000;font-size:0.8em;border-right-width:1px;border-right-style:solid;border-left-style:solid;">Ježuro</td>
+								<td width="9%" align="center" style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;border-top-width:1px;border-left-color:#000000;font-weight:bold;border-top-color:#000000;font-size:0.8em;border-right-width:1px;border-right-style:solid;border-left-style:solid;">JeĹľuro</td>
 							</tr>
 							<tr height="30px">
 								<td width="5%" align="center" style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;">213)</td>
@@ -2033,7 +2033,7 @@
 							</tr>
 							<tr height="30px" style="background-color:#C0C0C0;">
 								<td width="5%" align="center" style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;">214)</td>
-								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/letiste.html">Letiště</a></p></td>
+								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/letiste.html">LetiĹˇtÄ›</a></p></td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">---</td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">7,2/10</td>
 								<td width="9%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">Malden</td>
@@ -2049,7 +2049,7 @@
 							</tr>
 							<tr height="30px" style="background-color:#C0C0C0;">
 								<td width="5%" align="center" style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;">216)</td>
-								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/vyzvedac.html">Vyzvědač</a></p></td>
+								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/vyzvedac.html">VyzvÄ›daÄŤ</a></p></td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">---</td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">4,3/10</td>
 								<td width="9%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">Everon</td>
@@ -2057,7 +2057,7 @@
 							</tr>
 							<tr height="30px">
 								<td width="5%" align="center" style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;">217)</td>
-								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/zelezna-cistka-csla.html">Železn&#225; Čistka ČSLA</a></p></td>
+								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/zelezna-cistka-csla.html">Ĺ˝elezn&#225; ÄŚistka ÄŚSLA</a></p></td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">---</td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">3/10</td>
 								<td width="9%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">Kolgujev</td>
@@ -2073,7 +2073,7 @@
 							</tr>
 							<tr height="30px">
 								<td width="5%" align="center" style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;">219)</td>
-								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/jak-jsem-nicil-vulcan.html">Jak jsem ničil Vulcan</a></p></td>
+								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/jak-jsem-nicil-vulcan.html">Jak jsem niÄŤil Vulcan</a></p></td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">---</td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">8/10</td>
 								<td width="9%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">Everon</td>
@@ -2081,7 +2081,7 @@
 							</tr>
 							<tr height="30px" style="background-color:#C0C0C0;">
 								<td width="5%" align="center" style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;">220)</td>
-								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/vylodeni-pristav.html">Vyloděn&#237;-Př&#237;stav</a></p></td>
+								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/vylodeni-pristav.html">VylodÄ›n&#237;-PĹ™&#237;stav</a></p></td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">6/10</td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">6/10</td>
 								<td width="9%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">Malden</td>
@@ -2089,7 +2089,7 @@
 							</tr>
 							<tr height="30px">
 								<td width="5%" align="center" style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;">221)</td>
-								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/na-valecne-stezce.html">Na v&#225;lečn&#233; stezce</a></p></td>
+								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/na-valecne-stezce.html">Na v&#225;leÄŤn&#233; stezce</a></p></td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">7.8/10</td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">8,2/10</td>
 								<td width="9%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">Kolgujev</td>
@@ -2121,7 +2121,7 @@
 							</tr>
 							<tr height="30px">
 								<td width="5%" align="center" style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;">225)</td>
-								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/partyzanska-nadeje-v2.html">Partyz&#225;nsk&#225; naděje verze 2</a></p></td>
+								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/partyzanska-nadeje-v2.html">Partyz&#225;nsk&#225; nadÄ›je verze 2</a></p></td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">9/10</td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">7/10</td>
 								<td width="9%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">Everon</td>
@@ -2129,7 +2129,7 @@
 							</tr>
 							<tr height="30px" style="background-color:#C0C0C0;">
 								<td width="5%" align="center" style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;">226)</td>
-								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/vylodeni.html">Vyloděn&#237;</a></p></td>
+								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/vylodeni.html">VylodÄ›n&#237;</a></p></td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">---</td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">6,5/10</td>
 								<td width="9%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">Malden</td>
@@ -2145,7 +2145,7 @@
 							</tr>
 							<tr height="30px" style="background-color:#C0C0C0;">
 								<td width="5%" align="center" style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;">228)</td>
-								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/napadeni-csla.html">Napadeni ČSLA</a></p></td>
+								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/napadeni-csla.html">Napadeni ÄŚSLA</a></p></td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">5/10</td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">6,6/10</td>
 								<td width="9%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">Malden</td>
@@ -2153,7 +2153,7 @@
 							</tr>
 							<tr height="30px">
 								<td width="5%" align="center" style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;">229)</td>
-								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/milice-ve-meste.html">Milice ve městě</a></p></td>
+								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/milice-ve-meste.html">Milice ve mÄ›stÄ›</a></p></td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">7.5/10</td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">9,3/10</td>
 								<td width="9%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">Nogova</td>
@@ -2177,7 +2177,7 @@
 							</tr>
 							<tr height="30px" style="background-color:#C0C0C0;">
 								<td width="5%" align="center" style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;">232)</td>
-								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/ostrelovac-II.html">Ostřelovač II.</a></p></td>
+								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/ostrelovac-II.html">OstĹ™elovaÄŤ II.</a></p></td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">7/10</td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">5,6/10</td>
 								<td width="9%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">Kolgujev</td>
@@ -2253,11 +2253,11 @@
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">8/10</td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">6,7/10</td>
 								<td width="9%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">Malden</td>
-								<td width="9%" align="center" style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;border-top-width:1px;border-left-color:#000000;font-weight:bold;border-top-color:#000000;font-size:0.8em;border-right-width:1px;border-right-style:solid;border-left-style:solid;">Ježuro</td>
+								<td width="9%" align="center" style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;border-top-width:1px;border-left-color:#000000;font-weight:bold;border-top-color:#000000;font-size:0.8em;border-right-width:1px;border-right-style:solid;border-left-style:solid;">JeĹľuro</td>
 							</tr>
 							<tr height="30px" style="background-color:#C0C0C0;">
 								<td width="5%" align="center" style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;">242)</td>
-								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/partyzanska-nadeje.html">Partyz&#225;nsk&#225; naděje</a></p></td>
+								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/partyzanska-nadeje.html">Partyz&#225;nsk&#225; nadÄ›je</a></p></td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">5/10</td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">3,2/10</td>
 								<td width="9%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">Everon</td>
@@ -2265,11 +2265,11 @@
 							</tr>
 							<tr height="30px">
 								<td width="5%" align="center" style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;">243)</td>
-								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/navsteva.html">N&#225;vštěva</a></p></td>
+								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/navsteva.html">N&#225;vĹˇtÄ›va</a></p></td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">8/10</td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">8,6/10</td>
 								<td width="9%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">Everon</td>
-								<td width="9%" align="center" style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;border-top-width:1px;border-left-color:#000000;font-weight:bold;border-top-color:#000000;font-size:0.8em;border-right-width:1px;border-right-style:solid;border-left-style:solid;">Ježuro</td>
+								<td width="9%" align="center" style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;border-top-width:1px;border-left-color:#000000;font-weight:bold;border-top-color:#000000;font-size:0.8em;border-right-width:1px;border-right-style:solid;border-left-style:solid;">JeĹľuro</td>
 							</tr>
 							<tr height="30px" style="background-color:#C0C0C0;">
 								<td width="5%" align="center" style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;">244)</td>
@@ -2277,11 +2277,11 @@
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">8/10</td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">5,2/10</td>
 								<td width="9%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">Everon</td>
-								<td width="9%" align="center" style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;border-top-width:1px;border-left-color:#000000;font-weight:bold;border-top-color:#000000;font-size:0.8em;border-right-width:1px;border-right-style:solid;border-left-style:solid;">Ježuro</td>
+								<td width="9%" align="center" style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;border-top-width:1px;border-left-color:#000000;font-weight:bold;border-top-color:#000000;font-size:0.8em;border-right-width:1px;border-right-style:solid;border-left-style:solid;">JeĹľuro</td>
 							</tr>
 							<tr height="30px">
 								<td width="5%" align="center" style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;">245)</td>
-								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/detsky-tabor-napaden.html">Dětsk&#253; t&#225;bor napaden</a></p></td>
+								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/detsky-tabor-napaden.html">DÄ›tsk&#253; t&#225;bor napaden</a></p></td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">4/10</td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">2,3/10</td>
 								<td width="9%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">Nogova</td>
@@ -2313,7 +2313,7 @@
 							</tr>
 							<tr height="30px">
 								<td width="5%" align="center" style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;">249)</td>
-								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/utok-csla.html">&#218;tok ČSLA</a></p></td>
+								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/utok-csla.html">&#218;tok ÄŚSLA</a></p></td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">5/10</td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">6,3/10</td>
 								<td width="9%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">Everon</td>
@@ -2345,7 +2345,7 @@
 							</tr>
 							<tr height="30px">
 								<td width="5%" align="center" style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;">253)</td>
-								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/ostrelovac.html">Ostřelovač</a></p></td>
+								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/ostrelovac.html">OstĹ™elovaÄŤ</a></p></td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">8.5/10</td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">8,7/10</td>
 								<td width="9%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">Everon</td>
@@ -2401,27 +2401,27 @@
 							</tr>
 							<tr height="30px" style="background-color:#C0C0C0;">
 								<td width="5%" align="center" style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;">260)</td>
-								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/konec-partyzanu.html">Konec partyzánů</a></p></td>
+								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/konec-partyzanu.html">Konec partyzĂˇnĹŻ</a></p></td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">---</td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">4/10</td>
 								<td width="9%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">Everon</td>
-								<td width="9%" align="center" style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;border-top-width:1px;border-left-color:#000000;font-weight:bold;border-top-color:#000000;font-size:0.8em;border-right-width:1px;border-right-style:solid;border-left-style:solid;">Ježuro</td>
+								<td width="9%" align="center" style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;border-top-width:1px;border-left-color:#000000;font-weight:bold;border-top-color:#000000;font-size:0.8em;border-right-width:1px;border-right-style:solid;border-left-style:solid;">JeĹľuro</td>
 							</tr>
 							<tr height="30px">
 								<td width="5%" align="center" style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;">261)</td>
-								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/osvobozeni-provins.html">Osvobození Provins</a></p></td>
+								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/osvobozeni-provins.html">OsvobozenĂ­ Provins</a></p></td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">---</td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">8/10</td>
 								<td width="9%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">Everon</td>
-								<td width="9%" align="center" style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;border-top-width:1px;border-left-color:#000000;font-weight:bold;border-top-color:#000000;font-size:0.8em;border-right-width:1px;border-right-style:solid;border-left-style:solid;">Číža</td>
+								<td width="9%" align="center" style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;border-top-width:1px;border-left-color:#000000;font-weight:bold;border-top-color:#000000;font-size:0.8em;border-right-width:1px;border-right-style:solid;border-left-style:solid;">ÄŚĂ­Ĺľa</td>
 							</tr>
 							<tr height="30px" style="background-color:#C0C0C0;">
 								<td width="5%" align="center" style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;">262)</td>
-								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/predator.html">Predátor</a></p></td>
+								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/predator.html">PredĂˇtor</a></p></td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">---</td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">7,5/10</td>
 								<td width="9%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">Everon</td>
-								<td width="9%" align="center" style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;border-top-width:1px;border-left-color:#000000;font-weight:bold;border-top-color:#000000;font-size:0.8em;border-right-width:1px;border-right-style:solid;border-left-style:solid;">Jiří Pazděra</td>
+								<td width="9%" align="center" style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;border-top-width:1px;border-left-color:#000000;font-weight:bold;border-top-color:#000000;font-size:0.8em;border-right-width:1px;border-right-style:solid;border-left-style:solid;">JiĹ™Ă­ PazdÄ›ra</td>
 							</tr>
 							<tr height="30px">
 								<td width="5%" align="center" style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;">263)</td>
@@ -2505,7 +2505,7 @@
 							</tr>
 							<tr height="30px">
 								<td width="5%" align="center" style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;">273)</td>
-								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/vycvik-spetz-natz.html">Výcvik Spetz Natz</a></p></td>
+								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/vycvik-spetz-natz.html">VĂ˝cvik Spetz Natz</a></p></td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">---</td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">7/10</td>
 								<td width="9%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">Kolgujev</td>
@@ -2513,7 +2513,7 @@
 							</tr>
 							<tr height="30px" style="background-color:#C0C0C0;">
 								<td width="5%" align="center" style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;">274)</td>
-								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/dobyti-raje.html">Dobytí ráje</a></p></td>
+								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/dobyti-raje.html">DobytĂ­ rĂˇje</a></p></td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">---</td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">---</td>
 								<td width="9%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">Everon</td>
@@ -2557,11 +2557,11 @@
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">---</td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">6.5/10</td>
 								<td width="9%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">Everon</td>
-								<td width="9%" align="center" style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;border-top-width:1px;border-left-color:#000000;font-weight:bold;border-top-color:#000000;font-size:0.8em;border-right-width:1px;border-right-style:solid;border-left-style:solid;">neznámy</td>
+								<td width="9%" align="center" style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;border-top-width:1px;border-left-color:#000000;font-weight:bold;border-top-color:#000000;font-size:0.8em;border-right-width:1px;border-right-style:solid;border-left-style:solid;">neznĂˇmy</td>
 							</tr>
 							<tr height="30px" style="background-color:#C0C0C0;">
 								<td width="5%" align="center" style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;">280)</td>
-								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/saboter-2.html">Sabotér 2</a></p></td>
+								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/saboter-2.html">SabotĂ©r 2</a></p></td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">---</td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">6/10</td>
 								<td width="9%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">Everon</td>
@@ -2569,7 +2569,7 @@
 							</tr>
 							<tr height="30px">
 								<td width="5%" align="center" style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;">281)</td>
-								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/saboter-paladin.html">Sabotér</a></p></td>
+								<td width="42%" align="left" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-weight:bold;"><p style="margin-left:3;margin-right:3;"><a href="./sp-missions-pages/saboter-paladin.html">SabotĂ©r</a></p></td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">---</td>
 								<td width="6%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">7/10</td>
 								<td width="9%" align="center" style="border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;font-size:0.8em;font-weight:bold;">Everon</td>
@@ -2582,8 +2582,8 @@
 				<!-- Topbar Area -->
 				<div class="TOP_AREA" id="TopArea">
 					<a id="linkNews" onmouseover="link_onMouseOver(this)" onmouseout="defaultInfo()" href="index.html">Novinky</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-					<a id="linkNewsArchive" onmouseover="link_onMouseOver(this)" onmouseout="defaultInfo()" href="news-archive.html">Archív novinek</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-					<a id="linkTutors" onmouseover="link_onMouseOver(this)" onmouseout="defaultInfo()" href="tutorials.html">Tutoriály</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<a id="linkNewsArchive" onmouseover="link_onMouseOver(this)" onmouseout="defaultInfo()" href="news-archive.html">ArchĂ­v novinek</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<a id="linkTutors" onmouseover="link_onMouseOver(this)" onmouseout="defaultInfo()" href="tutorials.html">TutoriĂˇly</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 					<a id="linkScripts" onmouseover="link_onMouseOver(this)" onmouseout="defaultInfo()" href="scripts.html">Scripty</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 					<a id="linkTips" onmouseover="link_onMouseOver(this)" onmouseout="defaultInfo()" href="tips-tricks.html">Tipy &amp; Triky</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 					<a id="linkDload" onmouseover="link_onMouseOver(this)" onmouseout="defaultInfo()" href="download.html">Download</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -2592,7 +2592,7 @@
 				<!-- Title Area -->
 				<div id="TitleArea" class="TITLE_AREA">Download</div>
 				<!-- Info Area -->
-				<div class="INFO_AREA" id="InfoArea"><br>Ruprtova poradna<br><br>ke hře<br><br>Operation Flashpoint®</div>
+				<div class="INFO_AREA" id="InfoArea"><br>Ruprtova poradna<br><br>ke hĹ™e<br><br>Operation FlashpointÂ®</div>
 				<!-- Right button Area -->
 				<div class="RIGHT_AREA" id="RightArea">
 					<a href="mission-news.html"><img src="images/btns/missionnews1.jpg" class="RA_BTNS" style="border-width:0px; TOP:0px" name="btnMissionNews" id="btnMissionNews" onmouseover="btn_onMouseOver(this)" onmouseout="btn_onMouseOut(this)" onclick="btn_onClick(this);"></a>

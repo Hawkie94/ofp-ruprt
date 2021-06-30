@@ -1,37 +1,37 @@
 THE BEACH
                                                                       
 Typ: singleplayer mise
-Autor: Michal "SHADOW" Štefaòák
+Autor: Michal "SHADOW" Å tefaÅˆÃ¡k
 Ostrov: Malden
 
-Náplò mise: Prostì se snate pøeít vylodìní, a pak u to nìjak zvládnete.
+NÃ¡plÅˆ mise: ProstÄ› se snaÅ¾te pÅ™eÅ¾Ã­t vylodÄ›nÃ­, a pak uÅ¾ to nÄ›jak zvlÃ¡dnete.
 
-Poadavky: - verze hry 1.30 a vyšší
-                   - všechny oficiální pøídavky do této verze           
+PoÅ¾adavky: - verze hry 1.30 a vyÅ¡Å¡Ã­
+                   - vÅ¡echny oficiÃ¡lnÃ­ pÅ™Ã­davky do tÃ©to verze           
                                                                             
 
 E-mail: jackasser@centrum.cz
 
 Mise obsahuje: intro
-	       outro - vıtìzství
-               outro - prohra ( Kdy vás pøi tom vylodìní moc chcípne)
-               (fakt stojí za to, take to jednou úmyslnì podìlejte)
+	       outro - vÃ½tÄ›zstvÃ­
+               outro - prohra ( KdyÅ¾ vÃ¡s pÅ™i tom vylodÄ›nÃ­ moc chcÃ­pne)
+               (fakt stojÃ­ za to, takÅ¾e to jednou ÃºmyslnÄ› podÄ›lejte)
 
-Návod: Po vylodìní se snate dret vpravo. Bunkry s kulometem nechte plavat
-       a radìji se snate co nejrychleji vystøílet rusáky za tím valem z pytlù
-       s pískem. A všechny vystøílíte pøiletí posily (Pøibìhnìte co nejblíe k jijich 
-       veliteli a se pohnete v misi dál).
-       Po deseti hodinách (timeskip) na vás rusové zautoèí tak je znovu všechny killnìte,
-       pak pøijedou T-72. Pøiletí Longbows a sundaj je (cutscene). Pøíletí recon team,
-       opìt pøijdìte co nejblíe k recon team veliteli, joinete se k jeho skupinì a 
-       pøesunete se nìkam daleko. Tam killnou vašeho velitele (cutscene) a vy se ujímate
-       velení. Najdete tábor, všechny tam vystøílíte a konec.
+NÃ¡vod: Po vylodÄ›nÃ­ se snaÅ¾te drÅ¾et vpravo. Bunkry s kulometem nechte plavat
+       a radÄ›ji se snaÅ¾te co nejrychleji vystÅ™Ã­let rusÃ¡ky za tÃ­m valem z pytlÅ¯
+       s pÃ­skem. AÅ¾ vÅ¡echny vystÅ™Ã­lÃ­te pÅ™iletÃ­ posily (PÅ™ibÄ›hnÄ›te co nejblÃ­Å¾e k jijich 
+       veliteli aÅ¥ se pohnete v misi dÃ¡l).
+       Po deseti hodinÃ¡ch (timeskip) na vÃ¡s rusovÃ© zautoÄÃ­ tak je znovu vÅ¡echny killnÄ›te,
+       pak pÅ™ijedou T-72. PÅ™iletÃ­ Longbows a sundaj je (cutscene). PÅ™Ã­letÃ­ recon team,
+       opÄ›t pÅ™ijdÄ›te co nejblÃ­Å¾e k recon team veliteli, joinete se k jeho skupinÄ› a 
+       pÅ™esunete se nÄ›kam daleko. Tam killnou vaÅ¡eho velitele (cutscene) a vy se ujÃ­mate
+       velenÃ­. Najdete tÃ¡bor, vÅ¡echny tam vystÅ™Ã­lÃ­te a konec.
 
-P.S. Psal jsem to v angliètinì take tam budou asi nìjakı chyby.
+P.S. Psal jsem to v angliÄtinÄ› takÅ¾e tam budou asi nÄ›jakÃ½ chyby.
 
 ========================================================================
 2021 quick-fix version
  - upravil TonyHawk
- - zmeny:	- pridaná verzia pre Resistance (pre 1.96)
-		- odstránené chyby s nefungujúcimi hláškami
-		- intro a outro sa teraz u aj ukonèí
+ - zmeny:	- pridanÃ¡ verzia pre Resistance (pre 1.96)
+		- odstrÃ¡nenÃ© chyby s nefungujÃºcimi hlÃ¡Å¡kami
+		- intro a outro sa teraz uÅ¾ aj ukonÄÃ­

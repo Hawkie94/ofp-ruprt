@@ -4,15 +4,15 @@ IIIIIIIIIIIIIIIIIIIIIIIII	American Assault	IIIIIIIIIIIIIIIIIIIIIIII
 
 -------------------------	Instalace		------------------------
 
-Pokud jste kampaò nainstalovali pomocí samorozbalovacího archivu, kampaò je 
-nainstalovaná a pøipravená k hraní.
+Pokud jste kampaÅˆ nainstalovali pomocÃ­ samorozbalovacÃ­ho archivu, kampaÅˆ je 
+nainstalovanÃ¡ a pÅ™ipravenÃ¡ k hranÃ­.
 ---
 
-V opaèném pøípadì je postup instalace následující:
+V opaÄnÃ©m pÅ™Ã­padÄ› je postup instalace nÃ¡sledujÃ­cÃ­:
 
-1. Zkopírujte soubor "AMAS_DEMO.pbo" do sloky "Campaigns" ve vašem adresáøi hry.
+1. ZkopÃ­rujte soubor "AMAS_DEMO.pbo" do sloÅ¾ky "Campaigns" ve vaÅ¡em adresÃ¡Å™i hry.
 
-2. K hraní je nutnı addon "EditorUpdate102.pbo", kterı je také pøiloen
+2. K hranÃ­ je nutnÃ½ addon "EditorUpdate102.pbo", kterÃ½ je takÃ© pÅ™iloÅ¾en
 
 --------------------------------------------------------------------------------
 
@@ -20,19 +20,19 @@ V opaèném pøípadì je postup instalace následující:
 
 -------------------------	Odinstalace		------------------------
 
-Kampaò odinstalujete odebráním souboru "AMAS_DEMO.pbo" ze sloky "Campaings"
+KampaÅˆ odinstalujete odebrÃ¡nÃ­m souboru "AMAS_DEMO.pbo" ze sloÅ¾ky "Campaings"
 --------------------------------------------------------------------------------
 
 
 
--------------------------	Další info		------------------------
+-------------------------	DalÅ¡Ã­ info		------------------------
 
-Stáhnìte si èeské rádiové hlášky do OFP, rozsáhlou kooperativní síovou misi 
-4 dùstojníci a pøeètìte si o chystané síové misi Michail na www.michail.g6.cz
+StÃ¡hnÄ›te si ÄeskÃ© rÃ¡diovÃ© hlÃ¡Å¡ky do OFP, rozsÃ¡hlou kooperativnÃ­ sÃ­Å¥ovou misi 
+4 dÅ¯stojnÃ­ci a pÅ™eÄtÄ›te si o chystanÃ© sÃ­Å¥ovÃ© misi Michail na www.michail.g6.cz
 --------------------------------------------------------------------------------
 
 
 
-Vytvoøil:
+VytvoÅ™il:
 KMT studio, MiKu, 2007 - 2012
 www.michail.g6.cz

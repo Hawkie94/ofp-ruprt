@@ -1,4 +1,4 @@
-Sutech - Copyright © 2oo8 MHstudio - Michal "EMSI" Horòák
+Sutech - Copyright Â© 2oo8 MHstudio - Michal "EMSI" HorÅˆÃ¡k
 ----------------------------------------------------------------------------------------------------------
 This ReadMe file is available ONLY in Slovak and English language !
 ==========================================================================================================
@@ -6,12 +6,12 @@ This ReadMe file is available ONLY in Slovak and English language !
 Info:
 
 - single misia pre hru ArmA: Armed Assault 
-- pre hranie vyaduje minimálne verziu hry 1.08 a datadisk Queen's Gambit
-- plná kompatibilita s patchom v1.12 BETA
+- pre hranie vyÅ¾aduje minimÃ¡lne verziu hry 1.08 a datadisk Queen's Gambit
+- plnÃ¡ kompatibilita s patchom v1.12 BETA
 - tento program (EMSI_BH11.Sara.pbo) je FREEWARE
-- akéko¾vek úpravy misie, alebo pouitie špecifickıch prvkov v inej misii
-   môe by uskutoènené iba so súhlasom autora
-- tento krok je následne podmienenı uvedením MHstudia v credits
+- akÃ©koÄ¾vek Ãºpravy misie, alebo pouÅ¾itie Å¡pecifickÃ½ch prvkov v inej misii
+   mÃ´Å¾e byÅ¥ uskutoÄnenÃ© iba so sÃºhlasom autora
+- tento krok je nÃ¡sledne podmienenÃ½ uvedenÃ­m MHstudia v credits
 
 ----------------------------------------------------------------------------------------------------------
 
@@ -27,15 +27,15 @@ Info:
 
 ==========================================================================================================
 
-Strana: západ - USA
+Strana: zÃ¡pad - USA
 
-Druh: pechotná - stealth
+Druh: pechotnÃ¡ - stealth
 
 Ostrov: Sahrani
 
 Popis:
-SLA dôstojník Nikolaj Berjajev (krycie meno - Sutech) musí zomrie !
-Mjr. Lucas a jeho chlapci sa preto vracajú na Sahrani.
+SLA dÃ´stojnÃ­k Nikolaj Berjajev (krycie meno - Sutech) musÃ­ zomrieÅ¥ !
+Mjr. Lucas a jeho chlapci sa preto vracajÃº na Sahrani.
 
 ----------------------------------------------------------------------------------------------------------
 
@@ -53,12 +53,12 @@ Mjr. Lucas and his boys are back again on Sahrani.
 
 AddOny:
 
-EMSI_cac.pbo	- pribalenı aj s "EMSI_cac.pbo.EMSI.bisign"
-		- bednièka s obsahom rádioaktívneho materiálu (Plutónium 94)
-		- nieko¾ko kontaminovanıch tiel
+EMSI_cac.pbo	- pribalenÃ½ aj s "EMSI_cac.pbo.EMSI.bisign"
+		- bedniÄka s obsahom rÃ¡dioaktÃ­vneho materiÃ¡lu (PlutÃ³nium 94)
+		- niekoÄ¾ko kontaminovanÃ½ch tiel
 
-emsi_mgg.pbo	- pribalenı aj s "emsi_mgg.pbo.EMSI.bisign"
-		- Mateo Garcia a jeho bojovníci
+emsi_mgg.pbo	- pribalenÃ½ aj s "emsi_mgg.pbo.EMSI.bisign"
+		- Mateo Garcia a jeho bojovnÃ­ci
 ----------------------------------------------------------------------------------------------------------
 
 AddOns:
@@ -80,8 +80,8 @@ Special thanx to MAA
 
 Upozornenie:
 
-Všetky osoby a udalosti v tejto misii sú vymyslené.
-Akáko¾vek podobnos so skutoènosou je èisto náhodná.
+VÅ¡etky osoby a udalosti v tejto misii sÃº vymyslenÃ©.
+AkÃ¡koÄ¾vek podobnosÅ¥ so skutoÄnosÅ¥ou je Äisto nÃ¡hodnÃ¡.
 
 ----------------------------------------------------------------------------------------------------------
 
@@ -97,4 +97,4 @@ mail:		m_hornak@yahoo.com
 
 ==========================================================================================================
 
-EMSI (MHstudio) © 2oo8
+EMSI (MHstudio) Â© 2oo8

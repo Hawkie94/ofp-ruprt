@@ -4,8 +4,8 @@
  Mail  : Vojtoo@centrum.sk
  Velkost: 41.3 kB
  
- Táto misia potrebuje k spusteniu hru Operace Flashpoint vo verzii 1.46 + oficialny addonpack 3 a 
- ÈSLA addon + jeho upgrade (myslim,ze to pojde aj bez upgradu,ale clovek nikdy nevie) ;-)
+ TÃ¡to misia potrebuje k spusteniu hru Operace Flashpoint vo verzii 1.46 + oficialny addonpack 3 a 
+ ÄŒSLA addon + jeho upgrade (myslim,ze to pojde aj bez upgradu,ale clovek nikdy nevie) ;-)
  
  Intro : ano ( 3 minuty 56 sekund)
  outro vitazstvo : ano ( 1 minutu 1 sekundu)

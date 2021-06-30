@@ -15,91 +15,91 @@ VELIKOST: 4,7 MB (5,1 s addonem)
 ===================================
 TYP MISE: singl mise
 ===================================
-NÁZEV MISE: NIKITA
+NÃZEV MISE: NIKITA
 ===================================
 OSTROV: Everon
 ===================================
 INTRO: ano 9:25 min.
 ===================================
-OUTRO VÍTÌZSTVÍ: ano 4:30 min.
+OUTRO VÃTÄšZSTVÃ: ano 4:30 min.
 ===================================
 OUTRO PROHRA: ano 1:15 min. (0-0-8)
 =======================================================================================
-POUITÉ ADDONY: - Nikita addon ( je pøibalenı )
-                - business man ( takté pøibalenı )
+POUÅ½ITÃ‰ ADDONY: - Nikita addon ( je pÅ™ibalenÃ½ )
+                - business man ( taktÃ©Å¾ pÅ™ibalenÃ½ )
 =======================================================================================
-POADAVKY: Tvoøeno na verzi 1.46 s procesorem 800MHz, 256MB RAM, GF 3 Ti 200 64MB.
-           /Nejvìtší èást byla vytvoøena na grafické kartì TNT2 32MB :o) /
-           Remake plnì kompatibilní s datadiskem Resistancem ve verzi 1.96
+POÅ½ADAVKY: TvoÅ™eno na verzi 1.46 s procesorem 800MHz, 256MB RAM, GF 3 Ti 200 64MB.
+           /NejvÄ›tÅ¡Ã­ ÄÃ¡st byla vytvoÅ™ena na grafickÃ© kartÄ› TNT2 32MB :o) /
+           Remake plnÄ› kompatibilnÃ­ s datadiskem Resistancem ve verzi 1.96
 =======================================================================================
-POZOR: Pro úspìšné zvládnutí celé mise je nezbytné, nastavit si obtínost tak, aby jsi
-       jako hráè vidìl WP!!!
+POZOR: Pro ÃºspÄ›Å¡nÃ© zvlÃ¡dnutÃ­ celÃ© mise je nezbytnÃ©, nastavit si obtÃ­Å¾nost tak, aby jsi
+       jako hrÃ¡Ä vidÄ›l WP!!!
 =======================================================================================
-INSTALACE: Soubor _1_4nikita.Eden.pbo vlote do sloky missions ve vašem OFP. 
-           Standartnì: "C:\Program Files\Codemasters\OperationFlashpoint\Missions\.."                
-           Soubory sfbus.pbo a nikita_addon vlote do sloky Addons ve vašem OFP. 
-           Standartnì: "C:\Program Files\Codemasters\OperationFlashpoint\Addons\.."  
+INSTALACE: Soubor _1_4nikita.Eden.pbo vloÅ¾te do sloÅ¾ky missions ve vaÅ¡em OFP. 
+           StandartnÄ›: "C:\Program Files\Codemasters\OperationFlashpoint\Missions\.."                
+           Soubory sfbus.pbo a nikita_addon vloÅ¾te do sloÅ¾ky Addons ve vaÅ¡em OFP. 
+           StandartnÄ›: "C:\Program Files\Codemasters\OperationFlashpoint\Addons\.."  
 =======================================================================================
-POZNÁMKY: Nad tvorbou této mise jsem strávil opravdu mnoho hodin. Snail 
-          jsem se vytvoøit nìco nového, jak pojetím, tak zpùsobem hraní. 
-          Doufám, e si mi to alespoò trochu podaøilo. Je tam velmi mnoho 
-          vìcí, které na sebe musí navazovat a jedna na druhé závisí, proto
-          se omlouvám, kdy by se náhodou stalo, e by nìco nefungovalo 
-          pøesnì tak ja má. Mnì se to za celou dobu testù nestalo, tak 
-          vìøím, e to zùstane bez chyb. Ta ohromná velikost je zpùsobená 
-          obrovskım mnostvím hlášek, ale to u poznáte sami a jestli èteš
-          teï Readme, tak u je to i jedno. :o)
+POZNÃMKY: Nad tvorbou tÃ©to mise jsem strÃ¡vil opravdu mnoho hodin. SnaÅ¾il 
+          jsem se vytvoÅ™it nÄ›co novÃ©ho, jak pojetÃ­m, tak zpÅ¯sobem hranÃ­. 
+          DoufÃ¡m, Å¾e si mi to alespoÅˆ trochu podaÅ™ilo. Je tam velmi mnoho 
+          vÄ›cÃ­, kterÃ© na sebe musÃ­ navazovat a jedna na druhÃ© zÃ¡visÃ­, proto
+          se omlouvÃ¡m, kdyÅ¾ by se nÃ¡hodou stalo, Å¾e by nÄ›co nefungovalo 
+          pÅ™esnÄ› tak ja mÃ¡. MnÄ› se to za celou dobu testÅ¯ nestalo, tak 
+          vÄ›Å™Ã­m, Å¾e to zÅ¯stane bez chyb. Ta ohromnÃ¡ velikost je zpÅ¯sobenÃ¡ 
+          obrovskÃ½m mnoÅ¾stvÃ­m hlÃ¡Å¡ek, ale to uÅ¾ poznÃ¡te sami a jestli ÄteÅ¡
+          teÄ Readme, tak uÅ¾ je to i jedno. :o)
 =======================================================================================
-REMAKE: Vytvoøil jsem ho, protoe mì mise v poèátcích velmi ovlivnila
-	a pochybuji, e bych bez ní byl tam, kde jsem teï. Na sklonku
-	dìjin OFP jsem se rozhodl, e ji pøedìlám tak, aby si i ostatní
-	mohli na toto klasické dílo zavzpomínat.
-	Zmìny v misi jsou minimální, kromì kompatibility s Resistance se
-	jedná pouze o novou hudbu, nìkolik novıch zdrojù, obrázkù a nìkolik
-	dalších kosmetickıch úprav.
+REMAKE: VytvoÅ™il jsem ho, protoÅ¾e mÄ› mise v poÄÃ¡tcÃ­ch velmi ovlivnila
+	a pochybuji, Å¾e bych bez nÃ­ byl tam, kde jsem teÄ. Na sklonku
+	dÄ›jin OFP jsem se rozhodl, Å¾e ji pÅ™edÄ›lÃ¡m tak, aby si i ostatnÃ­
+	mohli na toto klasickÃ© dÃ­lo zavzpomÃ­nat.
+	ZmÄ›ny v misi jsou minimÃ¡lnÃ­, kromÄ› kompatibility s Resistance se
+	jednÃ¡ pouze o novou hudbu, nÄ›kolik novÃ½ch zdrojÅ¯, obrÃ¡zkÅ¯ a nÄ›kolik
+	dalÅ¡Ã­ch kosmetickÃ½ch Ãºprav.
 								Stranger
 =======================================================================================
-PØÍBÌH: Pøíbìh je zasazen na sluneènı Everon, kde se stáváš elitním agentem 
-        SEKCE 1, která má zrovna plné ruce práce s teroristickou organizací 
-        RUDÁ STOPA. V laboratoøích SEKCE 1 se  pracuje na vıvoji nové 
-        satelitní zbranì CHÁRON. Jeden z agentù se pokusí informace prodat, 
-        co samozøejmì neunikne SEKCI a tak pøedání tohoto tajného disku 
-        pøekazí. Pøi pøeletu z místa dìní je ale vrtulník pøeváející tım 
-        SEKCE 1 s diskem sestøelen a ten se dostává opìt do rukou RUDÉ STOPY.
-        Na jiném místì Everonu se tato nová zbraò testuje za pomoci UH 60, 
-        náhoda tomu tak chtìla a tento vrtulník je ukraden a posádka zabita. 
-        Toto vše a ještì trochu víc je souèástí INTRA. Ty se zde ještì ve 
-        struèností dozvíš, co se po tobì bude chtít. Samotná mise pak zaèíná 
-        nedaleko Everonu na další ze základen SEKCE 1, odkud odlétáš na místo 
-        urèení. Tvùj úkol je najít ztracenı disk, kterı byl lokalizován na 
-        jedné základnì této teroristické skupiny. To samozøejmì nebude jedinı 
-        Tvùj úkol, ale více k pøíbìhu nebudu prozrazovat. Prozradím snad jen 
-        to, e budeš mít kompletní informace o stavu nepøítele, které Ti budu
-        podávat pøímo ja Didymos a vùbec budu tak trochu øídit všechny tvoje 
-        kroky. Budeš mít monost vyzkoušet prototyp nové satelitní zbranì 
-        CHÁRON. V záloze bude pøipravenı podpùrnı tım, kterı bude èekat na 
-        tvùj rozkaz, aby zasáhl. Pod kùí budeš mít implantovanı mikrochip. 
-        Kdy ho aktivuješ, vstøíkne se Ti pøímo do krve malé mnoství drogy 
-        zvané MATRIX, která bude ovlivòovat tvé smyslové vjemy. Ani ukonèení 
-        nebude tak jednoduché, ale protoe jsi byl vybrán pro tuto misi jako
-        jeden z nejlepších agentù SEKCE 1, tak to rozhodnì dotáhneš a do konce.
+PÅ˜ÃBÄšH: PÅ™Ã­bÄ›h je zasazen na sluneÄnÃ½ Everon, kde se stÃ¡vÃ¡Å¡ elitnÃ­m agentem 
+        SEKCE 1, kterÃ¡ mÃ¡ zrovna plnÃ© ruce prÃ¡ce s teroristickou organizacÃ­ 
+        RUDÃ STOPA. V laboratoÅ™Ã­ch SEKCE 1 se  pracuje na vÃ½voji novÃ© 
+        satelitnÃ­ zbranÄ› CHÃRON. Jeden z agentÅ¯ se pokusÃ­ informace prodat, 
+        coÅ¾ samozÅ™ejmÄ› neunikne SEKCI a tak pÅ™edÃ¡nÃ­ tohoto tajnÃ©ho disku 
+        pÅ™ekazÃ­. PÅ™i pÅ™eletu z mÃ­sta dÄ›nÃ­ je ale vrtulnÃ­k pÅ™evÃ¡Å¾ejÃ­cÃ­ tÃ½m 
+        SEKCE 1 s diskem sestÅ™elen a ten se dostÃ¡vÃ¡ opÄ›t do rukou RUDÃ‰ STOPY.
+        Na jinÃ©m mÃ­stÄ› Everonu se tato novÃ¡ zbraÅˆ testuje za pomoci UH 60, 
+        nÃ¡hoda tomu tak chtÄ›la a tento vrtulnÃ­k je ukraden a posÃ¡dka zabita. 
+        Toto vÅ¡e a jeÅ¡tÄ› trochu vÃ­c je souÄÃ¡stÃ­ INTRA. Ty se zde jeÅ¡tÄ› ve 
+        struÄnostÃ­ dozvÃ­Å¡, co se po tobÄ› bude chtÃ­t. SamotnÃ¡ mise pak zaÄÃ­nÃ¡ 
+        nedaleko Everonu na dalÅ¡Ã­ ze zÃ¡kladen SEKCE 1, odkud odlÃ©tÃ¡Å¡ na mÃ­sto 
+        urÄenÃ­. TvÅ¯j Ãºkol je najÃ­t ztracenÃ½ disk, kterÃ½ byl lokalizovÃ¡n na 
+        jednÃ© zÃ¡kladnÄ› tÃ©to teroristickÃ© skupiny. To samozÅ™ejmÄ› nebude jedinÃ½ 
+        TvÅ¯j Ãºkol, ale vÃ­ce k pÅ™Ã­bÄ›hu nebudu prozrazovat. ProzradÃ­m snad jen 
+        to, Å¾e budeÅ¡ mÃ­t kompletnÃ­ informace o stavu nepÅ™Ã­tele, kterÃ© Ti budu
+        podÃ¡vat pÅ™Ã­mo ja Didymos a vÅ¯bec budu tak trochu Å™Ã­dit vÅ¡echny tvoje 
+        kroky. BudeÅ¡ mÃ­t moÅ¾nost vyzkouÅ¡et prototyp novÃ© satelitnÃ­ zbranÄ› 
+        CHÃRON. V zÃ¡loze bude pÅ™ipravenÃ½ podpÅ¯rnÃ½ tÃ½m, kterÃ½ bude Äekat na 
+        tvÅ¯j rozkaz, aby zasÃ¡hl. Pod kÅ¯Å¾Ã­ budeÅ¡ mÃ­t implantovanÃ½ mikrochip. 
+        KdyÅ¾ ho aktivujeÅ¡, vstÅ™Ã­kne se Ti pÅ™Ã­mo do krve malÃ© mnoÅ¾stvÃ­ drogy 
+        zvanÃ© MATRIX, kterÃ¡ bude ovlivÅˆovat tvÃ© smyslovÃ© vjemy. Ani ukonÄenÃ­ 
+        nebude tak jednoduchÃ©, ale protoÅ¾e jsi byl vybrÃ¡n pro tuto misi jako
+        jeden z nejlepÅ¡Ã­ch agentÅ¯ SEKCE 1, tak to rozhodnÄ› dotÃ¡hneÅ¡ aÅ¾ do konce.
 =======================================================================================
-PODÌKOVÁNÍ: Tradiènì patøí podìkování všem z fóra jak na Tiscali, tak na 
+PODÄšKOVÃNÃ: TradiÄnÄ› patÅ™Ã­ podÄ›kovÃ¡nÃ­ vÅ¡em z fÃ³ra jak na Tiscali, tak na 
             www.operationflashpoint.cz
 =======================================================================================
-ZVLÁŠTNÍ PODÌKOVÁNÍ: Mùj nejvìtší dík patøí RUPRTovi, kterı mi vysvìtlil 
-                     vìci, které mi ještì v OFP nebyli tak nìjak jasné. :o)
+ZVLÃÅ TNÃ PODÄšKOVÃNÃ: MÅ¯j nejvÄ›tÅ¡Ã­ dÃ­k patÅ™Ã­ RUPRTovi, kterÃ½ mi vysvÄ›tlil 
+                     vÄ›ci, kterÃ© mi jeÅ¡tÄ› v OFP nebyli tak nÄ›jak jasnÃ©. :o)
 
-                     DÌKUJI Ruprte
+                     DÄšKUJI Ruprte
 =======================================================================================
-KDYBY NÌCO: Napište mi prosím na ji uvedená E-mail: Didymos@seznam.cz nebo
-            ICQ 120167974.  dìkuji
+KDYBY NÄšCO: NapiÅ¡te mi prosÃ­m na jiÅ¾ uvedenÃ¡ E-mail: Didymos@seznam.cz nebo
+            ICQ 120167974.  dÄ›kuji
 =======================================================================================
 
-     Dìkování bylo dost, tak teï u pøeji pøíjemnou zábavu a pøedevším hodnì
-štìstí pøi postupu do nepøátelského území. :o)
+     DÄ›kovÃ¡nÃ­ bylo dost, tak teÄ uÅ¾ pÅ™eji pÅ™Ã­jemnou zÃ¡bavu a pÅ™edevÅ¡Ã­m hodnÄ›
+Å¡tÄ›stÃ­ pÅ™i postupu do nepÅ™Ã¡telskÃ©ho ÃºzemÃ­. :o)
 
-     Jen mrtví zaili konec války. 
+     Jen mrtvÃ­ zaÅ¾ili konec vÃ¡lky. 
 
 
  *****       **    *****      *    *    *         *     ***      **
@@ -110,6 +110,6 @@ KDYBY NÌCO: Napište mi prosím na ji uvedená E-mail: Didymos@seznam.cz nebo
  *****       **    *****        **      **   *   **     ***      **
 
 
-                                                                  ©2002 Didymos
-                                                                  ©2006 Stranger
+                                                                  Â©2002 Didymos
+                                                                  Â©2006 Stranger
 

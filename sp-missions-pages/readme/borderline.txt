@@ -1,13 +1,13 @@
-Název mise: Bordeline
+NÃ¡zev mise: Bordeline
 Verze: 0.2
-Potøebná verze ofp: 1.96 (To je prostì základ dnes. Doporuèuji hrát POUZE s pøiloenım editorupdate102.pbo.)
+PotÅ™ebnÃ¡ verze ofp: 1.96 (To je prostÄ› zÃ¡klad dnes. DoporuÄuji hrÃ¡t POUZE s pÅ™iloÅ¾enÃ½m editorupdate102.pbo.)
 Typ mise: covert operation
-Obtínost: hardcore
-Nároènost na HW: Nevím. Mnì to jede v rozmezí 20-60 fps.
+ObtÃ­Å¾nost: hardcore
+NÃ¡roÄnost na HW: NevÃ­m. MnÄ› to jede v rozmezÃ­ 20-60 fps.
 
 Credits:
-Misi vytvoøil Sumrak 
-Pouité songy jsou z Metal gear Solid game, Crysis Warhead a Half Life 2
+Misi vytvoÅ™il Sumrak 
+PouÅ¾itÃ© songy jsou z Metal gear Solid game, Crysis Warhead a Half Life 2
 
-Poznámka od autora:
-Hrajete s modelem americké spec. jednotky (hrajete ale za ruskou spec. jednotku) - dùvod: Ruská spec vypadá v ofp strašnì, proto ta americká denní :-) ta ještì jde. 
+PoznÃ¡mka od autora:
+Hrajete s modelem americkÃ© spec. jednotky (hrajete ale za ruskou spec. jednotku) - dÅ¯vod: RuskÃ¡ spec vypadÃ¡ v ofp straÅ¡nÄ›, proto ta americkÃ¡ dennÃ­ :-) ta jeÅ¡tÄ› jde. 

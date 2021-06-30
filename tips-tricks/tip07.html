@@ -8,7 +8,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-K3867HR');</script>
 <!-- End Google Tag Manager -->
 
-<meta http-equiv="content-type" content="text/html; charset=windows-1250">
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
 		<title>Detail tipu</title>
 		<meta name="GENERATOR" content="Microsoft Visual Studio .NET 7.1">
 		<meta name="CODE_LANGUAGE" content="Visual Basic .NET 7.1">
@@ -28,21 +28,21 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	<tbody><tr>
 		<td style="color:#FFFFFF;font-weight:bold;" width="50%">Autor : Ali</td>
 		<td style="color:#FFFFFF;font-weight:bold;" width="50%" align="right">
-			<a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/editor-stuff/tips-tricks/samples/racek.Intro.zip" target="_blank">Stáhnout ukázku</a><br>
-			<a href="./../tips-tricks.html">Zpět na Tipy &amp Triky</a>
+			<a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/editor-stuff/tips-tricks/samples/racek.Intro.zip" target="_blank">StĂˇhnout ukĂˇzku</a><br>
+			<a href="./../tips-tricks.html">ZpÄ›t na Tipy &amp Triky</a>
 		</td>
 	</tr>
 	<tr>
 		<td colspan="2" height="9px" bgcolor="#9FA5C5"></td>
 	</tr>
 	<tr>
-		<td colspan="2" style="font-size:1.0em;font-weight:bold;color:#FF6600;" align="center">Vytvoření a pohyb racka</td>
+		<td colspan="2" style="font-size:1.0em;font-weight:bold;color:#FF6600;" align="center">VytvoĹ™enĂ­ a pohyb racka</td>
 	</tr>
 	<tr>
 		<td colspan="2" height="9px" bgcolor="#9FA5C5"></td>
 	</tr>
 	<tr>
-		<td colspan="2" style="font-size:1.05em;font-weight:normal;text-align:justify;color:#EBE7D8;">Pro vytvoření racka je důležité znát tyto příkazy:<br><br>		'seagull' camCreate [x,y,z]<br>		camCommand 'landed'<br>		camSetPos [x,y,z]<br><br><br>V následujících větách si vysvětlíme co jednotlivé příkazy znamenají.<br>Pro lepší práci s 'racky', je lepší si je pojmenovat. My si ho pojmenujeme např. '_racek'.<br><br><br>1. _racek = 'seagull' camCreate [x,y,z]<br>	-tento příkaz slouží pro vytvoření racka na souřadnicích x,y,z<br>	-jestli to nechcete zadávat přes souřadnice, jde to udělat i jinak<br>	-dáte si na mapu nějaký objekt (nejlépe asi neviditelný), pojmenujeme si ho třeba 'obj', a pak dáme<br>	-_racek = 'seagull' camCreate [(GetPos obj select 0) + 0, (GetPos obj select 1) + 0, (GetPos obj select 2) + 0]<br><br>2. _racek camCommand 'landed'<br>	-tento příkaz slouží jenom k jedné věci, donutí racka, aby seděl na zemi <br>				<br>3. _racek camSetPos [x,y,z]<br>	-a tento poslední příkaz slouží k tomu aby se racek přemístil na souřadnice x,y,z<br><br>Konečný script by měl vypadat takhle:<br><br>;racek se vytvoří na objektu 'obj' a bude sedět na zemi 5s<br>_racek = 'seagull' camCreate [(GetPos obj select 0) + 0, (GetPos obj select 1) + 0, (GetPos obj select 2) + 0]<br>_racek camCommand 'landed'<br>~5<br><br>;racek se přesune na pozici hráče, a bude 10m nad hráčem<br>_racek camSetPos [(GetPos player select 0) + 0, (GetPos player select 1) + 0, (GetPos player select 2) + 10]<br>~5<br><br>;konec sqs<br>exit</td>
+		<td colspan="2" style="font-size:1.05em;font-weight:normal;text-align:justify;color:#EBE7D8;">Pro vytvoĹ™enĂ­ racka je dĹŻleĹľitĂ© znĂˇt tyto pĹ™Ă­kazy:<br><br>		'seagull' camCreate [x,y,z]<br>		camCommand 'landed'<br>		camSetPos [x,y,z]<br><br><br>V nĂˇsledujĂ­cĂ­ch vÄ›tĂˇch si vysvÄ›tlĂ­me co jednotlivĂ© pĹ™Ă­kazy znamenajĂ­.<br>Pro lepĹˇĂ­ prĂˇci s 'racky', je lepĹˇĂ­ si je pojmenovat. My si ho pojmenujeme napĹ™. '_racek'.<br><br><br>1. _racek = 'seagull' camCreate [x,y,z]<br>	-tento pĹ™Ă­kaz slouĹľĂ­ pro vytvoĹ™enĂ­ racka na souĹ™adnicĂ­ch x,y,z<br>	-jestli to nechcete zadĂˇvat pĹ™es souĹ™adnice, jde to udÄ›lat i jinak<br>	-dĂˇte si na mapu nÄ›jakĂ˝ objekt (nejlĂ©pe asi neviditelnĂ˝), pojmenujeme si ho tĹ™eba 'obj', a pak dĂˇme<br>	-_racek = 'seagull' camCreate [(GetPos obj select 0) + 0, (GetPos obj select 1) + 0, (GetPos obj select 2) + 0]<br><br>2. _racek camCommand 'landed'<br>	-tento pĹ™Ă­kaz slouĹľĂ­ jenom k jednĂ© vÄ›ci, donutĂ­ racka, aby sedÄ›l na zemi <br>				<br>3. _racek camSetPos [x,y,z]<br>	-a tento poslednĂ­ pĹ™Ă­kaz slouĹľĂ­ k tomu aby se racek pĹ™emĂ­stil na souĹ™adnice x,y,z<br><br>KoneÄŤnĂ˝ script by mÄ›l vypadat takhle:<br><br>;racek se vytvoĹ™Ă­ na objektu 'obj' a bude sedÄ›t na zemi 5s<br>_racek = 'seagull' camCreate [(GetPos obj select 0) + 0, (GetPos obj select 1) + 0, (GetPos obj select 2) + 0]<br>_racek camCommand 'landed'<br>~5<br><br>;racek se pĹ™esune na pozici hrĂˇÄŤe, a bude 10m nad hrĂˇÄŤem<br>_racek camSetPos [(GetPos player select 0) + 0, (GetPos player select 1) + 0, (GetPos player select 2) + 10]<br>~5<br><br>;konec sqs<br>exit</td>
 	</tr>
 </tbody></table>
 

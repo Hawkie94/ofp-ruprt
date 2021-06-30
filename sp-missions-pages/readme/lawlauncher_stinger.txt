@@ -2,18 +2,18 @@ STINGER
 =========================================
 
 
-TVŸRCE MISE: LAW
+TV≈ÆRCE MISE: LAW
 KONTAKT: lawlauncher@centrum.cz, ICQ 320100610
 WEB: http://ofp.valka.cz
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
-N¡ZEV MISE: STINGER
-TYP MISE: pÏchotnÌ
+N√ÅZEV MISE: STINGER
+TYP MISE: pƒõchotn√≠
 VERZE MISE: 1.0
 OSTROV: AfganEveron
 VERZE HRY: 1.96
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 
-POTÿEBN… ADDONY:
+POT≈òEBN√â ADDONY:
 
 ==JAM magazines 2 nebo 3
 ftp://www.ofpr.info/ofpd/unofaddons2/JAM3.rar
@@ -30,16 +30,16 @@ ftp://ftp.gamepark.cz/ofpd/unofaddons2/LSR_Delta_Rangers_200.rar
 ==LSR Delta Weapons Pack 2.0
 ftp://ftp.gamepark.cz/ofpd/unofaddons2/LSR_US_Weapons_Pack_200.rar
 
-Zbytek addon˘ p¯iloûen k misi.
+Zbytek addon≈Ø p≈ôilo≈æen k misi.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 
 INSTALACE:
-Rozbalte archÌv a zkopÌrujte soubor "law_stinger.afganeveron.pbo" do sloûky "Missions".
-Vöechny pot¯ebnÈ addony rozbalte a zkopÌrujte do sloûky "Addons" (Res/Addons).
+Rozbalte arch√≠v a zkop√≠rujte soubor "law_stinger.afganeveron.pbo" do slo≈æky "Missions".
+V≈°echny pot≈ôebn√© addony rozbalte a zkop√≠rujte do slo≈æky "Addons" (Res/Addons).
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 
-VAROV¡NÕ:
-Autor mise nenese û·dnou odpovÏdnost za ökodu zp˘sobenou tÌmto produktem.
+VAROV√ÅN√ç:
+Autor mise nenese ≈æ√°dnou odpovƒõdnost za ≈°kodu zp≈Øsobenou t√≠mto produktem.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 
 (c) 2006 LAW, BiGames Team

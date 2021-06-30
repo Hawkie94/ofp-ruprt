@@ -1,35 +1,35 @@
-Název mise:Kobylky II
+NÃ¡zev mise:Kobylky II
 Ostrov:Malden
 Velikost mise:28K
 Intro:Ano
 Outro:Ano
-Pouité addony: Golden Upgrade 3 (http://download.games.tiscali.cz/game/flashpoint/patches/ofp_addons_pack_3_cze_pln.zip)
-Potøeba verze hry:1.30
-Vytvoøeno ve verzy hry:1.46 
+PouÅ¾itÃ© addony: Golden Upgrade 3 (http://download.games.tiscali.cz/game/flashpoint/patches/ofp_addons_pack_3_cze_pln.zip)
+PotÅ™eba verze hry:1.30
+VytvoÅ™eno ve verzy hry:1.46 
 Autor:Muttley
 E-mail:muttley.flashpoint@centrum.cz
 
-Misi jsem tvoøil 2 dny.
-(To ale neznamená,e jsem se nesnail udìlat ji kvalitnì! :-)) )
+Misi jsem tvoÅ™il 2 dny.
+(To ale neznamenÃ¡,Å¾e jsem se nesnaÅ¾il udÄ›lat ji kvalitnÄ›! :-)) )
 
 
 Instalace:
 
-Adresáø se hrou celı nakopírujte do Codemasters/Operace Flashpoint/Missions
+AdresÃ¡Å™ se hrou celÃ½ nakopÃ­rujte do Codemasters/Operace Flashpoint/Missions
 
 
-Podìkování:
+PodÄ›kovÃ¡nÃ­:
 
-Úplnì všem,kteøí mi kdy pomohli øešit problémy tıkající se
-editace ve høe Operace Flashpoint. 
-
-
-Poznámky:
-Misi nechávám rozpakovanou.Ne proto,e bych ji neumìl zapakovat,ale proto,
-aby jste se mohly podívat,jak jsem co udìlal. :-))
+ÃšplnÄ› vÅ¡em,kteÅ™Ã­ mi kdy pomohli Å™eÅ¡it problÃ©my tÃ½kajÃ­cÃ­ se
+editace ve hÅ™e Operace Flashpoint. 
 
 
-Pøeji pøíjemnou zábavu. 
+PoznÃ¡mky:
+Misi nechÃ¡vÃ¡m rozpakovanou.Ne proto,Å¾e bych ji neumÄ›l zapakovat,ale proto,
+aby jste se mohly podÃ­vat,jak jsem co udÄ›lal. :-))
+
+
+PÅ™eji pÅ™Ã­jemnou zÃ¡bavu. 
 
 
 
