@@ -2,7 +2,8 @@
 
 BODY
 {
-    BACKGROUND-COLOR: blue;
+    /* BACKGROUND-COLOR: blue; */
+	BACKGROUND-COLOR: black;
     FONT-FAMILY: Verdana, Helvetica, sans-serif;
     FONT-SIZE: .8em;
     FONT-WEIGHT: normal;

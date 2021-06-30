@@ -1,10 +1,21 @@
 <HTML>
 <HEAD>
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-K3867HR');</script>
+  <!-- End Google Tag Manager -->
 <TITLE>Ježurùv tutoriál o práci s dialogy v OFP (verze 2.0)</TITLE>
 <LINK REL="Stylesheet" TYPE="text/css" HREF="Files\default.css">
 </HEAD>
 
 <BODY BGCOLOR="#BAC3AE">
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K3867HR"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
 
 <FONT>
 <CENTER>
@@ -32,7 +43,7 @@
   <UL>
    <LI><A HREF="Files\Objekty.html" TARGET = _blank>Seznam objektù</A>
    <LI><A HREF="Files\Description.html" TARGET = _blank>Definice ukázkového dialogu</A>
-   <LI><A HREF="Files\TestDialog.Intro.zip">Ukázková mise</A>
+   <LI><A HREF="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/editor-stuff/tutorials/TestDialog.Intro.rar">Ukázková mise</A>
   </UL>
  </LI>
  <LI>
@@ -63,9 +74,9 @@
 
 <H2><A NAME="Uvod">Úvod</A></H2>
 
-Dialogy jsou VELICE užiteèným nástrojem v editaci misí a jejich pochopení vám rozšíøí možnosti ve tvorbì misí stejnì (ne-li víc) jako další nové pøíkazy od verze 1.75. To mì motivovalo k tomu, abych napsal tento tutoriál. Je to vlastnì doplnìná forma Ruprtova tutoriálu, který mùžete najít v jeho <A HREF = "http://www.koflex.cz/ruprt/dload.asp?alloc=2&dloadPart=1&dloadID=1">OFP EditorHelpu</A>.<BR><BR>
+Dialogy jsou VELICE užiteèným nástrojem v editaci misí a jejich pochopení vám rozšíøí možnosti ve tvorbì misí stejnì (ne-li víc) jako další nové pøíkazy od verze 1.75. To mì motivovalo k tomu, abych napsal tento tutoriál. Je to vlastnì doplnìná forma Ruprtova tutoriálu, který mùžete najít v jeho <A HREF = "https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/download/OFPEditorHelpCZ.zip">OFP EditorHelpu</A>.<BR><BR>
 
-Toto je druhá verze mého pùvodního tutoriálu. Seznam úprav jsem nikde nevypisoval, protože se zmìnilo v podstatì všechno... Druhá verze je navíc MNOHEM obsáhlejší a je opraveno i mnoho chyb, takže doporuèuji tento tutoriál proèíst celý, i když máte za sebou pùvodní verzi. Pokud byste z jekéhokoli dùvodu pùvodní verzi shánìli, najdete ji <A HREF = "http://2dmm.wz.cz/Files/Dialogy_OLD.zip">tady</A>.<BR><BR>
+Toto je druhá verze mého pùvodního tutoriálu. Seznam úprav jsem nikde nevypisoval, protože se zmìnilo v podstatì všechno... Druhá verze je navíc MNOHEM obsáhlejší a je opraveno i mnoho chyb, takže doporuèuji tento tutoriál proèíst celý, i když máte za sebou pùvodní verzi. Pokud byste z jekéhokoli dùvodu pùvodní verzi shánìli, najdete ji <A HREF = "./../Tutorial33.htm">tady</A>.<BR><BR>
 
 Odkazy jsou psány <FONT CLASS="SampleLink">tmavì èervenì</FONT>, oznaèené odkazy <FONT CLASS="SampleHover">èervenì a podtrženì</FONT>. Zdrojový kód bude psán <FONT CLASS="SamplePRE">tmavomodøe</FONT>. Názvy souborù nebo jiné dùležité vìci budou <U>podtrženy</U>, popøípadì <B>zvýraznìny</B>.<BR><BR>
 
@@ -98,7 +109,7 @@ Je to užiteèné, ale jednotlivé objekty samy o sobì moc neznamenají. Dùležité je 
 
 <P ALIGN="Center"><IMG SRC="Files\Pictures\Popis.jpg"></P>
 
-Abychom to mìli pìknì pohromadì, tady je <A HREF = "Files\Description.html" TARGET = _blank>zdrojový kód</A> k tomuto dialogovému oknu. Hned potom si ho podrobnì projdeme. Dále si mùžete stáhnout <A HREF="Files\TestDialog.Intro.zip" TITLE="Ukázková mise ke stáhnutí">ukázkovou misi</A> - je v ní nadefinován dialog z obrázku výše. Misi zkopírujte do složky <U>Flashpoint\Users\Jméno\missions</U>. No a teï se vrhneme na vysvìtlování toho kódu.
+Abychom to mìli pìknì pohromadì, tady je <A HREF = "Files\Description.html" TARGET = _blank>zdrojový kód</A> k tomuto dialogovému oknu. Hned potom si ho podrobnì projdeme. Dále si mùžete stáhnout <A HREF="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/editor-stuff/tutorials/TestDialog.Intro.rar" TITLE="Ukázková mise ke stáhnutí">ukázkovou misi</A> - je v ní nadefinován dialog z obrázku výše. Misi zkopírujte do složky <U>Flashpoint\Users\Jméno\missions</U>. No a teï se vrhneme na vysvìtlování toho kódu.
 <BR><BR>
 
 <H2><A NAME="PopisII">Popis definice</A></H2>
@@ -322,7 +333,7 @@ Tak. Všechno, co jsme potøebovali spoèítat, máme. Já vím, že to takhle rozsáhle 
 
 <H2><A NAME="Zaver">Závìr</A></H2>
 
-Tak a je tu konec. Doufám, že vám tenhle tutoriál aspoò trochu pomohl a vaše hranice v editaci misí se zase posunuly o kus dál. Ještì jsem chtìl pøidat výèet a popis skriptiovacích pøíkazù týkajících se dialogù, ale ty má Ruprt všechny dobøe vysvìtlené v jeho <A HREF="./../../download/ofpeditorhelpcz.zip">OFP EditorHelpu</A>, který stejnì všichni máme. Jestli nìèemu nerozumíte, neváhejte a <A HREF="mailto:jezuro@post.cz">mailujte</A> jako o život.<BR><BR>
+Tak a je tu konec. Doufám, že vám tenhle tutoriál aspoò trochu pomohl a vaše hranice v editaci misí se zase posunuly o kus dál. Ještì jsem chtìl pøidat výèet a popis skriptiovacích pøíkazù týkajících se dialogù, ale ty má Ruprt všechny dobøe vysvìtlené v jeho <A HREF="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/download/OFPEditorHelpCZ.zip">OFP EditorHelpu</A>, který stejnì všichni máme. Jestli nìèemu nerozumíte, neváhejte a <A HREF="mailto:jezuro@post.cz">mailujte</A> jako o život.<BR><BR>
 
 <P ALIGN = "Right"><IMG SRC = "Files\Pictures\Jezuro.gif">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<A HREF = "http://2dmm.wz.cz"><IMG SRC = "Files\Pictures\2DMM.gif" BORDER = 0></A><BR><BR>
 
