@@ -31,14 +31,15 @@
 			var STR_MissionUpload = "<BR>Otevře<BR>Uživatelské rozhraní pro upload misí";
 			//var STR_OFPMDE = "Otevře stránku o aplikaci<BR><BR>OFP<BR>Mission<BR>Development<BR>Environment";
 			var STR_MissionNews = "Sekce<BR>Mission News<BR>-<BR>Novinky psané jednotlivými autory misí";
-			var STR_SP = "Sekce<BR>SP Mise :<BR>hodnocení a<BR>download<BR>neofiko SP misí";
-			var STR_MP = "Sekce<BR>MP Mise :<BR>hodnocení a<BR>download<BR>neofiko MP misí";
-			var STR_Camp = "Sekce<BR>Kampaně :<BR>hodnocení a<BR>download<BR>neofiko kampaní";
-			var STR_Video = "Sekce<BR>Video mise :<BR>hodnocení a<BR>download<BR>neofiko<BR>Video misí";
-			var STR_Ptak = "Sekce<BR>Ptákoviny :<BR>Mise, které<BR>nelze nikam<BR>zařadit";
+			var STR_SP = "Sekce<BR>SP Mise:<BR><BR>hodnocení a<BR>download<BR>neofiko SP misí";
+			var STR_MP = "Sekce<BR>MP Mise:<BR><BR>hodnocení a<BR>download<BR>neofiko MP misí";
+			var STR_Camp = "Sekce<BR>Kampaně:<BR><BR>hodnocení a<BR>download<BR>neofiko kampaní";
+			var STR_Video = "Sekce<BR>Video mise:<BR><BR>hodnocení a<BR>download<BR>neofiko<BR>Video misí";
+			var STR_Ptak = "Sekce<BR>Ptákoviny:<BR><BR>Mise, které<BR>nelze nikam<BR>zařadit";
+			var STR_Arma = "Sekce<BR>ArmA věci:<BR><BR>Obsah do her<br>ArmA, Arma 2 a Arma 3";
 			var STR_Rules = "Pravidla<BR>hodnocení a<BR>zveřejňování<BR>misí";
 			var STR_Search = "Vyhledávání<BR>údajů na<BR>těchto<BR>stránkách";
-			var STR_OFPCZSquad = "Celý download<BR>je uložen na<BR>serveru OFPisnotdead.com.<BR>Díky retro!";
+			var STR_OFPCZSquad = "Celý download<BR>je uložen na<BR>serveru OFPisnotdead.com.<BR><BR>Díky <b>retro</b>!";
 
 			// ---------- Preload & Initialize Images --------------
 			var missionnews1 = newImage('images/btns/missionnews1.jpg');
@@ -59,6 +60,9 @@
 			var ptak1 = newImage('images/btns/ptak1.jpg');
 			var ptak2 = newImage('images/btns/ptak2.jpg');
 			var ptak3 = newImage('images/btns/ptak3.jpg');
+			var arma1 = newImage('images/btns/arma1.jpg');
+			var arma2 = newImage('images/btns/arma2.jpg');
+			var arma3 = newImage('images/btns/arma3.jpg');
 			var rules1 = newImage('images/btns/rules1.jpg');
 			var rules2 = newImage('images/btns/rules2.jpg');
 			var rules3 = newImage('images/btns/rules3.jpg');
@@ -126,6 +130,10 @@
 						btn.src = ptak2.src;
 						infoArea.innerHTML = STR_Ptak;
 						break;
+					case "btnArma":
+						btn.src = arma2.src;
+						infoArea.innerHTML = STR_Arma;
+						break;
 					case "btnRules":
 						btn.src = rules2.src;
 						infoArea.innerHTML = STR_Rules;
@@ -167,6 +175,9 @@
 						break;
 					case "btnPtak":
 						btn.src = ptak1.src;
+						break;
+					case "btnArma":
+						btn.src = arma1.src;
 						break;
 					case "btnRules":
 						btn.src = rules1.src;
@@ -211,6 +222,10 @@
 						break;
 					case "btnPtak":
 						btn.src = ptak3.src;
+						window.setTimeout("btn_onMouseOver(auxObject)", 150);
+						break;
+					case "btnArma":
+						btn.src = arma3.src;
 						window.setTimeout("btn_onMouseOver(auxObject)", 150);
 						break;
 					case "btnRules":
@@ -321,55 +336,55 @@
 	
 	<tr height="24px" align="center">
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">1)</td>
-		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;"><a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/download/addons/EditorUpgrade102.zip" target="_blank"> EditorUpgrade102 - sada objektov (budovy, stromy, atď.) sprístupnených v editore (len pre OFP:CWC).</a></p></td>
+		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;text-align:justify;"><a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/download/addons/EditorUpgrade102.zip" target="_blank"> EditorUpgrade102 - sada objektov (budovy, stromy, atď.) sprístupnených v editore (len pre OFP:CWC).</a></p></td>
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="9%" align="center">Gunslinger</td>
 		<td style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;font-weight:bold;border-left-color:#000000;border-top-width:1px;border-top-color:#000000;border-right-width:1px;border-right-style:solid;border-left-style:solid;" width="9%" align="center">73 kb</td>
 	</tr>
 	<tr style="background-color:#C0C0C0;" height="24px" align="center">
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">2)</td>
-		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;"><a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/download/addons/KegetysEditorAddon111.zip" target="_blank"> EditorUpdate102 - rozšírenie pôvodného EditorUpgrade102 o Resistance budovy a objekty (pozn. len pre OFP:RES).</a></p></td>
+		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;text-align:justify;"><a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/download/addons/KegetysEditorAddon111.zip" target="_blank"> EditorUpdate102 - rozšírenie pôvodného EditorUpgrade102 o Resistance budovy a objekty (pozn. len pre OFP:RES).</a></p></td>
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="9%" align="center">Kegetys</td>
 		<td style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;font-weight:bold;border-left-color:#000000;border-top-width:1px;border-top-color:#000000;border-right-width:1px;border-right-style:solid;border-left-style:solid;" width="9%" align="center">64 kb</td>
 	</tr>
 	<tr height="24px" align="center">
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">3)</td>
-		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;"><a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/download/addons/ResistanceEditorAddon.zip" target="_blank"> EditorUpdate175Noe - objekty z OFP: Resistance sprístupnené v editore misií (pozn. niektoré misie vyžadujú tento addon, ale vo všeobecnosti ho neodporúčame používať - plnohodnotne ho nahrádza EditorUpdate102).</a></p></td>
+		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;text-align:justify;"><a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/download/addons/ResistanceEditorAddon.zip" target="_blank"> EditorUpdate175Noe - objekty z OFP: Resistance sprístupnené v editore misií (pozn. niektoré misie vyžadujú tento addon, ale vo všeobecnosti ho neodporúčame používať - plnohodnotne ho nahrádza EditorUpdate102).</a></p></td>
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="9%" align="center">Kegetys</td>
 		<td style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;font-weight:bold;border-left-color:#000000;border-top-width:1px;border-top-color:#000000;border-right-width:1px;border-right-style:solid;border-left-style:solid;" width="9%" align="center">181 kb</td>
 	</tr>
 	<tr style="background-color:#C0C0C0;" height="24px" align="center">
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">4)</td>
-		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;"><a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/download/addons/tool_editor103_1036_mikero.zip" target="_blank"> Editor103 - najnovšia verzia EditorUpdate pre OFP:Resistance, ktorá je po všetkých stránkach najvyladenejšia a plnohodnotne nahrádza ostatné.</a></p></td>
+		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;text-align:justify;"><a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/download/addons/tool_editor103_1036_mikero.zip" target="_blank"> Editor103 - najnovšia verzia EditorUpdate pre OFP:Resistance, ktorá je po všetkých stránkach najvyladenejšia a plnohodnotne nahrádza ostatné.</a></p></td>
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="9%" align="center">Mikero</td>
 		<td style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;font-weight:bold;border-left-color:#000000;border-top-width:1px;border-top-color:#000000;border-right-width:1px;border-right-style:solid;border-left-style:solid;" width="9%" align="center">180 kb</td>
 	</tr>
 	<tr height="24px" align="center">
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">5)</td>
-		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;"><a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/download/addons/BISCamel.zip" target="_blank"> BIS Camel - oficiálny beta-update pre OFP 1.91 v archívnej verzii. Obsahuje addon dvojplošníka Sopwith Camel a 2 misie.</a></p></td>
+		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;text-align:justify;"><a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/download/addons/BISCamel.zip" target="_blank"> BIS Camel - oficiálny beta-update pre OFP 1.91 v archívnej verzii. Obsahuje addon dvojplošníka Sopwith Camel a 2 misie.</a></p></td>
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="9%" align="center">BI Studio</td>
 		<td style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;font-weight:bold;border-left-color:#000000;border-top-width:1px;border-top-color:#000000;border-right-width:1px;border-right-style:solid;border-left-style:solid;" width="9%" align="center">4596 kb</td>
 	</tr>
 	<tr style="background-color:#C0C0C0;" height="24px" align="center">
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">6)</td>
-		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;"><a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/download/addons/uwar_grass-1.2.zip" target="_blank"> UWAR Grass - Addon trávy od Waskoskysa. Nakoľko tento addon sa tešil pomerne veľkej popularite (a používa ju mnoho misií), pridávame ju na sem na stiahnutie.</a></p></td>
+		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;text-align:justify;"><a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/download/addons/uwar_grass-1.2.zip" target="_blank"> UWAR Grass - Addon trávy od Waskoskysa. Nakoľko tento addon sa tešil pomerne veľkej popularite (a používa ju mnoho misií), pridávame ju na sem na stiahnutie.</a></p></td>
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="9%" align="center">Waskosky</td>
 		<td style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;font-weight:bold;border-left-color:#000000;border-top-width:1px;border-top-color:#000000;border-right-width:1px;border-right-style:solid;border-left-style:solid;" width="9%" align="center">1527 kb</td>
 	</tr>
 	<tr height="24px" align="center">
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">7)</td>
-		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;"><a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/download/addons/prim.zip" target="_blank"> PRIM - appendix českej verzie OFP, ktorý ale vyžadujú niektoré misie, preto ho sem dávam (pozn. za normálnych okolností nepoužívať!).</a></p></td>
+		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;text-align:justify;"><a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/download/addons/prim.zip" target="_blank"> PRIM - appendix českej verzie OFP, ktorý ale vyžadujú niektoré misie, preto ho sem dávam (pozn. za normálnych okolností nepoužívať!).</a></p></td>
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="9%" align="center">BI Studio (?)</td>
 		<td style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;font-weight:bold;border-left-color:#000000;border-top-width:1px;border-top-color:#000000;border-right-width:1px;border-right-style:solid;border-left-style:solid;" width="9%" align="center">9 kb</td>
 	</tr>
 	<tr style="background-color:#C0C0C0;" height="24px" align="center">
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">8)</td>
-		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;"><a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/download/addons/InDesignAnimPack_200.zip" target="_blank"> InDesign Anim Pack 2.00 - skvelý addon pekných pohybov, ktoré vytvoril The Raptor. Balíček obsahuje podrobný popis ich použitia ako aj (vtipnú :o) ukážkovú misiu.</a></p></td>
+		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;text-align:justify;"><a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/download/addons/InDesignAnimPack_200.zip" target="_blank"> InDesign Anim Pack 2.00 - skvelý addon pekných pohybov, ktoré vytvoril The Raptor. Balíček obsahuje podrobný popis ich použitia ako aj (vtipnú :o) ukážkovú misiu.</a></p></td>
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="9%" align="center">TheRaptor</td>
 		<td style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;font-weight:bold;border-left-color:#000000;border-top-width:1px;border-top-color:#000000;border-right-width:1px;border-right-style:solid;border-left-style:solid;" width="9%" align="center">3245 kb</td>
 	</tr>
 	<tr height="24px" align="center">
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">9)</td>
-		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;"><a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/download/addons/Lst2.zip" target="_blank">
+		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;text-align:justify;"><a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/download/addons/Lst2.zip" target="_blank">
  AddOn - Loď LST, která se umí pohybovat. Tento AddOn nemění nic na 
 vzhledu lodi LST, pouze ji přidává schopnost pohybovat se. Soubor tohoto
  AddOnu je velmi malý (pouze 0.7Kb) takže se dá snadno přibalit a 
@@ -379,49 +394,49 @@ distribuovat s Vaší misí.</a></p></td>
 	</tr>
 	<tr style="background-color:#C0C0C0;" height="24px" align="center">
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">10)</td>
-		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;"><a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/download/addons/gaja_cz_fdf_14.zip" target="_blank"> CZ FDF 1.4 - Patch pro všechny, kterým vadila absence českých znaků a místy katastrofální překlad v jinak výborném FDF modu 1.4.</a></p></td>
+		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;text-align:justify;"><a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/download/addons/gaja_cz_fdf_14.zip" target="_blank"> CZ FDF 1.4 - Patch pro všechny, kterým vadila absence českých znaků a místy katastrofální překlad v jinak výborném FDF modu 1.4.</a></p></td>
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="9%" align="center">GAJA</td>
 		<td style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;font-weight:bold;border-left-color:#000000;border-top-width:1px;border-top-color:#000000;border-right-width:1px;border-right-style:solid;border-left-style:solid;" width="9%" align="center">531 kb</td>
 	</tr>
 	<tr height="24px" align="center">
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">11)</td>
-		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;"><a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/download/addons/gaja_map_addon.zip" target="_blank"> MAP PACK v1.0 - Docela užitečný soubor map na stolech a na tabulích. Obsahuje ostrovy Everon, Malden, Kolgujev, Desert Island, Nogovo, Trinity a Suragao. Mapy oficiálních ostrovů jsou převzaty z addonu MH-60 od Ballistic Addon Studios.</a></p></td>
+		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;text-align:justify;"><a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/download/addons/gaja_map_addon.zip" target="_blank"> MAP PACK v1.0 - Docela užitečný soubor map na stolech a na tabulích. Obsahuje ostrovy Everon, Malden, Kolgujev, Desert Island, Nogovo, Trinity a Suragao. Mapy oficiálních ostrovů jsou převzaty z addonu MH-60 od Ballistic Addon Studios.</a></p></td>
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="9%" align="center">GAJA a BAS</td>
 		<td style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;font-weight:bold;border-left-color:#000000;border-top-width:1px;border-top-color:#000000;border-right-width:1px;border-right-style:solid;border-left-style:solid;" width="9%" align="center">209 kb</td>
 	</tr>
 	<tr style="background-color:#C0C0C0;" height="24px" align="center">
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">12)</td>
-		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;"><a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/download/addons/Rozek_treefix_17.zip" target="_blank"> TreeFix - Malý addon (resp. mód), od poľského autora (Rozek) z roku 2020, ktorý pridáva zaujímavú úpravu do prostredia OFP - objekty zničeného stromu sa odstránia.</a><br><br><a href="https://www.youtube.com/watch?v=NpIEAtF6tJY" target="_blank">(viď. video)</a></p></td>
+		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;text-align:justify;"><a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/download/addons/Rozek_treefix_17.zip" target="_blank"> TreeFix - Malý addon (resp. mód), od poľského autora (Rozek) z roku 2020, ktorý pridáva zaujímavú úpravu do prostredia OFP - objekty zničeného stromu sa odstránia.</a><br><br><a href="https://www.youtube.com/watch?v=NpIEAtF6tJY" target="_blank">(viď. video)</a></p></td>
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="9%" align="center">RozekPoland</td>
 		<td style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;font-weight:bold;border-left-color:#000000;border-top-width:1px;border-top-color:#000000;border-right-width:1px;border-right-style:solid;border-left-style:solid;" width="9%" align="center">978 kb</td>
 	</tr>
 	<tr height="24px" align="center">
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">13)</td>
-		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;"><a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/download/addons/Rozek_destrbuild_8.zip" target="_blank"> DestrBuild - Malý addon (resp. mód), od poľského autora (Rozek) z roku 2020, ktorý pridáva zaujímavú úpravu do prostredia OFP - deštrukcia budov, namiesto ktorých zostanú ruiny.</a><br><br><a href="https://www.youtube.com/watch?v=65S2ArIqMhI" target="_blank">(viď. video)</a></p></td>
+		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;text-align:justify;"><a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/download/addons/Rozek_destrbuild_8.zip" target="_blank"> DestrBuild - Malý addon (resp. mód), od poľského autora (Rozek) z roku 2020, ktorý pridáva zaujímavú úpravu do prostredia OFP - deštrukcia budov, namiesto ktorých zostanú ruiny.</a><br><br><a href="https://www.youtube.com/watch?v=65S2ArIqMhI" target="_blank">(viď. video)</a></p></td>
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="9%" align="center">RozekPoland</td>
 		<td style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;font-weight:bold;border-left-color:#000000;border-top-width:1px;border-top-color:#000000;border-right-width:1px;border-right-style:solid;border-left-style:solid;" width="9%" align="center">26723 kb</td>
 	</tr>
 	<tr style="background-color:#C0C0C0;" height="24px" align="center">
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">14)</td>
-		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;"><a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/download/addons/EMSI_60M.zip" target="_blank"> (ArmA) MH-60M Blackhawk - retextúrovaný Blackhawk pre nedokončenú kampaň Clear and Present Danger.</a></p></td>
+		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;text-align:justify;"><a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/download/addons/EMSI_60M.zip" target="_blank"> (ArmA) MH-60M Blackhawk - retextúrovaný Blackhawk pre nedokončenú kampaň Clear and Present Danger.</a></p></td>
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="9%" align="center">EMSI</td>
 		<td style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;font-weight:bold;border-left-color:#000000;border-top-width:1px;border-top-color:#000000;border-right-width:1px;border-right-style:solid;border-left-style:solid;" width="9%" align="center">3903 kb</td>
 	</tr>
 	<tr height="24px" align="center">
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">15)</td>
-		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;"><a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/download/addons/EMSI_cac.zip" target="_blank"> (ArmA) Kontaminovaná krabica s plutóniom.</a></p></td>
+		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;text-align:justify;"><a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/download/addons/EMSI_cac.zip" target="_blank"> (ArmA) Kontaminovaná krabica s plutóniom.</a></p></td>
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="9%" align="center">EMSI</td>
 		<td style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;font-weight:bold;border-left-color:#000000;border-top-width:1px;border-top-color:#000000;border-right-width:1px;border-right-style:solid;border-left-style:solid;" width="9%" align="center">400 kb</td>
 	</tr>
 	<tr style="background-color:#C0C0C0;" height="24px" align="center">
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">16)</td>
-		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;"><a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/download/addons/EMSI_MRQ-1_Predator.zip" target="_blank"> (ArmA) MRQ-1 Predator - addon bezpilotného lietadla Predator určeného pre prieskumné a špionážne účely.</a></p></td>
+		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;text-align:justify;"><a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/download/addons/EMSI_MRQ-1_Predator.zip" target="_blank"> (ArmA) MRQ-1 Predator - addon bezpilotného lietadla Predator určeného pre prieskumné a špionážne účely.</a></p></td>
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="9%" align="center">EMSI</td>
 		<td style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;font-weight:bold;border-left-color:#000000;border-top-width:1px;border-top-color:#000000;border-right-width:1px;border-right-style:solid;border-left-style:solid;" width="9%" align="center">3143 kb</td>
 	</tr>
 	<tr height="24px" align="center">
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">17)</td>
-		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;"><a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/download/addons/EMSI_UAV_Management.zip" target="_blank"> (ArmA) UAV Management - addon spolu s ukážkovou misiou pre použitie UAV prieskumu v misii.</a></p></td>
+		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;text-align:justify;"><a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/download/addons/EMSI_UAV_Management.zip" target="_blank"> (ArmA) UAV Management - addon spolu s ukážkovou misiou pre použitie UAV prieskumu v misii.</a></p></td>
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="9%" align="center">EMSI</td>
 		<td style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;font-weight:bold;border-left-color:#000000;border-top-width:1px;border-top-color:#000000;border-right-width:1px;border-right-style:solid;border-left-style:solid;" width="9%" align="center">1053 kb</td>
 	</tr>
@@ -451,6 +466,7 @@ distribuovat s Vaší misí.</a></p></td>
 						<a href="campaigns.html"><img src="images/btns/camp1.jpg" class="RA_BTNS" style="border-width:0px; TOP:96px" name="btnCamp" id="btnCamp" onmouseover="btn_onMouseOver(this)" onmouseout="btn_onMouseOut(this)" onclick="btn_onClick(this);"></a>
 						<a href="video-missions.html"><img src="images/btns/video1.jpg" class="RA_BTNS" style="border-width:0px; TOP:128px" name="btnVideo" id="btnVideo" onmouseover="btn_onMouseOver(this)" onmouseout="btn_onMouseOut(this)" onclick="btn_onClick(this);"></a>
 						<a href="funny-missions.html"><img src="images/btns/ptak1.jpg" class="RA_BTNS" style="border-width:0px; TOP:160px" name="btnPtak" id="btnPtak" onmouseover="btn_onMouseOver(this)" onmouseout="btn_onMouseOut(this)" onclick="btn_onClick(this);"></a>
+					<a href="arma-stuff.html"><img src="images/btns/arma1.jpg" class="RA_BTNS" style="border-width:0px; TOP:192px" name="btnArma" id="btnArma" onmouseover="btn_onMouseOver(this)" onmouseout="btn_onMouseOut(this)" onclick="btn_onClick(this);"></a>
 						
 						<a class="RA_SQUAD_LINK" id="linkSquad" onmouseover="link_onMouseOver(this)" onmouseout="defaultInfo()"></a>
 					</div>

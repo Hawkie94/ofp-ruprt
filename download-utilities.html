@@ -31,14 +31,15 @@
 			var STR_MissionUpload = "<BR>Otevře<BR>Uživatelské rozhraní pro upload misí";
 			//var STR_OFPMDE = "Otevře stránku o aplikaci<BR><BR>OFP<BR>Mission<BR>Development<BR>Environment";
 			var STR_MissionNews = "Sekce<BR>Mission News<BR>-<BR>Novinky psané jednotlivými autory misí";
-			var STR_SP = "Sekce<BR>SP Mise :<BR>hodnocení a<BR>download<BR>neofiko SP misí";
-			var STR_MP = "Sekce<BR>MP Mise :<BR>hodnocení a<BR>download<BR>neofiko MP misí";
-			var STR_Camp = "Sekce<BR>Kampaně :<BR>hodnocení a<BR>download<BR>neofiko kampaní";
-			var STR_Video = "Sekce<BR>Video mise :<BR>hodnocení a<BR>download<BR>neofiko<BR>Video misí";
-			var STR_Ptak = "Sekce<BR>Ptákoviny :<BR>Mise, které<BR>nelze nikam<BR>zařadit";
+			var STR_SP = "Sekce<BR>SP Mise:<BR><BR>hodnocení a<BR>download<BR>neofiko SP misí";
+			var STR_MP = "Sekce<BR>MP Mise:<BR><BR>hodnocení a<BR>download<BR>neofiko MP misí";
+			var STR_Camp = "Sekce<BR>Kampaně:<BR><BR>hodnocení a<BR>download<BR>neofiko kampaní";
+			var STR_Video = "Sekce<BR>Video mise:<BR><BR>hodnocení a<BR>download<BR>neofiko<BR>Video misí";
+			var STR_Ptak = "Sekce<BR>Ptákoviny:<BR><BR>Mise, které<BR>nelze nikam<BR>zařadit";
+			var STR_Arma = "Sekce<BR>ArmA věci:<BR><BR>Obsah do her<br>ArmA, Arma 2 a Arma 3";
 			var STR_Rules = "Pravidla<BR>hodnocení a<BR>zveřejňování<BR>misí";
 			var STR_Search = "Vyhledávání<BR>údajů na<BR>těchto<BR>stránkách";
-			var STR_OFPCZSquad = "Celý download<BR>je uložen na<BR>serveru OFPisnotdead.com.<BR>Díky retro!";
+			var STR_OFPCZSquad = "Celý download<BR>je uložen na<BR>serveru OFPisnotdead.com.<BR><BR>Díky <b>retro</b>!";
 
 			// ---------- Preload & Initialize Images --------------
 			var missionnews1 = newImage('images/btns/missionnews1.jpg');
@@ -59,6 +60,9 @@
 			var ptak1 = newImage('images/btns/ptak1.jpg');
 			var ptak2 = newImage('images/btns/ptak2.jpg');
 			var ptak3 = newImage('images/btns/ptak3.jpg');
+			var arma1 = newImage('images/btns/arma1.jpg');
+			var arma2 = newImage('images/btns/arma2.jpg');
+			var arma3 = newImage('images/btns/arma3.jpg');
 			var rules1 = newImage('images/btns/rules1.jpg');
 			var rules2 = newImage('images/btns/rules2.jpg');
 			var rules3 = newImage('images/btns/rules3.jpg');
@@ -126,6 +130,10 @@
 						btn.src = ptak2.src;
 						infoArea.innerHTML = STR_Ptak;
 						break;
+					case "btnArma":
+						btn.src = arma2.src;
+						infoArea.innerHTML = STR_Arma;
+						break;
 					case "btnRules":
 						btn.src = rules2.src;
 						infoArea.innerHTML = STR_Rules;
@@ -167,6 +175,9 @@
 						break;
 					case "btnPtak":
 						btn.src = ptak1.src;
+						break;
+					case "btnArma":
+						btn.src = arma1.src;
 						break;
 					case "btnRules":
 						btn.src = rules1.src;
@@ -211,6 +222,10 @@
 						break;
 					case "btnPtak":
 						btn.src = ptak3.src;
+						window.setTimeout("btn_onMouseOver(auxObject)", 150);
+						break;
+					case "btnArma":
+						btn.src = arma3.src;
 						window.setTimeout("btn_onMouseOver(auxObject)", 150);
 						break;
 					case "btnRules":
@@ -320,25 +335,25 @@
 	</tr>
 	<tr height="24px" align="center">
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">1)</td>
-		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;"><a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/download/utilities/ofppbo_v141.zip" target="_blank"> Total Commander© pluggin for PBO &amp; BIN files v1.41 Stable.</a></p></td>
+		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;text-align:justify;"><a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/download/utilities/ofppbo_v141.zip" target="_blank"> Total Commander© pluggin for PBO &amp; BIN files v1.41 Stable.</a></p></td>
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="9%" align="center">Ruprt</td>
 		<td style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;font-weight:bold;border-left-color:#000000;border-top-width:1px;border-top-color:#000000;border-right-width:1px;border-right-style:solid;border-left-style:solid;" width="9%" align="center">64 kb</td>
 	</tr>
 	<tr style="background-color:#C0C0C0;" height="24px" align="center">
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">2)</td>
-		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;"><a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/download/utilities/OFPLauncher_2.16.zip" target="_blank"> OFP Launcher 2.16</a></p></td>
+		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;text-align:justify;"><a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/download/utilities/OFPLauncher_2.16.zip" target="_blank"> OFP Launcher 2.16</a></p></td>
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="9%" align="center">Didymos</td>
 		<td style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;font-weight:bold;border-left-color:#000000;border-top-width:1px;border-top-color:#000000;border-right-width:1px;border-right-style:solid;border-left-style:solid;" width="9%" align="center">426 kb</td>
 	</tr>
 	<tr height="24px" align="center">
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">3)</td>
-		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;"><a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/download/utilities/SouradniceKamery.zip" target="_blank"> Utilita pro získávání kamerových souřadnic.</a></p></td>
+		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;text-align:justify;"><a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/download/utilities/SouradniceKamery.zip" target="_blank"> Utilita pro získávání kamerových souřadnic.</a></p></td>
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="9%" align="center">Ježuro</td>
 		<td style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;font-weight:bold;border-left-color:#000000;border-top-width:1px;border-top-color:#000000;border-right-width:1px;border-right-style:solid;border-left-style:solid;" width="9%" align="center">4 kb</td>
 	</tr>
 	<tr style="background-color:#C0C0C0;" height="24px" align="center">
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">4)</td>
-		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;"><a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/download/utilities/DebugConsoleInstall.exe" target="_blank">
+		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;text-align:justify;"><a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/download/utilities/DebugConsoleInstall.exe" target="_blank">
  Debug Console v1.0 (runtime dialog) sloužící ke zjišťování pozic 
 objektů, hodnot proměnných a scriptovacích výrazů a zadávání příkazů 
 přímo za běhu mise. Tento nástroj má vlastní instalátor a manager, který
@@ -349,140 +364,140 @@ upraví i description.ext. Program obsahuje i podrobnou nápovědu.</a></p></td>
 	</tr>
 	<tr height="24px" align="center">
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">5)</td>
-		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;"><a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/download/utilities/pbo_decryptor15.zip" target="_blank"> PBO Decryptor - skvelá utilitka pre rozbaľovanie (OFP) PBO súborov.</a></p></td>
+		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;text-align:justify;"><a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/download/utilities/pbo_decryptor15.zip" target="_blank"> PBO Decryptor - skvelá utilitka pre rozbaľovanie (OFP) PBO súborov.</a></p></td>
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="9%" align="center">Amalfi</td>
 		<td style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;font-weight:bold;border-left-color:#000000;border-top-width:1px;border-top-color:#000000;border-right-width:1px;border-right-style:solid;border-left-style:solid;" width="9%" align="center">193 kb</td>
 	</tr>
 	<tr style="background-color:#C0C0C0;" height="24px" align="center">
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">6)</td>
-		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;"><a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/download/utilities/makepbo_11.zip" target="_blank"> MakePBO - utilitka na vytváranie PBO súborov s možnosťami nastavenia kompresie.</a></p></td>
+		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;text-align:justify;"><a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/download/utilities/makepbo_11.zip" target="_blank"> MakePBO - utilitka na vytváranie PBO súborov s možnosťami nastavenia kompresie.</a></p></td>
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="9%" align="center">Amalfi</td>
 		<td style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;font-weight:bold;border-left-color:#000000;border-top-width:1px;border-top-color:#000000;border-right-width:1px;border-right-style:solid;border-left-style:solid;" width="9%" align="center">202 kb</td>
 	</tr>
 	<tr height="24px" align="center">
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">7)</td>
-		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;"><a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/download/utilities/Wave2Lip.zip" target="_blank"> Wave2Lip - jednoduchý (konzolový) nástroj na vytvorenie LIP súborov (pohyby úst) pre dabované hlášky.</a></p></td>
+		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;text-align:justify;"><a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/download/utilities/Wave2Lip.zip" target="_blank"> Wave2Lip - jednoduchý (konzolový) nástroj na vytvorenie LIP súborov (pohyby úst) pre dabované hlášky.</a></p></td>
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="9%" align="center">Bohemia Interactive</td>
 		<td style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;font-weight:bold;border-left-color:#000000;border-top-width:1px;border-top-color:#000000;border-right-width:1px;border-right-style:solid;border-left-style:solid;" width="9%" align="center">23 kb</td>
 	</tr>
 	<tr style="background-color:#C0C0C0;" height="24px" align="center">
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">8)</td>
-		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;"><a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/download/utilities/Wav2WSS.zip" target="_blank"> Wav2WSS - jednoduchý nástroj pre konverziu zvukových súborov z formátu WAV do WSS (OFP-compatible), a opačne.</a></p></td>
+		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;text-align:justify;"><a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/download/utilities/Wav2WSS.zip" target="_blank"> Wav2WSS - jednoduchý nástroj pre konverziu zvukových súborov z formátu WAV do WSS (OFP-compatible), a opačne.</a></p></td>
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="9%" align="center">Bohemia Interactive</td>
 		<td style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;font-weight:bold;border-left-color:#000000;border-top-width:1px;border-top-color:#000000;border-right-width:1px;border-right-style:solid;border-left-style:solid;" width="9%" align="center">50 kb</td>
 	</tr>
 	<tr height="24px" align="center">
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">9)</td>
-		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;"><a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/download/utilities/cpp2bin.zip" target="_blank"> CPP2BIN - Utilitka na prevod CPP formátu do BIN (pre OFP resource súbory).</a></p></td>
+		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;text-align:justify;"><a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/download/utilities/cpp2bin.zip" target="_blank"> CPP2BIN - Utilitka na prevod CPP formátu do BIN (pre OFP resource súbory).</a></p></td>
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="9%" align="center">Amalfi</td>
 		<td style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;font-weight:bold;border-left-color:#000000;border-top-width:1px;border-top-color:#000000;border-right-width:1px;border-right-style:solid;border-left-style:solid;" width="9%" align="center">194 kb</td>
 	</tr>
 	<tr style="background-color:#C0C0C0;" height="24px" align="center">
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">10)</td>
-		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;"><a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/download/utilities/BINview.zip" target="_blank"> BINView - nástroj na zobrazenie vy-build-eného kódu z BIN formátu s možnosťou jej konverzie do CPP.</a></p></td>
+		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;text-align:justify;"><a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/download/utilities/BINview.zip" target="_blank"> BINView - nástroj na zobrazenie vy-build-eného kódu z BIN formátu s možnosťou jej konverzie do CPP.</a></p></td>
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="9%" align="center">Confucius (CoC)</td>
 		<td style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;font-weight:bold;border-left-color:#000000;border-top-width:1px;border-top-color:#000000;border-right-width:1px;border-right-style:solid;border-left-style:solid;" width="9%" align="center">2619 kb</td>
 	</tr>
 	<tr height="24px" align="center">
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">11)</td>
-		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;"><a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/download/utilities/TexView11.zip" target="_blank"> TexView 1.1 - oficiálna utilitka od Bohemky na prácu s textúrami (zobrazenie a konverzia) vo formátoch PAA a PAC. Táto verzia je určená pre OFP.</a></p></td>
+		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;text-align:justify;"><a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/download/utilities/TexView11.zip" target="_blank"> TexView 1.1 - oficiálna utilitka od Bohemky na prácu s textúrami (zobrazenie a konverzia) vo formátoch PAA a PAC. Táto verzia je určená pre OFP.</a></p></td>
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="9%" align="center">Bohemia Interactive</td>
 		<td style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;font-weight:bold;border-left-color:#000000;border-top-width:1px;border-top-color:#000000;border-right-width:1px;border-right-style:solid;border-left-style:solid;" width="9%" align="center">372 kb</td>
 	</tr>
 	<tr style="background-color:#C0C0C0;" height="24px" align="center">
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">12)</td>
-		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;"><a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/download/utilities/TexView2.zip" target="_blank"> TexView 2 - oficiálna utilitka od Bohemky na prácu s textúrami (zobrazenie a konverzia) vo formátoch PAA a PAC. Táto verzia pochádza z roku 2007, jej kompatibilita je s hrami ArmA, Arma 2 a Arma 3.</a></p></td>
+		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;text-align:justify;"><a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/download/utilities/TexView2.zip" target="_blank"> TexView 2 - oficiálna utilitka od Bohemky na prácu s textúrami (zobrazenie a konverzia) vo formátoch PAA a PAC. Táto verzia pochádza z roku 2007, jej kompatibilita je s hrami ArmA, Arma 2 a Arma 3.</a></p></td>
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="9%" align="center">Bohemia Interactive</td>
 		<td style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;font-weight:bold;border-left-color:#000000;border-top-width:1px;border-top-color:#000000;border-right-width:1px;border-right-style:solid;border-left-style:solid;" width="9%" align="center">2096 kb</td>
 	</tr>
 	<tr height="24px" align="center">
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">13)</td>
-		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;"><a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/download/utilities/OFP_DialogMaker.zip" target="_blank"> OFP Dialog Maker - jednoduchá utilitka na vyklikanie si dizajnu dialógových okien, ktorá následne vygeneruje zdrojový kód do description.ext súbora.</a></p></td>
+		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;text-align:justify;"><a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/download/utilities/OFP_DialogMaker.zip" target="_blank"> OFP Dialog Maker - jednoduchá utilitka na vyklikanie si dizajnu dialógových okien, ktorá následne vygeneruje zdrojový kód do description.ext súbora.</a></p></td>
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="9%" align="center">Razorwings18</td>
 		<td style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;font-weight:bold;border-left-color:#000000;border-top-width:1px;border-top-color:#000000;border-right-width:1px;border-right-style:solid;border-left-style:solid;" width="9%" align="center">109 kb</td>
 	</tr>
 	<tr style="background-color:#C0C0C0;" height="24px" align="center">
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">14)</td>
-		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;"><a href="https://github.com/Poweruser/OFPMonitor/releases" target="_blank"> OFPMonitor - aplikácia pre zobrazenie a pripojenie sa na MP servery.</a></p></td>
+		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;text-align:justify;"><a href="https://github.com/Poweruser/OFPMonitor/releases" target="_blank"> OFPMonitor - aplikácia pre zobrazenie a pripojenie sa na MP servery.</a></p></td>
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="9%" align="center">PowerUser</td>
 		<td style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;font-weight:bold;border-left-color:#000000;border-top-width:1px;border-top-color:#000000;border-right-width:1px;border-right-style:solid;border-left-style:solid;" width="9%" align="center">1.8 MB</td>
 	</tr>
 	<tr height="24px" align="center">
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">15)</td>
-		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;"><a href="https://github.com/crosire/d3d8to9/releases/" target="_blank"> d3d8to9 - malá .dll knižnica pre možnosť použitia Direct3D 9 namiesto Direct3D 8 (významne zlepší výkonnosť OFP).<br><br>Inštalácia - súbor d3d8.dll nahrať do adresára s OFP, a to je všetko :o).</a></p></td>
+		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;text-align:justify;"><a href="https://github.com/crosire/d3d8to9/releases/" target="_blank"> d3d8to9 - malá .dll knižnica pre možnosť použitia Direct3D 9 namiesto Direct3D 8 (významne zlepší výkonnosť OFP).<br><br>Inštalácia - súbor d3d8.dll nahrať do adresára s OFP, a to je všetko :o).</a></p></td>
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="9%" align="center">crosire</td>
 		<td style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;font-weight:bold;border-left-color:#000000;border-top-width:1px;border-top-color:#000000;border-right-width:1px;border-right-style:solid;border-left-style:solid;" width="9%" align="center">120 kb</td>
 	</tr>
 	<tr style="background-color:#C0C0C0;" height="24px" align="center">
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">16)</td>
-		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;"><a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/download/utilities/OFP_Sound_Lab_1.1.zip" target="_blank"> OFP Sound Lab 1.1 - skvelá aplikácia pre prevod zvukových formátov medzi .ogg a .wav formátmi (vrátane vytvorenia .lip súborov pre mimiku).</a></p></td>
+		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;text-align:justify;"><a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/download/utilities/OFP_Sound_Lab_1.1.zip" target="_blank"> OFP Sound Lab 1.1 - skvelá aplikácia pre prevod zvukových formátov medzi .ogg a .wav formátmi (vrátane vytvorenia .lip súborov pre mimiku).</a></p></td>
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="9%" align="center">DonMiguel</td>
 		<td style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;font-weight:bold;border-left-color:#000000;border-top-width:1px;border-top-color:#000000;border-right-width:1px;border-right-style:solid;border-left-style:solid;" width="9%" align="center">658 kB</td>
 	</tr>
 	<tr height="24px" align="center">
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">17)</td>
-		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;"><a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/download/utilities/fwatch.zip" target="_blank"> Fwatch 1.0d - veľmi pekný nástroj, pomocou ktorého sa dajú "hook"-nuť procesy v OFP.</a></p></td>
+		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;text-align:justify;"><a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/download/utilities/fwatch.zip" target="_blank"> Fwatch 1.0d - veľmi pekný nástroj, pomocou ktorého sa dajú "hook"-nuť procesy v OFP.</a></p></td>
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="9%" align="center">Kegetys</td>
 		<td style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;font-weight:bold;border-left-color:#000000;border-top-width:1px;border-top-color:#000000;border-right-width:1px;border-right-style:solid;border-left-style:solid;" width="9%" align="center">352 kb</td>
 	</tr>
 	<tr style="background-color:#C0C0C0;" height="24px" align="center">
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">18)</td>
-		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;"><a href="https://ofp-faguss.com/fwatch/" target="_blank"> Fwatch 1.15 (a vyššie) - rozšírená verzia nástroja Fwatch od Fagussa, ktorý pridáva skoro 100 nových príkazov.</a></p></td>
+		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;text-align:justify;"><a href="https://ofp-faguss.com/fwatch/" target="_blank"> Fwatch 1.15 (a vyššie) - rozšírená verzia nástroja Fwatch od Fagussa, ktorý pridáva skoro 100 nových príkazov.</a></p></td>
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="9%" align="center">Faguss</td>
 		<td style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;font-weight:bold;border-left-color:#000000;border-top-width:1px;border-top-color:#000000;border-right-width:1px;border-right-style:solid;border-left-style:solid;" width="9%" align="center">cca 4 MB</td>
 	</tr>
 	
 	<tr height="24px" align="center">
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">19)</td>
-		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;"><a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/download/utilities/ArmA_MOD_Launcher.zip" target="_blank"> (ArmA) MOD Launcher - jednoduchá aplikácia pre spúštanie rôznych módov z jedného súbora.</a></p></td>
+		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;text-align:justify;"><a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/download/utilities/ArmA_MOD_Launcher.zip" target="_blank"> (ArmA) MOD Launcher - jednoduchá aplikácia pre spúštanie rôznych módov z jedného súbora.</a></p></td>
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="9%" align="center">EMSI</td>
 		<td style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;font-weight:bold;border-left-color:#000000;border-top-width:1px;border-top-color:#000000;border-right-width:1px;border-right-style:solid;border-left-style:solid;" width="9%" align="center">246 kb</td>
 	</tr>
 	<tr style="background-color:#C0C0C0;" height="24px" align="center">
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">20)</td>
-		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;"><a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/download/utilities/A2TH_Editor_Lite.zip" target="_blank"> (Arma 2) A2TH Editor Lite - malá aplikácia pre generovanie komplexného príkazu taskHint v hrách Arma2 a Arma2: Operation Arrowhead (alebo Arma2: Combined Operations).</a></p></td>
+		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;text-align:justify;"><a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/download/utilities/A2TH_Editor_Lite.zip" target="_blank"> (Arma 2) A2TH Editor Lite - malá aplikácia pre generovanie komplexného príkazu taskHint v hrách Arma2 a Arma2: Operation Arrowhead (alebo Arma2: Combined Operations).</a></p></td>
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="9%" align="center">EMSI</td>
 		<td style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;font-weight:bold;border-left-color:#000000;border-top-width:1px;border-top-color:#000000;border-right-width:1px;border-right-style:solid;border-left-style:solid;" width="9%" align="center">327 kb</td>
 	</tr>
 	<tr height="24px" align="center">
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">21)</td>
-		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;"><a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/download/utilities/A2COM_Launcher.zip" target="_blank"> (Arma 2) A2COM Launcher - jednoduchý launcher pre spúšťanie Arma2: Combined Operations (A2 + A2: OA) spolu s užívateľsky definovateľnými módmi.</a></p></td>
+		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;text-align:justify;"><a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/download/utilities/A2COM_Launcher.zip" target="_blank"> (Arma 2) A2COM Launcher - jednoduchý launcher pre spúšťanie Arma2: Combined Operations (A2 + A2: OA) spolu s užívateľsky definovateľnými módmi.</a></p></td>
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="9%" align="center">EMSI</td>
 		<td style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;font-weight:bold;border-left-color:#000000;border-top-width:1px;border-top-color:#000000;border-right-width:1px;border-right-style:solid;border-left-style:solid;" width="9%" align="center">1137 kb</td>
 	</tr>
 	<tr style="background-color:#C0C0C0;" height="24px" align="center">
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">22)</td>
-		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;"><a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/download/utilities/A2RM_Editor.zip" target="_blank"> (Arma 2) A2RM Editor - jednoduchá aplikácia pre tvorbu unifikovaných súborov "Readme.txt" pre misie, addony a módy v Arma 2.</a></p></td>
+		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;text-align:justify;"><a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/download/utilities/A2RM_Editor.zip" target="_blank"> (Arma 2) A2RM Editor - jednoduchá aplikácia pre tvorbu unifikovaných súborov "Readme.txt" pre misie, addony a módy v Arma 2.</a></p></td>
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="9%" align="center">EMSI</td>
 		<td style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;font-weight:bold;border-left-color:#000000;border-top-width:1px;border-top-color:#000000;border-right-width:1px;border-right-style:solid;border-left-style:solid;" width="9%" align="center">1008 kb</td>
 	</tr>
 	<tr height="24px" align="center">
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">23)</td>
-		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;"><a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/download/utilities/A2cPBO_UI.zip" target="_blank"> (Arma 2) A2cPBO User Interface - User Interface applikácia pre extrahovací/packovací nástroj cPBO od Kegetys-a.</a></p></td>
+		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;text-align:justify;"><a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/download/utilities/A2cPBO_UI.zip" target="_blank"> (Arma 2) A2cPBO User Interface - User Interface applikácia pre extrahovací/packovací nástroj cPBO od Kegetys-a.</a></p></td>
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="9%" align="center">EMSI</td>
 		<td style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;font-weight:bold;border-left-color:#000000;border-top-width:1px;border-top-color:#000000;border-right-width:1px;border-right-style:solid;border-left-style:solid;" width="9%" align="center">358 kb</td>
 	</tr>
 	<tr style="background-color:#C0C0C0;" height="24px" align="center">
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">24)</td>
-		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;"><a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/download/utilities/A2W_Converter.zip" target="_blank"> (Arma 2) A2W Converter - jednoduchý zvukový konverter pre audio súbory používané v hre Arma 2.</a></p></td>
+		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;text-align:justify;"><a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/download/utilities/A2W_Converter.zip" target="_blank"> (Arma 2) A2W Converter - jednoduchý zvukový konverter pre audio súbory používané v hre Arma 2.</a></p></td>
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="9%" align="center">EMSI</td>
 		<td style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;font-weight:bold;border-left-color:#000000;border-top-width:1px;border-top-color:#000000;border-right-width:1px;border-right-style:solid;border-left-style:solid;" width="9%" align="center">3177 kb</td>
 	</tr>
 	<tr height="24px" align="center">
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">25)</td>
-		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;"><a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/download/utilities/A2OD_Editor_Lite.zip" target="_blank"> (Arma 2) A2OD Editor Lite - jednoduchá aplikácia pre tvorbu HTML súborov "Overview" a "Debriefing" pre misie v Arma 2.</a></p></td>
+		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;text-align:justify;"><a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/download/utilities/A2OD_Editor_Lite.zip" target="_blank"> (Arma 2) A2OD Editor Lite - jednoduchá aplikácia pre tvorbu HTML súborov "Overview" a "Debriefing" pre misie v Arma 2.</a></p></td>
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="9%" align="center">EMSI</td>
 		<td style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;font-weight:bold;border-left-color:#000000;border-top-width:1px;border-top-color:#000000;border-right-width:1px;border-right-style:solid;border-left-style:solid;" width="9%" align="center">1033 kb</td>
 	</tr>
 	<tr style="background-color:#C0C0C0;" height="24px" align="center">
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">26)</td>
-		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;"><a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/download/utilities/A2D_Editor.zip" target="_blank"> (Arma 2) A2D Editor - jednoduchá tvorba súboru description.ext pre misie v hre Arma 2.</a></p></td>
+		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;text-align:justify;"><a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/download/utilities/A2D_Editor.zip" target="_blank"> (Arma 2) A2D Editor - jednoduchá tvorba súboru description.ext pre misie v hre Arma 2.</a></p></td>
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="9%" align="center">EMSI</td>
 		<td style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;font-weight:bold;border-left-color:#000000;border-top-width:1px;border-top-color:#000000;border-right-width:1px;border-right-style:solid;border-left-style:solid;" width="9%" align="center">1542 kb</td>
 	</tr>
 	<tr height="24px" align="center">
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">27)</td>
-		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;"><a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/download/utilities/A2B_Editor.zip" target="_blank"> (Arma 2) A2B Editor - jednoduchá a intuitívna tvorba briefingov pre misie v hre Arma 2.</a></p></td>
+		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;text-align:justify;"><a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/download/utilities/A2B_Editor.zip" target="_blank"> (Arma 2) A2B Editor - jednoduchá a intuitívna tvorba briefingov pre misie v hre Arma 2.</a></p></td>
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="9%" align="center">EMSI</td>
 		<td style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;font-weight:bold;border-left-color:#000000;border-top-width:1px;border-top-color:#000000;border-right-width:1px;border-right-style:solid;border-left-style:solid;" width="9%" align="center">2502 kb</td>
 	</tr>
@@ -512,6 +527,7 @@ upraví i description.ext. Program obsahuje i podrobnou nápovědu.</a></p></td>
 						<a href="campaigns.html"><img src="images/btns/camp1.jpg" class="RA_BTNS" style="border-width:0px; TOP:96px" name="btnCamp" id="btnCamp" onmouseover="btn_onMouseOver(this)" onmouseout="btn_onMouseOut(this)" onclick="btn_onClick(this);"></a>
 						<a href="video-missions.html"><img src="images/btns/video1.jpg" class="RA_BTNS" style="border-width:0px; TOP:128px" name="btnVideo" id="btnVideo" onmouseover="btn_onMouseOver(this)" onmouseout="btn_onMouseOut(this)" onclick="btn_onClick(this);"></a>
 						<a href="funny-missions.html"><img src="images/btns/ptak1.jpg" class="RA_BTNS" style="border-width:0px; TOP:160px" name="btnPtak" id="btnPtak" onmouseover="btn_onMouseOver(this)" onmouseout="btn_onMouseOut(this)" onclick="btn_onClick(this);"></a>
+					<a href="arma-stuff.html"><img src="images/btns/arma1.jpg" class="RA_BTNS" style="border-width:0px; TOP:192px" name="btnArma" id="btnArma" onmouseover="btn_onMouseOver(this)" onmouseout="btn_onMouseOut(this)" onclick="btn_onClick(this);"></a>
 						
 						<a class="RA_SQUAD_LINK" id="linkSquad" onmouseover="link_onMouseOver(this)" onmouseout="defaultInfo()"></a>
 					</div>

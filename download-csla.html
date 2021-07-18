@@ -31,14 +31,15 @@
 			var STR_MissionUpload = "<BR>Otevře<BR>Uživatelské rozhraní pro upload misí";
 			//var STR_OFPMDE = "Otevře stránku o aplikaci<BR><BR>OFP<BR>Mission<BR>Development<BR>Environment";
 			var STR_MissionNews = "Sekce<BR>Mission News<BR>-<BR>Novinky psané jednotlivými autory misí";
-			var STR_SP = "Sekce<BR>SP Mise :<BR>hodnocení a<BR>download<BR>neofiko SP misí";
-			var STR_MP = "Sekce<BR>MP Mise :<BR>hodnocení a<BR>download<BR>neofiko MP misí";
-			var STR_Camp = "Sekce<BR>Kampaně :<BR>hodnocení a<BR>download<BR>neofiko kampaní";
-			var STR_Video = "Sekce<BR>Video mise :<BR>hodnocení a<BR>download<BR>neofiko<BR>Video misí";
-			var STR_Ptak = "Sekce<BR>Ptákoviny :<BR>Mise, které<BR>nelze nikam<BR>zařadit";
+			var STR_SP = "Sekce<BR>SP Mise:<BR><BR>hodnocení a<BR>download<BR>neofiko SP misí";
+			var STR_MP = "Sekce<BR>MP Mise:<BR><BR>hodnocení a<BR>download<BR>neofiko MP misí";
+			var STR_Camp = "Sekce<BR>Kampaně:<BR><BR>hodnocení a<BR>download<BR>neofiko kampaní";
+			var STR_Video = "Sekce<BR>Video mise:<BR><BR>hodnocení a<BR>download<BR>neofiko<BR>Video misí";
+			var STR_Ptak = "Sekce<BR>Ptákoviny:<BR><BR>Mise, které<BR>nelze nikam<BR>zařadit";
+			var STR_Arma = "Sekce<BR>ArmA věci:<BR><BR>Obsah do her<br>ArmA, Arma 2 a Arma 3";
 			var STR_Rules = "Pravidla<BR>hodnocení a<BR>zveřejňování<BR>misí";
 			var STR_Search = "Vyhledávání<BR>údajů na<BR>těchto<BR>stránkách";
-			var STR_OFPCZSquad = "Celý download<BR>je uložen na<BR>serveru OFPisnotdead.com.<BR>Díky retro!";
+			var STR_OFPCZSquad = "Celý download<BR>je uložen na<BR>serveru OFPisnotdead.com.<BR><BR>Díky <b>retro</b>!";
 
 			// ---------- Preload & Initialize Images --------------
 			var missionnews1 = newImage('images/btns/missionnews1.jpg');
@@ -59,6 +60,9 @@
 			var ptak1 = newImage('images/btns/ptak1.jpg');
 			var ptak2 = newImage('images/btns/ptak2.jpg');
 			var ptak3 = newImage('images/btns/ptak3.jpg');
+			var arma1 = newImage('images/btns/arma1.jpg');
+			var arma2 = newImage('images/btns/arma2.jpg');
+			var arma3 = newImage('images/btns/arma3.jpg');
 			var rules1 = newImage('images/btns/rules1.jpg');
 			var rules2 = newImage('images/btns/rules2.jpg');
 			var rules3 = newImage('images/btns/rules3.jpg');
@@ -126,6 +130,10 @@
 						btn.src = ptak2.src;
 						infoArea.innerHTML = STR_Ptak;
 						break;
+					case "btnArma":
+						btn.src = arma2.src;
+						infoArea.innerHTML = STR_Arma;
+						break;
 					case "btnRules":
 						btn.src = rules2.src;
 						infoArea.innerHTML = STR_Rules;
@@ -167,6 +175,9 @@
 						break;
 					case "btnPtak":
 						btn.src = ptak1.src;
+						break;
+					case "btnArma":
+						btn.src = arma1.src;
 						break;
 					case "btnRules":
 						btn.src = rules1.src;
@@ -211,6 +222,10 @@
 						break;
 					case "btnPtak":
 						btn.src = ptak3.src;
+						window.setTimeout("btn_onMouseOver(auxObject)", 150);
+						break;
+					case "btnArma":
+						btn.src = arma3.src;
 						window.setTimeout("btn_onMouseOver(auxObject)", 150);
 						break;
 					case "btnRules":
@@ -319,95 +334,101 @@
 	</tr>
 	<tr height="24px" align="center">
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">1)</td>
-		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="67%" align="left"><p style="margin-left:3px;margin-right:3px;">(OFP) <a href="ftp://ftp.armedassault.info/ofpd/unofaddons0/csla_addon.exe" target="_blank"> ČSLA Addon Pack (pôvodný addon pack, ktorý ešte oficiálne nebol módom)</a></p></td>
+		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="67%" align="left"><p style="margin-left:3px;margin-right:3px;text-align:justify;">(OFP) <a href="ftp://ftp.armedassault.info/ofpd/unofaddons0/csla_addon.exe" target="_blank"> ČSLA Addon Pack (pôvodný addon pack, ktorý ešte oficiálne nebol módom)</a></p></td>
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="9%" align="center">Leon & MAA</td>
 		<td style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;font-weight:bold;border-left-color:#000000;border-top-width:1px;border-top-color:#000000;border-right-width:1px;border-right-style:solid;border-left-style:solid;" width="10%" align="center">15.1 MB</td>
 	</tr>
 	<tr style="background-color:#C0C0C0;" height="24px" align="center">
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">2)</td>
-		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="67%" align="left"><p style="margin-left:3px;margin-right:3px;">(OFP) <a href="ftp://ftp.armedassault.info/ofpd/unofaddons0/csla_upgrade1_v1.0.exe" target="_blank"> ČSLA Addon Upgrade 1 (upgrade addon pack-u, ktorý priniesol napr. tichú Dragunov-ku a tiež zopár pekných retextúrovaných Hind-ov)</a></p></td>
+		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="67%" align="left"><p style="margin-left:3px;margin-right:3px;text-align:justify;">(OFP) <a href="ftp://ftp.armedassault.info/ofpd/unofaddons0/csla_upgrade1_v1.0.exe" target="_blank"> ČSLA Addon Upgrade 1 (upgrade addon pack-u, ktorý priniesol napr. tichú Dragunov-ku a tiež zopár pekných retextúrovaných Hind-ov)</a></p></td>
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="9%" align="center">Leon & MAA</td>
 		<td style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;font-weight:bold;border-left-color:#000000;border-top-width:1px;border-top-color:#000000;border-right-width:1px;border-right-style:solid;border-left-style:solid;" width="10%" align="center">3.9 MB</td>
 	</tr>
 	<tr height="24px" align="center">
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">3)</td>
-		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="67%" align="left"><p style="margin-left:3px;margin-right:3px;">(OFP) <a href="ftp://ftp.armedassault.info/ofpd/unofaddons/csla_upgrade2.exe" target="_blank"> ČSLA Addon Upgrade 2 (upgrade addon pack-u, ktorý priniesol Tatry. Pozn. je nutné mať Resistance)</a></p></td>
+		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="67%" align="left"><p style="margin-left:3px;margin-right:3px;text-align:justify;">(OFP) <a href="ftp://ftp.armedassault.info/ofpd/unofaddons/csla_upgrade2.exe" target="_blank"> ČSLA Addon Upgrade 2 (upgrade addon pack-u, ktorý priniesol Tatry. Pozn. je nutné mať Resistance)</a></p></td>
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="9%" align="center">Leon & MAA</td>
 		<td style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;font-weight:bold;border-left-color:#000000;border-top-width:1px;border-top-color:#000000;border-right-width:1px;border-right-style:solid;border-left-style:solid;" width="10%" align="center">4.6 MB</td>
 	</tr>
 	<tr style="background-color:#C0C0C0;" height="24px" align="center">
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">4)</td>
-		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="67%" align="left"><p style="margin-left:3px;margin-right:3px;">(OFP) <a href="ftp://ftp.armedassault.info/ofpd/campaigns/csla.exe" target="_blank"> ČSLA kampaň Operation Paranoid</a></p></td>
+		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="67%" align="left"><p style="margin-left:3px;margin-right:3px;text-align:justify;">(OFP) <a href="ftp://ftp.armedassault.info/ofpd/campaigns/csla.exe" target="_blank"> ČSLA kampaň Operation Paranoid</a></p></td>
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="9%" align="center">Leon & MAA</td>
 		<td style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;font-weight:bold;border-left-color:#000000;border-top-width:1px;border-top-color:#000000;border-right-width:1px;border-right-style:solid;border-left-style:solid;" width="10%" align="center">21.2 MB</td>
 	</tr>
 	<tr height="24px" align="center">
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">5)</td>
-		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="67%" align="left"><p style="margin-left:3px;margin-right:3px;">(OFP) <a href="https://files.ofpisnotdead.com/files/ofpd/mods/csla2_setup.exe" target="_blank"> ČSLA II. MOD (verzia 2.00)</a></p></td>
+		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="67%" align="left"><p style="margin-left:3px;margin-right:3px;text-align:justify;">(OFP) <a href="https://files.ofpisnotdead.com/files/ofpd/mods/csla2_setup.exe" target="_blank"> ČSLA II. MOD (verzia 2.00)</a></p></td>
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="9%" align="center">ČSLA Studio</td>
 		<td style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;font-weight:bold;border-left-color:#000000;border-top-width:1px;border-top-color:#000000;border-right-width:1px;border-right-style:solid;border-left-style:solid;" width="10%" align="center">213 MB</td>
 	</tr>
 	<tr style="background-color:#C0C0C0;" height="24px" align="center">
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">6)</td>
-		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="67%" align="left"><p style="margin-left:3px;margin-right:3px;">(OFP) ČSLA II. MOD patch 2.00->2.02 - <a href="https://files.ofpisnotdead.com/files/ofpd/unofaddons2/csla2_update_200to202.zip" target="_blank">link #1</a>, <a href="ftp://ftp.armedassault.info/ofpd/unofaddons2/csla2_update_200to202.zip" target="_blank">link #2</a></p></td>
+		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="67%" align="left"><p style="margin-left:3px;margin-right:3px;text-align:justify;">(OFP) ČSLA II. MOD patch 2.00->2.02 - <a href="https://files.ofpisnotdead.com/files/ofpd/unofaddons2/csla2_update_200to202.zip" target="_blank">link #1</a>, <a href="ftp://ftp.armedassault.info/ofpd/unofaddons2/csla2_update_200to202.zip" target="_blank">link #2</a></p></td>
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="9%" align="center">ČSLA Studio</td>
 		<td style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;font-weight:bold;border-left-color:#000000;border-top-width:1px;border-top-color:#000000;border-right-width:1px;border-right-style:solid;border-left-style:solid;" width="10%" align="center">12.7 MB</td>
 	</tr>
 	<tr height="24px" align="center">
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">7)</td>
-		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="67%" align="left"><p style="margin-left:3px;margin-right:3px;">(OFP) ČSLA II. MOD patch 2.01->2.02 - <a href="https://files.ofpisnotdead.com/files/ofpd/unofaddons2/csla2_update_201to202.zip" target="_blank">link #1</a>, <a href="ftp://ftp.armedassault.info/ofpd/unofaddons2/csla2_update_201to202.zip" target="_blank">link #2</a></p></td>
+		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="67%" align="left"><p style="margin-left:3px;margin-right:3px;text-align:justify;">(OFP) ČSLA II. MOD patch 2.01->2.02 - <a href="https://files.ofpisnotdead.com/files/ofpd/unofaddons2/csla2_update_201to202.zip" target="_blank">link #1</a>, <a href="ftp://ftp.armedassault.info/ofpd/unofaddons2/csla2_update_201to202.zip" target="_blank">link #2</a></p></td>
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="9%" align="center">ČSLA Studio</td>
 		<td style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;font-weight:bold;border-left-color:#000000;border-top-width:1px;border-top-color:#000000;border-right-width:1px;border-right-style:solid;border-left-style:solid;" width="10%" align="center">7.7 MB</td>
 	</tr>
 	<tr style="background-color:#C0C0C0;" height="24px" align="center">
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">8)</td>
-		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="67%" align="left"><p style="margin-left:3px;margin-right:3px;">(OFP) ČSLA II. MOD Update 1 (verzia 2.10) - <a href="https://files.ofpisnotdead.com/files/ofpd/mods/CSLA2_Update1.exe" target="_blank">link #1</a>, <a href="ftp://ftp.armedassault.info/ofpd/mods/CSLA2_Update1.exe" target="_blank">link #2</a></p></td>
+		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="67%" align="left"><p style="margin-left:3px;margin-right:3px;text-align:justify;">(OFP) ČSLA II. MOD Update 1 (verzia 2.10) - <a href="https://files.ofpisnotdead.com/files/ofpd/mods/CSLA2_Update1.exe" target="_blank">link #1</a>, <a href="ftp://ftp.armedassault.info/ofpd/mods/CSLA2_Update1.exe" target="_blank">link #2</a></p></td>
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="9%" align="center">ČSLA Studio</td>
 		<td style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;font-weight:bold;border-left-color:#000000;border-top-width:1px;border-top-color:#000000;border-right-width:1px;border-right-style:solid;border-left-style:solid;" width="10%" align="center">273 MB</td>
 	</tr>
 	<tr height="24px" align="center">
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">9)</td>
-		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="67%" align="left"><p style="margin-left:3px;margin-right:3px;">(OFP) ČSLA II. MOD Update 2 (verzia 2.20) - <a href="https://files.ofpisnotdead.com/files/ofpd/mods/CSLA2Update2_Install_v220.exe" target="_blank">link #1</a>, <a href="ftp://ftp.armedassault.info/ofpd/mods/CSLA2Update2_Install_v220.exe" target="_blank">link #2</a></p></td>
+		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="67%" align="left"><p style="margin-left:3px;margin-right:3px;text-align:justify;">(OFP) ČSLA II. MOD Update 2 (verzia 2.20) - <a href="https://files.ofpisnotdead.com/files/ofpd/mods/CSLA2Update2_Install_v220.exe" target="_blank">link #1</a>, <a href="ftp://ftp.armedassault.info/ofpd/mods/CSLA2Update2_Install_v220.exe" target="_blank">link #2</a></p></td>
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="9%" align="center">ČSLA Studio</td>
 		<td style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;font-weight:bold;border-left-color:#000000;border-top-width:1px;border-top-color:#000000;border-right-width:1px;border-right-style:solid;border-left-style:solid;" width="10%" align="center">424 MB</td>
 	</tr>
 	<tr style="background-color:#C0C0C0;" height="24px" align="center">
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">10)</td>
-		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="67%" align="left"><p style="margin-left:3px;margin-right:3px;">(ArmA) <a href="https://www.moddb.com/mods/csla-mod-for-armaarmed-assault/downloads/csla3-phase1-v102" target="_blank">ČSLA 3 Phase 1 (verzia 1.02)</a></p></td>
+		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="67%" align="left"><p style="margin-left:3px;margin-right:3px;text-align:justify;">(ArmA) <a href="https://www.moddb.com/mods/csla-mod-for-armaarmed-assault/downloads/csla3-phase1-v102" target="_blank">ČSLA 3 Phase 1 (verzia 1.02)</a></p></td>
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="9%" align="center">ČSLA Studio</td>
 		<td style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;font-weight:bold;border-left-color:#000000;border-top-width:1px;border-top-color:#000000;border-right-width:1px;border-right-style:solid;border-left-style:solid;" width="10%" align="center">307 MB</td>
 	</tr>
 	<tr height="24px" align="center">
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">11)</td>
-		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="67%" align="left"><p style="margin-left:3px;margin-right:3px;">(ArmA) <a href="https://www.moddb.com/mods/csla-mod-for-armaarmed-assault/downloads/csla3-phase1-patch-v102-to-v103" target="_blank">ČSLA 3 Phase 1 (patch 1.02->1.03)</a></p></td>
+		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="67%" align="left"><p style="margin-left:3px;margin-right:3px;text-align:justify;">(ArmA) <a href="https://www.moddb.com/mods/csla-mod-for-armaarmed-assault/downloads/csla3-phase1-patch-v102-to-v103" target="_blank">ČSLA 3 Phase 1 (patch 1.02->1.03)</a></p></td>
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="9%" align="center">ČSLA Studio</td>
 		<td style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;font-weight:bold;border-left-color:#000000;border-top-width:1px;border-top-color:#000000;border-right-width:1px;border-right-style:solid;border-left-style:solid;" width="10%" align="center">78 MB</td>
 	</tr>
 	<tr style="background-color:#C0C0C0;" height="24px" align="center">
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">12)</td>
-		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="67%" align="left"><p style="margin-left:3px;margin-right:3px;">(ArmA) <a href="https://www.moddb.com/mods/csla-mod-for-armaarmed-assault/downloads/csla3-phase1-patch-v103-to-v104" target="_blank">ČSLA 3 Phase 1 (patch 1.03->1.04)</a></p></td>
+		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="67%" align="left"><p style="margin-left:3px;margin-right:3px;text-align:justify;">(ArmA) <a href="https://www.moddb.com/mods/csla-mod-for-armaarmed-assault/downloads/csla3-phase1-patch-v103-to-v104" target="_blank">ČSLA 3 Phase 1 (patch 1.03->1.04)</a></p></td>
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="9%" align="center">ČSLA Studio</td>
 		<td style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;font-weight:bold;border-left-color:#000000;border-top-width:1px;border-top-color:#000000;border-right-width:1px;border-right-style:solid;border-left-style:solid;" width="10%" align="center">89 MB</td>
 	</tr>
 	
 	<tr height="24px" align="center">
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">13)</td>
-		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="67%" align="left"><p style="margin-left:3px;margin-right:3px;">(Arma 2: Combined Operations) <a href="https://www.moddb.com/mods/csla/downloads/sla-for-arma2combined-operations-ver-226" target="_blank">ČSLA pre Arma 2: Combined Operations (verzia 2.26)</a></p></td>
+		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="67%" align="left"><p style="margin-left:3px;margin-right:3px;text-align:justify;">(Arma 2: Combined Operations) <a href="https://www.moddb.com/mods/csla/downloads/sla-for-arma2combined-operations-ver-226" target="_blank">ČSLA pre Arma 2: Combined Operations (verzia 2.26)</a></p></td>
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="9%" align="center">ČSLA Studio</td>
 		<td style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;font-weight:bold;border-left-color:#000000;border-top-width:1px;border-top-color:#000000;border-right-width:1px;border-right-style:solid;border-left-style:solid;" width="10%" align="center">1281 MB</td>
 	</tr>
 	<tr style="background-color:#C0C0C0;" height="24px" align="center">
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">14)</td>
-		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="67%" align="left"><p style="margin-left:3px;margin-right:3px;">(Arma 2: Combined Operations) <a href="https://www.moddb.com/mods/csla/downloads/sla-sp-campaign-89-fix-ver-2261" target="_blank">ČSLA - fix pre SP kampaň 89' (verzia 2.26.1)</a></p></td>
+		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="67%" align="left"><p style="margin-left:3px;margin-right:3px;text-align:justify;">(Arma 2: Combined Operations) <a href="https://www.moddb.com/mods/csla/downloads/sla-sp-campaign-89-fix-ver-2261" target="_blank">ČSLA - fix pre SP kampaň 89' (verzia 2.26.1)</a></p></td>
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="9%" align="center">ČSLA Studio</td>
 		<td style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;font-weight:bold;border-left-color:#000000;border-top-width:1px;border-top-color:#000000;border-right-width:1px;border-right-style:solid;border-left-style:solid;" width="10%" align="center">260 MB</td>
 	</tr>
 	
 	<tr height="24px" align="center">
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">15)</td>
-		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="67%" align="left"><p style="margin-left:3px;margin-right:3px;">(Arma 3) <a href="https://store.steampowered.com/app/1294440/Arma_3_Creator_DLC_CSLA_Iron_Curtain/" target="_blank">cDLC ČSLA Iron Curtain</a></p></td>
+		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="67%" align="left"><p style="margin-left:3px;margin-right:3px;text-align:justify;">(Arma 3) <a href="https://store.steampowered.com/app/1294440/Arma_3_Creator_DLC_CSLA_Iron_Curtain/" target="_blank">cDLC ČSLA Iron Curtain</a></p></td>
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="9%" align="center">ČSLA Studio</td>
 		<td style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;font-weight:bold;border-left-color:#000000;border-top-width:1px;border-top-color:#000000;border-right-width:1px;border-right-style:solid;border-left-style:solid;" width="10%" align="center">7.5 GB</td>
+	</tr>
+	<tr style="background-color:#C0C0C0;" height="24px" align="center">
+		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">16)</td>
+		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="67%" align="left"><p style="margin-left:3px;margin-right:3px;text-align:justify;">(Arma 3 + cDLC ČSLA Iron Curtain) <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2534376765" target="_blank">ČSLA kampaň Iron Curtain</a></p></td>
+		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="9%" align="center">EMSI</td>
+		<td style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;font-weight:bold;border-left-color:#000000;border-top-width:1px;border-top-color:#000000;border-right-width:1px;border-right-style:solid;border-left-style:solid;" width="10%" align="center">322.8 MB</td>
 	</tr>
 	</tbody></table>
 
@@ -435,6 +456,7 @@
 						<a href="campaigns.html"><img src="images/btns/camp1.jpg" class="RA_BTNS" style="border-width:0px; TOP:96px" name="btnCamp" id="btnCamp" onmouseover="btn_onMouseOver(this)" onmouseout="btn_onMouseOut(this)" onclick="btn_onClick(this);"></a>
 						<a href="video-missions.html"><img src="images/btns/video1.jpg" class="RA_BTNS" style="border-width:0px; TOP:128px" name="btnVideo" id="btnVideo" onmouseover="btn_onMouseOver(this)" onmouseout="btn_onMouseOut(this)" onclick="btn_onClick(this);"></a>
 						<a href="funny-missions.html"><img src="images/btns/ptak1.jpg" class="RA_BTNS" style="border-width:0px; TOP:160px" name="btnPtak" id="btnPtak" onmouseover="btn_onMouseOver(this)" onmouseout="btn_onMouseOut(this)" onclick="btn_onClick(this);"></a>
+					<a href="arma-stuff.html"><img src="images/btns/arma1.jpg" class="RA_BTNS" style="border-width:0px; TOP:192px" name="btnArma" id="btnArma" onmouseover="btn_onMouseOver(this)" onmouseout="btn_onMouseOut(this)" onclick="btn_onClick(this);"></a>
 						
 						<a class="RA_SQUAD_LINK" id="linkSquad" onmouseover="link_onMouseOver(this)" onmouseout="defaultInfo()"></a>
 					</div>

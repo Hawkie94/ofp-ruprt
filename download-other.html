@@ -31,14 +31,15 @@
 			var STR_MissionUpload = "<BR>Otevře<BR>Uživatelské rozhraní pro upload misí";
 			//var STR_OFPMDE = "Otevře stránku o aplikaci<BR><BR>OFP<BR>Mission<BR>Development<BR>Environment";
 			var STR_MissionNews = "Sekce<BR>Mission News<BR>-<BR>Novinky psané jednotlivými autory misí";
-			var STR_SP = "Sekce<BR>SP Mise :<BR>hodnocení a<BR>download<BR>neofiko SP misí";
-			var STR_MP = "Sekce<BR>MP Mise :<BR>hodnocení a<BR>download<BR>neofiko MP misí";
-			var STR_Camp = "Sekce<BR>Kampaně :<BR>hodnocení a<BR>download<BR>neofiko kampaní";
-			var STR_Video = "Sekce<BR>Video mise :<BR>hodnocení a<BR>download<BR>neofiko<BR>Video misí";
-			var STR_Ptak = "Sekce<BR>Ptákoviny :<BR>Mise, které<BR>nelze nikam<BR>zařadit";
+			var STR_SP = "Sekce<BR>SP Mise:<BR><BR>hodnocení a<BR>download<BR>neofiko SP misí";
+			var STR_MP = "Sekce<BR>MP Mise:<BR><BR>hodnocení a<BR>download<BR>neofiko MP misí";
+			var STR_Camp = "Sekce<BR>Kampaně:<BR><BR>hodnocení a<BR>download<BR>neofiko kampaní";
+			var STR_Video = "Sekce<BR>Video mise:<BR><BR>hodnocení a<BR>download<BR>neofiko<BR>Video misí";
+			var STR_Ptak = "Sekce<BR>Ptákoviny:<BR><BR>Mise, které<BR>nelze nikam<BR>zařadit";
+			var STR_Arma = "Sekce<BR>ArmA věci:<BR><BR>Obsah do her<br>ArmA, Arma 2 a Arma 3";
 			var STR_Rules = "Pravidla<BR>hodnocení a<BR>zveřejňování<BR>misí";
 			var STR_Search = "Vyhledávání<BR>údajů na<BR>těchto<BR>stránkách";
-			var STR_OFPCZSquad = "Celý download<BR>je uložen na<BR>serveru OFPisnotdead.com.<BR>Díky retro!";
+			var STR_OFPCZSquad = "Celý download<BR>je uložen na<BR>serveru OFPisnotdead.com.<BR><BR>Díky <b>retro</b>!";
 
 			// ---------- Preload & Initialize Images --------------
 			var missionnews1 = newImage('images/btns/missionnews1.jpg');
@@ -59,6 +60,9 @@
 			var ptak1 = newImage('images/btns/ptak1.jpg');
 			var ptak2 = newImage('images/btns/ptak2.jpg');
 			var ptak3 = newImage('images/btns/ptak3.jpg');
+			var arma1 = newImage('images/btns/arma1.jpg');
+			var arma2 = newImage('images/btns/arma2.jpg');
+			var arma3 = newImage('images/btns/arma3.jpg');
 			var rules1 = newImage('images/btns/rules1.jpg');
 			var rules2 = newImage('images/btns/rules2.jpg');
 			var rules3 = newImage('images/btns/rules3.jpg');
@@ -126,6 +130,10 @@
 						btn.src = ptak2.src;
 						infoArea.innerHTML = STR_Ptak;
 						break;
+					case "btnArma":
+						btn.src = arma2.src;
+						infoArea.innerHTML = STR_Arma;
+						break;
 					case "btnRules":
 						btn.src = rules2.src;
 						infoArea.innerHTML = STR_Rules;
@@ -167,6 +175,9 @@
 						break;
 					case "btnPtak":
 						btn.src = ptak1.src;
+						break;
+					case "btnArma":
+						btn.src = arma1.src;
 						break;
 					case "btnRules":
 						btn.src = rules1.src;
@@ -211,6 +222,10 @@
 						break;
 					case "btnPtak":
 						btn.src = ptak3.src;
+						window.setTimeout("btn_onMouseOver(auxObject)", 150);
+						break;
+					case "btnArma":
+						btn.src = arma3.src;
 						window.setTimeout("btn_onMouseOver(auxObject)", 150);
 						break;
 					case "btnRules":
@@ -320,47 +335,47 @@
 	</tr>
 	<tr height="24px" align="center">
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">1)</td>
-		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;"><a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/download/other/druhy_pisma_v_briefingu.zip" target="_blank"> Jak různě se dá psát v briefingu nám na malém obrázku ukázal Ježuro.
+		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;text-align:justify;"><a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/download/other/druhy_pisma_v_briefingu.zip" target="_blank"> Jak různě se dá psát v briefingu nám na malém obrázku ukázal Ježuro.
 </a></p></td>
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="9%" align="center">Ježuro</td>
 		<td style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;font-weight:bold;border-left-color:#000000;border-top-width:1px;border-top-color:#000000;border-right-width:1px;border-right-style:solid;border-left-style:solid;" width="9%" align="center">60 kb</td>
 	</tr>
 	<tr style="background-color:#C0C0C0;" height="24px" align="center">
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">2)</td>
-		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;"><a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/download/other/OFP%20Weapons.zip" target="_blank"> Seznam zbraní z neoficiálních addonů v *.xls souboru.</a></p></td>
+		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;text-align:justify;"><a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/download/other/OFP%20Weapons.zip" target="_blank"> Seznam zbraní z neoficiálních addonů v *.xls souboru.</a></p></td>
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="9%" align="center">Didymos</td>
 		<td style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;font-weight:bold;border-left-color:#000000;border-top-width:1px;border-top-color:#000000;border-right-width:1px;border-right-style:solid;border-left-style:solid;" width="9%" align="center">11 kb</td>
 	</tr>
 	<tr height="24px" align="center">
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">3)</td>
-		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;"><a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/download/other/OF_face_katalog_1_1.zip" target="_blank"> Seznam všech xichtů osob v OFP včetně jejich jmen a nazvů třid z config.bin.</a></p></td>
+		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;text-align:justify;"><a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/download/other/OF_face_katalog_1_1.zip" target="_blank"> Seznam všech xichtů osob v OFP včetně jejich jmen a nazvů třid z config.bin.</a></p></td>
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="9%" align="center">Silvermole</td>
 		<td style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;font-weight:bold;border-left-color:#000000;border-top-width:1px;border-top-color:#000000;border-right-width:1px;border-right-style:solid;border-left-style:solid;" width="9%" align="center">330 kb</td>
 	</tr>
 	<tr style="background-color:#C0C0C0;" height="24px" align="center">
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">4)</td>
-		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;"><a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/download/other/L.O.T.zip" target="_blank">
- L.O.T. Nehratelná mise s přednastavenými objekty uspořádanými do podoby
- Leteckých opraven Trenčín. Velmi pěkný balíček, který je však velmi 
+		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;text-align:justify;"><a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/download/other/L.O.T.zip" target="_blank">
+ L.O.T. - nehratelná mise s přednastavenými objekty uspořádanými do podoby
+ Leteckých opraváren Trenčín. Velmi pěkný balíček, který je však velmi 
 náročný na prostředky PC.</a></p></td>
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="9%" align="center">Vojtoo</td>
 		<td style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;font-weight:bold;border-left-color:#000000;border-top-width:1px;border-top-color:#000000;border-right-width:1px;border-right-style:solid;border-left-style:solid;" width="9%" align="center">311 kb</td>
 	</tr>
 	<tr height="24px" align="center">
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">5)</td>
-		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;"><a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/download/other/ofpmark.zip" target="_blank"> OFP Mark 2.0 - krátka benchmark-ová misia pre otestovanie výpočtového výkonu nastavení v OFP.</a></p></td>
+		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;text-align:justify;"><a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/download/other/ofpmark.zip" target="_blank"> OFP Mark 2.0 - krátka benchmark-ová misia pre otestovanie výpočtového výkonu nastavení v OFP.</a></p></td>
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="9%" align="center">toadlife</td>
 		<td style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;font-weight:bold;border-left-color:#000000;border-top-width:1px;border-top-color:#000000;border-right-width:1px;border-right-style:solid;border-left-style:solid;" width="9%" align="center">57 kb</td>
 	</tr>
 	<tr style="background-color:#C0C0C0;" height="24px" align="center">
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">6)</td>
-		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;"><a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/download/other/OFP_Aspect_Ratio.zip" target="_blank"> OFP Aspect Ratio - sada súborov + návod, ako si nastaviť zobrazenie hry (a.k.a. možnosť prispôsobenia "natiahnutia" toho, čo hráč vidí na obrazovke) na istý pomer (podobne, ako v hre ArmA, Arma2...).</a></p></td>
+		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;text-align:justify;"><a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/download/other/OFP_Aspect_Ratio.zip" target="_blank"> OFP Aspect Ratio - sada súborov + návod, ako si nastaviť zobrazenie hry (a.k.a. možnosť prispôsobenia "natiahnutia" toho, čo hráč vidí na obrazovke) na istý pomer (podobne, ako v hre ArmA, Arma2...).</a></p></td>
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="9%" align="center">Faguss</td>
 		<td style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;font-weight:bold;border-left-color:#000000;border-top-width:1px;border-top-color:#000000;border-right-width:1px;border-right-style:solid;border-left-style:solid;" width="9%" align="center">3520 kb</td>
 	</tr>
 	<tr height="24px" align="center">
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">7)</td>
-		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;"><a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/download/other/dxdll10.zip" target="_blank"> DXDLL - knižnica, ktorá pridáva zopár pekných efektov do OFP (lepšie postprocess efekty, priehľadná voda, atď.) a vylepšený rendering.</a></p></td>
+		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;text-align:justify;"><a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/download/other/dxdll10.zip" target="_blank"> DXDLL - knižnica, ktorá pridáva zopár pekných efektov do OFP (lepšie postprocess efekty, priehľadná voda, atď.) a vylepšený rendering.</a></p></td>
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="9%" align="center">Kegetys</td>
 		<td style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;font-weight:bold;border-left-color:#000000;border-top-width:1px;border-top-color:#000000;border-right-width:1px;border-right-style:solid;border-left-style:solid;" width="9%" align="center">516 kb</td>
 	</tr>
@@ -390,6 +405,7 @@ náročný na prostředky PC.</a></p></td>
 						<a href="campaigns.html"><img src="images/btns/camp1.jpg" class="RA_BTNS" style="border-width:0px; TOP:96px" name="btnCamp" id="btnCamp" onmouseover="btn_onMouseOver(this)" onmouseout="btn_onMouseOut(this)" onclick="btn_onClick(this);"></a>
 						<a href="video-missions.html"><img src="images/btns/video1.jpg" class="RA_BTNS" style="border-width:0px; TOP:128px" name="btnVideo" id="btnVideo" onmouseover="btn_onMouseOver(this)" onmouseout="btn_onMouseOut(this)" onclick="btn_onClick(this);"></a>
 						<a href="funny-missions.html"><img src="images/btns/ptak1.jpg" class="RA_BTNS" style="border-width:0px; TOP:160px" name="btnPtak" id="btnPtak" onmouseover="btn_onMouseOver(this)" onmouseout="btn_onMouseOut(this)" onclick="btn_onClick(this);"></a>
+					<a href="arma-stuff.html"><img src="images/btns/arma1.jpg" class="RA_BTNS" style="border-width:0px; TOP:192px" name="btnArma" id="btnArma" onmouseover="btn_onMouseOver(this)" onmouseout="btn_onMouseOut(this)" onclick="btn_onClick(this);"></a>
 						
 						<a class="RA_SQUAD_LINK" id="linkSquad" onmouseover="link_onMouseOver(this)" onmouseout="defaultInfo()"></a>
 					</div>

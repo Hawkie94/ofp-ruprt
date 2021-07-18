@@ -35,14 +35,15 @@
 			var STR_MissionUpload = "<BR>Otevře<BR>Uživatelské rozhraní pro upload misí";
 			//var STR_OFPMDE = "Otevře stránku o aplikaci<BR><BR>OFP<BR>Mission<BR>Development<BR>Environment";
 			var STR_MissionNews = "Sekce<BR>Mission News<BR>-<BR>Novinky psané jednotlivými autory misí";
-			var STR_SP = "Sekce<BR>SP Mise :<BR>hodnocení a<BR>download<BR>neofiko SP misí";
-			var STR_MP = "Sekce<BR>MP Mise :<BR>hodnocení a<BR>download<BR>neofiko MP misí";
-			var STR_Camp = "Sekce<BR>Kampaně :<BR>hodnocení a<BR>download<BR>neofiko kampaní";
-			var STR_Video = "Sekce<BR>Video mise :<BR>hodnocení a<BR>download<BR>neofiko<BR>Video misí";
-			var STR_Ptak = "Sekce<BR>Ptákoviny :<BR>Mise, které<BR>nelze nikam<BR>zařadit";
+			var STR_SP = "Sekce<BR>SP Mise:<BR><BR>hodnocení a<BR>download<BR>neofiko SP misí";
+			var STR_MP = "Sekce<BR>MP Mise:<BR><BR>hodnocení a<BR>download<BR>neofiko MP misí";
+			var STR_Camp = "Sekce<BR>Kampaně:<BR><BR>hodnocení a<BR>download<BR>neofiko kampaní";
+			var STR_Video = "Sekce<BR>Video mise:<BR><BR>hodnocení a<BR>download<BR>neofiko<BR>Video misí";
+			var STR_Ptak = "Sekce<BR>Ptákoviny:<BR><BR>Mise, které<BR>nelze nikam<BR>zařadit";
+			var STR_Arma = "Sekce<BR>ArmA věci:<BR><BR>Obsah do her<br>ArmA, Arma 2 a Arma 3";
 			var STR_Rules = "Pravidla<BR>hodnocení a<BR>zveřejňování<BR>misí";
 			var STR_Search = "Vyhledávání<BR>údajů na<BR>těchto<BR>stránkách";
-			var STR_OFPCZSquad = "Celý download<BR>je uložen na<BR>serveru OFPisnotdead.com.<BR>Díky retro!";
+			var STR_OFPCZSquad = "Celý download<BR>je uložen na<BR>serveru OFPisnotdead.com.<BR><BR>Díky <b>retro</b>!";
 
 			// ---------- Preload & Initialize Images --------------
 			var missionnews1 = newImage('images/btns/missionnews1.jpg');
@@ -63,6 +64,9 @@
 			var ptak1 = newImage('images/btns/ptak1.jpg');
 			var ptak2 = newImage('images/btns/ptak2.jpg');
 			var ptak3 = newImage('images/btns/ptak3.jpg');
+			var arma1 = newImage('images/btns/arma1.jpg');
+			var arma2 = newImage('images/btns/arma2.jpg');
+			var arma3 = newImage('images/btns/arma3.jpg');
 			var rules1 = newImage('images/btns/rules1.jpg');
 			var rules2 = newImage('images/btns/rules2.jpg');
 			var rules3 = newImage('images/btns/rules3.jpg');
@@ -134,6 +138,10 @@
 						btn.src = ptak2.src;
 						infoArea.innerHTML = STR_Ptak;
 						break;
+					case "btnArma":
+						btn.src = arma2.src;
+						infoArea.innerHTML = STR_Arma;
+						break;
 					case "btnRules":
 						btn.src = rules2.src;
 						infoArea.innerHTML = STR_Rules;
@@ -175,6 +183,9 @@
 						break;
 					case "btnPtak":
 						btn.src = ptak1.src;
+						break;
+					case "btnArma":
+						btn.src = arma1.src;
 						break;
 					case "btnRules":
 						btn.src = rules1.src;
@@ -220,6 +231,10 @@
 						break;
 					case "btnPtak":
 						btn.src = ptak3.src;
+						window.setTimeout("btn_onMouseOver(auxObject)", 150);
+						break;
+					case "btnArma":
+						btn.src = arma3.src;
 						window.setTimeout("btn_onMouseOver(auxObject)", 150);
 						break;
 					case "btnRules":
@@ -642,7 +657,7 @@
 		<td align="center" width="12%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Ruprt</td>
 	</tr>
 	<tr>
-		<td align="justify" width="100%" style="border:solid 1px Gray;text-align:justify;" colSpan="5">Dnes jsem nahodil update aplikace OFP Mission development Environment. Jedná se o verzi 3.1.0, která opravuje chybu diskutovanou ve fóru, kdy v případě, že si uživatel změnil nastavení prvních písmen klíčových slov na málá, aplikace při příštím spuštění nenastartovala. Taky jsem opravil pár dalších drobnějších věcí, jejichž popis najdete na stránkách <a href='http://ofp.ruprt.cz/ofpmde/Default.aspx' target='_blank'>OFPMDE</a> v sekci 'Historie verzí'.</td>
+		<td align="justify" width="100%" style="border:solid 1px Gray;text-align:justify;" colSpan="5">Dnes jsem nahodil update aplikace OFP Mission development Environment. Jedná se o verzi 3.1.0, která opravuje chybu diskutovanou ve fóru, kdy v případě, že si uživatel změnil nastavení prvních písmen klíčových slov na málá, aplikace při příštím spuštění nenastartovala. Taky jsem opravil pár dalších drobnějších věcí, jejichž popis najdete na stránkách <a href='./ofpmde/index.html' target='_blank'>OFPMDE</a> v sekci 'Historie verzí'.</td>
 	</tr>
 	<tr>
 		<td colSpan="5" width="100%" height="2px" style="border-style:none;"></td>
@@ -694,7 +709,7 @@
 		<td align="center" width="12%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Ruprt</td>
 	</tr>
 	<tr>
-		<td align="justify" width="100%" style="border:solid 1px Gray;text-align:justify;" colSpan="5">Předem bych Vám všem chtěl popřat veselé vánoce a bohatýho Ježíška <img border='0' src='./pictures/smilici/entered.gif'>. No a abysme Vám taky něco nadělili, tak tu pro Vás máme novou verzi programu <b>OFP Mission Development Environment</b>. Je to zcela přepracovaná verze a nabízí teď mnoho nového. Co konkrétně najdete <a href='http://ofp.ruprt.cz/ofpmde/' target='_blank'>zde</a>.<BR><BR>Na závěr přejeme mnoho trpělivosti při tvorbě misí <img border='0' src='./pictures/smilici/help12.gif'> a doufáme, že zůstanete OFP i nám věrni i v dalším roce <img border='0' src='./pictures/smilici/Thumbsups.gif'>.</td>
+		<td align="justify" width="100%" style="border:solid 1px Gray;text-align:justify;" colSpan="5">Předem bych Vám všem chtěl popřat veselé vánoce a bohatýho Ježíška <img border='0' src='./pictures/smilici/entered.gif'>. No a abysme Vám taky něco nadělili, tak tu pro Vás máme novou verzi programu <b>OFP Mission Development Environment</b>. Je to zcela přepracovaná verze a nabízí teď mnoho nového. Co konkrétně najdete <a href='./ofpmde/index.html' target='_blank'>zde</a>.<BR><BR>Na závěr přejeme mnoho trpělivosti při tvorbě misí <img border='0' src='./pictures/smilici/help12.gif'> a doufáme, že zůstanete OFP i nám věrni i v dalším roce <img border='0' src='./pictures/smilici/Thumbsups.gif'>.</td>
 	</tr>
 	<tr>
 		<td colSpan="5" width="100%" height="2px" style="border-style:none;"></td>
@@ -876,7 +891,7 @@
 		<td align="center" width="12%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Ruprt</td>
 	</tr>
 	<tr>
-		<td align="justify" width="100%" style="border:solid 1px Gray;text-align:justify;" colSpan="5">Tak konečně vyšel patch ČSLA II. nyní verze 2.02. Tento patch je vytvořen ve dvou verzích tak, aby záplatoval ČSLA MOD verzi 2.00 i verzi 2.01. Je proto nutné si stáhnout tu správnou verzi podle toho, co mate nainstalováno ve vašem počítači. Nainstalovanou verzi MODu zjistíte v uvodní obrazovce OFP v pravém horním rohu.<BR><BR>Patche mužete stahovat přímo odsud :<BR><a href='http://download.games.tiscali.cz/game/flashpoint/patches/csla2_update_200to202.zip' target='_blank'>Patch 2.00 To 2.02</a><BR><a href='http://download.games.tiscali.cz/game/flashpoint/patches/csla2_update_201to202.zip' target='_blank'>Patch 2.01 To 2.02</a><BR><BR>Doufám, že tentokrát bude již vše OK, takže přeji příjemnou zábavu <img border='0' src='./pictures/smilici/Thumbsups.gif'></td>
+		<td align="justify" width="100%" style="border:solid 1px Gray;text-align:justify;" colSpan="5">Tak konečně vyšel patch ČSLA II. nyní verze 2.02. Tento patch je vytvořen ve dvou verzích tak, aby záplatoval ČSLA MOD verzi 2.00 i verzi 2.01. Je proto nutné si stáhnout tu správnou verzi podle toho, co mate nainstalováno ve vašem počítači. Nainstalovanou verzi MODu zjistíte v uvodní obrazovce OFP v pravém horním rohu.<BR><BR>Patche mužete stahovat přímo odsud :<BR><a href='https://files.ofpisnotdead.com/files/ofpd/unofaddons2/csla2_update_200to202.zip' target='_blank'>Patch 2.00 To 2.02</a><BR><a href='https://files.ofpisnotdead.com/files/ofpd/unofaddons2/csla2_update_201to202.zip' target='_blank'>Patch 2.01 To 2.02</a><BR><BR>Doufám, že tentokrát bude již vše OK, takže přeji příjemnou zábavu <img border='0' src='./pictures/smilici/Thumbsups.gif'></td>
 	</tr>
 	<tr>
 		<td colSpan="5" width="100%" height="2px" style="border-style:none;"></td>
@@ -1019,7 +1034,7 @@
 		<td align="center" width="12%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Ruprt</td>
 	</tr>
 	<tr>
-		<td align="justify" width="100%" style="border:solid 1px Gray;text-align:justify;" colSpan="5">Dnes konečně zveřejňujeme očekávaný patch celého MODu ČSLA. Addony doznaly pouze malých oprav, neboť nebyly tak zabugované, ale kampaň jich obsahuje mnoho. Proto všem doporučuji si tento patch stáhnout, což můžete udělat <a href='http://download.games.tiscali.cz/game/patches5/csla2_update_201.zip' target='_blank'>odsud</a> nebo ze stranek ČSLA MODu na Tiscali.<BR><BR>Zároveň vychází i update aplikace OFP Mission Development Environment, který řeší většinu problémů a návrhů diskutovaných v našem fóru. Patch si můžete stáhnout z <a href='http://ofp.ruprt.cz/ofpmde/' target='_blank'>http://ofp.ruprt.cz/ofpmde/</a><BR><BR>Takže nyní Vám již přeji rychlý download, příjemnou zábavu a pohodovou tvorbu misí. <img border='0' src='./pictures/smilici/Thumbsups.gif'></td>
+		<td align="justify" width="100%" style="border:solid 1px Gray;text-align:justify;" colSpan="5">Dnes konečně zveřejňujeme očekávaný patch celého MODu ČSLA. Addony doznaly pouze malých oprav, neboť nebyly tak zabugované, ale kampaň jich obsahuje mnoho. Proto všem doporučuji si tento patch stáhnout, což můžete udělat <a href='http://download.games.tiscali.cz/game/patches5/csla2_update_201.zip' target='_blank'>odsud</a> nebo ze stranek ČSLA MODu na Tiscali.<BR><BR>Zároveň vychází i update aplikace OFP Mission Development Environment, který řeší většinu problémů a návrhů diskutovaných v našem fóru. Patch si můžete stáhnout z <a href='./ofpmde/index.html' target='_blank'>http://ofp.ruprt.cz/ofpmde/</a><BR><BR>Takže nyní Vám již přeji rychlý download, příjemnou zábavu a pohodovou tvorbu misí. <img border='0' src='./pictures/smilici/Thumbsups.gif'></td>
 	</tr>
 	<tr>
 		<td colSpan="5" width="100%" height="2px" style="border-style:none;"></td>
@@ -1045,7 +1060,7 @@
 		<td align="center" width="12%" style="border:solid 1px #DFDFDF;color:#FFFF00;background-color:#000000;" height="18px">Ruprt</td>
 	</tr>
 	<tr>
-		<td align="justify" width="100%" style="border:solid 1px Gray;text-align:justify;" colSpan="5">Tak je to tady. <font color='#FF0000'><b>ČSLA MOD je na světě</b></font>. Stahovat a více informací se dozvíte z <a href='http://games.tiscali.cz/flashpoint/index.asp' target='_blank'>Tiscali</a> nebo rovnou <a href='http://download.games.tiscali.cz/game/addons5/csla2_setup.exe' target='_blank'>odsud</a>. Jak jste si asi všichni všimli jeho výroba trvala hodně dlouho a zároveň ji provázela celá řada nemilých problémů. Nakonec se ale dílo zdařilo a výsledek si můžete vyzkoušet konečně sami. Takže Vaše ohlasy očekáváme na fóru Ruprtovy poradny (Sekce Hodnocení Misí -> kampan -> ČSLA II - MOD) a na fóru Tiscali. Celý balík MODu má ale 223 MB takže modemáři budou muset mít bohužel trošku delší připojení.<BR><BR>Zároveň s kampaní vydávám i novou verzi OFPEditorHelpCZ (nyní 1.3) a zcela nový program na tvorbu scriptů a celých misí, který jsem pojmenoval <b>OFP Mission Development Environment </b>(zkráceně OFP MDE). Co to je a kde to stáhnete zjistíte<BR><a href='ofpmde/index.asp' target='_blank'>zde</a>, nebo v sekci Download.<BR><BR>Takže přeji příjemnou a ničím nerušenou zábavu. <img border='0' src='./pictures/smilici/Thumbsups.gif'></td>
+		<td align="justify" width="100%" style="border:solid 1px Gray;text-align:justify;" colSpan="5">Tak je to tady. <font color='#FF0000'><b>ČSLA MOD je na světě</b></font>. Stahovat a více informací se dozvíte z <a href='http://games.tiscali.cz/flashpoint/index.asp' target='_blank'>Tiscali</a> nebo rovnou <a href='https://files.ofpisnotdead.com/files/ofpd/mods/csla2_setup.exe' target='_blank'>odsud</a>. Jak jste si asi všichni všimli jeho výroba trvala hodně dlouho a zároveň ji provázela celá řada nemilých problémů. Nakonec se ale dílo zdařilo a výsledek si můžete vyzkoušet konečně sami. Takže Vaše ohlasy očekáváme na fóru Ruprtovy poradny (Sekce Hodnocení Misí -> kampan -> ČSLA II - MOD) a na fóru Tiscali. Celý balík MODu má ale 223 MB takže modemáři budou muset mít bohužel trošku delší připojení.<BR><BR>Zároveň s kampaní vydávám i novou verzi OFPEditorHelpCZ (nyní 1.3) a zcela nový program na tvorbu scriptů a celých misí, který jsem pojmenoval <b>OFP Mission Development Environment </b>(zkráceně OFP MDE). Co to je a kde to stáhnete zjistíte<BR><a href='./ofpmde/index.html' target='_blank'>zde</a>, nebo v sekci Download.<BR><BR>Takže přeji příjemnou a ničím nerušenou zábavu. <img border='0' src='./pictures/smilici/Thumbsups.gif'></td>
 	</tr>
 	<tr>
 		<td colSpan="5" width="100%" height="2px" style="border-style:none;"></td>
@@ -2729,6 +2744,7 @@
 						<a href="campaigns.html"><img src="images/btns/camp1.jpg" class="RA_BTNS" style="border-width:0px; TOP:96px" name="btnCamp" id="btnCamp" onmouseover="btn_onMouseOver(this)" onmouseout="btn_onMouseOut(this)" onclick="btn_onClick(this);"></a>
 						<a href="video-missions.html"><img src="images/btns/video1.jpg" class="RA_BTNS" style="border-width:0px; TOP:128px" name="btnVideo" id="btnVideo" onmouseover="btn_onMouseOver(this)" onmouseout="btn_onMouseOut(this)" onclick="btn_onClick(this);"></a>
 						<a href="funny-missions.html"><img src="images/btns/ptak1.jpg" class="RA_BTNS" style="border-width:0px; TOP:160px" name="btnPtak" id="btnPtak" onmouseover="btn_onMouseOver(this)" onmouseout="btn_onMouseOut(this)" onclick="btn_onClick(this);"></a>
+					<a href="arma-stuff.html"><img src="images/btns/arma1.jpg" class="RA_BTNS" style="border-width:0px; TOP:192px" name="btnArma" id="btnArma" onmouseover="btn_onMouseOver(this)" onmouseout="btn_onMouseOut(this)" onclick="btn_onClick(this);"></a>
 						
 						<a class="RA_SQUAD_LINK" id="linkSquad" onmouseover="link_onMouseOver(this)" onmouseout="defaultInfo()"></a>
 					</div>

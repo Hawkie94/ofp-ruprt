@@ -31,14 +31,15 @@
 			var STR_MissionUpload = "<BR>Otevře<BR>Uživatelské rozhraní pro upload misí";
 			//var STR_OFPMDE = "Otevře stránku o aplikaci<BR><BR>OFP<BR>Mission<BR>Development<BR>Environment";
 			var STR_MissionNews = "Sekce<BR>Mission News<BR>-<BR>Novinky psané jednotlivými autory misí";
-			var STR_SP = "Sekce<BR>SP Mise :<BR>hodnocení a<BR>download<BR>neofiko SP misí";
-			var STR_MP = "Sekce<BR>MP Mise :<BR>hodnocení a<BR>download<BR>neofiko MP misí";
-			var STR_Camp = "Sekce<BR>Kampaně :<BR>hodnocení a<BR>download<BR>neofiko kampaní";
-			var STR_Video = "Sekce<BR>Video mise :<BR>hodnocení a<BR>download<BR>neofiko<BR>Video misí";
-			var STR_Ptak = "Sekce<BR>Ptákoviny :<BR>Mise, které<BR>nelze nikam<BR>zařadit";
+			var STR_SP = "Sekce<BR>SP Mise:<BR><BR>hodnocení a<BR>download<BR>neofiko SP misí";
+			var STR_MP = "Sekce<BR>MP Mise:<BR><BR>hodnocení a<BR>download<BR>neofiko MP misí";
+			var STR_Camp = "Sekce<BR>Kampaně:<BR><BR>hodnocení a<BR>download<BR>neofiko kampaní";
+			var STR_Video = "Sekce<BR>Video mise:<BR><BR>hodnocení a<BR>download<BR>neofiko<BR>Video misí";
+			var STR_Ptak = "Sekce<BR>Ptákoviny:<BR><BR>Mise, které<BR>nelze nikam<BR>zařadit";
+			var STR_Arma = "Sekce<BR>ArmA věci:<BR><BR>Obsah do her<br>ArmA, Arma 2 a Arma 3";
 			var STR_Rules = "Pravidla<BR>hodnocení a<BR>zveřejňování<BR>misí";
 			var STR_Search = "Vyhledávání<BR>údajů na<BR>těchto<BR>stránkách";
-			var STR_OFPCZSquad = "Celý download<BR>je uložen na<BR>serveru OFPisnotdead.com.<BR>Díky retro!";
+			var STR_OFPCZSquad = "Celý download<BR>je uložen na<BR>serveru OFPisnotdead.com.<BR><BR>Díky <b>retro</b>!";
 
 			// ---------- Preload & Initialize Images --------------
 			var missionnews1 = newImage('images/btns/missionnews1.jpg');
@@ -59,6 +60,9 @@
 			var ptak1 = newImage('images/btns/ptak1.jpg');
 			var ptak2 = newImage('images/btns/ptak2.jpg');
 			var ptak3 = newImage('images/btns/ptak3.jpg');
+			var arma1 = newImage('images/btns/arma1.jpg');
+			var arma2 = newImage('images/btns/arma2.jpg');
+			var arma3 = newImage('images/btns/arma3.jpg');
 			var rules1 = newImage('images/btns/rules1.jpg');
 			var rules2 = newImage('images/btns/rules2.jpg');
 			var rules3 = newImage('images/btns/rules3.jpg');
@@ -126,6 +130,10 @@
 						btn.src = ptak2.src;
 						infoArea.innerHTML = STR_Ptak;
 						break;
+					case "btnArma":
+						btn.src = arma2.src;
+						infoArea.innerHTML = STR_Arma;
+						break;
 					case "btnRules":
 						btn.src = rules2.src;
 						infoArea.innerHTML = STR_Rules;
@@ -167,6 +175,9 @@
 						break;
 					case "btnPtak":
 						btn.src = ptak1.src;
+						break;
+					case "btnArma":
+						btn.src = arma1.src;
 						break;
 					case "btnRules":
 						btn.src = rules1.src;
@@ -211,6 +222,10 @@
 						break;
 					case "btnPtak":
 						btn.src = ptak3.src;
+						window.setTimeout("btn_onMouseOver(auxObject)", 150);
+						break;
+					case "btnArma":
+						btn.src = arma3.src;
 						window.setTimeout("btn_onMouseOver(auxObject)", 150);
 						break;
 					case "btnRules":
@@ -320,55 +335,55 @@
 	</tr>
 	<tr height="24px" align="center">
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">1)</td>
-		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;"><a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/download/music/SovietUnionNationalAnthem_MoskovskijTheater.zip" target="_blank"> Sovětská národní hymna zahraná sborem Moskevského národního divadla (Formát WAV)</a></p></td>
+		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;text-align:justify;"><a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/download/music/SovietUnionNationalAnthem_MoskovskijTheater.zip" target="_blank"> Sovětská národní hymna zahraná sborem Moskevského národního divadla (Formát WAV)</a></p></td>
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="9%" align="center">Ruprt</td>
 		<td style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;font-weight:bold;border-left-color:#000000;border-top-width:1px;border-top-color:#000000;border-right-width:1px;border-right-style:solid;border-left-style:solid;" width="9%" align="center">3438 kb</td>
 	</tr>
 	<tr style="background-color:#C0C0C0;" height="24px" align="center">
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">2)</td>
-		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;"><a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/download/music/SovietUnionNationalAnthem_RedArmyChorus.zip" target="_blank"> Sovětská národní hymna zahraná s chórem Rudé armády (Formát MP3)</a></p></td>
+		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;text-align:justify;"><a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/download/music/SovietUnionNationalAnthem_RedArmyChorus.zip" target="_blank"> Sovětská národní hymna zahraná s chórem Rudé armády (Formát MP3)</a></p></td>
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="9%" align="center">Ruprt</td>
 		<td style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;font-weight:bold;border-left-color:#000000;border-top-width:1px;border-top-color:#000000;border-right-width:1px;border-right-style:solid;border-left-style:solid;" width="9%" align="center">1456 kb</td>
 	</tr>
 	<tr height="24px" align="center">
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">3)</td>
-		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;"><a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/download/music/Pochod%20Rudych%20namorniku.zip" target="_blank"> Pochod Rudých námořníků (Formát MP3)</a></p></td>
+		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;text-align:justify;"><a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/download/music/Pochod%20Rudych%20namorniku.zip" target="_blank"> Pochod Rudých námořníků (Formát MP3)</a></p></td>
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="9%" align="center">Ruprt</td>
 		<td style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;font-weight:bold;border-left-color:#000000;border-top-width:1px;border-top-color:#000000;border-right-width:1px;border-right-style:solid;border-left-style:solid;" width="9%" align="center">2737 kb</td>
 	</tr>
 	<tr style="background-color:#C0C0C0;" height="24px" align="center">
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">4)</td>
-		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;"><a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/download/music/Pochod%20padlych%20revolucionaru.zip" target="_blank"> Pochod padlých revolucionářů - Sovětský pohřební pochod (Formát MP3). </a></p></td>
+		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;text-align:justify;"><a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/download/music/Pochod%20padlych%20revolucionaru.zip" target="_blank"> Pochod padlých revolucionářů - Sovětský pohřební pochod (Formát MP3). </a></p></td>
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="9%" align="center">Ruprt</td>
 		<td style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;font-weight:bold;border-left-color:#000000;border-top-width:1px;border-top-color:#000000;border-right-width:1px;border-right-style:solid;border-left-style:solid;" width="9%" align="center">2184 kb</td>
 	</tr>
 	<tr height="24px" align="center">
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">5)</td>
-		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;"><a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/download/music/Marseillaisa.zip" target="_blank"> Marseillaise (Formát MP3)</a></p></td>
+		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;text-align:justify;"><a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/download/music/Marseillaisa.zip" target="_blank"> Marseillaise (Formát MP3)</a></p></td>
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="9%" align="center">Ruprt</td>
 		<td style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;font-weight:bold;border-left-color:#000000;border-top-width:1px;border-top-color:#000000;border-right-width:1px;border-right-style:solid;border-left-style:solid;" width="9%" align="center">3432 kb</td>
 	</tr>
 	<tr style="background-color:#C0C0C0;" height="24px" align="center">
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">6)</td>
-		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;"><a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/download/music/Katusha.zip" target="_blank"> Kaťuša (Formát MP3)</a></p></td>
+		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;text-align:justify;"><a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/download/music/Katusha.zip" target="_blank"> Kaťuša (Formát MP3)</a></p></td>
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="9%" align="center">Ruprt</td>
 		<td style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;font-weight:bold;border-left-color:#000000;border-top-width:1px;border-top-color:#000000;border-right-width:1px;border-right-style:solid;border-left-style:solid;" width="9%" align="center">2173 kb</td>
 	</tr>
 	<tr height="24px" align="center">
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">7)</td>
-		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;"><a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/download/music/Internacionala.zip" target="_blank"> Internacionála (Formát MP3)</a></p></td>
+		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;text-align:justify;"><a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/download/music/Internacionala.zip" target="_blank"> Internacionála (Formát MP3)</a></p></td>
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="9%" align="center">Ruprt</td>
 		<td style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;font-weight:bold;border-left-color:#000000;border-top-width:1px;border-top-color:#000000;border-right-width:1px;border-right-style:solid;border-left-style:solid;" width="9%" align="center">2275 kb</td>
 	</tr>
 	<tr style="background-color:#C0C0C0;" height="24px" align="center">
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">8)</td>
-		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;"><a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/download/music/Seventh.zip" target="_blank"> Seventh: Decide - celý album kapely Seventh, ktorá zložila vokálne piesne do OFP (Formát MP3)</a></p></td>
+		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;text-align:justify;"><a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/download/music/Seventh.zip" target="_blank"> Seventh: Decide - celý album kapely Seventh, ktorá zložila vokálne piesne do OFP (Formát MP3)</a></p></td>
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="9%" align="center">TonyHawk</td>
 		<td style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;font-weight:bold;border-left-color:#000000;border-top-width:1px;border-top-color:#000000;border-right-width:1px;border-right-style:solid;border-left-style:solid;" width="9%" align="center">47072 kb</td>
 	</tr>
 	<tr height="24px" align="center">
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="5%" align="center">9)</td>
-		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;"><a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/download/music/OFP_OST.zip" target="_blank"> OFP OST - soundtrack hry Operation Flashpoint, ktorý zložili Ondrej Matějka, Norbi Kovács, Pavel Lhoták; ďalej kapely Seventh a Flowshot (Formát MP3)</a></p></td>
+		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="74%" align="left"><p style="margin-left:3px;margin-right:3px;text-align:justify;"><a href="https://files.ofpisnotdead.com/files/ofpd/_hosted/!Ruprt/download/music/OFP_OST.zip" target="_blank"> OFP OST - soundtrack hry Operation Flashpoint, ktorý zložili Ondrej Matějka, Norbi Kovács, Pavel Lhoták; ďalej kapely Seventh a Flowshot (Formát MP3)</a></p></td>
 		<td style="font-weight:bold;border-left-style:solid;border-left-width:1px;border-left-color:#000000;border-top-style:solid;border-top-width:1px;border-top-color:#000000;" width="9%" align="center">TonyHawk</td>
 		<td style="border-top-style:solid;border-right-color:#000000;border-left-width:1px;font-weight:bold;border-left-color:#000000;border-top-width:1px;border-top-color:#000000;border-right-width:1px;border-right-style:solid;border-left-style:solid;" width="9%" align="center">100996 kb</td>
 	</tr>
@@ -399,6 +414,7 @@
 						<a href="campaigns.html"><img src="images/btns/camp1.jpg" class="RA_BTNS" style="border-width:0px; TOP:96px" name="btnCamp" id="btnCamp" onmouseover="btn_onMouseOver(this)" onmouseout="btn_onMouseOut(this)" onclick="btn_onClick(this);"></a>
 						<a href="video-missions.html"><img src="images/btns/video1.jpg" class="RA_BTNS" style="border-width:0px; TOP:128px" name="btnVideo" id="btnVideo" onmouseover="btn_onMouseOver(this)" onmouseout="btn_onMouseOut(this)" onclick="btn_onClick(this);"></a>
 						<a href="funny-missions.html"><img src="images/btns/ptak1.jpg" class="RA_BTNS" style="border-width:0px; TOP:160px" name="btnPtak" id="btnPtak" onmouseover="btn_onMouseOver(this)" onmouseout="btn_onMouseOut(this)" onclick="btn_onClick(this);"></a>
+					<a href="arma-stuff.html"><img src="images/btns/arma1.jpg" class="RA_BTNS" style="border-width:0px; TOP:192px" name="btnArma" id="btnArma" onmouseover="btn_onMouseOver(this)" onmouseout="btn_onMouseOut(this)" onclick="btn_onClick(this);"></a>
 						
 						<a class="RA_SQUAD_LINK" id="linkSquad" onmouseover="link_onMouseOver(this)" onmouseout="defaultInfo()"></a>
 					</div>
